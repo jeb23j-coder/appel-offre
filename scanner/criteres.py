@@ -1,8 +1,9 @@
 """Remplace « Mes critères » dans config.json à partir d'une demande créée depuis le site.
 
 Format du texte (rempli automatiquement par le site) :
-    Mots-clés: brique, maçonnerie, charpente
-    Mots exclus: stationnement, aqueduc
+    Famille Maçonnerie: brique, mortier, -pierre      (« - » = mot gardé dans la famille mais pas coché)
+    Famille Charpenterie: charpente, ossature
+    Exclus Génie civil: stationnement, aqueduc, -toiture
     Régions préférées: Montréal, Laval
     Montant min: 50000
     Montant max: 15000000
@@ -25,12 +26,35 @@ def montant(valeur):
     return int(chiffres) if chiffres else None
 
 
+def familles(texte, prefixe):
+    """Lignes « Famille Maçonnerie: brique, -pierre » : tous les mots de la famille,
+    ceux précédés d'un « - » ne sont pas cochés. Renvoie {famille: [mots]} et la liste des mots cochés."""
+    fam, coches = {}, []
+    for nom, valeur in re.findall(rf"^\s*{prefixe}\s+([^:\n]+?)\s*:\s*(.*)$", texte, flags=re.M):
+        mots = []
+        for m in liste(valeur):
+            actif = not m.startswith("-")
+            m = m.lstrip("-").strip()
+            if m and m.lower() not in {x.lower() for x in mots}:
+                mots.append(m[:80])
+                if actif:
+                    coches.append(m[:80])
+        fam[nom.strip()[:60]] = mots
+    return fam, coches
+
+
 def main():
     texte = Path(TMP, "demande.md").read_text(encoding="utf-8")
     cfg_path = RACINE / "config.json"
     cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
-    mots = liste(champ(texte, "Mots-clés") or champ(texte, "Mots-cles"))
-    exclus = liste(champ(texte, "Mots exclus"))
+    fam_mots, mots = familles(texte, "Famille")
+    fam_exclus, exclus = familles(texte, "Exclus")
+    if fam_mots:  # nouveau format : les familles et les mots ajoutés sont sauvegardés
+        cfg["familles"] = {k: v for k, v in fam_mots.items() if k != "Mes autres mots" or v}
+        cfg["familles_exclus"] = {k: v for k, v in fam_exclus.items() if k != "Mes autres exclusions" or v}
+    else:     # ancien format
+        mots = liste(champ(texte, "Mots-clés") or champ(texte, "Mots-cles"))
+        exclus = liste(champ(texte, "Mots exclus"))
     regions = [r for r in REGIONS if r.lower() in {x.lower() for x in liste(champ(texte, "Régions préférées") or champ(texte, "Regions preferees"))}]
     mmin, mmax = montant(champ(texte, "Montant min")), montant(champ(texte, "Montant max"))
     if not mots:

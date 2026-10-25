@@ -179,9 +179,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
       <h2>Mes critères</h2>
       <p class="aide">Ils décident quels avis sont retenus et calculent le score de chaque contrat.</p>
       <div class="champ"><label>Mots-clés recherchés : cochez ceux qui vous intéressent</label><div id="c-mots" class="familles"></div></div>
-      <div class="ajout"><input id="c-nouveau" maxlength="60" placeholder="Ajouter un mot (ex. gypse)" aria-label="Ajouter un mot-clé"><button class="icon-btn" type="button" id="c-ajouter">+ Ajouter</button></div>
       <div class="champ"><label>Mots exclus : un avis qui n'a que ces mots dans son titre est écarté</label><div id="c-exclus" class="familles"></div></div>
-      <div class="ajout"><input id="c-nouvel-exclu" maxlength="60" placeholder="Ajouter un mot à exclure" aria-label="Ajouter un mot exclu"><button class="icon-btn" type="button" id="c-exclure">+ Exclure</button></div>
       <div class="champ"><label>Régions préférées</label><div class="regions" id="c-regions"></div></div>
       <div class="deux">
         <div class="champ"><label for="c-min">Montant minimum ($)</label><input id="c-min" inputmode="numeric" placeholder="0"></div>
@@ -377,33 +375,36 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     tout.addEventListener("change", () => { cases.forEach((c) => (c.checked = tout.checked)); majTete(); });
     cases.forEach((c) => c.addEventListener("change", majTete));
     majTete();
-    det.appendChild(r); f.append(tete, det); boite.appendChild(f);
-    // pour ajouter un mot à cette famille plus tard
-    return (mot) => { const c = pastille(r, mot, true); cases.push(c); c.addEventListener("change", majTete); majTete(); f.hidden = false; det.open = true; };
+    // Ajouter un mot directement dans cette famille
+    const ajout = el("div", "ajout");
+    const champ = el("input"); champ.maxLength = 80; champ.placeholder = `Ajouter un mot à ${nom}`; champ.setAttribute("aria-label", `Ajouter un mot à ${nom}`);
+    const bouton = el("button", "icon-btn", "+ Ajouter"); bouton.type = "button";
+    const ajouter = (mot) => {
+      mot = (mot || "").trim(); if (!mot) return;
+      const deja = cases.find((c) => c.value.toLowerCase() === mot.toLowerCase());
+      if (deja) { deja.checked = true; } else { const c = pastille(r, mot, true); cases.push(c); c.addEventListener("change", majTete); }
+      majTete(); det.open = true;
+      $("c-msg").textContent = "Mot ajouté. Cliquez sur « Sauvegarder mes critères » pour l'enregistrer.";
+    };
+    bouton.addEventListener("click", () => { ajouter(champ.value); champ.value = ""; champ.focus(); });
+    champ.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); bouton.click(); } });
+    ajout.append(champ, bouton);
+    det.appendChild(r); f.append(tete, ajout, det); f.dataset.famille = nom; boite.appendChild(f);
+    return ajouter;
   }
   function groupe(boite, familles, actifs, nomAutres) {
     boite.innerHTML = "";
     const choisis = new Set(actifs.map((m) => m.toLowerCase()));
     const connus = new Set(Object.values(familles).flat().map((t) => t.toLowerCase()));
     Object.entries(familles).forEach(([nom, termes]) => famille(boite, nom, termes, choisis));
+    // Les mots actifs qui ne sont dans aucune famille (anciens ajouts) restent visibles
     const autres = actifs.filter((m) => !connus.has(m.toLowerCase()));
-    const ajouter = famille(boite, nomAutres, autres, choisis);
-    if (!autres.length) boite.lastChild.hidden = true;
-    return ajouter;
+    if (autres.length) famille(boite, nomAutres, autres, choisis);
   }
-  let ajouterMot = () => {}, ajouterExclu = () => {};
   function remplirMots() {
-    ajouterMot = groupe($("c-mots"), meta.familles || {}, meta.motsCles || [], "Mes autres mots");
-    ajouterExclu = groupe($("c-exclus"), meta.famillesExclus || {}, meta.motsExclus || [], "Mes autres exclusions");
+    groupe($("c-mots"), meta.familles || {}, meta.motsCles || [], "Mes autres mots");
+    groupe($("c-exclus"), meta.famillesExclus || {}, meta.motsExclus || [], "Mes autres exclusions");
   }
-  $("c-ajouter").addEventListener("click", () => {
-    const m = $("c-nouveau").value.trim(); if (!m) return;
-    ajouterMot(m); $("c-nouveau").value = "";
-  });
-  $("c-exclure").addEventListener("click", () => {
-    const m = $("c-nouvel-exclu").value.trim(); if (!m) return;
-    ajouterExclu(m); $("c-nouvel-exclu").value = "";
-  });
   function remplirReglages() {
     remplirMots();
     $("c-min").value = meta.montantMin || "";
@@ -415,7 +416,11 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     // Seulement les mots (pas les cases de titre de famille)
     const mots = [...new Set([...$("c-mots").querySelectorAll(".regions input:checked")].map((x) => x.value))];
     if (!mots.length) { $("c-msg").textContent = "Cochez au moins un mot-clé."; return; }
-    const corps = ["Mots-clés: " + mots.join(", "), "Mots exclus: " + [...new Set([...$("c-exclus").querySelectorAll(".regions input:checked")].map((x) => x.value))].join(", "), "Régions préférées: " + cochees($("c-regions")).join(", "),
+    // Une ligne par famille : tous ses mots, ceux qui ne sont pas cochés précédés d'un « - »
+    const familleTexte = (boite, prefixe) => [...boite.querySelectorAll(".famille[data-famille]")].map((f) =>
+      `${prefixe} ${f.dataset.famille}: ` + [...f.querySelectorAll(".regions input")].map((x) => (x.checked ? "" : "-") + x.value).join(", "));
+    const corps = [...familleTexte($("c-mots"), "Famille"), ...familleTexte($("c-exclus"), "Exclus"),
+      "Régions préférées: " + cochees($("c-regions")).join(", "),
       "Montant min: " + $("c-min").value.trim(), "Montant max: " + $("c-max").value.trim(), "", "(Cliquez sur « Submit new issue » pour sauvegarder vos critères.)"].join("\n");
     window.open(demande("criteres", "Mes critères de recherche", corps), "_blank", "noopener");
     $("c-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». Les contrats seront reclassés dans quelques minutes.";
