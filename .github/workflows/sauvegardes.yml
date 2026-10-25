@@ -38,6 +38,6 @@ jobs:
           git add config.json data/boite.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Critères sauvegardés depuis le site"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
           if [ "$(cat /tmp/criteres_appliques.txt)" != "0" ]; then gh workflow run balayage.yml; fi

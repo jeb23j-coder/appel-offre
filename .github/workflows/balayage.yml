@@ -41,7 +41,7 @@ jobs:
           git config user.email "appel-offre-bot@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "Balayage SEAO $(date -u +%F)"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
 
       - name: Modèle IA en cache
@@ -68,7 +68,7 @@ jobs:
         run: |
           git add data
           git diff --cached --quiet || git commit -m "Analyses IA $(date -u +%F)"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
 
       - name: Notifier chaque profil de ses nouveaux contrats (courriel et cellulaire)
