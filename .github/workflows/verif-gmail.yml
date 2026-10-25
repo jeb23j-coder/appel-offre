@@ -1,0 +1,27 @@
+name: Vérifier la connexion Gmail
+
+# À lancer à la main : vérifie que le mot de passe d'application permet au robot de lire la boîte
+# (il compte seulement les courriels de Merx, sans afficher leur contenu).
+on:
+  workflow_dispatch: {}
+
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    env:
+      GMAIL_ADDRESS: ${{ vars.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+    steps:
+      - run: |
+          python3 - <<'EOF'
+          import imaplib, os
+          m = imaplib.IMAP4_SSL("imap.gmail.com")
+          try:
+              m.login(os.environ["GMAIL_ADDRESS"], os.environ["GMAIL_APP_PASSWORD"].replace(" ", ""))
+          except imaplib.IMAP4.error as e:
+              raise SystemExit(f"Connexion refusée par Gmail : {e}")
+          m.select('"[Gmail]/All Mail"', readonly=True)
+          typ, data = m.search(None, 'FROM', '"merx.com"')
+          print("Connexion Gmail réussie. Courriels de Merx trouvés :", len(data[0].split()))
+          m.logout()
+          EOF
