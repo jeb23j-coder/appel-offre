@@ -1,12 +1,12 @@
 {
 "meta": {
-"date": "2026-10-25T10:50",
+"date": "2026-10-25T14:08",
 "seaoLus": 306,
 "retenus": 312,
 "nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
-"empreinte": "84f8600127"
+"empreinte": "93b55107b2"
 },
 "avis": [
 {
@@ -68,6 +68,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -134,6 +140,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -194,6 +206,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -275,6 +297,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"brique",
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -339,6 +372,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -399,6 +438,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -473,6 +518,17 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -559,6 +615,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -627,6 +695,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -679,6 +758,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -745,6 +830,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -796,6 +887,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -872,6 +969,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -935,6 +1042,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -1006,6 +1119,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -1065,6 +1188,17 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"béton",
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "béton",
 "patrimonial"
@@ -1134,6 +1268,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -1197,6 +1337,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -1266,6 +1412,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -1319,6 +1475,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -1387,6 +1549,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -1443,6 +1611,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -1526,6 +1700,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection de l'enveloppe extérieure",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -1588,6 +1774,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -1649,6 +1841,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -1709,6 +1907,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -1809,6 +2013,24 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"mortier",
+"rejointoiement",
+"joints de mortier",
+"maconnerie",
+"cheminée",
+"reconstruction",
+"réfection",
+"remise en état"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -1869,6 +2091,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -1939,6 +2167,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -1990,6 +2228,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -2046,6 +2290,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -2140,6 +2390,21 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"reconstruction",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -2209,6 +2474,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -2260,6 +2535,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -2355,6 +2636,21 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"pierre",
+"maconnerie",
+"façade",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -2411,6 +2707,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -2479,6 +2781,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -2531,6 +2839,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -2611,6 +2925,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -2682,6 +3007,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation majeure"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -2750,6 +3085,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -2811,6 +3156,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -2870,6 +3221,17 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "enveloppe",
 "réfection"
@@ -2943,6 +3305,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -3013,6 +3381,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -3076,6 +3454,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -3134,6 +3518,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -3205,6 +3599,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -3273,6 +3673,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -3324,6 +3734,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -3388,6 +3804,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -3467,6 +3889,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"façade",
+"patrimonial",
+"patrimoine"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -3530,6 +3964,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -3586,6 +4026,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -3666,6 +4112,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -3739,6 +4197,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -3794,6 +4262,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -3845,6 +4319,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -3914,6 +4394,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -3967,6 +4457,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -4039,6 +4535,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -4100,6 +4602,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -4153,6 +4661,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -4212,6 +4726,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -4279,6 +4799,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -4339,6 +4865,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -4418,6 +4950,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -4479,6 +5022,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -4549,6 +5098,17 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -4629,6 +5189,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -4686,6 +5258,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "enveloppe"
 ],
@@ -4768,6 +5350,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -4819,6 +5411,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -4878,6 +5476,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -4956,6 +5560,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5023,6 +5637,16 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -5100,6 +5724,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5165,6 +5800,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -5216,6 +5857,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -5288,6 +5935,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"patrimonial",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5348,6 +6006,17 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"façade",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "façade",
 "réfection"
@@ -5436,6 +6105,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5487,6 +6167,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -5568,6 +6254,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5634,6 +6331,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5690,6 +6397,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -5762,6 +6475,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -5825,6 +6544,18 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "maçonnerie",
 "maconnerie",
@@ -5909,6 +6640,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"revêtement extérieur",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -5978,6 +6720,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6031,6 +6783,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -6098,6 +6856,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -6168,6 +6932,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6222,6 +6996,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -6305,6 +7085,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"brique",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6376,6 +7168,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6439,6 +7241,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -6506,6 +7314,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -6578,6 +7392,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6629,6 +7454,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -6696,6 +7527,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -6748,6 +7585,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -6836,6 +7679,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"parement",
+"béton",
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6910,6 +7765,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -6977,6 +7844,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -7039,6 +7912,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "restauration"
 ],
@@ -7122,6 +8005,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -7192,6 +8085,16 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -7268,6 +8171,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réhabilitation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -7332,6 +8246,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -7387,6 +8307,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -7454,6 +8380,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -7524,6 +8456,17 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -7598,6 +8541,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -7660,6 +8613,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -7739,6 +8698,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -7815,6 +8784,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -7872,6 +8852,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "remise en état"
 ],
@@ -7947,6 +8937,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -8012,6 +9012,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -8087,6 +9093,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -8151,6 +9168,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -8202,6 +9225,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -8270,6 +9299,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -8330,6 +9365,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -8392,6 +9433,17 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "enveloppe",
 "réfection"
@@ -8468,6 +9520,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -8530,6 +9588,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -8597,6 +9661,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -8666,6 +9736,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -8717,6 +9798,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -8779,6 +9866,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -8849,6 +9942,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -8926,6 +10025,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"façade",
+"réfection des façades",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -8987,6 +10098,18 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "maçonnerie",
 "maconnerie",
@@ -9063,6 +10186,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9126,6 +10255,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9187,6 +10322,18 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "enveloppe",
 "béton",
@@ -9262,6 +10409,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9317,6 +10470,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -9399,6 +10558,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"enveloppe architecturale"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -9474,6 +10644,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9536,6 +10712,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9594,6 +10776,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -9665,6 +10857,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9720,6 +10918,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9771,6 +10975,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -9844,6 +11054,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -9899,6 +11120,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -9950,6 +11177,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -10031,6 +11264,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -10091,6 +11335,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -10159,6 +11409,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -10210,6 +11466,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -10274,6 +11536,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -10354,6 +11622,18 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -10427,6 +11707,17 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -10503,6 +11794,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -10564,6 +11865,16 @@
 "enveloppe"
 ],
 "motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
 "familles": [
 "Maçonnerie"
 ],
@@ -10635,6 +11946,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -10705,6 +12022,16 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -10781,6 +12108,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -10832,6 +12169,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -10901,6 +12244,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -10958,6 +12307,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -11042,6 +12401,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -11102,6 +12472,17 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"enveloppe",
+"réhabilitation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "enveloppe",
 "réhabilitation"
@@ -11185,6 +12566,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"parement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -11261,6 +12652,18 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -11342,6 +12745,20 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"parement",
+"enveloppe",
+"réfection des murs extérieurs",
+"cheminée",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -11402,6 +12819,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -11470,6 +12893,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -11532,6 +12961,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -11590,6 +13025,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -11663,6 +13108,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -11723,6 +13178,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -11794,6 +13255,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -11846,6 +13313,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -11943,6 +13416,23 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"parement",
+"linteau",
+"maconnerie",
+"façade",
+"rénovation de façade",
+"parements de brique"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12017,6 +13507,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12075,6 +13575,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -12151,6 +13661,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12206,6 +13726,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -12273,6 +13799,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -12345,6 +13877,18 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"réhabilitation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12396,6 +13940,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -12468,6 +14018,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -12538,6 +14094,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12594,6 +14161,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -12664,6 +14237,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12725,6 +14308,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -12785,6 +14374,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -12860,6 +14455,17 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -12940,6 +14546,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -12991,6 +14608,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -13051,6 +14674,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -13162,6 +14791,25 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"parement",
+"allège",
+"linteau",
+"maconnerie",
+"façade",
+"réfection des façades",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -13233,6 +14881,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -13301,6 +14955,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -13364,6 +15028,19 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"enveloppe",
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "maçonnerie",
 "maconnerie",
@@ -13441,6 +15118,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -13497,6 +15180,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -13571,6 +15260,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"revêtement extérieur"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -13638,6 +15337,16 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -13708,6 +15417,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -13760,6 +15479,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -13831,6 +15556,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -13882,6 +15613,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -13946,6 +15683,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -14006,6 +15749,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -14074,6 +15823,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -14125,6 +15880,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -14201,6 +15962,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -14269,6 +16041,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -14322,6 +16104,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -14383,6 +16171,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -14440,6 +16234,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -14518,6 +16318,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -14594,6 +16404,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -14654,6 +16474,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -14737,6 +16563,20 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"blocs de béton",
+"fissure",
+"reconstruction",
+"béton",
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -14795,6 +16635,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -14883,6 +16733,19 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -14952,6 +16815,17 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -15024,6 +16898,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -15076,6 +16960,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -15150,6 +17040,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -15201,6 +17101,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -15273,6 +17179,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -15338,6 +17250,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -15397,6 +17315,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -15470,6 +17398,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -15531,6 +17469,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -15594,6 +17538,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -15670,6 +17620,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -15738,6 +17698,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -15795,6 +17765,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -15846,6 +17822,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -15918,6 +17900,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -15977,6 +17970,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -16029,6 +18028,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -16099,6 +18104,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -16173,6 +18184,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -16234,6 +18255,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -16301,6 +18328,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -16362,6 +18395,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -16432,6 +18471,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -16491,6 +18540,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "restauration"
 ],
@@ -16561,6 +18620,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -16643,6 +18708,19 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"travaux de restauration du bâtiment",
+"cheminée",
+"patrimonial",
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -16704,6 +18782,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -16768,6 +18852,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -16830,6 +18920,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -16896,6 +18992,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -16957,6 +19059,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17008,6 +19116,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -17085,6 +19199,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -17156,6 +19281,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"revêtement extérieur",
+"remplacement du revêtement extérieur"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -17217,6 +19353,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17274,6 +19416,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17326,6 +19474,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -17395,6 +19549,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17460,6 +19620,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17517,6 +19683,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -17593,6 +19769,16 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -17682,6 +19868,19 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"façade",
+"reconstruction",
+"patrimonial",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -17747,6 +19946,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17811,6 +20016,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -17878,6 +20089,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -17940,6 +20157,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -18027,6 +20250,20 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"reconstruction",
+"béton",
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -18090,6 +20327,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -18155,6 +20398,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -18210,6 +20459,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -18280,6 +20535,16 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -18362,6 +20627,17 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -18426,6 +20702,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -18482,6 +20764,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -18562,6 +20850,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -18623,6 +20922,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -18694,6 +20999,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -18755,6 +21070,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -18819,6 +21140,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -18886,6 +21213,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"échafaudage"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -18942,6 +21279,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19008,6 +21351,16 @@
 "réfection"
 ],
 "motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": false,
 "familles": [
 "Maçonnerie"
 ],
@@ -19084,6 +21437,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -19139,6 +21502,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19212,6 +21581,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -19262,6 +21641,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19327,6 +21712,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -19387,6 +21778,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 }
@@ -19450,6 +21847,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -19502,6 +21905,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19576,6 +21985,16 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 }
 },
@@ -19626,6 +22045,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19684,6 +22109,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -19734,6 +22165,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19800,6 +22237,12 @@
 "Charpenterie"
 ],
 "tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
 }
 }
 },
@@ -19862,6 +22305,12 @@
 "Charpenterie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 }
 },
@@ -19912,6 +22361,12 @@
 "tropCher": true
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -19984,6 +22439,12 @@
 "Charpenterie"
 ],
 "tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
 }
 }
 },
@@ -20055,6 +22516,12 @@
 "Charpenterie"
 ],
 "tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
 }
 }
 },
@@ -20122,6 +22589,12 @@
 "Charpenterie"
 ],
 "tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
 }
 }
 },
@@ -20184,6 +22657,12 @@
 "Charpenterie"
 ],
 "tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
 }
 }
 },
@@ -20223,6 +22702,12 @@
 "familles": [
 "Charpenterie"
 ],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 },
@@ -20285,6 +22770,16 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 },
 "motsTrouves": [
@@ -20339,6 +22834,16 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [
 "réfection"
 ],
@@ -20410,6 +22915,17 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"façade",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
 }
 },
 "motsTrouves": [
@@ -20460,6 +22976,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
@@ -20515,6 +23037,12 @@
 "motsOk": false,
 "familles": [],
 "tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
 }
 },
 "motsTrouves": [],
@@ -20562,6 +23090,12 @@
 "tropCher": false
 },
 "patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
