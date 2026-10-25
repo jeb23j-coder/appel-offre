@@ -51,7 +51,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .filtres { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
 .filtres select { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 8px 10px; font-size: .88rem; }
 
-.tabs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px; margin-block: 10px; }
+.tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px; margin-block: 10px; }
 .tab { border: 0; background: transparent; border-radius: 9px; padding: 9px 4px; font-weight: 600; font-size: .9rem; color: var(--muted); }
 .tab[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
 .tab .n { font-family: var(--f-mono); font-size: .78rem; opacity: .8; margin-left: 3px; }
@@ -72,6 +72,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .mode { font-size: .76rem; font-weight: 600; color: var(--muted); }
 .star { margin-left: auto; border: none; background: none; font-size: 1.6rem; line-height: 1; padding: 0 2px; color: var(--muted); opacity: .5; }
 .star[aria-pressed="true"] { color: var(--star); opacity: 1; }
+.star.coeur { margin-left: 0; font-size: 1.45rem; }
+.star.coeur[aria-pressed="true"] { color: var(--danger); }
 .card h3 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: 1.05rem; line-height: 1.25; overflow-wrap: anywhere; }
 .org { color: var(--muted); font-size: .86rem; overflow-wrap: anywhere; }
 .resume { font-size: .9rem; }
@@ -116,7 +118,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .alerte { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: .88rem; }
 .alerte span { color: var(--muted); font-size: .8rem; flex: 1; min-width: 12ch; }
 .alerte a { color: var(--danger); font-size: .82rem; }
-@media (max-width: 560px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres select:last-child { grid-column: 1 / -1; } .deux { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .tabs { grid-template-columns: 1fr 1fr; } .filtres { grid-template-columns: 1fr 1fr; } .filtres select:last-child { grid-column: 1 / -1; } .deux { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -153,9 +155,10 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   </div>
 
   <nav class="tabs" aria-label="Vues">
-    <button class="tab" type="button" data-v="moi">Pour moi<span class="n" id="n-moi"></span></button>
-    <button class="tab" type="button" data-v="mes">★ Mes contrats<span class="n" id="n-mes"></span></button>
     <button class="tab" type="button" data-v="tous">Tous<span class="n" id="n-tous"></span></button>
+    <button class="tab" type="button" data-v="criteres">Mes critères<span class="n" id="n-criteres"></span></button>
+    <button class="tab" type="button" data-v="suivis">★ Suivis<span class="n" id="n-suivis"></span></button>
+    <button class="tab" type="button" data-v="desires">♥ Contrats désirés<span class="n" id="n-desires"></span></button>
   </nav>
 
   <div class="urgent" id="urgent"></div>
@@ -200,7 +203,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   const argent = (n) => n >= 1e6 ? (Math.round(n / 1e4) / 100).toLocaleString("fr-CA") + " M$" : n.toLocaleString("fr-CA") + " $";
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
-  let avis = [], meta = {}, vue = "moi";
+  let avis = [], meta = {}, vue = "criteres";
 
   // Étoiles, statuts et notes : gardés sur cet appareil (mêmes données qu'avant)
   let suivi = {};
@@ -246,8 +249,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     if (f && (ferme(a) || jours(a) > Number(f))) return false;
     return true;
   }
-  const dansVue = (a) => vue === "mes" ? !!st(a).suivi : vue === "moi" ? score(a) >= 40 : true;
-  const tri = (v) => v === "moi"
+  const dansVue = (a) => vue === "suivis" ? !!st(a).suivi : vue === "desires" ? !!st(a).desire : vue === "criteres" ? score(a) >= 40 : true;
+  const tri = (v) => v === "criteres"
     ? (x, y) => score(y) - score(x) || (x.fermeture || "").localeCompare(y.fermeture || "")
     : (x, y) => (ferme(x) - ferme(y)) || (x.fermeture || "").localeCompare(y.fermeture || "");
 
@@ -263,6 +266,11 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     etoile.setAttribute("aria-label", s.suivi ? "Retirer de mes contrats" : "Ajouter à mes contrats");
     etoile.addEventListener("click", () => sauver(a.id, s.suivi ? { suivi: false } : { suivi: true, statut: s.statut || "a_soumissionner" }));
     haut.appendChild(etoile);
+    const coeur = el("button", "star coeur", s.desire ? "♥" : "♡"); coeur.type = "button";
+    coeur.setAttribute("aria-pressed", s.desire ? "true" : "false");
+    coeur.setAttribute("aria-label", s.desire ? "Retirer des contrats désirés" : "Ajouter aux contrats désirés");
+    coeur.addEventListener("click", () => sauver(a.id, { desire: !s.desire }));
+    haut.appendChild(coeur);
     c.appendChild(haut);
 
     c.appendChild(el("h3", null, a.titre));
@@ -301,22 +309,24 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 
   function rendre() {
     const ouverts = avis.filter((a) => !ferme(a));
-    $("n-moi").textContent = ouverts.filter((a) => score(a) >= 40).length;
-    $("n-mes").textContent = avis.filter((a) => st(a).suivi).length;
     $("n-tous").textContent = ouverts.length;
+    $("n-criteres").textContent = ouverts.filter((a) => score(a) >= 40).length;
+    $("n-suivis").textContent = avis.filter((a) => st(a).suivi).length;
+    $("n-desires").textContent = avis.filter((a) => st(a).desire).length;
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-pressed", t.dataset.v === vue ? "true" : "false"));
 
     const urg = $("urgent"); urg.innerHTML = "";
     avis.filter((a) => st(a).suivi && !ferme(a) && jours(a) <= 3 && (st(a).statut || "a_soumissionner") === "a_soumissionner")
       .forEach((a) => urg.appendChild(el("div", null, `⚠ ${a.titre} ferme ${jours(a) === 0 ? "aujourd'hui" : `dans ${jours(a)} j`} (${quand(a.fermeture)})`)));
 
-    const liste = avis.filter((a) => dansVue(a) && correspond(a) && (vue === "mes" || !ferme(a))).sort(tri(vue));
-    $("compte").textContent = avis.length ? `${liste.length} contrat${liste.length > 1 ? "s" : ""}` + (vue === "moi" ? " classés selon vos critères (score 40 et plus)" : "") : "";
+    const perso = vue === "suivis" || vue === "desires";
+    const liste = avis.filter((a) => dansVue(a) && correspond(a) && (perso || !ferme(a))).sort(tri(vue));
+    $("compte").textContent = avis.length ? `${liste.length} contrat${liste.length > 1 ? "s" : ""}` + (vue === "criteres" ? " classés selon vos critères (score 40 et plus)" : "") : "";
     const box = $("list"); box.innerHTML = "";
     if (!liste.length) {
       const v = el("div", "vide");
-      v.appendChild(el("b", null, !avis.length ? "Chargement des appels d'offres…" : vue === "mes" ? "Aucun contrat suivi" : "Aucun résultat"));
-      v.append(!avis.length ? "" : vue === "mes" ? "Touchez l'étoile ☆ d'un contrat pour le garder ici." : "Essayez d'enlever un filtre ou de changer la recherche.");
+      v.appendChild(el("b", null, !avis.length ? "Chargement des appels d'offres…" : vue === "suivis" ? "Aucun contrat suivi" : vue === "desires" ? "Aucun contrat désiré" : "Aucun résultat"));
+      v.append(!avis.length ? "" : vue === "suivis" ? "Touchez l'étoile ☆ d'un contrat pour le suivre." : vue === "desires" ? "Touchez le cœur ♡ d'un contrat pour l'ajouter ici." : "Essayez d'enlever un filtre ou de changer la recherche.");
       box.appendChild(v);
     } else liste.slice(0, 200).forEach((a) => box.appendChild(fiche(a)));
 
