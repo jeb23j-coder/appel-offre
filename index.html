@@ -342,6 +342,8 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     if ((meta.regionsPreferees || []).some((r) => (a.regions || []).includes(r))) s += 10;
     if (a.estimation && a.estimation >= (meta.montantMin || 0) && a.estimation <= (meta.montantMax || Infinity)) s += 5;
     if (a.analyse?.recommandation === "No-go") s = Math.min(s, 30);
+    // Vos critères décident : sans aucun de vos mots cochés, le contrat ne fait pas partie de vos résultats
+    if (!p.motsOk) s = Math.min(s, 30);
     return Math.max(0, Math.min(100, Math.round(s)));
   }
   function palier(s) {

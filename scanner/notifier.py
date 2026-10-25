@@ -42,6 +42,8 @@ def score(a, pid, prof):
         s += 5
     if x.get("recommandation") == "No-go":
         s = min(s, 30)
+    if not p.get("motsOk"):  # sans aucun mot coché du profil : pas dans ses résultats
+        s = min(s, 30)
     return max(0, min(100, round(s)))
 
 
