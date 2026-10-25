@@ -26,15 +26,11 @@
       "pierre",
       "maconnerie",
       "blocs de béton",
-      "murs de maçonnerie"
-    ],
-    "Façades": [
+      "murs de maçonnerie",
       "façade",
       "enveloppe",
       "infiltration",
-      "échafaudage"
-    ],
-    "Réfection de bâtiment": [
+      "échafaudage",
       "réfection de façade",
       "réfection des façades",
       "restauration de façade",
@@ -64,14 +60,22 @@
       "réfection des élévations",
       "réparation des élévations",
       "remplacement de la maçonnerie extérieure",
-      "travaux de restauration du bâtiment"
-    ],
-    "Réparation": [
+      "travaux de restauration du bâtiment",
       "fissure",
       "cheminée",
       "reconstruction",
       "réparation structurale",
-      "béton"
+      "béton",
+      "patrimonial",
+      "patrimoine",
+      "restauration",
+      "restauration historique",
+      "maçonnerie traditionnelle",
+      "lieu historique",
+      "réfection",
+      "rénovation majeure",
+      "réhabilitation",
+      "remise en état"
     ],
     "Charpenterie": [
       "charpente",
@@ -93,14 +97,8 @@
       "portes et fenêtres",
       "fenêtre",
       "finition intérieure",
-      "bois"
-    ],
-    "Rénovation": [
-      "réfection",
+      "bois",
       "rénovation",
-      "rénovation majeure",
-      "réhabilitation",
-      "remise en état",
       "agrandissement",
       "construction d",
       "bâtiment",
@@ -108,16 +106,7 @@
       "chalet",
       "caserne",
       "logement",
-      "école",
-      "reconstruction"
-    ],
-    "Patrimoine": [
-      "patrimonial",
-      "patrimoine",
-      "restauration",
-      "restauration historique",
-      "maçonnerie traditionnelle",
-      "lieu historique"
+      "école"
     ]
   },
   "mots_cles": [
