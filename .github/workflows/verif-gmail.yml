@@ -20,7 +20,11 @@ jobs:
               m.login(os.environ["GMAIL_ADDRESS"], os.environ["GMAIL_APP_PASSWORD"].replace(" ", ""))
           except imaplib.IMAP4.error as e:
               raise SystemExit(f"Connexion refusée par Gmail : {e}")
-          m.select('"[Gmail]/All Mail"', readonly=True)
+          # Dossier « Tous les messages » (son nom dépend de la langue de Gmail : on le cherche par son attribut \All)
+          typ, dossiers = m.list()
+          tous = next((d.decode().split(' "/" ')[-1] for d in dossiers if b"\\All" in d), "INBOX")
+          print("Dossier lu :", tous)
+          m.select(tous, readonly=True)
           typ, data = m.search(None, 'FROM', '"merx.com"')
           print("Connexion Gmail réussie. Courriels de Merx trouvés :", len(data[0].split()))
           m.logout()
