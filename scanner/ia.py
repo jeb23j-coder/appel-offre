@@ -62,6 +62,7 @@ def texte_avis(a):
         f"Cautionnement de soumission : {a.get('cautionSoumission') or 'non précisé'}",
         f"Contrat sur demande : {'oui' if a.get('surDemande') else 'non'}",
         f"Codes de travaux : {'; '.join(a.get('unspsc') or [])}",
+        f"Mots-clés de l'entreprise trouvés dans l'avis : {', '.join(a.get('motsTrouves') or []) or 'aucun'}",
         f"Description : {(a.get('description') or '')[:2500]}",
     ])
 
@@ -82,8 +83,8 @@ def main():
     cfg = json.loads((RACINE / "config.json").read_text(encoding="utf-8"))
     base = json.loads(FICHIER.read_text(encoding="utf-8"))
     a_faire = [a for a in base["avis"] if (a.get("analyse") or {}).get("version") != VERSION]
-    # Les avis qui ferment le plus tôt d'abord
-    a_faire.sort(key=lambda a: a.get("fermeture") or "9999")
+    # Les nouveaux avis d'abord, puis ceux avec vos mots-clés, puis ceux qui ferment le plus tôt
+    a_faire.sort(key=lambda a: (not a.get("nouveau"), not a.get("motsOk"), a.get("fermeture") or "9999"))
     print(f"IA ({MODELE}) : {len(a_faire)} avis à analyser, limite {IA_MINUTES:.0f} min")
     debut, faits = time.time(), 0
     for a in a_faire:

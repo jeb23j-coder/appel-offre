@@ -89,6 +89,8 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
 .new { padding: 2px 8px; border-radius: 999px; background: var(--ok-soft); color: var(--ok); font-weight: 600; }
 .star { margin-left: auto; border: none; background: none; font-size: 1.5rem; line-height: 1; padding: 0 2px; color: var(--muted); opacity: .55; }
 .star[aria-pressed="true"] { color: var(--star); opacity: 1; }
+.star.heart { margin-left: 0; font-size: 1.35rem; }
+.star.heart[aria-pressed="true"] { color: var(--danger); }
 .card h3 { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: 1.02rem; line-height: 1.25; text-wrap: balance; overflow-wrap: anywhere; }
 .org { color: var(--muted); font-size: .86rem; overflow-wrap: anywhere; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -127,6 +129,31 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
 .note textarea { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 7px; padding: 7px 9px; font-size: .86rem; resize: vertical; min-height: 38px; }
 .links a { color: var(--accent); font-size: .86rem; font-weight: 600; }
 
+.alertes-box { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); margin-top: 14px; }
+.alertes-box > summary { cursor: pointer; padding: 12px 14px; font-weight: 600; display: flex; gap: 8px; align-items: center; list-style: none; }
+.alertes-box > summary::-webkit-details-marker { display: none; }
+.alertes-box > summary .n { font-family: var(--f-mono); font-size: .8rem; color: var(--muted); font-weight: 500; }
+.alertes-box > summary::after { content: "▾"; margin-left: auto; color: var(--muted); }
+.alertes-box[open] > summary::after { content: "▴"; }
+.alertes-in { padding: 0 14px 14px; display: grid; gap: 14px; }
+.alerte-liste { display: grid; gap: 8px; }
+.alerte { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: .88rem; }
+.alerte b { font-weight: 600; }
+.alerte .det { color: var(--muted); font-size: .8rem; flex: 1; min-width: 12ch; }
+.alerte button, .alerte a { font-size: .8rem; }
+.alerte a.sup { color: var(--danger); }
+.form-alerte { display: grid; gap: 10px; border-top: 1px solid var(--line); padding-top: 12px; }
+.form-alerte .row { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; }
+.regions-pick { display: flex; flex-wrap: wrap; gap: 6px; }
+.regions-pick label { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; user-select: none; }
+.regions-pick input { position: absolute; opacity: 0; pointer-events: none; }
+.regions-pick input:checked + span { color: var(--accent); font-weight: 600; }
+.regions-pick label:has(input:checked) { background: var(--accent-soft); border-color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.aide { font-size: .8rem; color: var(--muted); margin: 0; }
+.chip.mot { background: var(--bg); color: var(--ink); border: 1px solid var(--line); }
+.chip.alerte-c { background: var(--warn-soft); color: var(--warn); font-weight: 600; }
+@media (max-width: 600px) { .form-alerte .row { grid-template-columns: 1fr; } }
 .empty { grid-column: 1 / -1; text-align: center; padding: 48px 16px; color: var(--muted); border: 1px dashed var(--line); border-radius: var(--r); background: var(--surface); }
 .empty h2 { font-family: var(--f-display); color: var(--ink); margin: 0 0 6px; font-size: 1.15rem; }
 .empty p { margin: 0 auto 14px; max-width: 48ch; }
@@ -160,23 +187,38 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
 
 <main class="wrap">
   <section class="kpis" aria-label="Résumé">
-    <button class="kpi" type="button" data-go="tous"><span class="v" id="k-actifs">–</span><span class="l">Avis ouverts</span></button>
-    <button class="kpi go" type="button" data-go="go"><span class="v" id="k-go">–</span><span class="l">Go selon l'IA</span></button>
+    <button class="kpi go" type="button" data-go="criteres"><span class="v" id="k-crit">–</span><span class="l">Mes critères</span></button>
     <button class="kpi" type="button" data-go="suivis"><span class="v" id="k-suivis">–</span><span class="l">★ Suivis</span></button>
+    <button class="kpi" type="button" data-go="desires"><span class="v" id="k-desires">–</span><span class="l">♥ Contrats désirés</span></button>
     <button class="kpi hot" type="button" data-go="semaine"><span class="v" id="k-semaine">–</span><span class="l">Ferment ≤ 7 j</span></button>
   </section>
+
+  <details class="alertes-box" id="alertesBox">
+    <summary>🔔 Mes alertes <span class="n" id="nbAlertes"></span></summary>
+    <div class="alertes-in">
+      <p class="aide">Une alerte sauvegarde vos mots-clés et vos régions. Dès qu'un nouveau contrat correspond, vous recevez un courriel de GitHub.</p>
+      <div class="alerte-liste" id="alerteListe"></div>
+      <form class="form-alerte" id="formAlerte" autocomplete="off">
+        <div class="row">
+          <div class="field"><label for="a-nom">Nom de l'alerte</label><input id="a-nom" required maxlength="60" placeholder="Ex. Façades Montréal"></div>
+          <div class="field"><label for="a-mots">Mots-clés (séparés par des virgules)</label><input id="a-mots" maxlength="300" placeholder="Ex. réfection de façade, parement, maçonnerie"></div>
+        </div>
+        <div class="field"><label>Régions (aucune = tout le Québec)</label><div class="regions-pick" id="a-regions"></div></div>
+        <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+          <button class="btn primary" type="submit">Sauvegarder l'alerte</button>
+          <span class="aide" id="a-msg">GitHub s'ouvrira avec l'alerte remplie : cliquez sur « Submit new issue » pour confirmer.</span>
+        </div>
+      </form>
+    </div>
+  </details>
 
   <section class="alerts" id="alerts" aria-label="Alertes dates limites"></section>
 
   <nav class="tabs" aria-label="Vues">
     <button class="tab" data-view="tous" type="button">Tous <span class="n" id="n-tous">0</span></button>
-    <button class="tab" data-view="go" type="button">Go IA <span class="n" id="n-go">0</span></button>
-    <button class="tab" data-view="nouveaux" type="button">Nouveaux <span class="n" id="n-nouveaux">0</span></button>
+    <button class="tab" data-view="criteres" type="button">Mes critères <span class="n" id="n-crit">0</span></button>
     <button class="tab" data-view="suivis" type="button">★ Suivis <span class="n" id="n-suivis">0</span></button>
-    <button class="tab" data-view="a_soumissionner" type="button">À soumissionner <span class="n" id="n-a_soumissionner">0</span></button>
-    <button class="tab" data-view="soumis" type="button">Soumis <span class="n" id="n-soumis">0</span></button>
-    <button class="tab" data-view="gagne" type="button">Gagnés <span class="n" id="n-gagne">0</span></button>
-    <button class="tab" data-view="perdu" type="button">Perdus <span class="n" id="n-perdu">0</span></button>
+    <button class="tab" data-view="desires" type="button">♥ Contrats désirés <span class="n" id="n-desires">0</span></button>
   </nav>
 
   <section class="filters collapsed" id="filters" aria-label="Filtres">
@@ -189,6 +231,9 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     </div>
     <div class="field"><label for="f-region">Région</label><select id="f-region"><option value="">Toutes les régions</option></select></div>
     <div class="field"><label for="f-org">Donneur d'ouvrage</label><select id="f-org"><option value="">Tous les donneurs d'ouvrage</option></select></div>
+    <div class="field"><label for="f-alerte">Alerte</label><select id="f-alerte"><option value="">Toutes</option></select></div>
+    <div class="field"><label for="f-statut">Statut (suivis)</label>
+      <select id="f-statut"><option value="">Tous les statuts</option><option value="a_soumissionner">À soumissionner</option><option value="soumis">Soumis</option><option value="gagne">Gagné</option><option value="perdu">Perdu</option></select></div>
     <div class="field"><label for="f-type">Type (IA)</label>
       <select id="f-type"><option value="">Tous les types</option><option>Maçonnerie</option><option>Charpenterie / menuiserie</option><option>Maçonnerie + charpenterie</option><option>Bâtiment (nos métiers en partie)</option><option>Hors sujet</option><option value="none">Pas encore analysé</option></select></div>
     <div class="field"><label for="f-reco">Recommandation IA</label>
@@ -217,6 +262,7 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
       <select id="f-caution"><option value="">Tous</option><option value="oui">Exigé</option><option value="np">Non précisé</option></select></div>
     <div class="field"><label for="f-tri">Trier par</label>
       <select id="f-tri">
+        <option value="mots">Mots-clés trouvés</option>
         <option value="pertinence">Pertinence IA</option>
         <option value="fermeture">Fermeture la plus proche</option>
         <option value="publie">Publié le plus récent</option>
@@ -243,7 +289,7 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
   const fmtMoney = (n) => n >= 1e6 ? (Math.round(n / 1e4) / 100).toLocaleString("fr-CA") + " M$" : n.toLocaleString("fr-CA") + " $";
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
-  let avis = [], meta = {}, view = "tous";
+  let avis = [], meta = {}, view = "criteres";
 
   // ----- étoiles, statuts et notes : gardés sur cet appareil -----
   const CLE = "appel-offre-suivi", PREF = "appel-offre-filtres";
@@ -255,10 +301,12 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     try { localStorage.setItem(CLE, JSON.stringify(suivi)); } catch {}
     if (!quiet) render();
   }
-  const FIDS = ["f-region","f-org","f-type","f-reco","f-montant","f-fermeture","f-caution","f-tri"];
+  const FIDS = ["f-region","f-org","f-alerte","f-statut","f-type","f-reco","f-montant","f-fermeture","f-caution","f-tri"];
+  const DEPOT = "https://github.com/jeb23j-coder/appel-offre";
+  const REGIONS = ["Bas-Saint-Laurent","Saguenay–Lac-Saint-Jean","Capitale-Nationale","Mauricie","Estrie","Montréal","Outaouais","Abitibi-Témiscamingue","Côte-Nord","Nord-du-Québec","Gaspésie–Îles-de-la-Madeleine","Chaudière-Appalaches","Laval","Lanaudière","Laurentides","Montérégie","Centre-du-Québec"];
   let prefs = {};
   try { prefs = JSON.parse(localStorage.getItem(PREF) || "{}"); } catch {}
-  if (prefs.view) view = prefs.view;
+  if (["tous", "criteres", "suivis", "desires"].includes(prefs.view)) view = prefs.view;
   if (typeof prefs.nogo === "boolean") $("f-nogo").checked = prefs.nogo;
   function savePrefs() {
     const o = { view, nogo: $("f-nogo").checked };
@@ -283,10 +331,18 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
 
   // ----- filtres -----
   const reco = (a) => a.analyse?.recommandation;
+  // Potentiel : une de vos alertes, ou l'IA dit Go / À vérifier, ou (pas encore analysé) vos mots-clés
+  function potentiel(a) {
+    if (a.tropCher || isClosed(a.fermeture)) return false;
+    if (a.alertes?.length) return true;
+    if (reco(a)) return reco(a) === "Go" || reco(a) === "À vérifier";
+    return !!a.motsOk;
+  }
   function fillOptions() {
     const regions = [...new Set(avis.flatMap((a) => a.regions || []))].sort((x, y) => x.localeCompare(y, "fr"));
     const orgs = [...new Set(avis.map((a) => a.organisme).filter(Boolean))].sort((x, y) => x.localeCompare(y, "fr"));
-    [["f-region", regions, "Toutes les régions"], ["f-org", orgs, "Tous les donneurs d'ouvrage"]].forEach(([id, vals, first]) => {
+    const noms = (meta.alertes || []).map((x) => x.nom);
+    [["f-region", regions, "Toutes les régions"], ["f-org", orgs, "Tous les donneurs d'ouvrage"], ["f-alerte", noms, "Toutes"]].forEach(([id, vals, first]) => {
       const sel = $(id); sel.innerHTML = "";
       [["", first], ...vals.map((v) => [v, v])].forEach(([v, t]) => { const o = document.createElement("option"); o.value = v; o.textContent = t; sel.appendChild(o); });
     });
@@ -297,6 +353,8 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     if (q && !`${a.titre} ${a.organisme} ${(a.regions || []).join(" ")} ${a.numero} ${a.description} ${a.analyse?.resume || ""} ${st(a).note || ""}`.toLowerCase().includes(q)) return false;
     if ($("f-region").value && !(a.regions || []).includes($("f-region").value)) return false;
     if ($("f-org").value && a.organisme !== $("f-org").value) return false;
+    if ($("f-alerte").value && !(a.alertes || []).includes($("f-alerte").value)) return false;
+    if ($("f-statut").value && !(st(a).suivi && (st(a).statut || "a_soumissionner") === $("f-statut").value)) return false;
     const ty = $("f-type").value;
     if (ty === "none" ? !!a.analyse : ty && a.analyse?.type !== ty) return false;
     const rc = $("f-reco").value;
@@ -318,12 +376,11 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
   }
   function inView(a) {
     const s = st(a);
-    if (view === "tous") return true;
-    if (view === "go") return reco(a) === "Go";
-    if (view === "nouveaux") return !!a.nouveau;
-    if (view === "semaine") return !isClosed(a.fermeture) && dayDiff(a.fermeture) <= 7;
+    if (view === "criteres") return potentiel(a);
     if (view === "suivis") return !!s.suivi;
-    return !!s.suivi && (s.statut || "a_soumissionner") === view;
+    if (view === "desires") return !!s.desire;
+    if (view === "semaine") return !isClosed(a.fermeture) && dayDiff(a.fermeture) <= 7;
+    return true;
   }
   function sortFn() {
     const t = $("f-tri").value;
@@ -332,7 +389,8 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     if (t === "publie") return (x, y) => (y.publie || "").localeCompare(x.publie || "");
     if (t === "montant-desc") return (x, y) => (y.estimation ?? -1) - (x.estimation ?? -1);
     if (t === "montant-asc") return (x, y) => (x.estimation ?? 1e12) - (y.estimation ?? 1e12);
-    return (x, y) => ((y.analyse?.pertinence ?? -1) - (x.analyse?.pertinence ?? -1)) || ferm(x, y);
+    if (t === "pertinence") return (x, y) => ((y.analyse?.pertinence ?? -1) - (x.analyse?.pertinence ?? -1)) || ferm(x, y);
+    return (x, y) => ((y.alertes?.length || 0) - (x.alertes?.length || 0)) || ((y.motsTrouves?.length || 0) - (x.motsTrouves?.length || 0)) || ferm(x, y);
   }
 
   // ----- rendu -----
@@ -349,15 +407,12 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
   }
   function renderCounts() {
     const open = avis.filter((a) => !isClosed(a.fermeture));
-    $("k-actifs").textContent = open.length;
-    $("k-go").textContent = avis.filter((a) => reco(a) === "Go").length;
-    $("k-suivis").textContent = avis.filter((a) => st(a).suivi).length;
+    const nCrit = avis.filter(potentiel).length, nSuiv = avis.filter((a) => st(a).suivi).length, nDes = avis.filter((a) => st(a).desire).length;
+    $("k-crit").textContent = nCrit; $("n-crit").textContent = nCrit;
+    $("k-suivis").textContent = nSuiv; $("n-suivis").textContent = nSuiv;
+    $("k-desires").textContent = nDes; $("n-desires").textContent = nDes;
     $("k-semaine").textContent = open.filter((a) => dayDiff(a.fermeture) <= 7).length;
     $("n-tous").textContent = avis.length;
-    $("n-go").textContent = avis.filter((a) => reco(a) === "Go").length;
-    $("n-nouveaux").textContent = avis.filter((a) => a.nouveau).length;
-    $("n-suivis").textContent = avis.filter((a) => st(a).suivi).length;
-    STATUTS.forEach(([k]) => ($("n-" + k).textContent = avis.filter((a) => st(a).suivi && (st(a).statut || "a_soumissionner") === k).length));
     const fc = FIDS.filter((id) => id !== "f-tri" && $(id).value).length;
     $("fcount").hidden = !fc; $("fcount").textContent = fc;
   }
@@ -382,11 +437,19 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     const r1 = el("div", "row1");
     r1.appendChild(el("span", "num", a.numero));
     if (a.nouveau) r1.appendChild(el("span", "new", "Nouveau"));
+    if (potentiel(a)) r1.appendChild(el("span", "chip alerte-c", "Potentiel"));
+    if (a.tropCher) r1.appendChild(el("span", "chip neutral", "Au-dessus du montant max"));
     const star = el("button", "star", s.suivi ? "★" : "☆"); star.type = "button";
     star.setAttribute("aria-pressed", s.suivi ? "true" : "false");
     star.setAttribute("aria-label", s.suivi ? "Ne plus suivre" : "Suivre cet appel d'offres");
     star.addEventListener("click", () => saveSuivi(a.id, s.suivi ? { suivi: false } : { suivi: true, statut: s.statut || "a_soumissionner" }));
-    r1.appendChild(star); c.appendChild(r1);
+    r1.appendChild(star);
+    const coeur = el("button", "star heart", s.desire ? "♥" : "♡"); coeur.type = "button";
+    coeur.setAttribute("aria-pressed", s.desire ? "true" : "false");
+    coeur.setAttribute("aria-label", s.desire ? "Retirer des contrats désirés" : "Ajouter aux contrats désirés");
+    coeur.title = "Contrat désiré";
+    coeur.addEventListener("click", () => saveSuivi(a.id, { desire: !s.desire }));
+    r1.appendChild(coeur); c.appendChild(r1);
 
     c.appendChild(el("h3", null, a.titre));
     c.appendChild(el("div", "org", a.organisme || ""));
@@ -394,7 +457,13 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     (a.regions || []).slice(0, 3).forEach((r) => chips.appendChild(el("span", "chip", r)));
     if (a.typeAvis && !/^Avis d.appel d.offres$/i.test(a.typeAvis)) chips.appendChild(el("span", "chip neutral", a.typeAvis));
     if (a.surDemande) chips.appendChild(el("span", "chip neutral", "Sur demande"));
+    (a.alertes || []).forEach((n) => chips.appendChild(el("span", "chip alerte-c", "🔔 " + n)));
     c.appendChild(chips);
+    if (a.motsTrouves?.length) {
+      const mots = el("div", "chips");
+      a.motsTrouves.slice(0, 8).forEach((m) => mots.appendChild(el("span", "chip mot", m)));
+      c.appendChild(mots);
+    }
 
     if (a.analyse) {
       const x = a.analyse, box = el("div", "ia");
@@ -449,15 +518,55 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     if (a.lien) { const links = el("div", "links"); const l = el("a", null, "Voir l'avis sur SEAO ↗"); l.href = a.lien; l.target = "_blank"; l.rel = "noopener"; links.appendChild(l); c.appendChild(links); }
     return c;
   }
+  // ----- mes alertes : sauvegardées dans les réglages du site par une demande GitHub -----
+  function lienDemande(etiquette, titre, corps) {
+    return `${DEPOT}/issues/new?labels=${etiquette}&title=${encodeURIComponent(titre)}&body=${encodeURIComponent(corps)}`;
+  }
+  function renderMesAlertes() {
+    const liste = $("alerteListe"); liste.innerHTML = "";
+    const als = meta.alertes || [];
+    $("nbAlertes").textContent = als.length ? `(${als.length})` : "";
+    if (!als.length) liste.appendChild(el("p", "aide", "Aucune alerte pour l'instant. Créez-en une ci-dessous."));
+    als.forEach((al) => {
+      const n = avis.filter((a) => (a.alertes || []).includes(al.nom)).length;
+      const row = el("div", "alerte");
+      row.appendChild(el("b", null, "🔔 " + al.nom));
+      row.appendChild(el("span", "det", [(al.mots || []).join(", ") || "tous les mots-clés", (al.regions || []).join(", ") || "tout le Québec"].join(" · ")));
+      const voir = el("button", "btn ghost", `Voir (${n})`); voir.type = "button";
+      voir.addEventListener("click", () => { $("f-alerte").value = al.nom; view = "tous"; setTabs(); savePrefs(); render(); $("list").scrollIntoView({ behavior: "smooth" }); });
+      row.appendChild(voir);
+      const sup = el("a", "sup", "Supprimer");
+      sup.href = lienDemande("supprimer-alerte", "Supprimer l'alerte : " + al.nom, `Nom: ${al.nom}`);
+      sup.target = "_blank"; sup.rel = "noopener";
+      row.appendChild(sup);
+      liste.appendChild(row);
+    });
+  }
+  const pick = $("a-regions");
+  REGIONS.forEach((r, i) => {
+    const lab = el("label"); const cb = el("input"); cb.type = "checkbox"; cb.value = r; cb.id = "ar" + i;
+    lab.htmlFor = cb.id; lab.append(cb, el("span", null, r)); pick.appendChild(lab);
+  });
+  $("formAlerte").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const nom = $("a-nom").value.trim(), mots = $("a-mots").value.trim();
+    const regs = [...pick.querySelectorAll("input:checked")].map((x) => x.value);
+    if (!nom || (!mots && !regs.length)) { $("a-msg").textContent = "Donnez un nom et au moins un mot-clé ou une région."; return; }
+    const corps = `Nom: ${nom}\nMots: ${mots}\nRégions: ${regs.join(", ")}\n\n(Cliquez sur « Submit new issue » pour sauvegarder l'alerte.)`;
+    window.open(lienDemande("alerte", "Alerte : " + nom, corps), "_blank", "noopener");
+    $("a-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». L'alerte apparaîtra ici dans 1 à 2 minutes.";
+  });
+
   function render() {
-    renderHead(); renderCounts(); renderAlerts();
+    renderHead(); renderCounts(); renderAlerts(); renderMesAlertes();
     const list = $("list"); list.innerHTML = "";
     const shown = avis.filter((a) => inView(a) && matches(a)).sort(sortFn());
     $("count").textContent = `${shown.length} affiché${shown.length > 1 ? "s" : ""} sur ${avis.length}`;
     if (!shown.length) {
       const e = el("div", "empty");
       if (!avis.length) { e.appendChild(el("h2", null, "Chargement des avis…")); }
-      else if (view === "suivis" || STATUTS.some(([k]) => k === view)) { e.appendChild(el("h2", null, "Aucun appel d'offres suivi ici")); e.appendChild(el("p", null, "Touchez l'étoile ☆ d'un avis pour le suivre. Une alerte apparaîtra 7 jours avant la fermeture.")); }
+      else if (view === "desires") { e.appendChild(el("h2", null, "Aucun contrat désiré")); e.appendChild(el("p", null, "Touchez le cœur ♡ d'un avis pour l'ajouter à vos contrats désirés.")); }
+      else if (view === "suivis") { e.appendChild(el("h2", null, "Aucun appel d'offres suivi ici")); e.appendChild(el("p", null, "Touchez l'étoile ☆ d'un avis pour le suivre. Une alerte apparaîtra 7 jours avant la fermeture.")); }
       else { e.appendChild(el("h2", null, "Aucun avis avec ces filtres")); const b = el("button", "btn", "Effacer les filtres"); b.type = "button"; b.addEventListener("click", resetFilters); e.appendChild(b); }
       list.appendChild(e);
     } else shown.forEach((a) => list.appendChild(card(a)));
@@ -469,7 +578,7 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
   setTabs();
   [...FIDS, "f-nogo"].forEach((id) => $(id).addEventListener("change", () => { savePrefs(); render(); }));
   $("f-q").addEventListener("input", render);
-  function resetFilters() { $("f-q").value = ""; FIDS.forEach((id) => ($(id).value = id === "f-tri" ? "pertinence" : "")); $("f-nogo").checked = true; savePrefs(); render(); }
+  function resetFilters() { $("f-q").value = ""; FIDS.forEach((id) => ($(id).value = id === "f-tri" ? "mots" : "")); $("f-nogo").checked = true; savePrefs(); render(); }
   $("reset").addEventListener("click", resetFilters);
   $("toggleFilters").addEventListener("click", () => { const col = $("filters").classList.toggle("collapsed"); $("toggleFilters").setAttribute("aria-expanded", col ? "false" : "true"); });
 

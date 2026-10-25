@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: balayage
@@ -39,6 +40,7 @@ jobs:
           git config user.email "appel-offre-bot@users.noreply.github.com"
           git add data
           git diff --cached --quiet || git commit -m "Balayage SEAO $(date -u +%F)"
+          git pull --rebase
           git push
 
       - name: Modèle IA en cache
@@ -67,3 +69,14 @@ jobs:
           git diff --cached --quiet || git commit -m "Analyses IA $(date -u +%F)"
           git pull --rebase
           git push
+
+      - name: Notifier les nouveaux contrats potentiels (courriel envoyé par GitHub)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scanner/notifier.py
+          if [ -f /tmp/notif.md ]; then
+            gh issue create --title "$(cat /tmp/notif_titre.txt)" --body-file /tmp/notif.md \
+              --label notification --assignee "${{ github.repository_owner }}"
+          fi

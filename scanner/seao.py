@@ -5,6 +5,7 @@ Les avis fermés disparaissent du fichier. Les avis écartés (hors sujet ou tro
 retenus dans data/ignores.json pour ne pas relire leur détail à chaque balayage.
 """
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -77,18 +78,29 @@ def fermeture_officielle(info):
     return heure_quebec(info.get("dateLimiteReceptionOffresUtc"))
 
 
-def tri_mots_cles(titre, cfg):
-    t = sans_accents(titre)
-    trouves = [m for m in cfg["mots_cles"] if sans_accents(m) in t]
-    exclus = [m for m in cfg["mots_exclus"] if sans_accents(m) in t]
-    if trouves and not exclus:
-        return "candidat", trouves, exclus
-    if exclus and not trouves:
-        return "rejete", trouves, exclus
-    return "a_classer", trouves, exclus  # l'IA tranchera
+def chercher_mots(texte_avis, cfg):
+    """Mots-clés et mots exclus présents dans le texte (sans tenir compte des accents ni des majuscules)."""
+    t = sans_accents(texte_avis)
+    trouves = [m for m in cfg["mots_cles"] if re.search(r"\b" + re.escape(sans_accents(m)), t)]
+    exclus = [m for m in cfg["mots_exclus"] if re.search(r"\b" + re.escape(sans_accents(m)), t)]
+    return trouves, exclus
 
 
-def fiche(a, statut, trouves):
+def garder(titre, description, cfg):
+    """Règle de recherche : l'avis est gardé s'il contient au moins un mot-clé, dans le titre ou la
+    description, sauf si le titre ne contient que des mots exclus."""
+    trouves, _ = chercher_mots(f"{titre}\n{description}", cfg)
+    t_trouves, t_exclus = chercher_mots(titre, cfg)
+    if t_exclus and not t_trouves:
+        return False, trouves
+    return bool(trouves), trouves
+
+
+def empreinte(cfg):
+    return hashlib.sha1(json.dumps([cfg["mots_cles"], cfg["mots_exclus"], cfg["montant_max"]], ensure_ascii=False).encode()).hexdigest()[:10]
+
+
+def fiche(a):
     d = get_json(f"avis/{a['uuid']}/consulter")
     info = d.get("avisResumeInformation") or {}
     gar = d.get("avisResumeGarantieSoumission") or {}
@@ -102,8 +114,6 @@ def fiche(a, statut, trouves):
         "organisme": (d.get("avisResumeInformationDO") or {}).get("nomOrganisation") or a.get("nomDonneurOuvrage"),
         "regions": [r.get("descriptionFr") for r in (info.get("regionsLivraison") or [])],
         "typeAvis": (info.get("typeAvis") or {}).get("descriptionFr"),
-        "tri": statut,
-        "motsTrouves": trouves,
         "cautionSoumission": caution or "Non précisé sur l'avis",
         "estimation": info.get("montantEstimeContrat"),
         "dureeMois": info.get("dureePrevueSansOptions"),
@@ -127,53 +137,95 @@ def ecrire(nom, contenu):
     (DONNEES / nom).write_text(json.dumps(contenu, ensure_ascii=False, indent=0), encoding="utf-8")
 
 
+MOTS_VIDES = {"de", "du", "des", "la", "le", "les", "d", "l", "et", "a", "au", "aux", "en", "pour", "sur"}
+
+
+def correspond_alerte(f, alerte):
+    """Une alerte correspond si l'avis est dans une de ses régions (si elle en a) et contient une de
+    ses expressions. Une expression correspond quand tous ses mots importants sont dans le texte,
+    peu importe l'ordre et le pluriel (« réfection de façade » trouve « réfection des façades »)."""
+    if alerte.get("regions") and not set(alerte["regions"]) & set(f.get("regions") or []):
+        return False
+    if alerte.get("montant_max") and f.get("estimation") and f["estimation"] > alerte["montant_max"]:
+        return False
+    if not alerte.get("mots"):
+        return True  # alerte seulement par région
+    t = sans_accents(f"{f.get('titre', '')} {f.get('description', '')}")
+    for expr in alerte["mots"]:
+        mots = [m for m in re.findall(r"[a-z0-9]+", sans_accents(expr)) if m not in MOTS_VIDES]
+        if mots and all(re.search(r"\b" + re.escape(m), t) for m in mots):
+            return True
+    return False
+
+
 def main():
     cfg = json.loads((RACINE / "config.json").read_text(encoding="utf-8"))
     base = lire("avis.json", {"meta": {}, "avis": []})
+    autres = lire("hors_mots.json", [])          # fiches déjà lues mais sans mot-clé
     ignores = set(lire("ignores.json", []))
+    emp = empreinte(cfg)
+    if base["meta"].get("empreinte") != emp:
+        ignores = set()                           # mots-clés changés : tout est réévalué
     cats = ",".join(str(c) for c in cfg["categories_seao"])
     liste = get_json(f"recherche?catIds={cats}&statIds=6")["results"]
     print(f"SEAO : {len(liste)} avis ouverts lus")
 
     ouverts = {a["uuid"] for a in liste}
-    avis = [x for x in base["avis"] if x["id"] in ouverts]           # retire les avis fermés
-    fermes = len(base["avis"]) - len(avis)
-    for x in avis:
-        x["nouveau"] = False
-    connus = {x["id"] for x in avis} | ignores
-    ignores &= ouverts                                                # oublie les écartés fermés
+    deja_affiches = {x["id"] for x in base["avis"]}
+    deja_alertes = {x["id"]: set(x.get("alertes") or []) for x in base["avis"]}
+    toutes = {x["id"]: x for x in base["avis"] + autres if x["id"] in ouverts}
+    fermes = len(base["avis"]) - sum(1 for x in base["avis"] if x["id"] in ouverts)
+    ignores &= ouverts
 
-    nouveaux, lus = 0, 0
+    lus = 0
     for a in liste:
-        if a["uuid"] in connus:
+        u = a["uuid"]
+        if u in toutes or u in ignores:
             continue
-        statut, trouves, _ = tri_mots_cles(a["titre"], cfg)
-        if statut == "rejete" or a.get("typeAvisId") == 6:
-            ignores.add(a["uuid"])
+        if a.get("typeAvisId") == 6:  # programmes d'homologation : pas des contrats
+            ignores.add(u)
             continue
         if lus >= MAX_DETAILS:
             continue  # sera lu au prochain balayage
         try:
-            f = fiche(a, statut, trouves)
+            f = fiche(a)
         except Exception as e:  # un avis illisible ne bloque pas le balayage
             print(f"  détail illisible pour {a['numero']} : {e}")
             continue
         finally:
             lus += 1
             time.sleep(PAUSE)
-        if f["estimation"] and f["estimation"] > cfg["montant_max"]:
-            ignores.add(a["uuid"])
-            continue
-        f["nouveau"] = True
         f["vuLe"] = maintenant_quebec()
-        avis.append(f)
-        nouveaux += 1
+        toutes[u] = f
 
+    # Tous les avis sont gardés : l'IA les passe tous en revue. Les mots-clés et les alertes
+    # servent à trier et à repérer les contrats potentiels.
+    avis, nouveaux_ids = [], []
+    for f in toutes.values():
+        ok, trouves = garder(f["titre"], f.get("description", ""), cfg)
+        f["motsTrouves"] = trouves
+        f["motsOk"] = ok
+        f["tropCher"] = bool(f.get("estimation") and f["estimation"] > cfg["montant_max"])
+        f["nouveau"] = f["id"] not in deja_affiches
+        # Une alerte par région seulement exige aussi un mot-clé, pour ne pas signaler un stationnement
+        f["alertes"] = [al["nom"] for al in cfg.get("alertes", []) if correspond_alerte(f, al) and (al.get("mots") or ok)]
+        nouvelles_alertes = [n for n in f["alertes"] if n not in deja_alertes.get(f["id"], set())]
+        if f["nouveau"] or nouvelles_alertes:
+            nouveaux_ids.append(f["id"])
+        avis.append(f)
+
+    nouveaux = sum(1 for f in avis if f["nouveau"])
     meta = {"date": maintenant_quebec(), "seaoLus": len(liste), "retenus": len(avis), "nouveaux": nouveaux,
-            "portee": cfg["portee"], "modele": base["meta"].get("modele")}
+            "portee": cfg["portee"], "modele": base["meta"].get("modele"), "empreinte": emp,
+            "alertes": cfg.get("alertes", []), "motsCles": cfg["mots_cles"]}
     ecrire("avis.json", {"meta": meta, "avis": avis})
+    ecrire("hors_mots.json", [])
     ecrire("ignores.json", sorted(ignores))
-    print(f"Nouveaux : {nouveaux} · détails lus : {lus} · fermés retirés : {fermes} · retenus : {len(avis)}")
+    # Premier balayage avec cette version : pas de notification pour tout l'existant d'un coup
+    premiere_fois = not base["meta"].get("empreinte")
+    ecrire("a_notifier.json", [] if premiere_fois else nouveaux_ids)
+    print(f"Avis : {len(avis)} · nouveaux : {nouveaux} · avec vos mots-clés : {sum(f['motsOk'] for f in avis)} "
+          f"· à vérifier pour notification : {0 if premiere_fois else len(nouveaux_ids)} · détails lus : {lus} · fermés retirés : {fermes}")
 
 
 if __name__ == "__main__":

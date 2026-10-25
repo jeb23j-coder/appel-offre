@@ -1,6 +1,10 @@
 {
   "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
   "metiers": "briqueteur-maçon et charpentier-menuisier",
+  "alertes": [
+    {"nom": "Région Montréal", "regions": ["Montréal"]},
+    {"nom": "Réfection de façade", "mots": ["réfection de façade", "réfection de parement", "réfection de maçonnerie", "réfection de brique"]}
+  ],
   "categories_seao": [52],
   "montant_max": 15000000,
   "mots_cles": [

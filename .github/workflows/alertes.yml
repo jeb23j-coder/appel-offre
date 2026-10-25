@@ -1,0 +1,52 @@
+name: Mes alertes
+
+# Une alerte créée ou supprimée depuis le site arrive ici sous forme de demande (issue)
+# avec l'étiquette « alerte » ou « supprimer-alerte ». Seules les demandes du propriétaire sont appliquées.
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: config
+  cancel-in-progress: false
+
+jobs:
+  alerte:
+    if: >-
+      github.event.issue.user.login == github.repository_owner &&
+      (contains(github.event.issue.labels.*.name, 'alerte') || contains(github.event.issue.labels.*.name, 'supprimer-alerte'))
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      NUMERO: ${{ github.event.issue.number }}
+      CORPS: ${{ github.event.issue.body }}
+      SUPPRIMER: ${{ contains(github.event.issue.labels.*.name, 'supprimer-alerte') }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mettre à jour les alertes
+        run: |
+          printf '%s' "$CORPS" > /tmp/demande.md
+          if [ "$SUPPRIMER" = "true" ]; then action=supprimer; else action=ajouter; fi
+          python scanner/alertes.py "$action"
+      - name: Enregistrer
+        run: |
+          git config user.name "appel-offre-bot"
+          git config user.email "appel-offre-bot@users.noreply.github.com"
+          git add config.json
+          git diff --cached --quiet || git commit -m "Alertes mises à jour (demande #$NUMERO)"
+          git pull --rebase
+          git push
+      - name: Répondre et relancer le balayage
+        if: always()
+        run: |
+          [ -f /tmp/reponse.md ] && gh issue comment "$NUMERO" --body-file /tmp/reponse.md
+          gh issue close "$NUMERO"
+          gh workflow run balayage.yml
