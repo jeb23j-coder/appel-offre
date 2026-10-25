@@ -3,6 +3,7 @@ encore d'analyse. S'arrête après IA_MINUTES minutes pour respecter la durée d
 """
 import json
 import os
+import subprocess
 import time
 import urllib.request
 from pathlib import Path
@@ -85,6 +86,15 @@ def analyser(cfg, a):
     return res
 
 
+def publier(message):
+    """Pousse data/ sur GitHub (dans le balayage automatique seulement). Un échec n'arrête pas l'analyse."""
+    cmds = [["git", "add", "data"], ["git", "commit", "-q", "-m", message], ["git", "pull", "-q", "--rebase"], ["git", "push", "-q"]]
+    for c in cmds:
+        if subprocess.run(c, cwd=RACINE).returncode != 0 and c[1] != "commit":
+            print(f"  publication partielle impossible ({' '.join(c[:2])}), on continue")
+            return
+
+
 def main():
     cfg = json.loads((RACINE / "config.json").read_text(encoding="utf-8"))
     base = json.loads(FICHIER.read_text(encoding="utf-8"))
@@ -107,6 +117,8 @@ def main():
         print(f"  {a['analyse']['pertinence']:>3} {a['analyse']['recommandation']:<10} {time.time() - t0:5.0f}s  {a['titre'][:70]}")
         if faits % 5 == 0:  # sauvegarde régulière : rien n'est perdu si le balayage est coupé
             FICHIER.write_text(json.dumps(base, ensure_ascii=False, indent=0), encoding="utf-8")
+        if faits % 25 == 0 and os.environ.get("PUBLIER_EN_COURS"):  # le site se remplit au fur et à mesure
+            publier(f"Analyses IA en cours ({faits})")
     base["meta"]["modele"] = MODELE
     FICHIER.write_text(json.dumps(base, ensure_ascii=False, indent=0), encoding="utf-8")
     print(f"Analyses faites : {faits}")
