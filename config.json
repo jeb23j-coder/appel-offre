@@ -23,7 +23,10 @@
       "allège",
       "linteau",
       "mur de brique",
-      "pierre"
+      "pierre",
+      "maconnerie",
+      "blocs de béton",
+      "murs de maçonnerie"
     ],
     "Façades": [
       "façade",
@@ -209,8 +212,51 @@
     "réfection des élévations",
     "réparation des élévations",
     "remplacement de la maçonnerie extérieure",
-    "travaux de restauration du bâtiment"
+    "travaux de restauration du bâtiment",
+    "école"
   ],
+  "familles_exclus": {
+    "Génie civil": [
+      "stationnement",
+      "pavage",
+      "asphalt",
+      "aqueduc",
+      "égout",
+      "voirie",
+      "chaussée",
+      "pont",
+      "ponceau",
+      "pluvial",
+      "forage",
+      "conduite",
+      "réseau",
+      "piste",
+      "éclairage de rue"
+    ],
+    "Autres métiers": [
+      "ascenseur",
+      "chaudière",
+      "électricité",
+      "électrique",
+      "ventilation",
+      "climatisation",
+      "gicleur",
+      "plomberie",
+      "toiture",
+      "peinture"
+    ],
+    "Entretien et services": [
+      "déneigement",
+      "entretien",
+      "aménagement paysager",
+      "gazon",
+      "clôture",
+      "mobilier",
+      "démolition",
+      "terrain de",
+      "homologation"
+    ]
+  },
   "mots_exclus": [
     "stationnement",
     "pavage",
@@ -238,41 +284,5 @@
     "climatisation",
     "gicleur",
     "plomberie"
-  ],
-  "suggestions_exclus": [
-    "stationnement",
-    "pavage",
-    "asphalt",
-    "aqueduc",
-    "égout",
-    "voirie",
-    "chaussée",
-    "pont",
-    "ponceau",
-    "déneigement",
-    "ascenseur",
-    "chaudière",
-    "conduite",
-    "réseau",
-    "piste",
-    "terrain de",
-    "éclairage de rue",
-    "homologation",
-    "pluvial",
-    "forage",
-    "électricité",
-    "électrique",
-    "ventilation",
-    "climatisation",
-    "gicleur",
-    "plomberie",
-    "toiture",
-    "peinture",
-    "démolition",
-    "entretien",
-    "aménagement paysager",
-    "clôture",
-    "gazon",
-    "mobilier"
   ]
 }

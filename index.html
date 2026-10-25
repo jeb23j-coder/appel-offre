@@ -111,9 +111,15 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .regions label:has(input:checked) { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
 .familles { display: grid; gap: 10px; }
 .famille b { display: block; font-size: .8rem; margin-bottom: 4px; }
+.famille { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 6px; }
+.champ .tete-famille { display: flex; gap: 10px; align-items: center; cursor: pointer; text-transform: none; letter-spacing: normal; font-size: 1rem; font-weight: 700; color: var(--ink); }
+.tete-famille input { width: 20px; height: 20px; accent-color: var(--accent); }
+.tete-famille small { color: var(--muted); font-weight: 400; font-size: .82rem; }
+.famille details summary { cursor: pointer; font-size: .8rem; color: var(--accent); }
+.famille details .regions { margin-top: 8px; }
 .ajout { display: flex; gap: 8px; }
 .ajout input { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 7px 10px; font-size: .9rem; }
-#c-exclus label:has(input:checked) { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }
+#c-exclus .regions label:has(input:checked) { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }
 .btn { border: 1px solid var(--accent); background: var(--accent); color: var(--surface); border-radius: 10px; padding: 9px 16px; font-weight: 600; justify-self: start; }
 .alerte { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: .88rem; }
 .alerte span { color: var(--muted); font-size: .8rem; flex: 1; min-width: 12ch; }
@@ -174,7 +180,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
       <p class="aide">Ils décident quels avis sont retenus et calculent le score de chaque contrat.</p>
       <div class="champ"><label>Mots-clés recherchés : cochez ceux qui vous intéressent</label><div id="c-mots" class="familles"></div></div>
       <div class="ajout"><input id="c-nouveau" maxlength="60" placeholder="Ajouter un mot (ex. gypse)" aria-label="Ajouter un mot-clé"><button class="icon-btn" type="button" id="c-ajouter">+ Ajouter</button></div>
-      <div class="champ"><label>Mots exclus : un avis qui n'a que ces mots dans son titre est écarté</label><div id="c-exclus" class="regions"></div></div>
+      <div class="champ"><label>Mots exclus : un avis qui n'a que ces mots dans son titre est écarté</label><div id="c-exclus" class="familles"></div></div>
       <div class="ajout"><input id="c-nouvel-exclu" maxlength="60" placeholder="Ajouter un mot à exclure" aria-label="Ajouter un mot exclu"><button class="icon-btn" type="button" id="c-exclure">+ Exclure</button></div>
       <div class="champ"><label>Régions préférées</label><div class="regions" id="c-regions"></div></div>
       <div class="deux">
@@ -354,31 +360,49 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     const l = el("label"); const cb = el("input"); cb.type = "checkbox"; cb.value = mot; cb.checked = coche;
     l.append(cb, mot); boite.appendChild(l); return cb;
   }
+  // Une famille = un titre qui est une case représentant tous ses mots, et les mots en détail
+  function famille(boite, nom, termes, choisis) {
+    const f = el("div", "famille");
+    const tete = el("label", "tete-famille"); const tout = el("input"); tout.type = "checkbox";
+    const nb = el("small");
+    tete.append(tout, el("span", null, nom), nb);
+    const det = el("details"); det.appendChild(el("summary", null, "voir les mots"));
+    const r = el("div", "regions");
+    const cases = termes.map((t) => pastille(r, t, choisis.has(t.toLowerCase())));
+    const majTete = () => {
+      const n = cases.filter((c) => c.checked).length;
+      tout.checked = cases.length > 0 && n === cases.length; tout.indeterminate = n > 0 && n < cases.length;
+      nb.textContent = ` · ${n}/${cases.length} mots`;
+    };
+    tout.addEventListener("change", () => { cases.forEach((c) => (c.checked = tout.checked)); majTete(); });
+    cases.forEach((c) => c.addEventListener("change", majTete));
+    majTete();
+    det.appendChild(r); f.append(tete, det); boite.appendChild(f);
+    // pour ajouter un mot à cette famille plus tard
+    return (mot) => { const c = pastille(r, mot, true); cases.push(c); c.addEventListener("change", majTete); majTete(); f.hidden = false; det.open = true; };
+  }
+  function groupe(boite, familles, actifs, nomAutres) {
+    boite.innerHTML = "";
+    const choisis = new Set(actifs.map((m) => m.toLowerCase()));
+    const connus = new Set(Object.values(familles).flat().map((t) => t.toLowerCase()));
+    Object.entries(familles).forEach(([nom, termes]) => famille(boite, nom, termes, choisis));
+    const autres = actifs.filter((m) => !connus.has(m.toLowerCase()));
+    const ajouter = famille(boite, nomAutres, autres, choisis);
+    if (!autres.length) boite.lastChild.hidden = true;
+    return ajouter;
+  }
+  let ajouterMot = () => {}, ajouterExclu = () => {};
   function remplirMots() {
-    const choisis = new Set((meta.motsCles || []).map((m) => m.toLowerCase()));
-    const boite = $("c-mots"); boite.innerHTML = "";
-    const dansFamille = new Set();
-    Object.entries(meta.familles || {}).forEach(([nom, termes]) => {
-      const f = el("div", "famille"); f.appendChild(el("b", null, nom));
-      const r = el("div", "regions");
-      termes.forEach((t) => { dansFamille.add(t.toLowerCase()); pastille(r, t, choisis.has(t.toLowerCase())); });
-      f.appendChild(r); boite.appendChild(f);
-    });
-    const autres = (meta.motsCles || []).filter((m) => !dansFamille.has(m.toLowerCase()));
-    const f = el("div", "famille"); f.id = "c-autres"; f.appendChild(el("b", null, "Mes autres mots"));
-    const r = el("div", "regions"); r.id = "c-autres-mots"; autres.forEach((m) => pastille(r, m, true));
-    f.appendChild(r); boite.appendChild(f);
-    const ex = $("c-exclus"); ex.innerHTML = "";
-    const exclus = new Set((meta.motsExclus || []).map((m) => m.toLowerCase()));
-    [...new Set([...(meta.motsExclus || []), ...(meta.suggestionsExclus || [])])].forEach((m) => pastille(ex, m, exclus.has(m.toLowerCase())));
+    ajouterMot = groupe($("c-mots"), meta.familles || {}, meta.motsCles || [], "Mes autres mots");
+    ajouterExclu = groupe($("c-exclus"), meta.famillesExclus || {}, meta.motsExclus || [], "Mes autres exclusions");
   }
   $("c-ajouter").addEventListener("click", () => {
     const m = $("c-nouveau").value.trim(); if (!m) return;
-    pastille($("c-autres-mots"), m, true); $("c-nouveau").value = "";
+    ajouterMot(m); $("c-nouveau").value = "";
   });
   $("c-exclure").addEventListener("click", () => {
     const m = $("c-nouvel-exclu").value.trim(); if (!m) return;
-    pastille($("c-exclus"), m, true); $("c-nouvel-exclu").value = "";
+    ajouterExclu(m); $("c-nouvel-exclu").value = "";
   });
   function remplirReglages() {
     remplirMots();
@@ -388,9 +412,10 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   }
   $("formCriteres").addEventListener("submit", (e) => {
     e.preventDefault();
-    const mots = [...new Set(cochees($("c-mots")))];
+    // Seulement les mots (pas les cases de titre de famille)
+    const mots = [...new Set([...$("c-mots").querySelectorAll(".regions input:checked")].map((x) => x.value))];
     if (!mots.length) { $("c-msg").textContent = "Cochez au moins un mot-clé."; return; }
-    const corps = ["Mots-clés: " + mots.join(", "), "Mots exclus: " + cochees($("c-exclus")).join(", "), "Régions préférées: " + cochees($("c-regions")).join(", "),
+    const corps = ["Mots-clés: " + mots.join(", "), "Mots exclus: " + [...new Set([...$("c-exclus").querySelectorAll(".regions input:checked")].map((x) => x.value))].join(", "), "Régions préférées: " + cochees($("c-regions")).join(", "),
       "Montant min: " + $("c-min").value.trim(), "Montant max: " + $("c-max").value.trim(), "", "(Cliquez sur « Submit new issue » pour sauvegarder vos critères.)"].join("\n");
     window.open(demande("criteres", "Mes critères de recherche", corps), "_blank", "noopener");
     $("c-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». Les contrats seront reclassés dans quelques minutes.";
@@ -409,7 +434,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
         motsCles: cfg.mots_cles || d.meta?.motsCles || [],
         motsExclus: cfg.mots_exclus || d.meta?.motsExclus || [],
         familles: cfg.familles || d.meta?.familles || {},
-        suggestionsExclus: cfg.suggestions_exclus || [],
+        famillesExclus: cfg.familles_exclus || {},
         regionsPreferees: cfg.regions_preferees || d.meta?.regionsPreferees || [],
         montantMin: cfg.montant_min ?? d.meta?.montantMin ?? 0,
         montantMax: cfg.montant_max ?? d.meta?.montantMax ?? 15000000 };
