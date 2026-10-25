@@ -102,6 +102,52 @@ def empreinte(cfg):
     return hashlib.sha1(json.dumps(profils, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:10]
 
 
+def complement(d):
+    """Cautionnement d'exécution, dépôt de la soumission et documents exigés, tirés du détail d'un avis."""
+    info = d.get("avisResumeInformation") or {}
+    desc = texte((d.get("avisResumeDescription") or {}).get("descriptionHtml"))
+    t = sans_accents(desc)
+    # Cautionnement / garantie d'exécution : écrit dans la description (pas de case à part dans SEAO)
+    m = re.search(r"(garantie|cautionnement)s?\s+d.?execution[^.%]{0,80}?(\d{1,3}(?:[.,]\d+)?)\s*%", t)
+    if m:
+        execution = f"Oui, {m.group(2).replace('.', ',')} %"
+    elif re.search(r"(garantie|cautionnement)s?\s+d.?execution", t):
+        execution = "Oui (taux aux documents)"
+    else:
+        execution = "Non précisé sur l'avis"
+    m = re.search(r"(gages|materiaux et services)[^.%]{0,80}?(\d{1,3}(?:[.,]\d+)?)\s*%", t)
+    gages = f"Oui, {m.group(2).replace('.', ',')} %" if m else None
+    stve = ((info.get("stveOption") or {}).get("descriptionFr") or "")
+    if stve.lower().startswith("oui, via seao"):
+        mode = "Dépôt électronique sur SEAO"
+    elif info.get("stveNomAutreSysteme"):
+        mode = f"Dépôt électronique sur {info['stveNomAutreSysteme']}"
+    elif stve.lower().startswith("non"):
+        mode = "Dépôt papier (en personne ou par la poste)"
+    else:
+        mode = stve or "Voir les documents d'appel d'offres"
+    conditions = []
+    for sec in (d.get("avisResumeConditions") or {}).get("conditionSections") or []:
+        for c in sec.get("conditions") or []:
+            x = texte((c.get("description") or {}).get("descriptionFr"))
+            if x and len(x) < 400 and x.lower() not in ("autres conditions", "conditions de conformité"):
+                conditions.append(x)
+    return {
+        "fourchette": (info.get("valeurEstime") or {}).get("descriptionFr"),
+        "cautionExecution": execution,
+        "cautionGages": gages,
+        "depot": {
+            "mode": mode,
+            "lienAutreSysteme": info.get("stveAdresseAutreSysteme"),
+            "limite": (info.get("limiteReceptionOffre") or {}).get("descriptionFr"),
+            "adresseDepot": (info.get("adresseRecuperation") or {}).get("descriptionFr"),
+            "ouverture": (info.get("dateOuvertureSoumissions") or {}).get("descriptionFr"),
+            "adresseOuverture": (info.get("adresseOuverture") or {}).get("descriptionFr"),
+        },
+        "conditions": conditions[:6],
+    }
+
+
 def fiche(a):
     d = get_json(f"avis/{a['uuid']}/consulter")
     info = d.get("avisResumeInformation") or {}
@@ -126,6 +172,7 @@ def fiche(a):
         "unspsc": [u.get("descriptionFr") for u in (cat.get("unspsc") or [])][:6],
         "description": texte((d.get("avisResumeDescription") or {}).get("descriptionHtml"))[:3000],
         "lien": LIEN_AVIS + a["uuid"],
+        **complement(d),
     }
 
 

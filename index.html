@@ -122,6 +122,14 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 .connexion { border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 6px; background: var(--bg); }
 .connexion #cx-oui { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
 .lien-btn { border: 0; background: none; color: var(--brique); font-weight: 600; font-size: .82rem; text-decoration: underline; padding: 0; }
+.soumission { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 5px; font-size: .84rem; }
+.soumission .rang { display: grid; grid-template-columns: minmax(150px, 38%) 1fr; gap: 10px; align-items: baseline; }
+.soumission .rang span { color: var(--muted); }
+.soumission .rang b { font-weight: 600; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.soumission .rang a { color: var(--brique); overflow-wrap: anywhere; }
+.soumission details summary { cursor: pointer; color: var(--brique); font-weight: 600; font-size: .82rem; width: fit-content; }
+.soumission ul { margin: 6px 0 0; padding-left: 18px; color: var(--ink); }
+@media (max-width: 560px) { .soumission .rang { grid-template-columns: 1fr; gap: 0; } }
 .resultats { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; background: var(--bg); font-size: .86rem; display: grid; gap: 6px; }
 .resultats.attente { color: var(--muted); }
 .gagnant { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; align-items: baseline; padding-bottom: 6px; border-bottom: 1px dashed var(--line); }
@@ -271,7 +279,8 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   const STATUTS = [["a_soumissionner","À soumissionner"],["soumis","Soumis"],["gagne","Gagné"],["perdu","Perdu"]];
   const $ = (id) => document.getElementById(id);
   const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
-  const argent = (n) => n >= 1e6 ? (Math.round(n / 1e4) / 100).toLocaleString("fr-CA") + " M$" : n.toLocaleString("fr-CA") + " $";
+  // Montants exacts, au dollar près (les vrais chiffres de SEAO, sans arrondi)
+  const argent = (n) => Math.round(n).toLocaleString("fr-CA") + " $";
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
   let avis = [], meta = {}, vue = "resultats";
@@ -402,8 +411,29 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     const j = jours(a);
     infos.appendChild(el("span", "due" + (!ferme(a) && j <= 7 ? " vite" : ""), ferme(a) ? "Fermé" : j === 0 ? "Ferme aujourd'hui" : j === 1 ? "Ferme demain" : `Ferme dans ${j} j`));
     infos.appendChild(el("span", null, quand(a.fermeture)));
-    const mt = el("span", "montant"); mt.append(el("b", null, a.estimation ? argent(a.estimation) : "Montant non publié")); infos.appendChild(mt);
     c.appendChild(infos);
+
+    // Montants et soumission : les vrais renseignements de l'avis
+    if (!a.fermeArchive) {
+      const sm = el("div", "soumission");
+      const rang = (titre, valeur) => { if (!valeur) return; const r = el("div", "rang"); r.append(el("span", null, titre), el("b", null, valeur)); sm.appendChild(r); };
+      rang("Fourchette de prix estimée", a.fourchette || a.budgetPublie);
+      rang("Montant estimé", a.estimation ? argent(a.estimation) : (a.fourchette || a.budgetPublie ? null : "Non publié"));
+      rang("Cautionnement de soumission", a.cautionSoumission || "Non précisé sur l'avis");
+      rang("Cautionnement d'exécution", a.cautionExecution || "Voir les documents");
+      rang("Garantie gages, matériaux et services", a.cautionGages);
+      const dp = a.depot || {};
+      rang("Dépôt de la soumission", dp.mode);
+      rang("Date limite", dp.limite);
+      if (dp.mode && dp.mode.startsWith("Dépôt papier")) rang("Adresse de dépôt", dp.adresseDepot);
+      rang("Ouverture des soumissions", [dp.ouverture, dp.adresseOuverture].filter(Boolean).join(" · "));
+      if (dp.lienAutreSysteme) { const r = el("div", "rang"); const l = el("a", null, dp.lienAutreSysteme); l.href = dp.lienAutreSysteme; l.target = "_blank"; l.rel = "noopener"; r.append(el("span", null, "Site de dépôt"), l); sm.appendChild(r); }
+      if ((a.conditions || []).length) {
+        const d = el("details"); d.appendChild(el("summary", null, `Documents et conditions exigés (${a.conditions.length})`));
+        const ul = el("ul"); a.conditions.forEach((x) => ul.appendChild(el("li", null, x))); d.appendChild(ul); sm.appendChild(d);
+      }
+      c.appendChild(sm);
+    }
 
     const tags = el("div", "tags");
     if (a.source === "Merx") tags.appendChild(el("span", "tag merx", "Merx"));
@@ -690,9 +720,12 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     fetch("data/avis.json?v=" + Date.now(), sansCache).then((r) => r.json()),
     fetch("config.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => ({})),
     fetch("data/fermes.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => []),
+    fetch("data/details.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => ({})),
   ])
-    .then(([d, cfg, fermes]) => {
+    .then(([d, cfg, fermes, details]) => {
       avis = d.avis || [];
+      // Fourchette de prix, cautionnements et dépôt (fichier complémentaire)
+      avis.forEach((a) => { const x = (details || {})[a.id]; if (x) Object.keys(x).forEach((k) => { if (a[k] == null) a[k] = x[k]; }); });
       // Contrats fermés (résultats d'ouverture) qui ne sont pas déjà dans la liste
       const connus = new Set(avis.map((a) => a.id));
       (fermes || []).forEach((f) => { if (!connus.has(f.id)) avis.push(f); });
