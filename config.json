@@ -7,11 +7,10 @@
   "profils": {
     "jonathan": {
       "nom": "Jonathan",
-      "montant_min": 15000000,
+      "montant_min": 0,
       "montant_max": 15000000,
       "regions_preferees": [
-        "Montréal",
-        "Montérégie"
+        "Montréal"
       ],
       "familles": {
         "Maçonnerie": [
