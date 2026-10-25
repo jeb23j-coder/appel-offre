@@ -382,9 +382,6 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     cadran.append(anneau, el("span", "palier", a.fermeArchive ? "Fermé" : nom));
     const c = el("div", "corps");
     const haut = el("div", "haut");
-    const mode = a.analyse?.mode;
-    if (mode && mode !== "Aucun") haut.appendChild(el("span", "mode", mode === "Sous-traitance" ? "Sous-traitance" : "Soumission directe"));
-    else if (!a.fermeArchive) haut.appendChild(el("span", "mode muet", a.analyse ? "Hors de vos métiers" : "Analyse IA à venir"));
     const etoile = el("button", "star", s.suivi ? "★" : "☆"); etoile.type = "button";
     etoile.setAttribute("aria-pressed", s.suivi ? "true" : "false");
     etoile.setAttribute("aria-label", s.suivi ? "Retirer de mes contrats" : "Ajouter à mes contrats");
