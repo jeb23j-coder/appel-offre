@@ -5,7 +5,7 @@
 "retenus": 305,
 "nouveaux": 20,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
-"modele": null,
+"modele": "gemma4:e2b",
 "empreinte": "d1c2edc405",
 "alertes": [],
 "motsCles": [
@@ -2101,7 +2101,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation d'un nouveau panneau électrique et d'un disjoncteur dans une salle électrique. Il inclut des travaux d'aménagement, de démolition, de protection et de jointement liés à ces travaux.",
+"pointsAttention": [
+"délai court (11 mois)",
+"cautionnement de soumission requis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6b643515-d8e1-4498-b6e1-0e9f15e467f9",
@@ -2133,7 +2146,19 @@
 "familles": [],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des unités de ventilation principales et du secteur administratif. La durée prévue est de 4 mois et le montant estimé est de 1 200 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la ventilation et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "982de85e-14fb-4663-9750-ca23ffbae0e0",
@@ -2272,7 +2297,21 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau des équipements électriques à une sous-station d'épuration des eaux usées. Il s'agit d'un projet de travaux de construction et de maintenance d'installations électriques.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai court (date limite de soumission)",
+"Visite supervisée des lieux obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est entièrement axé sur les travaux électriques et n'inclut ni maçonnerie, ni charpenterie/menuiserie, ce qui est hors de la cible de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "c13bb880-bee9-42d6-ab52-194593961b5d",
@@ -9568,7 +9607,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux d'ajout d'une deuxième glace au Colisée Isabelle-Brasseur. La durée prévue du contrat est de 23 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment, mais les mots-clés spécifiques de maçonnerie ou charpenterie ne sont pas explicitement mentionnés dans le titre ou la description.",
+"version": 3
+}
 },
 {
 "id": "58a1aeb8-96bc-43e5-bf00-a589e54a9075",
@@ -13971,7 +14022,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour un contrat de travaux de construction avec un montant estimé de 500 000 $ sur une durée prévue de 4 mois. La description générale est 'Garantie de construction résidentielle (GCR)'.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un contrat de construction résidentielle, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "46b30dd8-f78e-4b7e-9635-ab92f8b8457a",
