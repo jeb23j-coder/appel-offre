@@ -317,6 +317,15 @@ def main():
             n_res += 1
             time.sleep(PAUSE)
         soum = d.get("soumissions")
+        if soum and not x.get("estimationVerifiee"):  # estimation de l'organisme, pour l'analyse des concurrents
+            try:
+                info = get_json(f"avis/{x['id']}/consulter").get("avisResumeInformation") or {}
+                x["estimation"] = x.get("estimation") or info.get("montantEstimeContrat")
+                x["fourchette"] = x.get("fourchette") or (info.get("valeurEstime") or {}).get("descriptionFr")
+                x["estimationVerifiee"] = True
+                time.sleep(PAUSE)
+            except Exception:
+                pass
         if soum:
             x["resultats"] = {
                 "publie": heure_quebec(d.get("datePublicationResultatsOuverture")),

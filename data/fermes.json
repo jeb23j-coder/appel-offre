@@ -50,7 +50,10 @@
 "montant": 4657222.0
 }
 ]
-}
+},
+"estimation": 4000000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8667d7f7-6c99-4a1d-be97-d936e9aa923f",
@@ -99,7 +102,10 @@
 "montant": 646178.0
 }
 ]
-}
+},
+"estimation": 1420000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "fd363fd2-596a-47ce-be5d-fecd87a1fa72",
@@ -124,7 +130,10 @@
 "montant": 239500.0
 }
 ]
-}
+},
+"estimation": 141000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "16645570-ad62-4d04-8e08-0bc26c4c72cd",
@@ -153,7 +162,10 @@
 "montant": 89700.0
 }
 ]
-}
+},
+"estimation": 55000,
+"fourchette": "34 700 $ à 99 999 $",
+"estimationVerifiee": true
 },
 {
 "id": "24f11e5b-bb64-409e-85d1-e503e7bbe14f",
@@ -178,7 +190,10 @@
 "montant": 93780.0
 }
 ]
-}
+},
+"estimation": 85000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "398245ee-6346-4f89-b627-09315bf52553",
@@ -211,7 +226,10 @@
 "montant": 113825.0
 }
 ]
-}
+},
+"estimation": 100000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "c5ad14cd-6d24-40f8-b2f8-645a65e9fa3d",
@@ -240,7 +258,10 @@
 "montant": 292000.0
 }
 ]
-}
+},
+"estimation": 200000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e728d4b4-12c2-47fa-a9a9-d51516c6a3ac",
@@ -269,7 +290,10 @@
 "montant": 1681337.0
 }
 ]
-}
+},
+"estimation": 917408.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ef6a0cc8-1647-4bf0-a796-50b744ff209d",
@@ -302,7 +326,10 @@
 "montant": 334000.0
 }
 ]
-}
+},
+"estimation": 275000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f738a8b7-3d57-46b4-af0f-91044d53e244",
@@ -339,7 +366,10 @@
 "montant": 2973755.68
 }
 ]
-}
+},
+"estimation": 2055000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "904cdf96-fb5e-43d8-9427-7839c9891445",
@@ -380,7 +410,10 @@
 "montant": 187000.0
 }
 ]
-}
+},
+"estimation": 140000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f322f7f5-fdec-434a-8f3c-05c6260fe7d8",
@@ -417,7 +450,10 @@
 "montant": 346105.05
 }
 ]
-}
+},
+"estimation": 450000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ad01a690-bf6c-4b5e-bbd4-6da5a66d1e5d",
@@ -458,7 +494,10 @@
 "montant": 203059.99
 }
 ]
-}
+},
+"estimation": 178020,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "c443616f-9b15-4525-b49b-17ad6916eda7",
@@ -503,7 +542,10 @@
 "montant": 3539935.0
 }
 ]
-}
+},
+"estimation": 2800000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "cc09eea3-3e7f-4fea-94d3-111c8b03a94a",
@@ -544,7 +586,10 @@
 "montant": 2592140.0
 }
 ]
-}
+},
+"estimation": 1700000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "98dd5595-436e-41d2-848e-5a6e0f99a853",
@@ -601,7 +646,10 @@
 "montant": 427735.0
 }
 ]
-}
+},
+"estimation": 360000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "6f2cd4b1-06d7-43cc-a176-0ac6d21c9f6f",
@@ -626,7 +674,10 @@
 "montant": 7021975.0
 }
 ]
-}
+},
+"estimation": 3000000.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0d396747-fc37-49f1-a170-ec46a4d31db8",
@@ -659,7 +710,10 @@
 "montant": 173050.0
 }
 ]
-}
+},
+"estimation": 195069.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "4966165d-824a-4869-8ae1-173e4db0e48c",
@@ -704,7 +758,10 @@
 "montant": 321000.0
 }
 ]
-}
+},
+"estimation": 303105.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e1c773d9-a9b0-40ce-9cae-9b636077e600",
@@ -740,7 +797,10 @@
 "montant": 1778076.06
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0e9ce37a-e697-438f-972b-8e885c7ad6c4",
@@ -773,7 +833,10 @@
 "montant": 2174481.0
 }
 ]
-}
+},
+"estimation": 1535915.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "3e62c7e4-a056-4987-adad-ee99bfe1a777",
@@ -806,7 +869,10 @@
 "montant": 361799.0
 }
 ]
-}
+},
+"estimation": 450000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8426b8d1-72fb-4f32-8c5c-771b81065ce5",
@@ -843,7 +909,10 @@
 "montant": 1543600.0
 }
 ]
-}
+},
+"estimation": 1200000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "78ff66ae-e13b-4886-875a-a24a00be88a8",
@@ -876,7 +945,10 @@
 "montant": 69988000.0
 }
 ]
-}
+},
+"estimation": 33000000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "d40a7f22-c6b3-4306-9513-3640fb821c33",
@@ -913,7 +985,10 @@
 "montant": null
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "fed14265-6ad6-4b87-9cd6-25ee38fd9505",
@@ -966,7 +1041,10 @@
 "montant": 2888000.0
 }
 ]
-}
+},
+"estimation": 1280294.91,
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true
 },
 {
 "id": "71392b04-ed7d-46d8-84e0-257b07aa27cb",
@@ -995,7 +1073,10 @@
 "montant": null
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "6f816ca7-2239-4a97-b15f-d8c3aaa0ef7d",
@@ -1024,7 +1105,10 @@
 "montant": 1682856.88
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8bedd990-741d-46c5-934c-7ccb923bdb79",
@@ -1057,7 +1141,10 @@
 "montant": 166417.72
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "87732cdb-fc71-49d7-a158-0842761d6828",
@@ -1118,7 +1205,10 @@
 "montant": 204470.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "1d242c96-9b95-4072-9432-f669ba29384f",
@@ -1191,7 +1281,10 @@
 "montant": 2674751.0
 }
 ]
-}
+},
+"estimation": 1608528.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "1c902d4c-82a0-45f4-bea3-968c54cc7f8f",
@@ -1264,7 +1357,10 @@
 "montant": 2571134.0
 }
 ]
-}
+},
+"estimation": 2901248,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "817b2f4b-328c-4f4f-8a21-6c4740238df7",
@@ -1305,7 +1401,10 @@
 "montant": 448063.32
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5165cbf7-9360-4fc3-91f5-0eceb22e0c21",
@@ -1334,7 +1433,10 @@
 "montant": 455270.0
 }
 ]
-}
+},
+"estimation": 390000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "683258f1-260f-488b-9bc8-aa859dea9f97",
@@ -1375,7 +1477,10 @@
 "montant": 583796.28
 }
 ]
-}
+},
+"estimation": 600000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "20f619f0-ae3e-4692-b375-29e3ae92fa68",
@@ -1412,7 +1517,10 @@
 "montant": 407300.0
 }
 ]
-}
+},
+"estimation": 360000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "cb3149b1-09c3-4729-afb3-211f9bc7b006",
@@ -1453,7 +1561,10 @@
 "montant": 1976000.0
 }
 ]
-}
+},
+"estimation": 2090000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0be23b03-10df-44e7-adf4-089bc3e255fc",
@@ -1480,7 +1591,10 @@
 "montant": 431460.93
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "09f53b53-7ccf-4c79-ad85-2f173337e84e",
@@ -1517,7 +1631,10 @@
 "montant": 8949290.94
 }
 ]
-}
+},
+"estimation": 3937650,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "bd59aa16-b3cc-47e2-b018-8560bfc93404",
@@ -1558,7 +1675,10 @@
 "montant": 1064517.88
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "11a72a00-9556-4d67-ad13-f4fbe638d877",
@@ -1619,7 +1739,10 @@
 "montant": 1348048.53
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "52b91246-b36f-4763-9745-10c73c838ece",
@@ -1680,7 +1803,10 @@
 "montant": 3178550.0
 }
 ]
-}
+},
+"estimation": 2852046,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b7f7d0d4-202b-4819-8abf-e215542fc93b",
@@ -1725,7 +1851,10 @@
 "montant": 583605.13
 }
 ]
-}
+},
+"estimation": 498000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f9789092-a18b-46d9-9f70-416507939760",
@@ -1762,7 +1891,10 @@
 "montant": 4994831.73
 }
 ]
-}
+},
+"estimation": 4967196,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "71dda188-1a69-4859-86b8-c7df0c4b8cba",
@@ -1795,7 +1927,10 @@
 "montant": 46980.0
 }
 ]
-}
+},
+"estimation": 30000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "c28ff748-d613-4107-b1fb-0a55d673cc01",
@@ -1828,7 +1963,10 @@
 "montant": 693102.52
 }
 ]
-}
+},
+"estimation": 403000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e14b92c4-fc59-45ef-b48b-2bbe60136e3c",
@@ -1869,7 +2007,10 @@
 "montant": 604390.23
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5d1a66d3-161e-4f47-a6f6-c86063b6acb7",
@@ -1898,7 +2039,10 @@
 "montant": 232700.0
 }
 ]
-}
+},
+"estimation": 138000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5e3f7553-1be3-4d6d-a450-655cc9879604",
@@ -1935,7 +2079,10 @@
 "montant": 846893.0
 }
 ]
-}
+},
+"estimation": 800000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0945dee3-4ec6-4e9b-8db7-d70acc60b9d0",
@@ -1984,7 +2131,10 @@
 "montant": 1193766.29
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "068c8150-b282-40eb-abb3-0a0db745ed7c",
@@ -2013,7 +2163,10 @@
 "montant": 2569450.0
 }
 ]
-}
+},
+"estimation": 2863600,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "48966553-0113-42a0-85f9-bfe08bd6304b",
@@ -2046,7 +2199,10 @@
 "montant": 1621181.99
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "18382a63-f80e-4637-bc10-99e78dc0adb2",
@@ -2083,7 +2239,10 @@
 "montant": 374667.88
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f8f7894e-ac1d-43c8-8eec-a471030a97bf",
@@ -2128,7 +2287,10 @@
 "montant": 1403844.75
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "eba76d0a-c7fe-4cdf-bfe6-2bded67bd3fd",
@@ -2161,7 +2323,10 @@
 "montant": 730585.0
 }
 ]
-}
+},
+"estimation": 600000,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "a055281c-7b79-4eb3-9648-0d7bd2494770",
@@ -2210,7 +2375,10 @@
 "montant": 4352440.25
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9eaf8b38-4089-4c12-b62a-31189b97e0f0",
@@ -2259,7 +2427,10 @@
 "montant": 615056.2
 }
 ]
-}
+},
+"estimation": 479868,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9bd7e047-9d14-43ad-8c19-1da54374b739",
@@ -2296,7 +2467,10 @@
 "montant": 31547.41
 }
 ]
-}
+},
+"estimation": 40000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "cc8f5d16-fd28-4261-a79c-c19cd4fc8932",
@@ -2341,7 +2515,10 @@
 "montant": 631620.0
 }
 ]
-}
+},
+"estimation": 321000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "3e79346e-433f-4d80-ae5c-78b5997f0584",
@@ -2378,7 +2555,10 @@
 "montant": 562783.08
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "91aef17f-39a5-41db-80fc-ad07d8eefeef",
@@ -2410,7 +2590,10 @@
 "montant": 74500.0
 }
 ]
-}
+},
+"estimation": 62364.5,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9e80602a-e5d3-4315-9d17-6b0d04ab5be9",
@@ -2447,7 +2630,10 @@
 "montant": 360387.08
 }
 ]
-}
+},
+"estimation": 730000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "bcf98a5c-f488-4e58-a612-2fc2866ec64d",
@@ -2476,7 +2662,10 @@
 "montant": 8500000.0
 }
 ]
-}
+},
+"estimation": 4496506.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "670b1fda-0ab9-46e9-a98d-a907d7702c2f",
@@ -2505,7 +2694,10 @@
 "montant": 679269.92
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "1b91230e-afb8-479d-a5cc-64e1d7d447b1",
@@ -2546,7 +2738,10 @@
 "montant": 810573.75
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "352ef8a7-58dc-4fc2-bf18-dffe54d0364f",
@@ -2579,7 +2774,10 @@
 "montant": 1253500.0
 }
 ]
-}
+},
+"estimation": 1220000,
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true
 },
 {
 "id": "bf05ec24-6094-4da2-980b-a65a413d029d",
@@ -2617,7 +2815,10 @@
 "montant": 601319.25
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b3d9381f-da14-4338-ba89-5e60c1c6fc92",
@@ -2642,7 +2843,10 @@
 "montant": 346912.48
 }
 ]
-}
+},
+"estimation": 268500,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "d1d6f6ca-ff41-4d3e-99c3-60b5372ee30e",
@@ -2679,7 +2883,10 @@
 "montant": 819886.73
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "576c436e-542f-45d3-b886-98226986257e",
@@ -2720,7 +2927,10 @@
 "montant": 1764500.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "6eeda5a7-34fc-4ad6-9ee2-92ee15552160",
@@ -2777,7 +2987,10 @@
 "montant": 741995.0
 }
 ]
-}
+},
+"estimation": 899500,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "d6772bd4-ccf0-4d0f-a89b-46a022032246",
@@ -2830,7 +3043,10 @@
 "montant": 600572.95
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "58cc7fb5-fc64-4607-b333-eba633b44f9e",
@@ -2871,7 +3087,10 @@
 "montant": 1240793.68
 }
 ]
-}
+},
+"estimation": 800000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "773fb650-a35e-4f11-b496-3fc929312dc8",
@@ -2920,7 +3139,10 @@
 "montant": 1420000.0
 }
 ]
-}
+},
+"estimation": 550000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5cf12433-1769-427a-9268-2a8dcb7f4c33",
@@ -2953,7 +3175,10 @@
 "montant": 1181879.76
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8e581199-39db-4940-b0bf-6a1cf716fa6e",
@@ -2986,7 +3211,10 @@
 "montant": 297157.88
 }
 ]
-}
+},
+"estimation": 600000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "87a5c326-b76f-4b4d-8b91-e2bb73af11e2",
@@ -3019,7 +3247,10 @@
 "montant": 2788599.26
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e5296845-7c18-4ba1-985d-3abce165d3ce",
@@ -3088,7 +3319,10 @@
 "montant": 2011775.06
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "cbbead25-843f-484b-8ad8-f690a799c1b8",
@@ -3141,7 +3375,10 @@
 "montant": 450905.0
 }
 ]
-}
+},
+"estimation": 409195.69,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5882304d-4255-447f-8f2e-c3b6989a3d3e",
@@ -3202,7 +3439,10 @@
 "montant": 600335.0
 }
 ]
-}
+},
+"estimation": 700000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "45b8d30f-02c9-4112-967e-06de7d594bde",
@@ -3243,7 +3483,10 @@
 "montant": 67001.68
 }
 ]
-}
+},
+"estimation": 60000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "106b9423-4c24-459d-bb72-364b27079c3b",
@@ -3292,7 +3535,10 @@
 "montant": 889790.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "e3af1ca8-6598-4afa-9fd0-8cbfc6df44fe",
@@ -3329,7 +3575,10 @@
 "montant": 766201.41
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0be0c8d5-180d-4cbe-85d3-49aa06e4070b",
@@ -3366,7 +3615,10 @@
 "montant": 297100.0
 }
 ]
-}
+},
+"estimation": 151190,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5b076b9f-4163-4dac-b9dc-69c310dc2518",
@@ -3431,7 +3683,10 @@
 "montant": 9045069.45
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0b00c10d-7cc1-488f-9690-9a38841ad660",
@@ -3460,7 +3715,10 @@
 "montant": 1606878.0
 }
 ]
-}
+},
+"estimation": 824289.65,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "81417e7a-8219-4a4f-9296-a7ece2f60299",
@@ -3489,7 +3747,10 @@
 "montant": 725000.0
 }
 ]
-}
+},
+"estimation": 591104,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "23296124-3f97-4633-b04b-5ddf6cc0c0f7",
@@ -3526,7 +3787,10 @@
 "montant": 170100.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ce832b6b-a2f6-47c5-891d-5461f4cab02e",
@@ -3582,7 +3846,10 @@
 "montant": 1629191.15
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "920ab6e2-e6b7-4f62-a27a-4574d00f8621",
@@ -3623,7 +3890,10 @@
 "montant": 981886.5
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "30e77a6c-01af-4825-b5ed-82acf38df5f5",
@@ -3672,7 +3942,10 @@
 "montant": 989364.47
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "05f99757-8699-4182-906e-cd0e0bef8c3d",
@@ -3705,7 +3978,10 @@
 "montant": 530900.0
 }
 ]
-}
+},
+"estimation": 381021,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "bc7d850a-f195-4a57-8d50-09f536303919",
@@ -3738,7 +4014,10 @@
 "montant": 1079290.0
 }
 ]
-}
+},
+"estimation": 1007565.42,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "760aaffe-7215-41e5-a1f6-24532e1802af",
@@ -3763,7 +4042,10 @@
 "montant": 227394.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "c45d801f-10b8-4a10-ab5e-d89900688963",
@@ -3792,7 +4074,10 @@
 "montant": 3055777.0
 }
 ]
-}
+},
+"estimation": 2000000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f5c0a14b-267c-41b4-9e55-483403279c47",
@@ -3821,7 +4106,10 @@
 "montant": 631787.63
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "a2d49513-a274-4684-99f2-4025b72e37e4",
@@ -3854,7 +4142,10 @@
 "montant": 1117000.0
 }
 ]
-}
+},
+"estimation": 1010990,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "6ebc45e8-5559-49da-8737-6cdafd40b0db",
@@ -3895,7 +4186,10 @@
 "montant": 941225.0
 }
 ]
-}
+},
+"estimation": 482000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9fedf85e-aef6-4c31-a5b2-634abd6d6b07",
@@ -3928,7 +4222,10 @@
 "montant": 2184000.0
 }
 ]
-}
+},
+"estimation": 567901.16,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "1b3e0cf2-71cc-4b30-a12a-833f99a3a4c3",
@@ -3965,7 +4262,10 @@
 "montant": 124913.0
 }
 ]
-}
+},
+"estimation": 170000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8d6c2ce3-93e4-484d-82ee-2bd7f473f158",
@@ -4006,7 +4306,10 @@
 "montant": 14722000.0
 }
 ]
-}
+},
+"estimation": 14400000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "809a1a49-3ef1-4602-8fe5-53190f8d58b9",
@@ -4051,7 +4354,10 @@
 "montant": 568941.31
 }
 ]
-}
+},
+"estimation": 275000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9fb0c622-f641-4fbd-b15f-2415f4ce627a",
@@ -4104,7 +4410,10 @@
 "montant": 7258345.0
 }
 ]
-}
+},
+"estimation": 7068128.24,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ddbe63d3-6999-4ed6-bddd-9662871b396b",
@@ -4141,7 +4450,10 @@
 "montant": 3046000.0
 }
 ]
-}
+},
+"estimation": 3000000,
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true
 },
 {
 "id": "a638efcc-cfb1-4ec8-bfc8-6c1338677fec",
@@ -4170,7 +4482,10 @@
 "montant": 247804.9
 }
 ]
-}
+},
+"estimation": 350000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "3bb0abb1-3e0b-4436-a90a-a8ccd6aaf9d3",
@@ -4215,7 +4530,10 @@
 "montant": 686515.73
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "eceda055-05c6-4057-b414-c8bfceb25509",
@@ -4244,7 +4562,10 @@
 "montant": 98303.62
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "2a126be5-c610-406b-880b-c4be282f4f83",
@@ -4289,7 +4610,10 @@
 "montant": 165009.82
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5185851a-7c0f-47be-b421-5799aecc6453",
@@ -4322,7 +4646,10 @@
 "montant": 6798203.0
 }
 ]
-}
+},
+"estimation": 7800000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "6164e0f6-7355-442e-be43-d9a7bb97e861",
@@ -4375,7 +4702,10 @@
 "montant": 495400.0
 }
 ]
-}
+},
+"estimation": 330280,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b7d90474-3a30-4190-a133-54a41e8657a5",
@@ -4404,7 +4734,10 @@
 "montant": 167444.0
 }
 ]
-}
+},
+"estimation": 150000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9a521e76-7316-4201-99ae-0acf0926ece7",
@@ -4445,7 +4778,10 @@
 "montant": 1027180.0
 }
 ]
-}
+},
+"estimation": 533046.78,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "4f0d52fc-8445-48c6-80e9-a2c30fbd05fe",
@@ -4494,7 +4830,10 @@
 "montant": 7203367.0
 }
 ]
-}
+},
+"estimation": 5853592.64,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ee2b61d8-a6f4-4dd7-aff8-dd43afb84b95",
@@ -4535,7 +4874,10 @@
 "montant": 441389.03
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e39f300e-53d4-4ab2-908f-649aeb998b7c",
@@ -4564,7 +4906,10 @@
 "montant": 257400.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": "139 000 $ à 347 399 $",
+"estimationVerifiee": true
 },
 {
 "id": "07227555-0700-462a-969d-fddf74d12106",
@@ -4609,7 +4954,10 @@
 "montant": 663100.0
 }
 ]
-}
+},
+"estimation": 620000,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "5931c38b-1770-41b3-a822-9856ca56b5c5",
@@ -4638,7 +4986,10 @@
 "montant": 130726.58
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "35bc0481-2104-4953-ac21-c583425d8032",
@@ -4699,7 +5050,10 @@
 "montant": 11482592.57
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "bc876c62-ab31-4b79-9fb1-ff7ed10b684e",
@@ -4736,7 +5090,10 @@
 "montant": 425870.0
 }
 ]
-}
+},
+"estimation": 438200.0,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "cbbadb22-bb08-4b1d-b237-e0166a520706",
@@ -4805,7 +5162,10 @@
 "montant": 1877005.97
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "31873e1b-9891-4bc0-934d-978c905ff378",
@@ -4866,7 +5226,10 @@
 "montant": 7137888.0
 }
 ]
-}
+},
+"estimation": 9700000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e1f276ae-fe00-47ec-8422-f5d0ed3b388b",
@@ -4891,7 +5254,10 @@
 "montant": 173500.0
 }
 ]
-}
+},
+"estimation": 200000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b301a240-0dc3-4465-9bcf-bfe4eeda22a4",
@@ -4916,7 +5282,10 @@
 "montant": 132882.36
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "730614be-7e16-4b90-a0ff-27ad07ce445a",
@@ -4965,7 +5334,10 @@
 "montant": 2066445.67
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "c3d12b2e-9f22-4d01-af1e-8529d2d1d159",
@@ -5006,7 +5378,10 @@
 "montant": 239659.26
 }
 ]
-}
+},
+"estimation": 250000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ad4ce291-87b6-4904-b06f-9d230dcb8cb1",
@@ -5043,7 +5418,10 @@
 "montant": 327777.0
 }
 ]
-}
+},
+"estimation": 110000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "185d0755-a896-4b10-a8c6-86ae75718e2d",
@@ -5072,7 +5450,10 @@
 "montant": 697000.0
 }
 ]
-}
+},
+"estimation": 372000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e8c061e6-3324-484d-8f59-925a7d325ab7",
@@ -5101,7 +5482,10 @@
 "montant": 1080083.0
 }
 ]
-}
+},
+"estimation": 800000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "5c51cb76-7831-440c-b05f-5529b5329ab3",
@@ -5130,7 +5514,10 @@
 "montant": 1725887.0
 }
 ]
-}
+},
+"estimation": 2955000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "906bf431-8be2-4158-939e-4bc90386d10d",
@@ -5159,7 +5546,10 @@
 "montant": null
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "cfba800a-26c0-4b08-8d90-935b79872c87",
@@ -5192,7 +5582,10 @@
 "montant": 626037.04
 }
 ]
-}
+},
+"estimation": 474063,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9ed18b16-d975-4660-987b-00c9eda93044",
@@ -5229,7 +5622,10 @@
 "montant": 1490780.8
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ee4ef3f8-0a05-4ac5-9ca9-a3ff85352e97",
@@ -5258,7 +5654,10 @@
 "montant": 1067500.0
 }
 ]
-}
+},
+"estimation": 700000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ff61d1d5-7771-41c7-9325-16523c6d9024",
@@ -5291,7 +5690,10 @@
 "montant": 2597000.0
 }
 ]
-}
+},
+"estimation": 740012,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0807656c-e068-4aec-9c9f-6432821e4fc3",
@@ -5348,7 +5750,10 @@
 "montant": 2399575.0
 }
 ]
-}
+},
+"estimation": 496404,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "17cd7b32-6a96-437a-bfbf-059c8bb0137c",
@@ -5397,7 +5802,10 @@
 "montant": 238398.0
 }
 ]
-}
+},
+"estimation": 170000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "19131741-bf79-46d3-bfc2-ea1fb2adf78a",
@@ -5438,7 +5846,10 @@
 "montant": 1181700.0
 }
 ]
-}
+},
+"estimation": 788000.0,
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true
 },
 {
 "id": "85181f06-9710-4c6f-831b-481c2a8837d6",
@@ -5491,7 +5902,10 @@
 "montant": 4170777.0
 }
 ]
-}
+},
+"estimation": 3700000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f157f692-00e7-4d5c-a2b5-107e216ac071",
@@ -5530,7 +5944,10 @@
 "montant": 2259258.75
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "130dc26d-c6c3-4994-bc5e-46b3b0e5b71b",
@@ -5579,7 +5996,10 @@
 "montant": 8688323.64
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "a53f141f-613a-4050-8d0f-0e196a817584",
@@ -5628,7 +6048,10 @@
 "montant": 11901868.22
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ef23396e-262d-49e7-821c-c22a0b69b330",
@@ -5673,7 +6096,10 @@
 "montant": 1484400.0
 }
 ]
-}
+},
+"estimation": 1650000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f6487720-25f5-4f26-9218-dada32b1f34b",
@@ -5710,7 +6136,10 @@
 "montant": 656985.0
 }
 ]
-}
+},
+"estimation": 631185,
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true
 },
 {
 "id": "133e8aed-f040-460c-9e51-3a8b2b0489df",
@@ -5743,7 +6172,10 @@
 "montant": 945647.21
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "adb43b56-e540-49a0-bdd2-a67bc75623f4",
@@ -5783,7 +6215,10 @@
 "montant": 192008.25
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "d94d4720-172f-4d82-a7d3-76d7c5551f6d",
@@ -5812,7 +6247,10 @@
 "montant": 512225.12
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "7bca2d10-1d4a-4bb6-b0b6-166d9cebb28b",
@@ -5853,7 +6291,10 @@
 "montant": 836615.59
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "1148dacc-9d6e-465c-b66c-f1dc7d74c5f0",
@@ -5882,7 +6323,10 @@
 "montant": 2247040.93
 }
 ]
-}
+},
+"estimation": 1400000.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b6e6749c-d96c-4e70-a503-873408764c69",
@@ -5911,7 +6355,10 @@
 "montant": 243395.0
 }
 ]
-}
+},
+"estimation": 150000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "09b56beb-2960-4654-be99-bb2eb52ef542",
@@ -5944,7 +6391,10 @@
 "montant": 4288311.11
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "3b277b01-524b-4117-8479-3a3cba68351e",
@@ -5987,7 +6437,10 @@
 "montant": 923194.06
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "021d6897-e5db-44a6-8166-1e43289acc58",
@@ -6040,7 +6493,10 @@
 "montant": 2718928.8
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f97f511d-6d97-424e-8cd2-7546786f3cfd",
@@ -6073,7 +6529,10 @@
 "montant": 606820.8
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "7771a3be-14ce-42e5-a006-ce338bbd8f8a",
@@ -6110,7 +6569,10 @@
 "montant": 1068117.75
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b3ad4bb6-220f-4029-8e05-7472a8972b0d",
@@ -6183,7 +6645,10 @@
 "montant": 697350.0
 }
 ]
-}
+},
+"estimation": 1000000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "ec7e7e2b-9944-4327-b380-b63cf94e2bea",
@@ -6208,7 +6673,10 @@
 "montant": 658657.0
 }
 ]
-}
+},
+"estimation": 511508,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f3497e5b-a691-458b-a492-8058bcb96810",
@@ -6249,7 +6717,10 @@
 "montant": 631711.74
 }
 ]
-}
+},
+"estimation": 343144,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "669cde75-d134-4ee7-9483-42fed6b8d883",
@@ -6286,7 +6757,10 @@
 "montant": 719066.0
 }
 ]
-}
+},
+"estimation": 500000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f75932b1-aa37-4482-a666-f0a2e0d0ce0f",
@@ -6334,7 +6808,10 @@
 "montant": 5183976.14
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "c24491bf-88e4-47eb-b227-f327f72b357b",
@@ -6359,7 +6836,10 @@
 "montant": 1278265.6
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "e02e6110-3b6b-4c5f-82da-cf2660f9352a",
@@ -6384,7 +6864,10 @@
 "montant": 117215.0
 }
 ]
-}
+},
+"estimation": 105000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "7ab6b840-7473-478e-9fb4-bde01ec09c19",
@@ -6418,7 +6901,10 @@
 "montant": 655965.55
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "7b3f5e81-b5ed-470f-8d7a-2d69ec5d5a0b",
@@ -6471,7 +6957,10 @@
 "montant": null
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "850c5944-56ca-4673-834a-a05fbbf116af",
@@ -6506,7 +6995,10 @@
 "montant": 445252.18
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "a415774c-aaff-44b3-81e8-73730121ac70",
@@ -6535,7 +7027,10 @@
 "montant": 689000.0
 }
 ]
-}
+},
+"estimation": 700000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8b43bf85-d04e-4253-9ebf-46944aef1e48",
@@ -6592,7 +7087,10 @@
 "montant": 275450.0
 }
 ]
-}
+},
+"estimation": 97745.68,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "13c41144-3b64-4f76-b77d-711d875defbf",
@@ -6629,7 +7127,10 @@
 "montant": 473672.86
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "b1065e77-3d31-4c2b-86ab-4f05b0641441",
@@ -6666,7 +7167,10 @@
 "montant": 284757.06
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "9066e683-48d8-453e-be10-6e4c2149d7b6",
@@ -6699,7 +7203,10 @@
 "montant": 367462.3
 }
 ]
-}
+},
+"estimation": 312000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "bb9033b8-53a4-41b6-88de-8511c54eb426",
@@ -6728,7 +7235,10 @@
 "montant": 432300.0
 }
 ]
-}
+},
+"estimation": 350000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "31f6361e-158f-43c9-9471-7700fb10f78f",
@@ -6758,7 +7268,10 @@
 "montant": 3337000.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "72c50bc4-7297-4ae0-81a6-0828ac4598b1",
@@ -6799,7 +7312,10 @@
 "montant": 1833393.55
 }
 ]
-}
+},
+"estimation": 1200000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "0242f62c-02db-49ab-a354-43273e8e0da1",
@@ -6828,7 +7344,10 @@
 "montant": 426135.7
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "7d2a489f-2290-4c59-9a9c-5f07669756e2",
@@ -6865,7 +7384,10 @@
 "montant": 718100.0
 }
 ]
-}
+},
+"estimation": 419463,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "18504f67-c32a-43a8-bda0-875037402cd8",
@@ -6910,7 +7432,10 @@
 "montant": 372404.03
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "7125af53-9958-4937-b74a-f2cb6e9baa32",
@@ -6943,7 +7468,10 @@
 "montant": 733570.62
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "a5373014-a663-4532-ab92-d171d25c6329",
@@ -6976,7 +7504,10 @@
 "montant": 751700.0
 }
 ]
-}
+},
+"estimation": 575000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "536895c3-b4a7-4492-afdf-03f2bbcc8aea",
@@ -7004,7 +7535,10 @@
 "montant": 381792.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "d92a974e-5c7c-488f-8fc0-450f126cbc41",
@@ -7053,7 +7587,10 @@
 "montant": 447252.75
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "70a14644-4326-4130-90b9-51a705ee0e63",
@@ -7094,7 +7631,10 @@
 "montant": 2696882.36
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "2cfa74d7-9eae-4e80-9fab-4638f33dedd6",
@@ -7131,7 +7671,10 @@
 "montant": 497832.42
 }
 ]
-}
+},
+"estimation": 285000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "4a1818a9-256b-4541-8c27-e819028f2769",
@@ -7164,7 +7707,10 @@
 "montant": 5577000.0
 }
 ]
-}
+},
+"estimation": 5133000.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "8effaf06-fb88-4140-b9f1-b6995a818ac3",
@@ -7189,7 +7735,10 @@
 "montant": 55000.0
 }
 ]
-}
+},
+"estimation": 40000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "1b704b7f-94f4-49f2-afad-bef07c536f61",
@@ -7238,7 +7787,10 @@
 "montant": 20182158.0
 }
 ]
-}
+},
+"estimation": 18300000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "a72a8b76-3e8d-43f5-96e0-70466f394372",
@@ -7267,7 +7819,10 @@
 "montant": 678000.0
 }
 ]
-}
+},
+"estimation": 674500,
+"fourchette": "653 200 $ à 694 699 $",
+"estimationVerifiee": true
 },
 {
 "id": "80950e44-7c0f-435c-865d-b43d43ec9eba",
@@ -7308,7 +7863,10 @@
 "montant": 2298089.75
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "4bacab3c-9890-4df9-a652-0c2e9ccc78e5",
@@ -7357,7 +7915,10 @@
 "montant": 1868606.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "a6255ce1-c074-460a-a37a-33660d5db4ac",
@@ -7386,7 +7947,10 @@
 "montant": 72645.0
 }
 ]
-}
+},
+"estimation": 70000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "2a68d0be-61fc-4c94-b576-b260c2d01a8d",
@@ -7439,7 +8003,10 @@
 "montant": 262470.0
 }
 ]
-}
+},
+"estimation": 136748,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "f99630cc-40f0-4128-8862-0868eb610ef1",
@@ -7492,7 +8059,10 @@
 "montant": 10675000.0
 }
 ]
-}
+},
+"estimation": 9570229.0,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "4b2d30dd-2489-4f3c-b7cf-70f9597134dd",
@@ -7525,7 +8095,10 @@
 "montant": 2655667.0
 }
 ]
-}
+},
+"estimation": 1500000,
+"fourchette": null,
+"estimationVerifiee": true
 },
 {
 "id": "14e4c42b-9b5d-45bb-b63d-7f52d4a20c26",
@@ -7566,7 +8139,10 @@
 "montant": 235086.0
 }
 ]
-}
+},
+"estimation": null,
+"fourchette": "100 000 $ à 138 999 $",
+"estimationVerifiee": true
 },
 {
 "id": "06a6b3fd-f5f5-4270-9162-b9e6e4b0143b",
@@ -7599,6 +8175,9 @@
 "montant": 695200.0
 }
 ]
-}
+},
+"estimation": 425000,
+"fourchette": null,
+"estimationVerifiee": true
 }
 ]

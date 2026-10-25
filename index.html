@@ -122,6 +122,23 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 .connexion { border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 6px; background: var(--bg); }
 .connexion #cx-oui { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
 .lien-btn { border: 0; background: none; color: var(--brique); font-weight: 600; font-size: .82rem; text-decoration: underline; padding: 0; }
+.choix { display: inline-flex; gap: 2px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 3px; justify-self: start; }
+.choix button { border: 0; background: transparent; border-radius: 999px; padding: 6px 14px; font-weight: 600; font-size: .86rem; color: var(--muted); }
+.choix button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.indicateurs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.indicateur { border: 1px solid var(--line); border-radius: 12px; padding: 12px; display: grid; gap: 2px; background: var(--bg); }
+.indicateur b { font-family: var(--f-display); font-size: 1.5rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.indicateur span { font-size: .78rem; color: var(--muted); }
+.sous-titre { margin: 8px 0 0; font-family: var(--f-display); font-size: 1.02rem; }
+.tableau { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+.tableau table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+.tableau th, .tableau td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.tableau th { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: var(--bg); }
+.tableau td.nom { white-space: normal; min-width: 180px; font-weight: 600; }
+.tableau td.n { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--f-mono); }
+.tableau th.n { text-align: right; }
+.tableau tr:last-child td { border-bottom: 0; }
+@media (max-width: 640px) { .indicateurs { grid-template-columns: 1fr 1fr; } }
 .soumission { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: grid; gap: 5px; font-size: .84rem; }
 .soumission .rang { display: grid; grid-template-columns: minmax(150px, 38%) 1fr; gap: 10px; align-items: baseline; }
 .soumission .rang span { color: var(--muted); }
@@ -221,6 +238,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     <button class="tab" type="button" data-v="suivis">★ Suivis<span class="n" id="n-suivis"></span></button>
     <button class="tab" type="button" data-v="desires">♥ Désirés<span class="n" id="n-desires"></span></button>
     <button class="tab" type="button" data-v="fermes">🏁 Contrats fermés<span class="n" id="n-fermes"></span></button>
+    <button class="tab" type="button" data-v="concurrents">📊 Concurrents</button>
   </nav>
 
   <div id="vue-liste">
@@ -247,6 +265,23 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   <div class="urgent" id="urgent"></div>
   <p class="compte" id="compte"></p>
   <section class="list" id="list" aria-live="polite"></section>
+  </div>
+
+  <div id="vue-concurrents" hidden>
+    <div class="bloc" style="margin-bottom:40px">
+      <h2>Analyse des concurrents</h2>
+      <p class="aide">À partir des résultats d'ouverture publiés par SEAO pour les contrats fermés (90 derniers jours). Le gagnant est le plus bas soumissionnaire.</p>
+      <div class="choix" role="group" aria-label="Contrats analysés">
+        <button type="button" data-portee="miens" aria-pressed="true">Selon mes critères</button>
+        <button type="button" data-portee="tous" aria-pressed="false">Tous les contrats</button>
+      </div>
+      <div class="indicateurs" id="cc-indicateurs"></div>
+      <h3 class="sous-titre">Entreprises qui gagnent le plus souvent</h3>
+      <div class="tableau"><table id="cc-entreprises"></table></div>
+      <h3 class="sous-titre">Par région</h3>
+      <div class="tableau"><table id="cc-regions"></table></div>
+      <p class="aide" id="cc-note"></p>
+    </div>
   </div>
 
   <div id="vue-criteres" hidden>
@@ -284,7 +319,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
   let avis = [], meta = {}, vue = "resultats";
-  const VUES = ["tous", "criteres", "resultats", "suivis", "desires", "fermes"];
+  const VUES = ["tous", "criteres", "resultats", "suivis", "desires", "fermes", "concurrents"];
   if (VUES.includes(location.hash.slice(1))) vue = location.hash.slice(1);  // lien direct vers un onglet
   const SEUIL_NOTIF = 60; // même seuil que les notifications par courriel et cellulaire
 
@@ -484,6 +519,59 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     return carte;
   }
 
+  // ----- Analyse des concurrents : résultats d'ouverture des contrats fermés -----
+  let porteeCC = "miens";
+  const cleEntreprise = (n) => sansAccents(n).replace(/\(.*?\)/g, " ").replace(/\b(inc|ltee|ltd|limitee|enr|senc|s e n c)\b/g, " ")
+    .replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+  const mediane = (v) => { if (!v.length) return null; const s = [...v].sort((x, y) => x - y); const m = Math.floor(s.length / 2); return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; };
+  const pourcent = (x) => (x == null ? "—" : `${x > 0 ? "+" : ""}${x.toFixed(1).replace(".", ",")} %`);
+  function tableau(id, entetes, lignes) {
+    const t = $(id); t.innerHTML = "";
+    const th = el("tr"); entetes.forEach(([txt, num]) => th.appendChild(el("th", num ? "n" : null, txt))); t.appendChild(th);
+    lignes.forEach((l) => { const tr = el("tr"); l.forEach(([txt, cls]) => tr.appendChild(el("td", cls || null, txt))); t.appendChild(tr); });
+    if (!lignes.length) { const tr = el("tr"); const td = el("td", null, "Aucun contrat avec résultats pour l'instant."); td.colSpan = entetes.length; tr.appendChild(td); t.appendChild(tr); }
+  }
+  function rendreConcurrents() {
+    document.querySelectorAll(".choix button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.portee === porteeCC ? "true" : "false"));
+    const contrats = avis.filter((a) => a.fermeArchive && a.resultats?.soumissions?.length && (porteeCC === "tous" || pa(a).motsOk));
+    const soum = (a) => a.resultats.soumissions.filter((s) => s.montant != null);
+    const nbSoum = contrats.map((a) => a.resultats.soumissions.length);
+    const ecarts = contrats.map(soum).filter((s) => s.length > 1 && s[0].montant > 0).map((s) => (s[1].montant / s[0].montant - 1) * 100);
+    const vsEst = contrats.filter((a) => a.estimation > 0 && soum(a).length).map((a) => (soum(a)[0].montant / a.estimation - 1) * 100);
+    const seul = contrats.filter((a) => a.resultats.soumissions.length === 1).length;
+    const ind = $("cc-indicateurs"); ind.innerHTML = "";
+    [[contrats.length, "contrats analysés"],
+     [nbSoum.length ? (nbSoum.reduce((x, y) => x + y, 0) / nbSoum.length).toFixed(1).replace(".", ",") : "—", "soumissionnaires en moyenne par contrat"],
+     [pourcent(mediane(ecarts)), "écart typique entre le 1er et le 2e (médiane)"],
+     [pourcent(mediane(vsEst)), `prix gagnant comparé à l'estimation (médiane, ${vsEst.length} contrats)`]]
+      .forEach(([v, l]) => { const d = el("div", "indicateur"); d.append(el("b", null, v), el("span", null, l)); ind.appendChild(d); });
+    // Entreprises
+    const ent = new Map();
+    contrats.forEach((a) => a.resultats.soumissions.forEach((s, i) => {
+      const k = cleEntreprise(s.nom); if (!k) return;
+      const e = ent.get(k) || { nom: s.nom, victoires: 0, participations: 0, total: 0 };
+      e.participations++; if (i === 0) { e.victoires++; e.total += s.montant || 0; }
+      ent.set(k, e);
+    }));
+    const top = [...ent.values()].sort((x, y) => y.victoires - x.victoires || y.participations - x.participations).slice(0, 20);
+    tableau("cc-entreprises", [["Entreprise"], ["Victoires", 1], ["Soumissions", 1], ["Taux de réussite", 1], ["Total gagné", 1]],
+      top.map((e) => [[e.nom, "nom"], [String(e.victoires), "n"], [String(e.participations), "n"],
+        [`${Math.round((e.victoires / e.participations) * 100)} %`, "n"], [e.total ? argent(e.total) : "—", "n"]]));
+    // Régions
+    const reg = new Map();
+    contrats.forEach((a) => { const r = (a.regions || [])[0] || "Non précisée"; const x = reg.get(r) || []; x.push(a); reg.set(r, x); });
+    tableau("cc-regions", [["Région"], ["Contrats", 1], ["Soumissionnaires (moy.)", 1], ["Écart 1er-2e (médiane)", 1], ["Gagnant vs estimation", 1]],
+      [...reg.entries()].sort((x, y) => y[1].length - x[1].length).map(([r, cs]) => {
+        const e = cs.map(soum).filter((s) => s.length > 1 && s[0].montant > 0).map((s) => (s[1].montant / s[0].montant - 1) * 100);
+        const v = cs.filter((a) => a.estimation > 0 && soum(a).length).map((a) => (soum(a)[0].montant / a.estimation - 1) * 100);
+        return [[r, "nom"], [String(cs.length), "n"], [(cs.reduce((t, a) => t + a.resultats.soumissions.length, 0) / cs.length).toFixed(1).replace(".", ","), "n"],
+          [pourcent(mediane(e)), "n"], [pourcent(mediane(v)), "n"]];
+      }));
+    $("cc-note").textContent = `${seul} contrat${seul > 1 ? "s" : ""} n'ont reçu qu'une seule soumission. Les noms d'entreprises écrits un peu différemment sont regroupés. `
+      + (porteeCC === "miens" ? `Seuls les contrats qui contiennent vos mots cochés (profil ${meta.nom || profil}) sont analysés.` : "Tous les contrats fermés de bâtiment sont analysés.");
+  }
+  document.querySelectorAll(".choix button").forEach((b) => b.addEventListener("click", () => { porteeCC = b.dataset.portee; rendreConcurrents(); }));
+
   function rendre() {
     const ouverts = avis.filter((a) => !ferme(a));
     $("n-tous").textContent = ouverts.length;
@@ -505,8 +593,10 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     const faitsIA = actifs.filter((a) => a.analyse?.mode).length;
     $("scan").textContent = meta.date ? `Mis à jour ${quand(meta.date)} · ${actifs.length} avis ouverts · IA ${faitsIA}/${actifs.length}` : "Chargement…";
     $("vue-criteres").hidden = vue !== "criteres";
-    $("vue-liste").hidden = vue === "criteres";
-    if (vue === "criteres") return;
+    $("vue-concurrents").hidden = vue !== "concurrents";
+    $("vue-liste").hidden = vue === "criteres" || vue === "concurrents";
+    if (vue === "concurrents") rendreConcurrents();
+    if (vue === "criteres" || vue === "concurrents") return;
 
     const urg = $("urgent"); urg.innerHTML = "";
     avis.filter((a) => st(a).suivi && !ferme(a) && jours(a) <= 3 && (st(a).statut || "a_soumissionner") === "a_soumissionner")
