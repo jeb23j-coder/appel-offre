@@ -441,7 +441,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne des travaux de réparation et de rénovation à effectuer sur demande sur des bâtiments de la Commission Scolaire. Les corps de métier mentionnés incluent briqueteur-maçon et charpentier-menuisier.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des corps de métier ciblés (maçonnerie et charpenterie/menuiserie) dans le cadre de travaux de rénovation et de réparation.",
+"version": 3
+}
 },
 {
 "id": "f7f553fd-5ecc-4f4d-818a-2132b7e4176c",
@@ -810,7 +822,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour l'aménagement d'un centre pour Sans-Abris. La description mentionne le mot-clé 'abri' et 'rénovation'.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne l'aménagement d'un bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être sollicités, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+}
 },
 {
 "id": "43b7246b-cb5f-4485-8aea-a40e8142c3b1",
@@ -1235,7 +1259,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la révision de la signalétique intérieure des bâtiments A-B-K. Le montant estimé est de 250 000 $ et la durée prévue est de 10 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la révision de la signalétique intérieure et n'implique ni travaux de maçonnerie ni de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c232a869-3396-4c03-ae20-9e0833d95918",
@@ -1320,7 +1356,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection complète de la toiture du pavillon de Danse (K), incluant la démolition, la reconstruction de l'assemblage de toiture, et des travaux connexes. Les travaux incluent spécifiquement le rejointoiement des joints de mortier au niveau des parapets et de la cheminée.",
+"pointsAttention": [
+"Bâtiment demeurera occupé et en fonction pendant les travaux",
+"Travaux impliquent la modification de murets de maçonnerie coupe-feu autour des ouvertures dans l’entretoit"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de maçonnerie (rejointoiement, murets de maçonnerie) qui correspondent aux intérêts de l'entreprise, bien que le cœur du projet soit la toiture.",
+"version": 3
+}
 },
 {
 "id": "bb821d20-080f-4121-81a6-c46b4500e66f",
@@ -1989,7 +2038,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation de la cuisine d'une école secondaire. Le montant estimé est de 1 300 000 $ et la durée prévue est de 24 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est trop spécifique (rénovation de cuisine) et ne met pas l'accent sur les métiers ciblés (maçonnerie/charpenterie) comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "ac66c321-399d-4f6c-a339-cedf89556649",
@@ -2095,7 +2156,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'exécution des travaux de placoplâtre et de peinture dans des logements occupés et des aires communes. Il nécessite deux entrepreneurs spécialisés pour l'exécution des travaux.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne la peinture et le placoplâtre, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "2215893a-8fb2-49ba-b611-59e50c6f6f91",
@@ -2385,7 +2458,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le remplacement d'un escalier intérieur dans une école. Les travaux devraient durer six semaines, avec une visite des lieux prévue le 27 octobre 2026.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Soumission directe",
+"raison": "Bien que le travail soit sur un escalier (qui peut impliquer la maçonnerie ou la charpenterie), le cœur du contrat n'est pas clairement défini comme étant la maçonnerie ou la charpenterie principale.",
+"version": 3
+}
 },
 {
 "id": "6a927127-6be8-458d-9ae8-606494d8b235",
@@ -2482,7 +2567,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'amélioration de l'intercepteur et de la chambre d'arrivée d'une station d'épuration. Le mot-clé trouvé est 'enveloppe'.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "8736074a-6e9c-4bb8-8358-37098411f7a1",
@@ -2700,7 +2797,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement intérieur et l'ajout de nouveaux locaux au GMF-U Marigot. Les travaux incluent des interventions en architecture, mécanique du bâtiment, électricité et tous les travaux connexes.",
+"pointsAttention": [
+"bâtiment est un CLSC demeure occupé pendant la durée des travaux",
+"nécessité de prendre connaissance des méthodes de phasage des travaux et des coupures de services"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le projet soit un agrandissement de bâtiment, l'accent est mis sur la mécanique, l'électricité et l'architecture, et non spécifiquement sur la maçonnerie ou la charpenterie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "90fbb1d2-40ca-420c-a291-d115be469dec",
@@ -2789,7 +2899,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des plafonds, luminaires et systèmes de ventilation au niveau 1 ainsi que la réfection des toitures de l'école Les Primevères. Le montant estimé est de 2 000 000 $ et la durée prévue est de 10 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur les systèmes techniques (plafonds, ventilation, toiture) et n'a pas de composante majeure en maçonnerie ou charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "bad9fa75-a596-4d9c-ab06-247b82283fe4",
@@ -3650,7 +3772,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le projet concerne la rénovation extérieure et la ré-isolation des murs périmétriques des sous-sols pour des immeubles situés à Bedford. La durée prévue pour ce projet est de 4 mois.",
+"pointsAttention": [
+"délai court (réception des soumissions le 12 novembre 2026)"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le projet inclut clairement des travaux de rénovation extérieure et de ré-isolation des murs, ce qui correspond directement aux compétences en maçonnerie et travaux de façade.",
+"version": 3
+}
 },
 {
 "id": "5eacf4f3-2f97-480d-88ff-d939dd21262e",
@@ -4039,7 +4173,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation du système de traitement d'eau potable et l'aménagement d'une conciergerie pour une école. Les travaux visés incluent l'installation d'un nouveau système de traitement de l'eau, des équipements, l'excavation, l'asphaltage et l'aménagement de la conciergerie.",
+"pointsAttention": [
+"Visite obligatoire le 28 octobre 2026 à 12h00. Les personnes qui se présenteront doivent demeurer à l’extérieur jusqu’à l’arrivée du chargé de projet."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'implique ni maçonnerie ni charpenterie/menuiserie comme cœur des travaux.",
+"version": 3
+}
 },
 {
 "id": "ed454b56-ad97-4291-b6ef-bd518f6f5f83",
@@ -4254,7 +4400,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer les hottes chimiques et à rénover trois laboratoires dans les pavillons Adrien-Pouliot et Alexandre-Vachon.",
+"pointsAttention": [
+"délai de 20 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la rénovation de laboratoires et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5c434e02-4e05-4f6c-9507-138325401b45",
@@ -4383,7 +4541,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réfection du chauffage et des finis intérieurs au rez-de-chaussée d'une école secondaire. Le montant estimé est de 950 000 $ et la durée prévue est de 6 mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire le 22 octobre 2026."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de bâtiment qui pourrait inclure des lots de maçonnerie ou de menuiserie, mais le titre se concentre sur le chauffage et les finis intérieurs.",
+"version": 3
+}
 },
 {
 "id": "4321fde3-81b8-446f-9e07-389be4e1f1af",
@@ -4582,7 +4752,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation des locaux de sciences et de bureaux dans un bâtiment à Plessisville. Le projet inclut des travaux de réaménagement intérieur et de mise à niveau, avec des mots-clés mentionnant 'enveloppe' et 'bois'.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de bâtiment général où les métiers de maçonnerie et/ou charpenterie/menuiserie pourraient être inclus dans les travaux de rénovation et d'enveloppe.",
+"version": 3
+}
 },
 {
 "id": "9a06b55d-ba20-4f42-8392-9917ba1a0b81",
@@ -4957,7 +5139,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le remplacement de deux escaliers d'issue extérieurs ainsi que de portes et fenêtres extérieures sur un bâtiment à Montréal. Les travaux devraient durer six semaines.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat inclut des travaux de remplacement d'escaliers et de portes/fenêtres, ce qui touche à la charpenterie/menuiserie et potentiellement à la maçonnerie (selon la nature des escaliers). L'entreprise peut soumissionner directement.",
+"version": 3
+}
 },
 {
 "id": "bd07948b-8159-405c-a70c-de58bb019974",
@@ -5990,7 +6184,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des fenêtres de l'École Sacré-Coeur. Le montant estimé est de 1 800 000 $ et la durée prévue est de 24 mois.",
+"pointsAttention": [
+"délai long (24 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement le remplacement de fenêtres et n'inclut ni maçonnerie ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "319e7f17-8b16-4c2c-8f18-fa569895b667",
@@ -7002,7 +7208,23 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de transformateurs et disjoncteurs à un poste électrique. Les travaux incluent des travaux civils, des fondations en béton, la charpente métallique, et des travaux d'implantation électrique.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat est centré sur les travaux électriques et civils, et n'inclut pas de travail principal en maçonnerie ou charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "80f19242-096f-483d-a4e0-43806caa3afc",
@@ -7232,7 +7454,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réhabilitation intérieure d'une école secondaire, avec une durée prévue de 13 mois et un montant estimé de 15 millions de dollars. Les mots-clés mentionnés sont 'enveloppe' et 'réhabilitation'.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de bâtiment où la maçonnerie ou la charpenterie pourraient être un lot, mais le titre général est 'réhabilitation intérieure'.",
+"version": 3
+}
 },
 {
 "id": "23697807-5f2a-474c-b80c-b3051ce248d2",
@@ -8831,7 +9065,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet vise à mettre aux normes un local d'entreposage et à agrandir l'espace d'entreposage en intégrant un atelier de mécaniciens. Les travaux incluent la transformation des locaux actuels et l'agrandissement de la salle mécanique.",
+"pointsAttention": [
+"Délai de réalisation de 14 semaines",
+"Montant estimé de 564 799.50 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement et une construction de bâtiment, ce qui inclut potentiellement des travaux de maçonnerie ou de charpenterie, mais le focus principal semble être sur les travaux de mise aux normes et l'agrandissement d'un local technique.",
+"version": 3
+}
 },
 {
 "id": "d7be5230-671d-403a-9d39-9f824749e41f",
@@ -9784,7 +10031,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de vannes, la tuyauterie et la réfection des bassins de stockage des boues pour la Ville de Saint-Jean-sur-Richelieu.",
+"pointsAttention": [
+""
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "cfc3e68a-a1e1-4bed-812c-e2da8658fa13",
@@ -10104,7 +10363,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 70,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement de quatre classes au Pavillon E d'un Cégep, incluant la démolition de cloisons, la construction de nouvelles cloisons, les travaux de plafonds et les finitions intérieures.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de 8 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des travaux de finition intérieure et de cloisons, ce qui touche à la menuiserie/finition intérieure, mais le cœur du contrat semble être la réorganisation spatiale et les travaux de finition, nécessitant une vérification approfondie de la part de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "a215436f-91ec-4b10-9584-a85ed15270ce",
@@ -11272,7 +11544,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux de sécurisation du périmètre du palais de justice de Laval, incluant des interventions en architecture, électricité et sécurité électronique dans un bâtiment occupé. Le projet est estimé à 892 300 $ et la durée prévue est de 8 mois.",
+"pointsAttention": [
+"travaux dans un bâtiment occupé",
+"intervention en architecture"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat se concentre sur la sécurité et les travaux d'architecture/électricité plutôt que sur la maçonnerie ou la charpenterie comme cœur du projet.",
+"version": 3
+}
 },
 {
 "id": "b5f21343-9c22-4002-aeb1-9625b2e1572d",
@@ -11390,7 +11675,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le projet vise à restaurer et préserver l'architecture patrimoniale du site. Ce lot de travaux concerne le coffrage, la grue et la mise en place du béton.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne le coffrage et la mise en place du béton, ce qui est lié à la maçonnerie/structure, mais n'est pas le cœur du métier de briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "1c436486-b17e-4dda-b8af-a13b5aadea21",
@@ -11739,7 +12036,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'une caserne ouest pour la sécurité incendie, avec une durée totale estimée de deux ans. Les mots-clés mentionnés incluent 'enveloppe' et 'construction d'.",
+"pointsAttention": [
+"délai court (date limite de soumission : 2026-10-20)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de construction de bâtiment, ce qui inclut potentiellement des travaux de maçonnerie et/ou charpenterie, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "9f09e0de-9188-4772-a8fd-4c2221eb816b",
