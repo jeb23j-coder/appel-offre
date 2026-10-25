@@ -81,7 +81,7 @@ def envoyer(sujet, courriel, titre, items):
                        for a in items[:5])
     if len(items) > 5:
         resume += f"\n… et {len(items) - 5} autres"
-    corps = {"topic": sujet, "title": f"Appel Offre : {titre}", "message": resume, "click": SITE, "tags": ["bell"], "priority": 4}
+    corps = {"topic": sujet, "title": f"Radar Chantier : {titre}", "message": resume, "click": SITE, "tags": ["bell"], "priority": 4}
     if courriel:
         corps["email"] = courriel
     req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(corps).encode(), headers={"Content-Type": "application/json"})

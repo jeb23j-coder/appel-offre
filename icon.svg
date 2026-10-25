@@ -1,10 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#1d5bb8"/>
-  <path d="M140 132h168l64 64v184a20 20 0 0 1-20 20H140a20 20 0 0 1-20-20V152a20 20 0 0 1 20-20z" fill="#fff"/>
-  <path d="M308 132v44a20 20 0 0 0 20 20h44" fill="#cfdcf3"/>
-  <rect x="160" y="230" width="150" height="18" rx="9" fill="#1d5bb8"/>
-  <rect x="160" y="272" width="190" height="18" rx="9" fill="#9db6e3"/>
-  <rect x="160" y="314" width="120" height="18" rx="9" fill="#9db6e3"/>
-  <circle cx="370" cy="368" r="58" fill="#f2b33d"/>
-  <path d="M370 334l10 21 23 3-17 16 4 23-20-11-20 11 4-23-17-16 23-3z" fill="#fff"/>
+  <defs>
+    <clipPath id="c"><rect width="512" height="512" rx="112"/></clipPath>
+    <radialGradient id="balayage" cx="256" cy="256" r="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8a66" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#b4462c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="512" height="512" fill="#1b2632"/>
+    <!-- briques -->
+    <g fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="6">
+      <path d="M0 96H512M0 192H512M0 288H512M0 384H512M0 480H512"/>
+      <path d="M128 0V96M384 0V96M0 96V192M256 96V192M512 96V192M128 192V288M384 192V288M0 288V384M256 288V384M128 384V480M384 384V480"/>
+    </g>
+    <!-- radar -->
+    <circle cx="256" cy="256" r="190" fill="#121b24" stroke="#b4462c" stroke-width="14"/>
+    <circle cx="256" cy="256" r="126" fill="none" stroke="#e9eef3" stroke-opacity=".22" stroke-width="6"/>
+    <circle cx="256" cy="256" r="62" fill="none" stroke="#e9eef3" stroke-opacity=".22" stroke-width="6"/>
+    <path d="M256 66V446M66 256H446" stroke="#e9eef3" stroke-opacity=".14" stroke-width="5"/>
+    <path d="M256 256 L256 66 A190 190 0 0 1 420 161 Z" fill="url(#balayage)"/>
+    <path d="M256 256 L420 161" stroke="#ffb59e" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="256" cy="256" r="16" fill="#ffb59e"/>
+    <!-- contrat repéré -->
+    <circle cx="340" cy="150" r="20" fill="#f2b33d"/>
+    <circle cx="340" cy="150" r="34" fill="none" stroke="#f2b33d" stroke-opacity=".5" stroke-width="6"/>
+  </g>
 </svg>
