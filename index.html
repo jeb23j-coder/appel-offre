@@ -216,7 +216,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   </nav>
 
   <div id="vue-liste">
-  <div class="barre">
+  <div class="barre" id="barre">
     <input id="q" type="search" placeholder="Rechercher : brique, Laval, école, n° d'avis…" aria-label="Rechercher">
     <div class="filtres">
       <select id="f-region" aria-label="Région"><option value="">Toutes les régions</option></select>
@@ -486,7 +486,10 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
       .forEach((a) => urg.appendChild(el("div", null, `⚠ ${a.titre} ferme ${jours(a) === 0 ? "aujourd'hui" : `dans ${jours(a)} j`} (${quand(a.fermeture)})`)));
 
     const perso = vue === "suivis" || vue === "desires" || vue === "fermes";
-    const liste = avis.filter((a) => dansVue(a) && correspond(a) && (perso || !ferme(a))).sort(tri(vue));
+    // Résultats de mes critères : ce sont les résultats des critères, pas une recherche (pas de barre ni de filtres)
+    const sansRecherche = vue === "resultats";
+    $("barre").hidden = sansRecherche;
+    const liste = avis.filter((a) => dansVue(a) && (sansRecherche || correspond(a)) && (perso || !ferme(a))).sort(tri(vue));
     $("compte").textContent = avis.length ? `${liste.length} contrat${liste.length > 1 ? "s" : ""}` + (vue === "resultats" ? ` trouvés avec vos critères (score 40 et plus), du meilleur au moins bon · 🔔 = notifié (score ${SEUIL_NOTIF} et plus)` : "") : "";
     const box = $("list"); box.innerHTML = "";
     if (!liste.length) {
