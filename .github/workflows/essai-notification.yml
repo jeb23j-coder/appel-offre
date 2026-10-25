@@ -1,0 +1,19 @@
+name: Essai de notification
+
+# À lancer à la main (onglet Actions) pour vérifier que les courriels de notification arrivent.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  issues: write
+
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - run: |
+          gh issue create -R "$GITHUB_REPOSITORY" --label notification --assignee "${{ github.repository_owner }}" \
+            --title "Essai : notification Appel Offre" \
+            --body "Si vous recevez ce courriel, les notifications d'Appel Offre fonctionnent. Vous recevrez un message comme celui-ci dès qu'un nouveau contrat correspond à vos critères. Site : https://jeb23j-coder.github.io/appel-offre/"
