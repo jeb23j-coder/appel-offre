@@ -310,8 +310,30 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     try { localStorage.setItem(cleSuivi(), JSON.stringify(suivi)); } catch {}
     if (!sansRendu) rendre();
   }
-  // Résultat des critères du profil courant pour un avis
-  const pa = (a) => a.profils?.[profil] || { motsTrouves: a.motsTrouves, motsOk: a.motsOk, familles: a.familles, tropCher: a.tropCher };
+  // Résultat des critères du profil courant pour un avis, calculé ici dans la page :
+  // dès que les critères changent, tous les avis sont retriés instantanément (même règle que le robot).
+  const sansAccents = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  const echapper = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  let regles = null, cache = new Map();
+  function preparerRegles() {
+    const motif = (m) => ({ mot: m, re: new RegExp("\\b" + echapper(sansAccents(m))) });
+    regles = { cles: (meta.motsCles || []).map(motif), exclus: (meta.motsExclus || []).map(motif),
+      choisis: new Set((meta.motsCles || []).map((m) => m.toLowerCase())), familles: meta.familles || {} };
+    cache = new Map();
+  }
+  function pa(a) {
+    if (!regles) preparerRegles();
+    if (cache.has(a.id)) return cache.get(a.id);
+    const tout = sansAccents(`${a.titre} ${a.description || ""}`), titre = sansAccents(a.titre);
+    const trouves = regles.cles.filter((r) => r.re.test(tout)).map((r) => r.mot);
+    const tTrouves = regles.cles.some((r) => r.re.test(titre)), tExclus = regles.exclus.some((r) => r.re.test(titre));
+    const familles = Object.entries(regles.familles).filter(([, termes]) => termes.some((t) =>
+      regles.choisis.has(t.toLowerCase()) && new RegExp("\\b" + echapper(sansAccents(t))).test(tout))).map(([n]) => n);
+    const res = { motsTrouves: trouves, motsOk: trouves.length > 0 && !(tExclus && !tTrouves), familles,
+      tropCher: !!(a.estimation && a.estimation > (meta.montantMax || Infinity)) };
+    cache.set(a.id, res);
+    return res;
+  }
 
   // Dates
   const date = (s) => { if (!s) return null; const [d, t = "00:00"] = s.split("T"); const [y, m, j] = d.split("-").map(Number); const [h, mi] = t.split(":").map(Number); return new Date(y, m - 1, j, h, mi); };
@@ -479,9 +501,6 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
       v.append(!avis.length ? "" : vue === "suivis" ? "Touchez l'étoile ☆ d'un contrat pour le suivre." : vue === "desires" ? "Touchez le cœur ♡ d'un contrat pour l'ajouter ici." : "Essayez d'enlever un filtre ou de changer la recherche.");
       box.appendChild(v);
     } else liste.slice(0, 200).forEach((a) => box.appendChild(fiche(a)));
-
-    const faits = avis.filter((a) => a.analyse?.mode).length;
-    $("scan").textContent = meta.date ? `Mis à jour ${quand(meta.date)} · ${avis.length} avis SEAO · IA ${faits}/${avis.length}` : "Chargement…";
   }
 
   document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => { vue = t.dataset.v; rendre(); window.scrollTo({ top: 0 }); }));
@@ -563,12 +582,41 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
       : "Aucun courriel pour l'instant : entrez celui où vous voulez recevoir vos notifications.";
   }
 
+  // Critères en attente (sauvegardés sur cet appareil, avant l'enregistrement par le robot)
+  const cleAttente = () => `radar-attente-${profil}`;
+  function lireAttente() { try { return JSON.parse(localStorage.getItem(cleAttente()) || "null"); } catch { return null; } }
+  function criteresDuFormulaire() {
+    const familles = (boite) => Object.fromEntries([...boite.querySelectorAll(".famille[data-famille]")]
+      .map((f) => [f.dataset.famille, [...f.querySelectorAll(".regions input")].map((x) => x.value)]));
+    const coches = (boite) => [...new Set([...boite.querySelectorAll(".regions input:checked")].map((x) => x.value))];
+    const nombre = (v) => Number(String(v).replace(/[^\d]/g, "")) || 0;
+    return { motsCles: coches($("c-mots")), motsExclus: coches($("c-exclus")), familles: familles($("c-mots")), famillesExclus: familles($("c-exclus")),
+      regionsPreferees: cochees($("c-regions")), montantMin: nombre($("c-min").value), montantMax: nombre($("c-max").value) || 15000000 };
+  }
+  // Retrie instantanément tous les avis avec les critères du formulaire
+  function appliquerTout() {
+    const crit = criteresDuFormulaire();
+    try { localStorage.setItem(cleAttente(), JSON.stringify({ ...crit, temps: Date.now() })); } catch {}
+    Object.assign(meta, crit);
+    preparerRegles();
+    rendre();
+  }
+
   // Choix du profil : chaque profil voit ses critères, ses résultats et ses étoiles
   function chargerProfil() {
     const p = config.profils[profil] || {};
     meta = { ...donneesMeta, nom: p.nom, courrielMasque: p.courrielMasque || "",
       motsCles: p.mots_cles || [], motsExclus: p.mots_exclus || [], familles: p.familles || {}, famillesExclus: p.familles_exclus || {},
       regionsPreferees: p.regions_preferees || [], montantMin: p.montant_min ?? 0, montantMax: p.montant_max ?? 15000000 };
+    // Critères sauvegardés ici mais pas encore enregistrés par le robot : on les utilise déjà
+    const attente = lireAttente();
+    if (attente) {
+      const pareil = JSON.stringify([...meta.motsCles].sort()) === JSON.stringify([...attente.motsCles].sort())
+        && JSON.stringify([...meta.motsExclus].sort()) === JSON.stringify([...attente.motsExclus].sort());
+      if (pareil || Date.now() - attente.temps > 3 * 3600e3) { try { localStorage.removeItem(cleAttente()); } catch {} }
+      else Object.assign(meta, attente);
+    }
+    preparerRegles();
     lireSuivi();
     const boite = $("profils"); boite.innerHTML = "";
     Object.entries(config.profils).forEach(([id, pr]) => {
@@ -587,7 +635,15 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   const lireCode = () => { try { return localStorage.getItem(CLE_CODE) || ""; } catch { return ""; } };
   function majCode() { const ok = !!lireCode(); $("code-non").hidden = ok; $("code-oui").hidden = !ok; }
   $("code-changer").addEventListener("click", () => { try { localStorage.removeItem(CLE_CODE); } catch {} majCode(); $("code-sauv").focus(); });
-  majCode();
+  // Vérification du code dans le navigateur (empreinte protégée, le code lui-même n'est pas dans la page)
+  const EMPREINTE_CODE = "7d61bf80fb2aee998bcc0f81540d303bc0de06c7c192dc1c5d4d9a72201bd517";
+  async function codeValide(code) {
+    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(code.trim().toUpperCase()), "PBKDF2", false, ["deriveBits"]);
+    const bits = await crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: new TextEncoder().encode("radar-chantier-sauvegarde"), iterations: 300000 }, base, 256);
+    return [...new Uint8Array(bits)].map((o) => o.toString(16).padStart(2, "0")).join("") === EMPREINTE_CODE;
+  }
+  // Un mauvais code retenu par erreur sur cet appareil est oublié
+  (async () => { const c = lireCode(); if (c && !(await codeValide(c))) { try { localStorage.removeItem(CLE_CODE); } catch {} } majCode(); })();
 
   // Envoi chiffré : gzip, puis AES-GCM ; la clé AES est chiffrée avec la clé publique du site (RSA-OAEP).
   // Seul le robot (clé privée) peut lire la sauvegarde ; il vérifie aussi le code avant de l'appliquer.
@@ -634,12 +690,21 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     // Sauvegarde directe, sans quitter l'application
     const code = lireCode() || $("code-sauv").value.trim();
     if (!code) { $("c-msg").textContent = "Entrez le code de sauvegarde juste au-dessus du bouton."; $("code-sauv").focus(); return; }
+    $("c-msg").textContent = "Vérification du code…";
+    if (!(await codeValide(code))) {
+      try { localStorage.removeItem(CLE_CODE); } catch {}
+      majCode(); $("code-sauv").focus();
+      $("c-msg").textContent = "❌ Code de sauvegarde incorrect. Vérifiez-le et réessayez (exemple de forme : MOT-1234-MOT).";
+      return;
+    }
     $("c-msg").textContent = "Sauvegarde en cours…";
     try {
-      await envoyerSauvegarde(code, corps);
-      try { localStorage.setItem(CLE_CODE, code); } catch {}
+      await envoyerSauvegarde(code.trim().toUpperCase(), corps);
+      try { localStorage.setItem(CLE_CODE, code.trim().toUpperCase()); } catch {}
       $("code-sauv").value = ""; majCode();
-      $("c-msg").textContent = "✅ Critères sauvegardés. Ils seront appliqués d'ici 10 minutes, puis les contrats seront reclassés.";
+      // Les résultats changent tout de suite sur cet appareil ; le robot enregistre pour tous d'ici 10 minutes
+      appliquerTout();
+      $("c-msg").textContent = "✅ Critères sauvegardés. Vos résultats sont déjà mis à jour ici ; ils seront enregistrés pour tous les appareils d'ici 10 minutes.";
     } catch {
       $("c-msg").textContent = "La sauvegarde n'a pas pu partir (connexion internet ?). Réessayez dans un instant.";
     }
