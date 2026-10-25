@@ -119,6 +119,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 .due.vite { background: var(--danger-soft); color: var(--danger); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { font-size: .74rem; font-weight: 500; padding: 3px 9px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.tag.merx { background: var(--nuit); color: #fff; border-color: transparent; font-weight: 700; }
 .tag.att { background: var(--p3-soft); color: var(--p3); border-color: transparent; font-weight: 600; }
 .bas { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; font-size: .86rem; padding-top: 4px; border-top: 1px dashed var(--line); }
 .bas a { color: var(--brique); font-weight: 700; text-decoration: none; }
@@ -366,6 +367,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     c.appendChild(infos);
 
     const tags = el("div", "tags");
+    if (a.source === "Merx") tags.appendChild(el("span", "tag merx", "Merx"));
     if (sc >= SEUIL_NOTIF) tags.appendChild(el("span", "tag att", "🔔 Notifié"));
     if (a.visiteObligatoire) tags.appendChild(el("span", "tag att", "Visite obligatoire"));
     (pa(a).familles || []).forEach((f) => tags.appendChild(el("span", "tag", f)));
@@ -383,7 +385,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     }
 
     const bas = el("div", "bas");
-    if (a.lien) { const l = el("a", null, "Voir l'avis sur SEAO ↗"); l.href = a.lien; l.target = "_blank"; l.rel = "noopener"; bas.appendChild(l); }
+    if (a.lien) { const l = el("a", null, `Voir l'avis sur ${a.source === "Merx" ? "Merx" : "SEAO"} ↗`); l.href = a.lien; l.target = "_blank"; l.rel = "noopener"; bas.appendChild(l); }
     if (a.description) { const d = el("details"); d.appendChild(el("summary", null, "Description complète")); d.appendChild(el("p", null, a.description)); bas.appendChild(d); }
     c.appendChild(bas);
     carte.append(cadran, c);

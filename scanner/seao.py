@@ -206,6 +206,19 @@ def main():
         f["vuLe"] = maintenant_quebec()
         toutes[u] = f
 
+    # Avis Merx ajoutés à la main ou par les alertes courriel (data/merx.json) : gardés tant qu'ils sont ouverts,
+    # avec leur analyse IA déjà faite s'il y en a une.
+    precedents = {x["id"]: x for x in base["avis"]}
+    maintenant = maintenant_quebec()
+    for m in lire("merx.json", []):
+        if (m.get("fermeture") or "9999") < maintenant:
+            continue
+        f = precedents.get(m["id"], {})
+        f.update(m)
+        toutes[m["id"]] = f
+    for f in toutes.values():
+        f.setdefault("source", "SEAO")
+
     # Tous les avis sont gardés : l'IA les passe tous en revue. Les critères de chaque profil
     # (Jonathan, Patrick…) servent à trier et à repérer ses contrats potentiels.
     avis, nouveaux_ids = [], []
