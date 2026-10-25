@@ -106,7 +106,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .champ input, .champ textarea { width: 100%; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 8px 10px; font-size: .92rem; resize: vertical; }
 .deux { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .regions { display: flex; flex-wrap: wrap; gap: 6px; }
-.regions label { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; user-select: none; }
+.regions label { font-size: .82rem; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; user-select: none; text-transform: none; letter-spacing: normal; font-weight: 500; color: var(--muted); }
 .regions input { position: absolute; opacity: 0; pointer-events: none; }
 .regions label:has(input:checked) { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
 .familles { display: grid; gap: 10px; }
@@ -199,6 +199,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
   let avis = [], meta = {}, vue = "resultats";
+  const VUES = ["tous", "criteres", "resultats", "suivis", "desires"];
+  if (VUES.includes(location.hash.slice(1))) vue = location.hash.slice(1);  // lien direct vers un onglet
   const SEUIL_NOTIF = 60; // même seuil que les notifications par courriel et cellulaire
 
   // Étoiles, statuts et notes : gardés sur cet appareil (mêmes données qu'avant)
@@ -311,6 +313,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     $("n-suivis").textContent = avis.filter((a) => st(a).suivi).length;
     $("n-desires").textContent = avis.filter((a) => st(a).desire).length;
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-pressed", t.dataset.v === vue ? "true" : "false"));
+    const faitsIA = avis.filter((a) => a.analyse?.mode).length;
+    $("scan").textContent = meta.date ? `Mis à jour ${quand(meta.date)} · ${avis.length} avis SEAO · IA ${faitsIA}/${avis.length}` : "Chargement…";
     $("vue-criteres").hidden = vue !== "criteres";
     $("vue-liste").hidden = vue === "criteres";
     if (vue === "criteres") return;
@@ -393,10 +397,22 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   });
 
   rendre();
-  fetch("data/avis.json?v=" + Date.now(), { cache: "no-store" })
-    .then((r) => r.json())
-    .then((d) => {
-      avis = d.avis || []; meta = d.meta || {};
+  // Les critères viennent directement du fichier des réglages (toujours à jour), les avis du dernier balayage
+  const sansCache = { cache: "no-store" };
+  Promise.all([
+    fetch("data/avis.json?v=" + Date.now(), sansCache).then((r) => r.json()),
+    fetch("config.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => ({})),
+  ])
+    .then(([d, cfg]) => {
+      avis = d.avis || [];
+      meta = { ...(d.meta || {}),
+        motsCles: cfg.mots_cles || d.meta?.motsCles || [],
+        motsExclus: cfg.mots_exclus || d.meta?.motsExclus || [],
+        familles: cfg.familles || d.meta?.familles || {},
+        suggestionsExclus: cfg.suggestions_exclus || [],
+        regionsPreferees: cfg.regions_preferees || d.meta?.regionsPreferees || [],
+        montantMin: cfg.montant_min ?? d.meta?.montantMin ?? 0,
+        montantMax: cfg.montant_max ?? d.meta?.montantMax ?? 15000000 };
       const regs = [...new Set(avis.flatMap((a) => a.regions || []))].sort((x, y) => x.localeCompare(y, "fr"));
       regs.forEach((r) => { const o = el("option", null, r); o.value = r; $("f-region").appendChild(o); });
       remplirReglages();
