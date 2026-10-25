@@ -51,7 +51,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .filtres { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
 .filtres select { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 8px 10px; font-size: .88rem; }
 
-.tabs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px; margin-block: 10px; }
+.tabs { display: grid; grid-template-columns: 1fr 1fr 1.6fr 1fr 1fr; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px; margin-block: 10px; }
 .tab { border: 0; background: transparent; border-radius: 9px; padding: 9px 4px; font-weight: 600; font-size: .9rem; color: var(--muted); }
 .tab[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
 .tab .n { font-family: var(--f-mono); font-size: .78rem; opacity: .8; margin-left: 3px; }
@@ -118,7 +118,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .alerte { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: .88rem; }
 .alerte span { color: var(--muted); font-size: .8rem; flex: 1; min-width: 12ch; }
 .alerte a { color: var(--danger); font-size: .82rem; }
-@media (max-width: 560px) { .tabs { grid-template-columns: 1fr 1fr; } .filtres { grid-template-columns: 1fr 1fr; } .filtres select:last-child { grid-column: 1 / -1; } .deux { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .tabs { grid-template-columns: 1fr 1fr; } .tabs .tab[data-v="resultats"] { grid-column: 1 / -1; order: -1; } }
+@media (max-width: 560px) { .filtres { grid-template-columns: 1fr 1fr; } .filtres select:last-child { grid-column: 1 / -1; } .deux { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -129,11 +130,19 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
       <h1>Appel Offre</h1>
       <p class="scan" id="scan">Chargement…</p>
     </div>
-    <button class="icon-btn" id="ouvrirReglages" type="button" aria-label="Réglages : mes critères et mes alertes">⚙️ Réglages</button>
   </div>
 </header>
 
 <main class="wrap">
+  <nav class="tabs" aria-label="Vues">
+    <button class="tab" type="button" data-v="tous">Tous les offres<span class="n" id="n-tous"></span></button>
+    <button class="tab" type="button" data-v="criteres">⚙️ Mes critères</button>
+    <button class="tab" type="button" data-v="resultats">🔔 Résultats de mes critères<span class="n" id="n-resultats"></span></button>
+    <button class="tab" type="button" data-v="suivis">★ Suivis<span class="n" id="n-suivis"></span></button>
+    <button class="tab" type="button" data-v="desires">♥ Désirés<span class="n" id="n-desires"></span></button>
+  </nav>
+
+  <div id="vue-liste">
   <div class="barre">
     <input id="q" type="search" placeholder="Rechercher : brique, Laval, école, n° d'avis…" aria-label="Rechercher">
     <div class="filtres">
@@ -154,27 +163,13 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     </div>
   </div>
 
-  <nav class="tabs" aria-label="Vues">
-    <button class="tab" type="button" data-v="tous">Tous<span class="n" id="n-tous"></span></button>
-    <button class="tab" type="button" data-v="criteres">Mes critères<span class="n" id="n-criteres"></span></button>
-    <button class="tab" type="button" data-v="suivis">★ Suivis<span class="n" id="n-suivis"></span></button>
-    <button class="tab" type="button" data-v="desires">♥ Contrats désirés<span class="n" id="n-desires"></span></button>
-  </nav>
-
   <div class="urgent" id="urgent"></div>
   <p class="compte" id="compte"></p>
   <section class="list" id="list" aria-live="polite"></section>
-</main>
+  </div>
 
-<div class="reglages" id="reglages" hidden>
-  <header>
-    <div class="wrap">
-      <div class="t"><h1>Réglages</h1><p class="scan">Vos critères servent à toutes les recherches futures.</p></div>
-      <button class="icon-btn" id="fermerReglages" type="button">✕ Fermer</button>
-    </div>
-  </header>
-  <div class="wrap">
-    <form class="bloc" id="formCriteres" autocomplete="off">
+  <div id="vue-criteres" hidden>
+    <form class="bloc" id="formCriteres" autocomplete="off" style="margin-top:0; margin-bottom:40px">
       <h2>Mes critères</h2>
       <p class="aide">Ils décident quels avis sont retenus et calculent le score de chaque contrat.</p>
       <div class="champ"><label>Mots-clés recherchés : cochez ceux qui vous intéressent</label><div id="c-mots" class="familles"></div></div>
@@ -191,7 +186,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
       <p class="aide" id="c-msg">GitHub s'ouvre avec vos critères : cliquez sur « Submit new issue » pour confirmer.</p>
     </form>
   </div>
-</div>
+</main>
 
 <script>
 (() => {
@@ -203,7 +198,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   const argent = (n) => n >= 1e6 ? (Math.round(n / 1e4) / 100).toLocaleString("fr-CA") + " M$" : n.toLocaleString("fr-CA") + " $";
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
-  let avis = [], meta = {}, vue = "criteres";
+  let avis = [], meta = {}, vue = "resultats";
+  const SEUIL_NOTIF = 60; // même seuil que les notifications par courriel et cellulaire
 
   // Étoiles, statuts et notes : gardés sur cet appareil (mêmes données qu'avant)
   let suivi = {};
@@ -249,8 +245,8 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     if (f && (ferme(a) || jours(a) > Number(f))) return false;
     return true;
   }
-  const dansVue = (a) => vue === "suivis" ? !!st(a).suivi : vue === "desires" ? !!st(a).desire : vue === "criteres" ? score(a) >= 40 : true;
-  const tri = (v) => v === "criteres"
+  const dansVue = (a) => vue === "suivis" ? !!st(a).suivi : vue === "desires" ? !!st(a).desire : vue === "resultats" ? score(a) >= 40 : true;
+  const tri = (v) => v === "resultats"
     ? (x, y) => score(y) - score(x) || (x.fermeture || "").localeCompare(y.fermeture || "")
     : (x, y) => (ferme(x) - ferme(y)) || (x.fermeture || "").localeCompare(y.fermeture || "");
 
@@ -285,6 +281,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     c.appendChild(infos);
 
     const tags = el("div", "tags");
+    if (sc >= SEUIL_NOTIF) tags.appendChild(el("span", "tag att", "🔔 Notifié"));
     if (a.visiteObligatoire) tags.appendChild(el("span", "tag att", "Visite obligatoire"));
     (a.familles || []).forEach((f) => tags.appendChild(el("span", "tag", f)));
     if (tags.childNodes.length) c.appendChild(tags);
@@ -310,10 +307,13 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   function rendre() {
     const ouverts = avis.filter((a) => !ferme(a));
     $("n-tous").textContent = ouverts.length;
-    $("n-criteres").textContent = ouverts.filter((a) => score(a) >= 40).length;
+    $("n-resultats").textContent = ouverts.filter((a) => score(a) >= 40).length;
     $("n-suivis").textContent = avis.filter((a) => st(a).suivi).length;
     $("n-desires").textContent = avis.filter((a) => st(a).desire).length;
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-pressed", t.dataset.v === vue ? "true" : "false"));
+    $("vue-criteres").hidden = vue !== "criteres";
+    $("vue-liste").hidden = vue === "criteres";
+    if (vue === "criteres") return;
 
     const urg = $("urgent"); urg.innerHTML = "";
     avis.filter((a) => st(a).suivi && !ferme(a) && jours(a) <= 3 && (st(a).statut || "a_soumissionner") === "a_soumissionner")
@@ -321,7 +321,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 
     const perso = vue === "suivis" || vue === "desires";
     const liste = avis.filter((a) => dansVue(a) && correspond(a) && (perso || !ferme(a))).sort(tri(vue));
-    $("compte").textContent = avis.length ? `${liste.length} contrat${liste.length > 1 ? "s" : ""}` + (vue === "criteres" ? " classés selon vos critères (score 40 et plus)" : "") : "";
+    $("compte").textContent = avis.length ? `${liste.length} contrat${liste.length > 1 ? "s" : ""}` + (vue === "resultats" ? ` trouvés avec vos critères (score 40 et plus), du meilleur au moins bon · 🔔 = notifié (score ${SEUIL_NOTIF} et plus)` : "") : "";
     const box = $("list"); box.innerHTML = "";
     if (!liste.length) {
       const v = el("div", "vide");
@@ -382,8 +382,6 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     $("c-max").value = meta.montantMax || "";
     choixRegions($("c-regions"), meta.regionsPreferees || []);
   }
-  $("ouvrirReglages").addEventListener("click", () => { remplirReglages(); $("reglages").hidden = false; document.body.style.overflow = "hidden"; });
-  $("fermerReglages").addEventListener("click", () => { $("reglages").hidden = true; document.body.style.overflow = ""; });
   $("formCriteres").addEventListener("submit", (e) => {
     e.preventDefault();
     const mots = [...new Set(cochees($("c-mots")))];
@@ -401,6 +399,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
       avis = d.avis || []; meta = d.meta || {};
       const regs = [...new Set(avis.flatMap((a) => a.regions || []))].sort((x, y) => x.localeCompare(y, "fr"));
       regs.forEach((r) => { const o = el("option", null, r); o.value = r; $("f-region").appendChild(o); });
+      remplirReglages();
       rendre();
     })
     .catch(() => { $("scan").textContent = "Impossible de charger les avis. Rechargez la page."; });
