@@ -6518,15 +6518,16 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 0,
+"pertinence": 30,
 "type": "Hors sujet",
 "resume": "L'appel d'offres concerne la réfection d'un bassin de toiture et la correction de deux drains de toiture pour l'hôtel de ville de Trois-Rivières.",
 "pointsAttention": [
-"délai de 14 mois"
+"non précisé sur l'avis"
 ],
 "recommandation": "No-go",
-"raison": "Le projet ne mentionne aucun travail principal dans le domaine de la maçonnerie ou de la charpenterie/menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le projet ne mentionne ni maçonnerie ni charpenterie/menuiserie comme travaux principaux.",
+"version": 3
 },
 "motsOk": true,
 "familles": [
@@ -6863,14 +6864,15 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement complet de deux tours d'eau sur la toiture du pavillon Président-Kennedy de l'UQAM. Les travaux incluent la déconnexion/reconnexion des services mécaniques et électriques, le démantèlement d'équipements et l'installation de nouveaux équipements.",
+"resume": "L'appel d'offres concerne le remplacement complet de deux tours d'eau sur la toiture du pavillon Président-Kennedy, incluant la déconnexion/reconnexion de services mécaniques, électriques et de contrôle. Les travaux comprennent la démolition, le ragréage, et les travaux de jointement requis.",
 "pointsAttention": [
 "visite obligatoire",
 "travaux connexes incluant jointement et réparation"
 ],
 "recommandation": "No-go",
-"raison": "Le projet est centré sur les systèmes mécaniques et électriques (tours d'eau) et n'inclut ni maçonnerie, ni charpenterie, ni menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le projet est centré sur les travaux mécaniques et électriques (tours d'eau) et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie/menuiserie comme cœur du contrat.",
+"version": 3
 },
 "motsOk": true,
 "familles": [
@@ -8736,15 +8738,17 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 40,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la démolition et la reconstruction d'une section de l'aile A d'une école, incluant le drainage, l'imperméabilisation des fondations, le remplacement de canalisations et les travaux de finition intérieure.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition et la reconstruction d'une section de l'aile A d'une école, avec des travaux de drainage, imperméabilisation des fondations, remplacement de canalisations et des travaux de finition intérieure.",
 "pointsAttention": [
-"Contrat sur demande : non"
+"Montant estimé de 5,5 M$ (dans la limite de 15 M$)",
+"Durée prévue de 10 mois"
 ],
-"recommandation": "No-go",
-"raison": "Le projet est principalement axé sur la construction de bâtiment et les travaux de plomberie/démolition, sans mention claire de travaux majeurs en maçonnerie ou charpenterie/menuiserie comme cœur du contrat.",
-"version": 2
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux de reconstruction, ce qui inclut potentiellement des aspects de maçonnerie ou de charpenterie, mais les codes de travaux listés sont très orientés vers les travaux de plomberie et de fondations.",
+"version": 3
 },
 "motsOk": true,
 "familles": [
@@ -9663,15 +9667,19 @@
 "vuLe": "2026-10-24T19:55",
 "analyse": {
 "pertinence": 50,
-"type": "Bâtiment (nos métiers en partie)",
-"resume": "Le contrat concerne la démolition complète de bâtiments résidentiels, incluant la démolition, le débranchement des services, la gestion des matériaux et la remise en état du terrain. La durée prévue est de 8 mois.",
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la démolition complète de bâtiments, incluant la démolition de murs, d'escaliers et de clôtures, ainsi que la gestion des sols et des services publics.",
 "pointsAttention": [
 "visite obligatoire",
-"délai court"
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
 ],
 "recommandation": "À vérifier",
-"raison": "Bien que le contrat inclue la démolition de structures (qui peut impliquer maçonnerie/charpenterie), le cœur du projet est la démolition complète, et non la construction ou la rénovation principale de ces éléments.",
-"version": 2
+"mode": "Sous-traitance",
+"raison": "Bien que le contrat soit axé sur la démolition, il inclut des travaux de murage et de débranchement qui peuvent impliquer la maçonnerie, mais le cœur du projet est la démolition complète.",
+"version": 3
 },
 "motsOk": true,
 "familles": [
@@ -11096,19 +11104,17 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 50,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la construction et la maintenance d'un nouveau poste électrique (120-25 kV) incluant des travaux d'architecture, de structure, mécanique, électrique, ainsi que des travaux civils (terrassement, fondations, charpentes métalliques, canalisations en béton).",
+"resume": "L'appel d'offres concerne la construction d'un nouveau poste électrique et inclut des travaux d'architecture, de structure, de mécanique, électrique, ainsi que des travaux civils comme le terrassement et la construction de fondations en béton et de charpentes métalliques.",
 "pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande : non"
+"Montant estimé entre 10 000 000 $ et 20 000 000 $",
+"Durée prévue de 18 mois"
 ],
 "recommandation": "No-go",
-"raison": "Le contrat est centré sur les travaux d'infrastructure électrique et de génie civil, et non sur la maçonnerie ou la charpenterie/menuiserie.",
-"version": 2
+"mode": "Sous-traitance",
+"raison": "Bien que des mots-clés comme 'charpente' et 'béton' soient présents, le projet est principalement un ouvrage d'infrastructure électrique et civile, et non un contrat centré sur la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
 },
 "motsOk": true,
 "familles": [
@@ -11519,7 +11525,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation complète des ascenseurs 9 et 10 du Pavillon Deschamps Hôpital Notre-Dame à Montréal. Le mandat inclut la réfection des cabines, du système de communication, le raccordement à la console centrale et l'implantation d'un système de surveillance.",
+"pointsAttention": [
+"délai court (environ 12 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la modernisation d'ascenseurs et n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a0d3d048-6a60-4c63-abb8-6383ad375dc4",
@@ -11557,7 +11575,23 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une chaudière commerciale au gaz naturel pour l'Hôtel de Ville de Rouyn-Noranda. Les travaux sont liés au système de chauffage.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne le remplacement d'une chaudière et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d04a6e84-9631-4980-861b-21b958509c28",
@@ -11588,7 +11622,23 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le service d'entretien des chaudières à vapeur et des bouilloires pour la Ville de Drummondville. La durée prévue du contrat est de 36 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'entretien de systèmes de chauffage et ne touche ni à la maçonnerie, ni à la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "4c2aec89-5353-4388-a49a-ee2ee5b13f72",
@@ -11625,7 +11675,20 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'inspection et l'entretien des ascenseurs et des plateformes élévatrices à l'intérieur des bâtiments municipaux de la Ville de Blainville.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance d'ascenseurs et n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f5b7731c-eb58-4deb-a556-f78d685e67f0",
@@ -11655,7 +11718,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'ajout d'un ascenseur et travaux connexes pour l'Hôtel Baker à Gaspé. La description ne mentionne aucun travail principal lié à la maçonnerie ou à la charpenterie/menuiserie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'installation d'un ascenseur et n'inclut pas les corps de métier ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "e7daaf9c-4013-4125-8560-582cba6a5038",
@@ -11690,7 +11765,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation d'un ascenseur à 50 rue Hermine. Les travaux sont liés à la maintenance et la réparation d'ascenseurs.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance d'ascenseurs et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "dfdab95d-73c2-4d69-b1ee-0d0b61f7cf49",
@@ -11725,7 +11812,19 @@
 "visiteObligatoire": true,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste au remplacement de deux chaudières existantes au campus de Charlesbourg, incluant la démolition, l'installation de nouvelles chaudières, l'adaptation des réseaux de plomberie et les interventions électriques. Les travaux seront réalisés dans un environnement occupé.",
+"pointsAttention": [
+"Travaux réalisés dans un environnement occupé, nécessitant une planification rigoureuse pour minimiser les impacts sur les activités du campus."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le remplacement de chaudières et les travaux de plomberie/électricité, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e77678b5-28fd-480b-b3b0-fd8ba3c67970",
@@ -11760,7 +11859,20 @@
 "visiteObligatoire": true,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste au remplacement de deux chaudières existantes et l'adaptation des réseaux de plomberie et de chauffage dans un bâtiment. Les travaux incluent des interventions électriques et la coordination des interruptions de service.",
+"pointsAttention": [
+"Travaux réalisés dans un environnement occupé, nécessitant une planification rigoureuse pour minimiser les impacts sur les activités du campus.",
+"Visite des lieux non obligatoire le 22 octobre 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la modernisation de systèmes de chauffage et de plomberie, ce qui n'est pas le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3c487348-1d44-4b31-b12a-80844b0e0c92",
@@ -11792,7 +11904,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation complète d'un ascenseur (remplacement d'équipements mécaniques et électriques, modernisation de la cabine et des portes) pour un centre d'hébergement. Le montant estimé est de 395 000 $ pour une durée d'environ 12 mois.",
+"pointsAttention": [
+"Délai de soumission : 10/11/2026 à 11h00"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat concerne la maintenance et la modernisation d'ascenseurs, ce qui est hors du champ d'expertise de l'entreprise (maçonnerie, briquetage et charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "7ff7b1e6-a7c5-484f-8d9a-8eef61c6f25a",
@@ -11829,7 +11953,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation d'une chaudière électrique, de chauffe-eaux et de contrôleurs de pièce pour une école. Les codes de travaux sont liés à la construction mécanique de systèmes de chauffage, ventilation et climatisation (CVC).",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne les systèmes de chauffage et CVC, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d4491a54-b0ca-426d-b290-b2602fb6dc98",
@@ -11859,7 +11995,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation d'un ascenseur. Le montant estimé est de 350 000 $ pour une durée prévue de 2 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la modernisation d'un ascenseur et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "68f8beb2-780c-4c42-b165-8b34fabb9338",
@@ -11889,7 +12037,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation de trois ascenseurs dans un centre d'hébergement. Les travaux sont prévus pour une durée de 12 mois et ont un montant estimé de 1 000 000 $.",
+"pointsAttention": [
+"Visite d’information le 01 octobre 2026 à 09h00."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne la modernisation d'ascenseurs et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a9df1157-5140-46fd-9f5f-7146f8cc580f",
@@ -11919,7 +12079,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la chaudière d'un hôtel de ville. La durée prévue du contrat est de 240 jours de calendrier.",
+"pointsAttention": [
+"délai long"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien/remplacement d'une chaudière et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7d23c941-9756-4ad6-9036-f51825339a4c",
@@ -11955,7 +12127,19 @@
 "visiteObligatoire": false,
 "tropCher": true,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le projet concerne la requalification de pavillons et la construction de nouveaux pavillons pour l'Université McGill, incluant les systèmes intérieurs, les murs intérieurs et extérieurs, les parapets, les boîtes au toit, les plafonds et travaux connexes.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de construction/rénovation où les métiers de la maçonnerie et de la charpenterie pourraient être impliqués dans les murs et structures, mais l'avis se concentre sur les systèmes intérieurs.",
+"version": 3
+}
 },
 {
 "id": "79952bd5-192a-4e53-b127-bc1f8ca788dd",
@@ -11990,7 +12174,19 @@
 "visiteObligatoire": false,
 "tropCher": false,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation et le remplacement complet de l'unique ascenseur dans un établissement de Santé Québec à Brossard. La durée prévue pour les travaux est de 35 semaines.",
+"pointsAttention": [
+"Délai de réalisation de 35 semaines"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet n'implique ni maçonnerie, ni charpenterie, ni menuiserie, ce qui est hors de la cible de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "24bf6670-54df-44a3-85df-0289c811ba02",
@@ -12020,7 +12216,19 @@
 "visiteObligatoire": false,
 "tropCher": true,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un projet de construction d'infrastructures pour un complexe scientifique, avec une durée prévue de 24 mois et un montant estimé à 31 millions de dollars. Le processus est en phase de conception-construction progressif (CCP).",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de grande envergure et nécessite une expertise en construction, mais les mots-clés spécifiques à la maçonnerie ou à la charpenterie ne sont pas mentionnés dans la description.",
+"version": 3
+}
 },
 {
 "id": "4d70f0f0-18a6-44ab-ba8a-a438692e87a7",
@@ -12059,7 +12267,20 @@
 "visiteObligatoire": false,
 "tropCher": true,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'agrandissement et la modernisation de l'Hôpital de Mont-Laurier, incluant la construction de 44 chambres, une pharmacie, un garage ambulancier et d'autres infrastructures énergétiques.",
+"pointsAttention": [
+"Durée prévue de 33 mois",
+"Montant estimé de 115 600 000 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de construction de bâtiment où les métiers de la maçonnerie et de la charpenterie/menuiserie sont probablement inclus dans les lots, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "e987ce01-eca1-4077-900b-6b8f4091761d",
@@ -12100,7 +12321,19 @@
 "visiteObligatoire": false,
 "tropCher": true,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un agrandissement d'une école primaire, incluant des travaux de réaménagement fonctionnels dans le bâtiment existant. La durée de réalisation prévue est de 95 semaines.",
+"pointsAttention": [
+"Visite des lieux organisée par le CSSDM le 14 août à 10h00"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment où les métiers de la maçonnerie et de la charpenterie sont probablement impliqués, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "8d986ce0-4259-43dc-8383-2f0537c1fbfe",
@@ -12138,7 +12371,20 @@
 "visiteObligatoire": false,
 "tropCher": true,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'agrandissement et le réaménagement de l'Hôpital de La Malbaie, incluant la construction d'un nouveau pavillon de cinq étages et le réaménagement du bloc A. Le projet implique des travaux de construction majeurs.",
+"pointsAttention": [
+"Durée prévue : 56 mois",
+"Montant estimé : 199 316 316 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de construction de bâtiment où la maçonnerie et la charpenterie/menuiserie joueront probablement un rôle significatif dans la construction des structures et des enveloppes.",
+"version": 3
+}
 },
 {
 "id": "d7c8a3ff-373c-4a7a-9477-6c4dce45f13c",
@@ -12172,7 +12418,21 @@
 "visiteObligatoire": false,
 "tropCher": true,
 "nouveau": true,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réalisation de travaux liés à un projet d'économie d'énergie garantie pour dix bâtiments du Centre hospitalier universitaire de Sherbrooke. Le contrat est prévu pour une durée de six ans et demi et le montant estimé est de 17,5 millions de dollars.",
+"pointsAttention": [
+"Visite des lieux fortement suggérée",
+"Délai long (6 ans et demi)",
+"Montant important (17,5 M$)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne la construction/maintenance de bâtiments, ce qui inclut potentiellement des travaux de maçonnerie ou de charpenterie, mais le titre général est trop large pour une évaluation directe.",
+"version": 3
+}
 }
 ]
 }
