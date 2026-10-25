@@ -2680,7 +2680,19 @@
 "description": "Réfection complète de la toiture \nChanger l'emplacement de la trappe d'accès\nBâtiment à deux étages",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=1dcfb824-54d7-4ea4-83be-f63f8e15afcb",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection complète de la toiture d'un bâtiment à deux étages et le changement de l'emplacement d'une trappe d'accès.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"raison": "Le projet est centré sur la toiture et n'inclut pas les corps de métier ciblés (maçonnerie, charpenterie, menuiserie).",
+"version": 2
+}
 },
 {
 "id": "0c7eff83-c763-4c95-ac32-13691df23d32",
@@ -2890,14 +2902,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne des services d'exécution sur demande en électricité pour le Centre de services scolaire des Navigateurs. Il vise exclusivement les travaux d'entretien courant planifiés ou urgents.",
+"resume": "L'appel d'offres concerne exclusivement les services d'entretien courant planifiés ou urgents en électricité.",
 "pointsAttention": [
 "Contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres est spécifiquement pour des travaux d'électricité d'entretien courant et n'est pas dans le champ d'aménagement intérieur, rénovation, construction ou agrandissement recherché."
+"raison": "Le contrat est exclusivement axé sur l'électricité et n'inclut aucun travail principal en maçonnerie ou charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -2987,14 +3000,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 95,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la construction d'un bâtiment de services municipal incluant les fondations, la charpente, l'enveloppe extérieure (parement d'acier, toiture), l'isolation, les portes et fenêtres, les finis intérieurs, ainsi que les travaux connexes (électricité, chauffage, ventilation, plomberie). La durée prévue est de 6 mois.",
+"pertinence": 60,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un bâtiment de services municipal incluant la charpente, l'enveloppe extérieure en parement d'acier émaillé, les portes et fenêtres, et les finis intérieurs. Les travaux comprennent également des corps de métier hors cible comme l'électricité, le chauffage, la ventilation et la plomberie.",
 "pointsAttention": [
-"Contrat sur demande : non"
+"visite obligatoire"
 ],
-"recommandation": "Go",
-"raison": "L'appel d'offres couvre la construction complète d'un bâtiment neuf, incluant l'enveloppe, les finis intérieurs et les corps de métier connexes, ce qui correspond parfaitement à la cible de l'entrepreneur général."
+"recommandation": "À vérifier",
+"raison": "Le projet inclut des éléments de charpenterie et d'enveloppe (parement), mais la présence obligatoire d'électricité, chauffage, ventilation et plomberie (métiers hors cible) rend la pertinence mitigée.",
+"version": 2
 }
 },
 {
@@ -3093,7 +3107,19 @@
 "description": "IDENTIFICATION DU CONTRAT\n Numéro de\n contrat : \n44548341\n Titre du contrat :\n Lot 4.610 - Céramique\n Restauration, mise aux normes et réaménagement\n Adresse de l’immeuble :\n12, rue Saint-Louis,\n Québec (Québec) G1R 5L3\nTout soumissionnaire devra se conformer aux exigences\ncontenues aux documents contractuels. Ceux-ci ne peuvent être obtenus que par\nl’intermédiaire du système électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au\nnuméro 418-646-0177 pour les résidents de la région de Québec et au numéro sans\nfrais 1-877-336-7326 pour les résidents de l’extérieur.\n Attention : Notez\n que seuls les documents exigés par la Société aux termes du présent\n appel d’offres doivent être remis avec la soumission, de manière à éviter\n toute situation qui entraînerait que la soumission soit restrictive ou\n conditionnelle.\nDESCRIPTION\nSOMMAIRE DES TRAVAUX\nLa Société québécoise\ndes infrastructures (ci-après la « Société ») procède à un appel\nd’offres public de travaux de construction incluent la fourniture de\nl’expertise, de la main-d’œuvre, des matériaux, de l’équipement, des services\net de tout ce qui est requis pour l’exécution des travaux de Céramique pour la restauration, mise aux normes et réaménagement\nde l’Édifice Gérard-D. -Lévesque situé au 12 rue Saint-Louis à Québec. \nAVIS\nIMPORTANTS\nDÉVELOPPEMENT\nÉCONOMIQUE DU QUÉBEC\nCet appel d’offres contient des exigences visant le développement\néconomique du Québec. Veuillez vous référer à la section\n« Conditions » du présent avis. \nRecommandation de dépôt\ndes soumissions par voie électronique\nLa Société a entrepris\ndes initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation de\ncontracter/attestation de Revenu Québec\nIl est fortement\nsuggéré aux soumissionnaires de faire dès que possible, selon les exigences des\ndocuments contractuels, leur demande d’attestation de Revenu Québec et, le cas\néchéant, leur demande d’autorisation de contracter auprès de l’Autorité des marchés\npublics, afin de s’assurer que ces exigences soient rencontrées avant la date\net l’heure limites indiquées dans les Instructions aux soumissionnaires\net/ou dans les Instructions complémentaires.\nNon-participation à\nl’appel d’offres\nToute personne ou\nentreprise s’étant procuré les documents contractuels et qui ne présente pas de\nsoumission, s’engage à compléter le formulaire « Questionnaire de\nnon-participation » inclus dans les documents contractuels et à transmettre\ncelui‑ci à la Société à l’adresse de courrier électronique suivante : infosoumission6@sqi.gouv.qc.ca.\nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des\nsoumissions déposées du Québec (BSDQ) doivent, lors du dépôt de leur soumission\nélectronique au BSDQ, indiquer la Société comme « Destinataire » à\nl’aide du menu « Soumissionnaire » du système de transmission\nélectronique des soumissi",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=984afb18-4bfb-4c0c-8f85-c09dd2e4be4e",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de l'expertise, de la main-d'œuvre et des matériaux pour la céramique, la restauration, la mise aux normes et le réaménagement d'un édifice.",
+"pointsAttention": [
+"Délai prévu de 12 mois",
+"Montant estimé de 3 000 000 $"
+],
+"recommandation": "No-go",
+"raison": "Le contrat concerne exclusivement la céramique et ne touche ni à la maçonnerie/briquetage ni à la charpenterie/menuiserie.",
+"version": 2
+}
 },
 {
 "id": "373b6282-3530-45ca-b7d5-384da90a4663",
@@ -3126,7 +3152,18 @@
 "description": "Le projet consiste principalement en la\nrénovation du logement no 6, situé au 434, avenue du Domaine, à Chandler, afin\nd’en améliorer l’accessibilité et la fonctionnalité. Les travaux comprennent\nnotamment la reconfiguration de l’entrée du logement, la rénovation de la\ncuisine ainsi que la réfection des revêtements de plancher. Des travaux de\ndémolition partielle de murs intérieurs sont également prévus, de même que le\nremplacement ou l’ajustement de certaines portes et l’ajout de protections aux\ncoins de murs. Le logement sera entièrement repeint. Des travaux de ragréage et\nde finition sont également prévus dans le logement ainsi que dans le corridor\nadjacent. Le projet comprend les interventions en plomberie, en mécanique et en\nélectricité requises pour la réalisation complète des travaux. Les autres\nlogements de l’immeuble demeureront occupés pendant le chantier. L’entrepreneur\ndevra donc coordonner ses interventions de manière à maintenir les accès, les\nissues et les services fonctionnels et sécuritaires pendant toute la durée des\ntravaux.",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=373b6282-3530-45ca-b7d5-384da90a4663",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Le projet consiste principalement en la rénovation d'un logement pour améliorer son accessibilité et sa fonctionnalité. Les travaux incluent la reconfiguration de l'entrée, la rénovation de la cuisine, la réfection des revêtements de plancher, la démolition partielle de murs intérieurs, le remplacement de portes et l'ajout de protections aux coins de murs, ainsi que des travaux de ragréage et de finition. Le projet comprend également des interventions en plomberie, mécanique et électricité.",
+"pointsAttention": [
+"Les autres logements de l’immeuble demeureront occupés pendant le chantier. L’entrepreneur devra coordonner ses interventions de manière à maintenir les accès, les issues et les services fonctionnels et sécuritaires pendant toute la durée des travaux."
+],
+"recommandation": "No-go",
+"raison": "Le projet est une rénovation résidentielle générale qui n'met pas l'accent sur la maçonnerie ou la charpenterie/menuiserie comme travail principal.",
+"version": 2
+}
 },
 {
 "id": "9e5d8f0d-d8ce-4577-9194-3f05ec39a542",
@@ -3791,7 +3828,18 @@
 "description": "PROJET : Réfection de la toiture\nCentre\nadministratif du Centre de services scolaire des Phares, Rimouski\n Projet\nno : 2324-CA-001\nORGANISME PUBLIC : CENTRE DE SERVICES SCOLAIRE\nDES PHARES\n 435,\navenue Rouleau\n Rimouski\n(Québec) G5L 8V4\n Tél. :\n418-723-5927\nARCHITECTES : PROULXSAVARD\nARCHITECTES \n 75, boulevard Arthur-Buies\nOuest \n Rimouski\n(Québec) \n G5L 5C2 \n Tél. : 418\n723-5543\nLe\nCentre de services scolaire des Phares désire obtenir des\nsoumissions sous enveloppe scellée pour retenir les services d’un entrepreneur\nen vue de procéder à des travaux de réfection de la toiture du Centre\nadministratif du Centre de services scolaire des Phares situé au 435, avenue Rouleau à Rimouski, province de Québec.\nDOCUMENTATION\nDISPONIBLE :\nÀ compter du 8\noctobre 2026, toute personne ou toute société pourra se procurer les\ndocuments d’appel d’offres que par l’intermédiaire du système électronique\nd’appel d’offres SÉAO (www.seao.ca ou au 1-866-669-7326).\nGARANTIE DE\nSOUMISSION :\nToute\nsoumission devra être accompagnée d’une garantie de soumission représentant dix\npour cent (10 %) du montant total de la soumission excluant toutes les\ntaxes applicables, sous forme de lettre de garantie irrévocable ou de\ncautionnement de soumission émis par une institution financière qui est un\nassureur détenant un permis émis conformément à la Loi sur les assurances\n(R.L.R.Q., c. A-32.1) l’autorisant à pratiquer l’assurance cautionnement, une\nsociété de fiducie titulaire d’un permis délivré en vertu de la Loi sur les\nsociétés de fiducie et les sociétés d’épargne (R.L.R.Q., c. S-29.01), une\ncoopérative de services financiers visée par la Loi sur les coopératives de\nservices financiers (R.L.R.Q., c. C-67.3) ou une banque au sens de la Loi\nsur les banques (L.C., 1991, c. 46),\nsans quoi la soumission sera automatiquement rejetée.\nSi la soumission est\ntransmise sur support papier, la garantie de soumission peut en plus des\nméthodes décrites précédemment être transmise sous forme de chèque certifié, de\nmandat-poste ou de traite bancaire, fait à l’ordre de l’ORGANISME PUBLIC. \nVISITE DES\nLIEUX :\nLa visite des lieux non-obligatoire aura lieu le 14 octobre 2026 à 14h00.\nLe point de rassemblement pour cette visite est fixé au 435, avenue Rouleau, en\nla ville de Rimouski, province de Québec, G5L 8V4.\nRÉCEPTION ET\nOUVERTURE :\nLes soumissions, dans des\nenveloppes cachetées, seront adressées au Centre de services scolaire des\nPhares, à l’attention de monsieur Jean-François Brisson, directeur au Service\ndes ressources matérielles. Elles seront reçues au bureau de l’organisme public sis au 435, avenue Rouleau à Rimouski\n(Québec) G5L 8V4, jusqu’à 10h00, heure en vigueur localement, le 30 octobre 2026. Les\nsoumissions sont ouvertes publiquement, en présence d’un témoin, au lieu\nindiqué à la clause 1.08.10, immédiatement après l’heure et la date limites\nfixées pour la réception des soumissions. \nLes soumissionnaires peuvent assister à l’ouverture des\nsoumissions. Toute soumission reçue\npostérieure",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=d0a434c7-2057-4d4d-b69c-625940401364",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture du Centre administratif du Centre de services scolaire des Phares à Rimouski. Le montant estimé est de 500 000 $ et la durée prévue est de 5 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"raison": "Le projet concerne la toiture et n'implique ni maçonnerie/briquetage ni charpenterie/menuiserie comme travail principal.",
+"version": 2
+}
 },
 {
 "id": "21e45ad1-7075-45bb-8080-d09aef567d89",
@@ -3852,14 +3900,13 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'installation et le remplacement d'environ 2 500 compteurs d'eau résidentiels et antennes de télémétrie dans des immeubles résidentiels existants.",
+"resume": "L'appel d'offres concerne l'installation et la mise en marche de compteurs d'eau résidentiels et d'antennes de télémétrie dans des immeubles résidentiels. Les travaux incluent également des installations irrégulières et la production d'un rapport d'intervention.",
 "pointsAttention": [
-"Montant estimé : non publié",
-"Cautionnement de soumission : Non précisé sur l'avis",
-"Contrat sur demande : non"
+"visite obligatoire"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne des travaux de plomberie et d'installation de compteurs, ce qui est un travail d'un seul corps de métier spécialisé et n'est pas dans le champ de l'aménagement intérieur, de la rénovation ou de la construction de bâtiment par un entrepreneur général."
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 2
 }
 },
 {
@@ -3979,14 +4026,19 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne les services d'entretien, réparation, déneigement et déglaçage des toitures des bâtiments municipaux de la Ville de Mascouche pour les années 2027 et 2028.",
+"resume": "L'appel d'offres concerne la fourniture de services d'entretien, réparation, déneigement et déglaçage des toitures des bâtiments municipaux pour les années 2027 et 2028.",
 "pointsAttention": [
-"Contrat sur demande : non"
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne l'entretien de toiture municipale et non des travaux d'aménagement intérieur, de rénovation ou de construction d'immeubles privés."
+"raison": "Le contrat concerne l'entretien des toitures et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 2
 }
 },
 {
@@ -4045,7 +4097,19 @@
 "description": "APPEL D'OFFRES, La Ville de Pointe-Claire demande des soumissions pour:\nN° Appel d'OffresBP2616-24009N° de Projet24-009\nTitre :Procédure ouverte pour les travaux d'optimisation et de réaménagement du sous-sol et de la salle de musique de Stewart Hall \nDescription du contrat :\nLe projet consiste au réaménagement de deux studios d’art comprenant la réfection complète de la peinture des locaux, l’application d’une finition époxy sur les dalles de béton, l’installation de nouveaux panneaux acoustiques, la modernisation de l’éclairage, l’ajout de prises électriques et de réseau, ainsi que l’ajout d’un nouveau comptoir avec éviers dans l’une des salles d’art. Les travaux comprennent également l’installation d’un mur de casiers dans le vestiaire, la peinture du corridor du sous-sol et l’ajout d’un cabinet d’exposition. Au rez-de-chaussée, le bureau/salle de musique fera l’objet d'une remise à niveau comprenant la peinture du local et l’installation de panneaux acoustiques.\nRenseignements:Service des ressources matérielles et contractuelles\nappro-ado@pointe-claire.ca\nLes documents de soumission peuvent être obtenus auprès de SÉAO, à compter du 08 octobre 2026 en s’adressant au Système électronique d’appel d’offres (SÉAO) à l’adresse suivante : www.seao.gouv.qc.ca ou en communiquant avec le service à la clientèle au 418-646-0177 dans la région de Québec ou au 1-877-336-7326 pour l’extérieur.\n\"La Ville de Pointe-Claire ne s'engage à accepter ni la plus basse, ni aucune des soumissions reçues,\nni à encourir aucun frais d'aucune sorte envers le ou les soumissionnaires.\"\nLes soumissions dans les enveloppes scellées seront reçues au comptoir des services administratifs jusqu’à 11H00, le 29 octobre 2026 et seront ouvertes le même jour, soit à 11H15, à l'Hôtel de Ville de Pointe-Claire.",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e4f7f8ba-ca92-41f0-bab5-1061e303043d",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "Le projet concerne le réaménagement d'un sous-sol et d'une salle de musique, incluant la peinture, la finition époxy sur les dalles de béton, l'installation de panneaux acoustiques et la modernisation de l'éclairage.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"raison": "Le projet ne concerne ni la maçonnerie ni la charpenterie/menuiserie, mais plutôt des travaux de finition intérieure et de rénovation de sous-sol.",
+"version": 2
+}
 },
 {
 "id": "52f7edec-9a28-4b15-9138-9007abfe5a9b",
@@ -4235,15 +4299,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la réfection du hall d'entrée du pavillon 5 du CÉGEP Sherbrooke, incluant le remplacement du fini de plancher, la refonte du plafond (architecture, mécanique, électricité), l'amélioration de l'intégrité coupe-feu des murs, la modification de la ventilation et l'ajout de chemin de câble.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet concerne la réfection du hall d'entrée d'un pavillon, incluant le remplacement du fini de plancher, la refonte du plafond (incluant mécanique et électricité), et l'amélioration de l'intégrité coupe-feu des murs.",
 "pointsAttention": [
-"Délai de 10 mois",
-"Cautionnement requis"
+"Délai de 10 mois"
 ],
-"recommandation": "Go",
-"raison": "Le projet correspond aux travaux de rénovation et de réfection intérieure d'un bâtiment, ce qui est dans la cible de l'entrepreneur général."
+"recommandation": "À vérifier",
+"raison": "Le projet est un bâtiment, mais l'accent est mis sur les travaux de finition et d'installation (plancher, plafond, électricité, coupe-feu) plutôt que sur la maçonnerie ou la charpenterie comme cœur du contrat.",
+"version": 2
 }
 },
 {
@@ -4303,14 +4367,14 @@
 "vuLe": "2026-10-24T19:55",
 "analyse": {
 "pertinence": 50,
-"type": "Aménagement intérieur / réno",
-"resume": "Il s'agit d'un appel d'offres pour la construction de bâtiments non résidentiels (Triplex) dans la région du Nord-du-Québec. La durée prévue du projet est de 6 mois.",
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la construction de bâtiments non résidentiels (Triplex), avec une durée prévue de 6 mois. Le montant estimé n'est pas publié.",
 "pointsAttention": [
-"Montant estimé non publié",
-"Cautionnement de soumission non précisé sur l'avis"
+"Montant estimé non publié"
 ],
 "recommandation": "À vérifier",
-"raison": "Le projet concerne la construction de bâtiments, ce qui est pertinent, mais le montant n'est pas publié et le type exact de travaux (aménagement vs construction neuve) doit être confirmé."
+"raison": "Le projet concerne la construction de bâtiments, ce qui est pertinent, mais la description détaillée des travaux n'est pas fournie pour déterminer si la maçonnerie ou la charpenterie/menuiserie est le cœur du contrat.",
+"version": 2
 }
 },
 {
@@ -4505,14 +4569,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 30,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'ajout de dépoussiéreurs intérieurs pour l'atelier de menuiserie du CFP 24-Juin. Le montant estimé est de 525 000 $ pour une durée prévue de 6 mois.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'ajout de dépoussiéreurs intérieurs pour l'atelier de menuiserie du programme de formation en charpenterie du CFP 24-Juin. La durée prévue du contrat est de 6 mois avec un montant estimé de 525 000 $.",
 "pointsAttention": [
-"Contrat sur demande : non"
+"délai court"
 ],
-"recommandation": "No-go",
-"raison": "L'appel d'offres concerne un ajout d'équipement spécifique (dépoussiéreurs) pour un atelier, ce qui n'est pas directement lié aux travaux d'aménagement intérieur, rénovation, construction ou agrandissement d'un bâtiment pour un entrepreneur général."
+"recommandation": "À vérifier",
+"raison": "Le contrat concerne spécifiquement un ajout d'équipement pour un atelier de menuiserie/charpenterie, ce qui touche à la charpenterie/menuiserie, mais il ne semble pas être un gros projet de construction ou de rénovation où ces métiers sont le cœur du contrat.",
+"version": 2
 }
 },
 {
@@ -4572,14 +4637,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement de panneaux électriques pour l'École Montcalm, faisant partie de la Phase 2 d'un projet. La durée prévue est de 12 mois avec un montant estimé de 200 000 $.",
+"resume": "L'appel d'offres concerne le remplacement de panneaux électriques pour l'École Montcalm, Phase 2. Le montant estimé est de 200 000 $ et la durée prévue est de 12 mois.",
 "pointsAttention": [
 "Contrat sur demande : non"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres est très spécifique à un corps de métier spécialisé (électricité) et ne correspond pas à la cible de l'entrepreneur général axé sur l'aménagement intérieur, la rénovation ou la construction de bâtiments."
+"raison": "Le projet concerne le remplacement de panneaux électriques, ce qui est hors du champ d'expertise de la maçonnerie, du briquetage et de la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -4674,14 +4740,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne l'aménagement d'un vestiaire pour VPI à la caserne 23, incluant la construction de cloisons, un garde-robe de buanderie, ainsi que des travaux de plomberie, ventilation, réfrigération et électricité. La durée prévue du contrat est de 18 mois, avec une durée de travaux spécifiée de 6 mois.",
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement d'un vestiaire pour la caserne 23, incluant la construction de cloisons, des travaux de plomberie, de ventilation, de réfrigération et d'électricité.",
 "pointsAttention": [
-"Visite obligatoire et sur rendez-vous seulement."
+"Visite obligatoire, sur rendez-vous seulement."
 ],
-"recommandation": "Go",
-"raison": "Le projet correspond directement à la cible de l'entrepreneur général (aménagement intérieur/rénovation) et est situé au Québec, avec une portée de travaux clairement définie."
+"recommandation": "No-go",
+"raison": "Le contrat n'implique ni la maçonnerie ni la charpenterie/menuiserie comme travail principal.",
+"version": 2
 }
 },
 {
@@ -4712,14 +4779,16 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 50,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne le remplacement de l'unité de ventilation, des plafonds et de l'éclairage du secrétariat d'un centre de services scolaire. Le montant estimé est de 750 000 $ et la durée prévue est de 24 mois.",
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'unité de ventilation du secrétariat, ainsi que les plafonds et l'éclairage à l'EMOICQ. Le projet est estimé à 750 000 $ et la durée prévue est de 24 mois.",
 "pointsAttention": [
-"Visite obligatoire le 13 octobre 2026 à 15h00 à l'ÉMOICQ."
+"visite unique et importante d’information prévue le « 13 octobre 2026 à 15h00, à l’ÉMOICQ situé au 1060, rue Borne à Québec (Qc) G1N 1L9».",
+"Cautionnement de soumission de 10 % du montant total de la soumission excluant les taxes applicables, valide pour 60 jours."
 ],
-"recommandation": "À vérifier",
-"raison": "Le projet touche à des finis intérieurs (plafonds, éclairage) et à la rénovation/mise à niveau d'un local, ce qui est pertinent, mais il est très spécifique et le montant est relativement faible pour un entrepreneur général."
+"recommandation": "No-go",
+"raison": "Le projet concerne la ventilation, les plafonds et l'éclairage, ce qui n'est pas directement lié aux métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 2
 }
 },
 {
@@ -4834,14 +4903,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement des rideaux séparateurs et de la surface sportive dans le stade couvert du PEPS de l'Université Laval. La durée prévue est de 3 mois avec un montant estimé de 1 917 000 $.",
+"resume": "Les travaux consistent à remplacer les rideaux séparateurs et la surface sportive dans le stade couvert du PEPS.",
 "pointsAttention": [
-"Cautionnement de soumission : Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission."
+"non"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne des travaux spécifiques à un stade universitaire et n'entre pas dans le champ de l'aménagement intérieur, rénovation, construction neuve ou agrandissement pour un entrepreneur général."
+"raison": "Le projet concerne la rénovation d'un stade et n'inclut aucun travail principal de maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 2
 }
 },
 {
@@ -4900,14 +4970,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 0,
 "type": "Hors sujet",
 "resume": "L'appel d'offres concerne la réfection d'un bassin de toiture et la correction de deux drains de toiture pour l'hôtel de ville de Trois-Rivières.",
 "pointsAttention": [
-"Montant estimé non publié"
+"délai de 14 mois"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres est trop spécifique à un élément de toiture et ne correspond pas aux travaux d'aménagement intérieur, rénovation ou construction de bâtiment que recherche l'entrepreneur général."
+"raison": "Le projet ne mentionne aucun travail principal dans le domaine de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -4938,7 +5009,19 @@
 "description": "Le Centre de services scolaire des Découvreurs\ndemande des soumissions pour le projet :\nRéfection\nde toiture école des Hauts Clochers pavillon St-Charles\nProjet : École\ndes Hauts Clochers, pavillon St-Charles\n1350\nRue Saint-Charles, L'Ancienne-Lorette, QC G2E 1V4\nLa\ndocumentation sera disponibleà\ncompter du lundi 5 octobre 2026. Toute\npersonne ou toute société pourra se procurer les documents d’appel d'offres,\nplans et devis et autres documents pertinents au projet par l’entremise du SEAO.\nLes\nsoumissions, dans une enveloppe, cachetée et identifiée au nom de Réfection\nde toiture école des Hauts Clochers pavillon St-Charlesadressées au Service des\nressources matérielles du Centre de services scolaire des Découvreurs, seront\nreçues au 100-945 avenue Wolfe à Québec le vendredi 30 octobre 2025 à 10 h, pour être ouvertes\npubliquement au même endroit, le même jour et à la même heure.\nLes\nsoumissions devront être accompagnées d’un chèque visé équivalant à 10 % de la\nsoumission, fait à l’ordre du propriétaire, le Centre de services scolaire des\nDécouvreurs, ou d’un cautionnement de soumission établi au même montant, valide\npour une période de quarante-cinq (45) jours de la date d’ouverture des\nsoumissions.\nCette\ngarantie de soumission devra être échangée à la signature du contrat pour une\ngarantie d’exécution et une garantie des obligations pour gages, matériaux et\nservices. Lorsque ces garanties sont sous forme de cautionnement, le montant de\nchacune d’elles correspond à 50 % du prix du contrat et lorsqu’elles sont sous\nforme de chèque visé, le montant de chacune d’elles correspond à 10 % du prix\ndu contrat.\nSeules\nseront considérées aux fins d’octroi du contrat, les soumissions des\nentrepreneurs ayant un établissement au Québec ou, lorsqu’un accord\nintergouvernemental est applicable au Québec, ou dans une province ou un\nterritoire visé par cet accord, et détenant, le cas échéant, la licence requise\nen vertu de la Loi sur le bâtiment (L.R.Q., c.B-1.1).\nLes\nentrepreneurs soumissionnaires sont responsables du choix des sous-traitants,\ntant pour leur solvabilité que pour le contenu de leurs soumissions.\nToutes\nles soumissions devront être faites conformément aux dispositions du Règlement\nsur les contrats de construction des immeubles des commissions scolaires adopté\nen vertu de la Loi sur l’instruction publique (L.R.Q., c.C-65-1,r.5). \nLe\npropriétaire ne s’engage à accepter aucune des soumissions reçues.\nJulie Aubin,\ndirectrice\nServices des\nressources matérielles",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a07d1386-99db-4718-ac34-39ff7c535823",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture de l'école des Hauts Clochers pavillon St-Charles. Le montant estimé est de 950 000 $ et la durée prévue est de 9 mois.",
+"pointsAttention": [
+"Délai de soumission : 30 octobre 2025 à 10 h.",
+"Exigence de garantie de soumission (cautionnement ou chèque visé)."
+],
+"recommandation": "No-go",
+"raison": "Le projet est centré sur la toiture et n'inclut pas les métiers ciblés (maçonnerie, charpenterie, menuiserie).",
+"version": 2
+}
 },
 {
 "id": "ce74f2ca-76cd-41ba-a01e-2c53c5bd079d",
@@ -5110,7 +5193,18 @@
 "description": "Le mandat consiste à fournir au Centre\nde services scolaire des Trois-Lacs un service de main-d’œuvre indépendante\npour certains travaux de construction. L’ensemble des travaux sera exécuté sur\ndemande, selon la superficie et/ou sur une base horaire. Le tout sera supervisé\npar les gestionnaires de la direction du service des ressources matérielles et\ndes bâtiments communautaires. Les demandes d'exécution seront attribuées à\nl'entrepreneur qui a soumis le prix le plus bas.\nL’entrepreneur devra\nnotamment :\n· \nFournir\nla main-d’œuvre qualifiée et en quantité suffisante;\n· \nFournir\nson équipement de protection individuelle conforme aux exigences réglementaires\nen vigueur;\n· \nFournir\nles outils et équipements appropriés aux travaux demandés par le Centre de\nservices scolaire des Trois-Lacs, lorsque requis;\n· \nFournir\nune estimation des coûts des travaux mineurs pour chaque travail de\nconstruction demandé;\n· Fournir\nles matériaux nécessaires à la demande du Centre de services scolaire des\nTrois-Lacs pour accomplir les travaux de construction dans lesquels\nl’entrepreneur est impliqué et laisser sur place les matériaux inutilisés ou en\nsurplus;\n· \nFournir\ndes services pour l’ensemble des bâtiments du Centre de services scolaire des\nTrois-Lacs. \nVous trouverez la liste des\nétablissements à l’annexe A du devis.\nLe contrat est d’une durée de trois (3)\nannées, soit du 19 novembre 2026 au 18 novembre 2029. La date\nd’adjudication prévue est le 18 novembre 2026.",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7b6d9ab4-5e35-4e59-9b2b-cbace3b712b6",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le mandat consiste à fournir de la main-d'œuvre indépendante pour certains travaux de construction sur demande pour le Centre de services scolaire des Trois-Lacs. Le contrat est prévu pour une durée de trois ans.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"raison": "Le contrat concerne la fourniture de main-d'œuvre pour des travaux de construction, mais ne spécifie pas clairement que la maçonnerie ou la charpenterie/menuiserie est le travail principal.",
+"version": 2
+}
 },
 {
 "id": "c2da7484-2db3-4991-838a-f7838b0458d8",
@@ -5138,17 +5232,16 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement complet de deux tours d'eau sur la toiture du pavillon Président-Kennedy de l'UQAM. Les travaux incluent la déconnexion/reconnexion des services mécaniques et électriques, le démantèlement des équipements existants et l'installation de nouveaux équipements.",
+"resume": "L'appel d'offres concerne le remplacement complet de deux tours d'eau sur la toiture du pavillon Président-Kennedy de l'UQAM. Les travaux incluent la déconnexion/reconnexion des services mécaniques et électriques, le démantèlement d'équipements et l'installation de nouveaux équipements.",
 "pointsAttention": [
-"L'Entrepreneur devra considérer que les usagers et occupants du bâtiment poursuivront leurs activités durant les travaux.",
-"L'Entrepreneur devra agir de façon à minimiser les inconvénients aux usagers et personnel.",
-"L'Entrepreneur devra s’assurer que les usagers auront accès aux locaux et aux aménagements dans un climat sécuritaire, salubre et sans discontinuité.",
-"L'Entrepreneur aura l’entière responsabilité du contrôle des accès aux lieux, du chantier."
+"visite obligatoire",
+"travaux connexes incluant jointement et réparation"
 ],
 "recommandation": "No-go",
-"raison": "Ce projet est trop spécifique à un système de plomberie/toiture et ne correspond pas aux travaux d'aménagement intérieur, rénovation, agrandissement ou construction de bâtiment que recherche l'entrepreneur général."
+"raison": "Le projet est centré sur les systèmes mécaniques et électriques (tours d'eau) et n'inclut ni maçonnerie, ni charpenterie, ni menuiserie.",
+"version": 2
 }
 },
 {
@@ -5349,14 +5442,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement du système de détection incendie et des appareils d'éclairage dans une école. Les travaux prévus durent environ 7 mois et ont un montant estimé de 485 000 $.",
+"resume": "L'appel d'offres concerne le remplacement du système de détection incendie et des appareils d'éclairage dans une école. Les travaux incluent l'installation du système de détection et le remplacement des luminaires par des modèles DEL avec gradateur.",
 "pointsAttention": [
-"Visite obligatoire le 14 octobre 2026 à 12h00. Délai de soumission important (début des travaux en janvier 2027)."
+"Visite obligatoire le 14 octobre 2026 à 12h00. Les personnes présentes doivent rester à l'extérieur jusqu'à l'arrivée du chargé de projet."
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne des travaux spécialisés en systèmes (incendie, éclairage) et non l'aménagement intérieur, la rénovation ou la construction de bâtiments par un entrepreneur général."
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 2
 }
 },
 {
@@ -5385,7 +5479,18 @@
 "description": "Dans le cadre de ses\ntravaux de maintien d’actifs et amélioration environnementale, le Collège souhaite\nprocéder à l’aménagement de site des secteurs P1N et P1B de son stationnement\nprincipal au Campus du Collège de Maisonneuve situé au 3800 rue Sherbrooke Est,\nMontréal (Québec) H1X 2A2.\nLe projet se déroule en\nmilieu occupé. Le fonctionnement pédagogique est prioritaire et le projet doit\nêtre complété selon un calendrier qui minimise les impacts sur le fonctionnement\nde l’ORGANISME PUBLIC.\nLes travaux comprennent, de façon sommaire:\n· \nLa démolition du site\nexistant\n· \nDes travaux d’égout\npluviale \n· \nLa fourniture et mise\nen place de regards, de puisards et d’une chambre de régulation. \n· \nLa mise en œuvre de\ntranchée drainante;\n· \nLa réfection de la\nstructure de chaussée;\n· \nLa mise en œuvre de\nmassif électrique pour éclairage et système de guérite;\n· \nLa mise en œuvre de\npavage, trottoir et bordure dans le stationnement.\n· \nDes travaux\nélectriques, télécommunication et alarme incendie\n· \nDes travaux\nd’aménagement paysager\n3800 sHERBROOKE eST",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=11a53fa7-0f7c-45b5-af78-4b8b8ef38ff8",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne l'aménagement de site (démolition, travaux d'égout, terrassement, revêtement de chaussée, aménagement paysager) pour le stationnement d'un collège. Les travaux sont en milieu occupé.",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "No-go",
+"raison": "Le projet n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie/menuiserie comme cœur du contrat.",
+"version": 2
+}
 },
 {
 "id": "e64297e8-4582-4e3a-8c2b-7645565fb057",
@@ -5471,7 +5576,18 @@
 "description": "L’Office municipal d’habitation de Lévis aussi appelé « maître d’ouvrage », demande des soumissions pour un remplacement de chauffe-eau à effectuer sur les bâtiments situé au 20 et 24 rue Pie X ainsi qu'au 5430, 5470 et 5500 rue Bossuet à Lévis. Le contrat comprend notamment la fourniture des équipements, la vidange et le retrait des chauffe-eau existants, la fourniture et l’installation des bacs de retenue raccordés à un drain, les raccordements nécessaires ainsi que la mise en service des équipements.\nLe fournisseur devra planifier et coordonner les interventions avec le représentant de l’Office afin de limiter les inconvénients pour les occupants. Les bâtiments de l'ensemble immobilier visés et les quantités de chauffe-eaux à remplacer sont indiqués au devis technique.\nContrat à forfait. \nCONDITION : Seuls les entrepreneurs généraux ou les entrepreneurs spécialisés dans ce type de travail qui ont un établissement au Québec ou, lorsqu’un accord intergouvernemental est applicable, au Québec ou dans une province ou un territoire visé par cet accord et qui possèdent la licence requise en vertu de la Loi sur le bâtiment (L.R.Q., c. B-1.1) sont autorisés à soumissionner.",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6cb8e281-c759-438f-8a6f-843187f64fb1",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de chauffe-eau dans plusieurs bâtiments municipaux à Lévis. Le contrat inclut la fourniture d'équipements, la vidange des anciens chauffe-eau et l'installation de nouveaux systèmes de raccordement.",
+"pointsAttention": [
+"CONDITION : Seuls les entrepreneurs généraux ou les entrepreneurs spécialisés dans ce type de travail qui ont un établissement au Québec ou, lorsqu’un accord intergouvernemental est applicable, au Québec ou dans une province ou un territoire visé par cet accord et qui possèdent la licence requise en vertu de la Loi sur le bâtiment (L.R.Q., c. B-1.1) sont autorisés à soumissionner."
+],
+"recommandation": "No-go",
+"raison": "Le contrat concerne la plomberie et le remplacement de chauffe-eau, ce qui est hors du champ d'intérêt principal de l'entreprise (maçonnerie/charpenterie/menuiserie).",
+"version": 2
+}
 },
 {
 "id": "6a555255-9281-40fb-af45-e5399ecd0af1",
@@ -5708,12 +5824,13 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "Cet appel d'offres concerne la fourniture de services en réfrigération pour le Centre de services scolaire De La Jonquière. La durée prévue du contrat est de 12 mois avec un montant estimé de 210 000 $.",
+"resume": "Cet appel d'offres concerne la fourniture de services en réfrigération pour le Centre de services scolaire De La Jonquière. Le montant estimé est de 210 000 $ et la durée prévue est de 12 mois.",
 "pointsAttention": [
 "Contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne des services de réfrigération et n'est pas lié aux travaux d'aménagement intérieur, rénovation ou construction d'un bâtiment."
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 2
 }
 },
 {
@@ -5743,7 +5860,20 @@
 "description": "AVIS PUBLIC D’APPEL D’OFFRES\n086-35\nRÉFECTION DE TROIS BASSINS DE TOITURES\nÉcole Notre-Dame-du-Sacré-Cœur\n 33\nBd Brassard, Saint-Paul, QC J0K 3E0.\nORGANISME PUBLIC :\nCENTRE\nDE SERVICES SCOLAIRE DES SAMARES Équipe\nde la gestion contractuelle\n4671,\nrue Principale Service\ndes ressources matérielles\nSaint-Félix-de-Valois\n(Québec) J0K 2M0 Téléphone :\n450-758-3605\nrm.gestion.contractuelle@csssamares.gouv.qc.ca\n(Enlever les sections non-applicables)\nAvis public est donné, par les présentes, que\nl’ORGANISME PUBLIC désire lancer un appel d’offres se rapportant à l’exécution\nde Réfection de trois bassins de\ntoitures, à École Notre-Dame-du-Sacré-Cœur,\nà l’Adresse33 Bd Brassard, Saint-Paul, QC J0K\n3E0.\nINFORMATIONS\nÀ compter du 30 septembre 2026, toute personne\nou toute entreprise pourra se procurer les documents d’appel d’offres sur le\nsite web du « Système électronique d’appel d’offres » (SEAO). La liste de\ntarification se trouve sous la rubrique « Service à la clientèle ». Les\ndocuments d’appel d’offres ne peuvent être obtenus que par l’intermédiaire du\nSEAO.\nACCORDS\nINTERGOUVERNEMENTAUX APPLICABLES\nLe présent appel d’offres est soumis aux\naccords intergouvernementaux suivants :\n(Ne conserver que les accords applicables)\n· \nACCORD\nDE COMMERCE ET DE COOPÉRATION ENTRE LE QUÉBEC ET L’ONTARIO; \n· \nACCORD\nDE LIBRE-ÉCHANGE CANADIEN; \nDESCRIPTION SOMMAIRE\nDES TRAVAUX\nLes travaux faisant l’objet des\nprésentes comprennent notamment mais sans limitation :\nRéfection des membranes de toitures dans trois bassins (C1, C2\net C3) existants à l’école Notre-Dame-du-Sacré-Cœur située à St Paul, par une\nmembrane en PVC blanche de 1.8mm en pleine adhérence.\nDate de début des travaux : 09/11/2026\nDate de Réception Avec Réserve des travaux : 23/11/2026\no \nLa circulation dans l’école devra être réduite\nau minimum durant les heures de classe. Une coordination devra être faite avec\nle CSS.\no \nUne chute à déchet pour le conteneur devra être\nprévu par enjeux de sécurité\no \nVeuillez\nprévoir que les travaux seront réalisés en période hivernale et que le\ndéneigement du toit sera nécessaire pour permettre leur exécution.\nCLÔTURE, RÉCEPTION ET\nOUVERTURE DES SOUMISSIONS\nPour être valides et considérées, les\nsoumissions (un (1) original sans aucune copie) doivent être placées dans une\nenveloppe scellée portant la mention « Soumission pour le projet Réfection de\ntrois bassins de toitures – École Notre-Dame-du-Sacré-Cœur » et doivent être reçues au8, rue Monseigneur Lafortune, Saint-Paul (Québec) J6E\n6G7 (Atelier SRM), au plus tard\nle 30 octobre à 14 heure, heure en vigueur localement, pour\nêtre ouvertes publiquement au même endroit, le même jour, à la même heure.\nToute soumission reçue postérieurement sera automatiquement rejetée.\nL’ORGANISME\nPUBLIC ne s’engage pas à accepter l’une ou l’autre des soumissions reçues dans\nle cadre du présent appel d’offres.\nLes\nsoumissions peuvent aussi être transmises par voie électronique. Le cas\néchéant, cette transmission ne peut être effectuée que par l’",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0263a6e1-f91e-4788-bd38-af5d6797694f",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de trois bassins de toiture à l'école Notre-Dame-du-Sacré-Cœur. Les travaux impliquent la pose de membranes de toiture en PVC blanche.",
+"pointsAttention": [
+"Visite obligatoire (coordination avec le CSS)",
+"Travaux en période hivernale (déneigement nécessaire)",
+"Circulation réduite durant les heures de classe"
+],
+"recommandation": "No-go",
+"raison": "Le contrat concerne la toiture et non la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 2
+}
 },
 {
 "id": "46056230-2bcf-4331-a6b8-72986e514f16",
@@ -5909,7 +6039,8 @@
 "Contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne des travaux de câblage informatique et n'est pas pertinent pour les services d'aménagement intérieur, rénovation, construction ou agrandissement."
+"raison": "L'appel d'offres concerne exclusivement le câblage informatique et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 2
 }
 },
 {
@@ -5940,15 +6071,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 70,
-"type": "Aménagement intérieur / réno",
+"pertinence": 0,
+"type": "Hors sujet",
 "resume": "L'appel d'offres concerne le remplacement de l'unité de ventilation, des plafonds et de l'éclairage au CFP de Québec. Le montant estimé est de 1 200 000 $ et la durée prévue est de 24 mois.",
 "pointsAttention": [
-"Visite obligatoire prévue le 9 octobre 2026 à 11h00 au site du projet.",
-"Cautionnement de soumission de 10 % du montant total (hors taxes) requis."
+"visite obligatoire"
 ],
-"recommandation": "Go",
-"raison": "Le projet concerne des travaux d'aménagement intérieur (plafonds, éclairage) et de rénovation/remplacement d'installations dans un bâtiment existant, ce qui correspond à l'intérêt de l'entrepreneur général."
+"recommandation": "No-go",
+"raison": "Le projet est centré sur la ventilation, les plafonds et l'éclairage, ce qui n'est pas le cœur de métier de la briquetage, de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -6040,9 +6171,9 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement d'un réservoir d'appoint de génératrice et d'un commutateur de transfert, incluant des travaux électriques et mécaniques connexes. Le montant estimé se situe entre 100 000 $ et 500 000 $.",
+"resume": "L'appel d'offres concerne le remplacement d'un réservoir d'appoint au diesel et d'un commutateur de transfert de génératrice, incluant des travaux électriques et mécaniques connexes.",
 "pointsAttention": [
 "visite obligatoire",
 "délai court",
@@ -6051,7 +6182,8 @@
 "contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne la maintenance/rénovation d'équipement spécifique (génératrice) et non des travaux d'aménagement intérieur, de rénovation ou de construction de bâtiments."
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 2
 }
 },
 {
@@ -6112,15 +6244,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 30,
+"pertinence": 10,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la réfection de la dalle du sous-sol de la Résidence phase 3 de l'École de technologie supérieure à Montréal. Le montant estimé est de 300 000 $ et la durée prévue est de 8 mois.",
+"resume": "L'appel d'offres concerne la réfection de la dalle du sous-sol de la Résidence phase 3 de l'École de technologie supérieure. Le montant estimé est de 300 000 $ et la durée prévue est de 8 mois.",
 "pointsAttention": [
-"Visite obligatoire (séance d'information et visite du site le 13 octobre 2026).",
-"Cautionnement de soumission requis."
+"Visite obligatoire (séance d'information et visite du site le 13 octobre 2026)."
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne spécifiquement la réfection d'une dalle de sous-sol, ce qui est trop spécifique et ne correspond pas aux travaux d'aménagement intérieur, rénovation générale ou construction de bâtiment neuf/agrandissement recherchés."
+"raison": "Le projet concerne la réfection d'une dalle de sous-sol, ce qui n'est pas directement lié aux métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 2
 }
 },
 {
@@ -6263,7 +6395,18 @@
 "description": "Objet : Côte-Nord / Poste Manic 3 - Remplacement du système de protection incendie des transformateurs de puissance\nÀ titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur incluant les options est : entre 3 000 000 $ et 5 000 000 $\nDemande d'information : Doit être adressée au responsable au minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions\nDescription de l'objet : Le contrat consiste au remplacement des systèmes de protection incendie des transformateurs de puissance T31, T32, T33, T34, T35, T36 à la centrale Manic 3. \nIl a pour objet la conception, et la fabrication, la fourniture de la main-d’œuvre, du matériel, des matériaux, les essais en l'usine, l'emballage, l'entreposage, le transport y compris le déchargement, les travaux en chantier tels que le démantèlement, l’assemblage, l'installation, la vérification des équipements installés par des essais de mise en route, la formation du personnel d'Hydro-Québec et l’assistance. \nTravaux en option : \nLe démantèlement du système de protection incendie pour le transformateur T32 est en option, HQ se réserve le droit de faire appel ou non au service du fournisseur pour ce démantèlement.\nBronsard, Alexis\nBRONSARD.ALEXIS@HYDROQUEBEC.COM\nPoste : 4434\nVous pouvez consulter les documents liés à cet avis et soumissionner à partir du lien suivant :\nhttps://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27548\nHydro-Québec ne s'engage à accepter aucune des propositions reçues.",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4125dea3-49e1-4076-ac83-35bf87a5832b",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne le remplacement du système de protection incendie des transformateurs de puissance à la centrale Manic 3. Il s'agit d'un projet d'ingénierie et d'installation technique.",
+"pointsAttention": [
+"Délai de réponse pour demande d'information : minimum trois jours ouvrables avant la date limite."
+],
+"recommandation": "No-go",
+"raison": "Ce projet n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 2
+}
 },
 {
 "id": "b9610717-20f4-4aab-a6ae-5cd6344aee1d",
@@ -6294,15 +6437,16 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "Il s'agit d'un appel d'offres pour le réaménagement de l'aile 450 de l'Hôtel-Dieu de Québec, avec une estimation de 250 000 $. Les travaux sont prévus entre le 11 janvier 2027 et le 14 mai 2027.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour le réaménagement de l'aile 450 de l'Hôtel-Dieu de Québec. Les travaux sont prévus entre le 11 janvier 2027 et le 14 mai 2027 pour un montant estimé à 250 000 $.",
 "pointsAttention": [
 "Délai de réalisation des travaux : Du 11 janvier 2027 au 14 mai 2027",
 "Montant estimé : 250 000 $"
 ],
-"recommandation": "Go",
-"raison": "Le projet concerne un réaménagement intérieur dans un établissement de santé, ce qui correspond à la cible d'aménagement/rénovation de bâtiments."
+"recommandation": "À vérifier",
+"raison": "Le projet est un réaménagement de bâtiment, ce qui inclut potentiellement des travaux de maçonnerie ou de charpenterie/menuiserie, mais la description n'est pas spécifique sur la nature exacte des travaux requis.",
+"version": 2
 }
 },
 {
@@ -6364,15 +6508,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 70,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne le remplacement de la salle de graphie #4 à l'Hôpital de Montmagny. Les travaux sont estimés à 165 000 $ et devraient durer environ 3 mois (novembre 2026 à janvier 2027).",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux de remplacement de la salle de graphie #4 à l'Hôpital de Montmagny. La durée prévue pour les travaux est de 12 mois, avec une période d'exécution prévue entre novembre 2026 et janvier 2027.",
 "pointsAttention": [
-"Délai court (3 mois)",
-"Contrat sur demande : non"
+"Délai de réalisation précis (Novembre 2026 à Janvier 2027)"
 ],
-"recommandation": "Go",
-"raison": "L'appel d'offres concerne des travaux de rénovation/remplacement d'une salle, ce qui correspond à l'intérêt de l'entrepreneur général, bien que le contexte soit hospitalier."
+"recommandation": "À vérifier",
+"raison": "Le contrat est dans le domaine du bâtiment, mais la description ne spécifie pas clairement si la maçonnerie ou la charpenterie/menuiserie est le travail principal.",
+"version": 2
 }
 },
 {
@@ -6460,7 +6604,20 @@
 "description": "IDENTIFICATION DU CONTRAT\n Numéro de contrat : \n 44547228\n Titre du contrat :\n Aménagement des\n bureaux MTAA\n Adresse de l’immeuble :\n 867, boulevard de\n l’Ange-Gardien, L’Assomption (Québec) J5W 1T3\nTout soumissionnaire devra se conformer aux exigences\ncontenues aux documents contractuels. Ceux-ci ne peuvent être obtenus que par\nl’intermédiaire du système électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au\nnuméro 418-646-0177 pour les résidents de la région de Québec et au numéro sans\nfrais 1-877-336-7326 pour les résidents de l’extérieur.\nAttention : Notez que seuls les documents exigés\npar la Société aux termes du présent appel d’offres doivent être remis avec la\nsoumission, de manière à éviter toute situation qui entraînerait que la\nsoumission soit restrictive ou conditionnelle.\nDESCRIPTION\nSOMMAIRE DES TRAVAUX\nLa Société québécoise\ndes infrastructures (ci-après la « Société ») procède à un appel\nd’offres public de travaux de construction visant les travaux\nd’aménagement de nouveaux espaces administratifs adaptés aux besoins du\nclient, incluant les interventions architecturales, mécaniques, électriques,\ntechnologiques et de sécurité requise pour l’occupation des lieux.\nAVIS\nIMPORTANTS\nDÉVELOPPEMENT\nÉCONOMIQUE DU QUÉBEC\nCet appel d’offres contient des exigences visant le développement\néconomique du Québec. Veuillez vous référer à la section\n« Conditions » du présent avis. \nRecommandation de dépôt\ndes soumissions par voie électronique\nLa Société a entrepris\ndes initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation de\ncontracter/attestation de Revenu Québec\nIl est fortement\nsuggéré aux soumissionnaires de faire dès que possible, selon les exigences des\ndocuments contractuels, leur demande d’attestation de Revenu Québec et, le cas\néchéant, leur demande d’autorisation de contracter auprès de l’Autorité des marchés\npublics, afin de s’assurer que ces exigences soient rencontrées avant la date\net l’heure limites indiquées dans les Instructions aux soumissionnaires\net/ou dans les Instructions complémentaires.\nNon-participation à\nl’appel d’offres\nToute personne ou\nentreprise s’étant procuré les documents contractuels et qui ne présente pas de\nsoumission, s’engage à compléter le formulaire « Questionnaire de\nnon-participation » inclus dans les documents contractuels et à transmettre\ncelui‑ci à la Société à l’adresse de courrier électronique suivante : infosoumission6@sqi.gouv.qc.ca. \nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des\nsoumissions déposées du Québec (BSDQ) doivent, lors du dépôt de leur soumission\nélectronique au BSDQ, indiquer la Société comme « Destinataire » à\nl’aide du menu « Soumissionnaire » du système de transmission\nélectronique des soumissions (TES).\nRÈGLEMENT SUR LES PAIEMENTS ET LE RÈGLEMENT RAPIDES DES DIFFÉRENDS\nEN MATIÈRE DE",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6b38e10b-3763-4037-95f2-07cea0aaabd2",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'aménagement de nouveaux espaces administratifs incluant des interventions architecturales, mécaniques, électriques, technologiques et de sécurité. Le montant estimé est de 1 100 000 $ et la durée prévue est de 6 mois.",
+"pointsAttention": [
+"Visite obligatoire (implicite par nature des travaux)",
+"Délai de soumission",
+"Exigences de garantie de soumission (cautionnement/lettre de garantie)"
+],
+"recommandation": "À vérifier",
+"raison": "Le contrat est de construction/aménagement de bâtiment, ce qui touche à la partie 'Bâtiment', mais le focus n'est pas clairement sur la maçonnerie ou la charpenterie/menuiserie comme travail principal.",
+"version": 2
+}
 },
 {
 "id": "aaee2672-50e1-42fc-a765-0da615e214f3",
@@ -6491,8 +6648,8 @@
 "vuLe": "2026-10-24T19:55",
 "analyse": {
 "pertinence": 50,
-"type": "Aménagement intérieur / réno",
-"resume": "Il s'agit d'un appel d'offres pour des travaux de construction et maintenance pour le Centre Hospitalier Universitaire Sainte-Justine à Montréal. Le montant estimé est de 7,5 millions de dollars sur une durée prévue de trois ans.",
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un contrat à exécution sur demande pour divers travaux de construction pour le Centre Hospitalier Universitaire Sainte-Justine, avec une durée prévue de trois ans. Le montant estimé est de 7 500 000 $.",
 "pointsAttention": [
 "Contrat sur demande",
 "Garantie de soumission de 10%",
@@ -6500,7 +6657,8 @@
 "Lettre d'engagement pour garantie d'exécution et garantie pour gages, matériaux et main d'œuvre requises"
 ],
 "recommandation": "À vérifier",
-"raison": "Bien que le projet implique de la construction et de la maintenance de bâtiments, il est centré sur un établissement de santé, ce qui peut ne pas correspondre directement à la cible d'aménagement intérieur/rénovation/bâtiment neuf/agrandissement pour un entrepreneur général généraliste."
+"raison": "Le projet est dans le domaine du bâtiment, mais la description est trop générale pour déterminer si la maçonnerie ou la charpenterie/menuiserie est le cœur du contrat.",
+"version": 2
 }
 },
 {
@@ -6531,16 +6689,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 0,
+"pertinence": 10,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement d'un réservoir d'huile usée dans la région de la Côte-Nord. La durée prévue est de 10 mois.",
+"resume": "L'appel d'offres concerne le remplacement d'un réservoir d'huile usée. Les codes de travaux mentionnent la plomberie et les métiers du bâtiment, mais le sujet principal n'est pas lié à la maçonnerie ou à la charpenterie/menuiserie.",
 "pointsAttention": [
-"Montant estimé non publié",
-"Cautionnement de soumission non précisé sur l'avis",
-"Contrat sur demande non"
+"visite obligatoire"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne la maintenance d'un réservoir et n'est pas lié aux travaux d'aménagement intérieur, de rénovation ou de construction de bâtiments."
+"raison": "Le projet n'a aucun lien avec les métiers ciblés (maçonnerie, charpenterie, menuiserie).",
+"version": 2
 }
 },
 {
@@ -6610,14 +6767,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la démolition et la reconstruction d'une section de l'aile A d'une école, incluant le drainage, l'imperméabilisation des fondations, le remplacement de canalisations et les travaux de finition intérieur.",
+"pertinence": 40,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la démolition et la reconstruction d'une section de l'aile A d'une école, incluant le drainage, l'imperméabilisation des fondations, le remplacement de canalisations et les travaux de finition intérieure.",
 "pointsAttention": [
 "Contrat sur demande : non"
 ],
-"recommandation": "Go",
-"raison": "Le projet inclut la reconstruction et les travaux de finition intérieur, ce qui correspond à l'intérêt de l'entrepreneur général pour les travaux d'aménagement et de rénovation de bâtiments."
+"recommandation": "No-go",
+"raison": "Le projet est principalement axé sur la construction de bâtiment et les travaux de plomberie/démolition, sans mention claire de travaux majeurs en maçonnerie ou charpenterie/menuiserie comme cœur du contrat.",
+"version": 2
 }
 },
 {
@@ -6729,14 +6887,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne le remplacement des fenêtres, des portes extérieures et des sections de mur-rideau du pavillon principal de la Faculté de médecine vétérinaire afin de rétablir l'étanchéité de l'enveloppe du bâtiment. Les travaux incluent également des corrections de maçonnerie et le remplacement du revêtement intérieur.",
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "Le projet vise le remplacement des fenêtres, des portes extérieures et des sections de mur-rideau pour rétablir l'étanchéité de l'enveloppe du pavillon principal. Des travaux connexes incluent des corrections de maçonnerie autour des ouvertures et le remplacement du revêtement intérieur.",
 "pointsAttention": [
 "Attention particulière à la préservation des éléments architecturaux art-déco de la façade principale."
 ],
 "recommandation": "Go",
-"raison": "Le projet correspond directement à la rénovation de l'enveloppe du bâtiment (fenêtres, mur-rideau, maçonnerie) dans le cadre d'un projet de construction/rénovation, ce qui est pertinent pour l'entrepreneur général."
+"raison": "Le projet inclut clairement des travaux majeurs en maçonnerie (mur-rideau, corrections de maçonnerie) et en menuiserie (fenêtres, portes), ce qui correspond à la cible.",
+"version": 2
 }
 },
 {
@@ -6770,12 +6929,13 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la réfection des caniveaux du garage #1 des Travaux publics de l'arrondissement de Pierrefonds-Roxboro. La durée prévue des travaux est de 3 mois.",
+"resume": "L'appel d'offres concerne les travaux de réfection des caniveaux du garage #1 des Travaux publics de l'arrondissement de Pierrefonds-Roxboro. La durée prévue est de 3 mois.",
 "pointsAttention": [
 "Visites supervisées des lieux : Du 5 octobre 2026 au 16 octobre 2026"
 ],
 "recommandation": "No-go",
-"raison": "Ce projet est trop spécifique et ne correspond pas aux travaux d'aménagement intérieur, rénovation, construction neuve ou agrandissement recherchés par l'entrepreneur général."
+"raison": "Le projet ne concerne pas la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 2
 }
 },
 {
@@ -6835,14 +6995,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 70,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne l'exécution de travaux généraux pour le Cégep de Saint-Laurent à Montréal, incluant charpentier-menuisier, peintre, poseur de systèmes intérieurs et surintendant de chantier. Le montant estimé est de 600 000 $ sur une durée de 36 mois.",
+"pertinence": 80,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne l'exécution de travaux généraux pour le Cégep de Saint-Laurent sur une période de 36 mois. Les travaux incluent explicitement le rôle de Charpentier-menuisier, ainsi que d'autres corps de métier comme peintre et poseur de systèmes intérieurs.",
 "pointsAttention": [
 "Contrat sur demande"
 ],
 "recommandation": "Go",
-"raison": "L'appel d'offres concerne des travaux généraux d'aménagement et de rénovation dans un bâtiment existant, ce qui correspond à l'intérêt de l'entrepreneur général."
+"raison": "Le contrat inclut clairement le métier de Charpentier-menuisier, ce qui correspond à une partie importante de la cible de l'entreprise.",
+"version": 2
 }
 },
 {
@@ -7018,18 +7179,16 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 50,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la restauration des corniches et des lucarnes de l'hôtel de ville de Sainte-Anne-des-Plaines. La durée prévue du contrat est d'un mois.",
+"resume": "L'appel d'offres concerne la restauration des corniches et des lucarnes de l'hôtel de ville. Le contrat doit être complété au plus tard le 1er novembre 2027.",
 "pointsAttention": [
-"Visite obligatoire",
-"Délai court",
-"Cote de sécurité",
-"Milieu occupé",
-"Contrat sur demande"
+"Délai de complétion du contrat : 1er novembre 2027",
+"Nécessité d'obtenir les documents via le SEAO"
 ],
-"recommandation": "No-go",
-"raison": "Ce projet est trop spécifique et ne correspond pas aux travaux d'aménagement intérieur, rénovation, agrandissement ou construction de bâtiment que recherche l'entrepreneur général."
+"recommandation": "À vérifier",
+"raison": "Le travail principal n'est pas clairement identifié comme de la maçonnerie ou de la charpenterie/menuiserie, mais la restauration de structures pourrait impliquer ces corps de métier.",
+"version": 2
 }
 },
 {
@@ -7178,16 +7337,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 90,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne les travaux de réaménagement et d'optimisation des espaces bureaux pour un immeuble commercial situé à Rimouski. La durée prévue des travaux est de 6 mois, avec un montant estimé de 997 517,00 $.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux de réaménagement et d'optimisation d'espaces bureaux pour un immeuble commercial situé à Rimouski. La durée prévue des travaux est de 6 mois, avec un montant estimé de 997 517,00 $.",
 "pointsAttention": [
-"Visite obligatoire (implicite par l'appel d'offres)",
-"Délai de fermeture fixé au 27 octobre 2026",
-"Montant estimé de 997 517,00 $"
+"Délai de 6 mois"
 ],
-"recommandation": "Go",
-"raison": "L'appel d'offres correspond directement à la cible de l'entrepreneur général pour les travaux de réaménagement et d'aménagement intérieur de bureaux."
+"recommandation": "À vérifier",
+"raison": "Le contrat est dans le domaine du bâtiment, mais la description ne spécifie pas clairement que la maçonnerie ou la charpenterie/menuiserie constituent le travail principal.",
+"version": 2
 }
 },
 {
@@ -7244,14 +7402,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 70,
-"type": "Aménagement intérieur / réno",
-"resume": "Il s'agit d'un appel d'offres pour la reconstruction d'un CHSLD suite à un dégât d'eau. Les travaux sont prévus du 05 octobre 2026 au 07 janvier 2028 pour un montant estimé de 180 000 $.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de reconstruction au CHSLD Légaré suite à un dégât d'eau. La durée prévue des travaux est de deux mois, avec une période d'exécution s'étendant du 05 octobre 2026 au 07 janvier 2028.",
 "pointsAttention": [
-"Visite des lieux prévue le 17 août 2026 à 13 h 30. Le montant estimé est de 180 000 $."
+"Visite des lieux prévue le 17 août 2026 à 13 h 30. Chaque soumissionnaire est responsable de déléguer un représentant."
 ],
-"recommandation": "Go",
-"raison": "Le projet concerne la reconstruction d'un bâtiment (CHSLD), ce qui correspond à la catégorie de travaux de bâtiment neuf ou reconstruction, et est dans la limite du montant maximal de 15 M$."
+"recommandation": "À vérifier",
+"raison": "Le projet est un bâtiment nécessitant des travaux de reconstruction, ce qui inclut potentiellement des aspects de maçonnerie ou de charpenterie/menuiserie, mais le descriptif ne précise pas clairement la nature principale des travaux.",
+"version": 2
 }
 },
 {
@@ -7280,9 +7439,9 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement des systèmes de refroidissement (refroidisseur et tour) au Centre hospitalier universitaire de Sherbrooke. Le projet inclut des travaux connexes en mécanique, électricité, structure et régulation.",
+"resume": "Le projet consiste à remplacer un refroidisseur Trane de 320 tonnes et sa tour de refroidissement par deux unités de refroidissement extérieures, incluant les travaux connexes en mécanique, électricité, structure et régulation.",
 "pointsAttention": [
 "visite obligatoire",
 "délai court",
@@ -7291,7 +7450,8 @@
 "contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "Ce projet est centré sur les systèmes de refroidissement et n'est pas dans le champ d'aménagement intérieur, rénovation, construction neuve ou agrandissement recherché."
+"raison": "Le projet concerne le remplacement de systèmes de refroidissement et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 2
 }
 },
 {
@@ -7350,14 +7510,15 @@
 "vuLe": "2026-10-24T19:55",
 "analyse": {
 "pertinence": 50,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la démolition complète de bâtiments résidentiels, incluant la démolition de l'intérieur et de l'extérieur, le débranchement des services, la gestion des matériaux contaminés et la remise en état du terrain.",
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le contrat concerne la démolition complète de bâtiments résidentiels, incluant la démolition, le débranchement des services, la gestion des matériaux et la remise en état du terrain. La durée prévue est de 8 mois.",
 "pointsAttention": [
-"Visite obligatoire",
-"Délai de 8 mois"
+"visite obligatoire",
+"délai court"
 ],
 "recommandation": "À vérifier",
-"raison": "Bien que cela touche à la démolition et la remise en état, l'accent est mis sur la démolition complète et la gestion des sols, ce qui est une partie du spectre de l'entrepreneur général, mais l'appel d'offres n'est pas spécifiquement axé sur l'aménagement intérieur ou la construction neuve."
+"raison": "Bien que le contrat inclue la démolition de structures (qui peut impliquer maçonnerie/charpenterie), le cœur du projet est la démolition complète, et non la construction ou la rénovation principale de ces éléments.",
+"version": 2
 }
 },
 {
@@ -7388,7 +7549,19 @@
 "description": "Le Cégep de Rimouski cherche à octroyer un contrat de travaux complets de réfection pour une tour de ses résidences étudiante. Les travaux comprennent la rénovation des chambres et des aires communes, l’isolation des murs extérieurs, le remplacement des fenêtres, la réfection des réseaux d’eau domestique et sanitaire, la mise aux normes du système d’alarme incendie, la modernisation du réseau électrique, l’ajout d’un système de contrôle DDC ainsi que l’installation d’un nouveau système de ventilation.",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=672de6c7-9b86-40d6-b407-3070ac55a30e",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réfection générale d'une tour de résidences étudiantes, incluant la rénovation des chambres, l'isolation des murs extérieurs, le remplacement des fenêtres, et la modernisation des réseaux (eau, électricité, ventilation).",
+"pointsAttention": [
+"Montant estimé élevé (10M$)",
+"Durée prévue de 9 mois"
+],
+"recommandation": "À vérifier",
+"raison": "Le projet est un bâtiment complet, mais les travaux mentionnés (isolation, fenêtres, réseaux, électricité, ventilation) ne mettent pas le cœur du contrat sur la maçonnerie ou la charpenterie/menuiserie, mais ils peuvent inclure des éléments pertinents.",
+"version": 2
+}
 },
 {
 "id": "fa9a2f6e-04bf-4b38-81b8-943cac01daca",
@@ -7450,16 +7623,16 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 30,
+"pertinence": 10,
 "type": "Hors sujet",
-"resume": "Cet appel d'offres concerne des travaux d'excavation et travaux civils pour l'agrandissement et le réaménagement d'un bloc opératoire et d'un module clinique transitoire à l'Hôpital Charles-Le Moyne. Le montant estimé est de 5,848 millions de dollars et la durée prévue est de 24 mois.",
+"resume": "Cet appel d'offres concerne des travaux d'excavation et travaux civils pour l'agrandissement et le réaménagement d'un bloc opératoire et d'un module clinique transitoire à l'Hôpital Charles-Le Moyne. La durée prévue est de 24 mois et le montant estimé est de 5,848 millions de dollars.",
 "pointsAttention": [
-"Visite obligatoire (implicite par l'appel d'offres)",
-"Délai court (date de fermeture fixée)",
-"Contrat sur demande"
+"Visite obligatoire",
+"Délai court"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne principalement des travaux civils et n'est pas directement axé sur l'aménagement intérieur, la rénovation ou la construction de bâtiments neufs/agrandissements pour un entrepreneur général dans le cadre de la cible spécifiée."
+"raison": "Le contrat concerne principalement des travaux civils et d'infrastructure, et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -7518,15 +7691,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 70,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la démolition et la construction de nouvelles chambres pour les joueurs de l'aréna Denis-Perron. La durée prévue pour ce projet est de 10 mois.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le contrat concerne la démolition et la construction de nouvelles chambres pour les joueurs de l'aréna Denis-Perron. La durée prévue est de 10 mois.",
 "pointsAttention": [
-"Cautionnement de soumission : Non précisé sur l'avis",
-"Contrat sur demande : non"
+"Visite obligatoire"
 ],
-"recommandation": "Go",
-"raison": "Le projet implique la construction d'un bâtiment neuf (chambres) et correspond à la catégorie d'agrandissement/construction de bâtiment, bien que le montant ne soit pas publié."
+"recommandation": "À vérifier",
+"raison": "Le contrat est lié à la construction d'un bâtiment, mais la description ne spécifie pas clairement si la maçonnerie ou la charpenterie/menuiserie est le travail principal.",
+"version": 2
 }
 },
 {
@@ -7560,7 +7733,20 @@
 "description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44546306\n Titre du\n contrat :\n Lot 4.607 - Terrazzo\nRestauration, mise aux normes et réaménagement\n Adresse de\n l’immeuble :\n 12, rue Saint-Louis,\n Québec (Québec) G1R 5L3\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant la fourniture de l’expertise, de la main-d’œuvre, des\nmatériaux, de l’équipement, des services et de tout ce qui est requis pour\nl’exécution des travaux de Terrazzo pour la\nrestauration, mise aux normes et réaménagement de l’Édifice Gérard-D. -Lévesque\nsitué au 12 rue Saint-Louis à Québec.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission6@sqi.gouv.qc.ca.\nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions ",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=5e71313d-8902-404d-b3ee-dab8d85f2748",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la restauration, la mise aux normes et le réaménagement d'un édifice situé au 12, rue Saint-Louis à Québec. Les travaux portent spécifiquement sur le 'Terrazzo'.",
+"pointsAttention": [
+"Durée prévue : 12 mois",
+"Montant estimé : 1 000 000,00 $",
+"Exigences strictes concernant la garantie de soumission (cautionnement ou lettre de garantie irrévocable)."
+],
+"recommandation": "À vérifier",
+"raison": "Bien que le contrat soit pour la restauration d'un bâtiment, l'accent est mis sur le 'Terrazzo' et non explicitement sur la maçonnerie ou la charpenterie comme cœur du projet.",
+"version": 2
+}
 },
 {
 "id": "dc8194ec-d843-477c-bf97-6c2771cfa629",
@@ -7618,7 +7804,19 @@
 "description": "Procédure ouverte\nDR26-PUB-068\nTravaux de restauration du bâtiment patrimonial de\nl'ancienne Chaufferie Fortissimo et sa cheminée\nPROJET\nLa Ville de\nDrummondville sollicite le marché pour des Travaux de restauration du bâtiment patrimonial de\nl'ancienne Chaufferie Fortissimo et sa cheminée.\nÀ compter du jeudi17 septembre 2026, les\ndocuments relatifs à cet appel d’offres peuvent être obtenus en s’adressant au\nSystème électronique d’appel d’offres (SEAO) en communiquant avec un de ses\nreprésentants par téléphone au 1 866 669-7326 ou au 514 856-6600\nou en consultant le site Web www.seao.gouv.qc.ca en\nstipulant le numéro de référence DR26-PUB-068. Les\ndocuments sont disponibles au coût établi par le SEAO. La facturation pour\nl’impression et la livraison seront effectuées par SEAO. Les plans et devis\nsont non remboursables. \nLa Ville n’encourt aucune responsabilité du fait que les avis écrits ou\ndocuments quelconques véhiculés par système électronique soient incomplets ou\ncomportent quelque erreur ou omission que ce soit. En conséquence, tout\nsoumissionnaire doit s’assurer, avant de présenter son offre, d’obtenir tous\nles documents reliés à cette procédure ouverte.\nToute soumission pour être valide doit être accompagnée d’un dépôt ou d’un\ncautionnement dont le montant est égal à 10 % du total de la soumission incluant\nles taxes.\nSeuls sont\nadmis à soumissionner ceux qui ont leur principal établissement d’affaires au\nCanada et dans les territoires visés par l’Accord du libre-échange canadien\n(ALEC) et qui ont obtenu par l’intermédiaire du SEAO à leur nom les documents\nd’appel d’offres émis par le maître de l’ouvrage. Les soumissions scellées\ndevront parvenir au bureau du maître de l’ouvrage à l’attention de Me Mélanie\nOuellet, greffière, avant 11 h, le jeudi15 octobre 2026. L’ouverture\ndes soumissions se fera publiquement immédiatement après l’heure prévue pour leur réception aux ateliers municipaux de la Ville de\nDrummondville au 1005 de la rue Saint-Thomas à Drummondville.\nPour toute\ninformation supplémentaire, veuillez communiquer avec Mme Geneviève Lepage\nMillette, coordonnatrice à la Division de l’approvisionnement, pour le volet\nadministratif à l’adresse courriel glepage@drummondville.caet avec M. Philippe Roy, gestionnaire de projetà la Division des\nprojets et de la mobilité, pour le volet technique à l’adresse courrielproy@drummondville.ca.\nLa Ville de\nDrummondville ne s’engage à accepter ni la plus basse ni aucune des soumissions\nreçues ni à encourir aucuns frais ou obligation d’aucune sorte envers le ou les\nsoumissionnaires.\nLa Ville se\nréserve également la possibilité de refuser toute soumission d’un entrepreneur\nou d’un fournisseur qui, au cours des deux dernières années précédant la date\nd’ouverture des soumissions, a fait l’objet d’une évaluation de rendement\ninsatisfait par l’organisation municipale.\nMe\nMélanie Ouellet\nGreffière de la Ville",
 "lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=1b5eb6db-4e56-49d5-a8f7-a9ebbc2eb19e",
 "nouveau": false,
-"vuLe": "2026-10-24T19:55"
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 80,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne les travaux de restauration du bâtiment patrimonial de l'ancienne Chaufferie Fortissimo et de sa cheminée. La durée prévue pour les travaux est de 12 mois.",
+"pointsAttention": [
+"Délai de soumission : Soumissions à déposer avant le jeudi 15 octobre 2026.",
+"Cautionnement de soumission : 10 % du total de la soumission incluant les taxes."
+],
+"recommandation": "Go",
+"raison": "Le projet implique clairement des travaux de maçonnerie (restauration de bâtiment et cheminée), ce qui correspond directement à l'intérêt de l'entreprise.",
+"version": 2
+}
 },
 {
 "id": "9403fdc4-4a76-4086-af1a-af6786724527",
@@ -7647,14 +7845,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "Cet appel d'offres concerne l'installation de plomberie, chauffage et refroidissement pour un projet d'Hôtel au Casino de Montréal. La durée prévue des travaux est de 24 mois.",
+"resume": "Cet appel d'offres concerne l'installation de plomberie, chauffage et refroidissement pour l'Hôtel au Casino de Montréal. La durée prévue des travaux est de 24 mois.",
 "pointsAttention": [
-"Visite de chantier obligatoire le mardi 29 septembre 2026."
+"Visite de chantier obligatoire le mardi 29 septembre 2026 à 10h00."
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres est trop spécialisé (plomberie/CVC) et ne correspond pas aux critères de l'entrepreneur général axé sur l'aménagement intérieur, la rénovation ou la construction de bâtiments neufs/agrandissements."
+"raison": "Le projet est centré sur la plomberie et le chauffage, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 2
 }
 },
 {
@@ -7798,12 +7997,13 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la fourniture, l'installation, la mise en service et l'entretien de compteurs d'eau et d'antennes de télérelève pour le parc municipal de la Ville de Hampstead. Le mandat inclut la gestion des rendez-vous, l'inspection, le remplacement des antennes et la gestion des données sur une période de trois ans.",
+"resume": "L'appel d'offres concerne la fourniture, l'installation, la mise en service et l'entretien de compteurs d'eau et d'antennes de télérelève pour le parc municipal de la Ville de Hampstead.",
 "pointsAttention": [
-"délai court"
+"délai long (3 ans)"
 ],
 "recommandation": "No-go",
-"raison": "Cet appel d'offres concerne l'entretien et l'installation de compteurs et d'antennes, ce qui est hors du champ de l'aménagement intérieur, de la rénovation ou de la construction de bâtiments."
+"raison": "Le contrat n'a aucun lien avec la maçonnerie, la charpenterie, la menuiserie ou les travaux de bâtiment ciblés.",
+"version": 2
 }
 },
 {
@@ -7891,14 +8091,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 75,
-"type": "Aménagement intérieur / réno",
-"resume": "Le projet concerne le réaménagement d'un laboratoire au pavillon H de l'Université Concordia, incluant des rénovations en architecture, mécanique et électricité. La durée prévue est de 5 mois et le montant estimé est de 445 000 $.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet consiste à effectuer des rénovations en architecture, mécanique et électrique dans un laboratoire au pavillon H. La durée prévue est de 5 mois pour un montant estimé à 445 000 $.",
 "pointsAttention": [
-"Cautionnement, 10% de la soumission"
+"Visite obligatoire"
 ],
-"recommandation": "Go",
-"raison": "Le projet correspond à la catégorie de rénovation et d'aménagement intérieur d'un bâtiment, ce qui est pertinent pour l'entrepreneur général."
+"recommandation": "À vérifier",
+"raison": "Le projet est un bâtiment nécessitant des rénovations, mais la description mentionne des travaux en mécanique et électricité, ce qui n'est pas le cœur de métier principal recherché.",
+"version": 2
 }
 },
 {
@@ -7987,17 +8188,19 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "Il s'agit d'un appel d'offres pour des travaux de structure d'acier et charpente métallique pour l'agrandissement et le réaménagement d'un bloc opératoire et d'une chirurgie d'un jour (module clinique transitoire) à Longueuil. Le montant estimé est de 4 209 596 $ et la durée prévue est de 8 mois.",
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction de la structure d'acier et charpente métallique pour un agrandissement et réaménagement d'un bloc opératoire et d'une chirurgie d'un jour à l'Hôpital Charles-Le Moyne.",
 "pointsAttention": [
-"Visite obligatoire (implicite par nature des travaux)",
-"Délai court (durée prévue de 8 mois)",
-"Cote de sécurité (travaux hospitaliers)",
+"Visite obligatoire",
+"Délai court",
+"Cote de sécurité",
+"Milieu occupé",
 "Contrat sur demande : non"
 ],
-"recommandation": "Go",
-"raison": "L'appel d'offres concerne un agrandissement et un réaménagement de bâtiment, ce qui correspond directement à la cible de l'entrepreneur général (aménagement, réaménagement, construction d'un bâtiment)."
+"recommandation": "No-go",
+"raison": "Le contrat concerne principalement la structure d'acier et la charpente métallique, ce qui est hors du cœur de métier de la maçonnerie/briquetage et charpenterie/menuiserie recherché.",
+"version": 2
 }
 },
 {
@@ -8030,14 +8233,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 85,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la démolition d'une serre existante et la construction d'une nouvelle serre et d'un bâtiment annexe pour un centre de formation horticole. Le montant estimé est de 5 700 000 $ et la durée prévue est de 9 mois.",
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition d'une serre existante et la construction d'une nouvelle serre et d'un bâtiment annexe pour un centre de formation horticole. Les travaux devraient durer environ 9 mois.",
 "pointsAttention": [
-"Cautionnement, Lettre de garantie irrévocable, 10% du prix total proposé"
+"Délai de travaux : Début le 1er mars 2027, fin le 17 décembre 2027."
 ],
-"recommandation": "Go",
-"raison": "Le projet correspond à la construction d'un bâtiment neuf (agrandissement/construction) dans le secteur de l'aménagement/construction de bâtiments, et le montant est inférieur à la limite de 15 M$."
+"recommandation": "À vérifier",
+"raison": "Le contrat est axé sur la construction d'un bâtiment, ce qui inclut des aspects de maçonnerie et/ou charpenterie, mais le cœur du contrat n'est pas exclusivement ces métiers.",
+"version": 2
 }
 },
 {
@@ -8359,12 +8563,17 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne le démantèlement d'une génératrice existante et le raccordement d'une alimentation d'urgence entre deux pavillons universitaires. Il implique des travaux techniques spécifiques liés à l'alimentation électrique.",
+"resume": "Les travaux consistent à démanteler une génératrice existante et à raccorder l'alimentation d'urgence entre deux pavillons. Il s'agit d'un projet d'alimentation électrique et de raccordement d'équipements.",
 "pointsAttention": [
-"Contrat sur demande : non"
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne des travaux d'alimentation électrique et de générateurs, ce qui est hors du champ de l'aménagement intérieur, de la rénovation ou de la construction de bâtiments."
+"raison": "Le projet concerne l'alimentation électrique et le raccordement de génératrices, ce qui n'est pas lié aux métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 2
 }
 },
 {
@@ -8396,14 +8605,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 90,
-"type": "Aménagement intérieur / réno",
-"resume": "L'appel d'offres concerne la réfection majeure de quatre bâtiments. La durée prévue pour l'exécution des travaux est estimée à 18 mois.",
+"pertinence": 70,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'une réfection majeure de quatre bâtiments avec une durée prévue de 18 mois. Les détails spécifiques des travaux sont dans les documents de soumission.",
 "pointsAttention": [
 "Montant estimé non publié"
 ],
-"recommandation": "Go",
-"raison": "L'appel d'offres concerne la réfection de bâtiments, ce qui correspond à l'intérêt de l'entrepreneur général pour la rénovation et la réfection."
+"recommandation": "À vérifier",
+"raison": "Le projet est un projet de bâtiment nécessitant probablement des travaux de maçonnerie et/ou charpenterie, mais les détails spécifiques des travaux ne sont pas précisés dans cet avis.",
+"version": 2
 }
 },
 {
@@ -8436,13 +8646,17 @@
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la construction et la maintenance d'un nouveau poste électrique (nouveau poste 120-25 kV) incluant des travaux d'architecture, de structure, de mécanique, d'électricité, ainsi que des travaux civils lourds (fondations, terrassement, canalisations, etc.).",
+"resume": "L'appel d'offres concerne la construction et la maintenance d'un nouveau poste électrique (120-25 kV) incluant des travaux d'architecture, de structure, mécanique, électrique, ainsi que des travaux civils (terrassement, fondations, charpentes métalliques, canalisations en béton).",
 "pointsAttention": [
-"Montant estimé entre 10 000 000 $ et 20 000 000 $",
-"Durée prévue de 18 mois"
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne la construction d'une infrastructure électrique lourde et des travaux civils majeurs, ce qui est hors du champ de l'aménagement intérieur, rénovation ou construction de bâtiments résidentiels/commerciaux."
+"raison": "Le contrat est centré sur les travaux d'infrastructure électrique et de génie civil, et non sur la maçonnerie ou la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -8538,14 +8752,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 10,
+"pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la réfection de la toiture de l'usine de traitement des eaux de la Municipalité de Saint-Jean-Port-Joli. La durée prévue des travaux est de 11 mois.",
+"resume": "L'appel d'offres concerne la réfection de la toiture de l'usine de traitement des eaux de la municipalité de Saint-Jean-Port-Joli. La durée prévue des travaux est de 11 mois.",
 "pointsAttention": [
 "Montant estimé non publié"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne uniquement la toiture et n'est pas pertinent pour les travaux d'aménagement intérieur, de rénovation ou de construction de bâtiments résidentiels ou commerciaux."
+"raison": "Le contrat concerne uniquement la toiture et n'implique aucun travail de maçonnerie, charpenterie ou menuiserie.",
+"version": 2
 }
 },
 {
@@ -8574,16 +8789,17 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 20,
+"pertinence": 50,
 "type": "Hors sujet",
-"resume": "Cet appel d'offres concerne le remplacement du TDM à l'Hôtel-Dieu de Québec, avec une durée de réalisation prévue de 11 mois et un montant estimé de 2 100 000 $.",
+"resume": "Il s'agit d'un appel d'offres pour le remplacement du TDM à l'Hôtel-Dieu de Québec, avec une durée de réalisation prévue de novembre 2026 à octobre 2027 pour un montant estimé de 2 100 000$.",
 "pointsAttention": [
-"Visite obligatoire",
-"Délai court (date limite de dépôt des plaintes : 26 août 2026)",
-"Contrat sur demande : non"
+"Délai de réalisation des travaux : Du 23 novembre 2026 au 22 octobre 2027",
+"Date limite de dépôt des plaintes (DDP): 26 août 2026",
+"Exigences de garantie de soumission (10%)"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres concerne un équipement médical (TDM) dans un hôpital, ce qui est hors du champ de l'aménagement intérieur, rénovation, construction ou agrandissement d'entreprises."
+"raison": "Le projet concerne la construction et la maintenance de bâtiments, mais l'avis d'appel d'offres ne spécifie pas clairement que les travaux principaux requis sont de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
@@ -8671,14 +8887,15 @@
 "nouveau": false,
 "vuLe": "2026-10-24T19:55",
 "analyse": {
-"pertinence": 30,
+"pertinence": 50,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne la fourniture et l'installation des portes, cadres, quincaillerie et vitrage en aluminium pour le Pavillon N de l'Université McGill. Le projet vise la requalification de pavillons et la construction de nouveaux espaces pour laboratoires et bureaux.",
+"resume": "Le projet concerne la fourniture et l'installation de portes, cadres, quincaillerie et vitrage en aluminium pour les pavillons de l'Université McGill. La durée prévue est de 36 mois et le montant estimé est de 966 329 $.",
 "pointsAttention": [
-"visite obligatoire"
+"visite obligatoire, délai court"
 ],
 "recommandation": "No-go",
-"raison": "L'appel d'offres est trop spécialisé (portes et fenêtres) et ne correspond pas aux travaux d'aménagement intérieur, rénovation, agrandissement ou construction de bâtiment général que recherche l'entrepreneur."
+"raison": "Le contrat concerne principalement les portes et fenêtres en aluminium, ce qui n'est pas le cœur de métier de la briquetage, de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 2
 }
 },
 {
