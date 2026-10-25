@@ -1,0 +1,19 @@
+{
+  "portee": "Aménagement intérieur / rénovation et bâtiment neuf / agrandissement · Tout le Québec · max. 15 M$",
+  "categories_seao": [52],
+  "montant_max": 15000000,
+  "mots_cles": [
+    "aménagement", "réaménagement", "rénovation", "réfection", "agrandissement",
+    "construction d", "bâtiment", "reconstruction", "transformation", "mise aux normes",
+    "mise à niveau", "finis intérieurs", "finition", "cloison", "plafond", "plancher",
+    "salle", "local", "locaux", "bureau", "laboratoire", "cuisine", "vestiaire", "sanitaire",
+    "logement", "école", "caserne", "garage", "chalet", "centre communautaire", "bibliothèque",
+    "façade", "enveloppe", "fenêtre", "maçonnerie", "réhabilitation", "restauration",
+    "conversion", "reconversion", "remise en état", "coupe-feu", "accessibilité"
+  ],
+  "mots_exclus": [
+    "stationnement", "pavage", "asphalt", "aqueduc", "égout", "voirie", "chaussée",
+    "pont", "ponceau", "déneigement", "ascenseur", "chaudière", "conduite", "réseau",
+    "piste", "terrain de", "éclairage de rue", "homologation", "pluvial", "forage"
+  ]
+}

@@ -1,0 +1,68 @@
+name: Balayage SEAO + IA
+
+on:
+  schedule:
+    # 11 h, 15 h et 19 h UTC = 7 h, 11 h et 15 h au Québec (heure d'été; une heure plus tôt l'hiver)
+    - cron: "0 11 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: balayage
+  cancel-in-progress: false
+
+jobs:
+  balayage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      MODELE: ${{ vars.MODELE || 'gemma4:e2b' }}
+      IA_MINUTES: "170"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Balayage SEAO
+        run: python scanner/seao.py
+
+      - name: Garder les avis balayés même si l'IA échoue
+        run: |
+          git config user.name "appel-offre-bot"
+          git config user.email "appel-offre-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Balayage SEAO $(date -u +%F)"
+          git push
+
+      - name: Modèle IA en cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ env.MODELE }}
+
+      - name: Installer la petite IA gratuite (Ollama)
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          sudo systemctl stop ollama 2>/dev/null || true
+          (ollama serve > /tmp/ollama.log 2>&1 &)
+          for i in $(seq 1 30); do curl -s http://127.0.0.1:11434/api/version && break; sleep 2; done
+          for m in "$MODELE" gemma4:e2b gemma4:e4b qwen3.5:4b; do
+            if ollama pull "$m"; then echo "MODELE=$m" >> "$GITHUB_ENV"; break; fi
+          done
+
+      - name: Analyse IA des nouveaux avis
+        run: python scanner/ia.py
+
+      - name: Publier les analyses
+        if: always()
+        run: |
+          git add data
+          git diff --cached --quiet || git commit -m "Analyses IA $(date -u +%F)"
+          git pull --rebase
+          git push

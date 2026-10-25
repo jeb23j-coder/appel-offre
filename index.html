@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Appel Offre</title>
+<meta name="description" content="Veille des appels d'offres SEAO en bâtiment au Québec, analysés par une petite IA gratuite.">
+<meta name="theme-color" content="#1d5bb8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* En-tête collant · tuiles de compte · alertes · onglets · filtres repliables · fiches (1 col. cell, 2 col. bureau) */
+:root {
+  --bg: #f3f5f8; --surface: #ffffff; --ink: #16202e; --muted: #5d6879; --line: #d9dfe8;
+  --accent: #1d5bb8; --accent-soft: #e3ecfa; --star: #d99100;
+  --danger: #c2321f; --danger-soft: #fbe6e2; --warn: #9a6200; --warn-soft: #fdf1d8;
+  --ok: #1f7a4a; --ok-soft: #e0f3e8; --est: #b35a00; --ia: #6b3fb8; --ia-soft: #efe8fb;
+  --f-display: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --r: 10px; color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg: #0f141c; --surface: #18202b; --ink: #e6ebf2; --muted: #9aa6b8; --line: #2a3443;
+  --accent: #6ea2f0; --accent-soft: #1c2c45; --star: #f2b33d;
+  --danger: #ff8a78; --danger-soft: #3a1d19; --warn: #f0b860; --warn-soft: #352a14;
+  --ok: #6fd39c; --ok-soft: #15301f; --est: #f5a05a; --ia: #b99cf2; --ia-soft: #2a2140; color-scheme: dark;
+} }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.45; padding-bottom: env(safe-area-inset-bottom, 0px); }
+[hidden] { display: none !important; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top, 0px); }
+.top .wrap { padding-block: 12px; display: flex; gap: 12px; align-items: center; }
+.logo { width: 38px; height: 38px; flex: none; }
+.brand { min-width: 0; display: grid; gap: 1px; }
+.top h1 { margin: 0; font-family: var(--f-display); font-weight: 800; font-size: 1.3rem; letter-spacing: -0.01em; }
+.top .scope { margin: 0; color: var(--muted); font-size: .8rem; }
+.top .scan { margin: 0; font-size: .78rem; font-family: var(--f-mono); color: var(--muted); }
+
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; padding-block: 14px 0; }
+.kpi { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 12px; text-align: left; display: grid; gap: 2px; }
+.kpi .v { font-family: var(--f-display); font-weight: 800; font-size: 1.5rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.kpi .l { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.kpi.go .v { color: var(--ok); }
+.kpi.hot .v { color: var(--danger); }
+
+.alerts { display: grid; gap: 8px; padding-block: 12px 0; }
+.alert { display: flex; gap: 10px; align-items: center; border-radius: var(--r); padding: 10px 14px; font-size: .9rem; }
+.alert.urgent { background: var(--danger-soft); color: var(--danger); }
+.alert.soon { background: var(--warn-soft); color: var(--warn); }
+.alert .t { min-width: 0; }
+.alert b { font-weight: 600; }
+.alert .when { margin-left: auto; font-family: var(--f-mono); font-size: .8rem; white-space: nowrap; }
+.alert button { all: unset; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+
+.tabs { display: flex; gap: 6px; padding-block: 14px 10px; overflow-x: auto; scrollbar-width: none; }
+.tab { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 6px 14px; font-size: .88rem; white-space: nowrap; }
+.tab[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.tab .n { font-family: var(--f-mono); font-size: .78rem; opacity: .75; margin-left: 4px; }
+
+.filters { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 12px; display: grid; gap: 10px; grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: end; }
+.filters .search { grid-column: 1 / -1; }
+.field { display: grid; gap: 4px; min-width: 0; }
+.field label { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.field input, .field select { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 7px; padding: 8px 10px; font-size: .92rem; }
+.searchrow { display: flex; gap: 8px; }
+.filters .foot { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: .85rem; color: var(--muted); }
+.filters .foot .sp { flex: 1; }
+.chk { display: inline-flex; gap: 6px; align-items: center; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 8px 14px; font-weight: 600; font-size: .9rem; white-space: nowrap; }
+.btn.ghost { background: transparent; }
+.toggle-filters { display: none; }
+.toggle-filters .dot { display: inline-block; min-width: 18px; padding: 0 5px; margin-left: 4px; border-radius: 9px; background: var(--accent); color: var(--surface); font-size: .75rem; }
+
+.list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding-block: 14px 24px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px; display: grid; gap: 10px; align-content: start; min-width: 0; }
+.card.tracked { border-color: color-mix(in srgb, var(--star) 60%, var(--line)); }
+.row1 { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: .78rem; }
+.num { font-family: var(--f-mono); color: var(--muted); overflow-wrap: anywhere; }
+.new { padding: 2px 8px; border-radius: 999px; background: var(--ok-soft); color: var(--ok); font-weight: 600; }
+.star { margin-left: auto; border: none; background: none; font-size: 1.5rem; line-height: 1; padding: 0 2px; color: var(--muted); opacity: .55; }
+.star[aria-pressed="true"] { color: var(--star); opacity: 1; }
+.card h3 { margin: 0; font-family: var(--f-display); font-weight: 700; font-size: 1.02rem; line-height: 1.25; text-wrap: balance; overflow-wrap: anywhere; }
+.org { color: var(--muted); font-size: .86rem; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: .76rem; padding: 3px 9px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 500; }
+.chip.neutral { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+
+.ia { border-radius: 8px; background: var(--ia-soft); padding: 10px 12px; display: grid; gap: 6px; font-size: .88rem; }
+.ia .h { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.ia .lbl { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; color: var(--ia); font-weight: 700; }
+.score { font-family: var(--f-mono); font-weight: 500; color: var(--ia); }
+.reco { font-size: .76rem; font-weight: 700; padding: 2px 9px; border-radius: 999px; }
+.reco.go { background: var(--ok-soft); color: var(--ok); }
+.reco.verif { background: var(--warn-soft); color: var(--warn); }
+.reco.nogo { background: var(--danger-soft); color: var(--danger); }
+.ia ul { margin: 0; padding-left: 18px; }
+.ia .raison { color: var(--muted); font-size: .82rem; }
+.ia.pending { background: var(--bg); border: 1px dashed var(--line); color: var(--muted); font-size: .82rem; }
+
+.desc { font-size: .86rem; color: var(--muted); overflow-wrap: anywhere; }
+.desc summary { cursor: pointer; color: var(--accent); font-size: .82rem; }
+.desc p { margin: 6px 0 0; white-space: pre-line; color: var(--ink); }
+.facts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 12px; font-size: .84rem; }
+.facts .lbl { display: block; font-size: .66rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+.money { font-family: var(--f-mono); font-variant-numeric: tabular-nums; font-weight: 500; color: var(--est); }
+.dates { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: .84rem; color: var(--muted); }
+.due { font-family: var(--f-mono); font-size: .8rem; padding: 3px 8px; border-radius: 6px; background: var(--bg); color: var(--ink); white-space: nowrap; border: 1px solid var(--line); }
+.due.urgent { background: var(--danger-soft); color: var(--danger); border-color: transparent; }
+.due.soon { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.status { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.status button { border: none; background: transparent; padding: 8px 2px; font-size: .78rem; border-left: 1px solid var(--line); color: var(--muted); }
+.status button:first-child { border-left: none; }
+.status button[aria-pressed="true"][data-s="a_soumissionner"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.status button[aria-pressed="true"][data-s="soumis"] { background: var(--warn-soft); color: var(--warn); font-weight: 600; }
+.status button[aria-pressed="true"][data-s="gagne"] { background: var(--ok-soft); color: var(--ok); font-weight: 600; }
+.status button[aria-pressed="true"][data-s="perdu"] { background: var(--danger-soft); color: var(--danger); font-weight: 600; }
+.note textarea { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 7px; padding: 7px 9px; font-size: .86rem; resize: vertical; min-height: 38px; }
+.links a { color: var(--accent); font-size: .86rem; font-weight: 600; }
+
+.empty { grid-column: 1 / -1; text-align: center; padding: 48px 16px; color: var(--muted); border: 1px dashed var(--line); border-radius: var(--r); background: var(--surface); }
+.empty h2 { font-family: var(--f-display); color: var(--ink); margin: 0 0 6px; font-size: 1.15rem; }
+.empty p { margin: 0 auto 14px; max-width: 48ch; }
+.legend { font-size: .8rem; color: var(--muted); padding-block: 0 40px; max-width: 80ch; }
+
+@media (max-width: 860px) {
+  .filters { grid-template-columns: 1fr 1fr; }
+  .list { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .toggle-filters { display: inline-block; }
+  .filters.collapsed .field:not(.search), .filters.collapsed .foot { display: none; }
+  .alert { flex-wrap: wrap; }
+  .alert .when { margin-left: 0; }
+  .facts { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <img class="logo" src="icon.svg" alt="">
+    <div class="brand">
+      <h1>Appel Offre</h1>
+      <p class="scope" id="scope">SEAO · Aménagement intérieur / rénovation et bâtiment neuf / agrandissement · Tout le Québec · max. 15 M$</p>
+      <p class="scan" id="scan">Chargement…</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="kpis" aria-label="Résumé">
+    <button class="kpi" type="button" data-go="tous"><span class="v" id="k-actifs">–</span><span class="l">Avis ouverts</span></button>
+    <button class="kpi go" type="button" data-go="go"><span class="v" id="k-go">–</span><span class="l">Go selon l'IA</span></button>
+    <button class="kpi" type="button" data-go="suivis"><span class="v" id="k-suivis">–</span><span class="l">★ Suivis</span></button>
+    <button class="kpi hot" type="button" data-go="semaine"><span class="v" id="k-semaine">–</span><span class="l">Ferment ≤ 7 j</span></button>
+  </section>
+
+  <section class="alerts" id="alerts" aria-label="Alertes dates limites"></section>
+
+  <nav class="tabs" aria-label="Vues">
+    <button class="tab" data-view="tous" type="button">Tous <span class="n" id="n-tous">0</span></button>
+    <button class="tab" data-view="go" type="button">Go IA <span class="n" id="n-go">0</span></button>
+    <button class="tab" data-view="nouveaux" type="button">Nouveaux <span class="n" id="n-nouveaux">0</span></button>
+    <button class="tab" data-view="suivis" type="button">★ Suivis <span class="n" id="n-suivis">0</span></button>
+    <button class="tab" data-view="a_soumissionner" type="button">À soumissionner <span class="n" id="n-a_soumissionner">0</span></button>
+    <button class="tab" data-view="soumis" type="button">Soumis <span class="n" id="n-soumis">0</span></button>
+    <button class="tab" data-view="gagne" type="button">Gagnés <span class="n" id="n-gagne">0</span></button>
+    <button class="tab" data-view="perdu" type="button">Perdus <span class="n" id="n-perdu">0</span></button>
+  </nav>
+
+  <section class="filters collapsed" id="filters" aria-label="Filtres">
+    <div class="field search">
+      <label for="f-q">Recherche</label>
+      <div class="searchrow">
+        <input id="f-q" type="search" placeholder="Titre, organisme, ville, n° d'avis, mot-clé…">
+        <button class="btn toggle-filters" id="toggleFilters" type="button" aria-expanded="false">Filtres<span class="dot" id="fcount" hidden>0</span></button>
+      </div>
+    </div>
+    <div class="field"><label for="f-region">Région</label><select id="f-region"><option value="">Toutes les régions</option></select></div>
+    <div class="field"><label for="f-org">Donneur d'ouvrage</label><select id="f-org"><option value="">Tous les donneurs d'ouvrage</option></select></div>
+    <div class="field"><label for="f-type">Type (IA)</label>
+      <select id="f-type"><option value="">Tous les types</option><option>Aménagement intérieur / réno</option><option>Bâtiment neuf / agrandissement</option><option>Hors sujet</option><option value="none">Pas encore analysé</option></select></div>
+    <div class="field"><label for="f-reco">Recommandation IA</label>
+      <select id="f-reco"><option value="">Toutes</option><option>Go</option><option>À vérifier</option><option>No-go</option><option value="none">Pas encore analysé</option></select></div>
+    <div class="field"><label for="f-montant">Montant estimé</label>
+      <select id="f-montant">
+        <option value="">Tous les montants</option>
+        <option value="0-250000">Moins de 250 000 $</option>
+        <option value="250000-1000000">250 000 $ – 1 M$</option>
+        <option value="1000000-3000000">1 M$ – 3 M$</option>
+        <option value="3000000-7000000">3 M$ – 7 M$</option>
+        <option value="7000000-">7 M$ et plus</option>
+        <option value="none">Montant non publié</option>
+      </select></div>
+    <div class="field"><label for="f-fermeture">Fermeture</label>
+      <select id="f-fermeture">
+        <option value="">Toutes les dates</option>
+        <option value="0">Aujourd'hui</option>
+        <option value="3">D'ici 3 jours</option>
+        <option value="7">D'ici 7 jours</option>
+        <option value="14">D'ici 14 jours</option>
+        <option value="30">D'ici 30 jours</option>
+        <option value="31+">Dans plus de 30 jours</option>
+      </select></div>
+    <div class="field"><label for="f-caution">Cautionnement</label>
+      <select id="f-caution"><option value="">Tous</option><option value="oui">Exigé</option><option value="np">Non précisé</option></select></div>
+    <div class="field"><label for="f-tri">Trier par</label>
+      <select id="f-tri">
+        <option value="pertinence">Pertinence IA</option>
+        <option value="fermeture">Fermeture la plus proche</option>
+        <option value="publie">Publié le plus récent</option>
+        <option value="montant-desc">Montant le plus élevé</option>
+        <option value="montant-asc">Montant le plus bas</option>
+      </select></div>
+    <div class="foot">
+      <label class="chk"><input id="f-nogo" type="checkbox" checked> Masquer les No-go de l'IA</label>
+      <span class="sp"></span>
+      <span id="count"></span>
+      <button class="btn ghost" id="reset" type="button">Effacer les filtres</button>
+    </div>
+  </section>
+
+  <section class="list" id="list" aria-live="polite"></section>
+
+  <p class="legend">Données publiques de <a href="https://seao.gouv.qc.ca/" target="_blank" rel="noopener">SEAO</a>, catégorie C01 Bâtiments, mises à jour chaque matin. Le montant estimé est celui inscrit par l'organisme dans SEAO. L'analyse est faite par une petite IA gratuite : c'est une suggestion, vérifiez toujours l'avis officiel. Les étoiles, statuts et notes sont gardés sur cet appareil.</p>
+</main>
+
+<script>
+(() => {
+  const STATUTS = [["a_soumissionner","À soumissionner"],["soumis","Soumis"],["gagne","Gagné"],["perdu","Perdu"]];
+  const $ = (id) => document.getElementById(id);
+  const fmtMoney = (n) => n >= 1e6 ? (Math.round(n / 1e4) / 100).toLocaleString("fr-CA") + " M$" : n.toLocaleString("fr-CA") + " $";
+  const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
+
+  let avis = [], meta = {}, view = "tous";
+
+  // ----- étoiles, statuts et notes : gardés sur cet appareil -----
+  const CLE = "appel-offre-suivi", PREF = "appel-offre-filtres";
+  let suivi = {};
+  try { suivi = JSON.parse(localStorage.getItem(CLE) || "{}"); } catch {}
+  const st = (a) => suivi[a.id] || {};
+  function saveSuivi(id, patch, quiet) {
+    suivi[id] = { ...(suivi[id] || {}), ...patch };
+    try { localStorage.setItem(CLE, JSON.stringify(suivi)); } catch {}
+    if (!quiet) render();
+  }
+  const FIDS = ["f-region","f-org","f-type","f-reco","f-montant","f-fermeture","f-caution","f-tri"];
+  let prefs = {};
+  try { prefs = JSON.parse(localStorage.getItem(PREF) || "{}"); } catch {}
+  if (prefs.view) view = prefs.view;
+  if (typeof prefs.nogo === "boolean") $("f-nogo").checked = prefs.nogo;
+  function savePrefs() {
+    const o = { view, nogo: $("f-nogo").checked };
+    FIDS.forEach((id) => (o[id] = $(id).value));
+    try { localStorage.setItem(PREF, JSON.stringify(o)); } catch {}
+  }
+
+  // ----- dates -----
+  function parseLocal(s) { if (!s) return null; const [d, t = "00:00"] = s.split("T"); const [y, m, j] = d.split("-").map(Number); const [h, mi] = t.split(":").map(Number); return new Date(y, m - 1, j, h, mi); }
+  function dayDiff(s) { const d = parseLocal(s); if (!d) return 999; const a = new Date(); a.setHours(0,0,0,0); const b = new Date(d); b.setHours(0,0,0,0); return Math.round((b - a) / 86400000); }
+  const isClosed = (s) => { const d = parseLocal(s); return d ? d < new Date() : false; };
+  const hm = (d) => `${String(d.getHours()).padStart(2,"0")} h ${String(d.getMinutes()).padStart(2,"0")}`;
+  const fmtWhen = (s) => { const d = parseLocal(s); return d ? `${fmtD.format(d)} ${hm(d)}` : ""; };
+  function dueLabel(s) {
+    if (isClosed(s)) return "Fermé";
+    const n = dayDiff(s);
+    if (n === 0) return "Aujourd'hui";
+    if (n === 1) return "Demain";
+    return `Dans ${n} j`;
+  }
+  const dueClass = (s) => { if (isClosed(s)) return ""; const n = dayDiff(s); return n <= 2 ? "urgent" : n <= 7 ? "soon" : ""; };
+
+  // ----- filtres -----
+  const reco = (a) => a.analyse?.recommandation;
+  function fillOptions() {
+    const regions = [...new Set(avis.flatMap((a) => a.regions || []))].sort((x, y) => x.localeCompare(y, "fr"));
+    const orgs = [...new Set(avis.map((a) => a.organisme).filter(Boolean))].sort((x, y) => x.localeCompare(y, "fr"));
+    [["f-region", regions, "Toutes les régions"], ["f-org", orgs, "Tous les donneurs d'ouvrage"]].forEach(([id, vals, first]) => {
+      const sel = $(id); sel.innerHTML = "";
+      [["", first], ...vals.map((v) => [v, v])].forEach(([v, t]) => { const o = document.createElement("option"); o.value = v; o.textContent = t; sel.appendChild(o); });
+    });
+    FIDS.forEach((id) => { if (prefs[id] != null && [...$(id).options].some((o) => o.value === prefs[id])) $(id).value = prefs[id]; });
+  }
+  function matches(a) {
+    const q = $("f-q").value.trim().toLowerCase();
+    if (q && !`${a.titre} ${a.organisme} ${(a.regions || []).join(" ")} ${a.numero} ${a.description} ${a.analyse?.resume || ""} ${st(a).note || ""}`.toLowerCase().includes(q)) return false;
+    if ($("f-region").value && !(a.regions || []).includes($("f-region").value)) return false;
+    if ($("f-org").value && a.organisme !== $("f-org").value) return false;
+    const ty = $("f-type").value;
+    if (ty === "none" ? !!a.analyse : ty && a.analyse?.type !== ty) return false;
+    const rc = $("f-reco").value;
+    if (rc === "none" ? !!a.analyse : rc && reco(a) !== rc) return false;
+    if (!rc && $("f-nogo").checked && reco(a) === "No-go" && !st(a).suivi) return false;
+    const mt = $("f-montant").value;
+    if (mt === "none") { if (a.estimation) return false; }
+    else if (mt) {
+      const [lo, hi] = mt.split("-").map((x) => (x === "" ? null : Number(x)));
+      if (!a.estimation) return false;
+      if (lo !== null && a.estimation < lo) return false;
+      if (hi !== null && a.estimation >= hi) return false;
+    }
+    const f = $("f-fermeture").value;
+    if (f) { const n = dayDiff(a.fermeture); if (isClosed(a.fermeture)) return false; if (f === "31+" ? n <= 30 : n > Number(f)) return false; }
+    const c = $("f-caution").value;
+    if (c && ((a.cautionSoumission || "").toLowerCase().startsWith("non précisé") ? "np" : "oui") !== c) return false;
+    return true;
+  }
+  function inView(a) {
+    const s = st(a);
+    if (view === "tous") return true;
+    if (view === "go") return reco(a) === "Go";
+    if (view === "nouveaux") return !!a.nouveau;
+    if (view === "semaine") return !isClosed(a.fermeture) && dayDiff(a.fermeture) <= 7;
+    if (view === "suivis") return !!s.suivi;
+    return !!s.suivi && (s.statut || "a_soumissionner") === view;
+  }
+  function sortFn() {
+    const t = $("f-tri").value;
+    const ferm = (x, y) => (x.fermeture || "").localeCompare(y.fermeture || "");
+    if (t === "fermeture") return ferm;
+    if (t === "publie") return (x, y) => (y.publie || "").localeCompare(x.publie || "");
+    if (t === "montant-desc") return (x, y) => (y.estimation ?? -1) - (x.estimation ?? -1);
+    if (t === "montant-asc") return (x, y) => (x.estimation ?? 1e12) - (y.estimation ?? 1e12);
+    return (x, y) => ((y.analyse?.pertinence ?? -1) - (x.analyse?.pertinence ?? -1)) || ferm(x, y);
+  }
+
+  // ----- rendu -----
+  function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+  function renderHead() {
+    const parts = [];
+    if (meta.date) parts.push(`Dernier balayage : ${fmtWhen(meta.date)}`);
+    if (meta.seaoLus != null) parts.push(`${meta.seaoLus} avis SEAO lus`);
+    if (meta.nouveaux) parts.push(`${meta.nouveaux} nouveaux`);
+    const faits = avis.filter((a) => a.analyse).length;
+    parts.push(`IA : ${faits}/${avis.length} analysés`);
+    $("scan").textContent = parts.join(" · ");
+  }
+  function renderCounts() {
+    const open = avis.filter((a) => !isClosed(a.fermeture));
+    $("k-actifs").textContent = open.length;
+    $("k-go").textContent = avis.filter((a) => reco(a) === "Go").length;
+    $("k-suivis").textContent = avis.filter((a) => st(a).suivi).length;
+    $("k-semaine").textContent = open.filter((a) => dayDiff(a.fermeture) <= 7).length;
+    $("n-tous").textContent = avis.length;
+    $("n-go").textContent = avis.filter((a) => reco(a) === "Go").length;
+    $("n-nouveaux").textContent = avis.filter((a) => a.nouveau).length;
+    $("n-suivis").textContent = avis.filter((a) => st(a).suivi).length;
+    STATUTS.forEach(([k]) => ($("n-" + k).textContent = avis.filter((a) => st(a).suivi && (st(a).statut || "a_soumissionner") === k).length));
+    const fc = FIDS.filter((id) => id !== "f-tri" && $(id).value).length;
+    $("fcount").hidden = !fc; $("fcount").textContent = fc;
+  }
+  function renderAlerts() {
+    const box = $("alerts"); box.innerHTML = "";
+    avis.filter((a) => st(a).suivi && (st(a).statut || "a_soumissionner") === "a_soumissionner" && !isClosed(a.fermeture) && dayDiff(a.fermeture) <= 7)
+      .sort((x, y) => (x.fermeture || "").localeCompare(y.fermeture || ""))
+      .forEach((a) => {
+        const n = dayDiff(a.fermeture);
+        const al = el("div", "alert " + (n <= 2 ? "urgent" : "soon")); al.setAttribute("role", n <= 2 ? "alert" : "status");
+        const t = el("span", "t"); t.appendChild(el("b", null, n <= 2 ? "Urgent · " : "Bientôt · "));
+        const b = el("button", null, a.titre); b.type = "button";
+        b.addEventListener("click", () => { view = "suivis"; setTabs(); $("f-q").value = a.numero; render(); });
+        t.appendChild(b); al.appendChild(t);
+        al.appendChild(el("span", "when", `${dueLabel(a.fermeture)} · ${fmtWhen(a.fermeture)}`));
+        box.appendChild(al);
+      });
+  }
+  function card(a) {
+    const s = st(a);
+    const c = el("article", "card" + (s.suivi ? " tracked" : ""));
+    const r1 = el("div", "row1");
+    r1.appendChild(el("span", "num", a.numero));
+    if (a.nouveau) r1.appendChild(el("span", "new", "Nouveau"));
+    const star = el("button", "star", s.suivi ? "★" : "☆"); star.type = "button";
+    star.setAttribute("aria-pressed", s.suivi ? "true" : "false");
+    star.setAttribute("aria-label", s.suivi ? "Ne plus suivre" : "Suivre cet appel d'offres");
+    star.addEventListener("click", () => saveSuivi(a.id, s.suivi ? { suivi: false } : { suivi: true, statut: s.statut || "a_soumissionner" }));
+    r1.appendChild(star); c.appendChild(r1);
+
+    c.appendChild(el("h3", null, a.titre));
+    c.appendChild(el("div", "org", a.organisme || ""));
+    const chips = el("div", "chips");
+    (a.regions || []).slice(0, 3).forEach((r) => chips.appendChild(el("span", "chip", r)));
+    if (a.typeAvis && !/^Avis d.appel d.offres$/i.test(a.typeAvis)) chips.appendChild(el("span", "chip neutral", a.typeAvis));
+    if (a.surDemande) chips.appendChild(el("span", "chip neutral", "Sur demande"));
+    c.appendChild(chips);
+
+    if (a.analyse) {
+      const x = a.analyse, box = el("div", "ia");
+      const h = el("div", "h");
+      h.appendChild(el("span", "lbl", "Analyse IA"));
+      h.appendChild(el("span", "score", `${x.pertinence} %`));
+      h.appendChild(el("span", "reco " + ({ "Go": "go", "À vérifier": "verif", "No-go": "nogo" }[x.recommandation] || "verif"), x.recommandation));
+      if (x.type && x.type !== "Hors sujet") h.appendChild(el("span", "chip neutral", x.type));
+      box.appendChild(h);
+      if (x.resume) box.appendChild(el("div", null, x.resume));
+      if (x.pointsAttention?.length) { const ul = el("ul"); x.pointsAttention.slice(0, 4).forEach((p) => ul.appendChild(el("li", null, p))); box.appendChild(ul); }
+      if (x.raison) box.appendChild(el("div", "raison", x.raison));
+      c.appendChild(box);
+    } else {
+      c.appendChild(el("div", "ia pending", "Analyse IA à venir au prochain balayage."));
+    }
+
+    const facts = el("div", "facts");
+    const fact = (label, node) => { const d = el("div"); d.appendChild(el("span", "lbl", label)); d.appendChild(node); facts.appendChild(d); };
+    fact("Montant estimé", a.estimation ? el("span", "money", fmtMoney(a.estimation)) : el("span", null, "Non publié"));
+    fact("Cautionnement", el("span", null, a.cautionSoumission || "Non précisé"));
+    fact("Durée", el("span", null, a.dureeMois ? `${a.dureeMois} mois` : "Non précisée"));
+    c.appendChild(facts);
+
+    const dates = el("div", "dates");
+    dates.appendChild(el("span", "due " + dueClass(a.fermeture), dueLabel(a.fermeture)));
+    dates.appendChild(el("span", null, `Fermeture ${fmtWhen(a.fermeture)}`));
+    if (a.publie) dates.appendChild(el("span", null, `Publié ${fmtWhen(a.publie)}`));
+    c.appendChild(dates);
+
+    if (a.description) {
+      const det = el("details", "desc"); det.appendChild(el("summary", null, "Description de l'avis"));
+      det.appendChild(el("p", null, a.description)); c.appendChild(det);
+    }
+
+    if (s.suivi) {
+      const g = el("div", "status"); g.setAttribute("role", "group"); g.setAttribute("aria-label", "Statut");
+      const cur = s.statut || "a_soumissionner";
+      STATUTS.forEach(([k, label]) => {
+        const b = el("button", null, label); b.type = "button"; b.dataset.s = k;
+        b.setAttribute("aria-pressed", cur === k ? "true" : "false");
+        b.addEventListener("click", () => saveSuivi(a.id, { statut: k }));
+        g.appendChild(b);
+      });
+      c.appendChild(g);
+      const note = el("div", "note"); const ta = el("textarea"); ta.rows = 1; ta.maxLength = 2000; ta.placeholder = "Note…"; ta.value = s.note || "";
+      ta.setAttribute("aria-label", "Note");
+      ta.addEventListener("change", () => saveSuivi(a.id, { note: ta.value.trim() }, true));
+      note.appendChild(ta); c.appendChild(note);
+    }
+
+    if (a.lien) { const links = el("div", "links"); const l = el("a", null, "Voir l'avis sur SEAO ↗"); l.href = a.lien; l.target = "_blank"; l.rel = "noopener"; links.appendChild(l); c.appendChild(links); }
+    return c;
+  }
+  function render() {
+    renderHead(); renderCounts(); renderAlerts();
+    const list = $("list"); list.innerHTML = "";
+    const shown = avis.filter((a) => inView(a) && matches(a)).sort(sortFn());
+    $("count").textContent = `${shown.length} affiché${shown.length > 1 ? "s" : ""} sur ${avis.length}`;
+    if (!shown.length) {
+      const e = el("div", "empty");
+      if (!avis.length) { e.appendChild(el("h2", null, "Chargement des avis…")); }
+      else if (view === "suivis" || STATUTS.some(([k]) => k === view)) { e.appendChild(el("h2", null, "Aucun appel d'offres suivi ici")); e.appendChild(el("p", null, "Touchez l'étoile ☆ d'un avis pour le suivre. Une alerte apparaîtra 7 jours avant la fermeture.")); }
+      else { e.appendChild(el("h2", null, "Aucun avis avec ces filtres")); const b = el("button", "btn", "Effacer les filtres"); b.type = "button"; b.addEventListener("click", resetFilters); e.appendChild(b); }
+      list.appendChild(e);
+    } else shown.forEach((a) => list.appendChild(card(a)));
+  }
+
+  function setTabs() { document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-pressed", t.dataset.view === view ? "true" : "false")); }
+  document.querySelectorAll(".tab").forEach((t) => t.addEventListener("click", () => { view = t.dataset.view; setTabs(); savePrefs(); render(); }));
+  document.querySelectorAll(".kpi").forEach((k) => k.addEventListener("click", () => { view = k.dataset.go; setTabs(); savePrefs(); render(); }));
+  setTabs();
+  [...FIDS, "f-nogo"].forEach((id) => $(id).addEventListener("change", () => { savePrefs(); render(); }));
+  $("f-q").addEventListener("input", render);
+  function resetFilters() { $("f-q").value = ""; FIDS.forEach((id) => ($(id).value = id === "f-tri" ? "pertinence" : "")); $("f-nogo").checked = true; savePrefs(); render(); }
+  $("reset").addEventListener("click", resetFilters);
+  $("toggleFilters").addEventListener("click", () => { const col = $("filters").classList.toggle("collapsed"); $("toggleFilters").setAttribute("aria-expanded", col ? "false" : "true"); });
+
+  render();
+  fetch("data/avis.json?v=" + Date.now(), { cache: "no-store" })
+    .then((r) => r.json())
+    .then((d) => { avis = d.avis || []; meta = d.meta || {}; fillOptions(); render(); })
+    .catch(() => { $("scan").textContent = "Impossible de charger les avis. Rechargez la page."; });
+
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+})();
+</script>
+</body>
+</html>

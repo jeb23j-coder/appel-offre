@@ -1,0 +1,14 @@
+{
+  "name": "Appel Offre",
+  "short_name": "Appel Offre",
+  "description": "Veille des appels d'offres SEAO en bâtiment au Québec, analysés par une petite IA gratuite.",
+  "lang": "fr-CA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5f8",
+  "theme_color": "#1d5bb8",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
