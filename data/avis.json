@@ -1689,7 +1689,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation de systèmes de vapeur propre et d'eau glacée pour des usines alimentaires, incluant la chaudière et les travaux connexes de mécanique, électricité et contrôle.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur la plomberie et les systèmes de CVC, ce qui n'est pas dans les domaines principaux de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "767efc32-6a70-4a52-ad02-0d82a8575596",
@@ -2537,7 +2549,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un UPS (Unité d'Alimentation Sans Interruption) lié au Projet no L260004. Une visite des lieux est prévue le 27 octobre 2026.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement d'un UPS et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "cd182774-99a7-4ab4-8019-8a449b29e266",
@@ -2950,7 +2974,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'avis concerne la construction et la maintenance de bâtiments ou d'installations, avec une durée prévue de 24 mois. Les codes de travaux mentionnent notamment les installations électriques.",
+"pointsAttention": [
+"voir devis technique"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis ne contient aucune information spécifique sur la maçonnerie ou la charpenterie, et mentionne des travaux électriques.",
+"version": 3
+}
 },
 {
 "id": "7b31a2cc-3993-40bc-b8e3-919d44a0badd",
@@ -3068,7 +3104,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne la fourniture et l'installation de trois toilettes écologiques autonomes dans des parcs municipaux. Les travaux incluent la fourniture, l'aménagement d'une fondation et l'installation des équipements.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet n'implique ni maçonnerie, ni charpenterie, ni menuiserie, et se concentre sur des équipements sanitaires écologiques.",
+"version": 3
+}
 },
 {
 "id": "15f49e54-9ff7-4fe1-a2e0-c51313494ef3",
@@ -3564,7 +3612,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien périodique et la réparation des systèmes d'automation CVCA Delta, Alerton et Strato. La durée prévue est de 12 mois pour un montant estimé de 660 000 $.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance des systèmes CVC et n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "25421979-1118-4129-ab28-b9ca7b55ce02",
@@ -3653,7 +3713,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "Le projet consiste au remplacement des unités de ventilation D1, D2 et D5 de l’aile B de l’école secondaire Héritage. Les travaux incluent le démantèlement des systèmes existants, le remplacement des unités, la modification des réseaux hydrauliques et aérauliques, ainsi que la démolition et reconstruction d'un mur.",
+"pointsAttention": [
+"Visite des lieux"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur les systèmes de ventilation et la construction/démolition de murs, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e36b1cf4-da68-4cda-9c35-34ab0dd83de8",
@@ -4111,7 +4183,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau des séparations coupe-feu et travaux divers dans un immeuble. Les codes de travaux mentionnent la peinture, le plâtrage, la menuiserie de finition, l'installation de portes et fenêtres, et la pose de planchers.",
+"pointsAttention": [
+"délai court (4 mois)"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet semble axé sur des travaux de finition intérieure et de menuiserie, mais le cœur de métier recherché (maçonnerie/charpenterie lourde) n'est pas clairement identifié comme principal.",
+"version": 3
+}
 },
 {
 "id": "f3a6b9ec-30f8-4478-af06-fac24b923398",
@@ -4687,7 +4771,23 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des panneaux électriques et de la génératrice pour l'École du Phare à Sherbrooke. Le montant estimé est de 464 000 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux électriques et de génératrice, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "afd7fddc-9a74-43d6-890d-c3d2113e28c8",
@@ -5328,7 +5428,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre centres communautaires. Les travaux impliquent la fourniture, l'installation, les essais et la certification de nouveaux collecteurs d'oxygène et d'air médical.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7239179a-d747-4008-bc2a-24a9c7197826",
@@ -6303,7 +6419,19 @@
 "familles": [],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise aux normes des aires de préparation de PS/PSD de la pharmacie à l'hôpital de Notre-Dame-du-Lac. Les travaux sont estimés à 203 000 $ et la durée prévue est de 3 mois.",
+"pointsAttention": [
+"Visite des lieux NON OBLIGATOIRE le 20 octobre 2026 à 15h30."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6f4def8f-fb0d-416d-9afc-179324ac4d80",
@@ -6975,7 +7103,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la modernisation d'un ascenseur, des travaux de drainage, l'amélioration de l'accessibilité universelle et la mise aux normes d'une mezzanine dans une école.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a pas de lien direct avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "52ad61a9-9413-4d51-942f-97b6693aca13",
@@ -7049,7 +7189,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de Lévis. Les travaux sont prévus entre novembre 2026 et mars 2027 pour un montant estimé de 410 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux d'installation/rénovation de systèmes de sécurité et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "fc696ec9-898a-4b9f-8cd4-a1aeeb21c7bd",
@@ -7130,7 +7282,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne la conception, la fourniture et l'installation d'équipements de recharge électrique dans le cadre de l'électrification du CEE.",
+"pointsAttention": [
+""
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux électriques et n'a aucun lien avec les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "65bf35b4-0731-4539-aa2e-11fe9b991eae",
@@ -7161,7 +7325,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la conversion de terrains de tennis en terrains de pickleball dans le centre Jean-Guy-Cardinal. La durée prévue du contrat est d'environ 8 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres ne mentionne aucun travail lié à la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "590805b0-a3b8-42b1-bff1-b8711c9ecd4a",
@@ -8943,7 +9119,19 @@
 "familles": [],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement d'une salle d'imagerie par résonance magnétique (IRM) au Centre hospitalier De Lanaudière (CHDL). La durée prévue du projet est de 43 semaines et le montant estimé est de 1 300 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6d65f198-7fd0-4590-a29d-d0a991d14e9b",
@@ -9364,7 +9552,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un accélérateur linéaire en radio-oncologie, incluant le remplacement du plafond, une section de plancher, la peinture des murs, l'installation d'un nouveau UPS, ainsi que des travaux mineurs en électricité et mécanique.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "81f6f377-360f-4ea4-9380-3165ae04a3df",
@@ -9396,7 +9596,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'aménagement et d'implantation d'un système automatisé de prêts et de retours de documents (RFID) pour la bibliothèque Georgette-Lepage.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'implique ni maçonnerie ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "33467057-ab30-4b6b-b237-88b45560191c",
@@ -9899,7 +10115,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le mandat consiste à réaliser le remplacement du système de contrôle d'éclairage existant au 801, rue Brennan à Montréal. Les travaux impliquent la gestion des luminaires fluorescents et des nouveaux appareils DEL.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation d'éclairage et non les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "78c18f46-6f92-4818-94a1-491f382dad3f",
@@ -9966,7 +10194,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'entretien de ventilation, de chauffage et de climatisation pour un complexe de valorisation énergétique. La durée prévue est de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la CVC et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "4125dea3-49e1-4076-ac83-35bf87a5832b",
@@ -10934,7 +11174,19 @@
 "familles": [],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement du laboratoire de biochimie pour l'implantation d'une chaîne analytique à l'hôpital régional de Rimouski. La durée prévue des travaux est de 24 mois et le montant estimé est de 2 900 000 $.",
+"pointsAttention": [
+"Visite des lieux non obligatoire le 5 octobre 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur l'aménagement d'un laboratoire médical et ne correspond pas aux domaines principaux de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "178a2f95-4a66-4239-b037-84704c4bad5e",
@@ -11803,7 +12055,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de tous les matériaux, quincaillerie, équipements et main-d'œuvre pour la réalisation des travaux de ventilation pour le projet de l'Hôtel au Casino de Montréal. Les codes de travaux sont liés à la construction mécanique de systèmes de chauffage, de ventilation et de climatisation (CVC).",
+"pointsAttention": [
+"Visite de chantier : mardi 29 septembre 2026, à 13h00, heure locale"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne spécifiquement les travaux de ventilation (CVC) et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "19d52a35-828f-4a96-aad2-b0d9c4925fcf",
@@ -12094,7 +12358,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de tous les matériaux, quincaillerie, équipements et main-d'œuvre pour l'installation des systèmes électriques, d'alarme, d'incendie, de télécommunication et de vidéosurveillance pour un hôtel au Casino de Montréal.",
+"pointsAttention": [
+"Visite de chantier : jeudi le 1er octobre 2026, à 13h00, heure locale"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement les travaux électriques et de sécurité, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "4d43ff15-d27e-4711-bd69-0ffe9d29a10a",
@@ -12512,7 +12788,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de chauffage au mazout pour un immeuble. La durée prévue est de 14 mois et le montant estimé est de 560 000 $.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne le remplacement d'un système de chauffage et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "fc079fa8-9dd2-4f87-b588-26fbf1794f89",
@@ -13647,7 +13935,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation complète et opérationnelle de l'éclairage sportif et des structures de support pour un stade. Le mandat inclut la fourniture de main-d'œuvre, matériaux, équipements, et l'utilisation d'échafaudage.",
+"pointsAttention": [
+"délai de 12 mois",
+"cautionnement de soumission de 10% du prix total"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'électricité et les structures de support, et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f85cff1b-7921-40e9-82eb-abbf9b43b459",
@@ -13683,7 +13984,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réalisation des travaux généraux pour la mise à jour des caméras, incluant des travaux en civil, structure, électricité et architecture, ainsi que des excavations et des ragréages.",
+"pointsAttention": [
+"Délai de soumission jusqu'au 29 mai 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres se concentre sur des travaux d'électricité, de structure et de civil, et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "07a6c892-30aa-4f7d-906a-779519572a3d",
