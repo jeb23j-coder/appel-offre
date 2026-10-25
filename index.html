@@ -721,9 +721,13 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     fetch("config.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => ({})),
     fetch("data/fermes.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => []),
     fetch("data/details.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => ({})),
+    fetch("data/merx.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => []),
   ])
-    .then(([d, cfg, fermes, details]) => {
+    .then(([d, cfg, fermes, details, merx]) => {
       avis = d.avis || [];
+      // Avis Merx : affichés tout de suite, même avant le prochain balayage (seulement ceux encore ouverts)
+      const deja = new Set(avis.map((a) => a.id));
+      (merx || []).forEach((m) => { if (!deja.has(m.id) && !ferme(m)) avis.push({ ...m, source: "Merx" }); });
       // Fourchette de prix, cautionnements et dépôt (fichier complémentaire)
       avis.forEach((a) => { const x = (details || {})[a.id]; if (x) Object.keys(x).forEach((k) => { if (a[k] == null) a[k] = x[k]; }); });
       // Contrats fermés (résultats d'ouverture) qui ne sont pas déjà dans la liste
