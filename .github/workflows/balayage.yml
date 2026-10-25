@@ -74,6 +74,7 @@ jobs:
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
         run: |
           python scanner/notifier.py
           if [ -f /tmp/notif.md ]; then

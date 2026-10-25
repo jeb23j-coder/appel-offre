@@ -12,8 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
+      NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
     steps:
       - run: |
           gh issue create -R "$GITHUB_REPOSITORY" --label notification --assignee "${{ github.repository_owner }}" \
             --title "Essai : notification Appel Offre" \
             --body "Si vous recevez ce courriel, les notifications d'Appel Offre fonctionnent. Vous recevrez un message comme celui-ci dès qu'un nouveau contrat correspond à vos critères. Site : https://jeb23j-coder.github.io/appel-offre/"
+          if [ -n "$NTFY_TOPIC" ]; then
+            curl -s -H "Content-Type: application/json" -d "{\"topic\":\"$NTFY_TOPIC\",\"title\":\"Appel Offre : essai de notification\",\"message\":\"Les notifications sur votre cellulaire fonctionnent.\",\"click\":\"https://jeb23j-coder.github.io/appel-offre/\",\"tags\":[\"bell\"]}" https://ntfy.sh/
+          fi

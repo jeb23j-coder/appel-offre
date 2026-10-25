@@ -7,6 +7,7 @@ maximum et ceux que l'IA juge « No-go » sans alerte sont laissés de côté.
 """
 import json
 import os
+import urllib.request
 from pathlib import Path
 
 TMP = os.environ.get("AO_TMP", "/tmp")  # dossier des fichiers échangés avec le workflow
@@ -62,6 +63,26 @@ def main():
     Path(TMP, "notif_titre.txt").write_text(titre, encoding="utf-8")
     Path(TMP, "notif.md").write_text("\n".join(lignes), encoding="utf-8")
     print(titre)
+    pousser_cellulaire(titre, items)
+
+
+def pousser_cellulaire(titre, items):
+    """Notification sur le cellulaire avec l'application gratuite ntfy (si NTFY_TOPIC est réglé)."""
+    sujet = os.environ.get("NTFY_TOPIC")
+    if not sujet:
+        return
+    resume = "\n".join(f"• {a['titre'][:90]}" + (f" ({', '.join(a.get('regions') or [])[:40]})" if a.get("regions") else "")
+                       for a in items[:5])
+    if len(items) > 5:
+        resume += f"\n… et {len(items) - 5} autres"
+    corps = {"topic": sujet, "title": f"Appel Offre : {titre}", "message": resume, "click": SITE,
+             "tags": ["bell"], "priority": 4 if any(a.get("alertes") for a in items) else 3}
+    req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(corps).encode(), headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print(f"Notification cellulaire envoyée ({r.status})")
+    except Exception as e:  # la notification par courriel part quand même
+        print(f"Notification cellulaire non envoyée : {e}")
 
 
 if __name__ == "__main__":
