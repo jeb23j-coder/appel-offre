@@ -767,7 +767,20 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de travaux de réaménagement partiel du deuxième étage de la Maison du Citoyen de la ville de Sainte-Thérèse. La durée prévue est de 2 mois.",
+"pointsAttention": [
+"Montant estimé non publié",
+"Cautionnement de soumission non précisé"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être impliqués, mais l'information spécifique sur la nature des travaux n'est pas détaillée.",
+"version": 3
+}
 },
 {
 "id": "59121cc9-843f-4ac1-9dc6-53ae0609a710",
@@ -846,7 +859,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la préparation et l'installation de deux refroidisseurs. Le montant estimé est de 250 000 $ pour une durée prévue de 4 mois.",
+"pointsAttention": [
+"non précisé sur l'avis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "66f2930f-a866-4635-b261-aa8cd8d306b1",
@@ -1079,7 +1104,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un groupe électrogène à l'adresse 115 Laroche.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement d'un groupe électrogène et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "824051e7-17a3-4d1a-898e-feb4b973c964",
@@ -1211,7 +1252,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'exécution de travaux de plomberie pour le Cégep de Saint-Laurent sur une période de trois ans. Les travaux incluent des interventions sur demande, des travaux d'urgence et l'entretien des systèmes de chauffage et des chaudières.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement la plomberie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "463dbb85-62ad-4d0d-b167-0dc8d0af1254",
@@ -1296,7 +1349,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la mise à niveau complète de l'Hôtel de Ville de Beauharnois sur une durée prévue de 9 mois. Les codes de travaux incluent spécifiquement la maçonnerie (72151900) et la menuiserie (72152300, 72152400).",
+"pointsAttention": [
+"Durée prévue de 9 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des travaux de maçonnerie et de menuiserie, ce qui correspond directement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "9c1840bb-0068-4402-89ab-7fab34a8849e",
@@ -1481,7 +1546,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de plusieurs unités de ventilation pour le Cégep de Rosemont. Le projet inclut principalement des travaux mécaniques (plomberie, CVCA, régulation automatique), électriques et de désamiantage.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur les systèmes de ventilation, la plomberie et l'électricité, ce qui n'est pas le cœur de métier de la maçonnerie/briquetage et charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ab6916cf-c642-4dea-95f0-bc029ba84125",
@@ -1575,7 +1652,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de panneaux électriques pour l'École Alfred Desrochers. Le montant estimé est de 150 000 $ pour une durée prévue de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de panneaux électriques et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1b959290-83ff-4f6d-be3a-a8a481469f5e",
@@ -1657,7 +1746,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement et l'ajout d'unités CVAC à une station de purification. Le code de travaux associé est celui de la construction mécanique de systèmes de chauffage, de ventilation et de climatisation (CVC).",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le CVC et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b58f8912-ff24-4df5-ae70-eec9d6a2ae8a",
@@ -1842,7 +1943,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien, la réparation et l'imperméabilisation des toitures des différents pavillons de l'UQAM. La durée prévue est de 36 mois avec un montant estimé de 930 000 $.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement les travaux de toiture et n'inclut aucun des métiers ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "9fd2810e-d859-4588-92c1-2d82d37722f7",
@@ -1936,7 +2049,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement et l'ajout de systèmes de climatisation dans le Pavillon 5 du CÉGEP Sherbrooke. Les travaux connexes sont mentionnés.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation et la maintenance de systèmes de climatisation, ce qui n'est pas dans les domaines de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "84bd1ab9-b148-44e5-9bd9-f83aebac8b58",
@@ -2373,7 +2502,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation et la mise en marche d'un système de CVAC (Climatisation) pour l'École Victor Doré, incluant des travaux de démolition et de construction en architecture, mécanique, électricité et hygiène du bâtiment.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur le système CVC (climatisation) et les travaux de construction/mécanique/électricité, et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "526d1e24-33ad-4ed4-b125-5a47ae045992",
@@ -2592,7 +2733,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'offres pour un poste de chargé de projet au Centre de services scolaire du Chemin-du-Roy. Le montant estimé est de 192 569,34 $ pour une durée prévue de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne un poste administratif et non des travaux de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "c8608349-f7b7-4ea9-89e6-bc5f59a8dd23",
@@ -2728,7 +2881,22 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réalisation de divers travaux de construction pour plusieurs immeubles situés dans la région administrative de Montréal. Le montant estimé du contrat est de 3 000 000 $ sur une durée prévue de 36 mois.",
+"pointsAttention": [
+"Contrat à exécution sur demande",
+"Montant estimé : 3 000 000 $",
+"Durée prévue : 36 mois",
+"Recommandation de dépôt par voie électronique via SEAO"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour un entrepreneur général, mais il est pertinent si l'entreprise peut soumissionner pour un lot de maçonnerie ou de charpenterie, ou si elle peut se positionner comme sous-traitant pour ce projet de construction général.",
+"version": 3
+}
 },
 {
 "id": "6d15e7b0-a9cb-4108-8346-fb87d6dacf92",
@@ -2863,7 +3031,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la peinture intérieure d'un centre récréatif, incluant le plafond, les arches, les murs et les bureaux sur une superficie de 3 800 m².",
+"pointsAttention": [
+"visite facultative"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne exclusivement des travaux de peinture et n'a aucun lien avec la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "aca7c500-3812-46d4-bcc1-c0a651641955",
@@ -2894,7 +3074,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux d'aménagement aux 3e et 9e étages du PAV, reliés au Projet no 24-183. La durée prévue est de 4 mois pour un montant estimé de 549 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de bâtiment où les métiers ciblés pourraient être impliqués, mais l'avis ne spécifie pas clairement la nature des travaux de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "f62d9596-f175-4f41-a397-61abde1dd281",
@@ -3071,7 +3263,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la distribution électrique de l'École Triolet Pavillon 3. Le montant estimé est de 200 000 $ pour un projet prévu sur 12 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement le remplacement de la distribution électrique et n'inclut aucun travail de maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "fca9f2c3-d7c5-40ad-bc4a-5b451e50cdd7",
@@ -3345,7 +3549,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'entrée électrique et la création d'une nouvelle salle électrique pour l'école Boucher-de-la-Bruère. Les travaux sont prévus pour être réalisés entre juin et octobre 2027.",
+"pointsAttention": [
+"Visite des lieux : 22 octobre 2026"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est entièrement axé sur les travaux électriques et ne concerne ni la maçonnerie ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "dbc91dee-fac2-41dd-beeb-5bb88d0b9af9",
@@ -3577,7 +3793,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation de 60 compteurs d'eau dans des immeubles industriels, commerciaux et institutionnels. Le code de travaux associé est celui de l'installation de plomberie.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'installation de plomberie et n'a aucun lien avec les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f5218e30-5eee-4a0a-86d1-3ea85b652c2e",
@@ -3858,7 +4086,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement du réseau de gaz naturel pour répondre aux besoins des nouveaux brûleurs à venir.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "2d93f14f-6296-455e-962e-d60b27a25bbe",
@@ -4044,7 +4284,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un réaménagement de la salle de chirurgie d'une animalerie universitaire. Les travaux doivent tenir compte des activités des locaux avoisinants comme les salles de cours et les laboratoires.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement de bâtiment où les métiers de maçonnerie ou de charpenterie pourraient être impliqués, mais le titre et la description ne précisent pas clairement que ces corps de métier sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "49ace340-195e-4a83-8b1d-d100ee6ae3f4",
@@ -4437,7 +4689,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'organisme requiert des services à exécution sur demande d'électriciens pour son installation située dans le RLS du Haut-Saint-Maurice.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement des services d'électriciens et n'a aucun lien avec la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7393b437-d4de-4fb2-9b7b-1c6c6a8d4c4b",
@@ -6869,7 +7133,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la modernisation du système de publication et diffusion de messages dans les espaces publics de l'Aéroport de Montréal, impliquant principalement des travaux électriques pour supporter une nouvelle capacité.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'électricité et la technologie, et ne mentionne aucun travail principal en maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1e5f41c0-413a-42ea-b7dc-656b8ae02c4f",
@@ -6972,7 +7252,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un contrat-cadre provincial pour des travaux de génie civil dans les installations de production d'Hydro-Québec. Les mandats individuels ont un maximum de 2 000 000 $ chacun.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne le génie civil et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5074a63d-bc37-465e-833e-7f89001eb135",
@@ -10163,7 +10459,23 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modification des armoires de commutation dans la salle électrique principale d'un pavillon universitaire. Les travaux consistent à ajouter une cellule pour installer un nouveau disjoncteur d'attache et à ajouter des barres blindées et de l'entrebarrage.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est purement électrique et ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5212bfc9-3633-4c8d-ab9e-8018c50c9722",
@@ -13249,7 +13561,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de toiture, de ventilation entretoit et travaux connexes pour une propriété à Bigaouette. La durée prévue est de 4 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne principalement la toiture et la ventilation, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1413ab1e-927f-4852-ab89-8e255c92b8a6",
