@@ -72,7 +72,8 @@ jobs:
           git push
 
       - name: Notifier chaque profil de ses nouveaux contrats (courriel et cellulaire)
-        if: always()
+        # En pause tant que la variable NOTIFICATIONS vaut « pause » (site encore en construction)
+        if: always() && vars.NOTIFICATIONS != 'pause'
         env:
           GH_TOKEN: ${{ github.token }}
           VARS_JSON: ${{ toJSON(vars) }}
