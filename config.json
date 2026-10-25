@@ -8,7 +8,7 @@
     "mise à niveau", "finis intérieurs", "finition", "cloison", "plafond", "plancher",
     "salle", "local", "locaux", "bureau", "laboratoire", "cuisine", "vestiaire", "sanitaire",
     "logement", "école", "caserne", "garage", "chalet", "centre communautaire", "bibliothèque",
-    "façade", "enveloppe", "fenêtre", "maçonnerie", "réhabilitation", "restauration",
+    "façade", "parement", "enveloppe", "fenêtre", "maçonnerie", "réhabilitation", "restauration",
     "conversion", "reconversion", "remise en état", "coupe-feu", "accessibilité"
   ],
   "mots_exclus": [
