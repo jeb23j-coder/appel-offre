@@ -2871,7 +2871,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des luminaires dans les chambres d'une résidence du Cégep de Matane. Les travaux sont principalement électriques et impliquent l'installation de luminaires et la désinstallation des anciens.",
+"pointsAttention": [
+"visite obligatoire, délai court, cote de sécurité, milieu occupé, contrat sur demande…"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux électriques et non la maçonnerie, la briquetage ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6e7c3be2-33f7-45e3-b9a2-92327229ef3e",
@@ -2911,7 +2923,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des fenêtres à l'École La Chrysalide de La Tuque. Le montant estimé du projet est de 675 000,00 $ et la durée prévue est de 5 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre uniquement sur le remplacement de fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d8521bbe-a6dd-4b02-a7cd-885d5e6ec08b",
@@ -3142,7 +3166,21 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le mandat concerne le désamiantage des plafonds et le remplacement des plafonds suspendus et des systèmes d'éclairage dans un bâtiment scolaire. Les travaux incluent le démantèlement des plafonds pour encapsuler l'amiante et l'installation de nouveaux plafonds acoustiques et d'éclairage.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le désamiantage et le remplacement de plafonds, ce qui n'est pas dans le domaine principal de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "07a74f8b-fa57-4af5-900e-c5ecfc30b38a",
@@ -3291,7 +3329,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le mandat consiste à réaliser le remplacement des pontages, des métaux ouvrés et de leurs finis, ainsi que des portes et fenêtres, et des travaux d'aménagement extérieur et la réfection de la membrane d'étanchéité des toitures.",
+"pointsAttention": [
+"Aucune visite des lieux n’est prévue."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux sur l'enveloppe du bâtiment, notamment les portes et fenêtres, ce qui touche à la menuiserie, mais le remplacement des pontages et des métaux ouvrés peut impliquer des aspects de maçonnerie ou de finition extérieure.",
+"version": 3
+}
 },
 {
 "id": "6937e653-7308-429a-86c1-3581aa56ab50",
@@ -3365,7 +3415,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le mandat consiste à réaliser le remplacement des pontages, des métaux ouvrés et de leurs finis, ainsi que le remplacement des portes et fenêtres, incluant des travaux d'aménagement extérieur et la réfection de la membrane d'étanchéité des toitures.",
+"pointsAttention": [
+"Aucune visite des lieux n’est prévue."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de remplacement de fenêtres et des éléments d'enveloppe qui peuvent nécessiter des compétences en maçonnerie ou menuiserie, ce qui est pertinent pour l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "c10882ed-056d-4135-8156-47e08ba8c47f",
@@ -3401,7 +3463,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de l'entrée électrique, incluant la démolition, le remplacement des équipements électriques et les travaux connexes aux murs et plafonds.",
+"pointsAttention": [
+"délai de 13 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c58a8b7e-966e-492d-893a-27db5a5687ba",
@@ -3560,7 +3634,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réparation et le remplacement de certaines sections du revêtement extérieur du centre municipal et de la caserne d'incendie. Les travaux incluent la préparation des surfaces et l'application de peinture.",
+"pointsAttention": [
+"délai court (2 mois)"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat inclut explicitement le remplacement de sections du revêtement extérieur, ce qui correspond directement aux intérêts de l'entreprise en maçonnerie/revêtement extérieur.",
+"version": 3
+}
 },
 {
 "id": "a1eee7ff-484f-4f5f-9c2d-6840a15703cd",
@@ -3598,7 +3684,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation d'entrées électriques de 600 V, 400 A, ainsi que d'un système de chauffage électrique et de ventilation pour des garages situés dans la Baie-James.",
+"pointsAttention": [
+"délai de 12 mois consécutifs après autorisation de commencer les travaux"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'électricité et la ventilation, ce qui n'est pas dans les métiers principaux de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "544c6422-1c3f-48ea-bac9-253b834db237",
@@ -4403,7 +4501,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réhabilitation d'un chalet suite à un sinistre, avec des codes de travaux incluant explicitement les travaux de maçonnerie de pierres. La durée prévue est de 2 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des travaux de maçonnerie, ce qui correspond directement à l'expertise de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "d97678fa-ddf6-48d2-ac53-fb535814db8c",
@@ -4597,7 +4707,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des revêtements de plancher (tuiles par revêtement de sol souple) pour une école. La durée prévue est de 4 mois et le montant estimé est de 348 000 $.",
+"pointsAttention": [
+"Visite obligatoire le 20 octobre 2026 à 11h30. Demande de visite extérieure."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la pose de revêtements de sol et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6300e3f1-0f1f-4685-8054-407fa7cc3079",
@@ -5090,7 +5212,21 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet consiste en la réfection de la chaufferie et travaux connexes (Phase 1) pour le Centre de services scolaire des Monts-et-Marées. La durée prévue des travaux est de 4 mois, avec un début possible le 1er mai 2027 et une fin au plus tard le 27 août 2027.",
+"pointsAttention": [
+"Visite obligatoire le 15 octobre 2026 à 11h00 à l'adresse 95, avenue du Parc à Amqui (Québec).",
+"Délai de soumission fixé au jeudi 5 novembre 2026 à 14h00.",
+"Garantie de soumission de 10% du montant total de la soumission (hors taxes)."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de construction/rénovation de bâtiment, mais la description ne met pas l'accent sur la maçonnerie ou la charpenterie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "01dde585-285b-43e5-8c84-32a73af04876",
@@ -5164,7 +5300,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de ventilation et la rénovation de la Salle Louis-Hippolyte-la fontaine. La durée prévue est de 12 mois pour un montant estimé de 188 0943$.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie, mais plutôt des travaux de ventilation et de rénovation générale.",
+"version": 3
+}
 },
 {
 "id": "bf10c093-38fc-46cc-af70-88c1b603e3e0",
@@ -5201,7 +5349,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Les travaux consistent à la construction d’un bâtiment à déploiement rapide comprenant 6 classes, un local polyvalent et des blocs sanitaires sur le terrain de l’école Notre-Dame-du-Bon-Conseil.",
+"pointsAttention": [
+"Montant estimé : 3 500 000 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement/construction de bâtiment où la maçonnerie et la charpenterie seront probablement des lots importants, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "d0a434c7-2057-4d4d-b69c-625940401364",
@@ -5408,7 +5568,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à la réfection des façades, des balcons et des escaliers extérieurs de la Coopérative d'habitation Ste-Thérèse.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat concerne directement la réfection des façades, balcons et escaliers extérieurs, ce qui correspond parfaitement aux métiers de maçonnerie et charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "20519027-4e16-45e4-8c74-81e7f4b5d4f3",
@@ -6159,7 +6331,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour un entrepreneur général concernant des besoins ponctuels à l'Hôpital Saint-Sacrement de Santé Québec. Le projet est estimé à 900 000 $ et la durée de réalisation est prévue entre décembre 2026 et décembre 2028.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour un entrepreneur général, mais il est pertinent de vérifier si les lots de maçonnerie ou de charpenterie sont inclus dans l'appel d'offres.",
+"version": 3
+}
 },
 {
 "id": "9740cd76-4dd9-400f-93ff-8077534e8384",
@@ -6326,7 +6510,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection et la reconstruction des dalles de béton et des caniveaux aux garages d'un réseau de transport. Les travaux incluent le sciage, la démolition, la réparation ou la reconstruction de dalles et de caniveaux de béton.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat ne concerne pas les métiers principaux de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "966be97f-c17f-49a4-ba49-df7d16d1f5f1",
@@ -7204,7 +7400,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la déconstruction de l'ancien cinéma Paradis à Montréal. Les mots-clés trouvés se limitent à 'enveloppe'.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est axé sur la déconstruction et non sur la maçonnerie ou la charpenterie, mais une visite est obligatoire pour évaluer la portée réelle des travaux.",
+"version": 3
+}
 },
 {
 "id": "2005c356-7288-41ea-ab3c-f8711992c2fe",
@@ -7239,7 +7447,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour un entrepreneur général concernant des besoins ponctuels à l'Hôpital Saint-François d'Assise de Santé Québec. Le montant estimé est de 900 000 $ et la durée prévue des travaux est de 24 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour un entrepreneur général, mais il est possible que des lots de maçonnerie ou de charpenterie soient inclus dans le projet global.",
+"version": 3
+}
 },
 {
 "id": "d6bdf474-c49a-4191-919e-0a529e30a1d2",
@@ -7859,7 +8079,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'éclairage des passages piétonniers, du parc des citoyens et de la passerelle petit rang Saint-Régis Sud.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e61703fa-8d48-4088-ac86-47bae314061a",
@@ -7894,7 +8126,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la rénovation des chambres du département principal et du poste des infirmières à l'hôpital de Kuujjuaq. La durée prévue est de 6 mois et le montant estimé est de 5 000 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux de rénovation, où la maçonnerie ou la charpenterie pourraient être des lots importants, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "a32b0910-1525-4eca-8f3c-9b3e29c51ee2",
@@ -8155,7 +8399,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la réfection des façades, le remplacement des portes et fenêtres, et la réfection des balcons pour plusieurs habitations. Les travaux incluent le remplacement de sections de maçonnerie de briques, le remplacement du crépi, et la réparation de linteaux en acier.",
+"pointsAttention": [
+"visite obligatoire",
+"milieu occupé"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux majeurs en maçonnerie et menuiserie (portes/fenêtres) qui correspondent directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "f80a9dcf-bf04-4aad-bb95-ea03e22c536c",
@@ -9683,7 +9940,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet concerne la réfection complète de l'édicule sud de la station Jean-Talon, impliquant des travaux structuraux, architecturaux, électriques et mécaniques majeurs. Le projet inclut également le désamiantage et la mise à niveau de l'alarme incendie.",
+"pointsAttention": [
+"visite obligatoire",
+"délai long (35 mois)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de bâtiment où la maçonnerie ou la charpenterie ont une part, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "3b8c42d9-0525-47b1-af79-c6d711f2e12f",
@@ -9765,7 +10035,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement complet du système d'alarme incendie au Centre St-Joseph. La description mentionne la terrasse Turcotte, mais le cœur du projet n'est pas lié à la maçonnerie ou à la charpenterie.",
+"pointsAttention": [
+"délai court",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur les systèmes d'alarme incendie et n'implique pas les travaux principaux de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "e735c980-d60a-4a21-af42-d29bde85fd06",
@@ -10666,7 +10949,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux civils, terrassement et implantation électrique pour un projet d'Hydro-Québec. Les mots-clés trouvés sont limités à 'terrasse'.",
+"pointsAttention": [
+"Montant estimé entre 10 000 000 $ et 20 000 000 $"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne principalement des travaux civils et électriques, sans lien direct avec la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d0eb3e6e-d02d-407d-9fc2-dc8251633a75",
@@ -11207,7 +11502,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la rénovation, l'agrandissement et l'amélioration d'un bâtiment patrimonial de 1938 à Québec, visant à répondre à une utilisation accrue. Les travaux incluent la rénovation/rafraîchissement des façades, la réfection intérieure (structure/revêtements) et la reconstruction d'un garage.",
+"pointsAttention": [
+"Délai de 38 mois",
+"Intérêt patrimonial du bâtiment"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement la rénovation des façades et des travaux de reconstruction, ce qui correspond directement aux intérêts de la maçonnerie et de la réfection extérieure.",
+"version": 3
+}
 },
 {
 "id": "bb74408e-1253-4110-83f3-cf1c8b0364e8",
