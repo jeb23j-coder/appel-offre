@@ -623,7 +623,6 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     rendre();
   }
 
-  // Code de sauvegarde : demandé une fois, gardé sur cet appareil seulement
   const CANAL_CRITERES = "radar-criteres-0c4a2f2dc16a3c12";
   // Pas de code à entrer : la sauvegarde est reliée au profil choisi (Jonathan, Patrick).
   // Le site joint lui-même le code attendu par le robot, choix de l'utilisateur (le lien du site reste privé).
@@ -706,7 +705,12 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     })
     .catch(() => { $("scan").textContent = "Impossible de charger les avis. Rechargez la page."; });
 
-  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  // Application installée : quand une nouvelle version du site arrive, la page se recharge d'elle-même
+  if ("serviceWorker" in navigator) {
+    const avait = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener("controllerchange", () => { if (avait) location.reload(); });
+    navigator.serviceWorker.register("sw.js", { updateViaCache: "none" }).then((r) => r.update()).catch(() => {});
+  }
 })();
 </script>
 </body>
