@@ -314,7 +314,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le contrat concerne des travaux planifiés et urgents pour un entrepreneur général, incluant des réparations et des travaux de finition intérieure tels que les cloisons, les murs, les planchers et les plafonds. La durée prévue est de 12 mois et le montant estimé est de 6 000 000$.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est trop large et se concentre sur les finitions intérieures, mais il contient des travaux sur les murs et cloisons qui peuvent être pertinents pour la menuiserie/maçonnerie.",
+"version": 3
+}
 },
 {
 "id": "9abcf68f-61d8-417c-9f32-858c13f80596",
@@ -980,7 +992,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne l'adaptation de la cuisine et de la salle St Louis du Stewart Hall par le remplacement du plancher, la peinture, les armoires de cuisine, l'aménagement et l'ajout d'éviers et de rangement.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la rénovation intérieure (cuisine, aménagement) et ne met pas l'accent sur les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "bc111155-782f-4669-a2a1-f9512ad1e7e7",
@@ -1050,7 +1074,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le rehaussement d'une porte de garage pour un poste de commandement. Le contrat est lié à la construction de garages d'automobiles et à l'installation de portes de garage.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet ne concerne ni la maçonnerie ni la charpenterie/menuiserie comme métier principal.",
+"version": 3
+}
 },
 {
 "id": "e702dc91-d868-41e8-80a2-e0ddb9182237",
@@ -1757,7 +1793,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation majeure des installations d'un Centre de la petite enfance (CPE). Les travaux devront être terminés avant le 15 décembre 2027 sur une durée prévue de 12 mois.",
+"pointsAttention": [
+"Délai de travaux fixé au 15 décembre 2027.",
+"Exigence d'une garantie de soumission de 10% et d'une garantie d'exécution de 50%."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros chantier de rénovation de bâtiment où la maçonnerie ou la charpenterie pourraient être des lots importants, mais le titre ne spécifie pas clairement le cœur du travail.",
+"version": 3
+}
 },
 {
 "id": "c22a5069-b8cf-4019-88a4-b254348d475a",
@@ -2508,7 +2557,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'avis concerne le remplacement urgent d'un drain français situé dans le vide sanitaire d'un bâtiment. Les travaux doivent être réalisés avant l'hiver 2026 pour prévenir un sinistre.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la plomberie/drainage et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "88f324e6-1cc8-4e67-9722-1691c76eef9d",
@@ -2797,7 +2858,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection d'une chaufferie et le remplacement de systèmes de ventilation et de douches oculaires à une école secondaire. Le montant estimé est de 1 250 000 $ et la durée prévue est de 24 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement la maçonnerie, la charpenterie ou la menuiserie comme corps de métier principal.",
+"version": 3
+}
 },
 {
 "id": "ad7bcf79-9d87-49b7-80f9-e6838910fc43",
@@ -3041,7 +3114,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des moustiquaires dans plusieurs établissements scolaires. Les travaux impliquent le remplacement des cadres et l'installation de nouvelles toiles moustiquaires sur des fenêtres en aluminium.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne ni la maçonnerie ni la charpenterie/menuiserie, mais plutôt des travaux de menuiserie/fenêtres mineurs.",
+"version": 3
+}
 },
 {
 "id": "4485946d-37e1-4966-b04d-984d76721ce5",
@@ -3248,7 +3333,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture patrimoniale en cuivre et de la portion membranée pour le CIUSSS DE LA CAPITALE-NATIONALE. Les travaux sont estimés à 800 000 $ et devraient durer 6 mois.",
+"pointsAttention": [
+"Visite d’information le 22 octobre 2026"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a3ac49c6-7499-4601-8620-79ae76ca4c29",
@@ -3979,7 +4076,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de mise à niveau et de rénovation intérieure et extérieure d'un bâtiment de théâtre à Montréal. Les travaux nécessitent une coordination avec des équipements et interventions connexes.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour des travaux de rénovation intérieure et extérieure d'un bâtiment, ce qui peut inclure des lots de maçonnerie ou de charpenterie, mais il est adressé aux entrepreneurs généraux.",
+"version": 3
+}
 },
 {
 "id": "9174c62b-a0fd-4e3c-b979-b6153dca69f1",
@@ -4314,7 +4423,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'entretien et de réparation de plomberie générale pour les bâtiments municipaux de la Ville de Kirkland. Les travaux incluent la réparation des réseaux d'eau, des appareils de chauffage, des canalisations sanitaires et l'entretien des fontaines d'eau extérieures.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de 12 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat concerne la plomberie et n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "984afb18-4bfb-4c0c-8f85-c09dd2e4be4e",
@@ -4550,7 +4672,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation et l'agrandissement de l'écocentre de Trois-Rivières-Est. La durée prévue est de 5 mois.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement et une rénovation de bâtiment, ce qui pourrait inclure des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+}
 },
 {
 "id": "afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
@@ -4668,7 +4802,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture du bâtiment de l'École Sainte-Rosalie à Saint-Hyacinthe. Le montant estimé est de 155 600 $ pour un projet d'une durée prévue d'un mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la toiture et n'implique ni maçonnerie ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "c0cb1534-cec2-4457-9579-a751a6ec1b3c",
@@ -4754,7 +4900,21 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement des espaces casiers et la revitalisation d'un corridor au sein de l'Université du Québec à Montréal. Les travaux incluent le remplacement de revêtement de sol, l'ajout d'espaces informels, et la relocalisation de locaux.",
+"pointsAttention": [
+"visite obligatoire",
+"l'Entrepreneur devra agir de façon à minimiser les inconvénients aux usagers et personnel",
+"la cour extérieure, stationnement, accès, etc., continueront aussi d’être utilisés, durant toute la durée des travaux"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet ne met pas l'accent sur la maçonnerie ou la charpenterie comme cœur du contrat, mais plutôt sur des travaux d'aménagement intérieur et de revêtement, ce qui est hors de la cible principale de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "c30ea799-9183-48d3-a276-dda637bdeaba",
@@ -5175,7 +5335,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la conception, la fourniture, l'aménagement et l'installation des bâtiments nécessaires à la première phase d'infrastructures récréatives d'un camping municipal. Les travaux incluent également l'aménagement des chemins, sentiers et réaménagement périphérique de l'espace de plage.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne la construction et l'aménagement de bâtiments, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+}
 },
 {
 "id": "66683a73-93d0-40bb-803d-64982029000e",
@@ -6181,7 +6353,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de pierre et moulure pour une maison individuelle. Le projet est estimé à une durée de 12 mois.",
+"pointsAttention": [
+"Délai de soumission : Les soumissions doivent être valides pour 90 jours.",
+"Exigence de cautionnement : Nécessite un chèque visé, mandat-poste ou traite bancaire (10% de la soumission) et des cautionnements d'exécution et de main-d'œuvre/matériaux (50% de la soumission)."
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du projet est la réfection de pierre et moulure, ce qui correspond directement aux compétences de maçonnerie de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "6d214c9a-b818-437a-aed9-f8e4bc79afa0",
@@ -6766,7 +6951,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation des vestiaires et le remplacement des équipements de ventilation du gymnase d'une école secondaire. Le montant estimé est de 2 700 000 $ et la durée prévue est de 6 mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire prévue le 9 octobre 2026 à 8h00."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de construction/rénovation de bâtiment, ce qui inclut potentiellement des lots de maçonnerie ou charpenterie, mais le titre se concentre sur les vestiaires et la ventilation.",
+"version": 3
+}
 },
 {
 "id": "6138c16b-7147-4375-8d7a-7b64ebd1b275",
@@ -6882,7 +7079,23 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement intérieur d'un local fermé dans le secteur de pathologie des laboratoires afin d'installer une nouvelle table de macroscopie.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie ni la charpenterie/menuiserie, mais des travaux d'aménagement intérieur de laboratoire.",
+"version": 3
+}
 },
 {
 "id": "22e7f986-8851-4704-ae25-0402aa953fb8",
@@ -8280,7 +8493,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réfection des finis intérieurs et la mise à niveau des systèmes mécaniques/électriques pour une école secondaire. Le montant estimé est de 7 300 000 $ pour une durée prévue de 12 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment où les métiers de la maçonnerie et de la charpenterie/menuiserie pourraient être impliqués dans les finis ou la structure, mais le titre se concentre sur les finis intérieurs et les systèmes mécaniques/électriques.",
+"version": 3
+}
 },
 {
 "id": "c4fb9edf-28dc-4e7a-acb1-fb5f4ba0ba86",
@@ -9705,7 +9930,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 40,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la restauration des clochers d'une église, impliquant la peinture de tôle, la teinture d'éléments de bois et le remplacement d'un plancher en acier inoxydable.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur la restauration architecturale et métallique, et non sur les métiers de la maçonnerie ou de la charpenterie/menuiserie recherchés.",
+"version": 3
+}
 },
 {
 "id": "6e4ea630-bef8-4617-85e8-eb750fdb25c5",
@@ -9904,7 +10141,19 @@
 ],
 "visiteObligatoire": true,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation des escaliers mécaniques dans les pavillons A et B de l'École de technologie supérieure. Le montant estimé est de 1 100 000 $ et la durée prévue est de 33 mois.",
+"pointsAttention": [
+"Visites obligatoires des lieux"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'installation ou la modernisation d'escaliers mécaniques, ce qui n'est pas dans le domaine principal de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "8488857f-2b25-4fc8-9ab0-eff68dcb3c2b",
@@ -10546,7 +10795,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la fourniture de matériaux, quincaillerie, équipements et main-d'œuvre pour l'installation d'un système de protection incendie (gicleurs et détection d'incendie) pour l'Hôtel au Casino de Montréal.",
+"pointsAttention": [
+"Visite de chantier : lundi le 5 octobre 2026, à 11h00, heure locale"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne l'installation de systèmes de protection incendie, ce qui n'est pas dans le cœur de métier de la briquetage, de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "799a7cc7-d566-42a9-8102-ab4639c4ae0b",
@@ -10770,7 +11031,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la fourniture et l'installation de la structure d'acier du pavillon N dans le cadre de la requalification des pavillons de l'Université McGill. Le montant estimé est de 13 235 664,00 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la structure d'acier et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1b5eb6db-4e56-49d5-a8f7-a9ebbc2eb19e",
@@ -11416,7 +11689,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des finis de plâtre et de peinture pour l'Église Saint-Joseph à Alma. Les entrepreneurs soumissionnaires sont responsables du choix de leurs sous-traitants.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne principalement les finis de plâtre et la peinture, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie-menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e30466fa-05ff-4af1-913e-b551c175c687",
@@ -11640,7 +11925,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement intérieur d'un poste de la Sûreté du Québec de Forestville, incluant démolition, construction, aménagement, remplacement de porte, ainsi que des travaux en électricité et mécanique.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement intérieur qui inclut des travaux de construction et de démolition, mais le cœur n'est pas clairement la maçonnerie ou la charpenterie/menuiserie, bien que ces éléments puissent être présents dans les travaux de reconfiguration.",
+"version": 3
+}
 },
 {
 "id": "cd1dd7b9-63dc-46cb-825b-2db66a28a9ce",
@@ -12000,7 +12297,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement majeur d'un bâtiment de trois étages, incluant un laboratoire, l'aménagement d'un garage extérieur, et des travaux de mise aux normes des issues de secours ainsi que des systèmes de plomberie et d'éclairage.",
+"pointsAttention": [
+"Durée prévue : 18 mois",
+"Montant estimé : 8 171 800 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement majeur de bâtiment où la maçonnerie ou la charpenterie pourraient être impliquées, mais le descriptif ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "a9234ef0-9a8e-4956-8252-5d6b4060d242",
