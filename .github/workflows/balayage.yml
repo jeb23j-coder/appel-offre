@@ -22,6 +22,7 @@ jobs:
     env:
       MODELE: ${{ vars.MODELE || 'gemma4:e2b' }}
       IA_MINUTES: "170"
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
 
