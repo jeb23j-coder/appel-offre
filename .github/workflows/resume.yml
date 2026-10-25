@@ -1,0 +1,44 @@
+name: Courriel quotidien de minuit
+
+# Un courriel par jour et par profil, à minuit heure du Québec.
+# 4 h et 5 h UTC couvrent minuit l'été (HAE) et l'hiver (HNE) ; le script n'envoie qu'à minuit, une fois par jour.
+on:
+  schedule:
+    - cron: "0 4 * * *"
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Envoyer maintenant (essai)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: config
+  cancel-in-progress: false
+
+jobs:
+  resume:
+    runs-on: ubuntu-latest
+    env:
+      CLE_PRIVEE: ${{ secrets.CLE_PRIVEE }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet cryptography
+      - name: Envoyer le résumé de minuit
+        run: python scanner/resume.py ${{ inputs.force && '--force' || '' }}
+      - name: Retenir que le résumé du jour est parti
+        run: |
+          git config user.name "radar-chantier-bot"
+          git config user.email "radar-chantier-bot@users.noreply.github.com"
+          git add data/resume.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Résumé quotidien envoyé"
+          git pull --rebase --autostash
+          git push

@@ -13,6 +13,7 @@ import urllib.request
 from pathlib import Path
 
 from courriel import dechiffrer
+from seao import garder
 
 TMP = os.environ.get("AO_TMP", "/tmp")  # dossier des fichiers échangés avec le workflow
 RACINE = Path(__file__).resolve().parent.parent
@@ -29,7 +30,10 @@ def argent(n):
 
 def score(a, pid, prof):
     """Même calcul que sur le site : IA, mots-clés trouvés, région préférée et montant, pour un profil."""
-    p = (a.get("profils") or {}).get(pid, {})
+    # Toujours recalculé avec les critères actuels du profil (même règle que le site)
+    ok, trouves = garder(a.get("titre", ""), a.get("description", ""), prof)
+    p = {"motsOk": ok, "motsTrouves": trouves,
+         "tropCher": bool(a.get("estimation") and a["estimation"] > prof.get("montant_max", float("inf")))}
     if p.get("tropCher"):
         return 0
     x = a.get("analyse") or {}
@@ -84,8 +88,7 @@ def envoyer(sujet, courriel, titre, items):
     if len(items) > 5:
         resume += f"\n… et {len(items) - 5} autres"
     corps = {"topic": sujet, "title": f"Radar Chantier : {titre}", "message": resume, "click": SITE, "tags": ["bell"], "priority": 4}
-    if courriel:
-        corps["email"] = courriel
+    # Pas de courriel ici : le courriel part une seule fois par jour, à minuit (scanner/resume.py)
     req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(corps).encode(), headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=20) as r:

@@ -257,7 +257,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
         <div class="champ"><label for="c-min">Montant minimum ($)</label><input id="c-min" inputmode="numeric" placeholder="0"></div>
         <div class="champ"><label for="c-max">Montant maximum ($)</label><input id="c-max" inputmode="numeric" placeholder="15000000"></div>
       </div>
-      <p class="aide">🔔 Vous êtes prévenu (courriel et cellulaire) chaque fois qu'un nouveau contrat obtient un score de 60 ou plus avec ces critères.</p>
+      <p class="aide">📧 Un seul courriel par jour, à minuit : les nouveaux contrats de la journée pour vos critères et ceux qui ferment dans les 7 jours (si vous avez entré un courriel).</p>
       <button class="btn" type="submit">Sauvegarder mes critères</button>
       <p class="aide" id="c-msg">GitHub s'ouvre avec vos critères : cliquez sur « Submit new issue » pour confirmer.</p>
     </form>
@@ -610,7 +610,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     if (attente) {
       const pareil = JSON.stringify([...meta.motsCles].sort()) === JSON.stringify([...attente.motsCles].sort())
         && JSON.stringify([...meta.motsExclus].sort()) === JSON.stringify([...attente.motsExclus].sort());
-      if (pareil || Date.now() - attente.temps > 3 * 3600e3) { try { localStorage.removeItem(cleAttente()); } catch {} }
+      if (pareil || Date.now() - attente.temps > 7 * 24 * 3600e3) { try { localStorage.removeItem(cleAttente()); } catch {} }
       else Object.assign(meta, attente);
     }
     preparerRegles();
