@@ -366,7 +366,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   }
   const dansVue = (a) => vue === "suivis" ? !!st(a).suivi : vue === "desires" ? !!st(a).desire : vue === "fermes" ? !!a.fermeArchive
     : vue === "resultats" ? score(a) >= 40 : !a.fermeArchive;
-  const tri = (v) => v === "resultats"
+  const tri = (v) => v === "resultats" || v === "tous"  // meilleurs scores selon vos critères en premier
     ? (x, y) => score(y) - score(x) || (x.fermeture || "").localeCompare(y.fermeture || "")
     : v === "fermes"  // les plus récemment fermés d'abord, ceux qui ont des résultats en premier
     ? (x, y) => (!!y.resultats - !!x.resultats) || (y.fermeture || "").localeCompare(x.fermeture || "")
