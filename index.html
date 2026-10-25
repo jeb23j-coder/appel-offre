@@ -122,6 +122,9 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .ajout input { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 7px 10px; font-size: .9rem; }
 #c-exclus .regions label:has(input:checked) { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }
 .btn { border: 1px solid var(--accent); background: var(--accent); color: var(--surface); border-radius: 10px; padding: 9px 16px; font-weight: 600; justify-self: start; }
+.profils { display: flex; gap: 4px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 3px; }
+.profils button { border: 0; background: transparent; border-radius: 8px; padding: 7px 12px; font-weight: 600; font-size: .88rem; color: var(--muted); }
+.profils button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
 .alerte { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; font-size: .88rem; }
 .alerte span { color: var(--muted); font-size: .8rem; flex: 1; min-width: 12ch; }
 .alerte a { color: var(--danger); font-size: .82rem; }
@@ -137,6 +140,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
       <h1>Appel Offre</h1>
       <p class="scan" id="scan">Chargement…</p>
     </div>
+    <div class="profils" id="profils" role="group" aria-label="Profil"></div>
   </div>
 </header>
 
@@ -177,7 +181,12 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 
   <div id="vue-criteres" hidden>
     <form class="bloc" id="formCriteres" autocomplete="off" style="margin-top:0; margin-bottom:40px">
-      <h2>Mes critères</h2>
+      <h2 id="p-titre">Mon profil</h2>
+      <div class="champ"><label for="p-courriel">Courriel pour recevoir mes notifications</label>
+        <input id="p-courriel" type="email" autocomplete="email" placeholder="ex. nom@gmail.com"></div>
+      <p class="aide" id="p-actuel"></p>
+      <p class="aide">🔒 Votre courriel est chiffré dans votre navigateur avant d'être sauvegardé : il n'apparaît jamais en clair sur le site ni dans GitHub.</p>
+      <h2 id="c-titre" style="margin-top:8px">Mes critères</h2>
       <p class="aide">Ils décident quels avis sont retenus et calculent le score de chaque contrat.</p>
       <div class="champ"><label>Mots-clés recherchés : cochez ceux qui vous intéressent</label><div id="c-mots" class="familles"></div></div>
       <div class="champ"><label>Mots exclus : un avis qui n'a que ces mots dans son titre est écarté</label><div id="c-exclus" class="familles"></div></div>
@@ -208,15 +217,31 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   if (VUES.includes(location.hash.slice(1))) vue = location.hash.slice(1);  // lien direct vers un onglet
   const SEUIL_NOTIF = 60; // même seuil que les notifications par courriel et cellulaire
 
-  // Étoiles, statuts et notes : gardés sur cet appareil (mêmes données qu'avant)
+  // Clé publique du site : chiffre le courriel dans le navigateur (seul le robot des notifications peut le lire)
+  const CLE_PUBLIQUE = {"kty": "RSA", "n": "tyFni3QeJY3ccmmpanI2QSjvROIUodTSVpv0E56koMtY_fNdqOdciq1pKuVBu5dIF3E9pDGI-69IoRTiHifo2CEr9wCXcy4hxaVFNV6AvFYNFNyJO-tt46HlsFBQmV3UsfBV1_S2qNTc0_1x8fIggLRrSZZT8AQDJ_H1xKUmL1zACxveBW-f6LqtSJ1CspmbpzVJtSuYQEl4nRaGY_mDPOfbtE2ZQX02cHGCVrKLJgqockRZWvieoPo0cjwtqIgMq4s-oy0wK7tY6RYDg-Q-8pzLC3kQSHZlb7zo_taLHWYFIA1b9hyEO8LsyAIXphSV8NNGXXKoOcMbkFZsb1gFWw", "e": "AQAB", "alg": "RSA-OAEP-256", "ext": true};
+
+  // Profils (Jonathan, Patrick…) : chacun ses critères, ses résultats, ses étoiles et son courriel
+  let config = { profils: {} }, donneesMeta = {};
+  let profil = "jonathan";
+  try { profil = localStorage.getItem("appel-offre-profil") || "jonathan"; } catch {}
+  const cleSuivi = () => `appel-offre-suivi-${profil}`;
+  try { // anciennes étoiles (avant les profils) : elles appartiennent à Jonathan
+    if (!localStorage.getItem("appel-offre-suivi-jonathan") && localStorage.getItem("appel-offre-suivi"))
+      localStorage.setItem("appel-offre-suivi-jonathan", localStorage.getItem("appel-offre-suivi"));
+  } catch {}
+
+  // Étoiles, statuts et notes : gardés sur cet appareil, par profil
   let suivi = {};
-  try { suivi = JSON.parse(localStorage.getItem("appel-offre-suivi") || "{}"); } catch {}
+  function lireSuivi() { suivi = {}; try { suivi = JSON.parse(localStorage.getItem(cleSuivi()) || "{}"); } catch {} }
+  lireSuivi();
   const st = (a) => suivi[a.id] || {};
   function sauver(id, patch, sansRendu) {
     suivi[id] = { ...(suivi[id] || {}), ...patch };
-    try { localStorage.setItem("appel-offre-suivi", JSON.stringify(suivi)); } catch {}
+    try { localStorage.setItem(cleSuivi(), JSON.stringify(suivi)); } catch {}
     if (!sansRendu) rendre();
   }
+  // Résultat des critères du profil courant pour un avis
+  const pa = (a) => a.profils?.[profil] || { motsTrouves: a.motsTrouves, motsOk: a.motsOk, familles: a.familles, tropCher: a.tropCher };
 
   // Dates
   const date = (s) => { if (!s) return null; const [d, t = "00:00"] = s.split("T"); const [y, m, j] = d.split("-").map(Number); const [h, mi] = t.split(":").map(Number); return new Date(y, m - 1, j, h, mi); };
@@ -226,9 +251,10 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 
   // Score sur 100 selon vos critères
   function score(a) {
-    if (a.tropCher || ferme(a)) return 0;
-    let s = a.analyse ? a.analyse.pertinence * 0.5 : (a.motsOk ? 25 : 0);
-    s += Math.min((a.motsTrouves || []).length, 5) * 4;
+    const p = pa(a);
+    if (p.tropCher || ferme(a)) return 0;
+    let s = a.analyse ? a.analyse.pertinence * 0.5 : (p.motsOk ? 25 : 0);
+    s += Math.min((p.motsTrouves || []).length, 5) * 4;
     if ((meta.regionsPreferees || []).some((r) => (a.regions || []).includes(r))) s += 10;
     if (a.estimation && a.estimation >= (meta.montantMin || 0) && a.estimation <= (meta.montantMax || Infinity)) s += 5;
     if (a.analyse?.recommandation === "No-go") s = Math.min(s, 30);
@@ -290,7 +316,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     const tags = el("div", "tags");
     if (sc >= SEUIL_NOTIF) tags.appendChild(el("span", "tag att", "🔔 Notifié"));
     if (a.visiteObligatoire) tags.appendChild(el("span", "tag att", "Visite obligatoire"));
-    (a.familles || []).forEach((f) => tags.appendChild(el("span", "tag", f)));
+    (pa(a).familles || []).forEach((f) => tags.appendChild(el("span", "tag", f)));
     if (tags.childNodes.length) c.appendChild(tags);
 
     if (s.suivi) {
@@ -413,19 +439,61 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     $("c-min").value = meta.montantMin || "";
     $("c-max").value = meta.montantMax || "";
     choixRegions($("c-regions"), meta.regionsPreferees || []);
+    const nom = meta.nom || profil;
+    $("p-titre").textContent = `Profil de ${nom}`;
+    $("c-titre").textContent = `Critères de ${nom}`;
+    $("p-courriel").value = "";
+    $("p-actuel").textContent = meta.courrielMasque
+      ? `Notifications envoyées à : ${meta.courrielMasque}. Pour changer, entrez un nouveau courriel ci-dessus.`
+      : "Aucun courriel pour l'instant : entrez celui où vous voulez recevoir vos notifications.";
   }
-  $("formCriteres").addEventListener("submit", (e) => {
+
+  // Choix du profil : chaque profil voit ses critères, ses résultats et ses étoiles
+  function chargerProfil() {
+    const p = config.profils[profil] || {};
+    meta = { ...donneesMeta, nom: p.nom, courrielMasque: p.courrielMasque || "",
+      motsCles: p.mots_cles || [], motsExclus: p.mots_exclus || [], familles: p.familles || {}, famillesExclus: p.familles_exclus || {},
+      regionsPreferees: p.regions_preferees || [], montantMin: p.montant_min ?? 0, montantMax: p.montant_max ?? 15000000 };
+    lireSuivi();
+    const boite = $("profils"); boite.innerHTML = "";
+    Object.entries(config.profils).forEach(([id, pr]) => {
+      const b = el("button", null, pr.nom || id); b.type = "button";
+      b.setAttribute("aria-pressed", id === profil ? "true" : "false");
+      b.addEventListener("click", () => { profil = id; try { localStorage.setItem("appel-offre-profil", id); } catch {} chargerProfil(); });
+      boite.appendChild(b);
+    });
+    remplirReglages();
+    rendre();
+  }
+
+  // Chiffre le courriel avec la clé publique (RSA-OAEP, SHA-256) ; renvoie le texte en base64
+  async function chiffrer(texte) {
+    const cle = await crypto.subtle.importKey("jwk", CLE_PUBLIQUE, { name: "RSA-OAEP", hash: "SHA-256" }, false, ["encrypt"]);
+    const octets = new Uint8Array(await crypto.subtle.encrypt({ name: "RSA-OAEP" }, cle, new TextEncoder().encode(texte)));
+    let bin = ""; octets.forEach((o) => (bin += String.fromCharCode(o)));
+    return btoa(bin);
+  }
+  const masquer = (c) => { const [n, d] = c.split("@"); return `${n.slice(0, 1)}•••@${d}`; };
+
+  $("formCriteres").addEventListener("submit", async (e) => {
     e.preventDefault();
+    const courriel = $("p-courriel").value.trim();
+    if (courriel && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(courriel)) { $("c-msg").textContent = "Ce courriel ne semble pas valide."; return; }
+    const lignesCourriel = [];
+    if (courriel) {
+      try { lignesCourriel.push("Courriel chiffré: " + await chiffrer(courriel), "Courriel masqué: " + masquer(courriel)); }
+      catch { $("c-msg").textContent = "Le chiffrement du courriel n'a pas fonctionné dans ce navigateur. Essayez avec Chrome ou Safari à jour."; return; }
+    }
     // Seulement les mots (pas les cases de titre de famille)
     const mots = [...new Set([...$("c-mots").querySelectorAll(".regions input:checked")].map((x) => x.value))];
     if (!mots.length) { $("c-msg").textContent = "Cochez au moins un mot-clé."; return; }
     // Une ligne par famille : tous ses mots, ceux qui ne sont pas cochés précédés d'un « - »
     const familleTexte = (boite, prefixe) => [...boite.querySelectorAll(".famille[data-famille]")].map((f) =>
       `${prefixe} ${f.dataset.famille}: ` + [...f.querySelectorAll(".regions input")].map((x) => (x.checked ? "" : "-") + x.value).join(", "));
-    const corps = [...familleTexte($("c-mots"), "Famille"), ...familleTexte($("c-exclus"), "Exclus"),
+    const corps = ["Profil: " + profil, ...lignesCourriel, ...familleTexte($("c-mots"), "Famille"), ...familleTexte($("c-exclus"), "Exclus"),
       "Régions préférées: " + cochees($("c-regions")).join(", "),
       "Montant min: " + $("c-min").value.trim(), "Montant max: " + $("c-max").value.trim(), "", "(Cliquez sur « Submit new issue » pour sauvegarder vos critères.)"].join("\n");
-    window.open(demande("criteres", "Mes critères de recherche", corps), "_blank", "noopener");
+    window.open(demande("criteres", `Critères de ${meta.nom || profil}`, corps), "_blank", "noopener");
     $("c-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». Les contrats seront reclassés dans quelques minutes.";
   });
 
@@ -438,18 +506,12 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
   ])
     .then(([d, cfg]) => {
       avis = d.avis || [];
-      meta = { ...(d.meta || {}),
-        motsCles: cfg.mots_cles || d.meta?.motsCles || [],
-        motsExclus: cfg.mots_exclus || d.meta?.motsExclus || [],
-        familles: cfg.familles || d.meta?.familles || {},
-        famillesExclus: cfg.familles_exclus || {},
-        regionsPreferees: cfg.regions_preferees || d.meta?.regionsPreferees || [],
-        montantMin: cfg.montant_min ?? d.meta?.montantMin ?? 0,
-        montantMax: cfg.montant_max ?? d.meta?.montantMax ?? 15000000 };
+      donneesMeta = d.meta || {};
+      config = cfg.profils ? cfg : { profils: { jonathan: { nom: "Jonathan", ...cfg } } };
+      if (!config.profils[profil]) profil = Object.keys(config.profils)[0];
       const regs = [...new Set(avis.flatMap((a) => a.regions || []))].sort((x, y) => x.localeCompare(y, "fr"));
       regs.forEach((r) => { const o = el("option", null, r); o.value = r; $("f-region").appendChild(o); });
-      remplirReglages();
-      rendre();
+      chargerProfil();
     })
     .catch(() => { $("scan").textContent = "Impossible de charger les avis. Rechargez la page."; });
 

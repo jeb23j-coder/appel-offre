@@ -46,7 +46,13 @@ def familles(texte, prefixe):
 def main():
     texte = Path(TMP, "demande.md").read_text(encoding="utf-8")
     cfg_path = RACINE / "config.json"
-    cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+    tout = json.loads(cfg_path.read_text(encoding="utf-8"))
+    # Profil visé (Jonathan par défaut)
+    pid = re.sub(r"[^a-z0-9]", "", (champ(texte, "Profil") or "jonathan").lower()) or "jonathan"
+    if pid not in tout["profils"]:
+        Path(TMP, "reponse.md").write_text(f"Profil inconnu : {pid}.", encoding="utf-8")
+        sys.exit(1)
+    cfg = tout["profils"][pid]
     fam_mots, mots = familles(texte, "Famille")
     fam_exclus, exclus = familles(texte, "Exclus")
     if fam_mots:  # nouveau format : les familles et les mots ajoutés sont sauvegardés
@@ -55,6 +61,11 @@ def main():
     else:     # ancien format
         mots = liste(champ(texte, "Mots-clés") or champ(texte, "Mots-cles"))
         exclus = liste(champ(texte, "Mots exclus"))
+    # Courriel des notifications : déjà chiffré par le site, jamais en clair ici
+    chiffre = champ(texte, "Courriel chiffré")
+    if chiffre and re.fullmatch(r"[A-Za-z0-9+/=]{100,1000}", chiffre):
+        cfg["courrielChiffre"] = chiffre
+        cfg["courrielMasque"] = champ(texte, "Courriel masqué")[:60]
     regions = [r for r in REGIONS if r.lower() in {x.lower() for x in liste(champ(texte, "Régions préférées") or champ(texte, "Regions preferees"))}]
     mmin, mmax = montant(champ(texte, "Montant min")), montant(champ(texte, "Montant max"))
     if not mots:
@@ -66,10 +77,11 @@ def main():
     cfg["montant_min"] = mmin or 0
     if mmax:
         cfg["montant_max"] = mmax
-    cfg_path.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    cfg_path.write_text(json.dumps(tout, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     argent = lambda n: f"{n:,}".replace(",", " ")
     msg = "\n".join([
-        "Critères enregistrés.",
+        f"Critères de {cfg.get('nom', pid)} enregistrés.",
+        f"- Courriel des notifications : {cfg.get('courrielMasque') or 'aucun'}",
         "",
         f"- Mots-clés ({len(mots)}) : {', '.join(mots)}",
         f"- Mots exclus : {', '.join(exclus) or 'aucun'}",

@@ -71,12 +71,14 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Notifier les nouveaux contrats potentiels (courriel envoyé par GitHub)
+      - name: Notifier chaque profil de ses nouveaux contrats (courriel et cellulaire)
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
-          NTFY_TOPIC: ${{ vars.NTFY_TOPIC }}
+          VARS_JSON: ${{ toJSON(vars) }}
+          CLE_PRIVEE: ${{ secrets.CLE_PRIVEE }}
         run: |
+          pip install --quiet cryptography
           python scanner/notifier.py
           if [ -f /tmp/notif.md ]; then
             gh issue create --title "$(cat /tmp/notif_titre.txt)" --body-file /tmp/notif.md \

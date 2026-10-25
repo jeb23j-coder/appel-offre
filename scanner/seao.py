@@ -97,7 +97,8 @@ def garder(titre, description, cfg):
 
 
 def empreinte(cfg):
-    return hashlib.sha1(json.dumps([cfg["mots_cles"], cfg["mots_exclus"], cfg["montant_max"], cfg.get("alertes")], ensure_ascii=False).encode()).hexdigest()[:10]
+    profils = {k: [p["mots_cles"], p["mots_exclus"], p["montant_max"]] for k, p in cfg["profils"].items()}
+    return hashlib.sha1(json.dumps(profils, ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:10]
 
 
 def fiche(a):
@@ -125,6 +126,14 @@ def fiche(a):
         "description": texte((d.get("avisResumeDescription") or {}).get("descriptionHtml"))[:3000],
         "lien": LIEN_AVIS + a["uuid"],
     }
+
+
+def masquer(courriel):
+    """« jeb.23.j@gmail.com » -> « j•••@gmail.com » : le site public ne montre jamais l'adresse complète."""
+    if "@" not in courriel:
+        return ""
+    nom, dom = courriel.split("@", 1)
+    return f"{nom[:1]}•••@{dom}"
 
 
 def lire(nom, defaut):
@@ -172,7 +181,6 @@ def main():
 
     ouverts = {a["uuid"] for a in liste}
     deja_affiches = {x["id"] for x in base["avis"]}
-    deja_alertes = {x["id"]: set(x.get("alertes") or []) for x in base["avis"]}
     toutes = {x["id"]: x for x in base["avis"] + autres if x["id"] in ouverts}
     fermes = len(base["avis"]) - sum(1 for x in base["avis"] if x["id"] in ouverts)
     ignores &= ouverts
@@ -198,41 +206,45 @@ def main():
         f["vuLe"] = maintenant_quebec()
         toutes[u] = f
 
-    # Tous les avis sont gardés : l'IA les passe tous en revue. Les mots-clés et les alertes
-    # servent à trier et à repérer les contrats potentiels.
+    # Tous les avis sont gardés : l'IA les passe tous en revue. Les critères de chaque profil
+    # (Jonathan, Patrick…) servent à trier et à repérer ses contrats potentiels.
     avis, nouveaux_ids = [], []
     for f in toutes.values():
-        ok, trouves = garder(f["titre"], f.get("description", ""), cfg)
-        f["motsTrouves"] = trouves
-        f["motsOk"] = ok
         texte_complet = sans_accents(f"{f['titre']} {f.get('description', '')}")
-        choisis = {m.lower() for m in cfg["mots_cles"]}
-        f["familles"] = [nom for nom, termes in cfg.get("familles", {}).items()
-                         if any(t.lower() in choisis and re.search(r"\b" + re.escape(sans_accents(t)), texte_complet) for t in termes)]
         f["visiteObligatoire"] = bool(re.search(r"visite[^.]{0,60}obligatoire|obligatoire[^.]{0,30}visite", texte_complet))
-        f["tropCher"] = bool(f.get("estimation") and f["estimation"] > cfg["montant_max"])
+        f["profils"] = {}
+        for pid, prof in cfg["profils"].items():
+            ok, trouves = garder(f["titre"], f.get("description", ""), prof)
+            choisis = {m.lower() for m in prof["mots_cles"]}
+            f["profils"][pid] = {
+                "motsTrouves": trouves,
+                "motsOk": ok,
+                "familles": [nom for nom, termes in prof.get("familles", {}).items()
+                             if any(t.lower() in choisis and re.search(r"\b" + re.escape(sans_accents(t)), texte_complet) for t in termes)],
+                "tropCher": bool(f.get("estimation") and f["estimation"] > prof["montant_max"]),
+            }
+        # Pour l'IA : les mots trouvés par au moins un profil
+        f["motsTrouves"] = sorted({m for p in f["profils"].values() for m in p["motsTrouves"]})
+        f["motsOk"] = any(p["motsOk"] for p in f["profils"].values())
+        for vieux in ("familles", "tropCher", "alertes"):
+            f.pop(vieux, None)
         f["nouveau"] = f["id"] not in deja_affiches
-        # Une alerte par région seulement exige aussi un mot-clé, pour ne pas signaler un stationnement
-        f["alertes"] = [al["nom"] for al in cfg.get("alertes", []) if correspond_alerte(f, al) and (al.get("mots") or ok)]
-        nouvelles_alertes = [n for n in f["alertes"] if n not in deja_alertes.get(f["id"], set())]
-        if f["nouveau"] or nouvelles_alertes:
+        if f["nouveau"]:
             nouveaux_ids.append(f["id"])
         avis.append(f)
 
     nouveaux = sum(1 for f in avis if f["nouveau"])
     meta = {"date": maintenant_quebec(), "seaoLus": len(liste), "retenus": len(avis), "nouveaux": nouveaux,
-            "portee": cfg["portee"], "modele": base["meta"].get("modele"), "empreinte": emp,
-            "alertes": cfg.get("alertes", []), "motsCles": cfg["mots_cles"], "motsExclus": cfg["mots_exclus"],
-            "regionsPreferees": cfg.get("regions_preferees", []), "montantMin": cfg.get("montant_min", 0), "montantMax": cfg["montant_max"],
-            "familles": cfg.get("familles", {}), "suggestionsExclus": cfg.get("suggestions_exclus", [])}
+            "portee": cfg["portee"], "modele": base["meta"].get("modele"), "empreinte": emp}
     ecrire("avis.json", {"meta": meta, "avis": avis})
     ecrire("hors_mots.json", [])
     ecrire("ignores.json", sorted(ignores))
     # Premier balayage avec cette version : pas de notification pour tout l'existant d'un coup
     premiere_fois = not base["meta"].get("empreinte")
     ecrire("a_notifier.json", [] if premiere_fois else nouveaux_ids)
-    print(f"Avis : {len(avis)} · nouveaux : {nouveaux} · avec vos mots-clés : {sum(f['motsOk'] for f in avis)} "
-          f"· à vérifier pour notification : {0 if premiere_fois else len(nouveaux_ids)} · détails lus : {lus} · fermés retirés : {fermes}")
+    print(f"Avis : {len(avis)} · nouveaux : {nouveaux} · "
+          + " · ".join(f"{pid} : {sum(f['profils'][pid]['motsOk'] for f in avis)} avec ses mots" for pid in cfg["profils"])
+          + f" · détails lus : {lus} · fermés retirés : {fermes}")
 
 
 if __name__ == "__main__":

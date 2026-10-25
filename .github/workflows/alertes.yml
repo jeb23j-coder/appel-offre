@@ -18,7 +18,7 @@ concurrency:
 jobs:
   alerte:
     if: >-
-      github.event.issue.user.login == github.repository_owner &&
+      contains(fromJSON('["OWNER","COLLABORATOR","MEMBER"]'), github.event.issue.author_association) &&
       (contains(github.event.issue.labels.*.name, 'alerte') || contains(github.event.issue.labels.*.name, 'supprimer-alerte') || contains(github.event.issue.labels.*.name, 'criteres'))
     runs-on: ubuntu-latest
     env:

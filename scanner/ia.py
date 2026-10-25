@@ -39,7 +39,7 @@ Ce qui l'intéresse le plus : les contrats où la maçonnerie (brique, pierre, b
 cheminées, façades de maçonnerie) ou la charpenterie-menuiserie (charpente et ossature de bois, balcons, galeries,
 escaliers, terrasses, cloisons, coffrages, portes et fenêtres, finition intérieure) est le travail principal.
 Intéressant aussi : rénovations, réfections, agrandissements et bâtiments neufs où ces métiers ont une part importante.
-Mots-clés utiles : {', '.join(cfg['mots_cles'])}.
+Mots-clés utiles : {', '.join(sorted({m for p in cfg['profils'].values() for m in p['mots_cles']}))}.
 Ce qui ne l'intéresse pas : génie civil (rues, aqueducs, ponts, stationnements), travaux d'autres corps de métier
 (électricité, mécanique, plomberie, ventilation, ascenseurs, chaudières), entretien, services, fournitures.
 
