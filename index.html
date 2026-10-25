@@ -142,6 +142,9 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
 .alerte .det { color: var(--muted); font-size: .8rem; flex: 1; min-width: 12ch; }
 .alerte button, .alerte a { font-size: .8rem; }
 .alerte a.sup { color: var(--danger); }
+.form-alerte textarea { width: 100%; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 7px; padding: 8px 10px; font-size: .9rem; resize: vertical; }
+.score-pot { font-family: var(--f-mono); font-size: .78rem; font-weight: 600; padding: 2px 8px; border-radius: 6px; background: var(--bg); border: 1px solid var(--line); }
+.score-pot.top { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
 .form-alerte { display: grid; gap: 10px; border-top: 1px solid var(--line); padding-top: 12px; }
 .form-alerte .row { display: grid; grid-template-columns: 1fr 2fr; gap: 10px; }
 .regions-pick { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -192,6 +195,26 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     <button class="kpi" type="button" data-go="desires"><span class="v" id="k-desires">–</span><span class="l">♥ Contrats désirés</span></button>
     <button class="kpi hot" type="button" data-go="semaine"><span class="v" id="k-semaine">–</span><span class="l">Ferment ≤ 7 j</span></button>
   </section>
+
+  <details class="alertes-box" id="criteresBox">
+    <summary>⚙️ Mes critères de recherche</summary>
+    <div class="alertes-in">
+      <p class="aide">Vos critères servent à toutes les recherches : ils décident quels avis sont retenus et calculent le score de potentiel de chaque contrat.</p>
+      <form class="form-alerte" id="formCriteres" autocomplete="off" style="border-top:0; padding-top:0">
+        <div class="field"><label for="c-mots">Mots-clés recherchés (séparés par des virgules)</label><textarea id="c-mots" rows="3"></textarea></div>
+        <div class="field"><label for="c-exclus">Mots exclus</label><textarea id="c-exclus" rows="2"></textarea></div>
+        <div class="field"><label>Régions préférées (montent dans le classement)</label><div class="regions-pick" id="c-regions"></div></div>
+        <div class="row" style="grid-template-columns:1fr 1fr">
+          <div class="field"><label for="c-min">Montant minimum ($)</label><input id="c-min" inputmode="numeric" placeholder="0"></div>
+          <div class="field"><label for="c-max">Montant maximum ($)</label><input id="c-max" inputmode="numeric" placeholder="15000000"></div>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap">
+          <button class="btn primary" type="submit">Sauvegarder mes critères</button>
+          <span class="aide" id="c-msg">GitHub s'ouvrira avec vos critères remplis : cliquez sur « Submit new issue » pour confirmer.</span>
+        </div>
+      </form>
+    </div>
+  </details>
 
   <details class="alertes-box" id="alertesBox">
     <summary>🔔 Mes alertes <span class="n" id="nbAlertes"></span></summary>
@@ -262,6 +285,7 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
       <select id="f-caution"><option value="">Tous</option><option value="oui">Exigé</option><option value="np">Non précisé</option></select></div>
     <div class="field"><label for="f-tri">Trier par</label>
       <select id="f-tri">
+        <option value="score">Score de potentiel</option>
         <option value="mots">Mots-clés trouvés</option>
         <option value="pertinence">Pertinence IA</option>
         <option value="fermeture">Fermeture la plus proche</option>
@@ -331,6 +355,18 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
 
   // ----- filtres -----
   const reco = (a) => a.analyse?.recommandation;
+  // Score de potentiel (0 à 100) selon vos critères : analyse IA, mots-clés trouvés, alertes,
+  // régions préférées et montant dans votre fourchette.
+  function score(a) {
+    if (a.tropCher || isClosed(a.fermeture)) return 0;
+    let s = a.analyse ? a.analyse.pertinence * 0.5 : (a.motsOk ? 25 : 0);
+    s += Math.min((a.motsTrouves || []).length, 5) * 4;
+    if (a.alertes?.length) s += 15;
+    if ((meta.regionsPreferees || []).some((r) => (a.regions || []).includes(r))) s += 10;
+    if (a.estimation && a.estimation >= (meta.montantMin || 0) && a.estimation <= (meta.montantMax || Infinity)) s += 5;
+    if (a.analyse?.recommandation === "No-go") s = Math.min(s, 30);
+    return Math.max(0, Math.min(100, Math.round(s)));
+  }
   // Potentiel : une de vos alertes, ou l'IA dit Go / À vérifier, ou (pas encore analysé) vos mots-clés
   function potentiel(a) {
     if (a.tropCher || isClosed(a.fermeture)) return false;
@@ -389,6 +425,7 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     if (t === "publie") return (x, y) => (y.publie || "").localeCompare(x.publie || "");
     if (t === "montant-desc") return (x, y) => (y.estimation ?? -1) - (x.estimation ?? -1);
     if (t === "montant-asc") return (x, y) => (x.estimation ?? 1e12) - (y.estimation ?? 1e12);
+    if (t === "score") return (x, y) => (score(y) - score(x)) || ferm(x, y);
     if (t === "pertinence") return (x, y) => ((y.analyse?.pertinence ?? -1) - (x.analyse?.pertinence ?? -1)) || ferm(x, y);
     return (x, y) => ((y.alertes?.length || 0) - (x.alertes?.length || 0)) || ((y.motsTrouves?.length || 0) - (x.motsTrouves?.length || 0)) || ferm(x, y);
   }
@@ -437,7 +474,8 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     const r1 = el("div", "row1");
     r1.appendChild(el("span", "num", a.numero));
     if (a.nouveau) r1.appendChild(el("span", "new", "Nouveau"));
-    if (potentiel(a)) r1.appendChild(el("span", "chip alerte-c", "Potentiel"));
+    const sc = score(a);
+    if (sc > 0) r1.appendChild(el("span", "score-pot" + (sc >= 70 ? " top" : ""), (sc >= 70 ? "🔥 Très potentiel · " : "Potentiel · ") + sc));
     if (a.tropCher) r1.appendChild(el("span", "chip neutral", "Au-dessus du montant max"));
     const star = el("button", "star", s.suivi ? "★" : "☆"); star.type = "button";
     star.setAttribute("aria-pressed", s.suivi ? "true" : "false");
@@ -557,6 +595,35 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
     $("a-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». L'alerte apparaîtra ici dans 1 à 2 minutes.";
   });
 
+  const cpick = $("c-regions");
+  REGIONS.forEach((r, i) => {
+    const lab = el("label"); const cb = el("input"); cb.type = "checkbox"; cb.value = r; cb.id = "cr" + i;
+    lab.htmlFor = cb.id; lab.append(cb, el("span", null, r)); cpick.appendChild(lab);
+  });
+  function remplirCriteres() {
+    if (!meta.motsCles) return;
+    $("c-mots").value = meta.motsCles.join(", ");
+    $("c-exclus").value = (meta.motsExclus || []).join(", ");
+    $("c-min").value = meta.montantMin || "";
+    $("c-max").value = meta.montantMax || "";
+    cpick.querySelectorAll("input").forEach((x) => (x.checked = (meta.regionsPreferees || []).includes(x.value)));
+  }
+  $("formCriteres").addEventListener("submit", (ev) => {
+    ev.preventDefault();
+    const mots = $("c-mots").value.trim();
+    if (!mots) { $("c-msg").textContent = "Il faut au moins un mot-clé."; return; }
+    const regs = [...cpick.querySelectorAll("input:checked")].map((x) => x.value);
+    const corps = `Mots-clés: ${mots}
+Mots exclus: ${$("c-exclus").value.trim()}
+Régions préférées: ${regs.join(", ")}
+Montant min: ${$("c-min").value.trim()}
+Montant max: ${$("c-max").value.trim()}
+
+(Cliquez sur « Submit new issue » pour sauvegarder vos critères.)`;
+    window.open(lienDemande("criteres", "Mes critères de recherche", corps), "_blank", "noopener");
+    $("c-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». Les avis seront retriés au balayage qui suit (quelques minutes).";
+  });
+
   function render() {
     renderHead(); renderCounts(); renderAlerts(); renderMesAlertes();
     const list = $("list"); list.innerHTML = "";
@@ -578,14 +645,14 @@ header.top { position: sticky; top: 0; z-index: 5; background: var(--surface); b
   setTabs();
   [...FIDS, "f-nogo"].forEach((id) => $(id).addEventListener("change", () => { savePrefs(); render(); }));
   $("f-q").addEventListener("input", render);
-  function resetFilters() { $("f-q").value = ""; FIDS.forEach((id) => ($(id).value = id === "f-tri" ? "mots" : "")); $("f-nogo").checked = true; savePrefs(); render(); }
+  function resetFilters() { $("f-q").value = ""; FIDS.forEach((id) => ($(id).value = id === "f-tri" ? "score" : "")); $("f-nogo").checked = true; savePrefs(); render(); }
   $("reset").addEventListener("click", resetFilters);
   $("toggleFilters").addEventListener("click", () => { const col = $("filters").classList.toggle("collapsed"); $("toggleFilters").setAttribute("aria-expanded", col ? "false" : "true"); });
 
   render();
   fetch("data/avis.json?v=" + Date.now(), { cache: "no-store" })
     .then((r) => r.json())
-    .then((d) => { avis = d.avis || []; meta = d.meta || {}; fillOptions(); render(); })
+    .then((d) => { avis = d.avis || []; meta = d.meta || {}; fillOptions(); remplirCriteres(); render(); })
     .catch(() => { $("scan").textContent = "Impossible de charger les avis. Rechargez la page."; });
 
   if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});

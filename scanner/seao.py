@@ -97,7 +97,7 @@ def garder(titre, description, cfg):
 
 
 def empreinte(cfg):
-    return hashlib.sha1(json.dumps([cfg["mots_cles"], cfg["mots_exclus"], cfg["montant_max"]], ensure_ascii=False).encode()).hexdigest()[:10]
+    return hashlib.sha1(json.dumps([cfg["mots_cles"], cfg["mots_exclus"], cfg["montant_max"], cfg.get("alertes")], ensure_ascii=False).encode()).hexdigest()[:10]
 
 
 def fiche(a):
@@ -217,7 +217,8 @@ def main():
     nouveaux = sum(1 for f in avis if f["nouveau"])
     meta = {"date": maintenant_quebec(), "seaoLus": len(liste), "retenus": len(avis), "nouveaux": nouveaux,
             "portee": cfg["portee"], "modele": base["meta"].get("modele"), "empreinte": emp,
-            "alertes": cfg.get("alertes", []), "motsCles": cfg["mots_cles"]}
+            "alertes": cfg.get("alertes", []), "motsCles": cfg["mots_cles"], "motsExclus": cfg["mots_exclus"],
+            "regionsPreferees": cfg.get("regions_preferees", []), "montantMin": cfg.get("montant_min", 0), "montantMax": cfg["montant_max"]}
     ecrire("avis.json", {"meta": meta, "avis": avis})
     ecrire("hors_mots.json", [])
     ecrire("ignores.json", sorted(ignores))

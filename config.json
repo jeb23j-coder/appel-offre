@@ -6,7 +6,9 @@
     {"nom": "Réfection de façade", "mots": ["réfection de façade", "réfection de parement", "réfection de maçonnerie", "réfection de brique"]}
   ],
   "categories_seao": [52],
+  "montant_min": 0,
   "montant_max": 15000000,
+  "regions_preferees": [],
   "mots_cles": [
     "maçonnerie", "maconnerie", "brique", "briquetage", "pierre", "bloc de béton", "blocs de béton",
     "parement", "rejointoiement", "joints de mortier", "mortier", "linteau", "allège", "cheminée",

@@ -1,4 +1,4 @@
-name: Mes alertes
+name: Mes alertes et critères
 
 # Une alerte créée ou supprimée depuis le site arrive ici sous forme de demande (issue)
 # avec l'étiquette « alerte » ou « supprimer-alerte ». Seules les demandes du propriétaire sont appliquées.
@@ -19,13 +19,14 @@ jobs:
   alerte:
     if: >-
       github.event.issue.user.login == github.repository_owner &&
-      (contains(github.event.issue.labels.*.name, 'alerte') || contains(github.event.issue.labels.*.name, 'supprimer-alerte'))
+      (contains(github.event.issue.labels.*.name, 'alerte') || contains(github.event.issue.labels.*.name, 'supprimer-alerte') || contains(github.event.issue.labels.*.name, 'criteres'))
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ github.token }}
       NUMERO: ${{ github.event.issue.number }}
       CORPS: ${{ github.event.issue.body }}
       SUPPRIMER: ${{ contains(github.event.issue.labels.*.name, 'supprimer-alerte') }}
+      CRITERES: ${{ contains(github.event.issue.labels.*.name, 'criteres') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -34,6 +35,7 @@ jobs:
       - name: Mettre à jour les alertes
         run: |
           printf '%s' "$CORPS" > /tmp/demande.md
+          if [ "$CRITERES" = "true" ]; then python scanner/criteres.py; exit; fi
           if [ "$SUPPRIMER" = "true" ]; then action=supprimer; else action=ajouter; fi
           python scanner/alertes.py "$action"
       - name: Enregistrer
@@ -41,7 +43,7 @@ jobs:
           git config user.name "appel-offre-bot"
           git config user.email "appel-offre-bot@users.noreply.github.com"
           git add config.json
-          git diff --cached --quiet || git commit -m "Alertes mises à jour (demande #$NUMERO)"
+          git diff --cached --quiet || git commit -m "Alertes ou critères mis à jour (demande #$NUMERO)"
           git pull --rebase
           git push
       - name: Répondre et relancer le balayage
