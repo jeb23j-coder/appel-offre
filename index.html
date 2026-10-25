@@ -258,14 +258,6 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
         <div class="champ"><label for="c-max">Montant maximum ($)</label><input id="c-max" inputmode="numeric" placeholder="15000000"></div>
       </div>
       <p class="aide">🔔 Vous êtes prévenu (courriel et cellulaire) chaque fois qu'un nouveau contrat obtient un score de 60 ou plus avec ces critères.</p>
-      <div class="connexion">
-        <div id="code-non">
-          <div class="champ"><label for="code-sauv">Code de sauvegarde</label>
-            <input id="code-sauv" type="password" autocomplete="off" placeholder="Entrez le code de sauvegarde" aria-label="Code de sauvegarde"></div>
-          <p class="aide">Demandé une seule fois : cet appareil s'en souviendra.</p>
-        </div>
-        <div id="code-oui" hidden><b>🔑 Code de sauvegarde enregistré sur cet appareil</b> <button class="lien-btn" type="button" id="code-changer">Changer</button></div>
-      </div>
       <button class="btn" type="submit">Sauvegarder mes critères</button>
       <p class="aide" id="c-msg">GitHub s'ouvre avec vos critères : cliquez sur « Submit new issue » pour confirmer.</p>
     </form>
@@ -631,19 +623,10 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 
   // Code de sauvegarde : demandé une fois, gardé sur cet appareil seulement
   const CANAL_CRITERES = "radar-criteres-0c4a2f2dc16a3c12";
-  const CLE_CODE = "radar-chantier-code";
-  const lireCode = () => { try { return localStorage.getItem(CLE_CODE) || ""; } catch { return ""; } };
-  function majCode() { const ok = !!lireCode(); $("code-non").hidden = ok; $("code-oui").hidden = !ok; }
-  $("code-changer").addEventListener("click", () => { try { localStorage.removeItem(CLE_CODE); } catch {} majCode(); $("code-sauv").focus(); });
-  // Vérification du code dans le navigateur (empreinte protégée, le code lui-même n'est pas dans la page)
-  const EMPREINTE_CODE = "7d61bf80fb2aee998bcc0f81540d303bc0de06c7c192dc1c5d4d9a72201bd517";
-  async function codeValide(code) {
-    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(code.trim().toUpperCase()), "PBKDF2", false, ["deriveBits"]);
-    const bits = await crypto.subtle.deriveBits({ name: "PBKDF2", hash: "SHA-256", salt: new TextEncoder().encode("radar-chantier-sauvegarde"), iterations: 300000 }, base, 256);
-    return [...new Uint8Array(bits)].map((o) => o.toString(16).padStart(2, "0")).join("") === EMPREINTE_CODE;
-  }
-  // Un mauvais code retenu par erreur sur cet appareil est oublié
-  (async () => { const c = lireCode(); if (c && !(await codeValide(c))) { try { localStorage.removeItem(CLE_CODE); } catch {} } majCode(); })();
+  // Pas de code à entrer : la sauvegarde est reliée au profil choisi (Jonathan, Patrick).
+  // Le site joint lui-même le code attendu par le robot, choix de l'utilisateur (le lien du site reste privé).
+  const CODE_SITE = "PAREMENT-8010-PAREMENT";
+  try { localStorage.removeItem("radar-chantier-code"); } catch {}
 
   // Envoi chiffré : gzip, puis AES-GCM ; la clé AES est chiffrée avec la clé publique du site (RSA-OAEP).
   // Seul le robot (clé privée) peut lire la sauvegarde ; il vérifie aussi le code avant de l'appliquer.
@@ -688,20 +671,9 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
       "Régions préférées: " + cochees($("c-regions")).join(", "),
       "Montant min: " + $("c-min").value.trim(), "Montant max: " + $("c-max").value.trim(), "", "(Cliquez sur « Submit new issue » pour sauvegarder vos critères.)"].join("\n");
     // Sauvegarde directe, sans quitter l'application
-    const code = lireCode() || $("code-sauv").value.trim();
-    if (!code) { $("c-msg").textContent = "Entrez le code de sauvegarde juste au-dessus du bouton."; $("code-sauv").focus(); return; }
-    $("c-msg").textContent = "Vérification du code…";
-    if (!(await codeValide(code))) {
-      try { localStorage.removeItem(CLE_CODE); } catch {}
-      majCode(); $("code-sauv").focus();
-      $("c-msg").textContent = "❌ Code de sauvegarde incorrect. Vérifiez-le et réessayez (exemple de forme : MOT-1234-MOT).";
-      return;
-    }
     $("c-msg").textContent = "Sauvegarde en cours…";
     try {
-      await envoyerSauvegarde(code.trim().toUpperCase(), corps);
-      try { localStorage.setItem(CLE_CODE, code.trim().toUpperCase()); } catch {}
-      $("code-sauv").value = ""; majCode();
+      await envoyerSauvegarde(CODE_SITE, corps);
       // Les résultats changent tout de suite sur cet appareil ; le robot enregistre pour tous d'ici 10 minutes
       appliquerTout();
       $("c-msg").textContent = "✅ Critères sauvegardés. Vos résultats sont déjà mis à jour ici ; ils seront enregistrés pour tous les appareils d'ici 10 minutes.";
