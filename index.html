@@ -117,6 +117,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
 .tete-famille small { color: var(--muted); font-weight: 400; font-size: .82rem; }
 .famille details summary { cursor: pointer; font-size: .8rem; color: var(--accent); }
 .famille details .regions { margin-top: 8px; }
+.famille details .ajout { margin-top: 10px; }
 .ajout { display: flex; gap: 8px; }
 .ajout input { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--bg); border-radius: 8px; padding: 7px 10px; font-size: .9rem; }
 #c-exclus .regions label:has(input:checked) { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }
@@ -364,7 +365,7 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     const tete = el("label", "tete-famille"); const tout = el("input"); tout.type = "checkbox";
     const nb = el("small");
     tete.append(tout, el("span", null, nom), nb);
-    const det = el("details"); det.appendChild(el("summary", null, "voir les mots"));
+    const det = el("details"); det.appendChild(el("summary", null, "voir et ajouter des mots"));
     const r = el("div", "regions");
     const cases = termes.map((t) => pastille(r, t, choisis.has(t.toLowerCase())));
     const majTete = () => {
@@ -389,7 +390,9 @@ header .scan { margin: 0; font-size: .75rem; color: var(--muted); font-family: v
     bouton.addEventListener("click", () => { ajouter(champ.value); champ.value = ""; champ.focus(); });
     champ.addEventListener("keydown", (e) => { if (e.key === "Enter") { e.preventDefault(); bouton.click(); } });
     ajout.append(champ, bouton);
-    det.appendChild(r); f.append(tete, ajout, det); f.dataset.famille = nom; boite.appendChild(f);
+    // La case d'ajout est sous la liste des mots, visible dès qu'on ouvre « voir les mots »
+    det.append(r, ajout); f.append(tete, det); f.dataset.famille = nom; boite.appendChild(f);
+    det.addEventListener("toggle", () => { if (det.open) champ.focus({ preventScroll: true }); });
     return ajouter;
   }
   function groupe(boite, familles, actifs, nomAutres) {
