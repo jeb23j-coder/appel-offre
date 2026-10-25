@@ -3099,7 +3099,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'avis d'intention concerne le remplacement d'un appareil d'imagerie médicale (IRM) au sein d'un centre hospitalier.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "8726725b-60fa-4885-bdaf-4713d9b1fed0",
@@ -4468,7 +4484,20 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement de la Bibliothèque Éva-Senécal pour l'intégration de la technologie RFID. La description ne détaille pas les travaux spécifiques de maçonnerie ou de charpenterie.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis ne mentionne aucun mot-clé pertinent pour la maçonnerie ou la charpenterie, et le projet semble axé sur l'aménagement intérieur/technologique.",
+"version": 3
+}
 },
 {
 "id": "72eefa37-a3ee-42fc-ad9c-850d63acf1fe",
@@ -4745,8 +4774,9 @@
 "Contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "Le contrat est exclusivement axé sur l'électricité et n'inclut aucun travail principal en maçonnerie ou charpenterie/menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement les travaux d'électricité, ce qui n'est pas dans les métiers ciblés (maçonnerie/charpenterie/menuiserie).",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -4833,7 +4863,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement de la salle du conseil de l'hôtel de ville de la municipalité des Cèdres.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "La description ne mentionne aucun travail lié à la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "cec04b71-a539-4478-a814-4b03894b3390",
@@ -5676,7 +5718,19 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modification du système de ventilation de l'atelier #4, incluant le démontage, le réaménagement des installations de ventilation, l'installation de bras de captation et les travaux électriques connexes.",
+"pointsAttention": [
+"Visite des lieux obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement les systèmes de ventilation et les travaux électriques, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f10b9119-7f7c-4059-85cf-7b14d9297616",
@@ -5858,7 +5912,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'offres pour des services de construction pour le CIUSSS DE LA CAPITALE-NATIONALE, avec une durée prévue de 12 mois et un montant estimé de 5 500 000$. L'appel d'offres concerne cinq lots couvrant toutes les installations sur le territoire.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "L'appel d'offres est pour un entrepreneur général, mais il est possible que des lots spécifiques de maçonnerie ou de charpenterie soient inclus dans les cinq lots.",
+"version": 3
+}
 },
 {
 "id": "d9eca55e-1c24-41d5-97a6-3026cfa9f4b9",
@@ -5895,7 +5961,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'exécution de divers travaux électriques pour les bâtiments du Centre de services scolaire de Montréal. La durée prévue du contrat est d'un an, avec une option de renouvellement.",
+"pointsAttention": [
+"Visite des lieux : Aucune visite formelle n'est organisée, mais l'entrepreneur peut en demander une.",
+"Contrat sur demande : Oui"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a49b3aa6-e30e-4f67-ab2d-2b8672e1b97b",
@@ -6257,13 +6336,18 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'installation et la mise en marche de compteurs d'eau résidentiels et d'antennes de télémétrie dans des immeubles résidentiels. Les travaux incluent également des installations irrégulières et la production d'un rapport d'intervention.",
+"resume": "L'appel d'offres concerne la gestion des rendez-vous, des communications et l'installation (remplacement) de compteurs d'eau résidentiels et d'antennes de télémétrie dans des immeubles résidentiels existants.",
 "pointsAttention": [
-"visite obligatoire"
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
 ],
 "recommandation": "No-go",
+"mode": "Aucun",
 "raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
-"version": 2
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -6309,7 +6393,20 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation d'infrastructures électriques intérieures et extérieures pour l'électrification des transports. Les travaux impliquent la fourniture et l'installation d'infrastructures de recharge et d'unités de puissance.",
+"pointsAttention": [
+"Montant estimé entre 500 000 $ et 1 000 000 $",
+"Demande d'information à adresser au responsable au minimum trois jours ouvrables avant la date et l'heure limites."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'électricité et l'infrastructure, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "fa52aaf9-4629-4641-953a-645d29f529e1",
@@ -6908,13 +7005,14 @@
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
-"resume": "Il s'agit d'un appel d'offres pour la construction de bâtiments non résidentiels (Triplex), avec une durée prévue de 6 mois. Le montant estimé n'est pas publié.",
+"resume": "Il s'agit d'un appel d'offres pour la construction de bâtiments non résidentiels (Triplex). La durée prévue est de 6 mois.",
 "pointsAttention": [
 "Montant estimé non publié"
 ],
 "recommandation": "À vérifier",
-"raison": "Le projet concerne la construction de bâtiments, ce qui est pertinent, mais la description détaillée des travaux n'est pas fournie pour déterminer si la maçonnerie ou la charpenterie/menuiserie est le cœur du contrat.",
-"version": 2
+"mode": "Sous-traitance",
+"raison": "Le projet concerne la construction de bâtiments, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais les mots-clés spécifiques ne sont pas présents dans l'avis.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -7245,7 +7343,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement de la clinique externe de pédiatrie à l'Hôpital de Gaspé. Le montant estimé est de 569 000 $ et la durée prévue est de 4 mois.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement de bâtiment où les métiers de maçonnerie et charpenterie sont probablement impliqués, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "74e3b365-273f-429d-9a2e-00791ba37497",
@@ -7280,8 +7390,9 @@
 "Contrat sur demande : non"
 ],
 "recommandation": "No-go",
-"raison": "Le projet concerne le remplacement de panneaux électriques, ce qui est hors du champ d'expertise de la maçonnerie, du briquetage et de la charpenterie/menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de panneaux électriques et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -7685,11 +7796,12 @@
 "type": "Hors sujet",
 "resume": "Les travaux consistent à remplacer les rideaux séparateurs et la surface sportive dans le stade couvert du PEPS.",
 "pointsAttention": [
-"non"
+"visite obligatoire"
 ],
 "recommandation": "No-go",
-"raison": "Le projet concerne la rénovation d'un stade et n'inclut aucun travail principal de maçonnerie, briquetage, charpenterie ou menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne la rénovation d'un stade et ne mentionne aucun travail pertinent pour la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -8432,7 +8544,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'acquisition et l'installation d'une tour d'eau dans le cadre des travaux de toiture du Collège Dawson.",
+"pointsAttention": [
+"délai de 7 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la toiture et l'installation d'une tour d'eau, sans mention claire de travaux majeurs en maçonnerie ou charpenterie.",
+"version": 3
+}
 },
 {
 "id": "d66c244c-3c5a-4ec4-bec6-1fbc77b0d548",
@@ -8672,7 +8796,23 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la conversion au LED des systèmes d'éclairage de la station d'épuration et des pompes de pompage de la Ville de Saint-Jean-sur-Richelieu.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6cb8e281-c759-438f-8a6f-843187f64fb1",
@@ -9861,13 +10001,14 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "Le contrat concerne le remplacement du système de protection incendie des transformateurs de puissance à la centrale Manic 3. Il s'agit d'un projet d'ingénierie et d'installation technique.",
+"resume": "Le contrat consiste au remplacement des systèmes de protection incendie des transformateurs de puissance T31 à T36 à la centrale Manic 3. Il inclut la conception, la fabrication, la fourniture, la main-d'œuvre et l'installation de ces systèmes.",
 "pointsAttention": [
-"Délai de réponse pour demande d'information : minimum trois jours ouvrables avant la date limite."
+"Délai de réponse à la demande d'information : minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions."
 ],
 "recommandation": "No-go",
-"raison": "Ce projet n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de systèmes de protection incendie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -10145,15 +10286,15 @@
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
-"resume": "L'appel d'offres concerne l'aménagement de nouveaux espaces administratifs incluant des interventions architecturales, mécaniques, électriques, technologiques et de sécurité. Le montant estimé est de 1 100 000 $ et la durée prévue est de 6 mois.",
+"resume": "L'appel d'offres concerne l'aménagement de nouveaux espaces administratifs incluant des interventions architecturales, mécaniques, électriques, technologiques et de sécurité. Le montant estimé est de 1 100 000 $ pour un projet prévu sur 6 mois.",
 "pointsAttention": [
-"Visite obligatoire (implicite par nature des travaux)",
-"Délai de soumission",
-"Exigences de garantie de soumission (cautionnement/lettre de garantie)"
+"visite obligatoire",
+"délai court"
 ],
 "recommandation": "À vérifier",
-"raison": "Le contrat est de construction/aménagement de bâtiment, ce qui touche à la partie 'Bâtiment', mais le focus n'est pas clairement sur la maçonnerie ou la charpenterie/menuiserie comme travail principal.",
-"version": 2
+"mode": "Sous-traitance",
+"raison": "Le projet est un aménagement de bureaux qui inclut des interventions architecturales, ce qui peut nécessiter des travaux de maçonnerie ou de charpenterie, mais le contrat n'est pas spécifiquement centré sur ces corps de métier.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -11224,13 +11365,14 @@
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
-"resume": "L'appel d'offres concerne les travaux de réaménagement et d'optimisation d'espaces bureaux pour un immeuble commercial situé à Rimouski. La durée prévue des travaux est de 6 mois, avec un montant estimé de 997 517,00 $.",
+"resume": "L'appel d'offres concerne les travaux de réaménagement et d'optimisation des espaces bureaux pour un immeuble commercial situé à Rimouski. La durée prévue des travaux est de 6 mois pour un montant estimé à 997 517,00 $.",
 "pointsAttention": [
 "Délai de 6 mois"
 ],
 "recommandation": "À vérifier",
-"raison": "Le contrat est dans le domaine du bâtiment, mais la description ne spécifie pas clairement que la maçonnerie ou la charpenterie/menuiserie constituent le travail principal.",
-"version": 2
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement de bureaux, ce qui implique potentiellement des travaux de finition intérieure (menuiserie) ou de modification de structure/façade (maçonnerie/charpenterie), mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -11267,7 +11409,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des bandes de la patinoire d'un aréna municipal, incluant la fourniture et l'installation de systèmes de bandes, baies vitrées et portes d'accès.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6c04aec6-1e59-4048-ba2b-7c6fab3f6175",
@@ -11355,8 +11509,9 @@
 "contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "Le projet concerne le remplacement de systèmes de refroidissement et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de systèmes de refroidissement et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
@@ -11394,7 +11549,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet consiste à la réparation de divers éléments en structure à l’école secondaire Mgr-Euclide-Théberge située au 677 rue Desjardins à Marieville.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne des travaux de structure dans un bâtiment scolaire, ce qui peut inclure des éléments de maçonnerie ou de charpenterie, mais le titre est trop vague pour confirmer le cœur du métier.",
+"version": 3
+}
 },
 {
 "id": "0eb4f83b-ce22-4451-a8bc-92208cb43546",
@@ -11875,13 +12042,14 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "Cet appel d'offres concerne l'installation de plomberie, chauffage et refroidissement pour l'Hôtel au Casino de Montréal. La durée prévue des travaux est de 24 mois.",
+"resume": "L'appel d'offres concerne la fourniture de tous les matériaux, quincaillerie, équipements et main-d'œuvre pour les travaux de plomberie, chauffage et refroidissement pour l'Hôtel au Casino de Montréal. La durée prévue est de 24 mois.",
 "pointsAttention": [
-"Visite de chantier obligatoire le mardi 29 septembre 2026 à 10h00."
+"Visite de chantier : mardi le 29 septembre 2026, à 10h00, heure locale"
 ],
 "recommandation": "No-go",
-"raison": "Le projet est centré sur la plomberie et le chauffage, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
-"version": 2
+"mode": "Aucun",
+"raison": "Le contrat concerne la plomberie et le chauffage, ce qui n'est pas le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
 },
 "motsOk": false,
 "familles": [
@@ -12300,7 +12468,19 @@
 "familles": [],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le nettoyage, la décontamination et la peinture des surfaces dans une zone industrielle. Les travaux nécessitent la fourniture de main-d'œuvre, matériaux et équipements pour ces tâches.",
+"pointsAttention": [
+"Montant estimé entre 500 000 $ et 1 000 000 $"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux de nettoyage et de peinture, et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "30a962ad-e77c-46a3-bb79-e4dcf0ae4c85",
@@ -12676,7 +12856,23 @@
 ],
 "visiteObligatoire": false,
 "tropCher": false,
-"alertes": []
+"alertes": [],
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer l'entrée électrique et les armoires électriques du bâtiment 519 de l'Université de Montréal, incluant le remplacement de câbles et la mise à jour aux normes actuelles.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'électricité et non la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a896228a-87cb-48c0-8950-3c9e1c281298",
@@ -12956,17 +13152,18 @@
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
-"resume": "Les travaux consistent à démanteler une génératrice existante et à raccorder l'alimentation d'urgence entre deux pavillons. Il s'agit d'un projet d'alimentation électrique et de raccordement d'équipements.",
+"resume": "Les travaux consistent à démanteler une génératrice existante et à raccorder l'alimentation d'urgence entre deux pavillons. Il s'agit d'implémenter des équipements pour une génératrice temporaire et un transformateur extérieur.",
 "pointsAttention": [
 "visite obligatoire",
 "délai court",
 "cote de sécurité",
 "milieu occupé",
-"contrat sur demande : non"
+"contrat sur demande"
 ],
 "recommandation": "No-go",
-"raison": "Le projet concerne l'alimentation électrique et le raccordement de génératrices, ce qui n'est pas lié aux métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
-"version": 2
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux d'alimentation électrique et de générateurs, ce qui n'est pas pertinent pour les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
 },
 "motsOk": false,
 "familles": [],
