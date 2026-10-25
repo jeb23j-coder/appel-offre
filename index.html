@@ -70,7 +70,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 .stat:first-child b { color: #ffb59e; }
 
 /* Onglets : pastilles qui défilent, collées en haut pendant le défilement */
-.tabs { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 12px 0 10px; margin: 0; background: var(--bg); }
+.tabs { position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 12px 0 10px; margin: 0; background: var(--bg); }
 .tabs::-webkit-scrollbar { display: none; }
 .tab { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 14px; font-weight: 600; font-size: .88rem; color: var(--muted); white-space: nowrap; box-shadow: 0 1px 2px rgba(23, 33, 43, .04); }
 .tab:hover { color: var(--ink); }
@@ -119,6 +119,19 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 .due.vite { background: var(--danger-soft); color: var(--danger); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag { font-size: .74rem; font-weight: 500; padding: 3px 9px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.connexion { border: 1px dashed var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 6px; background: var(--bg); }
+.connexion #cx-oui { display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+.lien-btn { border: 0; background: none; color: var(--brique); font-weight: 600; font-size: .82rem; text-decoration: underline; padding: 0; }
+.resultats { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; background: var(--bg); font-size: .86rem; display: grid; gap: 6px; }
+.resultats.attente { color: var(--muted); }
+.gagnant { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; align-items: baseline; padding-bottom: 6px; border-bottom: 1px dashed var(--line); }
+.gagnant span { grid-column: 1 / -1; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--p1); }
+.gagnant strong { font-family: var(--f-display); font-size: 1rem; }
+.gagnant b { font-family: var(--f-mono); font-size: 1.05rem; color: var(--p1); font-variant-numeric: tabular-nums; }
+.resultats ol { margin: 0; padding-left: 20px; display: grid; gap: 3px; }
+.resultats li span { margin-right: 8px; }
+.resultats li b { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+.resultats li:first-child { color: var(--p1); font-weight: 600; }
 .tag.merx { background: var(--nuit); color: #fff; border-color: transparent; font-weight: 700; }
 .tag.att { background: var(--p3-soft); color: var(--p3); border-color: transparent; font-weight: 600; }
 .bas { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; font-size: .86rem; padding-top: 4px; border-top: 1px dashed var(--line); }
@@ -164,6 +177,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 .btn:hover { background: var(--brique-fonce); }
 
 @media (max-width: 640px) {
+  .tabs { flex-wrap: nowrap; }
   header > .wrap:first-child { flex-wrap: wrap; }
   header .t { flex-basis: calc(100% - 56px); }
   .profils { width: 100%; justify-content: center; }
@@ -198,6 +212,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     <button class="tab" type="button" data-v="resultats">🔔 Résultats de mes critères<span class="n" id="n-resultats"></span></button>
     <button class="tab" type="button" data-v="suivis">★ Suivis<span class="n" id="n-suivis"></span></button>
     <button class="tab" type="button" data-v="desires">♥ Désirés<span class="n" id="n-desires"></span></button>
+    <button class="tab" type="button" data-v="fermes">🏁 Contrats fermés<span class="n" id="n-fermes"></span></button>
   </nav>
 
   <div id="vue-liste">
@@ -229,7 +244,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   <div id="vue-criteres" hidden>
     <form class="bloc" id="formCriteres" autocomplete="off" style="margin-top:0; margin-bottom:40px">
       <h2 id="p-titre">Mon profil</h2>
-      <div class="champ"><label for="p-courriel">Courriel pour recevoir mes notifications</label>
+      <div class="champ"><label for="p-courriel">Courriel pour recevoir mes notifications (facultatif)</label>
         <input id="p-courriel" type="email" autocomplete="email" placeholder="ex. nom@gmail.com"></div>
       <p class="aide" id="p-actuel"></p>
       <p class="aide">🔒 Votre courriel est chiffré dans votre navigateur avant d'être sauvegardé : il n'apparaît jamais en clair sur le site ni dans GitHub.</p>
@@ -243,6 +258,14 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
         <div class="champ"><label for="c-max">Montant maximum ($)</label><input id="c-max" inputmode="numeric" placeholder="15000000"></div>
       </div>
       <p class="aide">🔔 Vous êtes prévenu (courriel et cellulaire) chaque fois qu'un nouveau contrat obtient un score de 60 ou plus avec ces critères.</p>
+      <div class="connexion">
+        <div id="code-non">
+          <div class="champ"><label for="code-sauv">Code de sauvegarde</label>
+            <input id="code-sauv" type="password" autocomplete="off" placeholder="Entrez le code de sauvegarde" aria-label="Code de sauvegarde"></div>
+          <p class="aide">Demandé une seule fois : cet appareil s'en souviendra.</p>
+        </div>
+        <div id="code-oui" hidden><b>🔑 Code de sauvegarde enregistré sur cet appareil</b> <button class="lien-btn" type="button" id="code-changer">Changer</button></div>
+      </div>
       <button class="btn" type="submit">Sauvegarder mes critères</button>
       <p class="aide" id="c-msg">GitHub s'ouvre avec vos critères : cliquez sur « Submit new issue » pour confirmer.</p>
     </form>
@@ -260,7 +283,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   const fmtD = new Intl.DateTimeFormat("fr-CA", { day: "numeric", month: "short" });
 
   let avis = [], meta = {}, vue = "resultats";
-  const VUES = ["tous", "criteres", "resultats", "suivis", "desires"];
+  const VUES = ["tous", "criteres", "resultats", "suivis", "desires", "fermes"];
   if (VUES.includes(location.hash.slice(1))) vue = location.hash.slice(1);  // lien direct vers un onglet
   const SEUIL_NOTIF = 60; // même seuil que les notifications par courriel et cellulaire
 
@@ -325,9 +348,12 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     if (f && (ferme(a) || jours(a) > Number(f))) return false;
     return true;
   }
-  const dansVue = (a) => vue === "suivis" ? !!st(a).suivi : vue === "desires" ? !!st(a).desire : vue === "resultats" ? score(a) >= 40 : true;
+  const dansVue = (a) => vue === "suivis" ? !!st(a).suivi : vue === "desires" ? !!st(a).desire : vue === "fermes" ? !!a.fermeArchive
+    : vue === "resultats" ? score(a) >= 40 : !a.fermeArchive;
   const tri = (v) => v === "resultats"
     ? (x, y) => score(y) - score(x) || (x.fermeture || "").localeCompare(y.fermeture || "")
+    : v === "fermes"  // les plus récemment fermés d'abord, ceux qui ont des résultats en premier
+    ? (x, y) => (!!y.resultats - !!x.resultats) || (y.fermeture || "").localeCompare(x.fermeture || "")
     : (x, y) => (ferme(x) - ferme(y)) || (x.fermeture || "").localeCompare(y.fermeture || "");
 
   function fiche(a) {
@@ -335,14 +361,14 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     const carte = el("article", `card ${cl}` + (s.suivi ? " suivi" : ""));
     // Cadran du score à gauche, coloré selon le palier
     const cadran = el("div", "cadran");
-    const anneau = el("div", "anneau"); anneau.style.setProperty("--s", sc);
-    anneau.appendChild(el("b", null, sc));
-    cadran.append(anneau, el("span", "palier", nom));
+    const anneau = el("div", "anneau"); anneau.style.setProperty("--s", a.fermeArchive ? 0 : sc);
+    anneau.appendChild(el("b", null, a.fermeArchive ? "🏁" : sc));
+    cadran.append(anneau, el("span", "palier", a.fermeArchive ? "Fermé" : nom));
     const c = el("div", "corps");
     const haut = el("div", "haut");
     const mode = a.analyse?.mode;
     if (mode && mode !== "Aucun") haut.appendChild(el("span", "mode", mode === "Sous-traitance" ? "Sous-traitance" : "Soumission directe"));
-    else haut.appendChild(el("span", "mode muet", a.analyse ? "Hors de vos métiers" : "Analyse IA à venir"));
+    else if (!a.fermeArchive) haut.appendChild(el("span", "mode muet", a.analyse ? "Hors de vos métiers" : "Analyse IA à venir"));
     const etoile = el("button", "star", s.suivi ? "★" : "☆"); etoile.type = "button";
     etoile.setAttribute("aria-pressed", s.suivi ? "true" : "false");
     etoile.setAttribute("aria-label", s.suivi ? "Retirer de mes contrats" : "Ajouter à mes contrats");
@@ -373,6 +399,29 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     (pa(a).familles || []).forEach((f) => tags.appendChild(el("span", "tag", f)));
     if (tags.childNodes.length) c.appendChild(tags);
 
+    // Résultats d'ouverture (après la fermeture) : soumissionnaires et prix
+    if (a.resultats?.soumissions?.length) {
+      const r = a.resultats.soumissions, bas_ = r[0];
+      const box = el("div", "resultats");
+      const g = el("div", "gagnant");
+      g.append(el("span", null, "🏆 Gagnant probable (plus bas prix)"), el("strong", null, bas_.nom),
+        el("b", null, bas_.montant != null ? argent(Math.round(bas_.montant)) : "—"));
+      box.appendChild(g);
+      box.appendChild(el("span", "aide", `${r.length} soumission${r.length > 1 ? "s" : ""} à l'ouverture${a.resultats.publie ? " · publié le " + quand(a.resultats.publie) : ""}`));
+      const t = el("ol");
+      r.slice(0, 8).forEach((x, i) => {
+        const li = el("li");
+        const ecart = i && bas_.montant ? ` (+${Math.round((x.montant / bas_.montant - 1) * 100)} %)` : "";
+        li.append(el("span", null, x.nom), el("b", null, x.montant != null ? argent(Math.round(x.montant)) + ecart : "—"));
+        t.appendChild(li);
+      });
+      box.appendChild(t);
+      if (r.length > 8) box.appendChild(el("span", "aide", `… et ${r.length - 8} autres`));
+      c.appendChild(box);
+    } else if (a.fermeArchive) {
+      c.appendChild(el("div", "resultats attente", "Fermé : résultats d'ouverture pas encore publiés par SEAO."));
+    }
+
     if (s.suivi) {
       const z = el("div", "suivi-zone");
       const sel = el("select"); sel.setAttribute("aria-label", "Statut");
@@ -398,6 +447,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     $("n-resultats").textContent = ouverts.filter((a) => score(a) >= 40).length;
     $("n-suivis").textContent = avis.filter((a) => st(a).suivi).length;
     $("n-desires").textContent = avis.filter((a) => st(a).desire).length;
+    $("n-fermes").textContent = avis.filter((a) => a.fermeArchive).length;
     document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-pressed", t.dataset.v === vue ? "true" : "false"));
     // Chiffres clés du profil dans l'en-tête
     const pourMoi = ouverts.filter((a) => score(a) >= 40);
@@ -408,8 +458,9 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     const sb = $("stats"); sb.innerHTML = "";
     stats.forEach(([n, l, v]) => { const b = el("button", "stat"); b.type = "button"; b.append(el("b", null, n), el("span", null, l));
       b.addEventListener("click", () => { vue = v; rendre(); }); sb.appendChild(b); });
-    const faitsIA = avis.filter((a) => a.analyse?.mode).length;
-    $("scan").textContent = meta.date ? `Mis à jour ${quand(meta.date)} · ${avis.length} avis SEAO · IA ${faitsIA}/${avis.length}` : "Chargement…";
+    const actifs = avis.filter((a) => !a.fermeArchive);
+    const faitsIA = actifs.filter((a) => a.analyse?.mode).length;
+    $("scan").textContent = meta.date ? `Mis à jour ${quand(meta.date)} · ${actifs.length} avis ouverts · IA ${faitsIA}/${actifs.length}` : "Chargement…";
     $("vue-criteres").hidden = vue !== "criteres";
     $("vue-liste").hidden = vue === "criteres";
     if (vue === "criteres") return;
@@ -418,7 +469,7 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     avis.filter((a) => st(a).suivi && !ferme(a) && jours(a) <= 3 && (st(a).statut || "a_soumissionner") === "a_soumissionner")
       .forEach((a) => urg.appendChild(el("div", null, `⚠ ${a.titre} ferme ${jours(a) === 0 ? "aujourd'hui" : `dans ${jours(a)} j`} (${quand(a.fermeture)})`)));
 
-    const perso = vue === "suivis" || vue === "desires";
+    const perso = vue === "suivis" || vue === "desires" || vue === "fermes";
     const liste = avis.filter((a) => dansVue(a) && correspond(a) && (perso || !ferme(a))).sort(tri(vue));
     $("compte").textContent = avis.length ? `${liste.length} contrat${liste.length > 1 ? "s" : ""}` + (vue === "resultats" ? ` trouvés avec vos critères (score 40 et plus), du meilleur au moins bon · 🔔 = notifié (score ${SEUIL_NOTIF} et plus)` : "") : "";
     const box = $("list"); box.innerHTML = "";
@@ -530,6 +581,29 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     rendre();
   }
 
+  // Code de sauvegarde : demandé une fois, gardé sur cet appareil seulement
+  const CANAL_CRITERES = "radar-criteres-0c4a2f2dc16a3c12";
+  const CLE_CODE = "radar-chantier-code";
+  const lireCode = () => { try { return localStorage.getItem(CLE_CODE) || ""; } catch { return ""; } };
+  function majCode() { const ok = !!lireCode(); $("code-non").hidden = ok; $("code-oui").hidden = !ok; }
+  $("code-changer").addEventListener("click", () => { try { localStorage.removeItem(CLE_CODE); } catch {} majCode(); $("code-sauv").focus(); });
+  majCode();
+
+  // Envoi chiffré : gzip, puis AES-GCM ; la clé AES est chiffrée avec la clé publique du site (RSA-OAEP).
+  // Seul le robot (clé privée) peut lire la sauvegarde ; il vérifie aussi le code avant de l'appliquer.
+  const b64 = (octets) => { let s = ""; new Uint8Array(octets).forEach((o) => (s += String.fromCharCode(o))); return btoa(s); };
+  async function envoyerSauvegarde(code, corps) {
+    const brut = new TextEncoder().encode(JSON.stringify({ code, corps }));
+    const gz = await new Response(new Blob([brut]).stream().pipeThrough(new CompressionStream("gzip"))).arrayBuffer();
+    const aes = await crypto.subtle.generateKey({ name: "AES-GCM", length: 256 }, true, ["encrypt"]);
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const donnees = await crypto.subtle.encrypt({ name: "AES-GCM", iv }, aes, gz);
+    const rsa = await crypto.subtle.importKey("jwk", CLE_PUBLIQUE, { name: "RSA-OAEP", hash: "SHA-256" }, false, ["encrypt"]);
+    const cle = await crypto.subtle.encrypt({ name: "RSA-OAEP" }, rsa, await crypto.subtle.exportKey("raw", aes));
+    const r = await fetch(`https://ntfy.sh/${CANAL_CRITERES}`, { method: "POST", body: JSON.stringify({ cle: b64(cle), iv: b64(iv), donnees: b64(donnees) }) });
+    if (!r.ok) throw new Error("envoi " + r.status);
+  }
+
   // Chiffre le courriel avec la clé publique (RSA-OAEP, SHA-256) ; renvoie le texte en base64
   async function chiffrer(texte) {
     const cle = await crypto.subtle.importKey("jwk", CLE_PUBLIQUE, { name: "RSA-OAEP", hash: "SHA-256" }, false, ["encrypt"]);
@@ -557,8 +631,18 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
     const corps = ["Profil: " + profil, ...lignesCourriel, ...familleTexte($("c-mots"), "Famille"), ...familleTexte($("c-exclus"), "Exclus"),
       "Régions préférées: " + cochees($("c-regions")).join(", "),
       "Montant min: " + $("c-min").value.trim(), "Montant max: " + $("c-max").value.trim(), "", "(Cliquez sur « Submit new issue » pour sauvegarder vos critères.)"].join("\n");
-    window.open(demande("criteres", `Critères de ${meta.nom || profil}`, corps), "_blank", "noopener");
-    $("c-msg").textContent = "Dans l'onglet GitHub, cliquez sur « Submit new issue ». Les contrats seront reclassés dans quelques minutes.";
+    // Sauvegarde directe, sans quitter l'application
+    const code = lireCode() || $("code-sauv").value.trim();
+    if (!code) { $("c-msg").textContent = "Entrez le code de sauvegarde juste au-dessus du bouton."; $("code-sauv").focus(); return; }
+    $("c-msg").textContent = "Sauvegarde en cours…";
+    try {
+      await envoyerSauvegarde(code, corps);
+      try { localStorage.setItem(CLE_CODE, code); } catch {}
+      $("code-sauv").value = ""; majCode();
+      $("c-msg").textContent = "✅ Critères sauvegardés. Ils seront appliqués d'ici 10 minutes, puis les contrats seront reclassés.";
+    } catch {
+      $("c-msg").textContent = "La sauvegarde n'a pas pu partir (connexion internet ?). Réessayez dans un instant.";
+    }
   });
 
   rendre();
@@ -567,9 +651,13 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
   Promise.all([
     fetch("data/avis.json?v=" + Date.now(), sansCache).then((r) => r.json()),
     fetch("config.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => ({})),
+    fetch("data/fermes.json?v=" + Date.now(), sansCache).then((r) => r.json()).catch(() => []),
   ])
-    .then(([d, cfg]) => {
+    .then(([d, cfg, fermes]) => {
       avis = d.avis || [];
+      // Contrats fermés (résultats d'ouverture) qui ne sont pas déjà dans la liste
+      const connus = new Set(avis.map((a) => a.id));
+      (fermes || []).forEach((f) => { if (!connus.has(f.id)) avis.push(f); });
       donneesMeta = d.meta || {};
       config = cfg.profils ? cfg : { profils: { jonathan: { nom: "Jonathan", ...cfg } } };
       if (!config.profils[profil]) profil = Object.keys(config.profils)[0];

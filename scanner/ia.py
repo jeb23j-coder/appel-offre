@@ -98,7 +98,7 @@ def publier(message):
 def main():
     cfg = json.loads((RACINE / "config.json").read_text(encoding="utf-8"))
     base = json.loads(FICHIER.read_text(encoding="utf-8"))
-    a_faire = [a for a in base["avis"] if (a.get("analyse") or {}).get("version") != VERSION]
+    a_faire = [a for a in base["avis"] if (a.get("analyse") or {}).get("version") != VERSION and not a.get("fermeArchive")]
     # Les nouveaux avis d'abord, puis ceux avec vos mots-clés, puis ceux qui ferment le plus tôt
     a_faire.sort(key=lambda a: (not a.get("nouveau"), not a.get("motsOk"), a.get("fermeture") or "9999"))
     print(f"IA ({MODELE}) : {len(a_faire)} avis à analyser, limite {IA_MINUTES:.0f} min")

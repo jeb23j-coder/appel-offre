@@ -1,0 +1,43 @@
+name: Appliquer les critères sauvegardés
+
+# Les critères sauvegardés depuis le site (sans quitter l'application) arrivent chiffrés sur un canal ntfy.
+# Toutes les 10 minutes, ce robot les déchiffre, vérifie le code de sauvegarde et les applique.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: config
+  cancel-in-progress: false
+
+jobs:
+  appliquer:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      NTFY_CRITERES: ${{ vars.NTFY_CRITERES }}
+      CLE_PRIVEE: ${{ secrets.CLE_PRIVEE }}
+      CODE_SAUVEGARDE: ${{ secrets.CODE_SAUVEGARDE }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet cryptography
+      - name: Lire et appliquer les sauvegardes
+        run: python scanner/boite.py
+      - name: Enregistrer et relancer le balayage si des critères ont changé
+        run: |
+          git config user.name "radar-chantier-bot"
+          git config user.email "radar-chantier-bot@users.noreply.github.com"
+          git add config.json data/boite.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Critères sauvegardés depuis le site"
+          git pull --rebase
+          git push
+          if [ "$(cat /tmp/criteres_appliques.txt)" != "0" ]; then gh workflow run balayage.yml; fi

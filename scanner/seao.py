@@ -22,6 +22,7 @@ API = "https://api.seao.gouv.qc.ca/prod/api/"
 LIEN_AVIS = "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId="
 PAUSE = 1.5          # secondes entre deux appels de détail, pour rester poli avec SEAO
 MAX_DETAILS = int(os.environ.get("MAX_DETAILS", "150"))
+MAX_RESULTATS = int(os.environ.get("MAX_RESULTATS", "60"))  # résultats d'ouverture vérifiés par balayage
 
 
 def get_json(chemin, essais=4):
@@ -136,6 +137,44 @@ def masquer(courriel):
     return f"{nom[:1]}•••@{dom}"
 
 
+REGIONS_SEAO = ["Bas-Saint-Laurent", "Saguenay–Lac-Saint-Jean", "Capitale-Nationale", "Mauricie", "Estrie", "Montréal",
+                "Outaouais", "Abitibi-Témiscamingue", "Côte-Nord", "Nord-du-Québec", "Gaspésie–Îles-de-la-Madeleine",
+                "Chaudière-Appalaches", "Laval", "Lanaudière", "Laurentides", "Montérégie", "Centre-du-Québec"]
+
+
+def fermes_recents(cfg, deja, jours=60, maximum=200):
+    """Avis de bâtiment fermés depuis moins de `jours` jours dont le titre contient un mot-clé d'un profil.
+    Seules les infos de la liste sont gardées ; les résultats d'ouverture sont ajoutés ensuite."""
+    cats = ",".join(str(c) for c in cfg["categories_seao"])
+    utc = dt.datetime.now(dt.timezone.utc)
+    depuis = (utc - dt.timedelta(days=jours)).strftime("%Y-%m-%dT%H:%M")
+    maintenant = utc.strftime("%Y-%m-%dT%H:%M")
+    trouves = {}
+    for statut in (9, 10, 12):
+        try:
+            liste = get_json(f"recherche?catIds={cats}&statIds={statut}")["results"]
+        except Exception as e:
+            print(f"  liste des avis fermés illisible ({statut}) : {e}")
+            continue
+        for a in liste:
+            ferm = (a.get("dateFermetureUtc") or "")[:16]
+            if a["uuid"] in deja or not (depuis <= ferm <= maintenant) or a.get("typeAvisId") == 6:
+                continue
+            if not any(garder(a["titre"], "", p)[0] for p in cfg["profils"].values()):
+                continue
+            trouves[a["uuid"]] = {
+                "id": a["uuid"], "source": "SEAO", "numero": a["numero"].strip(), "titre": a["titre"],
+                "organisme": a.get("nomDonneurOuvrage"),
+                "regions": [REGIONS_SEAO[i - 1] for i in (a.get("regionIds") or []) if 1 <= i <= 17],
+                "fermeture": heure_quebec(a.get("dateFermetureUtc")), "publie": heure_quebec(a.get("datePublicationUtc")),
+                "lien": LIEN_AVIS + a["uuid"], "fermeArchive": True, "fermeLe": heure_quebec(a.get("dateFermetureUtc"))[:10],
+                "nouveau": False,
+            }
+    plus_recents = sorted(trouves.values(), key=lambda v: v["fermeture"], reverse=True)[:maximum]
+    print(f"Contrats fermés récents ajoutés : {len(plus_recents)}")
+    return {v["id"]: v for v in plus_recents}
+
+
 def lire(nom, defaut):
     p = DONNEES / nom
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else defaut
@@ -185,6 +224,17 @@ def main():
     fermes = len(base["avis"]) - sum(1 for x in base["avis"] if x["id"] in ouverts)
     ignores &= ouverts
 
+    # Avis fermés : gardés 90 jours (data/fermes.json) pour aller chercher leurs résultats d'ouverture
+    archive = {x["id"]: x for x in lire("fermes.json", [])}
+    for x in base["avis"]:
+        if x.get("source", "SEAO") == "SEAO" and x["id"] not in ouverts and not x.get("fermeArchive"):
+            x.update(fermeArchive=True, fermeLe=maintenant_quebec()[:10], nouveau=False)
+            archive[x["id"]] = x
+    limite = (dt.date.today() - dt.timedelta(days=90)).isoformat()
+    archive = {k: v for k, v in archive.items() if (v.get("fermeLe") or "") >= limite}
+    if len(archive) < 30:  # premier remplissage : contrats fermés récemment qui touchent vos métiers
+        archive.update(fermes_recents(cfg, archive))
+
     lus = 0
     for a in liste:
         u = a["uuid"]
@@ -205,6 +255,30 @@ def main():
             time.sleep(PAUSE)
         f["vuLe"] = maintenant_quebec()
         toutes[u] = f
+
+    # Résultats d'ouverture (publics) : qui a soumissionné et à quel prix
+    n_res = 0
+    for x in sorted(archive.values(), key=lambda v: v.get("fermeture") or ""):
+        if x.get("resultats") or n_res >= MAX_RESULTATS:
+            continue
+        try:
+            d = get_json(f"avis/get-consulter-resultats-ouverture-publies-for-avis/{x['id']}") or {}
+        except Exception as e:
+            print(f"  résultats illisibles pour {x.get('numero')} : {e}")
+            continue
+        finally:
+            n_res += 1
+            time.sleep(PAUSE)
+        soum = d.get("soumissions")
+        if soum:
+            x["resultats"] = {
+                "publie": heure_quebec(d.get("datePublicationResultatsOuverture")),
+                "soumissions": sorted(
+                    [{"nom": (s.get("soumissionnaire") or {}).get("nomOrganisation") or "?",
+                      "montant": (s.get("montantSoumis") or {}).get("value")} for s in soum],
+                    key=lambda s: s["montant"] if s["montant"] is not None else 9e15),
+            }
+    print(f"Avis fermés suivis : {len(archive)} · résultats d'ouverture trouvés : {sum(1 for v in archive.values() if v.get('resultats'))}")
 
     # Avis Merx ajoutés à la main ou par les alertes courriel (data/merx.json) : gardés tant qu'ils sont ouverts,
     # avec leur analyse IA déjà faite s'il y en a une.
@@ -249,7 +323,8 @@ def main():
     nouveaux = sum(1 for f in avis if f["nouveau"])
     meta = {"date": maintenant_quebec(), "seaoLus": len(liste), "retenus": len(avis), "nouveaux": nouveaux,
             "portee": cfg["portee"], "modele": base["meta"].get("modele"), "empreinte": emp}
-    ecrire("avis.json", {"meta": meta, "avis": avis})
+    ecrire("avis.json", {"meta": meta, "avis": avis + list(archive.values())})
+    ecrire("fermes.json", list(archive.values()))
     ecrire("hors_mots.json", [])
     ecrire("ignores.json", sorted(ignores))
     # Premier balayage avec cette version : pas de notification pour tout l'existant d'un coup
