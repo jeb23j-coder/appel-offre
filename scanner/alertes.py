@@ -27,7 +27,7 @@ def champ(texte, nom):
 
 
 def liste(valeur):
-    return [v.strip() for v in re.split(r"[,;\n]", valeur) if v.strip()][:20]
+    return [v.strip() for v in re.split(r"[,;\n]", valeur) if v.strip()][:200]
 
 
 def main():

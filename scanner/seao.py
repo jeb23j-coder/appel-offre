@@ -205,6 +205,11 @@ def main():
         ok, trouves = garder(f["titre"], f.get("description", ""), cfg)
         f["motsTrouves"] = trouves
         f["motsOk"] = ok
+        texte_complet = sans_accents(f"{f['titre']} {f.get('description', '')}")
+        choisis = {m.lower() for m in cfg["mots_cles"]}
+        f["familles"] = [nom for nom, termes in cfg.get("familles", {}).items()
+                         if any(t.lower() in choisis and re.search(r"\b" + re.escape(sans_accents(t)), texte_complet) for t in termes)]
+        f["visiteObligatoire"] = bool(re.search(r"visite[^.]{0,60}obligatoire|obligatoire[^.]{0,30}visite", texte_complet))
         f["tropCher"] = bool(f.get("estimation") and f["estimation"] > cfg["montant_max"])
         f["nouveau"] = f["id"] not in deja_affiches
         # Une alerte par région seulement exige aussi un mot-clé, pour ne pas signaler un stationnement
@@ -218,7 +223,8 @@ def main():
     meta = {"date": maintenant_quebec(), "seaoLus": len(liste), "retenus": len(avis), "nouveaux": nouveaux,
             "portee": cfg["portee"], "modele": base["meta"].get("modele"), "empreinte": emp,
             "alertes": cfg.get("alertes", []), "motsCles": cfg["mots_cles"], "motsExclus": cfg["mots_exclus"],
-            "regionsPreferees": cfg.get("regions_preferees", []), "montantMin": cfg.get("montant_min", 0), "montantMax": cfg["montant_max"]}
+            "regionsPreferees": cfg.get("regions_preferees", []), "montantMin": cfg.get("montant_min", 0), "montantMax": cfg["montant_max"],
+            "familles": cfg.get("familles", {}), "suggestionsExclus": cfg.get("suggestions_exclus", [])}
     ecrire("avis.json", {"meta": meta, "avis": avis})
     ecrire("hors_mots.json", [])
     ecrire("ignores.json", sorted(ignores))

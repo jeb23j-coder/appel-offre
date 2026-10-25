@@ -12,8 +12,9 @@ FICHIER = RACINE / "data" / "avis.json"
 OLLAMA = "http://127.0.0.1:11434/api/chat"
 MODELE = os.environ.get("MODELE", "gemma4:e2b")
 IA_MINUTES = float(os.environ.get("IA_MINUTES", "150"))
-VERSION = 2  # à augmenter quand les consignes changent : les avis sont alors réanalysés
+VERSION = 3  # à augmenter quand les consignes changent : les avis sont alors réanalysés
 TYPES = ["Maçonnerie", "Charpenterie / menuiserie", "Maçonnerie + charpenterie", "Bâtiment (nos métiers en partie)", "Hors sujet"]
+MODES = ["Soumission directe", "Sous-traitance", "Aucun"]
 
 SCHEMA = {
     "type": "object",
@@ -23,9 +24,10 @@ SCHEMA = {
         "resume": {"type": "string"},
         "pointsAttention": {"type": "array", "items": {"type": "string"}},
         "recommandation": {"type": "string", "enum": ["Go", "À vérifier", "No-go"]},
+        "mode": {"type": "string", "enum": MODES},
         "raison": {"type": "string"},
     },
-    "required": ["pertinence", "type", "resume", "pointsAttention", "recommandation", "raison"],
+    "required": ["pertinence", "type", "resume", "pointsAttention", "recommandation", "mode", "raison"],
 }
 
 
@@ -46,7 +48,11 @@ Pour l'avis fourni, réponds en JSON :
 - resume : 1 ou 2 phrases factuelles en français (portée des travaux, durée si connue).
 - pointsAttention : visite obligatoire, délai court, cote de sécurité, milieu occupé, contrat sur demande… (liste vide si rien).
 - recommandation : « Go » si pertinent et sans obstacle, « No-go » si hors cible, sinon « À vérifier ».
+- mode : « Soumission directe » si l'entreprise peut soumissionner elle-même (contrat surtout de maçonnerie ou de
+  charpenterie, de taille modeste) ; « Sous-traitance » si c'est un projet d'entrepreneur général où ses métiers seraient
+  un lot à offrir à l'entrepreneur gagnant ; « Aucun » si le contrat ne la concerne pas.
 - raison : une phrase qui explique la recommandation.
+Un grand projet de rénovation peut contenir un lot de maçonnerie ou de charpenterie sans que le titre le dise : lis la description.
 N'invente rien : n'utilise que les informations de l'avis."""
 
 

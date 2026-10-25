@@ -1,9 +1,6 @@
-"""Prépare la notification des nouveaux contrats potentiels (après le balayage et l'analyse IA).
-
-Un contrat est potentiel s'il correspond à une de vos alertes, si l'IA le juge « Go » ou « À vérifier »,
-ou, tant qu'il n'est pas encore analysé, s'il contient vos mots-clés. Les contrats au-dessus du montant
-maximum et ceux que l'IA juge « No-go » sans alerte sont laissés de côté.
-Écrit /tmp/notif_titre.txt et /tmp/notif.md (rien si aucun contrat potentiel).
+"""Prépare la notification des nouveaux contrats qui correspondent à vos critères (après le balayage
+et l'analyse IA) : ceux dont le score de potentiel atteint SEUIL. Le score est le même que sur le site.
+Écrit /tmp/notif_titre.txt et /tmp/notif.md (rien si aucun contrat ne passe le seuil).
 """
 import json
 import os
@@ -23,36 +20,43 @@ def argent(n):
     return f"{n / 1e6:.2f} M$".replace(".", ",") if n >= 1e6 else f"{n:,} $".replace(",", " ")
 
 
-def potentiel(a):
+SEUIL = 60  # « À vérifier » (60-79) et « Priorité » (80-100)
+
+
+def score(a, meta):
+    """Même calcul que sur le site : IA, mots-clés trouvés, région préférée et montant."""
     if a.get("tropCher"):
-        return False
-    reco = (a.get("analyse") or {}).get("recommandation")
-    if a.get("alertes"):
-        return True
-    if reco:
-        return reco in ("Go", "À vérifier")
-    return bool(a.get("motsOk"))
+        return 0
+    x = a.get("analyse") or {}
+    s = x["pertinence"] * 0.5 if x else (25 if a.get("motsOk") else 0)
+    s += min(len(a.get("motsTrouves") or []), 5) * 4
+    if set(meta.get("regionsPreferees") or []) & set(a.get("regions") or []):
+        s += 10
+    est = a.get("estimation")
+    if est and (meta.get("montantMin") or 0) <= est <= (meta.get("montantMax") or float("inf")):
+        s += 5
+    if x.get("recommandation") == "No-go":
+        s = min(s, 30)
+    return max(0, min(100, round(s)))
 
 
 def main():
     ids = set(json.loads((RACINE / "data" / "a_notifier.json").read_text(encoding="utf-8")))
-    avis = json.loads((RACINE / "data" / "avis.json").read_text(encoding="utf-8"))["avis"]
-    items = [a for a in avis if a["id"] in ids and potentiel(a)]
+    base = json.loads((RACINE / "data" / "avis.json").read_text(encoding="utf-8"))
+    meta, avis = base["meta"], base["avis"]
+    items = [a for a in avis if a["id"] in ids and score(a, meta) >= SEUIL]
     if not items:
-        print("Aucun nouveau contrat potentiel à notifier")
+        print("Aucun nouveau contrat au-dessus du seuil à notifier")
         return
-    items.sort(key=lambda a: (not a.get("alertes"), -((a.get("analyse") or {}).get("pertinence") or 0), a.get("fermeture") or ""))
-    n_al = sum(1 for a in items if a.get("alertes"))
-    titre = f"{len(items)} nouveau{'x' if len(items) > 1 else ''} contrat{'s' if len(items) > 1 else ''} potentiel{'s' if len(items) > 1 else ''}"
-    if n_al:
-        titre += f" (dont {n_al} pour vos alertes)"
+    items.sort(key=lambda a: (-score(a, meta), a.get("fermeture") or ""))
+    titre = f"{len(items)} nouveau{'x' if len(items) > 1 else ''} contrat{'s' if len(items) > 1 else ''} pour vos critères"
     lignes = [f"Nouveaux appels d'offres SEAO qui correspondent à vos critères. Tout voir : {SITE}", ""]
     for a in items[:MAX_LIGNES]:
         x = a.get("analyse") or {}
-        alerte = f" — 🔔 **{', '.join(a['alertes'])}**" if a.get("alertes") else ""
-        lignes.append(f"### [{a['titre']}]({a.get('lien') or SITE}){alerte}")
+        sc = score(a, meta)
+        lignes.append(f"### [{a['titre']}]({a.get('lien') or SITE}) — score {sc}{' · Priorité' if sc >= 80 else ''}")
         if x:
-            lignes.append(f"- IA : **{x.get('pertinence')} % · {x.get('recommandation')}** — {x.get('resume', '')}")
+            lignes.append(f"- IA : {x.get('mode') or ''} — {x.get('resume', '')}")
         lignes.append(f"- {a.get('organisme') or ''} · {', '.join(a.get('regions') or [])}")
         lignes.append(f"- Fermeture : {(a.get('fermeture') or '').replace('T', ' à ')} · {argent(a.get('estimation'))}")
         if a.get("motsTrouves"):
@@ -76,7 +80,7 @@ def pousser_cellulaire(titre, items):
     if len(items) > 5:
         resume += f"\n… et {len(items) - 5} autres"
     corps = {"topic": sujet, "title": f"Appel Offre : {titre}", "message": resume, "click": SITE,
-             "tags": ["bell"], "priority": 4 if any(a.get("alertes") for a in items) else 3}
+             "tags": ["bell"], "priority": 4}
     req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(corps).encode(), headers={"Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=20) as r:
