@@ -20230,7 +20230,19 @@
 "cloison"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Le projet concerne le réaménagement d'un bureau de sécurité incluant la construction de cloisons architecturales vitrées, un guichet accessible, une porte à contrôle d'accès et le remplacement du revêtement de sol.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur des travaux de finition intérieure et de menuiserie légère, sans que la maçonnerie ou la charpenterie ne soient le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "merx-444195723410",
@@ -20279,7 +20291,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection et la sécurisation du poste d'accueil du détachement GRC à Sept-Îles. Une visite des lieux est prévue le 20 octobre.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne semble pas cibler directement les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-444195723411",
@@ -20328,7 +20353,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet concerne la réfection et la sécurisation du poste d'accueil du détachement GRC à Rimouski. Une visite des lieux a été effectuée le 22 octobre et une cote de sécurité GRC est exigée.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est lié à la réfection d'une structure, ce qui peut impliquer des travaux de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
@@ -20380,7 +20417,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 70,
+"type": "Maçonnerie",
+"resume": "L'appel de qualification concerne la réfection des toitures et façades de l'Aéroports de Montréal pour un contrat-cadre de 2027-2030. Une séance d'information et une visite sont obligatoires.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne directement la réfection des façades, ce qui est un intérêt majeur pour les métiers de la maçonnerie et de la rénovation extérieure.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
@@ -20419,7 +20468,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Il s'agit d'une liste de sources d'entrepreneurs généraux de la Défense pour la région de Montréal, et non d'un appel d'offres pour des travaux de maçonnerie ou de charpenterie.",
+"pointsAttention": [
+"non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis fourni n'est pas un appel d'offres pour des travaux relevant du domaine de la maçonnerie ou de la charpenterie.",
+"version": 3
+}
 },
 {
 "id": "merx-3801733757",
@@ -20458,7 +20519,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Il s'agit d'une inscription à une liste de sources pour des petits travaux à intervention rapide de la Défense au Québec, et non d'un appel d'offres pour des travaux de construction ou de rénovation.",
+"pointsAttention": [
+"non précisée"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis concerne une inscription à une liste de sources pour des travaux rapides et n'est pas un appel d'offres pour des projets de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "merx-3776296422",
@@ -20497,7 +20570,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Il s'agit d'une inscription à une liste de sources de Construction de Défense Canada pour des travaux commerciaux, résidentiels et institutionnels de 10 M$ et moins aux garnisons de Montréal et Saint-Jean.",
+"pointsAttention": [
+"Ce n'est pas un contrat."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis n'est pas un contrat, mais une inscription à une liste de sources.",
+"version": 3
+}
 },
 {
 "id": "fb88f4c7-bce0-4a68-851c-afe9dd0ef14a",
