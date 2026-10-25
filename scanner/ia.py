@@ -12,12 +12,14 @@ FICHIER = RACINE / "data" / "avis.json"
 OLLAMA = "http://127.0.0.1:11434/api/chat"
 MODELE = os.environ.get("MODELE", "gemma4:e2b")
 IA_MINUTES = float(os.environ.get("IA_MINUTES", "150"))
+VERSION = 2  # à augmenter quand les consignes changent : les avis sont alors réanalysés
+TYPES = ["Maçonnerie", "Charpenterie / menuiserie", "Maçonnerie + charpenterie", "Bâtiment (nos métiers en partie)", "Hors sujet"]
 
 SCHEMA = {
     "type": "object",
     "properties": {
         "pertinence": {"type": "integer", "minimum": 0, "maximum": 100},
-        "type": {"type": "string", "enum": ["Aménagement intérieur / réno", "Bâtiment neuf / agrandissement", "Hors sujet"]},
+        "type": {"type": "string", "enum": TYPES},
         "resume": {"type": "string"},
         "pointsAttention": {"type": "array", "items": {"type": "string"}},
         "recommandation": {"type": "string", "enum": ["Go", "À vérifier", "No-go"]},
@@ -28,16 +30,18 @@ SCHEMA = {
 
 
 def consigne(cfg):
-    return f"""Tu aides un entrepreneur général québécois à repérer les appels d'offres SEAO qui valent la peine.
+    return f"""Tu aides une entreprise québécoise de {cfg['metiers']} à repérer les appels d'offres SEAO qui valent la peine.
 Sa cible : {cfg['portee']}.
-Ce qui l'intéresse : travaux de bâtiment réalisés par un entrepreneur général — aménagement ou réaménagement intérieur,
-rénovation, réfection (y compris enveloppe, façade, fenêtres, maçonnerie d'un bâtiment), construction d'un bâtiment neuf
-ou agrandissement. Mots-clés utiles : {', '.join(cfg['mots_cles'])}.
-Ce qui ne l'intéresse pas : génie civil (rues, aqueducs, ponts, stationnements), travaux d'un seul corps de métier
-spécialisé (ascenseurs, chaudières, toiture seule, électricité seule, mécanique seule), entretien, services, fournitures.
+Ce qui l'intéresse le plus : les contrats où la maçonnerie (brique, pierre, bloc, parement, rejointoiement, linteaux,
+cheminées, façades de maçonnerie) ou la charpenterie-menuiserie (charpente et ossature de bois, balcons, galeries,
+escaliers, terrasses, cloisons, coffrages, portes et fenêtres, finition intérieure) est le travail principal.
+Intéressant aussi : rénovations, réfections, agrandissements et bâtiments neufs où ces métiers ont une part importante.
+Mots-clés utiles : {', '.join(cfg['mots_cles'])}.
+Ce qui ne l'intéresse pas : génie civil (rues, aqueducs, ponts, stationnements), travaux d'autres corps de métier
+(électricité, mécanique, plomberie, ventilation, ascenseurs, chaudières), entretien, services, fournitures.
 
 Pour l'avis fourni, réponds en JSON :
-- pertinence : 0 à 100 (100 = parfaitement dans la cible).
+- pertinence : 0 à 100 (100 = maçonnerie ou charpenterie est clairement le cœur du contrat ; 50 = projet de bâtiment où ces métiers ont une part ; 0 = aucun lien).
 - type : la catégorie qui convient, ou « Hors sujet ».
 - resume : 1 ou 2 phrases factuelles en français (portée des travaux, durée si connue).
 - pointsAttention : visite obligatoire, délai court, cote de sécurité, milieu occupé, contrat sur demande… (liste vide si rien).
@@ -70,13 +74,14 @@ def analyser(cfg, a):
     with urllib.request.urlopen(req, timeout=900) as r:
         res = json.loads(json.load(r)["message"]["content"])
     res["pertinence"] = max(0, min(100, int(res.get("pertinence", 0))))
+    res["version"] = VERSION
     return res
 
 
 def main():
     cfg = json.loads((RACINE / "config.json").read_text(encoding="utf-8"))
     base = json.loads(FICHIER.read_text(encoding="utf-8"))
-    a_faire = [a for a in base["avis"] if "analyse" not in a]
+    a_faire = [a for a in base["avis"] if (a.get("analyse") or {}).get("version") != VERSION]
     # Les avis qui ferment le plus tôt d'abord
     a_faire.sort(key=lambda a: a.get("fermeture") or "9999")
     print(f"IA ({MODELE}) : {len(a_faire)} avis à analyser, limite {IA_MINUTES:.0f} min")

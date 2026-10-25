@@ -1,19 +1,22 @@
 {
-  "portee": "Aménagement intérieur / rénovation et bâtiment neuf / agrandissement · Tout le Québec · max. 15 M$",
+  "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
+  "metiers": "briqueteur-maçon et charpentier-menuisier",
   "categories_seao": [52],
   "montant_max": 15000000,
   "mots_cles": [
-    "aménagement", "réaménagement", "rénovation", "réfection", "agrandissement",
-    "construction d", "bâtiment", "reconstruction", "transformation", "mise aux normes",
-    "mise à niveau", "finis intérieurs", "finition", "cloison", "plafond", "plancher",
-    "salle", "local", "locaux", "bureau", "laboratoire", "cuisine", "vestiaire", "sanitaire",
-    "logement", "école", "caserne", "garage", "chalet", "centre communautaire", "bibliothèque",
-    "façade", "parement", "enveloppe", "fenêtre", "maçonnerie", "réhabilitation", "restauration",
-    "conversion", "reconversion", "remise en état", "coupe-feu", "accessibilité"
+    "maçonnerie", "maconnerie", "brique", "briquetage", "pierre", "bloc de béton", "blocs de béton",
+    "parement", "rejointoiement", "joints de mortier", "mortier", "linteau", "allège", "cheminée",
+    "mur de brique", "murs de maçonnerie", "façade", "enveloppe", "revêtement extérieur", "restauration",
+    "charpente", "charpenterie", "menuiserie", "ossature", "structure de bois", "bois", "poutre",
+    "balcon", "galerie", "escalier", "terrasse", "pergola", "abri", "cloison", "coffrage",
+    "portes et fenêtres", "fenêtre", "boiserie", "finition intérieure",
+    "réfection", "rénovation", "réhabilitation", "remise en état", "reconstruction",
+    "agrandissement", "construction d", "bâtiment", "garage", "chalet", "caserne", "logement"
   ],
   "mots_exclus": [
     "stationnement", "pavage", "asphalt", "aqueduc", "égout", "voirie", "chaussée",
     "pont", "ponceau", "déneigement", "ascenseur", "chaudière", "conduite", "réseau",
-    "piste", "terrain de", "éclairage de rue", "homologation", "pluvial", "forage"
+    "piste", "terrain de", "éclairage de rue", "homologation", "pluvial", "forage",
+    "électricité", "électrique", "ventilation", "climatisation", "gicleur", "plomberie"
   ]
 }
