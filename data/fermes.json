@@ -8721,7 +8721,38 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T13:18",
+"soumissions": [
+{
+"nom": "demospec déconstruction inc.",
+"montant": 299699.58
+},
+{
+"nom": "INDUSCO ISOLATION INC.",
+"montant": 609367.5
+},
+{
+"nom": "EXCAVATION RENE ST-PIERRE INC.",
+"montant": 612586.8
+},
+{
+"nom": "DEMOLITION ET EXCAVATION DEMEX INC.",
+"montant": 798048.37
+},
+{
+"nom": "Les Industries DG Inc.",
+"montant": 872660.25
+},
+{
+"nom": "CONSTRUCTION DI PAOLO INC.",
+"montant": 1391494.14
+}
+]
+}
 },
 {
 "id": "64531fb0-4b9c-431b-942d-4ac985ab3aaa",
