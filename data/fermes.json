@@ -8816,5 +8816,433 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-10-26"
+},
+{
+"id": "aaee2672-50e1-42fc-a765-0da615e214f3",
+"numero": "AO-26-009",
+"titre": "Contrat à exécution sur demande pour divers travaux de construction",
+"organisme": "Santé Québec - CHU Sainte-Justine",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, 10%",
+"estimation": 7500000,
+"dureeMois": "36",
+"surDemande": true,
+"fermeture": "2026-10-26T14:00",
+"publie": "2026-09-25T14:06",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "Titre du projet : AO-26-009\n- Contrat à\nexécution sur demande pour divers travaux de construction\nÉtablissement :\nSANTÉ QUÉBEC — CENTRE HOSPITALIER UNIVERSITAIRE SAINTE-JUSTINE\nDurée\nprévue du contrat : TROIS (3) années et jusqu’à ce qu’il subsiste des\nobligations de garantie\nOption(s)\nde renouvellement(s) prévue(s) : DEUX\n(2) options d’UNE (1) année chacune\nType\nd’adjudication : Selon le prix le plus\nbas conforme pour l’ensemble du bordereau de prix\nSANTÉ\nQUÉBEC — CENTRE HOSPITALIER UNIVERSITAIRE SAINTE-JUSTINE souhaite retenir des services sur\ndemande pour divers travaux de construction. \nAccords\nIntergouvernementales applicables :\nAccord\nQuébec-Ontario (ACCQO)\nAccord Libre échange Canadien (ALEC)\nDemande\nd’information :\nSi vous avez des\nquestions en lien avec certaines clauses administratives, veuillez en informer\nle responsable de l'appel d'offres, selon les instructions inscrites dans le\ndocument d'appel d'offres, dès que possible, AVANT la date et l'heure\nd'ouverture des soumissions.\nL’organisme public\nse réserve la possibilité de ne pas considérer une demande de précision qui\nn’entraîne pas de modification aux documents d’appel d’offres formulée par un soumissionnaire\nsi cette demande lui est transmise 5 jours ouvrables ou moins avant la\ndate et l’heure limites fixées pour la réception des soumissions.\nToute demande\nd’information doit être acheminée à la personne suivante en prenant soin\nde mentionner le numéro d’appel d’offres et le titre du projet en objet :\nGestionnaire\nde l’appel d’offres : Mélanie Paiement\nAdresse\ncourriel : melanie.paiement.hsj@ssss.gouv.qc.ca\nPour\nêtre valides, les soumissions doivent être reçues au plus tard le :\nDate : Voir avis SEAO\nEndroit\n: En format électronique sur le site du SEAO ou à l’adresse suivante : \nSANTÉ QUÉBEC – CENTRE\nHOSPITALIER UNIVERSITAIRE SAINTE-JUSTNE \n5757, avenue Decelles, bureau 405\nMontréal, Québec H3S 2C3\nLa\ndate limite de dépôt des plaintes est le :\nDate :\nVoir avis SÉAO\nGarantie de soumission :\nLa soumission\ndevra être accompagnée d’une garantie de soumission d’une valeur équivalent à 10%\ndu prix total proposé dans la soumission.\nLettre\nd’engagement :\nUne lettre\nd’engagement pour la garantie d’exécution et d’une garantie pour gages,\nmatériaux et main d’œuvre doit être jointe à la soumission. \nGarantie\nd’exécution :\nLa soumission\ndevra être accompagnée d’une garantie d’exécution d’une valeur équivalent à 50%\ndu montant total du contrat avec taxes.\nGarantie\npour gages, matériaux et main d’œuvre :\nLa soumission\ndoit être accompagnée d’une garantie pour gages, matériaux et main d’œuvre\nd’une valeur équivalent à 50% du montant total du contrat avec taxes.\nTransmission électronique :\nLes soumissions peuvent être transmises par voie électronique. Le cas\néchéant, cette transmission ne peut être effectuée que par l’intermédiaire du\nsystème électronique d'appel d'offres (SEAO).\nN.B. Les soumissionnaires sont fortement encouragés à transmettre leur\nsoumission par voie électronique. Il ne s’agit p",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=aaee2672-50e1-42fc-a765-0da615e214f3",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un contrat à exécution sur demande pour divers travaux de construction pour le Centre Hospitalier Universitaire Sainte-Justine. La durée prévue du contrat est de trois ans.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros contrat de construction où les métiers de maçonnerie et charpenterie sont probablement inclus dans le bordereau de prix, mais les mots-clés spécifiques n'ont pas été trouvés.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "95ed3300-06f1-4577-8faf-fec02bb2c15f",
+"numero": "AM011776",
+"titre": "Côte-Nord / CA Forestville - Remplacement d'un réservoir d'huile usée",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Côte-Nord"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-10-26T14:00",
+"publie": "2026-09-25T11:22",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101510 - Maintenance ou réparation de la plomberie",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
+"72151003 - Maintenance et réparation d’installation de chauffage"
+],
+"description": "Consulter le site Internet d’Hydro-Québec pour voir l’avis\ndétaillé à l’adresse :\nhttps://fournisseurs.hydroquebec.com/page.aspx/fr/rfp/request_browse_public",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=95ed3300-06f1-4577-8faf-fec02bb2c15f",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'avis concerne le remplacement d'un réservoir d'huile usée pour Hydro-Québec. Les codes de travaux mentionnés sont liés à la plomberie et aux métiers du bâtiment.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "fc079fa8-9dd2-4f87-b588-26fbf1794f89",
+"numero": "44548069",
+"titre": "Lot 501 – Structure d’acier - Hôpital Charles-Le Moyne – Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement (Module clinique transitoire) au 2924, boulevard Taschereau, Longueuil (Québec) J4V 2G8",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"agrandissement",
+"charpente"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de soumission correspondant à 10% du montant de la soumission.\n► Lorsque la soumission est transmise sur support papier, cette garantie de soumission doit être présentée sous forme de cautionnement, de lettre de garantie irrévocable, de chèque visé, de mandat ou de traite et respecter les conditions mentionnées à l’article « Garantie de soumission » des Instructions aux soumissionnaires.\n► Lorsque la soumission est transmise par voie électronique, cette garantie de soumission doit obligatoirement être présentée sous forme de cautionnement ou de lettre de garantie irrévocable et respecter les conditions mentionnées à l’article « Garantie de soumission » des Instructions aux soumissionnaires. Aucune autre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 4209596,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-10-26T15:00",
+"publie": "2026-09-04T11:17",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72121403 - Construction d’hôpitaux"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\nNuméro de contrat : \n44548069\n Titre du\n contrat :\n Lot 501 – Structure\n d’acier\nHôpital Charles-Le Moyne –\n Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement\n (Module clinique transitoire) \n Adresse de l’immeuble :\n 2924, boulevard\n Taschereau, Longueuil (Québec) J4V 2G8\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\nAttention : Notez\nque seuls les documents exigés par la Société aux termes du présent\nappel d’offres doivent être remis avec la soumission, de manière à éviter toute\nsituation qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de structure d’acier et charpente métallique\npour le projet de l’Hôpital Charles-Le Moyne – Bloc opératoire et chirurgie\nd’un jour – Agrandissement et réaménagement (Module clinique transitoire).\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation\nde dépôt des soumissions par voie électronique\nLa Société a\nentrepris des initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation\nde contracter/attestation de Revenu Québec\nIl est\nfortement suggéré aux soumissionnaires de faire dès que possible, selon les\nexigences des documents contractuels, leur demande d’attestation de Revenu\nQuébec et, le cas échéant, leur demande d’autorisation de contracter auprès de\nl’Autorité des marchés publics, afin de s’assurer que ces exigences soient rencontrées\navant la date et l’heure limites indiquées dans les Instructions aux\nsoumissionnaires et/ou dans les Instructions complémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission3@sqi.gouv.qc.ca\nSoumissions des sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fc079fa8-9dd2-4f87-b588-26fbf1794f89",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction de la structure d'acier et de charpente métallique pour un agrandissement et un réaménagement d'un bloc opératoire à l'Hôpital Charles-Le Moyne. Le montant estimé est de 4 209 596 $ et la durée prévue est de 8 mois.",
+"pointsAttention": [
+"Délai de fermeture : 2026-10-26T15:00",
+"Montant estimé : 4 209 596 $"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne principalement la structure d'acier et la charpente métallique, ce qui n'est pas le cœur de métier de briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"charpente",
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"charpente",
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "79952bd5-192a-4e53-b127-bc1f8ca788dd",
+"numero": "26-CISSSMC-012",
+"titre": "CCH-23-066 Modernisation de l’ascenseur et travaux connexes",
+"organisme": "Santé Québec Montérégie-Centre  ",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, CAUTIONNEMENT : DIX (10) % DU MONTANT DE\nLA SOUMISSION\nOU \nLETTRE DE GARANTIE IRRÉVOCABLE : CINQ (5)\n% DU MONTANT DE LA SOUMISSION",
+"estimation": 796000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-10-26T14:00",
+"publie": "2026-09-11T09:09",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "ÉTABLISSEMENT : Santé Québec Montérégie-Centre\nINSTALLATION : CHSLD Champlain\nVILLE : Brossard\nN°\nAPPEL D’OFFRES : 26-CISSSMC-012\nPROJET : CCH-23-066 Modernisation\nde l’ascenseur et travaux connexes\nL’ORGANISME PUBLIC, le Centre Intégré de Santé\net de Services Sociaux de la Montérégie-Centre, ayant son siège au 3141\nboulevard Taschereau, bureau 220, Greenfield Park, Québec, J4V 2H2 demande des\nsoumissions pour les travaux de construction du projet mentionné en titre.\nSommaire du projet\nLe CISSS de la Montérégie-Centre désire lancer\nun appel d’offres visant la réalisation des travaux de construction nécessaires au remplacement\ncomplet de l’unique ascenseur du bâtiment, situé au centre de l’édifice. Le tout tel que spécifié dans les\ndifférentes sections du devis administratif, descriptif, ainsi que dans les\nplans et devis, et ce dans le respect des règlements municipaux, normes et lois\nen vigueur applicables à ce projet.\nLes documents d’appel d’offres sont disponibles\nexclusivement par l’intermédiaire du Système électronique d’appel d’offres\n(SEAO) : https://seao.gouv.qc.ca.\nMODE D’ADJUDICATION : Prix le plus bas\nDÉLAI DE RÉALISATION DES TRAVAUX : 35 semaines \nOPTIONS : Aucune\nGARANTIE\nDE SOUMISSION :\nLes soumissions devront être accompagnées d’une garantie de soumission sous\nl’une des formes suivantes :\n· Cautionnement de\nsoumission\ndélivré par une institution financière et établi au montant de dix pour cent\n(10 %) du prix de la soumission, valide pour une période de quarante-cinq (45)\njours suivant la date d’ouverture des soumissions; ou\n· Lettre de garantie\nirrévocable\némise par une banque, une caisse d’épargne ou de crédit ou une société de\nfiducie ou d’épargne et conforme aux dispositions du formulaire « Lettre de\ngarantie irrévocable » du gestionnaire de projet au montant de cinq pour cent\n(5 %) du prix de la soumission.\nTRANSMISSION DES SOUMISSIONS : \nLes soumissions peuvent\nêtre transmises par voie électronique ou sur support papier selon les modalités\nindiquées dans les documents d’appel d’offres.\nRÉCEPTION DES SOUMISSIONS \nPour être valides, les\nsoumissions doivent être adressées au gestionnaire de dossier et reçues au plus\ntard à la date et à l’heure indiquées dans l’avis d’appel d’offres.\nDEMANDE\nD’INFORMATION \nToute demande\nd’information ou de précision doit être transmise par écrit à la personne‑ressource\nidentifiée ci‑dessous, en mentionnant le numéro et le titre\ndu projet :\nAppel d’offres : 26‑CISSSMC-012\nProjet\n: CCH-23-066 Modernisation de l’ascenseur et travaux connexes\nPersonne‑ressource : Mme Pascale Galipeau\nCourriel :\npascale.galipeau.cisssmc16@ssss.gouv.qc.ca\nVISITE D’INFORMATION\nPendant la période d’appel d’offres,\nl’ORGANISME PUBLIC organisera une visite d’information le 29 septembre 2026 à 10 h 00 à l’adresse suivante :\nCHSLD Champlain\n5050, Place Nogent\nBrossard (Québec) | J4Y 2K3\nLe point de\nrendez-vous aura lieu à proximité de l’entrée principale à l’avant du bâtiment.\nRÉSERVE\nL’ORGANISME PUBLIC ne s’engage pas à accep",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=79952bd5-192a-4e53-b127-bc1f8ca788dd",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [
+"bâtiment",
+"construction d"
+],
+"motsOk": true,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation et le remplacement complet de l'unique ascenseur dans un établissement de Santé Québec à Brossard. La durée prévue pour les travaux est de 35 semaines.",
+"pointsAttention": [
+"Délai de réalisation de 35 semaines"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet n'implique ni maçonnerie, ni charpenterie, ni menuiserie, ce qui est hors de la cible de l'entreprise.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "e987ce01-eca1-4077-900b-6b8f4091761d",
+"numero": "25-3268P-1",
+"titre": "087 023 510 - Agrandissement de l'école Félix-Leclerc",
+"organisme": "Centre de services scolaire de Montréal / BDA",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 25993553,
+"dureeMois": "22",
+"surDemande": false,
+"fermeture": "2026-10-26T14:00",
+"publie": "2026-08-07T13:58",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72151200 - Construction et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)",
+"72151500 - Installations électriques",
+"72151903 - Briquetage",
+"72152000 - Plâtrage et pose de cloisons sèches",
+"72152400 - Installation de portes et de fenêtres"
+],
+"description": "Les soumissions transmises\npar voie électronique sont permises dans le cadre du présent appel d’offres.\nAvis d’appel d’offres public – appel d’offres\nfondé uniquement sur un prix\nPar le présent avis, le Centre de services scolaire de Montréal (CSSDM)\nsollicite des soumissions pour l'appel d'offres suivant :\nProjet \nTitre : Agrandissement de l’école\nFélix-Leclerc\n 087 023 510\nNuméro de l’appel d’offres : 25-3268P-1\nDescriptif des travaux : Construction de\nl’agrandissement d’une école primaire comprenant quatre classes maternelle 4\nans, cinq classes maternelle 5 ans, douze classes primaires, deux classes\nspécialisées (musique et arts plastiques), une salle polyvalente, un nouveau\ngymnase simple, les espaces administratifs de l’école, le salon des professeurs\nainsi que l’ensemble des locaux connexes requis à leur fonctionnement.\nLes travaux comprennent\négalement des travaux de réaménagement fonctionnels dans le bâtiment existant.\nSuperficie des travaux : 4638 m2\nBâtiment :\nÉcole Félix-Leclerc, 6055 Av. de Darlington Montréal\nVisite des lieux : Durant la période de soumission, il y aura une visite formelle des\nlieux organisée par le CSSDM, le 14 août à 10h00.\nPériode / Délai de réalisation : Les travaux doivent être entièrement\nexécutés à l’intérieur d’un délai de 95 semaines (calendrier)\nAucune option de renouvellement. \nPour des précisions concernant la période de\nréalisation, vous pouvez contacter le représentant du CSSDM.\nAucune précision sur la valeur\nestimée du contrat total ou partiel ne sera fournie. \nCautionnement de soumission : \nToute soumission doit être\naccompagnée d’une garantie de soumission représentant 10 % du coût total de la\nsoumission, incluant les taxes applicables en faveur du Centre de services\nscolaire. Cette garantie de soumission doit être présentée sous l’une ou l’autre\ndes formes suivantes : \n· Une lettre de garantie irrévocable\némise par une institution financière valide pour une période de 45 jours\nsuivants la date d’ouverture des soumissions. \n· Un\ncautionnement de soumission émis par une institution financière qui est un\nassureur détenant un permis émis conformément à la Loi sur les assurances.\nPropriétaire \nCentre de services scolaire de Montréal\n5100, rue Sherbrooke Est\nMontréal (Québec) H1V 3R9\nIl est à noter que le Centre de\nservices scolaire de Montréal est fermé pour la période des Fêtes, du 21 décembre 2026 au 1er janvier 2027 inclusivement.\nIl est à noter que le Centre de\nservices scolaire de Montréal est fermé pour la période estivale, du 19 au 30 juillet 2027 inclusivement.\nCompte tenu de la situation actuelle, les\nsoumissionnaires souhaitant déposer une soumission en format papier sont priés\nde se présenter au centre administratif du CSSDM la journée même de\nl’ouverture. Un représentant du Bureau des approvisionnements sera présent\npour la réception des soumissions de 8h30 à 12h et de 13h à 14h. \nLe CSSDM recevra avant 14 heures, à la date\nd'ouverture indiquée, les soumissions pour l'appel d'offres correspon",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e987ce01-eca1-4077-900b-6b8f4091761d",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [
+"agrandissement",
+"bâtiment",
+"construction d",
+"école"
+],
+"motsOk": true,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un agrandissement d'une école primaire, incluant des travaux de réaménagement fonctionnels dans le bâtiment existant. La durée de réalisation prévue est de 95 semaines.",
+"pointsAttention": [
+"Visite des lieux organisée par le CSSDM le 14 août à 10h00"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment où les métiers de la maçonnerie et de la charpenterie sont probablement impliqués, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement",
+"construction d",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": true
+},
+"traian": {
+"motsTrouves": [
+"agrandissement",
+"construction d",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": true
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T15:04",
+"soumissions": [
+{
+"nom": "GROUPE GEYSER INC.",
+"montant": 30944000.0
+},
+{
+"nom": "LE GROUPE DECAREL INC.",
+"montant": 30985700.0
+},
+{
+"nom": "CONSTRUCTIONS LARCO INC.",
+"montant": 31175000.0
+},
+{
+"nom": "CONSTRUCTION BLENDA INC.",
+"montant": 31215000.0
+},
+{
+"nom": "3 AXES CONSTRUCTION INC.",
+"montant": 31297582.08
+},
+{
+"nom": "LES CONSTRUCTIONS LAVACON INC.",
+"montant": 31484092.24
+},
+{
+"nom": "DEVCOR",
+"montant": 31975000.0
+},
+{
+"nom": "SIDCAN INC.",
+"montant": 32128800.0
+},
+{
+"nom": "Le Groupe CIBS",
+"montant": 32292940.08
+},
+{
+"nom": "CONSTRUCTIONS R.D.J. INC.",
+"montant": 32441100.0
+},
+{
+"nom": "SENI CONSTRUCTIONS",
+"montant": 32722063.56
+},
+{
+"nom": "SAJO INC.",
+"montant": 33339000.0
+}
+]
+}
 }
 ]
