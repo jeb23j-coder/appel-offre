@@ -35,11 +35,10 @@ def ligne(a, sc):
 
 def main():
     maintenant = maintenant_quebec()  # « AAAA-MM-JJTHH:MM » heure du Québec
-    jour, heure = maintenant[:10], int(maintenant[11:13])
+    jour = maintenant[:10]
     force = "--force" in sys.argv
-    if heure != 0 and not force:
-        print(f"Il est {maintenant[11:]} au Québec : le résumé part seulement à minuit.")
-        return
+    # Le robot passe toutes les heures ; le résumé part au premier passage après minuit (heure du Québec),
+    # une seule fois par jour, même si GitHub lance le robot en retard.
     etat = json.loads(ETAT.read_text(encoding="utf-8")) if ETAT.exists() else {}
     if etat.get("jour") == jour and not force:
         print(f"Résumé du {jour} déjà envoyé.")

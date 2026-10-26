@@ -1,11 +1,10 @@
 name: Courriel quotidien de minuit
 
-# Un courriel par jour et par profil, à minuit heure du Québec.
-# 4 h et 5 h UTC couvrent minuit l'été (HAE) et l'hiver (HNE) ; le script n'envoie qu'à minuit, une fois par jour.
+# Un courriel par jour et par profil, envoyé au premier passage après minuit (heure du Québec).
+# Le robot passe toutes les heures, car GitHub lance parfois les horaires en retard ; le script n'envoie qu'une fois par jour.
 on:
   schedule:
-    - cron: "0 4 * * *"
-    - cron: "0 5 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -37,6 +36,7 @@ jobs:
         run: |
           git config user.name "radar-chantier-bot"
           git config user.email "radar-chantier-bot@users.noreply.github.com"
+          [ -f data/resume.json ] || exit 0
           git add data/resume.json
           git diff --cached --quiet && exit 0
           git commit -m "Résumé quotidien envoyé"
