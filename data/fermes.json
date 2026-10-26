@@ -8880,7 +8880,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T16:56",
+"soumissions": [
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 3955685.0
+},
+{
+"nom": "PINCOR LTÉE",
+"montant": 4216118.46
+},
+{
+"nom": "Les Constructions Serbec Inc.",
+"montant": 4843475.0
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 5071775.45
+}
+]
+}
 },
 {
 "id": "95ed3300-06f1-4577-8faf-fec02bb2c15f",

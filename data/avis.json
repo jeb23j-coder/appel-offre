@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-10-26T16:19",
+"date": "2026-10-26T19:01",
 "seaoLus": 309,
 "retenus": 315,
-"nouveaux": 10,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -23000,7 +23000,7 @@
 "bois"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -23093,7 +23093,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -23201,7 +23201,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -23277,7 +23277,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -23370,7 +23370,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -23457,7 +23457,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -23535,7 +23535,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -23611,7 +23611,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -23701,7 +23701,7 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -23776,7 +23776,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33127,7 +33127,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T16:56",
+"soumissions": [
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 3955685.0
+},
+{
+"nom": "PINCOR LTÉE",
+"montant": 4216118.46
+},
+{
+"nom": "Les Constructions Serbec Inc.",
+"montant": 4843475.0
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 5071775.45
+}
+]
+}
 },
 {
 "id": "95ed3300-06f1-4577-8faf-fec02bb2c15f",
