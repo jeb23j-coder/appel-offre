@@ -34,20 +34,22 @@ def score(a, pid, prof):
     ok, trouves = garder(a.get("titre", ""), a.get("description", ""), prof)
     p = {"motsOk": ok, "motsTrouves": trouves,
          "tropCher": bool(a.get("estimation") and a["estimation"] > prof.get("montant_max", float("inf")))}
-    if p.get("tropCher"):
+    # Score selon les critères du profil seulement : aucun mot coché trouvé = 0 ; mots trouvés jusqu'à 60 ;
+    # région préférée 15 ; montant dans la fourchette 10 ; pertinence pour ses métiers (IA) jusqu'à 15.
+    if not p["motsOk"] or p["tropCher"]:
         return 0
-    x = a.get("analyse") or {}
-    s = x["pertinence"] * 0.5 if x else (25 if p.get("motsOk") else 0)
-    s += min(len(p.get("motsTrouves") or []), 5) * 4
-    if set(prof.get("regions_preferees") or []) & set(a.get("regions") or []):
-        s += 10
+    s = min(len(p["motsTrouves"]), 6) * 10
+    prefs = prof.get("regions_preferees") or []
+    if not prefs or set(prefs) & set(a.get("regions") or []):
+        s += 15
     est = a.get("estimation")
-    if est and (prof.get("montant_min") or 0) <= est <= (prof.get("montant_max") or float("inf")):
+    if not est:
         s += 5
-    if x.get("recommandation") == "No-go":
-        s = min(s, 30)
-    if not p.get("motsOk"):  # sans aucun mot coché du profil : pas dans ses résultats
-        s = min(s, 30)
+    elif (prof.get("montant_min") or 0) <= est <= (prof.get("montant_max") or float("inf")):
+        s += 10
+    x = a.get("analyse") or {}
+    if x.get("pertinence") is not None:
+        s += x["pertinence"] / 100 * 15
     return max(0, min(100, round(s)))
 
 

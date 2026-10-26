@@ -379,15 +379,17 @@ header .scan { margin: 2px 0 0; font-size: .74rem; color: var(--nuit-muted); fon
 
   // Score sur 100 selon vos critères
   function score(a) {
+    // Score selon VOS critères seulement (même calcul que le courriel et les notifications) :
+    // aucun mot coché trouvé = 0 ; mots trouvés jusqu'à 60 ; région préférée 15 ; montant dans la fourchette 10 ;
+    // pertinence pour vos métiers selon l'IA jusqu'à 15.
     const p = pa(a);
-    if (p.tropCher || ferme(a)) return 0;
-    let s = a.analyse ? a.analyse.pertinence * 0.5 : (p.motsOk ? 25 : 0);
-    s += Math.min((p.motsTrouves || []).length, 5) * 4;
-    if ((meta.regionsPreferees || []).some((r) => (a.regions || []).includes(r))) s += 10;
-    if (a.estimation && a.estimation >= (meta.montantMin || 0) && a.estimation <= (meta.montantMax || Infinity)) s += 5;
-    if (a.analyse?.recommandation === "No-go") s = Math.min(s, 30);
-    // Vos critères décident : sans aucun de vos mots cochés, le contrat ne fait pas partie de vos résultats
-    if (!p.motsOk) s = Math.min(s, 30);
+    if (!p.motsOk || p.tropCher || ferme(a)) return 0;
+    let s = Math.min((p.motsTrouves || []).length, 6) * 10;
+    const prefs = meta.regionsPreferees || [];
+    if (!prefs.length || prefs.some((r) => (a.regions || []).includes(r))) s += 15;
+    if (!a.estimation) s += 5;
+    else if (a.estimation >= (meta.montantMin || 0) && a.estimation <= (meta.montantMax || Infinity)) s += 10;
+    if (a.analyse) s += (a.analyse.pertinence / 100) * 15;
     return Math.max(0, Math.min(100, Math.round(s)));
   }
   function palier(s) {
