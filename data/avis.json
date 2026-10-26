@@ -23000,7 +23000,19 @@
 "bois"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des systèmes de cloche d'appel dans plusieurs installations de Santé Québec Nord-de-l'Île-de-Montréal-Universitaire. Les travaux sont prévus sur trois sites différents.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b03246c7-1b1f-436a-b804-d314b6b0015b",
@@ -23081,7 +23093,20 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation, le réaménagement et l'ajout de ventilation aux unités 2A-3A-4A d'un CHSLD. Les travaux impliquent des aspects architecturaux, structurels, mécaniques, électriques et de sécurité incendie.",
+"pointsAttention": [
+"Délai long (3 ans)",
+"Projet complexe impliquant plusieurs corps de métier"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de rénovation où la maçonnerie et la charpenterie/menuiserie sont probablement incluses dans les travaux architecturaux et structurels, mais le titre ne les met pas en avant.",
+"version": 3
+}
 },
 {
 "id": "b5985bd7-164a-4d0a-9b46-4b4e0fdf3746",
@@ -23176,7 +23201,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection partielle de la toiture de plusieurs bassins pour l'école de la Haute-Ville. Les travaux comprennent la démolition et la reconstruction complète des systèmes de toiture et des solins.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "36905ae9-998d-48a8-b5f7-b6f41962fd30",
@@ -23239,7 +23277,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture, la livraison et l'installation des portes, cadres et quincailleries pour le Centre Cinéma Impérial. L'entrepreneur doit prévoir une visite de relevé des dimensions sur place.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la fourniture et l'installation de portes et quincailleries, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie.",
+"version": 3
+}
 },
 {
 "id": "53f3e927-6fde-4e5c-9552-8c7051622035",
@@ -23320,7 +23370,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau du système d'alarme incendie et l'installation de gicleurs pour une école primaire. Les travaux impliquent des installations techniques et ne touchent ni la maçonnerie ni la charpenterie/menuiserie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est purement technique et ne concerne pas les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "8421595d-179a-4eb8-bb0a-da12a94a6ddb",
@@ -23395,7 +23457,23 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien préventif et correctif des systèmes CVC (chauffage, ventilation, climatisation) des bâtiments municipaux de la Ville de Kirkland. Le contrat prévoit une durée de 12 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat concerne l'entretien CVC et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ec5e9632-83a2-4dbf-8669-f67d820e8f73",
@@ -23457,7 +23535,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'ajout d'un échangeur à vapeur pour créer une redondance de chauffage de l'unité coronarienne à l'Hôtel-Dieu de Lévis. Les travaux sont prévus entre le 1er décembre 2026 et le 31 mars 2027 pour un montant estimé de 200 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est purement lié à la mécanique/chauffage et n'implique aucun travail de maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d2cfd64c-3780-4b10-a8d9-18cac6f7c6d4",
@@ -23521,7 +23611,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation d'une génératrice pour le Centre jeunesse de Sept-Îles.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "cf415c35-0ff7-45ac-95d7-fc34a31d09ad",
@@ -23599,7 +23701,19 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la reconstruction de la Phase 2 d'un Centre de Santé. Les travaux sont prévus pour une durée de 4 mois et ont un montant estimé de 2 298 061 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la construction d'un bâtiment, ce qui inclut potentiellement des lots de maçonnerie et/ou charpenterie, mais le titre général est 'Construction et maintenance de bâtiments ou d’installations'.",
+"version": 3
+}
 },
 {
 "id": "bfefe44c-5d95-4dee-bd81-c7760ca97d3e",
@@ -23662,7 +23776,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux de plomberie à exécution sur demande pour les établissements du Centre de services scolaire des Grandes-Seigneuries. Le mandat consiste à fournir une main-d'œuvre indépendante pour certains travaux de plomberie.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement des travaux de plomberie, ce qui est hors du champ d'expertise de l'entreprise (maçonnerie/charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "merx-444178692812",
