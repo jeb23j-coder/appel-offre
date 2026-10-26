@@ -22224,7 +22224,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de désamiantage de murs intérieurs de la station d'eau potable Pont-Viau. La durée prévue est de 12 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "cbce38de-bd5f-4bd4-a135-b7cd2c360ae1",
@@ -22287,7 +22299,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne un service d'intégrateur en câblage structuré pour l'École Polytechnique de Montréal. Le montant estimé est de 325 000 $ pour une durée de 36 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le câblage structuré et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b7ce8780-19c4-495e-b977-26bb9cea2ef4",
@@ -22360,7 +22384,19 @@
 "fenêtre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de 83 fenêtres dans un campus. Le montant estimé est de 1 500 000 $ et la durée prévue est de 15 mois.",
+"pointsAttention": [
+"délai de 15 mois"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne principalement la menuiserie (fenêtres) et non le cœur de métier de la maçonnerie ou de la charpenterie.",
+"version": 3
+}
 },
 {
 "id": "f25fd020-4f6d-428b-9861-69e75bae760b",
@@ -22423,7 +22459,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux électromécaniques requis suite au réaménagement d'un centre de formation de la Ville de Laval. Les codes de travaux mentionnés sont liés à l'installation et la maintenance de systèmes CVC (chauffage, ventilation et climatisation).",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux électromécaniques et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c6ac3940-9a20-4594-b370-0734a76b5eb5",
@@ -22500,7 +22548,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de nivellement et la construction de terrains de sport synthétiques et l'aménagement d'un parc. Il n'y a aucune mention des métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"pointsAttention": [
+"N/A"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-444178692812",
