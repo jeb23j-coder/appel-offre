@@ -8179,5 +8179,611 @@
 "estimation": 425000,
 "fourchette": null,
 "estimationVerifiee": true
+},
+{
+"id": "22e7f986-8851-4704-ae25-0402aa953fb8",
+"numero": "7000018353",
+"titre": "Hôtel de ville - Réfection d'un bassin de toiture ",
+"organisme": "Ville de Trois-Rivières",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "14",
+"surDemande": false,
+"fermeture": "2026-10-26T11:00",
+"publie": "2026-10-05T14:59",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "La\nVille de Trois-Rivières demande des soumissions pour des travaux comprenant, sans s’y\nlimiter, la réfection d’un bassin de toiture de l’hôtel de ville ainsi que la\ncorrection de deux drains de toiture.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=22e7f986-8851-4704-ae25-0402aa953fb8",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection d'un bassin de toiture et la correction de deux drains de toiture pour l'hôtel de ville de Trois-Rivières.",
+"pointsAttention": [
+"non précisé sur l'avis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne mentionne ni maçonnerie ni charpenterie/menuiserie comme travaux principaux.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "c2da7484-2db3-4991-838a-f7838b0458d8",
+"numero": "M22015PK-01",
+"titre": "Remplacement de deux tours d'eau au pavillon Président-Kennedy (PK)",
+"organisme": "Université du Québec à Montréal",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment"
+],
+"cautionSoumission": "Cautionnement, 10 %",
+"estimation": 850000,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-10-26T11:00",
+"publie": "2026-10-05T08:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Université du Québec à Montréal ci-après nommée le\nPropriétaire, ayant son siège au 1430, rue Saint-Denis, H2X 3J8, Montréal,\nQuébec, demande des soumissions pour le\nremplacement complet des tours d'eau existantes numéro 2 et 3 situées sur la\ntoiture du pavillon Président-Kennedy (PK), situé au 201, avenue du\nPrésident-Kennedy à Montréal, H2X 3Y7. Les travaux comprennent notamment la\ndéconnexion et la reconnexion de l'ensemble des services mécaniques,\nélectriques et de contrôle, le démantèlement et l'évacuation des équipements\nexistants, les opérations de levage requises au moyen d'une grue ainsi que la\nfourniture, l'installation, le raccordement, la mise en service et les essais\ndes nouvelles tours d'eau. Le remplacement est de type « un pour un », les\nnouveaux équipements devant être installés aux emplacements actuels et offrir\nune capacité ainsi qu’une performance équivalente aux équipements existants.\nL'objectif du projet est le renouvellement d'actifs arrivés à la fin de leur\nvie utile par des équipements de technologie actuelle conformes aux normes et\npratiques en vigueur.\nLe Contrat comprend aussi la récupération de certains\néquipements existants et leur réinstallation. L’Entrepreneur doit considérer\nque les usagers et occupants du bâtiment poursuivront leurs activités durant\nles travaux. L’Entrepreneur devra agir de façon à minimiser les inconvénients\naux usagers et personnel. De même, la cour extérieure, stationnement, accès,\netc., continueront aussi d’être utilisés, durant toute la durée des travaux. L’Entrepreneur\ndevra s’assurer que les usagers auront accès aux locaux et aux aménagements\ndans un climat sécuritaire, salubre et sans discontinuité. \nCeci inclut tous les travaux d’aménagement, tous les\ntravaux de démolition, protection, ragréage et autres nécessaires au\nparachèvement complet de l’Ouvrage et tous les travaux connexes tels :\naménagement et nettoyage du site, ouvrage de protection temporaire, réparations\net modifications des ouvrages d’aménagements intérieurs existants. Tous les\ntravaux de jointement, de réparation, percement, requis pour les travaux des\nprésentes sont inclus. \nL’Entrepreneur aura l’entière responsabilité du\ncontrôle des accès aux lieux, du chantier. Dans les situations où l’Entrepreneur\ndoit exécuter des travaux ailleurs dans le bâtiment ou dans les cas où il doit\nprocéder à des coupures de services électromécaniques, il le fera en dehors des\nheures normales d’occupation par les usagers, d’après les autorisations du Propriétaire.\nEnfin, l’Entrepreneur aura l’entière responsabilité de\nla santé, de la sécurité et de la protection temporaire au chantier. \nLa personne responsable pour répondre aux questions\ndes Soumissionnaires est (voir art.8 des « Instructions aux\nsoumissionnaires ») Marc-Olivier Rivest, chargé de projet. Toute question sera adressée\npar écrit à l'adresse courriel : rjivest.marc-olivier@uqam.ca\nLe Propriétaire se réserve la\npossibilité de ne pas considérer une demande de précision qui n’entra",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c2da7484-2db3-4991-838a-f7838b0458d8",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement complet de deux tours d'eau sur la toiture du pavillon Président-Kennedy, incluant la déconnexion/reconnexion de services mécaniques, électriques et de contrôle. Les travaux comprennent la démolition, le ragréage, et les travaux de jointement requis.",
+"pointsAttention": [
+"visite obligatoire",
+"travaux connexes incluant jointement et réparation"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur les travaux mécaniques et électriques (tours d'eau) et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie/menuiserie comme cœur du contrat.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "fedaf969-6f89-432c-bb14-31654acf410b",
+"numero": "202600067",
+"titre": "Remplacement de l’unité de ventilation de l’administration Plafonds et éclairage au CFP de Québec",
+"organisme": "Centre de services scolaires de la Capitale",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bois",
+"enveloppe"
+],
+"cautionSoumission": "Cautionnement, 10 %",
+"estimation": 1200000.0,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-10-26T10:00",
+"publie": "2026-09-30T09:11",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "N° D’APPEL D’OFFRES : 202600067\nNom du projet : CFP DE QUÉBEC Remplacement de l’unité de ventilation de\nl’administration Plafonds et éclairage\nNuméro de projet : 074-25-110\nPropriétaire : Centre\nde services scolaire de la Capitale\n Services\ndes ressources matérielles\n 125,\nrue des Commissaires Ouest\n Québec (Québec) G1K\n1M7\n Tél. \n418 686-4040 Poste 2520\n Architectes/Ingénieurs :\n ARCHITECTES \n RLD ARCHITECTES INC. \n 1972, chemin du Sault, Lévis QC G6W 2L2\n Tél. 418 834-1221 p.222 \n Sylvain Larouche, architecte \n s.larouche@rld-architectes.com\n INGÉNIEURS en mécanique-électricité \n GÉNÉCOR EXPERTS-CONSEILS INC. \n 885, avenue Royale, Québec QC G1E 1Z9 \n Tel. 418 666-0009 p.272 \n Alexandre Roy, ingénieur \n aroy@genecor.com\n INGÉNIEURS en structure \n WSP \n 1135, boulevard Lebourgneuf #1125,\n Québec QC G2K 0J2 \n Tel. 418 809-9440 \n Félix Boisvert, ingénieur \n felix.boisvert@wsp.com \nLe CENTRE DE SERVICES SCOLAIRES DE LA CAPITALE demande des soumissions\npour retenir les services d'un entrepreneur en vue d’effectuer le\nremplacement de l’unité de ventilation de l’administration - Plafonds et\néclairage au CFP de Québec, situé au 1925, Monseigneur-Plessis à Québec QC G1M\n1A4 dans la période du 4 janvier 2027 au 19 mars 2027,\nplus précisément selon l’Échéancier prévu à l’annexe 0.01.13 des conditions\ngénérales. \nLes plans,\ndevis et tout autre document pourront être obtenus uniquement sur le site\ninternet SEAO.\n Une visite unique et importante d’information\nest prévue le 9 octobre 2026 à 11h00 au 1925, Monseigneur-Plessis à Québec QC G1M 1A4.. Cependant, toute\nfermeture temporaire de l’établissement visé, par exemple la fermeture du CENTRE\nDE SERVICES SCOLAIRE DE LA CAPITALE lors d’une tempête hivernale, entraînera un\nreport de cette visite et le CENTRE DE SERVICES SCOLAIRE DE LA CAPITALE fixera\nune nouvelle date et publiera un nouvel avis dans les meilleurs délais.\nToute Soumission devra être\naccompagnée d'un cautionnement de soumission conforme représentant 10 % du montant total de la soumission excluant toutes\nles taxes applicables, valide pour une période de 60 jours de la date d’ouverture des soumissions, sans quoi la soumission\nsera automatiquement rejetée. Ce\ncautionnement de soumission doit être présenté sur le formulaire obligatoire\nANNEXE 4.01 A ou ANNEXE 4.01 B du formulaire de soumission. Il devra être échangé à la signature du Contrat,\ns’il y a lieu, pour un cautionnement d’exécution et un cautionnement des\nobligations pour gages, matériaux et service, toujours\nselon des formulaires obligatoires en annexes des Conditions générales. Le montant\nde chacun de ces derniers cautionnements correspondra à 50 % du prix du contrat.\nUn (1) original de la soumission dans une enveloppe cachetée, seront reçues au CENTRE DE SERVICES\nSCOLAIRE DE LA CAPITALE au bureau des Services des ressources matérielles, 1er\nétage (réception), situé au 125, rue des Commissaires Ouest,\nQuébec (Québec) G1K1M7 jusqu’à 9h00 le 23 octobre 2026 pour être\nouvertes publiquement en ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fedaf969-6f89-432c-bb14-31654acf410b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'unité de ventilation, des plafonds et de l'éclairage au CFP de Québec. Le montant estimé est de 1 200 000,00 $ pour une durée prévue de 24 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la ventilation, les plafonds et l'éclairage, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"bois"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T10:55",
+"soumissions": [
+{
+"nom": "ACTION ESTIMATION INC.",
+"montant": 532633.0
+},
+{
+"nom": "Constructions Dubois",
+"montant": 545545.0
+},
+{
+"nom": "LES ENTREPRISES QUÉBECHAB LTÉE",
+"montant": 547453.0
+},
+{
+"nom": "QUALITÉ CONSTRUCTION (CDN) LTÉE",
+"montant": 548548.0
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 579000.0
+},
+{
+"nom": "GROUPE SYMACO INC.",
+"montant": 595490.0
+},
+{
+"nom": "LES CONSTRUCTIONS BÉ-CON INC.",
+"montant": 609499.0
+}
+]
+}
+},
+{
+"id": "ab5046b0-6d23-433d-841c-e582c8e84ceb",
+"numero": "734-2526FEU03-1",
+"titre": "École Bourg de Carleton-sur-Mer - Reconstruction de l'aile A (Ouest)",
+"organisme": "Centre de services scolaire René-Lévesque",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"reconstruction",
+"école"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 5500000,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-10-26T11:00",
+"publie": "2026-09-25T09:47",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72103305 - Pose de canalisations",
+"72121406 - Construction de bâtiments scolaires",
+"72141510 - Démolition",
+"72151100 - Installation de plomberie",
+"72151302 - Peinture de bâtiments commerciaux",
+"72151901 - Construction de fondations"
+],
+"description": "École Bourg de Carleton-sur-Mer\n- Démolition et reconstruction d'une section de l'aile A\n- Drainage et imperméabilisation des fondations du bâtiment\n- Remplacement de canalisation \n- Travaux de finition intérieur dans tout le bâtiment",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=ab5046b0-6d23-433d-841c-e582c8e84ceb",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition et la reconstruction d'une section de l'aile A d'une école, avec des travaux de drainage, imperméabilisation des fondations, remplacement de canalisations et des travaux de finition intérieure.",
+"pointsAttention": [
+"Montant estimé de 5,5 M$ (dans la limite de 15 M$)",
+"Durée prévue de 10 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux de reconstruction, ce qui inclut potentiellement des aspects de maçonnerie ou de charpenterie, mais les codes de travaux listés sont très orientés vers les travaux de plomberie et de fondations.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"reconstruction",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T11:15",
+"soumissions": [
+{
+"nom": "LES CONSTRUCTIONS SCANDINAVES INC.",
+"montant": 5699000.0
+},
+{
+"nom": "HABITAT CONSTRUCTION MATANE (1986) INC.",
+"montant": 6092529.0
+},
+{
+"nom": "LFG Construction",
+"montant": 6138220.0
+},
+{
+"nom": "Duotech / 9456-8417 Québec inc.",
+"montant": 6711111.0
+}
+]
+}
+},
+{
+"id": "6e4ea630-bef8-4617-85e8-eb750fdb25c5",
+"numero": "468-RM-2026",
+"titre": "CONTRAT À EXÉCUTION SUR DEMANDE - ENTREPRENEUR GÉNÉRAL",
+"organisme": "Cégep de Saint-Laurent.",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10 % du prix total proposé",
+"estimation": 600000,
+"dureeMois": "36",
+"surDemande": true,
+"fermeture": "2026-10-26T10:00",
+"publie": "2026-09-24T08:29",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment"
+],
+"description": "AVIS\nD’APPEL D'OFFRES PUBLIC\n468-RM-2026\nCONTRAT\nÀ EXÉCUTION SUR DEMANDE - ENTREPRENEUR GÉNÉRAL\nLe Cégep de St-Laurent est à la\nrecherche d’un entrepreneur pour exécuter des travaux généraux\nLes travaux comprennent l’ensemble\ndes catégories énumérées ci-dessous : \n· \nCharpentier-menuisier\n· \nPeintre\n· \nPoseur de systèmes intérieurs\n· \nManœuvre en décontamination\n· \nSurintendant de chantier\nSUBSTITUTION OU ÉQUIVALENCE\nToute proposition de substitution ou\nd'équivalence doit être soumise au plus tard 10 jours avant la limite de dépôt\ndes soumissions et en conformité avec la procédure prévue aux documents d’appel\nd’offres.\nCALENDRIER DES TRAVAUX\nDébut du contrat : 1er novembre\n2026\nFin du contrat : 31 octobre 2029 \nRÉCEPTION DES SOUMISSIONS\n Les soumissions adressées\nà Approvisionnement, seront reçues au 625, avenue Sainte-Croix,\nMontréal, H4L 3X7, Réception des marchandises (Local D77) ou par dépôt\nélectronique sur le site du SEAO jusqu'à 10 h 00, heure en vigueur localement,\nle 26 ème jour du mois d’octobre 2026.\n Les soumissions reçues seront\nouvertes le même jour et à la même heure selon les conditions énumérées dans\nles documents d’appel d’offres.\nhttps://teams.microsoft.com/meet/259680226180283?p=JTUnpfWc7V4gBWedGF\nNuméro de réunion : 259 680 226 180 283 \nCode secret : EM6Kn7AG\n Les soumissionnaires qui\ndésirent recevoir de l’information ou des précisions au regard de l’appel\nd’offres doivent obligatoirement le faire par écrit en\ncommuniquant avec la personne suivante en prenant soin de préciser le numéro et\nle titre de l’appel d’offres.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6e4ea630-bef8-4617-85e8-eb750fdb25c5",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 70,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne l'exécution de travaux généraux pour le Cégep de Saint-Laurent sur une période de 36 mois. Les travaux incluent explicitement le rôle de Charpentier-menuisier parmi les corps de métier requis.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement le métier de Charpentier-menuisier, ce qui correspond à une de vos cibles principales.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-26T10:12",
+"soumissions": [
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 518586.0
+},
+{
+"nom": "Les Constructions Serbec Inc.",
+"montant": 527083.6
+},
+{
+"nom": "PINCOR LTÉE",
+"montant": 561185.91
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 591000.0
+},
+{
+"nom": "Groupe Belisle inc.",
+"montant": 619200.0
+},
+{
+"nom": "Groupe KTP",
+"montant": 625518.12
+}
+]
+}
+},
+{
+"id": "0eb4f83b-ce22-4451-a8bc-92208cb43546",
+"numero": "307174",
+"titre": "Démolition complète des bâtiments, Habitations Marie-Victorin                     ",
+"organisme": "OMH de Montréal (OMHM)",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"escalier"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-10-26T11:00",
+"publie": "2026-09-21T08:44",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "1. \nObjet du contrat\n 1.1 \nL’OMHM\nprocède à une procédure ouverte publique pour démolition complète des\nbâtiments, Habitations Marie-Victorin, 12 615 à 12675 av. Jean-Rainaud, Arrondissement :\nRivière-des-Prairies–Pointe-aux-Trembles.\n1.2 \nLe\nprojet consiste à réaliser tous les travaux conformément aux documents\ncontractuels. Sans s’y limiter, la portée des travaux inclut :\n- \nDémolition\ncomplète (intérieur, extérieur, mur, fondation, toiture, escalier, clôture\nbasse, etc.);\n- \nDébranchement\ndes services d’utilités, d’aqueduc, d’électricité, etc.;\n- \nGestion\ndes matériaux contenant des contaminants;\n- \nGestion\ndes déchets selon la réglementation en vigueur;\n- \nGestion\ndes sols;\n- \nRemblayer\net compacter le terrain excavé avec des matériaux appropriés;\n- \nRemise\nen état et nivellement du terrain;\n- \nConservation\net protection des services d’utilités utilisées pour alimenter les bâtiments\nadjacents. Les bâtiments adjacents sont occupés. Ils devront demeurer\naccessibles et fonctionnels pendant les travaux. Les travaux de démolition\ndevront être gérés de façon à contrôler et réduire la poussière, le bruit, les\nvibrations ainsi que les autres éléments pouvant réduire la qualité de vie de\nnos locataires.\nLe\nprojet de démolition ne comprend pas de plans. Seul le certificat de\nlocalisation datant de 2021, le plan existant datant de 1978 et un devis de\ndémolition (décontamination) sont inclus aux documents. Il est possible que les\nplans existants ne soient pas complètement fidèles au bâtiment construit.\nPour\nles travaux de débranchement et de murage, l’entrepreneur doit prendre les\nmoyens nécessaires (test caméra ou autre méthode) afin de localiser précisément\nle point de raccordement de chacun des branchements aux conduites publiques\nauxquelles ils sont raccordés. Procédez au marquage de chacun de ces\nemplacements d'un X à la peinture (lieu de la future excavation, généralement\nsitué sur la chaussée). Dans le cas d'un branchement d'égout, lors des travaux\nde démolition, obstruer ce dernier à la limite de propriété au moyen d'un\nbouchon étanche et marquer son emplacement au moyen d'un piquet. Dans le cas\nd'un branchement d'eau, communiquez avec les travaux publics afin que ces\nderniers procèdent à la fermeture de la valve d'alimentation en eau (généralement\nsituée à la limite de propriété).\nL’entrepreneur devra\nprévoir les travaux de démolition en deux phases. \n- \nLa\npremière phase comprendra le débranchement et le murage des systèmes existants\nafin de permettre à l’OMHM d’aller chercher les permis nécessaires à la\ndémolition complète du bâtiment. L’entrepreneur doit donc prévoir une pause\nentre les deux phases du projet. L’entrepreneur sélectionner pour exécuter les\ntravaux devra remplie le formulaire 18 de la ville de Montréal (Avenant de la\nVille de Montréal) afin de permettre à l’OMHM d’aller cherchez le permis de\ndébranchement et de murage. L’entrepreneur sélectionner pour exécuter les\ntravaux devra donc prévoir un délai entre la date de l’attributio",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0eb4f83b-ce22-4451-a8bc-92208cb43546",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la démolition complète de bâtiments, incluant la démolition de murs, d'escaliers et de clôtures, ainsi que la gestion des sols et des services publics.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le contrat soit axé sur la démolition, il inclut des travaux de murage et de débranchement qui peuvent impliquer la maçonnerie, mais le cœur du projet est la démolition complète.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"escalier",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
+},
+{
+"id": "64531fb0-4b9c-431b-942d-4ac985ab3aaa",
+"numero": "HA-66-26",
+"titre": "Remplacement, installation, mise en service et entretien des compteurs d'eau et antennes de télérelève",
+"organisme": "Ville de Hampstead",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "36",
+"surDemande": false,
+"fermeture": "2026-10-27T10:00",
+"publie": "2026-09-14T16:13",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le présent appel d'offres vise la fourniture, l'installation, la mise en service, l'entretien et la gestion de compteurs d'eau et d'antennes de télérelève pour l'ensemble du parc municipal de la Ville de Hampstead, estimé à environ 1 900 compteurs. Le mandat comprend notamment la gestion des rendez-vous avec les résidents, l'inspection des installations existantes, le remplacement ou la réinstallation des antennes, le remplacement des piles, la configuration des équipements, les essais de fonctionnement, la production de rapports ainsi que l'intégration complète des données à la plateforme my.Hampstead. L'adjudicataire devra également assurer les services d'exploitation du réseau et de la plateforme, le soutien technique, la gestion des données, la conformité à la Loi 25, ainsi que le transfert des données et des accès à la fin du contrat. Les travaux sont prévus sur une période de trois ans, soit de novembre 2026 à décembre 2028, pour un total estimatif de 1 900 compteurs",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=64531fb0-4b9c-431b-942d-4ac985ab3aaa",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture, l'installation, la mise en service et l'entretien de compteurs d'eau et d'antennes de télérelève pour le parc municipal de la Ville de Hampstead.",
+"pointsAttention": [
+"délai long (3 ans)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-26"
 }
 ]
