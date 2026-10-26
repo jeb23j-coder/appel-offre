@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CLE_PRIVEE: ${{ secrets.CLE_PRIVEE }}
+      GMAIL_ADDRESS: ${{ vars.GMAIL_ADDRESS }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,6 +35,7 @@ jobs:
       - name: Envoyer le résumé de minuit
         run: python scanner/resume.py ${{ inputs.force && '--force' || '' }}
       - name: Retenir que le résumé du jour est parti
+        if: success()
         run: |
           git config user.name "radar-chantier-bot"
           git config user.email "radar-chantier-bot@users.noreply.github.com"

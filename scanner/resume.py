@@ -4,13 +4,14 @@ Chaque profil qui a un courriel reçoit UN courriel par jour, avec les critères
 qu'ils sont à minuit (peu importe combien de fois ils ont changé dans la journée) :
   - les nouveaux contrats des dernières 24 h qui correspondent à ses critères ;
   - ses contrats (score 40 et plus) qui ferment dans les 7 prochains jours.
-Le courriel est envoyé par ntfy (sans mot de passe). data/resume.json empêche un deuxième envoi le même jour.
+Le courriel est envoyé par Gmail (mot de passe d'application dans les secrets GitHub). data/resume.json empêche un deuxième envoi le même jour.
 """
 import datetime as dt
 import json
 import os
+import smtplib
 import sys
-import urllib.request
+from email.message import EmailMessage
 from pathlib import Path
 
 from courriel import dechiffrer
@@ -33,6 +34,19 @@ def ligne(a, sc):
     return f"• [{sc}] {a['titre'][:100]} — {a.get('organisme') or ''}, {', '.join(a.get('regions') or [])[:40]} · ferme le {(a.get('fermeture') or '').replace('T', ' à ')} · {argent(a.get('estimation'))}"
 
 
+def envoyer_gmail(dest, sujet, texte):
+    """Envoie le courriel par Gmail (SMTP) avec l'adresse et le mot de passe d'application du dépôt."""
+    expediteur = os.environ["GMAIL_ADDRESS"]
+    msg = EmailMessage()
+    msg["From"] = f"Radar Chantier <{expediteur}>"
+    msg["To"] = dest
+    msg["Subject"] = sujet
+    msg.set_content(texte)
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as m:
+        m.login(expediteur, os.environ["GMAIL_APP_PASSWORD"].replace(" ", ""))
+        m.send_message(msg)
+
+
 def main():
     maintenant = maintenant_quebec()  # « AAAA-MM-JJTHH:MM » heure du Québec
     jour = maintenant[:10]
@@ -48,6 +62,7 @@ def main():
     hier = (dt.datetime.fromisoformat(maintenant) - dt.timedelta(days=1)).strftime("%Y-%m-%dT%H:%M")
     dans7 = (dt.datetime.fromisoformat(maintenant) + dt.timedelta(days=7)).strftime("%Y-%m-%dT%H:%M")
 
+    echecs = 0
     for pid, prof in cfg["profils"].items():
         try:
             courriel = dechiffrer(prof.get("courrielChiffre"))
@@ -70,14 +85,15 @@ def main():
         texte = "\n".join(lignes)
         if len(texte) > 3800:  # limite d'un message
             texte = texte[:3800] + f"\n… la suite sur le site : {SITE}"
-        corps = {"topic": f"radar-resume-{pid}", "title": f"Radar Chantier · {len(nouveaux)} nouveau(x) contrat(s) · {jour}",
-                 "message": texte, "click": SITE, "email": courriel, "tags": ["construction"]}
-        req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(corps).encode(), headers={"Content-Type": "application/json"})
+        sujet = f"Radar Chantier · {len(nouveaux)} nouveau(x) contrat(s) · {jour}"
         try:
-            with urllib.request.urlopen(req, timeout=30) as r:
-                print(f"{prof['nom']} : résumé envoyé ({r.status}) · {len(nouveaux)} nouveaux · {len(bientot)} ferment bientôt")
+            envoyer_gmail(courriel, sujet, texte)
+            print(f"{prof['nom']} : résumé envoyé · {len(nouveaux)} nouveaux · {len(bientot)} ferment bientôt")
         except Exception as e:
-            print(f"{prof['nom']} : résumé non envoyé ({e})")
+            print(f"{prof['nom']} : résumé non envoyé ({type(e).__name__}: {e})")
+            echecs += 1
+    if echecs:  # on réessaiera au prochain passage, et le robot s'affiche en échec
+        sys.exit(1)
     etat["jour"] = jour
     ETAT.write_text(json.dumps(etat), encoding="utf-8")
 
