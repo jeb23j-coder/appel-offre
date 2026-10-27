@@ -9649,5 +9649,224 @@
 }
 ]
 }
+},
+{
+"id": "a32b0910-1525-4eca-8f3c-9b3e29c51ee2",
+"numero": "STC-021-2026",
+"titre": "Fourniture de service en réfrigération",
+"organisme": "Centre de services scolaire De La Jonquière.",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), 5 000 $",
+"estimation": 210000,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2026-10-27T13:30",
+"publie": "2026-09-30T15:54",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "APPEL D'OFFRESDE SOUMISSION \nPROJET \nFourniture de service en réfrigération \nN/D: STC-021 \nPROPRIÉTAIRE \nCentre de services scolaire De La Jonquière \n3644, rue Saint-Jules \nSaguenay, arr. de Jonquière (Québec) G7X 2K9 \nTél. : (418) 542-7551 Téléc. : (418) 547-6785\nObtention des documents \nLes documents d’appel d’offres et, le cas échéant, tout addenda les modifiant ne peuvent être obtenus que par l’intermédiaire du système électronique d’appel d’offres(SÉAO). Les renseignements nécessaires à la préparation de votre offre peuvent être obtenus auprès de MmeNathalie Riverin, coordonnatrice au Service des ressources matérielles et informationnellesdu Centre de services scolaire De La Jonquière, au numéro de téléphone 418-542-7551 poste 4298, ou par courrier électronique à l’adresse rm.appro@cssdlj.gouv.qc.ca \nGarantie de soumission \nChèque visé, traite bancaire ou cautionnement de soumission au montant de cinq mille dollars (5 000,00 $) valide pour une période de trente jours.\nDépôt et ouverture des soumissions \nLe mardi 27octobre 2026 à 13 h 30, au 3644, rue Saint-Jules, Saguenay, arrondissement de Jonquière (Québec).\nSoumissionnaires \nSeules seront considérées aux fins d’octroi du contrat à exécution sur demande, les soumissions des fournisseurs ayant un établissement au Québec ou, lorsqu’un accord intergouvernemental est applicable, au Québec ou dans une province ou un territoire visé par cet accord et détenant, le cas échéant, la licence requise en vertu de la Loi sur le bâtiment (L.R.Q., c. B.-1.1). \nLe propriétaire ne s'engage à accepter aucune des soumissions reçues.\nDonné à Saguenay, arrondissement de Jonquière, ce 30e jour du mois de septembre2026. \nSteeve Néron, directeur général adjoint \nCentre de services scolaire De La Jonquière",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a32b0910-1525-4eca-8f3c-9b3e29c51ee2",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de services en réfrigération pour le Centre de services scolaire De La Jonquière. Le montant estimé est de 210 000 $ pour une durée prévue de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-27"
+},
+{
+"id": "85f6f5ec-9ba2-4db4-9189-18a875132101",
+"numero": "44547940",
+"titre": "Travaux de réaménagement et optimisation des espaces bureaux au 337, rue Moreault, Rimouski (Québec) G5L 1P4",
+"organisme": "SQI-Direction immobilière du Bas-Saint-Laurent et de la Gaspésie-Îles-de-la-Madeleine",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 997517.0,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-10-27T15:00",
+"publie": "2026-09-22T09:49",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72121103 - Rénovation et réparation d’immeubles commerciaux et de bureaux"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44547940\n Titre du\n contrat :\n Travaux de réaménagement et optimisation des espaces bureaux\n Adresse de l’immeuble :\n 337, rue Moreault,\n Rimouski (Québec) G5L 1P4\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\n La Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de réaménagement et\nd’optimisation d’espace bureaux pour l’immeuble situé au 337, rue Moreault, Rimouski (Québec) G5L 1P4.\n AVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\n Toute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission66@sqi.gouv.qc.ca. \nSoumissions\ndes sous-traitants\n Tous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions (TES).\n RÈGLEMENT SUR LES PAIEMENTS ET LE\nRÈGLEMENT RAPIDES DES DIFFÉRENDS EN MATIÈRE DE TRAVAUX DE CONSTRUCTION\nLes\ndispositions de la section II du chapitre",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=85f6f5ec-9ba2-4db4-9189-18a875132101",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux de réaménagement et d'optimisation des espaces bureaux pour un immeuble commercial situé à Rimouski. La durée prévue des travaux est de 6 mois pour un montant estimé à 997 517,00 $.",
+"pointsAttention": [
+"Délai de 6 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement de bureaux, ce qui implique potentiellement des travaux de finition intérieure (menuiserie) ou de modification de structure/façade (maçonnerie/charpenterie), mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-27"
+},
+{
+"id": "8d986ce0-4259-43dc-8383-2f0537c1fbfe",
+"numero": "44547179",
+"titre": "Agrandissement et réaménagement de l’Hôpital de La Malbaie au 303, rue Saint-Étienne, La Malbaie (Québec) G5A 1T1",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10% du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article « Garantie de soumission » des Instructions\naux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 199316316,
+"dureeMois": "56",
+"surDemande": false,
+"fermeture": "2026-10-27T15:00",
+"publie": "2026-07-17T10:39",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72121403 - Construction d’hôpitaux"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\nNuméro de contrat : \n44547179\n Titre du\n contrat :\n Agrandissement et\n réaménagement de l’Hôpital de La Malbaie\n Adresse de l’immeuble :\n 303, rue Saint-Étienne, La\n Malbaie (Québec) G5A 1T1\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\nAttention : Notez\nque seuls les documents exigés par la Société aux termes du présent\nappel d’offres doivent être remis avec la soumission, de manière à éviter toute\nsituation qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des\ninfrastructures (ci-après la « Société ») procède à un appel d’offres\npublic de travaux de construction visant les travaux d'agrandissement\nde l'Hôpital de la Malbaie par la construction d'un nouveau pavillon (bloc D)\nde cinq étages situés en bordure du boulevard De Comporté et relié sur deux\nniveaux au bloc A du bâtiment actuel. Le nouveau pavillon sera destiné\nnotamment à l'urgence, à l'unité de soins ambulatoires, aux cliniques externes,\nà l'imagerie médicale, au bloc opératoire, à l'endoscopie, aux unités de soins ainsi\nqu’à la pharmacie. Le projet prévoit également le réaménagement du bloc A pour\ny loger la réadaptation ainsi que plusieurs services auxiliaires et\nadministratifs. Une fois les travaux des blocs A et D complétés, les blocs B et\nC de l'infrastructure actuelle seront démolis pour réaliser des travaux\nd'aménagement d'un nouveau stationnement sur la rue Saint-Étienne. Le projet\npermettra de résoudre les enjeux actuels de manque d'espace et de vétusté\nphysique et fonctionnelle de l'hôpital.\nAVIS IMPORTANTS\nRecommandation\nde dépôt des soumissions par voie électronique\nLa Société a\nentrepris des initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation\nde contracter/attestation de Revenu Québec\nIl est\nfortement suggéré aux soumissionnaires de faire dès que possible, selon les\nexigences des documents contractuels, leur demande d’attestation de Revenu\nQuébec et, le cas échéant, leur demande d’autorisation de contracter auprès de\nl’Autorité des marchés publics, afin de s’assurer que ces exigences soient rencontrées\navant la date et l’heure limites indiquées dans les Instructions aux\nsoumissionnaires et/ou dans les Instructions complémentaires.\nNon-participation à l’appel d’offres\nToute personne\nou entreprise s’étant procuré les documents contractuels et qui ne présente pas\nde soumission, s’engage à compléter le formulaire « Questionnaire de\nnon-participation » inclus dans les documents contractuels et à transmettre\nc",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=8d986ce0-4259-43dc-8383-2f0537c1fbfe",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [
+"agrandissement",
+"bâtiment",
+"construction d"
+],
+"motsOk": true,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'agrandissement et le réaménagement de l'Hôpital de La Malbaie, incluant la construction d'un nouveau pavillon de cinq étages et le réaménagement du bloc A. Le projet implique des travaux de construction majeurs.",
+"pointsAttention": [
+"Durée prévue : 56 mois",
+"Montant estimé : 199 316 316 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de construction de bâtiment où la maçonnerie et la charpenterie/menuiserie joueront probablement un rôle significatif dans la construction des structures et des enveloppes.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": true
+},
+"traian": {
+"motsTrouves": [
+"agrandissement",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": true
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-27"
 }
 ]
