@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-10-27T15:51",
-"seaoLus": 315,
-"retenus": 321,
-"nouveaux": 6,
+"date": "2026-10-27T18:51",
+"seaoLus": 316,
+"retenus": 322,
+"nouveaux": 1,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -23950,7 +23950,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -24027,7 +24027,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -24113,7 +24113,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -24201,7 +24201,7 @@
 "logement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -24273,7 +24273,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -24363,7 +24363,7 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -24376,6 +24376,112 @@
 "raison": "Bien que le contrat soit pour un entrepreneur général, la mention de 'pierre' suggère une composante maçonnerie, mais le cœur du contrat est la réparation après sinistre, ce qui n'est pas clairement le métier principal recherché.",
 "version": 3
 }
+},
+{
+"id": "e33f6730-d7c8-4e98-9fae-646ab072b3d8",
+"numero": "234421-1",
+"titre": "Réfection de la maçonnerie – Phase 2 et remplacement de fenêtres",
+"organisme": "Centre de services scolaire du Val-des-Cerfs.",
+"regions": [
+"Estrie",
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 726665,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-26T14:00",
+"publie": "2026-10-27T16:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72151900 - Maçonnerie",
+"72152400 - Installation de portes et de fenêtres"
+],
+"description": "AVIS D’APPEL D'OFFRES PUBLIC\nTITRE : RÉFECTION DE LA MAÇONNERIE – PHASE 2 ET REMPLACEMENT DE FENÊTRES\nNo DOSSIER : 234421-1\nPropriétaire Centre de services scolaire du Val-des-Cerfs\nJulie Prud’homme\n55, rue Court\nGranby (Québec) J2G 9N6 (adresse municipale)\nTél. : 450 372-0221 poste 60259\nprojetsrm@cssvdc.gouv.qc.ca\nÉtablissement visé \nÉcole Saint Vincent-Ferrier\n125, rue d’Adamsville\nBromont (Québec) J2L 5Y5\nProfessionnel architecture\nBilodeau Baril Leeming architectes (BBLA)\n1625,\nboul. Mercure\nDrummondville\n(Québec) J2B 3N2\nVisite\nLa visite aura lieu le 10\nnovembre 2026 à 11h00\nLes personnes qui se présenteront, devront demeurer à l’extérieur jusqu’à\nl’arrivée du chargé de projet.\nTravaux visés:\n Réfection de certaines façades en\n maçonnerie et revêtement métallique\n Remplacement de fenêtres, de\n thermos et de moustiquaires\n Ajout d’acrylique de fondation \nÉchéancier \nDébut des travaux : 25 juin 2027\nFin des travaux pour les fenêtres : 20 août 2026\nFin des travaux (certificat de réception avec réserve) : 24\nseptembre 2027\nÉquivalence \nLes demandes d’équivalence doivent être déposées au plus tard 10 jours avant\nla date de dépôt des soumissions. Information Les demandes d’informations\ndoivent être adressées à l’adresse suivante : projetsrm@cssvdc.gouv.qc.ca\nLes questions seront traitées\nrapidement et les réponses feront l’objet d’addenda sous la forme de questions\n/réponses ou de modifications et ajouts aux Documents d’appel d’offres.\nL’ORGANISME PUBLIC se réserve le droit\nde ne pas considérer une demande formulée par un fournisseur si cette demande\nn’est pas transmise moins de 5 jours ouvrables avant la date et l’heure\nfixées pour la réception des soumissions.\nDocuments \nLes plans, devis, documents contractuels et autres renseignements pourront être\nobtenus que par l’intermédiaire du Système d’appels d’offres électroniques\n(SÉAO) au www.seao.ca\nModalité de dépôt des soumissions \nEnveloppe\nLes soumissions, dans des enveloppes\ncachetées et adressées au responsable, seront reçues au siège social du Centre\nde services scolaire du Val-des-Cerfs, 55, rue Court, à Granby, Québec, jusqu'à\n14 h 00, heure en vigueur localement, 26 novembre 2026 pour être\nouvertes publiquement au même endroit, le même jour et à la même heure. Toute\nsoumission reçue postérieurement sera automatiquement rejetée. \nOu\nVoie électronique\nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'offres\n(SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise\npar voie électronique doit être déposée (c'est-à-dire chiffrée, transmise,\nhorodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure\nlimites fixées pour la réception des Soumissions.\nModalité\nd’ouverture des soumissions \nConsidérant les dernières mises à jour du SCT, l’ORGANISME PUBLIC procède à une\nouverture des Soumissions avec public, de sorte que les SOUMISSIONNAIR",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e33f6730-d7c8-4e98-9fae-646ab072b3d8",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "55, rue Court Granby QC CAN J2G9N6",
+"ouverture": null,
+"adresseOuverture": "55, rue Court Granby QC CAN J2G9N6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-27T18:50",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"réfection",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"réfection",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"façade",
+"fenêtre",
+"maconnerie",
+"maçonnerie",
+"réfection",
+"école"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-444178692812",
