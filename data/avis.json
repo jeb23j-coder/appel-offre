@@ -23624,7 +23624,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "Le projet concerne la réfection d'une chambre froide et la réparation de fissures structurales au niveau des murs d'une école. Les travaux incluent le remplacement de cadres/portes et la réfection de l'étanchéité des murs de fondation.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des réparations structurelles et des travaux sur les murs qui touchent à la maçonnerie, ce qui est pertinent pour l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "caa547b3-6896-438f-a069-19f94f3ce0d4",
@@ -23699,7 +23711,23 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'implantation d'un nouveau système de chauffage/ventilation, le remplacement du système d'alarme incendie et un réaménagement mineur d'un local dans un centre de services scolaire.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5d3819a4-346e-4899-82ab-85c36b7f8758",
@@ -23781,7 +23809,20 @@
 "logement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de la construction d'un immeuble de 15 logements. Les codes de travaux indiquent une portée de construction et de maintenance de bâtiments.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de soumission de 20 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de construction d'immeuble où les métiers de maçonnerie et charpenterie/menuiserie sont probablement inclus comme lots à soumissionner.",
+"version": 3
+}
 },
 {
 "id": "83ed63df-25ff-4ff7-b33f-b13942c09272",
@@ -23861,7 +23902,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection complète des toitures des bassins 2B, 2C et 2D de l'Hôtel-Dieu de Montréal. Les travaux incluent la démolition des systèmes d'étanchéité, la réinstallation d'équipements et l'installation de nouveaux revêtements métalliques.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux de toiture et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0ce0ae40-6d3e-48e2-a6b3-bb168e5c13bc",
@@ -23944,7 +23997,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation de stores opaques dans les espaces collaboratifs de la nouvelle école Saint-Philippe. Le montant estimé est de 30 000 $ pour un projet d'une durée prévue d'un mois.",
+"pointsAttention": [
+"délai court (1 mois)",
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la fourniture et l'installation de stores, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ba5bbf67-8e7e-42f9-be5a-8b6f13fc6ce3",
@@ -24010,7 +24076,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de colonnes de service articulées au bloc opératoire de l'Hôpital Notre-Dame. Le mandat inclut le démantèlement et le réaménagement des réseaux de gaz médicaux et l'installation de nouveaux systèmes de distribution de dioxyde de carbone (CO₂).",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est entièrement lié aux systèmes médicaux et à la plomberie/ventilation hospitalière, ce qui n'est pas dans le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "merx-444178692812",
