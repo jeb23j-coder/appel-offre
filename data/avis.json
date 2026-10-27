@@ -23950,7 +23950,21 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction de nouveaux pavillons et le réaménagement de pavillons existants pour un campus de centres de la jeunesse et de la famille. Les travaux incluent des unités de vie, des services clinico-administratifs, sportifs, alimentaires, aménagements de site et la construction d'un tunnel.",
+"pointsAttention": [
+"Délai de 23 mois",
+"Montant estimé très élevé (74 M$)",
+"Nécessite une soumission électronique via SEAO"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de construction de bâtiments qui nécessitera probablement des lots de maçonnerie et/ou charpenterie/menuiserie, mais le titre général est la construction de bâtiments, ce qui rend la pertinence moyenne.",
+"version": 3
+}
 },
 {
 "id": "00a6ec5e-ad0d-4caf-b897-92f427c6e344",
@@ -24013,7 +24027,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la conversion des systèmes de chauffage au mazout et le remplacement du système de ventilation dans trois immeubles adjacents à New Carlisle. Le montant estimé est de 1 365 906,00 $ pour une durée prévue de 9 mois.",
+"pointsAttention": [
+"Cautionnement de soumission requis (10% du montant de la soumission)."
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne des travaux de chauffage et de ventilation, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7ceeb98c-e11c-4752-87c4-051c13c031f2",
@@ -24087,7 +24113,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de rénovations majeures d'un édifice situé à Sapummivik, avec une durée prévue de 23 mois et un montant estimé de 11 400 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est une rénovation majeure d'un bâtiment, ce qui implique probablement des travaux de maçonnerie et/ou de charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "8d9b2622-607c-451a-b85b-05ba0d6eb5cb",
@@ -24163,7 +24201,19 @@
 "logement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'un immeuble résidentiel de six étages comprenant 72 logements à Montréal. Le contrat vise la construction complète de l'immeuble.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le projet soit de construction, il n'est pas clairement centré sur la maçonnerie ou la charpenterie comme métier principal, mais il pourrait y avoir des lots importants à soumissionner.",
+"version": 3
+}
 },
 {
 "id": "6d34f8a4-5036-4614-aca6-1cd14219ff35",
@@ -24223,7 +24273,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne principalement la peinture des réservoirs d'une centrale thermique. Les travaux comprennent le nettoyage, la préparation des surfaces et la peinture des réservoirs.",
+"pointsAttention": [
+"non publié"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres ne concerne pas les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "84627ee8-81fa-4973-88f9-931c2e830bba",
@@ -24301,7 +24363,19 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux de réparation après sinistre par incendie pour un immeuble. Il vise un entrepreneur général pour exécuter ces réparations sur une durée prévue de 20 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le contrat soit pour un entrepreneur général, la mention de 'pierre' suggère une composante maçonnerie, mais le cœur du contrat est la réparation après sinistre, ce qui n'est pas clairement le métier principal recherché.",
+"version": 3
+}
 },
 {
 "id": "merx-444178692812",
