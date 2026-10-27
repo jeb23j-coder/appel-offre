@@ -24481,7 +24481,21 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 100,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de certaines façades en maçonnerie et le remplacement de fenêtres pour l'école Saint Vincent-Ferrier. Les travaux prévus incluent la réfection de façades et le remplacement de fenêtres, avec une durée estimée de trois mois.",
+"pointsAttention": [
+"Visite obligatoire le 10 novembre 2026 à 11h00",
+"Délai de fin pour les fenêtres : 20 août 2026",
+"Fin des travaux (certificat de réception avec réserve) : 24 septembre 2027"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est centré sur la réfection de la maçonnerie et le remplacement de fenêtres, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "merx-444178692812",
