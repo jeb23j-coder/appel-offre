@@ -8255,7 +8255,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-27T09:07",
+"soumissions": [
+{
+"nom": "Les Entreprises R.S.R.",
+"montant": 128657.03
+},
+{
+"nom": "9411-7801 Québec inc.",
+"montant": 159815.25
+},
+{
+"nom": "TOITURES DURATEK INC.",
+"montant": 186259.5
+}
+]
+}
 },
 {
 "id": "c2da7484-2db3-4991-838a-f7838b0458d8",
@@ -8325,7 +8344,42 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-27T11:42",
+"soumissions": [
+{
+"nom": "NÉVÉ RÉFRIGÉRATION INC.",
+"montant": 827200.0
+},
+{
+"nom": "PLOMBERIE CHARBONNEAU INC.",
+"montant": 880000.0
+},
+{
+"nom": "GASTIER M.P. INC.",
+"montant": 989676.73
+},
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 997720.0
+},
+{
+"nom": "MÉCANIQUE NORTHERM INC.",
+"montant": 1077777.0
+},
+{
+"nom": "MÉCANICACTION INC.",
+"montant": 1145157.0
+},
+{
+"nom": "Tuyauterie Expert inc",
+"montant": 1158400.0
+}
+]
+}
 },
 {
 "id": "fedaf969-6f89-432c-bb14-31654acf410b",
@@ -9050,7 +9104,18 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-27T11:34",
+"soumissions": [
+{
+"nom": "ACIER SELECT INC.",
+"montant": 3390000.0
+}
+]
+}
 },
 {
 "id": "79952bd5-192a-4e53-b127-bc1f8ca788dd",
@@ -9264,6 +9329,323 @@
 {
 "nom": "SAJO INC.",
 "montant": 33339000.0
+}
+]
+}
+},
+{
+"id": "cec04b71-a539-4478-a814-4b03894b3390",
+"numero": "20261013BÂTIMENT",
+"titre": "BÂTIMENT MULTI-FONCTION",
+"organisme": "Municipalité de Saint-Adrien-d'Irlande",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"béton",
+"charpente",
+"construction d",
+"fenêtre",
+"garage",
+"parement",
+"portes et fenêtres",
+"remise en état"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-10-27T10:00",
+"publie": "2026-10-13T16:11",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Construction d’un bâtiment de services municipal. Les travaux comprennent\nnotamment la préparation du site, les fondations et la dalle de béton armé\nisolée, la charpente, l’enveloppe extérieure en parement d’acier émaillé et\ntoiture de tôle, l’isolation, les portes et fenêtres, les portes de garage\nisolées, les finis intérieurs, ainsi que les travaux connexes d’électricité, de\nchauffage, de ventilation et de plomberie. Les travaux incluent également la\nprotection, le nettoyage et la remise en état des lieux conformément aux plans\net devis.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=cec04b71-a539-4478-a814-4b03894b3390",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie + charpenterie",
+"resume": "Le projet concerne la construction d'un bâtiment de services municipal incluant la charpente, l'enveloppe extérieure en parement d'acier émaillé, les portes et fenêtres, et les finis intérieurs. Les travaux englobent également des corps de métier connexes comme l'électricité, le chauffage, la ventilation et la plomberie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut clairement la charpente et le parement, ce qui correspond aux intérêts principaux de l'entreprise, mais il est un projet d'entrepreneur général.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"parement",
+"béton",
+"remise en état"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"parement",
+"béton",
+"remise en état",
+"charpente",
+"portes et fenêtres",
+"fenêtre",
+"construction d",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"parement",
+"béton",
+"remise en état",
+"charpente",
+"portes et fenêtres",
+"fenêtre",
+"construction d",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-27"
+},
+{
+"id": "947fbae4-2e4a-48d2-b61b-a69d3ac0b518",
+"numero": "202600066",
+"titre": "Remplacement de l’unité de ventilation du secrétariat des Plafonds et l'éclairage à l'EMOICQ",
+"organisme": "Centre de services scolaires de la Capitale",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"enveloppe"
+],
+"cautionSoumission": "Cautionnement, 10 %",
+"estimation": 750000,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-10-27T11:00",
+"publie": "2026-10-06T09:30",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "N° D’APPEL D’OFFRES : 202600066\nNom du\nprojet : Remplacement de l’unité de ventilation du\nsecrétariat \n –\nPlafonds et éclairage\nNuméro de projet : 072-25-119\nPropriétaire : Centre\nde services scolaire de la Capitale\n Services\ndes ressources matérielles\n 125,\nrue des Commissaires Ouest\n Québec (Québec) G1K\n1M7\n Tél. \n418 686-4040 Poste 2520\nArchitectes/Ingénieurs : \nNIVO 9 ARCHITECTES Genecor WSP\n701 avenue\nRoyale 885\navenue Royale 1000\nrte de l’Église, bur.130\nQuébec, Qc Québec,\nQc Québec,\nQc\nG1E 1Z1 G1E\n1Z9 G1V\n3V9\nLe CENTRE DE SERVICES SCOLAIRES DE LA CAPITALE demande des soumissions\npour retenir les services d'un entrepreneur en vue d’effectuer le Remplacement de l’unité de ventilation du\nsecrétariat – Plafonds et éclairage à l’ÉMOICQ situé au 1060, rue Borne à\nQuébec (Qc) G1N 1L9, dans la période du 07 décembre 2026 au 19 mars 2027, plus précisément selon l’Échéancier prévu à l’annexe 0.01.13 des\nconditions générales. \nLes plans,\ndevis et tout autre document pourront être obtenus uniquement sur le site\ninternet SEAO.\n Une visite unique et importante d’information\nest prévue le « 13 octobre 2026 à 15h00, à l’ÉMOICQ situé au 1060, rue\nBorne à Québec (Qc) G1N 1L9». Cependant, toute fermeture temporaire de l’établissement visé, par\nexemple la fermeture du CENTRE DE SERVICES SCOLAIRE DE LA CAPITALE lors d’une\ntempête hivernale, entraînera un report de cette visite et le CENTRE DE\nSERVICES SCOLAIRE DE LA CAPITALE fixera une nouvelle date et publiera un nouvel\navis dans les meilleurs délais.\nToute Soumission devra être\naccompagnée d'un cautionnement de soumission conforme représentant 10 % du montant total de la soumission excluant toutes\nles taxes applicables, valide pour une période de 60 jours de la date d’ouverture des soumissions, sans quoi la soumission\nsera automatiquement rejetée. Ce\ncautionnement de soumission doit être présenté sur le formulaire obligatoire\nANNEXE 4.01 A ou ANNEXE 4.01 B du formulaire de soumission. Il devra être échangé à la signature du Contrat,\ns’il y a lieu, pour un cautionnement d’exécution et un cautionnement des\nobligations pour gages, matériaux et service, toujours\nselon des formulaires obligatoires en annexes des Conditions générales. Le montant\nde chacun de ces derniers cautionnements correspondra à 50 % du prix du contrat.\nUn (1) original de la soumission dans une enveloppe cachetée, seront reçues au CENTRE DE SERVICES\nSCOLAIRE DE LA CAPITALE au bureau des Services des ressources matérielles, 1er\nétage (réception), situé au 125, rue des Commissaires Ouest,\nQuébec (Québec) G1K1M7jusqu’à 11h00, le mardi 27 octobre 2026pour être\nouvertes publiquement en présence d’un témoin au même endroit, le même jour et\nà la même heure.\nLes Soumissions\npeuvent être transmises par voie électronique. Le cas échéant, cette\ntransmission ne peut être effectuée que par l’intermédiaire du système\nélectronique d'appel d'offres (SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise par voie électronique\ndoit être dé",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=947fbae4-2e4a-48d2-b61b-a69d3ac0b518",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'unité de ventilation, des plafonds et de l'éclairage du secrétariat d'un centre de services scolaire. La durée prévue est de 24 mois avec un montant estimé de 750 000 $.",
+"pointsAttention": [
+"visite unique et importante d’information prévue le « 13 octobre 2026 à 15h00 »"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'implique ni la maçonnerie/briquetage, ni la charpenterie/menuiserie, mais plutôt des travaux de plomberie/ventilation/électricité.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-27",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-27T11:51",
+"soumissions": [
+{
+"nom": "Larcher Construction",
+"montant": 737000.0
+},
+{
+"nom": "ACTION ESTIMATION INC.",
+"montant": 804900.0
+},
+{
+"nom": "CANEVAS CONSTRUCTION INC.",
+"montant": 823000.0
+},
+{
+"nom": "Construction Citadelle Inc.",
+"montant": 847607.0
+},
+{
+"nom": "LES ENTREPRISES QUÉBECHAB LTÉE",
+"montant": 869131.0
+},
+{
+"nom": "LÉVESQUE & ASSOCIÉS CONSTRUCTION INC.",
+"montant": 953646.0
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 993000.0
+}
+]
+}
+},
+{
+"id": "3b8c42d9-0525-47b1-af79-c6d711f2e12f",
+"numero": "TP34",
+"titre": "Restauration des corniches et des lucarnes de l’hôtel de ville",
+"organisme": "Ville de Sainte-Anne-des-Plaines.",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"restauration"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "1",
+"surDemande": false,
+"fermeture": "2026-10-27T11:00",
+"publie": "2026-09-23T08:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "TITRE : RESTAURATION DES CORNICHES ET DES LUCARNES DE L’HÔTEL DE VILLE NUMÉRO : TP34\nDes soumissions scellées seront reçues par le greffier de la Ville de Sainte-Anne-des-Plaines ou son représentant autorisé, à l’hôtel de ville au 139, boulevard Sainte-Anne, à Sainte-Anne-des-Plaines, jusqu’à 11 h 00 le 23 octobre 2026 pour l’appel d’offres « Restauration des corniches et des lucarnes de l’hôtel de ville » et seront ouvertes publiquement ce même jour et à 11h15. Les dépôts électroniques via le SEAO ne seront pas acceptés.\nLa date limite de réception des plaintes est le 8 octobre 2026. \nLe contrat doit être complété au plus tard le 1er novembre 2027.\nLes entreprises intéressées par cet appel d’offres doivent se procurer les documents d’appel d’offres en s’adressant au système électronique d’appel d’offres (SEAO) à l’adresse suivante : www.seao.gouv.qc.ca. Les documents sont obtenus au coût établi par le SEAO. La Ville de Sainte-Anne-des-Plaines se réserve le droit de rejeter toute soumission dont le soumissionnaire ne s’est pas procuré le document d’appel d’offres directement du SEAO incluant les addenda (s’il y a lieu).\nDe plus, la Ville n’encourt aucune responsabilité du fait que les avis écrits ou documents quelconques véhiculés par le système électronique soient incomplets ou comportent quelques erreur ou omission que ce soit. En conséquence, tout soumissionnaire doit s’assurer, avant de soumissionner, d’obtenir tous les documents reliés à cet appel d’offres via le SEAO.\nTout renseignement d’ordre général concernant le présent appel d’offres pourra être obtenu en communiquant avec monsieur Étienne Bérard, PGM, T. P. directeur du Service des infrastructures et techniques par courriel à l’adresse suivante : eberard@villesadp.ca\nLes soumissions devront être valides pour une période de quatre-vingt-dix (90) jours et être accompagnées d’un chèque visé ou d’une garantie de soumission émise par une compagnie d’assurance d’un montant au moins égal à dix pour cent (10 %) de la valeur de la soumission incluant les taxes, ainsi qu’une lettre d’intention quant à l’émission d’un cautionnement d’exécution et d’un cautionnement garantissant la main-d’œuvre, les matériaux et les services, chacun pour une valeur de cinquante pour cent (50 %) de la valeur de la soumission incluant les taxes.\nSeuls les cautionnements émis par des compagnies détenant un permis d’assureur du Canada et reconnues par l’Autorité des marchés financiers du Québec seront acceptés aux termes des documents d’appel d’offres.\nLes accords intergouvernementaux applicables sont les suivants : Accord Québec-Ontario (ACCQO) et Accord de libre-échange canadien (ALEC).\nLa Ville ne s’engage à accepter ni la plus basse ni aucune des soumissions reçues. Elle se réserve en outre le droit de rejeter toutes les soumissions reçues, si elle le juge à propos, sans pour autant être tenue responsable ou faire l’objet d’une poursuite ou réclamation pour frais ou pertes subies par les soumissionnaires.\nProcédu",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3b8c42d9-0525-47b1-af79-c6d711f2e12f",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la restauration des corniches et des lucarnes de l'hôtel de ville. Le contrat est prévu pour une durée d'un mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Soumission directe",
+"raison": "Le travail principal semble être lié à la maçonnerie ou à la restauration de structures extérieures, ce qui est pertinent pour l'entreprise, mais le montant n'est pas publié.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-27",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-27T11:53",
+"soumissions": [
+{
+"nom": "MAÇONNERIE RAINVILLE & FRÈRES INC.",
+"montant": 550192.17
+},
+{
+"nom": "Construction NCP",
+"montant": 682376.63
+},
+{
+"nom": "Les constructions J Brillant inc.",
+"montant": 795489.03
+},
+{
+"nom": "Constructions M.J.D. inc.",
+"montant": 941362.41
 }
 ]
 }
