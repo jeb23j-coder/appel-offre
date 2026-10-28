@@ -9190,7 +9190,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-26"
+"fermeLe": "2026-10-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T12:07",
+"soumissions": [
+{
+"nom": "ARDEC CONSTRUCTION INC.",
+"montant": 842000.0
+},
+{
+"nom": "Xe Solutions inc.",
+"montant": 863000.0
+},
+{
+"nom": "9496-1687 Québec inc.",
+"montant": 876111.0
+},
+{
+"nom": "9140-2594 QUÉBEC INC.",
+"montant": 944800.0
+}
+]
+}
 },
 {
 "id": "e987ce01-eca1-4077-900b-6b8f4091761d",
@@ -9786,7 +9809,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-27"
+"fermeLe": "2026-10-27",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T10:48",
+"soumissions": [
+{
+"nom": "CONSTRUCTION G. LEPAGE INC.",
+"montant": 758695.0
+},
+{
+"nom": "A.G.M CONSTRUCTION INC.",
+"montant": 984900.0
+}
+]
+}
 },
 {
 "id": "8d986ce0-4259-43dc-8383-2f0537c1fbfe",
@@ -9867,6 +9905,112 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-27"
+"fermeLe": "2026-10-27",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T10:40",
+"soumissions": [
+{
+"nom": "POMERLEAU INC.",
+"montant": 216604258.0
+},
+{
+"nom": "TISSEUR INC.",
+"montant": 221575000.0
+},
+{
+"nom": "GROUPE GEYSER INC.",
+"montant": 222640000.0
+},
+{
+"nom": "EBC INC.",
+"montant": 225654817.0
+}
+]
+}
+},
+{
+"id": "9ad2ba06-4b09-44aa-947b-1f047a65cedb",
+"numero": "ETS-CP26-004",
+"titre": "Réfection du stationnement SS1 des résidences # 03",
+"organisme": "École de technologie supérieure",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"réfection",
+"école"
+],
+"cautionSoumission": "Cautionnement, Le Soumissionnaire doit fournir\navec sa Soumission une garantie de soumission correspondant à dix (10) pour\ncent de la valeur de la Soumission. La garantie de soumission est faite sous\nforme de cautionnement émis par une Institution financière et doit être\nconforme aux exigences de l'Annexe 1 du Règlement sur les contrats de travaux\nde construction des organismes publics, de mandat ou de chèque visé\npayable à l’ordre de l'École de technologie supérieure.\nLa garantie de Soumission doit\nêtre valide pour une période de quarante-cinq (45) jours à\ncompter de la date limite de réception des Soumissions, l'autorisation d'un\ndirigeant du Soumissionnaire est requise pour un délai supérieur.",
+"estimation": 300000,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-10-28T11:00",
+"publie": "2026-09-29T11:39",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "École de technologie supérieure\n(ci-après « le Propriétaire ») ayant son siège social au 1100 rue Notre-Dame\nOuest, Montréal, demande des Soumissions dans le but d'allouer un contrat pour\nla réfection de la dalle du sous-sol de la Résidence phase 3 (ci-après «\nOuvrage »).\nToutes les demandes de\nrenseignements concernant l'appel d'offres doivent être dirigées exclusivement\npar écrit, par courriel à l'attention d’Hélène Proulx, agente\nd’approvisionnement, à l’adresse courriel Soumissions@etsmtl.ca.\nLe défaut par le Soumissionnaire\nde respecter la procédure prévue pour demander des renseignements pourra\nentraîner le rejet de sa Soumission. Aucune information verbale\nn'engage le Propriétaire et ne peut être interprétée comme modifiant les\nDocuments d'appel d'offres.\nLes Soumissionnaires sont\ninvités à une séance d’information et à une visite du site. La présence à la\nséance d’information et à la visite est facultative, mais fortement recommandée.\nLes Soumissionnaires qui désirent assister à la séance et à la visite n’ont pas\nbesoin de confirmer leur présence auprès du Propriétaire. La séance d’information et la\nvisite auront lieu le 13 octobre 2026, à 10h00. Les Soumissionnaires devront se\nprésenter au 420 Rue Eleanor (Résidences phase 3), Montréal, Hall d'entrée. La séance d’information et la\nvisite sont aux frais de chaque Soumissionnaire. Elles permettront aux\nSoumissionnaires de prendre connaissance des exigences du Contrat et d’obtenir\ntous les renseignements utiles, ainsi que de vérifier toutes les conditions\npouvant affecter leur Soumission. Le fait de ne pas participer à\nla séance d’information et à la visite ne peut servir d’excuse ou de prétexte à\ndes erreurs, omissions ou irrégularités de la part d’un Soumissionnaire. Chaque\nSoumissionnaire est responsable de déléguer un représentant. Un Soumissionnaire\nqui ne se présente pas à la séance d’information et visite comprend et assume\nqu’il n’aura pas les informations qui pourraient être données lors de\ncelles-ci.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9ad2ba06-4b09-44aa-947b-1f047a65cedb",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la dalle du sous-sol de la Résidence phase 3. Le montant estimé est de 300 000 $ et la durée prévue est de 8 mois.",
+"pointsAttention": [
+"Visite obligatoire",
+"Séance d'information et visite du site fortement recommandées"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la réfection d'une dalle de sous-sol, ce qui n'est pas directement lié aux métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-28"
 }
 ]
