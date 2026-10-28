@@ -24503,7 +24503,19 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 80,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à démolir et reconstruire un refuge existant datant de 1929. La reconstruction implique la reprise de la matérialité et du profil du bâtiment existant, avec un revêtement mural extérieur en pin de style \"bois rond\".",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet implique une reconstruction majeure où la maçonnerie (revêtement mural) et potentiellement la charpente/menuiserie (structure, toiture) sont centrales.",
+"version": 3
+}
 },
 {
 "id": "cd4abeef-9b3f-4ed1-a6b1-3abd3812d8e8",
@@ -24577,7 +24589,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une chaudière au gaz naturel pour l'école de l'énergie. La durée prévue du contrat est de 5 mois avec un montant estimé de 150 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le remplacement d'une chaudière et n'implique aucun des métiers ciblés (maçonnerie, charpenterie, menuiserie).",
+"version": 3
+}
 },
 {
 "id": "5af4f7ad-6e1b-4557-8069-42968b98366a",
@@ -24655,7 +24679,21 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 70,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la restauration, la mise aux normes et le réaménagement de l'édifice Gérard-D.-Lévesque situé au 12, rue Saint-Louis à Québec. Les travaux nécessitent l'expertise, la main-d'œuvre et les matériaux pour l'exécution de ces travaux.",
+"pointsAttention": [
+"Durée prévue de 12 mois",
+"Montant estimé de 350 000 $",
+"Exigences spécifiques contenues dans les documents contractuels"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat implique des travaux de restauration et de réaménagement d'un bâtiment où les métiers de la maçonnerie et potentiellement la charpenterie/menuiserie sont très probables comme lots à offrir.",
+"version": 3
+}
 },
 {
 "id": "43f5569a-b537-4033-9976-40e028cb3bb5",
@@ -24742,7 +24780,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un nouveau Centre de Formation Générale aux adultes, incluant plusieurs espaces spécifiques comme un laboratoire de sciences et des ateliers. La durée prévue des travaux est de 25 mois, avec un montant estimé de 34 070 050 $.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment complet où la maçonnerie et la charpenterie/menuiserie seront probablement des lots importants, mais le titre ne met pas l'accent sur ces corps de métier comme étant le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "65f084b5-a0ef-42c4-9a70-9dc0e2d4dbb4",
@@ -24834,7 +24884,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection du service de garde, d'une issue et du gymnase d'une école primaire. Les travaux incluent la démolition et reconstruction d'escaliers, la réfection des finis de classes et locaux, ainsi que l'ajout de ventilation.",
+"pointsAttention": [
+"visite obligatoire",
+"EPI requis pour la visite"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet implique des travaux de réfection et de reconstruction qui peuvent inclure des éléments de maçonnerie (escaliers, finis) et de charpenterie (structure, finis), mais le cœur semble être la rénovation d'un bâtiment scolaire.",
+"version": 3
+}
 },
 {
 "id": "ca4f55ea-a404-44b6-b947-61d639c27c48",
@@ -24907,7 +24970,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne l'isolation thermique des tuyauteries du réseau de chauffage et le chemisage des tuyauteries à l'école Saint-Vincent-Marie. La durée prévue est de 3 mois pour un montant estimé de 60 000 $.",
+"pointsAttention": [
+"aucune"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat concerne l'isolation de tuyauterie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7efe5fbf-e64a-4ac5-a19c-206fd09985f8",
@@ -24981,7 +25056,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne des travaux de redondance en climatisation au Quartier général du SPVM. La description mentionne le mot-clé 'enveloppe'.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la climatisation et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-444178692812",
