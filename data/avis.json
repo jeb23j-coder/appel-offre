@@ -24835,7 +24835,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'intérêt concerne la conception et la réalisation d'une toiture permanente au-dessus de la patinoire extérieure d'un centre communautaire. Il ne mentionne aucun travail de maçonnerie, charpenterie ou menuiserie.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la toiture et n'a aucun lien direct avec les métiers de la maçonnerie ou de la charpenterie/menuiserie recherchés.",
+"version": 3
+}
 },
 {
 "id": "009a95fe-8a4e-4700-8eac-3baa22457fb6",
@@ -24899,7 +24911,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un groupe électrogène pour le Cégep Édouard-Montpetit. La durée prévue est de 5 mois et le montant estimé est de 780 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le remplacement d'un groupe électrogène et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5c97e094-3f84-49d4-8378-0a3398b8a2fb",
@@ -24994,7 +25018,21 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le réaménagement intérieur et la réfection des parements extérieurs ainsi que des fenêtres d'un centre d'éducation. Les travaux incluent la réfection des parements extérieurs et des fenêtres.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai de soumission (20 mois)",
+"Contrat sur demande : non"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des travaux de réfection des parements extérieurs qui touchent à la maçonnerie et potentiellement à la menuiserie (fenêtres), ce qui correspond aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "44664fe5-f8a1-4be0-ac41-d349aa184afa",
@@ -25077,7 +25115,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection, le remplacement et l'installation de revêtements de plancher dans divers sites de Santé Québec Capitale-Nationale – Universitaire. Les travaux incluent le retrait des revêtements existants, l'installation de nouveaux revêtements, la pose de plinthes et les travaux de finition.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat ne concerne pas directement les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c63f519e-d859-469d-a5ec-3d594ef9586c",
@@ -25155,7 +25205,23 @@
 "béton"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne le remplacement d'une génératrice existante par une nouvelle génératrice sur une dalle en béton armé à l'extérieur. La durée prévue est de 12 mois et le montant estimé est de 300 000 $.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5e7741cc-d604-4645-9bca-a67ea8380b12",
@@ -25233,7 +25299,19 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'intérêt concerne le remplacement du système de chauffage d'un garage municipal. Les entreprises sont invitées à proposer des solutions pour le chauffage et l'alimentation en eau chaude du bâtiment.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le système de chauffage et non la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "33508c8c-127c-4502-b6cf-4e82e93e5176",
@@ -25297,7 +25375,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une génératrice au 200 ROBERT WRIGHT. Le montant estimé est de 700 000 $ et la durée prévue est de 8 mois.",
+"pointsAttention": [
+"non précisé sur l'avis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement d'une génératrice et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-444195723411",
