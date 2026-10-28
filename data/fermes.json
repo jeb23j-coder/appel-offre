@@ -10012,5 +10012,402 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-10-28"
+},
+{
+"id": "9740cd76-4dd9-400f-93ff-8077534e8384",
+"numero": "25E170-08",
+"titre": "Ajout de dépoussiéreurs pour charpenterie du CFP 24-juin",
+"organisme": "Centre de services scolaire de la région de Sherbrooke.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"charpente",
+"charpenterie",
+"menuiserie"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission\néquivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission",
+"estimation": 525000,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-10-28T14:00",
+"publie": "2026-10-06T14:43",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72151201 - Construction mécanique de systèmes de chauffage, de ventilation et de climatisation (cvc)",
+"95000000 - Terrains, bâtiments, constructions et voies de communication"
+],
+"description": "Le centre de services scolaire de la Région-de-Sherbrooke désire faire l'ajout de dépoussiéreurs intérieurs pour son atelier de menuiserie du programme de formation en charpenterie du CFP 24-Juin, situé au 85 rue Burlington, Sherbrooke. Nos locaux sont situés à l'arrière de l'usine de Filspec inc.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9740cd76-4dd9-400f-93ff-8077534e8384",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 70,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne l'ajout de dépoussiéreurs intérieurs pour l'atelier de menuiserie du programme de formation en charpenterie du CFP 24-Juin. La durée prévue est de 6 mois et le montant estimé est de 525 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat concerne directement la charpenterie/menuiserie, ce qui est un métier clé pour l'entreprise.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"charpente",
+"charpenterie",
+"menuiserie"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"charpente",
+"charpenterie",
+"menuiserie"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-28",
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T14:21",
+"soumissions": [
+{
+"nom": "MÉTALBEC LTÉE",
+"montant": 399865.0
+},
+{
+"nom": "DESROCHERS BERNARD INC.",
+"montant": 419669.0
+},
+{
+"nom": "ENTREPRENEURS EN MÉCANIQUE A.J.R. INC.",
+"montant": 424780.0
+},
+{
+"nom": "GNR Corbus inc",
+"montant": 439090.0
+}
+]
+}
+},
+{
+"id": "74e3b365-273f-429d-9a2e-00791ba37497",
+"numero": "24MB-042",
+"titre": "École Montcalm - Remplacement de panneaux électriques - Phase 2",
+"organisme": "Centre de services scolaire de la région de Sherbrooke.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"école"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% du montant total proposé",
+"estimation": 200000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-10-28T14:00",
+"publie": "2026-10-06T13:07",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "École Montcalm - Remplacement de panneaux électriques - Phase 2\n24MB-042",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=74e3b365-273f-429d-9a2e-00791ba37497",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de panneaux électriques pour l'École Montcalm, Phase 2. Le montant estimé est de 200 000 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de panneaux électriques et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-28",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T14:31",
+"soumissions": [
+{
+"nom": "CONSTRUCTION LE GROUPE R. M INC.",
+"montant": 198401.52
+},
+{
+"nom": "CHABOT ET FILS INC",
+"montant": 267400.0
+}
+]
+}
+},
+{
+"id": "f824aeb2-6fda-4485-9041-9d57deefebd8",
+"numero": "24-040",
+"titre": "H10 Réaménagement des laboratoires pour PSOv4a",
+"organisme": "Universite Concordia - Facilities management",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"rénovation"
+],
+"cautionSoumission": "Cautionnement, 10%",
+"estimation": 445000,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-10-28T14:00",
+"publie": "2026-09-14T08:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le projet consiste à effectuer des rénovations en architecture, mécanique et électrique dans un laboratoire au pavillon H.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f824aeb2-6fda-4485-9041-9d57deefebd8",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet consiste à effectuer des rénovations en architecture, mécanique et électrique dans un laboratoire au pavillon H. La durée prévue est de 5 mois pour un montant estimé à 445 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un projet de rénovation de bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être inclus, mais le titre ne spécifie pas clairement que ces corps de métier sont le cœur du contrat.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-28",
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T15:41",
+"soumissions": [
+{
+"nom": "Construction Doverco Inc",
+"montant": 435000.0
+},
+{
+"nom": "CORENOV CONSTRUCTEURS INC.",
+"montant": 457660.0
+},
+{
+"nom": "XO Construction Inc.",
+"montant": 474484.0
+},
+{
+"nom": "Concept P.V.R. Inc.",
+"montant": 479000.0
+},
+{
+"nom": "ARDEC CONSTRUCTION INC.",
+"montant": 562000.0
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 733900.0
+}
+]
+}
+},
+{
+"id": "28e21cfe-e9c1-479a-9706-7c1f0ac596be",
+"numero": "A26-0702",
+"titre": "Remplacement du TDM à L'Hôtel-Dieu de Québec - Santé Québec CHU de Québec-Université Laval",
+"organisme": "Soutien aux opérations de la DST",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 2100000,
+"dureeMois": "11",
+"surDemande": false,
+"fermeture": "2026-10-28T14:00",
+"publie": "2026-07-28T15:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Avis\nd’appel d’offres public\nGestionnaire du projet :\nSanté Québec CHU de Québec-Université\nLaval\n11, côte du Palais\nQuébec (Québec) G1R 2J6\nProjet : REMPLACEMENT DU TDM À\nL'HÔTEL-DIEU DE QUÉBEC DU CHU DE QUÉBEC-UNIVERSITÉ LAVAL (CHU)\nA26-0702\nDélai\nde réalisation des travaux : Du 23 novembre 2026 au 22 octobre\n2027\nDate\nlimite de dépôt des plaintes (DDP): 26 août 2026\nSanté Québec CHU\nde Québec-Université Laval, propriétaire, demande des soumissions pour le\nprojet mentionné en titre.\nLes documents\nd’appel d’offres ne peuvent être obtenus que par l’intermédiaire du système\nélectronique d’appel d’offres SE@O au www.seao.ca ou au\n514-856-6600 pour les résidents de la région de Montréal et au numéro sans\nfrais 1-866-669-7326 pour les résidents de l’extérieur.\nLes soumissions devront être\naccompagnées d’une garantie de soumission équivalente à dix pour cent (10%) du\nprix de la soumission et selon l’une ou l’autre des formes énumérées\nci-après :\n· Un cautionnement\nde soumission délivré par une institution financière, valide pour une période\nde quarante-cinq (45) jours de la date d’ouverture des soumissions; ou\n· Un chèque visé, un mandat poste ou une traite bancaire fait à l’ordre du\nGestionnaire de projet; ou\n· Une lettre de\ngarantie irrévocable émise par une banque, une caisse d’épargne ou de crédit ou\nune société de fiducie ou d’épargne et conforme aux dispositions du formulaire\n« Lettre de garantie irrévocable » du Gestionnaire de projet.\nLes soumissions (un [1] original) devront\nêtre reçues sous pli scellé, au plus tard le\njeudi, 24 septembre 2026 à\n14 heures (la\ndate et l’heure indiquées par l’horodateur sur la soumission étant réputées\nconstituer le moment de ce dépôt), à l’attention de Nicolas Ménard à l’adresse\nci-dessous : \n Hôpital\nde l’Enfant-Jésus du CHU de Québec-Université Laval \n Pavillon\nNotre-Dame (aile H)\n Soutien\naux opérations de la DST, local H-1205\n 2075,\navenue de Vitré\n Québec\n(Québec) G1J 5B3\net seront ouvertes publiquement au même\nendroit, le même jour à 14 h 15 et également en vidéoconférence en copiant le\nlien ci-dessous, si un mot de passe est requis inscrire AO123.\nhttps://us04web.zoom.us/j/79383541418?pwd=e8cOIVgkggGo2bOIex6gOXTcDBUNI5.1\nSeuls\nsont admis à soumissionner les entrepreneurs ayant un bureau d’affaires au\nQuébec ou dans une province ou un territoire visés par les accords applicables\net détenant la licence requise en vertu de la Loi sur le bâtiment.\nUn entrepreneur détenant une licence\nrestreinte émise par la Régie\ndu bâtiment du Québec ou inscrit au registre des entreprises non admissibles\naux contrats publics (RENA) et dont sa période d’inadmissibilité aux contrats\npublics n’est pas terminée, n’est pas admis à présenter une soumission; ces\ndeux cas d’inadmissibilité sont applicables également aux sous-traitants du\nsoumissionnaire.\nLes soumissionnaires sont responsables\ndu choix des sous-traitants, tant pour leur solvabilité que pour le contenu de\nleur soumission, et doivent les informer des conditions qu’il",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=28e21cfe-e9c1-479a-9706-7c1f0ac596be",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le remplacement du TDM à l'Hôtel-Dieu de Québec, avec une durée de réalisation prévue de 11 mois. Le montant estimé est de 2 100 000 $.",
+"pointsAttention": [
+"Délai de réalisation de 11 mois",
+"Montant estimé de 2.1M$"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de construction/maintenance de bâtiment, mais la description ne spécifie pas clairement que la maçonnerie ou la charpenterie est le cœur du contrat.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-28",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-28T15:00",
+"soumissions": [
+{
+"nom": "BEAUVAIS & VERRET INC.",
+"montant": 1977144.0
+},
+{
+"nom": "ACTION ESTIMATION INC.",
+"montant": 2117800.0
+},
+{
+"nom": "MENUISERIE D. POULIOT INC.",
+"montant": 2220000.0
+},
+{
+"nom": "Constructions Envergure Inc.",
+"montant": 2383000.0
+},
+{
+"nom": "LES ENTREPRISES QUÉBECHAB LTÉE",
+"montant": 2537000.0
+}
+]
+}
 }
 ]
