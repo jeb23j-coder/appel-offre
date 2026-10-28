@@ -5,6 +5,8 @@ name: Courriel quotidien de minuit
 on:
   schedule:
     - cron: "17 * * * *"
+    # Passages serrés juste après minuit au Québec (4 h UTC en été, 5 h UTC en hiver)
+    - cron: "2,12,22,32,42,52 4,5 * * *"
   workflow_dispatch:
     inputs:
       force:
@@ -26,6 +28,7 @@ jobs:
       CLE_PRIVEE: ${{ secrets.CLE_PRIVEE }}
       GMAIL_ADDRESS: ${{ vars.GMAIL_ADDRESS }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+      VARS_JSON: ${{ toJSON(vars) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

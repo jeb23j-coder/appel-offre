@@ -11,6 +11,7 @@ import json
 import os
 import smtplib
 import sys
+import urllib.request
 from email.message import EmailMessage
 from pathlib import Path
 
@@ -45,6 +46,23 @@ def envoyer_gmail(dest, sujet, texte):
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30) as m:
         m.login(expediteur, os.environ["GMAIL_APP_PASSWORD"].replace(" ", ""))
         m.send_message(msg)
+
+
+def sonner(pid, titre, texte):
+    """Notification sur le cellulaire (ntfy), car Gmail ne sonne pas pour un courriel envoyé à soi-même."""
+    try:
+        v = json.loads(os.environ.get("VARS_JSON") or "{}")
+    except ValueError:
+        v = {}
+    sujet = v.get(f"NTFY_TOPIC_{pid.upper()}") or (v.get("NTFY_TOPIC") if pid == "jonathan" else None)
+    if not sujet:
+        return
+    corps = {"topic": sujet, "title": titre, "message": texte, "click": SITE, "tags": ["email"], "priority": 4}
+    req = urllib.request.Request("https://ntfy.sh/", data=json.dumps(corps).encode(), headers={"Content-Type": "application/json"})
+    try:
+        urllib.request.urlopen(req, timeout=20).close()
+    except Exception as e:  # la notification ratée ne bloque pas le courriel
+        print(f"  notification cellulaire non envoyée : {e}")
 
 
 def main():
@@ -89,6 +107,7 @@ def main():
         try:
             envoyer_gmail(courriel, sujet, texte)
             print(f"{prof['nom']} : résumé envoyé · {len(nouveaux)} nouveaux · {len(bientot)} ferment bientôt")
+            sonner(pid, sujet, f"Ton résumé est dans ton courriel. {len(nouveaux)} nouveau(x) · {len(bientot)} ferment dans 7 jours")
         except Exception as e:
             print(f"{prof['nom']} : résumé non envoyé ({type(e).__name__}: {e})")
             echecs += 1
