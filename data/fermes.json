@@ -10694,7 +10694,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-29"
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T15:53",
+"soumissions": [
+{
+"nom": "9048-6473 QUÉBEC INC.",
+"montant": 1877650.0
+},
+{
+"nom": "Nova Construction M.P. inc.",
+"montant": 1879654.0
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 1933000.0
+},
+{
+"nom": "LÉVESQUE & ASSOCIÉS CONSTRUCTION INC.",
+"montant": 2108900.0
+},
+{
+"nom": "LAURÉAT PEPIN INC.",
+"montant": 2240630.0
+}
+]
+}
 },
 {
 "id": "7dc329f9-c3ed-4920-b211-9484f98defb7",
@@ -10871,6 +10898,655 @@
 {
 "nom": "Tuyauterie Expert inc",
 "montant": 224488.07
+}
+]
+}
+},
+{
+"id": "d6fd16a2-f386-452f-a8c0-4c0715911eba",
+"numero": "2026-N",
+"titre": "Réfection du Hall d'entrée et intégrité coupe-feu, pavillon 5, niveau 3",
+"organisme": "CÉGEP Sherbrooke",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"réfection"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 5% du prix proposé dans la soumission",
+"estimation": 380000.0,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-10-29T14:00",
+"publie": "2026-10-07T15:07",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Travaux de réfection du hall d'entrée du pavillon 5:\nRemplacement du fini de plancher.\nPlafond refait à neuf (architecture, mécanique et électricité)\nIntégrité coupe-feu des murs du hall d'entrée, modification de la ventilation, ajout de volets coupe-feu...\nAjout d'un chemin de câble dans l'entreplafond.\nTout autres travaux connexes",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=d6fd16a2-f386-452f-a8c0-4c0715911eba",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection du hall d'entrée d'un pavillon, incluant le remplacement du fini de plancher, la refonte du plafond (architecture, mécanique, électricité), et l'amélioration de l'intégrité coupe-feu des murs.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur des travaux de finition et d'installation (plancher, plafond, électricité) et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie comme cœur du contrat.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "73b40863-3636-4eb9-9022-61e7f2c50d65",
+"numero": "260620",
+"titre": "Remplacement du système de détection incendie et des appareils d’éclairage",
+"organisme": "Centre de services scolaire du Val-des-Cerfs.",
+"regions": [
+"Estrie",
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 485000,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-10-29T14:00",
+"publie": "2026-10-01T15:19",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72151501 - Installation d’éclairage",
+"72151511 - Maintenance ou réparation de systèmes d’éclairage",
+"72151703 - Installation de systèmes de détection d’incendie et d’alarme antieffraction"
+],
+"description": "AVIS D’APPEL D'OFFRES PUBLIC\nTITRE : 260620\nNo DOSSIER : REMPLACEMENT DU SYSTÈME DE DETECTION INCENDIE ET DES\nAPPAREILS D’ÉCLAIRAGE\nPropriétaire Centre de services scolaire du Val-des-Cerfs\nJacques Olivier\n55, rue Court\nGranby (Québec) J2G 9N6 (adresse municipale)\nTél. : 450 372-0221 poste 60218\nprojetsrm@cssvdc.gouv.qc.ca\nÉtablissement visé \nÉcole Roxton Pond, Pavillon des Mésanges\n676, rue du Lac\nRoxton Pond (Québec) J0E 1Z0\nProfessionnel ingénierie\nGBI\nExperts-Conseils\n100, Boul. Brien, local 300\nRepentigny (QC) J6A 5N4\nVisite\nLa visite aura lieu le 14\noctobre 2026 à 12h00\nLes personnes qui se présenteront, devront demeurer à l’extérieur jusqu’à\nl’arrivée du chargé de projet.\nTravaux visés:\n• Remplacement\ndu système de détection incendie et de toutes ses composantes\n• Le\nremplacement des appareils d’éclairage existant par des appareils fonctionnant\nau DEL\n• Les\nnouveaux appareils dans les locaux utilisés par les élèves devront être munis\nde gradateur\n• Le\nragréage de toutes les surfaces touchées par les travaux\n*Le système de détection incendie devra être installé dans un\npremier temps et lorsqu’il aura été testé et mis en fonction, l’ancien système\npourra être retiré et le ragréage devra être fait.\nÉchéancier \nDébut des travaux : 11 janvier 2027\nRéception des travaux avec réserve : 15 juillet 2027\nRéception des travaux sans réserve : 6 août 2027\nOption Aucune option\nÉquivalence \nLes demandes d’équivalence doivent être déposées au plus tard 10 jours avant\nla date de dépôt des soumissions. Information Les demandes d’informations\ndoivent être adressées à l’adresse suivante : projetsrm@cssvdc.gouv.qc.ca\nLes questions seront traitées\nrapidement et les réponses feront l’objet d’addenda sous la forme de questions\n/réponses ou de modifications et ajouts aux Documents d’appel d’offres.\nL’ORGANISME PUBLIC se réserve le droit\nde ne pas considérer une demande formulée par un fournisseur si cette demande\nn’est pas transmise moins de 5 jours ouvrables avant la date et l’heure\nfixées pour la réception des soumissions.\nDocuments \nLes plans, devis, documents contractuels et autres renseignements pourront être\nobtenus que par l’intermédiaire du Système d’appels d’offres électroniques\n(SÉAO) au www.seao.ca\nModalité de dépôt des soumissions \nEnveloppe\nLes soumissions, dans des enveloppes\ncachetées et adressées au responsable, seront reçues au siège social du Centre\nde services scolaire du Val-des-Cerfs, 55, rue Court, à Granby, Québec, jusqu'à\n14 h 00, heure en vigueur localement, 29 octobre 2026 pour être\nouvertes publiquement au même endroit, le même jour et à la même heure. Toute\nsoumission reçue postérieurement sera automatiquement rejetée. \nOu\nVoie électronique\nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'offres\n(SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise\npar voie électronique doit être déposé",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=73b40863-3636-4eb9-9022-61e7f2c50d65",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de détection incendie et des appareils d'éclairage dans une école. Les travaux incluent l'installation du système de détection et le remplacement des luminaires.",
+"pointsAttention": [
+"Visite obligatoire le 14 octobre 2026 à 12h00",
+"Délai de travaux de janvier 2027 à août 2027"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'est pas lié aux métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T15:37",
+"soumissions": [
+{
+"nom": "JBM ÉLECTRIQUE INC.",
+"montant": 342815.0
+},
+{
+"nom": "LGC Électrique inc.",
+"montant": 369879.0
+},
+{
+"nom": "CONSTRUCTION LABRIE MERLOS INC.",
+"montant": 393410.0
+}
+]
+}
+},
+{
+"id": "799a7cc7-d566-42a9-8102-ab4639c4ae0b",
+"numero": "44548170",
+"titre": "Lot 3101 – Excavation et travaux civils - Hôpital Charles-Le Moyne – Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement (Module clinique transitoire)  au 2924, boulevard Taschereau, Longueuil (Québec) J4V 2G8",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"agrandissement"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10% du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article « Garantie de soumission » des Instructions\naux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 5848471,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-10-29T15:00",
+"publie": "2026-09-18T14:46",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels",
+"72121403 - Construction d’hôpitaux"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44548170\n Titre du\n contrat :\n Lot 3101 – Excavation et\n travaux civils\n Hôpital Charles-Le Moyne –\n Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement\n (Module clinique transitoire)\n Adresse de\n l’immeuble :\n 2924, boulevard\n Taschereau, Longueuil (Québec) J4V 2G8\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\nAttention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission,\n de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux d’excavation et travaux\ncivils pour le projet de l’Hôpital Charles-Le Moyne – Bloc opératoire et\nchirurgie d’un jour – Agrandissement et réaménagement (Module clinique\ntransitoire).\nAVIS IMPORTANTS \nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission5@sqi.gouv.qc.ca.\nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électroni",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=799a7cc7-d566-42a9-8102-ab4639c4ae0b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'excavation et travaux civils pour l'agrandissement et le réaménagement d'un bloc opératoire et d'une chirurgie d'un jour à l'Hôpital Charles-Le Moyne.",
+"pointsAttention": [
+"Délai de soumission (Fermeture : 2026-10-29T15:00)",
+"Exigences de garantie de soumission (10% du montant de la soumission)",
+"Recommandation de soumission par voie électronique via le SEAO"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement les travaux civils et d'excavation, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T15:54",
+"soumissions": [
+{
+"nom": "LES ENTREPRISES CLAUDE CHAGNON INC.",
+"montant": 5644006.84
+},
+{
+"nom": "GROUPE MPOTVIN",
+"montant": 5864876.8
+},
+{
+"nom": "LOISELLE INC.",
+"montant": 6365553.0
+},
+{
+"nom": "CHAREX INC.",
+"montant": 6518900.0
+},
+{
+"nom": "LES EXCAVATIONS PAYETTE LTÉE",
+"montant": 6670085.0
+}
+]
+}
+},
+{
+"id": "19d52a35-828f-4a96-aad2-b0d9c4925fcf",
+"numero": "2026-900",
+"titre": "Contrat n° 2026-900 « DÉMOLITION ET CONSTRUCTION DE NOUVELLES CHAMBRES DES JOUEURS DE L’ARÉNA DENIS-PERRON »",
+"organisme": "Municipalité Havre-Saint-Pierre",
+"regions": [
+"Côte-Nord"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"construction d",
+"pierre"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-10-29T14:00",
+"publie": "2026-09-17T16:23",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72121400 - Construction d’édifices publics spécialisés"
+],
+"description": "AVIS\nPUBLIC\nContrat n° 2026-900 \n« DÉMOLITION ET ConStruction de\nnouvelles chambres pour les joueurs de L’ARÉNA »\nLa Municipalité\nde Havre-Saint-Pierre recevra des soumissions pour la démolition et\nconstruction de nouvelles chambres des joueurs de l’aréna Denis-Perron.\nDocuments :\nLes documents\nseront disponibles à partir du 17 septembre 2026 sur le site internet du\nsystème électronique d’appel d’offres (SEAO), à l’adresse suivante : www.seao.ca les frais sont fixés selon la\ntarification établie par le SEAO.\nRéception :\nLes soumissions\ndoivent être reçues au 1235, rue de la Digue RC.1, Havre-Saint-Pierre (Québec)\nG0G 1P0 ou par voie électronique via SEAO et ce, avant 14 h heures, le 15\noctobre 2026. Celles-ci seront ouvertes le plus tôt possible suivant la date de\nl’heure limite de réception des soumissions, et ce, en présence des\nsoumissionnaires intéressés.\nConditions :\nDes garanties\nfinancières et d’autres exigences peuvent être indiquées dans les documents\nd’appel d’offres.\nLa Municipalité\nde Havre-Saint-Pierre ne s’engage à accepter ni la plus basse ni aucune des\nsoumissions reçues, et n’encourra aucune obligation ni aucuns frais envers les\nsoumissionnaires.\nLaura Mansbridge\nDirectrice\ngénérale",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=19d52a35-828f-4a96-aad2-b0d9c4925fcf",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 40,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la démolition et la construction de nouvelles chambres pour les joueurs de l'aréna Denis-Perron. Les mots-clés mentionnent la pierre et la construction.",
+"pointsAttention": [
+"délai court (soumission avant le 15 octobre 2026)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat mentionne la construction, mais la pertinence pour les métiers ciblés (maçonnerie/charpenterie) n'est pas clairement définie comme étant le cœur du projet.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"pierre",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "70332c47-3988-4d0f-9baa-125516d9a500",
+"numero": "A2026-002-001",
+"titre": "Construction du Centre de formation horticole (bâtiment et serre) du Centre Frère-Moffet de Ville-Marie",
+"organisme": "Centre de services scolaire du Lac-Témiscamingue",
+"regions": [
+"Abitibi-Témiscamingue"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"construction d"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10% du prix total proposé",
+"estimation": 5700000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-10-29T14:00",
+"publie": "2026-09-04T10:18",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "L’ORGANISME PUBLIC désire lancer un appel d’offres se rapportant à l'exécution des travaux de construction d'un Centre de formation horticole (Bâtiment & Serre) de la formation professionnelle du Centre Frère-Moffet (CSSLT) située au 9 rue Notre-Dame-de-Lourdes à Ville-Marie (QC). \nCe mandat consiste à la démolition de la serre existante et essentiellement à la construction d'une nouvelle serre et de son bâtiment annexe pour le Centre de formation Frère-Moffet. \nUne rencontre d'information est prévu le 17 septembre à 9h au Centre de services scolaire du Lac-Témiscamingue (CSSLT) au 2 rue Maisonneuve à Ville-Marie, (Qc) J9V 1V4.\nÀ moins qu'il n'en soit décidé autrement par les PARTIES conformément au Contrat, les Travaux doivent être exécutés selon l'Échéancier proposé.\nDate de début de travaux : 1 mars 2027\nDate de fin de travaux : 17 décembre 2027\nDébut de la cohorte d'enseignement en horticulture : Janvier 2028",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=70332c47-3988-4d0f-9baa-125516d9a500",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition d'une serre existante et la construction d'une nouvelle serre et d'un bâtiment annexe pour un centre de formation horticole. Les travaux devraient durer environ 9 mois.",
+"pointsAttention": [
+"Délai de travaux de 9 mois",
+"Montant estimé de 5 700 000$"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment où la maçonnerie et la charpenterie/menuiserie sont probablement impliquées dans la construction de la serre et du bâtiment annexe, mais le titre ne met pas l'accent sur ces corps de métier.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "a8d632a8-bdd9-44d5-8dba-efc2bc94b34d",
+"numero": "AM011599",
+"titre": "Outaouais / Poste Val-des-Monts – Nouveau poste 120-25 kV (lot #2)",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Outaouais"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment",
+"béton",
+"charpente",
+"construction d",
+"réfection",
+"terrasse"
+],
+"cautionSoumission": "Cautionnement, 10% du montant total de la soumission.",
+"estimation": null,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-10-26T14:00",
+"publie": "2026-08-17T11:01",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72120000 - Construction de bâtiments non résidentiels",
+"72121506 - Construction de centrales électriques"
+],
+"description": "Objet\n : Outaouais / Poste Val-des-Monts – Nouveau poste 120-25 kV (lot #2)\n À titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur\n incluant les options est : entre 10 000 000 $ et 20 000 000 $\n Date limite de réception des plaintes : 08/09/2026\n Communication des plaintes :\n https://www.hydroquebec.com/sefco2016/fournisseurs/fourn-plainte.html\n Demande d'information : Doit être adressée au responsable au minimum trois\n jours ouvrables avant la date et l'heure limites fixées pour la réception des\n soumissions\n Description de l'objet : Travaux d’architecture\n • Installation des fondations en béton armé préfabriqués du nouveau\n bâtiment de commande; \n • Installation du nouveau bâtiment de commande de type BAC.\n • Finaliser (installer) les travaux d’architecture, de structure, de\n mécanique et d’électrique qui n’ont sont pas installés dans le nouveau\n bâtiment préfab.\n Travaux civils\n • Finaliser le terrassement du poste (incluant structure de la cour et des\n voies de circulation);\n • Installation et construction de toutes les fondations en béton armé (et\n préfab); \n • Toutes les tranchées pour câbles enfouis;\n • Installation de toutes les charpentes métalliques;\n • Drainage;\n • Regards d’égout;\n • Installation des bassins de récupération d’huile;\n • Clôture et barrière;\n • Revêtement bitumineux;\n • Etc.\n Travaux d’implantation électrique\n • Installation de tous les appareils électriques;\n • Installation de tous les jeux de barres blindées;\n • Installation de toutes les MALT du poste;\n • Toutes les boîtes de jonction, coffrets de sectionnement, cabinets de\n commande et interrupteurs de sûreté;\n • Câbles de garde;\n • Tous les conduits dans les bassins de transformateurs;\n • Tous les lampadaires et luminaires d’éclairage de la cour de poste;\n • Etc.\n Travaux de commande\n • Installation de tous les câbles de commande et d’alimentation;\n • Installation d’une antenne GPS;\n • Etc.\n Travaux de distribution\n • Excavation et construction de canalisations souterraines en béton\n (incluant mandrinage);\n • Canalisation de liaisons aérosouterraines;\n • Canalisation sans tranchée (forage guidé) sous le ruisseau du Prêtre;\n • Travaux civils connexes (ponceaux, enrochement, chemin d’accès, clôture,\n panneau de signalisation, protection et réfection de terre agricole,\n réfection d’une entrée privée, réfection spécifique des ch. De la Savane et\n Des Rapides, réfection spécifique du ch. Du Pont, marquage et Muret de\n soutènement);\n • Installations des puits d’accès.\n Chaloux, Nathalie\n CHALOUX.NATHALIE@HYDROQUEBEC.COM\n Poste : 9063\n Vous pouvez consulter les documents liés à cet avis et soumissionner à\n partir du lien suivant :\n https://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/26990\n Hydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a8d632a8-bdd9-44d5-8dba-efc2bc94b34d",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'un nouveau poste électrique et inclut des travaux d'architecture, de structure, de mécanique, électrique, ainsi que des travaux civils comme le terrassement et la construction de fondations en béton et de charpentes métalliques.",
+"pointsAttention": [
+"Montant estimé entre 10 000 000 $ et 20 000 000 $",
+"Durée prévue de 18 mois"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Bien que des mots-clés comme 'charpente' et 'béton' soient présents, le projet est principalement un ouvrage d'infrastructure électrique et civile, et non un contrat centré sur la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"béton",
+"réfection",
+"charpente",
+"terrasse",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"réfection",
+"charpente",
+"terrasse",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "46b30dd8-f78e-4b7e-9635-ab92f8b8457a",
+"numero": "532170702601",
+"titre": "RÉFECTION DE LA TOITURE DE L’USINE DE TRAITEMENT DES EAUX",
+"organisme": "Municipalité de Saint-Jean-Port-Joli",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "11",
+"surDemande": false,
+"fermeture": "2026-10-29T14:00",
+"publie": "2026-08-03T17:20",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72152601 - Toiture",
+"95121700 - Structures et bâtiments publics"
+],
+"description": "AVIS PUBLIC\nRéfection de la toiture de l’usine de traitement des eaux\nN/Réf. 532170702601\nLa présente procédure ouverte a pour but de solliciter des soumissions pour la conclusion d’un contrat de travaux de construction pour la réfection de la toiture de l’usine de traitement des eaux.\nLe Soumissionnaire qui se verra octroyer le contrat devra respecter les exigences décrites aux documents d’appel d’offres ainsi qu’à la politique de gestion contractuelle de l’Organisme municipal.\nLes documents d’appel d’offres seront disponibles dès le 3 août 2026 sur le système électronique d’appels d’offres du Gouvernement du Québec (SEAO). L’obtention des documents est sujette à la tarification de cet organisme.\nLes soumissions doivent être retournées dans une enveloppe portant l’inscription « Appel d’offres no 532170702601 – Réfection de la toiture de l’usine de traitement des eaux » et adressées à l’Organisme municipal de Saint-Jean-Port-Joli, situé au 7, Place de l'Église, Saint-Jean-Port-Joli (Québec) G0R 3G0, au plus tard le 24 août 2026 à 14h00 et seront ouvertes publiquement le même jour, au même endroit.\nSeules sont admises à soumissionner les personnes, sociétés, compagnies et corporations qui possèdent un établissement d’entreprise au Québec ou dans une province ou un territoire visé par un accord de libéralisation des marchés applicable aux municipalités soit l’Accord de libre-échange canadien (ALEC) et l’Accord de commerce et de coopération entre le Québec et l’Ontario (ACCQO).\nL’Organisme municipal ne s’engage à accepter ni la plus basse ni aucune des soumissions reçues ni à encourir aucuns frais de quelque nature que ce soit envers le ou les Soumissionnaires. De plus, l’Organisme municipal décline toute responsabilité à l’égard de l’un ou l’autre des Soumissionnaires dans le cas où toutes les soumissions seraient rejetées.\nLe contrat est adjugé au Soumissionnaire conforme ayant déposé le plus bas prix, le cas échéant, sur décision de l’Organisme municipal, à sa seule discrétion.\nDonné à Saint-Jean-Port-Joli, ce 3 août 2026\nStephen Lord\nDirecteur général et greffier-trésorier\nSaint-Jean-Port-Joli",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=46b30dd8-f78e-4b7e-9635-ab92f8b8457a",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture d'une usine de traitement des eaux. Les mots-clés trouvés sont 'enveloppe' et 'réfection'.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement la toiture et n'implique ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T14:39",
+"soumissions": [
+{
+"nom": "TOITURE ALPHA",
+"montant": 1468775.73
 }
 ]
 }
