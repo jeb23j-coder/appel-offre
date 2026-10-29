@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-10-29T16:05",
-"seaoLus": 327,
-"retenus": 331,
-"nouveaux": 9,
+"date": "2026-10-29T19:06",
+"seaoLus": 331,
+"retenus": 335,
+"nouveaux": 4,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -24949,7 +24949,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25042,7 +25042,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -25124,7 +25124,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25215,7 +25215,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 70,
 "type": "Maçonnerie",
@@ -25304,7 +25304,7 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25391,7 +25391,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25463,7 +25463,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25551,7 +25551,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25656,7 +25656,7 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 85,
 "type": "Maçonnerie",
@@ -25669,6 +25669,329 @@
 "raison": "Le contrat inclut clairement la restauration de maçonnerie et des travaux de menuiserie (fenêtres/portes), ce qui correspond directement aux intérêts de l'entreprise.",
 "version": 3
 }
+},
+{
+"id": "2a9b48a3-e96a-4f2a-a89d-3102b966d37c",
+"numero": "AO-3-26-028-SH001",
+"titre": "Réfection de la toiture du Centre Administratif Monseigneur Signay",
+"organisme": "Santé Québec Mauricie-et-Centre-du-Québec – Universitaire",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 250000,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-11-30T14:00",
+"publie": "2026-10-29T17:04",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le Gestionnaire de projet, SANTÉ QUÉBEC, personne\nmorale de droit public constituée en vertu de la Loi sur la gouvernance du\nsystème de santé et de services sociaux (RLRQ, c. G-1.021), agissant par\nl'entremise de l’établissement Centre intégré universitaire de santé et de\nservices sociaux de la Mauricie-et-du-Centre-du-Québec, ayant son siège au 858,\nTerrasse Turcotte, Trois-Rivières, Qc demande des soumissions pour les travaux de réfection de la toiture désuète du centre\njeunesse.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2a9b48a3-e96a-4f2a-a89d-3102b966d37c",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "500, Côte Richelieu Trois-Rivières QC CAN G9A2Z1",
+"ouverture": "2026-11-30 14:00 Heure légale du Québec",
+"adresseOuverture": "500, Côte Richelieu Trois-Rivières QC CAN G9A2Z1"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-29T19:05",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"réfection",
+"terrasse"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "8c13c739-75e5-4390-9d83-8f36f2a43784",
+"numero": "AOP2026-72018",
+"titre": "Réfection finis architecture et mécanique_ Pavillon Burgess 2_ IUSMD",
+"organisme": "Santé Québec Ouest de l'ile de Montréal-Universitaire",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, DIX POUR CENT (10%) du prix total\nproposé dans sa Soumission.",
+"estimation": 1440629,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-11-30T11:00",
+"publie": "2026-10-29T16:50",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "Le\nprojet consiste à un rafraîchement de l'unité de soins du 2e étage du Pavillon\nBurgess. \nLes travaux comprennent également l’ensemble des ouvrages connexes,\naccessoires et complémentaires requis pour une exécution complète et conforme,\ntels que décrits aux plans et devis techniques faisant partie intégrante du\nprésent appel d’offres.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=8c13c739-75e5-4390-9d83-8f36f2a43784",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "2400, Boulevard des Sources, 2e étage réception Pointe-Claire QC CAN H9R0E9",
+"ouverture": "2026-11-30 11:00 Heure légale du Québec",
+"adresseOuverture": "2400, Boulevard des Sources, 2e étage réception Pointe-Claire QC CAN H9R0E9"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-10-29T19:05",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "e61012a5-a87f-4662-b0a2-77e7da95fa68",
+"numero": "26380-004",
+"titre": "Réfection de l'enveloppe extérieure de la piscine à la Polyvalente Lavigne",
+"organisme": "Centre de services scolaire de la Rivière-du-Nord",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% du prix total proposé dans sa soumission",
+"estimation": 2987502,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-11-26T14:00",
+"publie": "2026-10-29T16:14",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151400 - Installation de revêtements muraux"
+],
+"description": "AVIS D'APPEL D'OFFRES PUBLIC\nLe Centre de services scolaire de la Rivière-du-Nord désire obtenir des soumissions électroniques ou sous enveloppe scellée pour la conclusion d'un contrat de travaux de réfection de l'enveloppe extérieure et de la toiture de la section piscine à la Polyvalente Lavigne. L’enveloppe extérieure et la toiture sont en fin de vie. Le CSSRDN exige que sois les travaux offerts par l’entrepreneur soient des Travaux « québécois ou autrement canadiens ».\nLIEU D'EXÉCUTION DES TRAVAUX : \nPolyvalente Lavigne\n452, avenue Argenteuil, Lachute (Québec) J8H 1W9\nDÉLAI D'EXÉCUTION DES TRAVAUX : \n28 juin 2027 au 25 février 2028\nOBTENTION DES DOCUMENTS :\nLes documents d’appel d’offres ne peuvent être obtenus que par l’intermédiaire du SÉAO (Système Électronique d'Appel d'Offres) en allant sur le site « seao.gouv.qc.ca ». Les documents peuvent être obtenus en version téléchargement, le tout moyennant un coût établi par SÉAO. Il sera possible d'obtenir l'assistance de SÉAO du lundi au vendredi de 8 h 30 à 16 h 30, au numéro suivant : 1-877-336-7326.\nRESPONSABLE DE L'APPEL D'OFFRES :\nÉquipe gestion contractuelle\nCourriel : gestion-contractuelle@cssrdn.gouv.qc.ca \nVISITE DES LIEUX : \nUne visite des lieux non obligatoire est prévue le 6 novembre 2026 9h30. Le point de rassemblement pour cette visite est fixé à l'adresse du lieu des travaux, à l'entrée principale.\nRÉCEPTION DES SOUMISSIONS :\nPour être valides et considérées, toute soumission devra être reçue au plus tard le 26 novembre 2026 avant 14 h. Le mode de transmission d'une soumission peut être fait selon l'un ou l'autre des procédés suivants :\na)soit par voie électronique via le SÉAO et elle doit être déposée (c'est-à-dire chiffrée, transmise, horodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure limites fixées pour la réception des soumissions;\nb)soit sous enveloppe scellée, au bureau de la réception du Centre de services scolaire de la Rivière-du-Nord, au 795 rue Melançon, Saint-Jérôme, Québec, J7Z 4L1, avant la date et l’heure limites fixées pour la réception des soumissions;\nUne soumission reçue postérieurement sera automatiquement rejetée et retournée au soumissionnaire sans être ouverte.\nOUVERTURE DES SOUMISSIONS :\nL'ouverture des soumissions se fera immédiatement après l'heure limite de réception des Soumissions.\nLe Centre de services scolaire encourage les soumissionnaires à procéder au dépôt d'une soumission par voie électronique.\nNous vous rappelons que la règlementation ne permet pas le dépôt de plusieurs soumissions dans le cadre de l'appel d'offres, étant entendu que la transmission d'une même soumission par voie électronique et sur support papier constitue un dépôt de plusieurs soumissions.\nGARANTIE DE SOUMISSION :\nLe soumissionnaire doit accompagner sa Soumission d’une garantie de soumission équivalant à dix pour cents (10%) du prix total proposé dans sa Soumission. Cette garantie de soumission doit être produite sous l'une ou l’autre des formes suiv",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e61012a5-a87f-4662-b0a2-77e7da95fa68",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "795 rue Melançon Saint-Jérôme QC CAN J7Z4L1",
+"ouverture": null,
+"adresseOuverture": "795 rue Melançon Saint-Jérôme QC CAN J7Z4L1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables."
+],
+"vuLe": "2026-10-29T19:05",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection de l'enveloppe extérieure",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection de l'enveloppe extérieure",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection de l'enveloppe extérieure",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"réfection de l'enveloppe extérieure"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "b562fc29-ddb7-4e4c-b709-3178c4c8b524",
+"numero": "RESM-2026-12",
+"titre": "RÉAMÉNAGEMENT NOVOCIS – Cégep de Trois-Rivières",
+"organisme": "Cégep de Trois-Rivières.",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission.",
+"estimation": 1000000,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-12-03T14:00",
+"publie": "2026-10-29T16:13",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "L’ORGANISME PUBLIC désire lancer un appel d’offres se rapportant à l'exécution des travaux du projet « RÉAMÉNAGEMENT NOVOCIS – Cégep de Trois-Rivières » situé au 1300 Place du Technoparc à Trois-Rivières. Cet ouvrage consiste à la démolition et à la reconstruction de systèmes intérieurs, des travaux mécaniques, électriques et de peinture., reliés au Projet no RESM-2026-12;",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b562fc29-ddb7-4e4c-b709-3178c4c8b524",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-03 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "3175 boul. Laviolette, local HA2110 Trois-Rivières QC CAN G8Z1E9",
+"ouverture": "2026-12-03 14:00 Heure légale du Québec",
+"adresseOuverture": "3175 boul. Laviolette, local HA2075 Trois-Rivières QC CAN G8Z1E9"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables."
+],
+"vuLe": "2026-10-29T19:05",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-444195723411",
@@ -37339,7 +37662,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-29"
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T16:36",
+"soumissions": [
+{
+"nom": "CONSTRUCTION FILIATRAULT INC.",
+"montant": 4656062.0
+},
+{
+"nom": "Construction Francis Roy",
+"montant": 4879614.0
+},
+{
+"nom": "CONSTRUCTION KG2 INC.",
+"montant": 5240000.0
+},
+{
+"nom": "Construction Girard",
+"montant": 5343594.0
+}
+]
+}
 },
 {
 "id": "a8d632a8-bdd9-44d5-8dba-efc2bc94b34d",

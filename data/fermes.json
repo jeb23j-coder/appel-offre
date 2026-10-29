@@ -11351,7 +11351,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-29"
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T16:36",
+"soumissions": [
+{
+"nom": "CONSTRUCTION FILIATRAULT INC.",
+"montant": 4656062.0
+},
+{
+"nom": "Construction Francis Roy",
+"montant": 4879614.0
+},
+{
+"nom": "CONSTRUCTION KG2 INC.",
+"montant": 5240000.0
+},
+{
+"nom": "Construction Girard",
+"montant": 5343594.0
+}
+]
+}
 },
 {
 "id": "a8d632a8-bdd9-44d5-8dba-efc2bc94b34d",
