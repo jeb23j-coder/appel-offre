@@ -25750,7 +25750,20 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture du Centre Administratif Monseigneur Signay. La description mentionne uniquement les travaux de toiture.",
+"pointsAttention": [
+"délai court",
+"cote de sécurité"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et n'inclut pas les métiers ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "8c13c739-75e5-4390-9d83-8f36f2a43784",
@@ -25829,7 +25842,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet consiste en un rafraîchissement de l'unité de soins du 2e étage du Pavillon Burgess. Les travaux incluent l'ensemble des ouvrages connexes et accessoires requis pour une exécution complète et conforme.",
+"pointsAttention": [
+"Délai de 5 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un rafraîchissement de bâtiment où les métiers de maçonnerie ou charpenterie pourraient être inclus dans les ouvrages connexes, mais le titre général est 'Services de maintenance et de réparation des bâtiments'.",
+"version": 3
+}
 },
 {
 "id": "e61012a5-a87f-4662-b0a2-77e7da95fa68",
@@ -25914,7 +25939,19 @@
 "réfection de l'enveloppe extérieure"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de l'enveloppe extérieure et de la toiture d'une piscine à la Polyvalente Lavigne. Les travaux sont estimés à 2 987 502 $ et devraient durer environ 8 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat touche à l'enveloppe du bâtiment, ce qui est pertinent, mais le cœur du travail est la piscine et la toiture, et non spécifiquement la maçonnerie ou la charpenterie.",
+"version": 3
+}
 },
 {
 "id": "b562fc29-ddb7-4e4c-b709-3178c4c8b524",
@@ -25991,7 +26028,19 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition et la reconstruction de systèmes intérieurs, ainsi que des travaux mécaniques, électriques et de peinture pour le Cégep de Trois-Rivières. La durée prévue est de 6 mois avec un montant estimé de 1 000 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement/rénovation majeure où les métiers de la maçonnerie et de la charpenterie pourraient être impliqués dans la reconstruction, mais le descriptif se concentre sur les systèmes intérieurs, mécaniques et électriques.",
+"version": 3
+}
 },
 {
 "id": "merx-444195723411",
