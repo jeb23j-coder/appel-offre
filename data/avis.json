@@ -24949,7 +24949,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la mise à niveau du laboratoire de science d'une école, avec une durée prévue de 3 mois et un montant estimé à 350 000 $. Les travaux incluent des aspects de ventilation, plomberie/gaz, électricité et travaux connexes en architecture.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment scolaire où les métiers de la maçonnerie ou de la charpenterie pourraient être impliqués dans les travaux connexes en architecture, mais le cœur semble être les installations techniques.",
+"version": 3
+}
 },
 {
 "id": "af6458b3-404c-482e-aa3b-156917382de2",
@@ -25030,7 +25042,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection d'un laboratoire au Centre Hospitalier de la Mitis. Les travaux sont estimés à 185 000 $ et la durée prévue est de 4 mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le contrat soit pour la réfection d'un bâtiment, il n'est pas explicitement centré sur la maçonnerie ou la charpenterie comme cœur du projet, nécessitant une vérification détaillée des lots inclus.",
+"version": 3
+}
 },
 {
 "id": "7ec09226-9768-4774-ae69-6ca2cbcf2961",
@@ -25100,7 +25124,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la modification et l'optimisation des systèmes de climatisation et de ventilation d'un amphithéâtre. L'objectif est d'améliorer le confort et la conformité technique du bâtiment.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la climatisation et la ventilation, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b271474b-c5d8-43f7-8873-3a50ca1b111e",
@@ -25179,7 +25215,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 70,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection et la remise aux normes de l'hôtel de ville et de la bibliothèque municipales de Richelieu. Le projet est prévu pour une durée de 12 mois.",
+"pointsAttention": [
+"Délai de soumission strict (avant le 1er décembre 2026).",
+"Exigences de garanties de soumission et de cautionnement d'exécution élevées (50% du montant du contrat)."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet implique des travaux de réfection et de remise aux normes d'un bâtiment public, ce qui inclut probablement des aspects de maçonnerie et/ou de menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0981dd64-9dac-4f67-acb5-59058231d677",
@@ -25255,7 +25304,21 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux de murs rideaux, fenestration, vitrage et portes d'aluminium automatiques pour l'agrandissement et le réaménagement d'un bloc opératoire d'un hôpital. Le montant estimé est de 1 298 470 $ et la durée prévue est de 19 mois.",
+"pointsAttention": [
+"Délai de soumission : Fermeture le 2026-11-18T15:00",
+"Garantie de soumission : Obligatoire (10% du montant de la soumission)",
+"Soumission par voie électronique fortement recommandée"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne des travaux de bâtiment (agrandissement) où la maçonnerie ou la charpenterie pourraient être impliquées dans la structure ou les aménagements, mais le cœur du lot est la menuiserie/fenestration. Il faut vérifier si les travaux de maçonnerie/charpenterie sont inclus dans le lot global.",
+"version": 3
+}
 },
 {
 "id": "3f1b85d3-1db3-47d3-91fb-d29ac43d091a",
@@ -25328,7 +25391,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux de construction de deux accès au pavillon Mille-Roches. La durée prévue du contrat est de 18 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la construction d'accès à un bâtiment, ce qui peut inclure des éléments de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+}
 },
 {
 "id": "d0f6c023-c10c-42cf-8b2d-c21dfccfa77c",
@@ -25388,7 +25463,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau d'un poste de pompage d'égout sanitaire et l'ajout d'une chambre de récurage sur une conduite de refoulement existante.",
+"pointsAttention": [
+"délai de 12 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est lié aux travaux d'infrastructure et de génie civil (stations d'épuration), ce qui n'est pas dans le champ d'expertise de la maçonnerie/charpenterie.",
+"version": 3
+}
 },
 {
 "id": "84ed1ae6-7942-4666-a30d-da5810db4f84",
@@ -25464,7 +25551,23 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien de l'appareillage de distribution électrique (600V à 25 kV) et des travaux électriques spécialisés aux ouvrages de production et de distribution d'eau potable.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres est entièrement axé sur l'électricité et n'a aucun lien avec les métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "23675221-e7fb-49a6-960c-18c3934ec72a",
@@ -25553,7 +25656,19 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la restauration des fenêtres et contrefenêtres, le remplacement de certaines fenêtres, la restauration d'une porte extérieure et d'autres composantes connexes. Les travaux incluent également des ouvrages de structure et la restauration de maçonnerie.",
+"pointsAttention": [
+"Délai de 3 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut clairement la restauration de maçonnerie et des travaux de menuiserie (fenêtres/portes), ce qui correspond directement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "merx-444195723411",
