@@ -25104,7 +25104,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'offres pour l'ajout de modules dans un immeuble scolaire. Le projet concerne l'ajout de modules pour 8 classes.",
+"pointsAttention": [
+"Visite des lieux non-obligatoire le 6 novembre 2026 à 9h30."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'ajout de modules scolaires et n'implique pas de travaux majeurs de maçonnerie ou de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "67247ed6-9d1d-40d0-883c-b33e528b5338",
@@ -25178,7 +25190,21 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de fournaises et le remplacement du réservoir d'eau chaude à une adresse spécifique à Montréal. Le code de travaux est lié à l'installation et au réglage de chaudières.",
+"pointsAttention": [
+"Visite supervisée des lieux : N/A.",
+"Si la visite supervisée des lieux est obligatoire, la date limite pour prendre rendez-vous est le 6 novembre 2026 à 16 h, à l’adresse courriel suivante : ao_anjou@montreal.ca.",
+"Les visites auront lieu du 3 au 9 novembre 2026 inclusivement, selon l’horaire suivant : entre 9 h et 12 h et entre 13 h et 15 h."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux de plomberie/chauffage et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a6ec159f-884b-430c-b1a4-c66ad3e2f46b",
@@ -25265,7 +25291,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne les travaux de restauration, de mise aux normes, de rénovation et d'agrandissement de la Gare de Mont-Rolland à Sainte-Adèle. La durée prévue est de 12 mois.",
+"pointsAttention": [
+"Délai de 12 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut clairement des travaux de restauration, rénovation et agrandissement, ce qui correspond aux intérêts principaux de l'entreprise (maçonnerie/charpenterie) dans un contexte de bâtiment.",
+"version": 3
+}
 },
 {
 "id": "ec26bfd5-cb0e-4463-a238-610fa3a63a04",
@@ -25329,7 +25367,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "La Ville de Repentigny requiert des soumissions pour les travaux de réaménagement du 2e étage du Centre Laurent-Venne. La durée prévue est d'un mois.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne un réaménagement de bâtiment, ce qui pourrait inclure des travaux de maçonnerie ou de charpenterie, mais le détail des travaux n'est pas précisé.",
+"version": 3
+}
 },
 {
 "id": "54ab9152-8584-4348-860a-22d8f0a6cab2",
@@ -25395,7 +25445,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de trois réservoirs diesel enfouis dans le sol à l'Hôpital Honoré-Mercier. La durée prévue est de 2 mois et le montant estimé est de 917 805 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-444195723411",
