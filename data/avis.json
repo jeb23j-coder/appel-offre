@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-10-28T18:57",
+"date": "2026-10-29T13:20",
 "seaoLus": 325,
 "retenus": 329,
-"nouveaux": 7,
+"nouveaux": 5,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -10030,74 +10030,6 @@
 }
 },
 {
-"id": "6f4def8f-fb0d-416d-9afc-179324ac4d80",
-"numero": "TP 2026-45",
-"titre": "Installation de compteurs d’eau résidentiels, antennes et mise en marche -volet 02",
-"organisme": "Ville de Beaconsfield",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "13",
-"surDemande": false,
-"fermeture": "2026-10-29T10:00",
-"publie": "2026-10-08T14:40",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72101500 - Services de maintenance et de réparation des bâtiments",
-"72101510 - Maintenance ou réparation de la plomberie",
-"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
-"72151100 - Installation de plomberie"
-],
-"description": "La Ville de Beaconsfield souhaite recevoir des soumissions pour la gestion des rendez-vous, des communications et des données, ainsi que pour l’installation (remplacement) d’environ 2 500 compteurs d’eau résidentiels et antennes de télémétrie associées, de diamètres variant de 13 mm à 40 mm, dans des immeubles résidentiels déjà munis de compteurs d’eau sur son territoire.\nLes travaux comprennent également la réalisation des installations irrégulières, lorsque requises, ainsi que la production d’un rapport d’intervention final conformément aux exigences du devis.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6f4def8f-fb0d-416d-9afc-179324ac4d80",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la gestion des rendez-vous, des communications et l'installation (remplacement) de compteurs d'eau résidentiels et d'antennes de télémétrie dans des immeubles résidentiels existants.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-}
-}
-},
-{
 "id": "b050d6fa-f0e3-4cd8-abd9-a1ab9627613b",
 "numero": "AM011820",
 "titre": "Estrie / CA Granby -  Installation d'infrastructure électrique intérieure et extérieure pour électrification des transport",
@@ -11851,94 +11783,6 @@
 }
 },
 {
-"id": "305ed35a-b804-4a6b-af28-41b046293844",
-"numero": "LONG-26-0340",
-"titre": "Travaux d'aménagement d’un vestiaire pour VPI à la caserne 23",
-"organisme": "Ville de Longueuil",
-"regions": [
-"Montérégie"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"caserne",
-"cloison",
-"construction d",
-"enveloppe"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "18",
-"surDemande": false,
-"fermeture": "2026-10-29T11:00",
-"publie": "2026-10-06T09:36",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations",
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
-"95121705 - Caserne de pompiers"
-],
-"description": "La Ville de Longueuil demande des soumissions\npour :\nTRAVAUX D'AMÉNAGEMENT D’UN VESTIAIRE POUR VPI À\nLA CASERNE 23\nDurée du contrat : 18 mois\nObjet du\ncontrat : \nLe présent contrat a pour\nobjet des travaux d’aménagement d’un vestiaire VPI à la caserne 23 située au\n1700, boulevard Curé-Poirier Est. L’étendue des travaux est définie en détail\naux plans et devis.\nDescription\nsommaire des travaux : \nLes travaux comprennent, de\nfaçon générale, sans toutefois s’y limiter, les ouvrages suivants : \na) Construction de trois (3) nouvelles cloisons\net l’aménagement d’un nouveau garde-robe de buanderie ;\nb) Travaux de plomberie ;\nc) Travaux de ventilation ;\nd) Travaux de réfrigération ;\ne) Travaux d’électricité.\nDurée\nprévue des travaux : 6 mois\nVisite des lieux : \nObligatoire et\nsur rendez-vous seulement. Les périodes de visite sont les suivantes :\n· \nLes 14 et 15 octobre 2026, entre 8 h 00 et 12 h 00 et entre 13 h\n00 et 16 h 00;\n· \nLe 16 octobre 2026, entre 8 h 00 et 12 h 00.\nVeuillez communiquer par\ncourriel avec la Représentante au Dossier au plus tard quarante-huit (48) heures\navant la date souhaitée pour prendre rendez-vous.\nLe\nprésent appel d’offres constitue une procédure ouverte en vue de l’attribution\nd’un contrat au sens de la Loi sur les contrats des organismes municipaux\n(LCOM).\nLe contrat est attribué au\nsoumissionnaire ayant présenté une soumission conforme avec le prix proposé le\nplus bas.\nLes personnes et entreprises\nintéressées par ce contrat peuvent obtenir les documents d’appel d’offres et\nles modifications à ces documents uniquement en s’adressant au système électronique d’appel d’offres du\ngouvernement du Québec (SEAO) www.seao.gouv.qc.ca\nou au 1 877-336-7326. L’obtention des documents est sujette à la\ntarification de cet organisme.\nDes garanties financières et\nd’autres exigences peuvent être indiquées dans les documents d’appel d’offres.\nCet appel d’offres est\nassujetti \n à l'accord intergouvernemental suivant :\n· \nAccord de commerce\net de coopération entre le Québec et l’Ontario (ACCQO)\nChaque soumission sur support\npapier doit être déposée et horodatée au comptoir taxes de l’hôtel de ville de\nLongueuil, au 4250, chemin de la Savane, niveau 200, Longueuil (Québec), dans\nune enveloppe opaque, scellée et identifiée comme le modèle indiqué dans les\ndocuments d’appel d’offres à la clause : « Identification ».\nNos heures d’ouverture sont du\nlundi au jeudi, sauf les jours fériés, de 8 h 30 à 12 h et de 13 h à 16 h 30 et\nles vendredis de 8 h 30 à 12 h. \nLa\ntransmission des soumissions par voie électronique \n est autorisée pour cet appel d’offres. \nLes soumissions par voie\nélectronique ne peuvent être transmises que par l’intermédiaire du système\nélectronique d’appel d’offres du gouvernement du Québec (SEAO), à l’adresse\nsuivante : www.seao.gouv.qc.ca.\nDate et heure limites pour la réception des soumissions\nLe jeudi, 29 octobre 2026 à 11 h 00 min 59 s\nLa\nsoumission doit être déposée (chiffrée, transmise, horodatée et sauvegardée sur\nles serve",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=305ed35a-b804-4a6b-af28-41b046293844",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 50,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'aménagement d'un vestiaire pour la caserne 23, incluant la construction de cloisons, mais les travaux principaux mentionnés sont la plomberie, la ventilation, la réfrigération et l'électricité.",
-"pointsAttention": [
-"Visite obligatoire, délai court (6 mois de travaux), contrat sur demande non applicable."
-],
-"recommandation": "No-go",
-"mode": "Sous-traitance",
-"raison": "Le cœur du contrat n'est pas la maçonnerie ou la charpenterie/menuiserie, mais des travaux d'aménagement intérieurs et techniques.",
-"version": 3
-},
-"motsOk": true,
-"visiteObligatoire": true,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"enveloppe"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"enveloppe",
-"cloison",
-"construction d",
-"caserne"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"enveloppe",
-"cloison",
-"construction d",
-"caserne"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
 "id": "b303a60d-d034-4a1e-9f34-2bc5ad34491c",
 "numero": "P21059RL-02",
 "titre": "Rénovation des ascenseurs RL1 et RL2 aux résidences René-Lévesque (RL)",
@@ -12184,67 +12028,6 @@
 "Maçonnerie",
 "Charpenterie"
 ],
-"tropCher": false
-}
-}
-},
-{
-"id": "80f19242-096f-483d-a4e0-43806caa3afc",
-"numero": "13434",
-"titre": "EPS-10306_Remplacement des rideaux séparateurs et de la surface sportive",
-"organisme": "Université Laval",
-"regions": [
-"Capitale-Nationale"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE\ndoit accompagner sa Soumission d’une garantie de soumission équivalant à DIX\nPOUR CENT (10%) du prix total proposé dans sa Soumission.",
-"estimation": 1917000,
-"dureeMois": "3",
-"surDemande": false,
-"fermeture": "2026-10-29T11:30",
-"publie": "2026-10-05T15:47",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Les travaux consistent notamment à remplacer les rideaux séparateurs et la surface sportive dans le stade couvert du PEPS.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=80f19242-096f-483d-a4e0-43806caa3afc",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Les travaux consistent à remplacer les rideaux séparateurs et la surface sportive dans le stade couvert du PEPS.",
-"pointsAttention": [
-"visite obligatoire"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "L'appel d'offres concerne la rénovation d'un stade et ne mentionne aucun travail pertinent pour la maçonnerie ou la charpenterie/menuiserie.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
 "tropCher": false
 }
 }
@@ -16338,90 +16121,6 @@
 "patrimonial",
 "fenêtre",
 "bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "7dc329f9-c3ed-4920-b211-9484f98defb7",
-"numero": "261900-ST",
-"titre": "Travaux de réfection des caniveaux du garage #1 des Travaux publics de l'arrondissement de Pierrefonds-Roxboro",
-"organisme": "Ville de Montréal - Arrondissement de Pierrefonds-Roxboro",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"garage",
-"pierre",
-"réfection"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "3",
-"surDemande": false,
-"fermeture": "2026-10-29T11:00",
-"publie": "2026-09-24T10:03",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72101500 - Services de maintenance et de réparation des bâtiments"
-],
-"description": "ArrondissementdePierrefonds-Roxboro\n Appeld’offrespublic\n DirectionDéveloppementduterritoireetétudes\n AVISPUBLIC\n No261900-ST\n techniques\n 13665,boulevarddePierrefonds\n D’APPELD’OFFRES\n Exécutiondestravaux\n 14_cahier_charges_20191127\n Pierrefonds(Québec)H9A2Z4\nAvispublicd’appeld’offres VILLE DE MONTRÉAL\nArrondissement de Pierrefonds-RoxboroDirectionDéveloppementduterritoireetétudestechniques\nDessoumissionssontdemandéesetdevrontêtrereçues,avant11heures,àladateci-dessous,dansleslocauxdubureau d’arrondissementàlamairiedel’arrondissement,situéeau13665,boulevarddePierrefonds,Montréal,Québec,H9A2Z4 pour :\nCatégorie: Travauxde\nconstruction\nAppeld’offres: 261900-ST\n Titredel’appeld’offres:\nTravaux de réfection des caniveaux du garage #1\ndes Travaux publics de l'arrondissement de Pierrefonds-Roxboro\nDated’ouverture: 29 octobre2026\nDépôtdegarantie: 10%delavaleurdelasoumission\nRenseignements: Pourtoutequestions’adresserà:ingenierie.pfdsrox@montreal.ca\nDocuments: Lesdocumentsrelatifsàcetappeld’offresserontdisponiblesàcompterdu24 septembre2026\nVisitesuperviséedes lieux\n: \nN/A. ou \nOui\nDu 5 octobre 2026 au 16\noctobre 2026\nLes\npersonnes et les entreprises intéressées par ce contrat peuvent se procurer les\ndocuments de soumission en s’adressant au Service électronique d’appels\nd’offres (SÉAO) en communiquant avec un des représentants par téléphone au 1866669-7326\nou au 514856-6600, ou en consultant\nle site Web www.seao.ca.\nLes documents peuvent être obtenus au coût établi par le SÉAO.\nChaquesoumissiondoitêtreplacéedansuneenveloppecachetéeetportantl’identificationfournieenannexedudocument\nd’appel d’offres.\nLes\nsoumissions reçues seront ouvertes publiquement dans les locaux du bureau\nd’arrondissement à la mairie de l’arrondissement, immédiatement après\nl'expiration du délai fixé pour leur réception.\nLa\nVille de Montréal ne s'engage à accepter ni la plus basse ni aucune des\nsoumissions reçues et n'assume aucune obligation de quelque nature que ce soit\nenvers le ou les soumissionnaires.\nFaitàMontréal,le24 septembre2026\nMeJean-FrançoisGauthier,MBA Secrétaire d’arrondissement",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7dc329f9-c3ed-4920-b211-9484f98defb7",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 10,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la réfection des caniveaux du garage #1 d'un arrondissement de Montréal. Les mots-clés mentionnent la pierre, la réfection et le garage.",
-"pointsAttention": [
-"Visites supervisées des lieux du 5 octobre 2026 au 16 octobre 2026."
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne l'entretien de caniveaux et n'a aucun lien direct avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"motsOk": true,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"pierre",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"pierre",
-"réfection",
-"garage"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"pierre",
-"réfection",
-"garage"
 ],
 "motsOk": true,
 "familles": [
@@ -21338,66 +21037,6 @@
 }
 },
 {
-"id": "a9df1157-5140-46fd-9f5f-7146f8cc580f",
-"numero": "TP41",
-"titre": "Hôtel de ville de Sainte-Anne-des-Plaines remplacement de la chaudière",
-"organisme": "Ville de Sainte-Anne-des-Plaines.",
-"regions": [
-"Laurentides"
-],
-"typeAvis": "Avis d’appel d’offres",
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "8",
-"surDemande": false,
-"fermeture": "2026-10-29T11:00",
-"publie": "2026-09-23T08:00",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72151001 - Entretien des chaudières"
-],
-"description": "TITRE : HÔTEL DE VILLE DE SAINTE-ANNE-DES-PLAINES REMPLACEMENT DE LA CHAUDIÈRE NUMÉRO : TP4\nDes soumissions scellées seront reçues par le greffier de la Ville de Sainte-Anne-des-Plaines ou son représentant autorisé, à l’hôtel de ville au 139, boulevard Sainte-Anne, à Sainte-Anne-des-Plaines, jusqu’à 11 h 00 le 23 octobre 2026 pour l’appel d’offres « HÔTEL DE VILLE DE SAINTE-ANNE-DES-PLAINES REMPLACEMENT DE LA CHAUDIÈRE » et\nseront ouvertes publiquement ce même jour et à 11h15. Les dépôts électroniques via le SEAO ne seront pas acceptés. La date limite de réception des plaintes est le 8 octobre 2026.\nLa durée du contrat 240 jours de calendrier consécutifs délais long.\nLes entreprises intéressées par cet appel d’offres doivent se procurer les documents d’appel d’offres en s’adressant au système électronique d’appel d’offres (SEAO) à l’adresse suivante : www.seao.gouv.qc.ca. Les documents sont obtenus au coût établi par le SEAO. La Ville de Sainte-Anne-des-Plaines se réserve le droit de rejeter toute soumission dont le soumissionnaire ne s’est pas procuré le document d’appel d’offres directement du SEAO incluant les addenda (s’il y a lieu).\nDe plus, la Ville n’encourt aucune responsabilité du fait que les avis écrits ou documents quelconques véhiculés par le système électronique soient incomplets ou comportent quelques erreur ou omission que ce soit. En conséquence, tout soumissionnaire doit s’assurer, avant de soumissionner, d’obtenir tous les documents reliés à cet appel d’offres via le SEAO.\nTout renseignement d’ordre général concernant le présent appel d’offres pourra être obtenu en communiquant avec monsieur Étienne Bérard, PGM, T. P. directeur du Service des infrastructures et techniques par courriel à l’adresse suivante : eberard@villesadp.ca\nLes soumissions devront être valides pour une période de quatre-vingt-dix (90) jours et être accompagnées d’un chèque certifié, une mandat poste, un mandat, une traite bancaire ou d’une lettre de garantie irrévocable émise par une institution financière faisant affaire au Québec d’un montant au moins égal à dix pour cent (10 %) de la valeur de la soumission incluant les taxes.\nLes soumissions devront également être accompagnées d’une lettre d’intention quant à l’émission d’un cautionnement d’exécution et d’un cautionnement garantissant la main-d’œuvre, les matériaux et les services, chacun pour une valeur de cinquante pour cent (50 %) de la valeur de la soumission incluant les taxes.\nSeuls les cautionnements émis par des compagnies détenant un permis d’assureur du Canada et reconnues par l’Autorité des marchés financiers du Québec seront acceptés aux termes des documents d’appel d’offres.\nL’accord intergouvernemental applicable est le suivant : Accord Québec-Ontario (ACCQO).\nLa Ville ne s’engage à accepter ni la plus basse ni aucune des soumissions reçues. Elle se réserve en outre le droit de rejeter toutes les soumissions reçues, si elle le juge à propos, sans pour autant être tenue responsable ou faire",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a9df1157-5140-46fd-9f5f-7146f8cc580f",
-"vuLe": "2026-10-24T21:08",
-"motsTrouves": [],
-"motsOk": false,
-"visiteObligatoire": false,
-"nouveau": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement de la chaudière d'un hôtel de ville. La durée prévue du contrat est de 240 jours de calendrier.",
-"pointsAttention": [
-"délai long"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne l'entretien/remplacement d'une chaudière et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-}
-}
-},
-{
 "id": "7d23c941-9756-4ad6-9036-f51825339a4c",
 "numero": "C0005039",
 "titre": "19-008 – HRV – Projet du Nouveau VIC de l’Université McGill Lot 0920 :  Systèmes intérieurs des pavillons A, E, L et N",
@@ -24835,7 +24474,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -24911,7 +24550,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25018,7 +24657,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 75,
 "type": "Maçonnerie",
@@ -25115,7 +24754,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25205,7 +24844,7 @@
 "béton"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25299,7 +24938,7 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25375,7 +25014,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25388,6 +25027,375 @@
 "raison": "Le projet concerne le remplacement d'une génératrice et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
 "version": 3
 }
+},
+{
+"id": "8502843a-a0c5-4aeb-b384-2dd2d7e90fc8",
+"numero": "2526-ISC-03",
+"titre": "Ajout de modulaires - 8 classes",
+"organisme": "Centre de services scolaire de Saint-Hyacinthe",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Dix pour cent (10%) du prix total proposé de la soumission",
+"estimation": 12152970,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-11-30T11:00",
+"publie": "2026-10-29T09:53",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"95121700 - Structures et bâtiments publics",
+"95121911 - École secondaire"
+],
+"description": "APPEL D'OFFRES PUBLIC\n2526-ISC-03\nAJOUT\nDE MODULAIRES – 8 CLASSES\nImmeuble Samuel-Casavant\n700, rue Girouard Est\nSaint-Hyacinthe (Québec) J0H 7Z1\nPROPRIÉTAIRE :\ncentre\nde services scolaire de Saint-Hyacinthe\n2255, avenue Sainte-Anne\nSaint-Hyacinthe (Québec) J2S 5H7\nTéléphone: 450 773-8401, poste 6192\nCourriel : william.bessette@csssh.gouv.qc.ca\nResponsable : Monsieur William Bessette,\ningénieur\nExpertise technique #1:\nNom : Francis Lussier Architecte\nTéléphone : (450) 252-1212\nCourriel : fl@flarchitecte.com\nFonction : Francis Lussier, architecte\nExpertise technique #2:\nNom : EXP\nTéléphone : (514) 931-1080\nCourriel : sebastien.gaudreau@exp.com\nFonction : Sébastien Gaudreau, ingénieur\nExpertise technique #3:\nNom : Larocque Cournoyer\nTéléphone : (819) 477-0191\nCourriel : p.menard@lc-ing.com\nFonction : Philippe Ménard, ingénieur\nLe Centre de services scolaire\nde Saint-Hyacinthe, Propriétaire, demande des soumissions pour un projet d’ajout\nde modulaires.\nLes soumissions dans des\nenveloppes cachetées et adressées au soussigné ou déposé électroniquement sur\nSEAO, seront reçues au Centre de services scolaire de Saint-Hyacinthe, au\nServices des ressources matérielles situé au 2255, avenue Sainte-Anne, Saint-Hyacinthe,\n(Québec) J2S 5H7 le 30 novembre 2026 jusqu'à\n11 heures, heure en vigueur localement, pour être ouvertes publiquement\nau même endroit, le même jour et à la même heure.\nLes documents pourront être\nobtenus en s’adressant au Service électronique d’appel d’offres (SEAO) en\ncommuniquant avec un des représentants par téléphone au\n1 866 669-7326 ou au 514 856-6600 ou en consultant le site\nweb :www.seao.ca. Les documents peuvent être\nobtenus au coût établi par le SEAO. Le Centre de services scolaire n’encourt\naucune responsabilité du fait que les avis écrits ou documents quelconques\nvéhiculés par système électronique soient incomplets ou comportent quelque\nerreur ou omission que ce soit. En conséquence, tout entrepreneur doit\ns’assurer, avant de présenter sa soumission, d’obtenir tous les documents\nreliés à cet appel d’offres.\nVISITE DES LIEUX : Une visite des lieux non-obligatoire sera faite le 6 novembre 2026\nà 9h30. Le point de rassemblement pour cette visite est fixé à l’entrée\nprincipale au 700, rue Girouard Est, Saint-Hyacinthe (Québec) J0H 7Z1\nChaque soumissionnaire doit\nremettre son offre sur le « Formulaire\nde soumission » préparé à cette fin pour la CSSSH. Les soumissions\ndevront être accompagnées d'un chèque visé au montant minimum de 10 % du\nprix soumissionné, à l'ordre du Centre de services scolaire de Saint-Hyacinthe,\nou d'un cautionnement de soumission, établi au même montant, valide pour la\npériode de validité de la soumission. Cette garantie de soumission devra être\néchangée à la signature du contrat pour une garantie d'exécution et une\ngarantie des obligations pour gages, matériaux et services. Lorsque ces\ngaranties sont sous forme de cautionnement, le montant de chacune d'elles\ncorrespond à 50 % du prix du contrat et lorsqu'elles s",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=8502843a-a0c5-4aeb-b384-2dd2d7e90fc8",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "2255, avenue Sainte-Anne Saint-Hyacinthe QC CAN J2S5H7",
+"ouverture": null,
+"adresseOuverture": "2255, avenue Sainte-Anne Saint-Hyacinthe QC CAN J2S5H7"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-29T13:19",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "67247ed6-9d1d-40d0-883c-b33e528b5338",
+"numero": "Contrat 2026-10-TR",
+"titre": "Remplacement et ajout de fournaises et remplacement du réservoir d’eau chaude au 7500, avenue Goncourt – Anjou 2027",
+"organisme": "Ville de Montréal - Arrondissement d'Anjou",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-11-16T11:00",
+"publie": "2026-10-29T08:58",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151002 - Installation et réglage de chaudières"
+],
+"description": "Appel d’offresVILLE\nDE MONTRÉALArrondissement d’Anjou\nDivision des études techniques\nDes soumissions, sont demandées\net devront être reçues avant 11 heures, à la date ci-dessous mentionnée,à l’adresse\nsuivante : Direction des services\nadministratifs, des relations avec les citoyens et du greffe, arrondissement\nd’Anjou, au 7701, boul. Louis-H.-La Fontaine, Anjou (Québec) H1K 4B9 (à l’attention\nde madame Josée Kenny).\n Catégorie :\n Travaux\n Appel d’offres :\n 2026-10-TR\n Descriptif :\n Remplacement et ajout de fournaises et\n remplacement du réservoir d’eau chaude au 7500, avenue Goncourt – Anjou 2027\n Date d’ouverture :\n Le lundi 16 novembre 2026 à 11 heures\n Dépôt de garantie :\n 10 % de la valeur de la soumission \n Renseignements :\n Pour toute question s’adresser à :ao_anjou@montreal.ca\n Documents :\n Les documents relatifs à cet appel d’offres seront\n disponibles à compter du 29 octobre 2026 sur le SEAO.\n Visite\n supervisée des lieux :\n N/A. \n ou Oui, obligatoire :\n Si\n la visite supervisée des lieux est obligatoire, la date limite pour prendre\n rendez-vous est le 6\n novembre 2026 à 16 h, à l’adresse\n courriel suivante : ao_anjou@montreal.ca.\n Les\n visites auront lieu du 3\n au 9 novembre 2026 inclusivement,\n selon l’horaire suivant : entre 9 h et 12 h et entre 13 h et 15 h.\nLes personnes et les entreprises intéressées par ce contrat peuvent se procurer les\ndocuments de soumission en s’adressant au Service électronique d’appels\nd’offres (SÉAO) en communiquant avec un des représentants par téléphone au\n1-877-336-7326ou au 418 646-0177, ou en consultant le site Web https://seao.gouv.qc.ca/. Les documents\npeuvent être obtenus au coût établi par le SÉAO.\nChaque\nsoumission doit être placée dans une enveloppe cachetée et portant\nl’identification fournie en annexe du document d’appel d’offres.\nLes\nsoumissions reçues seront ouvertes publiquement à l’endroit susmentionné,\nimmédiatement après l'expiration du délai fixé pour leur réception.\nLa\nVille de Montréal ne s'engage à accepter ni la plus basse ni aucune des\nsoumissions reçues et n'assume aucune obligation de quelques natures que ce\nsoit envers le ou les soumissionnaires.\nFait à\nMontréal, le29 octobre 2026\nJosée Kenny\nSecrétaire d’arrondissement par intérim\nJournaux de\npublication : Le Devoir__",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=67247ed6-9d1d-40d0-883c-b33e528b5338",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-11-16 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "7701, boul. Louis-H.-La Fontaine Montréal QC CAN H1K4B9",
+"ouverture": "2026-11-16 11:00 Heure légale du Québec",
+"adresseOuverture": "7701, boul. Louis-H.-La Fontaine Montréal QC CAN H1K4B9"
+},
+"conditions": [],
+"vuLe": "2026-10-29T13:19",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "a6ec159f-884b-430c-b1a4-c66ad3e2f46b",
+"numero": "2026-05-PARC",
+"titre": "Gare de Mont-Rolland - Travaux de restauration, de mise aux normes, de rénovation et d'agrandissement",
+"organisme": "MRC des Pays-d'en-Haut",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-30T10:00",
+"publie": "2026-10-29T08:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72120000 - Construction de bâtiments non résidentiels",
+"72121103 - Rénovation et réparation d’immeubles commerciaux et de bureaux",
+"95121500 - Structures et bâtiments commerciaux ou de loisirs"
+],
+"description": "Gare de Mont-Rolland à Sainte-Adèle - Travaux de restauration, de mise aux normes, de rénovation et d'agrandissement",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a6ec159f-884b-430c-b1a4-c66ad3e2f46b",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "1014, rue Valiquette Sainte-Adèle QC CAN J8B2M3",
+"ouverture": "2026-11-30 10:00 Heure légale du Québec",
+"adresseOuverture": "1014, rue Valiquette Sainte-Adèle QC CAN J8B2M3"
+},
+"conditions": [],
+"vuLe": "2026-10-29T13:19",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"restauration",
+"rénovation",
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration",
+"rénovation",
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"agrandissement",
+"restauration",
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "ec26bfd5-cb0e-4463-a238-610fa3a63a04",
+"numero": "2026-CP-274",
+"titre": "Travaux de réaménagement du 2e étage au Centre Laurent-Venne",
+"organisme": "Ville de Repentigny.",
+"regions": [
+"Lanaudière"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "1",
+"surDemande": false,
+"fermeture": "2026-11-19T10:00",
+"publie": "2026-10-29T08:31",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment"
+],
+"description": "La Ville de Repentigny requiert des soumissions pour les travaux de réaménagement du 2e étage au Centre Laurent-Venne.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=ec26bfd5-cb0e-4463-a238-610fa3a63a04",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-19 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "435, boulevard Iberville Repentigny QC CAN J6A2B6",
+"ouverture": "2026-11-19 11:00 Heure légale du Québec",
+"adresseOuverture": "435, boulevard Iberville Repentigny QC CAN J6A2B6"
+},
+"conditions": [
+"Conditions de conformité et autres conditions"
+],
+"vuLe": "2026-10-29T13:19",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "54ab9152-8584-4348-860a-22d8f0a6cab2",
+"numero": "CA-260924-RY",
+"titre": "REMPLACEMENT DE TROIS RÉSERVOIRS DIESEL - CESSION DE MARCHÉ-HOPITAL HONORÉ-MERCIER",
+"organisme": "Santé Québec Montérégie-Est",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie\nde soumission équivalant à DIX POUR CENT (10%) du prix total proposé\ndans sa Soumission. Cette garantie de soumission doit être produite sous la\nforme d'un cautionnement émis en faveur de l’ORGANISME PUBLIC par une\nInstitution Financière telle que définie à la clause 0.01.14\ndes présentes, qui doit être conforme aux dispositions du modèle de\ncautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de\nSoumission.",
+"estimation": 917805,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-12-02T14:00",
+"publie": "2026-10-29T08:28",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72121403 - Construction d’hôpitaux",
+"72121508 - Construction d’installations de préparation"
+],
+"description": "REMPLACEMENT\nDE TROIS RÉSERVOIRS DIESEL ENFOUI DANS LE SOL À L'HÔPITAL HONORÉ-MERCIER AVEC UNE PRÉ-COMMANDE DES RÉSERVOIRS EN CESSION DE MARCHÉ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=54ab9152-8584-4348-860a-22d8f0a6cab2",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-02 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "1601 boulevard Roland Therrien Longueuil QC CAN J4J5C5",
+"ouverture": "2026-12-02 14:00 Heure légale du Québec",
+"adresseOuverture": "1601 boulevard Roland Therrien Longueuil QC CAN J4J5C5"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-29T13:19",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
 },
 {
 "id": "merx-444195723411",
@@ -35718,7 +35726,70 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-28"
+"fermeLe": "2026-10-28",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T11:22",
+"soumissions": [
+{
+"nom": "DUMOULIN & ASSOCIÉS RÉPARATIONS DE BÉTON LTÉE",
+"montant": 193417.5
+},
+{
+"nom": "KARRELEX RÉPARATION DE BÉTON INC.",
+"montant": 230965.0
+},
+{
+"nom": "R3 CONSTRUCTION INC.",
+"montant": 230968.32
+},
+{
+"nom": "ST-DENIS THOMPSON INC.",
+"montant": 293950.0
+},
+{
+"nom": "TRO-CHAÎNES INC.",
+"montant": 298151.0
+},
+{
+"nom": "ATWILL-MORIN BÉTON INC",
+"montant": 299836.0
+},
+{
+"nom": "CONSTRUCTIONS CONCREATE LTÉE",
+"montant": 303588.0
+},
+{
+"nom": "LE GROUPE LEFEBVRE M.R.P. INC.",
+"montant": 330727.0
+},
+{
+"nom": "RÉFECTION PHOENIX INC.",
+"montant": 337900.0
+},
+{
+"nom": "CONSTRUCTION MADUX INC.",
+"montant": 348920.5
+},
+{
+"nom": "CONSTRUCTION DURADEV INC.",
+"montant": 360211.68
+},
+{
+"nom": "S.A. CONSTRUCTION INC.",
+"montant": 387260.0
+},
+{
+"nom": "CONSTRUCTION CAMVI INC.",
+"montant": 434400.0
+},
+{
+"nom": "Groupe Diamantex (9150-0124 Qc inc)",
+"montant": 489718.0
+}
+]
+}
 },
 {
 "id": "9740cd76-4dd9-400f-93ff-8077534e8384",
@@ -36113,6 +36184,408 @@
 {
 "nom": "LES ENTREPRISES QUÉBECHAB LTÉE",
 "montant": 2537000.0
+}
+]
+}
+},
+{
+"id": "6f4def8f-fb0d-416d-9afc-179324ac4d80",
+"numero": "TP 2026-45",
+"titre": "Installation de compteurs d’eau résidentiels, antennes et mise en marche -volet 02",
+"organisme": "Ville de Beaconsfield",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "13",
+"surDemande": false,
+"fermeture": "2026-10-29T10:00",
+"publie": "2026-10-08T14:40",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72101510 - Maintenance ou réparation de la plomberie",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
+"72151100 - Installation de plomberie"
+],
+"description": "La Ville de Beaconsfield souhaite recevoir des soumissions pour la gestion des rendez-vous, des communications et des données, ainsi que pour l’installation (remplacement) d’environ 2 500 compteurs d’eau résidentiels et antennes de télémétrie associées, de diamètres variant de 13 mm à 40 mm, dans des immeubles résidentiels déjà munis de compteurs d’eau sur son territoire.\nLes travaux comprennent également la réalisation des installations irrégulières, lorsque requises, ainsi que la production d’un rapport d’intervention final conformément aux exigences du devis.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6f4def8f-fb0d-416d-9afc-179324ac4d80",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la gestion des rendez-vous, des communications et l'installation (remplacement) de compteurs d'eau résidentiels et d'antennes de télémétrie dans des immeubles résidentiels existants.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "305ed35a-b804-4a6b-af28-41b046293844",
+"numero": "LONG-26-0340",
+"titre": "Travaux d'aménagement d’un vestiaire pour VPI à la caserne 23",
+"organisme": "Ville de Longueuil",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"caserne",
+"cloison",
+"construction d",
+"enveloppe"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-10-29T11:00",
+"publie": "2026-10-06T09:36",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"95121705 - Caserne de pompiers"
+],
+"description": "La Ville de Longueuil demande des soumissions\npour :\nTRAVAUX D'AMÉNAGEMENT D’UN VESTIAIRE POUR VPI À\nLA CASERNE 23\nDurée du contrat : 18 mois\nObjet du\ncontrat : \nLe présent contrat a pour\nobjet des travaux d’aménagement d’un vestiaire VPI à la caserne 23 située au\n1700, boulevard Curé-Poirier Est. L’étendue des travaux est définie en détail\naux plans et devis.\nDescription\nsommaire des travaux : \nLes travaux comprennent, de\nfaçon générale, sans toutefois s’y limiter, les ouvrages suivants : \na) Construction de trois (3) nouvelles cloisons\net l’aménagement d’un nouveau garde-robe de buanderie ;\nb) Travaux de plomberie ;\nc) Travaux de ventilation ;\nd) Travaux de réfrigération ;\ne) Travaux d’électricité.\nDurée\nprévue des travaux : 6 mois\nVisite des lieux : \nObligatoire et\nsur rendez-vous seulement. Les périodes de visite sont les suivantes :\n· \nLes 14 et 15 octobre 2026, entre 8 h 00 et 12 h 00 et entre 13 h\n00 et 16 h 00;\n· \nLe 16 octobre 2026, entre 8 h 00 et 12 h 00.\nVeuillez communiquer par\ncourriel avec la Représentante au Dossier au plus tard quarante-huit (48) heures\navant la date souhaitée pour prendre rendez-vous.\nLe\nprésent appel d’offres constitue une procédure ouverte en vue de l’attribution\nd’un contrat au sens de la Loi sur les contrats des organismes municipaux\n(LCOM).\nLe contrat est attribué au\nsoumissionnaire ayant présenté une soumission conforme avec le prix proposé le\nplus bas.\nLes personnes et entreprises\nintéressées par ce contrat peuvent obtenir les documents d’appel d’offres et\nles modifications à ces documents uniquement en s’adressant au système électronique d’appel d’offres du\ngouvernement du Québec (SEAO) www.seao.gouv.qc.ca\nou au 1 877-336-7326. L’obtention des documents est sujette à la\ntarification de cet organisme.\nDes garanties financières et\nd’autres exigences peuvent être indiquées dans les documents d’appel d’offres.\nCet appel d’offres est\nassujetti \n à l'accord intergouvernemental suivant :\n· \nAccord de commerce\net de coopération entre le Québec et l’Ontario (ACCQO)\nChaque soumission sur support\npapier doit être déposée et horodatée au comptoir taxes de l’hôtel de ville de\nLongueuil, au 4250, chemin de la Savane, niveau 200, Longueuil (Québec), dans\nune enveloppe opaque, scellée et identifiée comme le modèle indiqué dans les\ndocuments d’appel d’offres à la clause : « Identification ».\nNos heures d’ouverture sont du\nlundi au jeudi, sauf les jours fériés, de 8 h 30 à 12 h et de 13 h à 16 h 30 et\nles vendredis de 8 h 30 à 12 h. \nLa\ntransmission des soumissions par voie électronique \n est autorisée pour cet appel d’offres. \nLes soumissions par voie\nélectronique ne peuvent être transmises que par l’intermédiaire du système\nélectronique d’appel d’offres du gouvernement du Québec (SEAO), à l’adresse\nsuivante : www.seao.gouv.qc.ca.\nDate et heure limites pour la réception des soumissions\nLe jeudi, 29 octobre 2026 à 11 h 00 min 59 s\nLa\nsoumission doit être déposée (chiffrée, transmise, horodatée et sauvegardée sur\nles serve",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=305ed35a-b804-4a6b-af28-41b046293844",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement d'un vestiaire pour la caserne 23, incluant la construction de cloisons, mais les travaux principaux mentionnés sont la plomberie, la ventilation, la réfrigération et l'électricité.",
+"pointsAttention": [
+"Visite obligatoire, délai court (6 mois de travaux), contrat sur demande non applicable."
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le cœur du contrat n'est pas la maçonnerie ou la charpenterie/menuiserie, mais des travaux d'aménagement intérieurs et techniques.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": true,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"cloison",
+"construction d",
+"caserne"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"cloison",
+"construction d",
+"caserne"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "80f19242-096f-483d-a4e0-43806caa3afc",
+"numero": "13434",
+"titre": "EPS-10306_Remplacement des rideaux séparateurs et de la surface sportive",
+"organisme": "Université Laval",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE\ndoit accompagner sa Soumission d’une garantie de soumission équivalant à DIX\nPOUR CENT (10%) du prix total proposé dans sa Soumission.",
+"estimation": 1917000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-10-29T11:30",
+"publie": "2026-10-05T15:47",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Les travaux consistent notamment à remplacer les rideaux séparateurs et la surface sportive dans le stade couvert du PEPS.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=80f19242-096f-483d-a4e0-43806caa3afc",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Les travaux consistent à remplacer les rideaux séparateurs et la surface sportive dans le stade couvert du PEPS.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne la rénovation d'un stade et ne mentionne aucun travail pertinent pour la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "7dc329f9-c3ed-4920-b211-9484f98defb7",
+"numero": "261900-ST",
+"titre": "Travaux de réfection des caniveaux du garage #1 des Travaux publics de l'arrondissement de Pierrefonds-Roxboro",
+"organisme": "Ville de Montréal - Arrondissement de Pierrefonds-Roxboro",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"garage",
+"pierre",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-10-29T11:00",
+"publie": "2026-09-24T10:03",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "ArrondissementdePierrefonds-Roxboro\n Appeld’offrespublic\n DirectionDéveloppementduterritoireetétudes\n AVISPUBLIC\n No261900-ST\n techniques\n 13665,boulevarddePierrefonds\n D’APPELD’OFFRES\n Exécutiondestravaux\n 14_cahier_charges_20191127\n Pierrefonds(Québec)H9A2Z4\nAvispublicd’appeld’offres VILLE DE MONTRÉAL\nArrondissement de Pierrefonds-RoxboroDirectionDéveloppementduterritoireetétudestechniques\nDessoumissionssontdemandéesetdevrontêtrereçues,avant11heures,àladateci-dessous,dansleslocauxdubureau d’arrondissementàlamairiedel’arrondissement,situéeau13665,boulevarddePierrefonds,Montréal,Québec,H9A2Z4 pour :\nCatégorie: Travauxde\nconstruction\nAppeld’offres: 261900-ST\n Titredel’appeld’offres:\nTravaux de réfection des caniveaux du garage #1\ndes Travaux publics de l'arrondissement de Pierrefonds-Roxboro\nDated’ouverture: 29 octobre2026\nDépôtdegarantie: 10%delavaleurdelasoumission\nRenseignements: Pourtoutequestions’adresserà:ingenierie.pfdsrox@montreal.ca\nDocuments: Lesdocumentsrelatifsàcetappeld’offresserontdisponiblesàcompterdu24 septembre2026\nVisitesuperviséedes lieux\n: \nN/A. ou \nOui\nDu 5 octobre 2026 au 16\noctobre 2026\nLes\npersonnes et les entreprises intéressées par ce contrat peuvent se procurer les\ndocuments de soumission en s’adressant au Service électronique d’appels\nd’offres (SÉAO) en communiquant avec un des représentants par téléphone au 1866669-7326\nou au 514856-6600, ou en consultant\nle site Web www.seao.ca.\nLes documents peuvent être obtenus au coût établi par le SÉAO.\nChaquesoumissiondoitêtreplacéedansuneenveloppecachetéeetportantl’identificationfournieenannexedudocument\nd’appel d’offres.\nLes\nsoumissions reçues seront ouvertes publiquement dans les locaux du bureau\nd’arrondissement à la mairie de l’arrondissement, immédiatement après\nl'expiration du délai fixé pour leur réception.\nLa\nVille de Montréal ne s'engage à accepter ni la plus basse ni aucune des\nsoumissions reçues et n'assume aucune obligation de quelque nature que ce soit\nenvers le ou les soumissionnaires.\nFaitàMontréal,le24 septembre2026\nMeJean-FrançoisGauthier,MBA Secrétaire d’arrondissement",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7dc329f9-c3ed-4920-b211-9484f98defb7",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des caniveaux du garage #1 d'un arrondissement de Montréal. Les mots-clés mentionnent la pierre, la réfection et le garage.",
+"pointsAttention": [
+"Visites supervisées des lieux du 5 octobre 2026 au 16 octobre 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien de caniveaux et n'a aucun lien direct avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"pierre",
+"réfection",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"réfection",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29"
+},
+{
+"id": "a9df1157-5140-46fd-9f5f-7146f8cc580f",
+"numero": "TP41",
+"titre": "Hôtel de ville de Sainte-Anne-des-Plaines remplacement de la chaudière",
+"organisme": "Ville de Sainte-Anne-des-Plaines.",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-10-29T11:00",
+"publie": "2026-09-23T08:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151001 - Entretien des chaudières"
+],
+"description": "TITRE : HÔTEL DE VILLE DE SAINTE-ANNE-DES-PLAINES REMPLACEMENT DE LA CHAUDIÈRE NUMÉRO : TP4\nDes soumissions scellées seront reçues par le greffier de la Ville de Sainte-Anne-des-Plaines ou son représentant autorisé, à l’hôtel de ville au 139, boulevard Sainte-Anne, à Sainte-Anne-des-Plaines, jusqu’à 11 h 00 le 23 octobre 2026 pour l’appel d’offres « HÔTEL DE VILLE DE SAINTE-ANNE-DES-PLAINES REMPLACEMENT DE LA CHAUDIÈRE » et\nseront ouvertes publiquement ce même jour et à 11h15. Les dépôts électroniques via le SEAO ne seront pas acceptés. La date limite de réception des plaintes est le 8 octobre 2026.\nLa durée du contrat 240 jours de calendrier consécutifs délais long.\nLes entreprises intéressées par cet appel d’offres doivent se procurer les documents d’appel d’offres en s’adressant au système électronique d’appel d’offres (SEAO) à l’adresse suivante : www.seao.gouv.qc.ca. Les documents sont obtenus au coût établi par le SEAO. La Ville de Sainte-Anne-des-Plaines se réserve le droit de rejeter toute soumission dont le soumissionnaire ne s’est pas procuré le document d’appel d’offres directement du SEAO incluant les addenda (s’il y a lieu).\nDe plus, la Ville n’encourt aucune responsabilité du fait que les avis écrits ou documents quelconques véhiculés par le système électronique soient incomplets ou comportent quelques erreur ou omission que ce soit. En conséquence, tout soumissionnaire doit s’assurer, avant de soumissionner, d’obtenir tous les documents reliés à cet appel d’offres via le SEAO.\nTout renseignement d’ordre général concernant le présent appel d’offres pourra être obtenu en communiquant avec monsieur Étienne Bérard, PGM, T. P. directeur du Service des infrastructures et techniques par courriel à l’adresse suivante : eberard@villesadp.ca\nLes soumissions devront être valides pour une période de quatre-vingt-dix (90) jours et être accompagnées d’un chèque certifié, une mandat poste, un mandat, une traite bancaire ou d’une lettre de garantie irrévocable émise par une institution financière faisant affaire au Québec d’un montant au moins égal à dix pour cent (10 %) de la valeur de la soumission incluant les taxes.\nLes soumissions devront également être accompagnées d’une lettre d’intention quant à l’émission d’un cautionnement d’exécution et d’un cautionnement garantissant la main-d’œuvre, les matériaux et les services, chacun pour une valeur de cinquante pour cent (50 %) de la valeur de la soumission incluant les taxes.\nSeuls les cautionnements émis par des compagnies détenant un permis d’assureur du Canada et reconnues par l’Autorité des marchés financiers du Québec seront acceptés aux termes des documents d’appel d’offres.\nL’accord intergouvernemental applicable est le suivant : Accord Québec-Ontario (ACCQO).\nLa Ville ne s’engage à accepter ni la plus basse ni aucune des soumissions reçues. Elle se réserve en outre le droit de rejeter toutes les soumissions reçues, si elle le juge à propos, sans pour autant être tenue responsable ou faire",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a9df1157-5140-46fd-9f5f-7146f8cc580f",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [],
+"motsOk": false,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la chaudière d'un hôtel de ville. La durée prévue du contrat est de 240 jours de calendrier.",
+"pointsAttention": [
+"délai long"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien/remplacement d'une chaudière et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-29T13:08",
+"soumissions": [
+{
+"nom": "MÉCANIQUE NORTHERM INC.",
+"montant": 136691.49
+},
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 143086.39
+},
+{
+"nom": "NÉVÉ RÉFRIGÉRATION INC.",
+"montant": 187064.33
+},
+{
+"nom": "MÉCANICACTION INC.",
+"montant": 205115.4
+},
+{
+"nom": "TEKO INC.",
+"montant": 214583.42
+},
+{
+"nom": "Tuyauterie Expert inc",
+"montant": 224488.07
 }
 ]
 }
