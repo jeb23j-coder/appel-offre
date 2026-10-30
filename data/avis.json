@@ -25465,7 +25465,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation de nouvelles chaudières à la chaufferie de l'ancien hôpital Royal Victoria à Montréal. Les travaux sont divisés en deux phases et ont une durée prévue de deux mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'installation de systèmes de chauffage (chaudières) et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b7666db4-5ac2-40bb-aa5d-cf7a1efc4768",
@@ -25555,7 +25567,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de blocs sanitaires dans une école, incluant le remplacement de céramique, partitions, appareils sanitaires, ajout d'ébénisterie, ragréage et peinture. La durée prévue des travaux est de deux mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Soumission directe",
+"raison": "Le projet ne concerne pas directement la maçonnerie, la charpenterie ou la menuiserie, mais des travaux de finition intérieure et de rénovation légère.",
+"version": 3
+}
 },
 {
 "id": "f5b3ec3e-d0b7-46ee-8524-3347b8a45a98",
@@ -25636,7 +25661,20 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de réparation et de rénovation pour un projet de construction à exécution sur demande, avec un montant estimé de 3 000 000 $. Les entrepreneurs généraux devront réaliser les travaux de toutes les disciplines impliquées.",
+"pointsAttention": [
+"Contrat sur demande",
+"Montant estimé élevé"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est un appel d'offres pour un entrepreneur général, ce qui signifie que l'entreprise pourrait être sollicitée pour fournir des lots de maçonnerie ou de charpenterie, mais elle doit se positionner comme sous-traitant.",
+"version": 3
+}
 },
 {
 "id": "2c365c0a-73b0-41e2-b564-a6c0bf7ee2c5",
@@ -25712,7 +25750,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réparation de la toiture en pente au complexe multisport de Saint-Eustache. Le contrat est prévu pour une durée de 18 mois.",
+"pointsAttention": [
+"visites sont fortement recommandées sur prise de rendez-vous"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "897d5436-d1b1-46e1-b567-a7acde9d583f",
@@ -25809,7 +25859,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection des ateliers municipaux incluant la construction d'agrandissements, la réaménagement complet du bâtiment existant, le remplacement des revêtements extérieurs et des portes et fenêtres. Les travaux couvrent une partie significative de la maçonnerie et de la menuiserie.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de 26 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des travaux majeurs de construction, de réfection de façade et de remplacement de menuiseries, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "5ae55b1e-fab8-4e1b-b832-fe992e1bbecf",
@@ -25881,7 +25944,20 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le contrat concerne le réaménagement du centre communautaire Paul-Émile-Beaulieu et de la bibliothèque Le Tournesol. Les travaux incluent des aspects d'architecture, de structure, génie civil, électromécanique, ainsi que la fourniture de mobilier et d'électroménagers.",
+"pointsAttention": [
+"Délai de réalisation potentiellement long (jusqu'à août 2027 selon le scénario).",
+"Inclusion de génie civil et électromécanique, ce qui peut diluer la concentration sur la maçonnerie/charpenterie."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de bâtiment où les métiers ciblés (maçonnerie/charpenterie) ont une part, mais il inclut également beaucoup d'autres corps de métier (génie civil, élec/méca).",
+"version": 3
+}
 },
 {
 "id": "merx-444195723411",
