@@ -26293,7 +26293,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau des unités de climatisation au centre administratif du Centre de services scolaire de l'Énergie. Le montant estimé est de 750 000 $ et la durée prévue est de 3 mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire : 5 novembre 2026 à 10h00"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la climatisation et non sur la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "74b6a710-f060-4f4a-89b3-bd5c3ab2528d",
@@ -26375,7 +26387,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection ponctuelle de la dalle sur le sol du garage à Boucherville. Les travaux sont estimés à 262 056 $ et la durée prévue est de 2 mois.",
+"pointsAttention": [
+"non précisé sur l'avis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la réfection d'une dalle de garage, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
