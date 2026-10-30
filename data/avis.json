@@ -25896,7 +25896,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation et l'aménagement de l'hôtel de ville de Mirabel. Les travaux incluent l'optimisation des espaces administratifs, la démolition/reconstruction de planchers et la relocalisation des systèmes de ventilation et d'électricité.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de rénovation de bâtiment, mais les descriptions se concentrent sur l'aménagement intérieur, la démolition et les systèmes (électricité/ventilation), sans mentionner explicitement un gros lot de maçonnerie ou de charpenterie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "7b727170-eceb-4fa3-af9c-d93318150ba7",
@@ -25976,7 +25988,20 @@
 "fenêtre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement complet des chambres froides et congelées à l'Hôpital d'Alma. Les travaux incluent la démolition, la charpenterie, les cloisons, les revêtements, la peinture, ainsi que l'installation des nouvelles chambres froides et congelées, nécessitant également des travaux en plomberie, ventilation et électricité.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Bien que des éléments de charpenterie et de cloisons soient mentionnés, le cœur du projet est un remplacement d'équipement spécialisé et des travaux de génie/plomberie/électricité, ce qui n'est pas le cœur de métier de la briquetage/maçonnerie/charpenterie-menuiserie.",
+"version": 3
+}
 },
 {
 "id": "eb137dd8-c62c-4020-adcd-ad09f4543f64",
@@ -26066,7 +26091,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture des bassins A-1, A-6 et C-6 pour l'école CRIF. Les travaux visés sont la réfection des bassins en multicouche à gravier.",
+"pointsAttention": [
+"Visite obligatoire le 12 novembre 2026 à 9h",
+"Délai de soumission jusqu'au 26 novembre 2026"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement la toiture et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "57bc48b0-c1c4-4dca-8d7e-ac85a95e9cf7",
@@ -26159,7 +26197,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Le projet concerne la réfection du système de chauffage d'une école, incluant le remplacement du système de chauffage et des travaux de démantèlement d'un réservoir de mazout, l'ajout de portes, de cloisons, d'une dalle de béton et de peinture.",
+"pointsAttention": [
+"délai de 12 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat est centré sur le système de chauffage et les travaux de finition/structure mineurs, sans que la maçonnerie ou la charpenterie ne soient le cœur du projet.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
