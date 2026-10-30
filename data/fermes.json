@@ -12238,7 +12238,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-30"
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T18:03",
+"soumissions": [
+{
+"nom": "Lee Ling Aménagement Urbain",
+"montant": 1323000.0
+},
+{
+"nom": "ST-DENIS THOMPSON INC. - 2",
+"montant": 1377694.0
+},
+{
+"nom": "CHAREX INC.",
+"montant": 1499344.0
+},
+{
+"nom": "RAMCOR CONSTRUCTION INC.",
+"montant": 1666500.0
+}
+]
+}
 },
 {
 "id": "672de6c7-9b86-40d6-b407-3070ac55a30e",
@@ -12535,6 +12558,25 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-30"
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T16:07",
+"soumissions": [
+{
+"nom": "BTM CONSTRUCTION INC.",
+"montant": 559000.0
+},
+{
+"nom": "LES CÉRAMIQUES LINDO (2001) INC.",
+"montant": 599990.0
+},
+{
+"nom": "Nova Construction M.P. inc.",
+"montant": 873285.0
+}
+]
+}
 }
 ]

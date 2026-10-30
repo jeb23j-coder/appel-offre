@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-10-30T15:51",
-"seaoLus": 331,
-"retenus": 334,
-"nouveaux": 4,
+"date": "2026-10-30T18:46",
+"seaoLus": 333,
+"retenus": 336,
+"nouveaux": 2,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -25896,7 +25896,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25988,7 +25988,7 @@
 "fenêtre"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -26091,7 +26091,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -26197,7 +26197,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -26210,6 +26210,172 @@
 "raison": "Le contrat est centré sur le système de chauffage et les travaux de finition/structure mineurs, sans que la maçonnerie ou la charpenterie ne soient le cœur du projet.",
 "version": 3
 }
+},
+{
+"id": "3c7f7604-58ff-47b2-af82-6856c141b438",
+"numero": "RM-C-2026-094-05",
+"titre": "Mise à niveau des unités de climatisation",
+"organisme": "Centre de services scolaire de l'Énergie",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission incluant les options. Cette garantie de soumission doit être produite sous l'une ou l’autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause 0.01.13 des présentes, qui doit être conforme aux dispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de Soumission;\nb) un chèque certifié, un mandat-poste ou une traite bancaire, fait à l’ordre de l’ORGANISME PUBLIC;\nc) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause 0.01.13 des présentes, qui doit être conforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à l’annexe 4.01B du Formulaire de Soumission.",
+"estimation": 750000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-20T14:00",
+"publie": "2026-10-30T17:23",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "APPEL D'OFFRES\nPROJET : 094 – Mise à niveau des\nunités de climatisation – RM-C-2026-094-05\nLe Centre de services scolaire de l'Énergie, propriétaire, demande\ndes soumissions pour la mise à niveau des unités de climatisation au centre\nadministratif, situé au 2072, rue Gignac à Shawinigan.\nLes plans, devis, documents\ncontractuels et autres pourront être consultés en s’adressant au service\nélectronique d’appels d’offres (SEAO) en consultant le site Web : www.seao.ca. \nLes soumissions, dans des\nenveloppes cachetées et adressées à l'attention de Monsieur Simon Delisle,\nseront reçues au Centre de services scolaire de l'Énergie, jusqu'à 14h00,\nheure en vigueur localement, le 20e jour du mois de novembre\n2026, pour être ouvertes publiquement au même endroit, le même jour et à 14h15.\nVisite des lieux non obligatoire : 5 novembre 2026 à\n10h00\nPoint de rassemblement : 2072, rue Gignac, Shawinigan (Québec) G9N 3X2\nSeules seront considérées aux\nfins d'octroi du contrat, les soumissions des entrepreneurs ayant un\nétablissement au Québec ou, lorsqu'un accord intergouvernemental est\napplicable, au Québec ou dans une province ou un territoire visé par cet\naccord, et détenant, le cas échéant, la licence requise en vertu de la Loi\nsur le bâtiment (L.R.Q., c. B.‑1.1). \nLes entrepreneurs\nsoumissionnaires sont responsables du choix des sous-traitants, tant pour leur\nsolvabilité que pour le contenu de leur soumission. Toutes les soumissions\ndevront être faites conformément aux dispositions du Règlement sur les contrats\nde construction des immeubles des commissions scolaires adopté en vertu de la\nLoi sur l’instruction publique (L.R.Q., c. I-13-3, r.0.01).\nLe propriétaire ne s’engage pas à\naccepter la plus basse ou quelque autre des soumissions reçues et décline toute\nobligation ou responsabilité à l’égard des soumissionnaires.\nSimon Delisle, Chargé de projet\nServices des\nressources matérielles",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3c7f7604-58ff-47b2-af82-6856c141b438",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-11-20 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "2072, rue Gignac, C.P. 580, Shawinigan QC CAN G9N6V7",
+"ouverture": "2026-11-20 14:15 Heure légale du Québec",
+"adresseOuverture": "2072, rue Gignac, C.P. 580, Shawinigan QC CAN G9N6V7"
+},
+"conditions": [
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-30T18:45",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"construction d",
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "74b6a710-f060-4f4a-89b3-bd5c3ab2528d",
+"numero": "44548538",
+"titre": "Réfection ponctuelle de la dalle sur sol du garage",
+"organisme": "SQI-Direction immobilière Sud de Montréal",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 262056,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-11-23T15:00",
+"publie": "2026-10-30T16:02",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152510 - Installation de revêtement de sol en béton"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44548538\n Titre du\n contrat :\n Réfection ponctuelle de\n la dalle sur sol du garage\n Adresse de\n l’immeuble :\n 1 boul. de Mortagne à\n Boucherville\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de réfection ponctuelle de la dalle sur sol du garageau 1 boulevard de Mortagne à Boucherville.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumissionDISM@sqi.gouv.qc.ca\nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions (TES).\nRÈGLEMENT SUR LES PAIEMENTS ET LE\nRÈGLEMENT RAPIDES DES DIFFÉRENDS EN MATIÈRE DE TRAVAUX DE CONSTRUCTION\nLes\ndispositions de la section II du chapitre V.2 de la Loi sur les contrats des\norganismes pub",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=74b6a710-f060-4f4a-89b3-bd5c3ab2528d",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-23 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": "425 boul. de Maisonneuve Ouest 8e étage bureau 801 Montréal QC CAN H3A3G5",
+"ouverture": "2026-11-23 15:15 Heure légale du Québec",
+"adresseOuverture": "425 boul. de Maisonneuve Ouest 8e étage bureau 801 Montréal QC CAN H3A3G5"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-30T18:45",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"garage",
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -38696,7 +38862,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-30"
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T18:03",
+"soumissions": [
+{
+"nom": "Lee Ling Aménagement Urbain",
+"montant": 1323000.0
+},
+{
+"nom": "ST-DENIS THOMPSON INC. - 2",
+"montant": 1377694.0
+},
+{
+"nom": "CHAREX INC.",
+"montant": 1499344.0
+},
+{
+"nom": "RAMCOR CONSTRUCTION INC.",
+"montant": 1666500.0
+}
+]
+}
 },
 {
 "id": "672de6c7-9b86-40d6-b407-3070ac55a30e",
@@ -38993,7 +39182,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-30"
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T16:07",
+"soumissions": [
+{
+"nom": "BTM CONSTRUCTION INC.",
+"montant": 559000.0
+},
+{
+"nom": "LES CÉRAMIQUES LINDO (2001) INC.",
+"montant": 599990.0
+},
+{
+"nom": "Nova Construction M.P. inc.",
+"montant": 873285.0
+}
+]
+}
 }
 ]
 }
