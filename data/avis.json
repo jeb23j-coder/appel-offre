@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-10-30T12:58",
-"seaoLus": 329,
-"retenus": 333,
-"nouveaux": 6,
+"date": "2026-10-30T15:51",
+"seaoLus": 331,
+"retenus": 334,
+"nouveaux": 4,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -14545,72 +14545,6 @@
 }
 },
 {
-"id": "4125dea3-49e1-4076-ac83-35bf87a5832b",
-"numero": "AM011777",
-"titre": "Côte-Nord / Poste Manic 3 - Remplacement du système de protection incendie des transformateurs de puissance",
-"organisme": "Hydro-Québec.",
-"regions": [
-"Côte-Nord"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Cautionnement, Garantie de soumission: 10.00 %",
-"estimation": null,
-"dureeMois": "56",
-"surDemande": false,
-"fermeture": "2026-10-30T14:00",
-"publie": "2026-09-28T17:28",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72101510 - Maintenance ou réparation de la plomberie",
-"72120000 - Construction de bâtiments non résidentiels",
-"72141510 - Démolition",
-"72141511 - Excavation",
-"72151100 - Installation de plomberie",
-"72151200 - Construction et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)"
-],
-"description": "Objet : Côte-Nord / Poste Manic 3 - Remplacement du système de protection incendie des transformateurs de puissance\nÀ titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur incluant les options est : entre 3 000 000 $ et 5 000 000 $\nDemande d'information : Doit être adressée au responsable au minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions\nDescription de l'objet : Le contrat consiste au remplacement des systèmes de protection incendie des transformateurs de puissance T31, T32, T33, T34, T35, T36 à la centrale Manic 3. \nIl a pour objet la conception, et la fabrication, la fourniture de la main-d’œuvre, du matériel, des matériaux, les essais en l'usine, l'emballage, l'entreposage, le transport y compris le déchargement, les travaux en chantier tels que le démantèlement, l’assemblage, l'installation, la vérification des équipements installés par des essais de mise en route, la formation du personnel d'Hydro-Québec et l’assistance. \nTravaux en option : \nLe démantèlement du système de protection incendie pour le transformateur T32 est en option, HQ se réserve le droit de faire appel ou non au service du fournisseur pour ce démantèlement.\nBronsard, Alexis\nBRONSARD.ALEXIS@HYDROQUEBEC.COM\nPoste : 4434\nVous pouvez consulter les documents liés à cet avis et soumissionner à partir du lien suivant :\nhttps://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27548\nHydro-Québec ne s'engage à accepter aucune des propositions reçues.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4125dea3-49e1-4076-ac83-35bf87a5832b",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Le contrat consiste au remplacement des systèmes de protection incendie des transformateurs de puissance T31 à T36 à la centrale Manic 3. Il inclut la conception, la fabrication, la fourniture, la main-d'œuvre et l'installation de ces systèmes.",
-"pointsAttention": [
-"Délai de réponse à la demande d'information : minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions."
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le projet concerne le remplacement de systèmes de protection incendie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-}
-}
-},
-{
 "id": "b9610717-20f4-4aab-a6ae-5cd6344aee1d",
 "numero": "A26-0902",
 "titre": "Réaménagement aile 450 à L'Hôtel-Dieu de Québec de Santé Québec - CHU de Québec - Université Laval",
@@ -16656,83 +16590,6 @@
 "motsOk": true,
 "familles": [
 "Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "5e71313d-8902-404d-b3ee-dab8d85f2748",
-"numero": "44546306",
-"titre": "Lot 4.607 - Terrazzo - Restauration, mise aux normes et réaménagement au 12, rue Saint-Louis, Québec (Québec) G1R 5L3",
-"organisme": "Société québécoise des infrastructures",
-"regions": [
-"Capitale-Nationale"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"restauration"
-],
-"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10% du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article « Garantie de soumission » des Instructions\naux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
-"estimation": 1000000.0,
-"dureeMois": "12",
-"surDemande": false,
-"fermeture": "2026-10-30T15:00",
-"publie": "2026-09-17T15:11",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations",
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
-"72101500 - Services de maintenance et de réparation des bâtiments"
-],
-"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44546306\n Titre du\n contrat :\n Lot 4.607 - Terrazzo\nRestauration, mise aux normes et réaménagement\n Adresse de\n l’immeuble :\n 12, rue Saint-Louis,\n Québec (Québec) G1R 5L3\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant la fourniture de l’expertise, de la main-d’œuvre, des\nmatériaux, de l’équipement, des services et de tout ce qui est requis pour\nl’exécution des travaux de Terrazzo pour la\nrestauration, mise aux normes et réaménagement de l’Édifice Gérard-D. -Lévesque\nsitué au 12 rue Saint-Louis à Québec.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission6@sqi.gouv.qc.ca.\nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions ",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=5e71313d-8902-404d-b3ee-dab8d85f2748",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 50,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la restauration, la mise aux normes et le réaménagement de l'édifice Gérard-D. -Lévesque situé au 12, rue Saint-Louis à Québec. La durée prévue des travaux est de 12 mois pour un montant estimé de 1 000 000,00 $.",
-"pointsAttention": [
-"Contrat sur demande : non"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Le contrat concerne la restauration d'un bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de finition, mais le titre se concentre sur le terrazzo.",
-"version": 3
-},
-"motsOk": true,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"restauration"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"restauration"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"restauration"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -25465,7 +25322,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25567,7 +25424,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -25661,7 +25518,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25750,7 +25607,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25859,7 +25716,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 75,
 "type": "Maçonnerie",
@@ -25944,7 +25801,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25960,29 +25817,214 @@
 }
 },
 {
-"id": "merx-444195723411",
-"source": "Merx",
-"numero": "444195723411",
-"titre": "Réfection et sécurisation du poste d'accueil - GRC Rimouski",
-"organisme": "BGIS - TPSGC",
+"id": "e772ca07-d4fe-46b3-9cc9-e97c212d460a",
+"numero": "N15991 (2026-033) 2618",
+"titre": "TRAVAUX DE RÉNOVATION ET D’AMÉNAGEMENT DE L’HÔTEL DE LA VILLE DE MIRABEL",
+"organisme": "Ville de Mirabel",
 "regions": [
-"Bas-Saint-Laurent"
+"Laurentides"
 ],
-"typeAvis": "Avis d'appel d'offres (Merx)",
+"typeAvis": "Avis d’appel d’offres",
 "cautionSoumission": "Non précisé sur l'avis",
 "estimation": null,
-"budgetPublie": null,
-"dureeMois": null,
+"dureeMois": "4",
 "surDemande": false,
-"fermeture": "2026-10-30T14:00",
-"publie": "2026-10-13T12:00",
-"description": "Réfection et sécurisation du poste d'accueil du détachement GRC, 405 Sainte-Odile Hill, Rimouski. Cote de sécurité GRC exigée; la visite des lieux a eu lieu le 22 octobre (indiquée obligatoire dans la description). Ferme à 14 h.",
-"lien": "https://www.merx.com/",
-"ajoute": "2026-10-25 (page de référence)",
-"visiteObligatoire": true,
+"fermeture": "2026-11-26T11:00",
+"publie": "2026-10-30T15:15",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "APPEL DE PROCÉDURE OUVERTE\nLa Ville de Mirabel désire obtenir des soumissions pour les\ntravaux de rénovation et d’aménagement de son hôtel de ville, situé au 14111,\nrue du Saint-Jean, Mirabel, Québec J7J 1Y3, dans le secteur de Sainte-Monique.\nCe projet de réaménagement permettra aux services de\nTrésorerie et de l’Aménagement et de l’urbanisme d’optimiser l’utilisation des\nespaces disponibles afin de mieux répondre à l’évolution de leur besoin. Les\ntravaux visent aussi à améliorer la fonctionnalité des bureaux, tout en\nassurant la conformité technique ainsi que la sécurité du bâtiment. Pour\nobtenir davantage d’information sur l’étendue des travaux, veuillez consulter\nles exigences générales du devis technique.\nConcrètement, le projet consiste à : Secteur de la\nperception :\n·\nOptimisation de la zone administrative; aménagement d’un nouveau comptoir\nd’accueil doté de trois (3) postes de travail et d’espaces de rangement ainsi\nque le réaménagement de la salle d’attente.\n·\nRéaménagement des espaces de travail avec l’ajout de deux (2) bureaux fermés.\n·\nDémolition et reconstruction du plancher surélevé afin de le rendre conforme\naux standards de construction en vigueur.\n·\nRelocalisation et réorganisation des systèmes de ventilation et d’électricité\nafin d’assurer leur conformité et de soutenir adéquatement l’aménagement des\nnouveaux espaces.\nSecteur de la comptabilité :\n·\nAménagement de nouveaux espaces de travail pour répondre aux besoins croissants\ndu service.\n·\nRéorganisation de l’espace intérieur pour maximiser l’efficacité en intégrant\nune partie du mobilier existant.\n·\nOptimisation de l’espace disponible par le repositionnement d’un bureau fermé.\n·\nRelocalisation et réorganisation des systèmes de ventilation et d’électricité\nafin d’assurer leur conformité et de soutenir adéquatement l’aménagement des\nnouveaux espaces.\nSecteur de l’urbanisme :\n·\nOptimisation de l’espace du service aux citoyens; relocalisation du comptoir\nd’accueil et aménagement d’un nouveau bureau fermé.\n·\nRéaménagement des issues de secours afin de répondre aux exigences applicables.\n·\nRelocalisation et réorganisation des systèmes de ventilation et d’électricité\nafin d’assurer leur conformité et de soutenir adéquatement l’aménagement des\nnouveaux espaces.\nLes documents de procédure ouverte sont disponibles sur le\nsite internet du Système électronique d’appel d’offres (ci-après appelé « SÉAO\n») à l’adresse suivante : www.seao.ca. L’obtention de ces documents est sujette\nà la tarification établie par le SÉAO.\nLa Ville n’est pas responsable de la distribution des\ndocuments de procédure ouverte sur le SÉAO et il est de la responsabilité des\nsoumissionnaires de s’assurer qu’ils détiennent tout leur document avant de\ndéposer leur soumission. Les soumissionnaires devront joindre à leur soumission\ntous les documents requis à la procédure ouverte, à défaut de quoi leur\nsoumission pourrait être rejetée.\nLa Ville ne s’engage à accepter ni la plus basse ni aucune\ndes soumissions reçues. De ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e772ca07-d4fe-46b3-9cc9-e97c212d460a",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "14111, rue St-Jean Mirabel QC CAN J7J1Y3",
+"ouverture": "2026-11-26 11:00 Heure légale du Québec",
+"adresseOuverture": "14111, rue St-Jean Mirabel QC CAN J7J1Y3"
+},
+"conditions": [],
+"vuLe": "2026-10-30T15:50",
+"source": "SEAO",
+"visiteObligatoire": false,
 "profils": {
 "jonathan": {
 "motsTrouves": [
+"reconstruction"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"reconstruction",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"reconstruction",
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "7b727170-eceb-4fa3-af9c-d93318150ba7",
+"numero": "4509",
+"titre": "Remplacement des chambres froides et congelées à l'hôpital d'Alma",
+"organisme": "Santé Québec Saguenay–Lac-Saint-Jean – Universitaire",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission.",
+"estimation": 1000000,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-11-20T14:00",
+"publie": "2026-10-30T15:14",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Santé Québec Saguenay Lac St-Jean Universitaire sollicite des soumissions pour un projet de remplacement complet des chambres froides et congelées à l’Hôpital d’Alma.\nLes travaux comprennent notamment :\nLe démantèlement des installations existantes, incluant les équipements de réfrigération, les chambres froides et les travaux connexes.\nLe retrait sécuritaire de matériaux contenant de l’amiante selon les exigences du devis.\nLes travaux d’architecture requis pour le réaménagement du secteur, incluant démolition, charpenterie, cloisons, plafonds, revêtements, céramique, peinture et travaux de finition.\nLa fourniture et l’installation d’une nouvelle chambre froide (+2 °C) et d’une nouvelle chambre congelée (-20 °C), incluant les panneaux isolés, portes, fenêtres chauffées, éclairage, systèmes d’alarme et accessoires.\nLa fourniture et l’installation de nouveaux systèmes de réfrigération à haute performance avec redondance, systèmes de détection de fuite, contrôleurs intelligents et équipements de communication.\nLes travaux de plomberie, ventilation, protection incendie, régulation, automatisation et électricité nécessaires au projet.\nLes modifications aux systèmes électriques existants, incluant distribution électrique, éclairage, prises de courant, panneaux, alarmes incendie et raccordements des nouveaux équipements.\nLes essais, la mise en service, la formation du personnel, la remise des documents de fin de travaux et les garanties exigées aux devis.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7b727170-eceb-4fa3-af9c-d93318150ba7",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-20 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "450, rue Brassard Roberval QC CAN G8H1B9",
+"ouverture": "2026-11-20 14:00 Heure légale du Québec",
+"adresseOuverture": "450, rue Brassard Roberval QC CAN G8H1B9"
+},
+"conditions": [],
+"vuLe": "2026-10-30T15:50",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"charpente",
+"charpenterie",
+"cloison",
+"fenêtre"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"charpente",
+"charpenterie",
+"cloison",
+"fenêtre"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"charpente",
+"charpenterie",
+"cloison",
+"fenêtre"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "eb137dd8-c62c-4020-adcd-ad09f4543f64",
+"numero": "257020-1",
+"titre": "Réfection de la toiture bassins A-1, A-6 et C-6",
+"organisme": "Centre de services scolaire du Val-des-Cerfs.",
+"regions": [
+"Estrie",
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 270000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-26T14:00",
+"publie": "2026-10-30T14:14",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72152601 - Toiture"
+],
+"description": "AVIS D’APPEL D'OFFRES PUBLIC\nTITRE : 257020-1\nNo DOSSIER : RÉFECTION DE LA TOITURE BASSINS A-1, A-6 ET C-6\nPropriétaire Centre de services scolaire du Val-des-Cerfs\nJacques Olivier\n55, rue Court\nGranby (Québec) J2G 9N6 (adresse municipale)\nTél. : 450 372-0221 poste 60218\nprojetsrm@cssvdc.gouv.qc.ca\nÉtablissement visé \nÉcole CRIF – Centre régional intégré de formation \n700, rue Denison Ouest\nGranby (Québec) J2G 4G3\nProfessionnel architecture\nCaroline\nDenommée Architectes\n63, rue Dufferin\nGranby (QC) J4G 4W8\nVisite\nLa visite aura lieu le 12\nnovembre 2026 à 9h\nLes personnes qui se présenteront, devront demeurer à l’extérieur jusqu’à\nl’arrivée du chargé de projet.\nTravaux visés:\n Réfection des bassins A-1, A-6 et\n C-6, en multicouche à gravier\nÉchéancier \nDébut des travaux : 25 juin 2027\nRéception des travaux avec réserve : 30 septembre 2027\nOption Aucune option\nÉquivalence \nLes demandes d’équivalence doivent être déposées au plus tard 10 jours avant\nla date de dépôt des soumissions. Information Les demandes d’informations\ndoivent être adressées à l’adresse suivante : projetsrm@cssvdc.gouv.qc.ca\nLes questions seront traitées\nrapidement et les réponses feront l’objet d’addenda sous la forme de questions\n/réponses ou de modifications et ajouts aux Documents d’appel d’offres.\nL’ORGANISME PUBLIC se réserve le droit\nde ne pas considérer une demande formulée par un fournisseur si cette demande\nn’est pas transmise moins de 5 jours ouvrables avant la date et l’heure\nfixées pour la réception des soumissions.\nDocuments \nLes plans, devis, documents contractuels et autres renseignements pourront être\nobtenus que par l’intermédiaire du Système d’appels d’offres électroniques\n(SÉAO) au www.seao.ca\nModalité de dépôt des soumissions \nEnveloppe\nLes soumissions, dans des enveloppes\ncachetées et adressées au responsable, seront reçues au siège social du Centre\nde services scolaire du Val-des-Cerfs, 55, rue Court, à Granby, Québec, jusqu'à\n14 h 00, heure en vigueur localement, 26 novembre 2026 pour être\nouvertes publiquement au même endroit, le même jour et à la même heure. Toute\nsoumission reçue postérieurement sera automatiquement rejetée. \nOu\nVoie électronique\nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'offres\n(SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise\npar voie électronique doit être déposée (c'est-à-dire chiffrée, transmise,\nhorodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure\nlimites fixées pour la réception des Soumissions.\nModalité\nd’ouverture des soumissions \nConsidérant les dernières mises à jour du SCT, l’ORGANISME PUBLIC procède à une\nouverture des Soumissions avec public, de sorte que les SOUMISSIONNAIRES\npourront y assister en personne.\nGarantie de soumission\nLettre d’engagement\nLes soumissions doivent être accompagnées d’une garantie de soumission\nreprésentant 10 % du",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=eb137dd8-c62c-4020-adcd-ad09f4543f64",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "55, rue Court Granby QC CAN J2G9N6",
+"ouverture": "2026-11-26 14:00 Heure légale du Québec",
+"adresseOuverture": "55, rue Court Granby QC CAN J2G9N6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-30T15:50",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
 "réfection"
 ],
 "motsOk": true,
@@ -25993,16 +26035,86 @@
 },
 "patrick": {
 "motsTrouves": [
-"réfection"
+"enveloppe",
+"réfection",
+"école"
 ],
 "motsOk": true,
 "familles": [
-"Maçonnerie"
+"Maçonnerie",
+"Charpenterie"
 ],
 "tropCher": false
 },
 "traian": {
 "motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "57bc48b0-c1c4-4dca-8d7e-ac85a95e9cf7",
+"numero": "20261030-1",
+"titre": "Réfection du système de chauffage - École St-Joseph d'Amos",
+"organisme": "Centre de services scolaire Harricana.",
+"regions": [
+"Abitibi-Témiscamingue"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% du montant total de sa soumission avant l'application des taxes.",
+"estimation": 750000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-12-03T10:00",
+"publie": "2026-10-30T14:10",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151201 - Construction mécanique de systèmes de chauffage, de ventilation et de climatisation (cvc)",
+"72151207 - Installation et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)",
+"72152001 - Installation et réparation de cloisons sèches",
+"72152400 - Installation de portes et de fenêtres"
+],
+"description": "Le Centre de services scolaire Harricana désiré faire la\nréfection de la chaufferie de l’école primaire St-Joseph située au 332 1re\nrue Est à Amos.\n Le système de chauffage actuel en biénergie (mazout-électrique)\nsera remplacé par un système biénergie gaz-naturel et électrique. \nLe projet de\nréfection de la chaufferie comprend également des travaux de démantèlement d’un\nréservoir de mazout extérieur, d’ajout de portes, de cloisons, d’une dalle de\nbéton et de peinture.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=57bc48b0-c1c4-4dca-8d7e-ac85a95e9cf7",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-03 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "341, rue Principale Nord, local 1240 Amos QC CAN J9T2L8",
+"ouverture": "2026-12-03 10:15 Heure légale du Québec",
+"adresseOuverture": "341, rue Principale Nord, local 1240 Amos QC CAN J9T2L8"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-30T15:50",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"béton",
 "réfection"
 ],
 "motsOk": true,
@@ -26010,25 +26122,44 @@
 "Maçonnerie"
 ],
 "tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"béton",
+"réfection",
+"cloison",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"réfection",
+"cloison",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
 }
 },
 "motsTrouves": [
-"réfection"
+"béton",
+"cloison",
+"réfection",
+"école"
 ],
 "motsOk": true,
-"nouveau": false,
-"analyse": {
-"pertinence": 50,
-"type": "Bâtiment (nos métiers en partie)",
-"resume": "Le projet concerne la réfection et la sécurisation du poste d'accueil du détachement GRC à Rimouski. Une visite des lieux a été effectuée le 22 octobre et une cote de sécurité GRC est exigée.",
-"pointsAttention": [
-"visite obligatoire"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Le projet est lié à la réfection d'une structure, ce qui peut impliquer des travaux de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
-"version": 3
-}
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -38661,6 +38792,153 @@
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
+},
+{
+"id": "4125dea3-49e1-4076-ac83-35bf87a5832b",
+"numero": "AM011777",
+"titre": "Côte-Nord / Poste Manic 3 - Remplacement du système de protection incendie des transformateurs de puissance",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Côte-Nord"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Garantie de soumission: 10.00 %",
+"estimation": null,
+"dureeMois": "56",
+"surDemande": false,
+"fermeture": "2026-10-30T14:00",
+"publie": "2026-09-28T17:28",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101510 - Maintenance ou réparation de la plomberie",
+"72120000 - Construction de bâtiments non résidentiels",
+"72141510 - Démolition",
+"72141511 - Excavation",
+"72151100 - Installation de plomberie",
+"72151200 - Construction et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)"
+],
+"description": "Objet : Côte-Nord / Poste Manic 3 - Remplacement du système de protection incendie des transformateurs de puissance\nÀ titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur incluant les options est : entre 3 000 000 $ et 5 000 000 $\nDemande d'information : Doit être adressée au responsable au minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions\nDescription de l'objet : Le contrat consiste au remplacement des systèmes de protection incendie des transformateurs de puissance T31, T32, T33, T34, T35, T36 à la centrale Manic 3. \nIl a pour objet la conception, et la fabrication, la fourniture de la main-d’œuvre, du matériel, des matériaux, les essais en l'usine, l'emballage, l'entreposage, le transport y compris le déchargement, les travaux en chantier tels que le démantèlement, l’assemblage, l'installation, la vérification des équipements installés par des essais de mise en route, la formation du personnel d'Hydro-Québec et l’assistance. \nTravaux en option : \nLe démantèlement du système de protection incendie pour le transformateur T32 est en option, HQ se réserve le droit de faire appel ou non au service du fournisseur pour ce démantèlement.\nBronsard, Alexis\nBRONSARD.ALEXIS@HYDROQUEBEC.COM\nPoste : 4434\nVous pouvez consulter les documents liés à cet avis et soumissionner à partir du lien suivant :\nhttps://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27548\nHydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4125dea3-49e1-4076-ac83-35bf87a5832b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat consiste au remplacement des systèmes de protection incendie des transformateurs de puissance T31 à T36 à la centrale Manic 3. Il inclut la conception, la fabrication, la fourniture, la main-d'œuvre et l'installation de ces systèmes.",
+"pointsAttention": [
+"Délai de réponse à la demande d'information : minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de systèmes de protection incendie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
+},
+{
+"id": "5e71313d-8902-404d-b3ee-dab8d85f2748",
+"numero": "44546306",
+"titre": "Lot 4.607 - Terrazzo - Restauration, mise aux normes et réaménagement au 12, rue Saint-Louis, Québec (Québec) G1R 5L3",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"restauration"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10% du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article « Garantie de soumission » des Instructions\naux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 1000000.0,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-10-30T15:00",
+"publie": "2026-09-17T15:11",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44546306\n Titre du\n contrat :\n Lot 4.607 - Terrazzo\nRestauration, mise aux normes et réaménagement\n Adresse de\n l’immeuble :\n 12, rue Saint-Louis,\n Québec (Québec) G1R 5L3\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant la fourniture de l’expertise, de la main-d’œuvre, des\nmatériaux, de l’équipement, des services et de tout ce qui est requis pour\nl’exécution des travaux de Terrazzo pour la\nrestauration, mise aux normes et réaménagement de l’Édifice Gérard-D. -Lévesque\nsitué au 12 rue Saint-Louis à Québec.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission6@sqi.gouv.qc.ca.\nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=5e71313d-8902-404d-b3ee-dab8d85f2748",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la restauration, la mise aux normes et le réaménagement de l'édifice Gérard-D. -Lévesque situé au 12, rue Saint-Louis à Québec. La durée prévue des travaux est de 12 mois pour un montant estimé de 1 000 000,00 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la restauration d'un bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de finition, mais le titre se concentre sur le terrazzo.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
 "tropCher": false
 }
 },
