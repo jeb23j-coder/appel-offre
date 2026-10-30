@@ -9744,7 +9744,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-27"
+"fermeLe": "2026-10-27",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T09:52",
+"soumissions": [
+{
+"nom": "SoluRéf inc.",
+"montant": 66719.2
+},
+{
+"nom": "B.B.G. REFRIGERATION INC.",
+"montant": 66775.0
+},
+{
+"nom": "RÉFRIGÉRATION NORDIC",
+"montant": 68870.0
+}
+]
+}
 },
 {
 "id": "85f6f5ec-9ba2-4db4-9189-18a875132101",
@@ -10541,7 +10560,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-29"
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T10:48",
+"soumissions": [
+{
+"nom": "Plomberie Lecomte Inc.",
+"montant": 1069784.89
+},
+{
+"nom": "Gestion CDEDQ Inc.",
+"montant": 1152164.48
+}
+]
+}
 },
 {
 "id": "305ed35a-b804-4a6b-af28-41b046293844",
@@ -10631,7 +10665,58 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-29"
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T10:22",
+"soumissions": [
+{
+"nom": "CONSTRUCTION EMERY PAQUETTE INC.",
+"montant": 178211.25
+},
+{
+"nom": "SENTERRE INC.",
+"montant": 212998.37
+},
+{
+"nom": "9496-1687 Québec inc.",
+"montant": 221952.34
+},
+{
+"nom": "Gestion et Construction Senterre inc.",
+"montant": 225000.0
+},
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 229820.08
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 229950.0
+},
+{
+"nom": "CONSTRUCTIONS R.D.J. INC.",
+"montant": 253864.8
+},
+{
+"nom": "Groupe Balex inc.",
+"montant": 254681.12
+},
+{
+"nom": "CONSTRUCTION G.C.P. INC.",
+"montant": 321986.05
+},
+{
+"nom": "NORGEREQ LTÉE",
+"montant": 325954.13
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 392882.22
+}
+]
+}
 },
 {
 "id": "80f19242-096f-483d-a4e0-43806caa3afc",
@@ -10978,7 +11063,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-10-29"
+"fermeLe": "2026-10-29",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T08:38",
+"soumissions": [
+{
+"nom": "DESROCHERS BERNARD INC.",
+"montant": 285134.0
+},
+{
+"nom": "LES CONSTRUCTIONS YVES LESSARD INC.",
+"montant": 303735.0
+}
+]
+}
 },
 {
 "id": "73b40863-3636-4eb9-9022-61e7f2c50d65",
@@ -11573,5 +11673,721 @@
 }
 ]
 }
+},
+{
+"id": "1dcfb824-54d7-4ea4-83be-f63f8e15afcb",
+"numero": "26-27-74",
+"titre": "Réfection de la toiture - Centre Mgr-Lucien-Beaudoin",
+"organisme": "Centre de services scolaire des Portages-de-l'Outaouais.",
+"regions": [
+"Outaouais"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"réfection"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 15%",
+"estimation": 230000,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-10-30T09:00",
+"publie": "2026-10-14T13:39",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"95000000 - Terrains, bâtiments, constructions et voies de communication"
+],
+"description": "Réfection complète de la toiture \nChanger l'emplacement de la trappe d'accès\nBâtiment à deux étages",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=1dcfb824-54d7-4ea4-83be-f63f8e15afcb",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection complète de la toiture d'un bâtiment à deux étages. Les travaux incluent également le changement de l'emplacement de la trappe d'accès.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et n'inclut pas les travaux principaux de maçonnerie ou de charpenterie/menuiserie recherchés.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
+},
+{
+"id": "373b6282-3530-45ca-b7d5-384da90a4663",
+"numero": "26-1784-434-Adapt. Log. 6",
+"titre": "ADAPTATION LOGEMENT #6 - 434, DU DOMAINE, CHANDLER",
+"organisme": "OH Rocher-Percé",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"logement",
+"réfection",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-10-30T10:00",
+"publie": "2026-10-13T13:48",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72110000 - Construction de bâtiments résidentiels",
+"72111000 - Construction de logements individuels",
+"72111001 - Rénovation, agrandissement et remodelage de maisons individuelles",
+"72151100 - Installation de plomberie"
+],
+"description": "Le projet consiste principalement en la\nrénovation du logement no 6, situé au 434, avenue du Domaine, à Chandler, afin\nd’en améliorer l’accessibilité et la fonctionnalité. Les travaux comprennent\nnotamment la reconfiguration de l’entrée du logement, la rénovation de la\ncuisine ainsi que la réfection des revêtements de plancher. Des travaux de\ndémolition partielle de murs intérieurs sont également prévus, de même que le\nremplacement ou l’ajustement de certaines portes et l’ajout de protections aux\ncoins de murs. Le logement sera entièrement repeint. Des travaux de ragréage et\nde finition sont également prévus dans le logement ainsi que dans le corridor\nadjacent. Le projet comprend les interventions en plomberie, en mécanique et en\nélectricité requises pour la réalisation complète des travaux. Les autres\nlogements de l’immeuble demeureront occupés pendant le chantier. L’entrepreneur\ndevra donc coordonner ses interventions de manière à maintenir les accès, les\nissues et les services fonctionnels et sécuritaires pendant toute la durée des\ntravaux.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=373b6282-3530-45ca-b7d5-384da90a4663",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 40,
+"type": "Hors sujet",
+"resume": "Le projet consiste principalement en la rénovation d'un logement pour améliorer son accessibilité et sa fonctionnalité. Les travaux incluent la reconfiguration de l'entrée, la rénovation de la cuisine, la réfection des revêtements de plancher, la démolition partielle de murs intérieurs, le remplacement de portes et l'ajout de protections aux coins de murs, ainsi que des travaux de ragréage et de finition.",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la rénovation intérieure et les travaux de finition, sans mention claire d'un travail principal en maçonnerie ou charpenterie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"rénovation",
+"logement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"rénovation",
+"logement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T10:27",
+"soumissions": [
+{
+"nom": "MFT & Fils inc.",
+"montant": 88185.83
+},
+{
+"nom": "N. & R. DUGUAY CONSTRUCTION INC.",
+"montant": 108536.4
+}
+]
+}
+},
+{
+"id": "d0a434c7-2057-4d4d-b69c-625940401364",
+"numero": "2324-CA-001",
+"titre": "Centre administratif du Centre de services scolaire des Phares - Réfection de la toiture",
+"organisme": "Centre de services Scolaire des Phares.",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% de la valeur total de la soumission, excluant les taxes applicables.",
+"estimation": 500000,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-10-30T10:00",
+"publie": "2026-10-08T17:24",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "PROJET : Réfection de la toiture\nCentre\nadministratif du Centre de services scolaire des Phares, Rimouski\n Projet\nno : 2324-CA-001\nORGANISME PUBLIC : CENTRE DE SERVICES SCOLAIRE\nDES PHARES\n 435,\navenue Rouleau\n Rimouski\n(Québec) G5L 8V4\n Tél. :\n418-723-5927\nARCHITECTES : PROULXSAVARD\nARCHITECTES \n 75, boulevard Arthur-Buies\nOuest \n Rimouski\n(Québec) \n G5L 5C2 \n Tél. : 418\n723-5543\nLe\nCentre de services scolaire des Phares désire obtenir des\nsoumissions sous enveloppe scellée pour retenir les services d’un entrepreneur\nen vue de procéder à des travaux de réfection de la toiture du Centre\nadministratif du Centre de services scolaire des Phares situé au 435, avenue Rouleau à Rimouski, province de Québec.\nDOCUMENTATION\nDISPONIBLE :\nÀ compter du 8\noctobre 2026, toute personne ou toute société pourra se procurer les\ndocuments d’appel d’offres que par l’intermédiaire du système électronique\nd’appel d’offres SÉAO (www.seao.ca ou au 1-866-669-7326).\nGARANTIE DE\nSOUMISSION :\nToute\nsoumission devra être accompagnée d’une garantie de soumission représentant dix\npour cent (10 %) du montant total de la soumission excluant toutes les\ntaxes applicables, sous forme de lettre de garantie irrévocable ou de\ncautionnement de soumission émis par une institution financière qui est un\nassureur détenant un permis émis conformément à la Loi sur les assurances\n(R.L.R.Q., c. A-32.1) l’autorisant à pratiquer l’assurance cautionnement, une\nsociété de fiducie titulaire d’un permis délivré en vertu de la Loi sur les\nsociétés de fiducie et les sociétés d’épargne (R.L.R.Q., c. S-29.01), une\ncoopérative de services financiers visée par la Loi sur les coopératives de\nservices financiers (R.L.R.Q., c. C-67.3) ou une banque au sens de la Loi\nsur les banques (L.C., 1991, c. 46),\nsans quoi la soumission sera automatiquement rejetée.\nSi la soumission est\ntransmise sur support papier, la garantie de soumission peut en plus des\nméthodes décrites précédemment être transmise sous forme de chèque certifié, de\nmandat-poste ou de traite bancaire, fait à l’ordre de l’ORGANISME PUBLIC. \nVISITE DES\nLIEUX :\nLa visite des lieux non-obligatoire aura lieu le 14 octobre 2026 à 14h00.\nLe point de rassemblement pour cette visite est fixé au 435, avenue Rouleau, en\nla ville de Rimouski, province de Québec, G5L 8V4.\nRÉCEPTION ET\nOUVERTURE :\nLes soumissions, dans des\nenveloppes cachetées, seront adressées au Centre de services scolaire des\nPhares, à l’attention de monsieur Jean-François Brisson, directeur au Service\ndes ressources matérielles. Elles seront reçues au bureau de l’organisme public sis au 435, avenue Rouleau à Rimouski\n(Québec) G5L 8V4, jusqu’à 10h00, heure en vigueur localement, le 30 octobre 2026. Les\nsoumissions sont ouvertes publiquement, en présence d’un témoin, au lieu\nindiqué à la clause 1.08.10, immédiatement après l’heure et la date limites\nfixées pour la réception des soumissions. \nLes soumissionnaires peuvent assister à l’ouverture des\nsoumissions. Toute soumission reçue\npostérieure",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=d0a434c7-2057-4d4d-b69c-625940401364",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture du Centre administratif du Centre de services scolaire des Phares à Rimouski. Le montant estimé est de 500 000 $ et la durée prévue est de 5 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": true,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T10:16",
+"soumissions": [
+{
+"nom": "9004-1856 QUÉBEC INC.",
+"montant": 573000.0
+},
+{
+"nom": "A.G.M CONSTRUCTION INC.",
+"montant": 576700.0
+},
+{
+"nom": "ENTREPRISE C. V. DIONNE INC.",
+"montant": 975000.0
+}
+]
+}
+},
+{
+"id": "a07d1386-99db-4718-ac34-39ff7c535823",
+"numero": "26000007",
+"titre": "Réfection de toiture école des Hauts Clochers pavillon St-Charles",
+"organisme": "Centre de services scolaire des Découvreurs.",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"construction d",
+"enveloppe",
+"réfection",
+"école"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 950000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-10-30T10:00",
+"publie": "2026-10-05T14:57",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72121406 - Construction de bâtiments scolaires",
+"72152601 - Toiture"
+],
+"description": "Le Centre de services scolaire des Découvreurs\ndemande des soumissions pour le projet :\nRéfection\nde toiture école des Hauts Clochers pavillon St-Charles\nProjet : École\ndes Hauts Clochers, pavillon St-Charles\n1350\nRue Saint-Charles, L'Ancienne-Lorette, QC G2E 1V4\nLa\ndocumentation sera disponibleà\ncompter du lundi 5 octobre 2026. Toute\npersonne ou toute société pourra se procurer les documents d’appel d'offres,\nplans et devis et autres documents pertinents au projet par l’entremise du SEAO.\nLes\nsoumissions, dans une enveloppe, cachetée et identifiée au nom de Réfection\nde toiture école des Hauts Clochers pavillon St-Charlesadressées au Service des\nressources matérielles du Centre de services scolaire des Découvreurs, seront\nreçues au 100-945 avenue Wolfe à Québec le vendredi 30 octobre 2025 à 10 h, pour être ouvertes\npubliquement au même endroit, le même jour et à la même heure.\nLes\nsoumissions devront être accompagnées d’un chèque visé équivalant à 10 % de la\nsoumission, fait à l’ordre du propriétaire, le Centre de services scolaire des\nDécouvreurs, ou d’un cautionnement de soumission établi au même montant, valide\npour une période de quarante-cinq (45) jours de la date d’ouverture des\nsoumissions.\nCette\ngarantie de soumission devra être échangée à la signature du contrat pour une\ngarantie d’exécution et une garantie des obligations pour gages, matériaux et\nservices. Lorsque ces garanties sont sous forme de cautionnement, le montant de\nchacune d’elles correspond à 50 % du prix du contrat et lorsqu’elles sont sous\nforme de chèque visé, le montant de chacune d’elles correspond à 10 % du prix\ndu contrat.\nSeules\nseront considérées aux fins d’octroi du contrat, les soumissions des\nentrepreneurs ayant un établissement au Québec ou, lorsqu’un accord\nintergouvernemental est applicable au Québec, ou dans une province ou un\nterritoire visé par cet accord, et détenant, le cas échéant, la licence requise\nen vertu de la Loi sur le bâtiment (L.R.Q., c.B-1.1).\nLes\nentrepreneurs soumissionnaires sont responsables du choix des sous-traitants,\ntant pour leur solvabilité que pour le contenu de leurs soumissions.\nToutes\nles soumissions devront être faites conformément aux dispositions du Règlement\nsur les contrats de construction des immeubles des commissions scolaires adopté\nen vertu de la Loi sur l’instruction publique (L.R.Q., c.C-65-1,r.5). \nLe\npropriétaire ne s’engage à accepter aucune des soumissions reçues.\nJulie Aubin,\ndirectrice\nServices des\nressources matérielles",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a07d1386-99db-4718-ac34-39ff7c535823",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture de l'école des Hauts Clochers pavillon St-Charles. Le projet est estimé à 950 000 $ et la durée prévue est de 9 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne principalement la toiture, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"construction d",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"construction d",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
+},
+{
+"id": "7b6d9ab4-5e35-4e59-9b2b-cbace3b712b6",
+"numero": "26-032",
+"titre": "Contrat à exécution sur demande - Peinture",
+"organisme": "Centre de services scolaire des Trois-Lacs",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment",
+"construction d"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission, \nd’un montant forfaitaire de CINQ MILLE DOLLARS (5 000,00$).\nSi la Soumission est transmise par voie électronique, la garantie de soumission doit être \nproduite sous l'une ou l'autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution \nFinancière telle que définie à la clause 0.01.14 des présentes, qui doit être conforme aux \ndispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du \nFormulaire de Soumission;\nb) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une \nInstitution Financière telle que définie à la clause 0.01.14 des présentes, qui doit être \nconforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à \nl’annexe 4.01B du Formulaire de Soumission.\nSi la Soumission est transmise sur support papier, la garantie de soumission doit être produite \nsous l'une ou l'autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution \nFinancière telle que définie à la clause 0.01.14 des présentes, qui doit être conforme aux \ndispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du \nFormulaire de Soumission;\nb) un chèque certifié, un mandat-poste ou une traite bancaire, fait à l’ordre de \nl’ORGANISME PUBLIC;\nc) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une \nInstitution Financière telle que définie à la clause 0.01.14 des présentes, qui doit être \nconforme aux exigences du modèle de « Lettre de garantie irrévocable » reproduit à \nl’annexe 4.01B du Formulaire de Soumission.",
+"estimation": 148398,
+"dureeMois": "36",
+"surDemande": true,
+"fermeture": "2026-10-30T10:00",
+"publie": "2026-10-05T09:09",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le mandat consiste à fournir au Centre\nde services scolaire des Trois-Lacs un service de main-d’œuvre indépendante\npour certains travaux de construction. L’ensemble des travaux sera exécuté sur\ndemande, selon la superficie et/ou sur une base horaire. Le tout sera supervisé\npar les gestionnaires de la direction du service des ressources matérielles et\ndes bâtiments communautaires. Les demandes d'exécution seront attribuées à\nl'entrepreneur qui a soumis le prix le plus bas.\nL’entrepreneur devra\nnotamment :\n· \nFournir\nla main-d’œuvre qualifiée et en quantité suffisante;\n· \nFournir\nson équipement de protection individuelle conforme aux exigences réglementaires\nen vigueur;\n· \nFournir\nles outils et équipements appropriés aux travaux demandés par le Centre de\nservices scolaire des Trois-Lacs, lorsque requis;\n· \nFournir\nune estimation des coûts des travaux mineurs pour chaque travail de\nconstruction demandé;\n· Fournir\nles matériaux nécessaires à la demande du Centre de services scolaire des\nTrois-Lacs pour accomplir les travaux de construction dans lesquels\nl’entrepreneur est impliqué et laisser sur place les matériaux inutilisés ou en\nsurplus;\n· \nFournir\ndes services pour l’ensemble des bâtiments du Centre de services scolaire des\nTrois-Lacs. \nVous trouverez la liste des\nétablissements à l’annexe A du devis.\nLe contrat est d’une durée de trois (3)\nannées, soit du 19 novembre 2026 au 18 novembre 2029. La date\nd’adjudication prévue est le 18 novembre 2026.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7b6d9ab4-5e35-4e59-9b2b-cbace3b712b6",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le mandat consiste à fournir de la main-d'œuvre indépendante pour certains travaux de construction sur demande pour le Centre de services scolaire des Trois-Lacs. L'entrepreneur devra fournir la main-d'œuvre qualifiée, l'équipement et les matériaux nécessaires.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la fourniture de main-d'œuvre pour des travaux de construction, ce qui peut inclure des lots de maçonnerie ou de charpenterie, mais le titre principal est la peinture et le mandat est très général.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-10-30T10:49",
+"soumissions": [
+{
+"nom": "C.T. Campeau Entrepreneur Peintre inc.",
+"montant": 132395.0
+},
+{
+"nom": "ENTREPRISE VENISE PEINTRE INC.",
+"montant": 148575.0
+},
+{
+"nom": "LES CONSTRUCTIONS B. MARTEL INC.",
+"montant": 167699.0
+},
+{
+"nom": "Construction Kevin Bissonnette inc.",
+"montant": 184800.0
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 279730.0
+}
+]
+}
+},
+{
+"id": "11a53fa7-0f7c-45b5-af78-4b8b8ef38ff8",
+"numero": "27013",
+"titre": "AMÉNAGEMENT DE SITES SECTEURS P1N ET P1B – 793- 3800 SHERBROOKE EST",
+"organisme": "Collège de Maisonneuve",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres réservé aux petites entreprises du Québec et à celles d’ailleurs au Canada",
+"tri": "candidat",
+"motsTrouves": [
+"réfection"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 5%",
+"estimation": 1600000,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-10-30T10:00",
+"publie": "2026-10-01T15:17",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72141500 - Aménagement de terrain"
+],
+"description": "Dans le cadre de ses\ntravaux de maintien d’actifs et amélioration environnementale, le Collège souhaite\nprocéder à l’aménagement de site des secteurs P1N et P1B de son stationnement\nprincipal au Campus du Collège de Maisonneuve situé au 3800 rue Sherbrooke Est,\nMontréal (Québec) H1X 2A2.\nLe projet se déroule en\nmilieu occupé. Le fonctionnement pédagogique est prioritaire et le projet doit\nêtre complété selon un calendrier qui minimise les impacts sur le fonctionnement\nde l’ORGANISME PUBLIC.\nLes travaux comprennent, de façon sommaire:\n· \nLa démolition du site\nexistant\n· \nDes travaux d’égout\npluviale \n· \nLa fourniture et mise\nen place de regards, de puisards et d’une chambre de régulation. \n· \nLa mise en œuvre de\ntranchée drainante;\n· \nLa réfection de la\nstructure de chaussée;\n· \nLa mise en œuvre de\nmassif électrique pour éclairage et système de guérite;\n· \nLa mise en œuvre de\npavage, trottoir et bordure dans le stationnement.\n· \nDes travaux\nélectriques, télécommunication et alarme incendie\n· \nDes travaux\nd’aménagement paysager\n3800 sHERBROOKE eST",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=11a53fa7-0f7c-45b5-af78-4b8b8ef38ff8",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "Le projet concerne l'aménagement de site, incluant la démolition, les travaux d'égout pluvial, la réfection de la structure de chaussée, le pavage et l'aménagement paysager.",
+"pointsAttention": [
+"Le projet se déroule en milieu occupé.",
+"Le fonctionnement pédagogique est prioritaire et le projet doit minimiser les impacts."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur l'aménagement de terrain et les travaux d'infrastructure, sans lien direct avec la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
+},
+{
+"id": "672de6c7-9b86-40d6-b407-3070ac55a30e",
+"numero": "260911800",
+"titre": "Réfection générale des Pavillons - Tour ROSE",
+"organisme": "Cégep de Rimouski",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"fenêtre",
+"réfection",
+"rénovation"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission.",
+"estimation": 10000000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-10-30T10:45",
+"publie": "2026-09-18T15:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "Le Cégep de Rimouski cherche à octroyer un contrat de travaux complets de réfection pour une tour de ses résidences étudiante. Les travaux comprennent la rénovation des chambres et des aires communes, l’isolation des murs extérieurs, le remplacement des fenêtres, la réfection des réseaux d’eau domestique et sanitaire, la mise aux normes du système d’alarme incendie, la modernisation du réseau électrique, l’ajout d’un système de contrôle DDC ainsi que l’installation d’un nouveau système de ventilation.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=672de6c7-9b86-40d6-b407-3070ac55a30e",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 60,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réfection générale d'une tour de résidences étudiantes, incluant la rénovation des chambres, l'isolation des murs extérieurs, le remplacement des fenêtres, et la modernisation des réseaux (eau, électricité, ventilation).",
+"pointsAttention": [
+"Délai de 9 mois",
+"Montant estimé de 10 000 000 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de rénovation où la maçonnerie (isolation, murs) et la menuiserie (fenêtres) sont impliquées, mais le titre général est plus large que le cœur de métier.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"fenêtre",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"fenêtre",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
+},
+{
+"id": "f5b7731c-eb58-4deb-a556-f78d685e67f0",
+"numero": "26-003",
+"titre": "HÔTEL BAKER INSTALLATION d'UN ASCENSEUR ET TRAVAUX CONNEXES",
+"organisme": "Hôtel Baker ltée",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-10-30T11:00",
+"publie": "2026-10-16T12:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "Appel d’offres\nHôtel Baker\n— Ajout d’un ascenseur et travaux connexes\nMAÎTRE DE L’OUVRAGE\nHôtel Baker, 178 Rue de la Reine, Gaspé, QC G4X 1T6\nL’Hôtel Baker demande des soumissions pour les travaux\nd’ajout d’un ascenseur à son établissement de Gaspé, sis au 178 Rue de la\nReine, Gaspé, QC G4X 1T6, conformément aux plans, devis et autres documents du\nprésent appel d’offres.\nDocuments d’appel d’offres\nLes documents relatifs au présent appel d’offres sont\ndisponibles uniquement sur le Système électronique d’appel d’offres (SEAO). Les\nsoumissionnaires doivent se les procurer par l’entremise du SEAO et acquitter\nles frais exigés, le cas échéant.\nRéception des soumissions\nDate et heure limites\nde réception : le 30 octobre 2026 à 11 h 00.\nLes soumissions sont\nreçues uniquement par dépôt électronique sur le SEAO. Pour être recevable,\ntoute soumission doit avoir été déposée au moyen du service de transmission par\nvoie électronique du SEAO, c’est-à-dire chiffrée, transmise, horodatée et\nsauvegardée sur les serveurs du SEAO, au plus tard à la date et à l’heure limites\nindiquées ci-dessus.\nAucune soumission sur support papier, par la poste, par\nmessagerie ou par courriel ne sera acceptée. Toute soumission reçue après la\ndate et l’heure limites sera rejetée.\nCautionnement de soumission\nAucun cautionnement de soumission n’est requis.\nRéserves du maître de l’ouvrage\nLe maître de l’ouvrage ne s’engage à accepter ni la plus\nbasse ni aucune des soumissions reçues. Il se réserve le droit de rejeter\ntoutes les soumissions et d’annuler le présent appel d’offres, en tout temps\navant l’adjudication du contrat, sans encourir de frais, d’indemnité ni de\nresponsabilité envers les soumissionnaires du seul fait de cette décision, sous\nréserve des dispositions impératives de la loi.\nTous les frais engagés pour l’examen des documents d’appel\nd’offres, la préparation et le dépôt d’une soumission sont à la charge\nexclusive du soumissionnaire et ne sont pas remboursables par le maître de\nl’ouvrage, quelle que soit l’issue du présent appel d’offres.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f5b7731c-eb58-4deb-a556-f78d685e67f0",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [],
+"motsOk": false,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'ajout d'un ascenseur et travaux connexes pour l'Hôtel Baker à Gaspé. La description ne mentionne aucun travail principal lié à la maçonnerie ou à la charpenterie/menuiserie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'installation d'un ascenseur et n'inclut pas les corps de métier ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-10-30"
 }
 ]
