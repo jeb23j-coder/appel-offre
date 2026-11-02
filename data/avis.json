@@ -26381,7 +26381,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'offres public pour la construction d'un agrandissement des ateliers municipaux à Saint-Lazare. La durée prévue du contrat est de 13 mois.",
+"pointsAttention": [
+"Délai de soumission : avant le mercredi 2 décembre 2026 à 10 h."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment, ce qui pourrait inclure des travaux de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
