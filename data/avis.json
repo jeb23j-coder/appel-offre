@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-02T15:40",
+"date": "2026-11-02T18:00",
 "seaoLus": 330,
 "retenus": 333,
-"nouveaux": 11,
+"nouveaux": 1,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -4952,77 +4952,6 @@
 "traian": {
 "motsTrouves": [
 "bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "90fbb1d2-40ca-420c-a291-d115be469dec",
-"numero": "1",
-"titre": "Rénovation chambres hôtel Terra",
-"organisme": "Hôtel Albert par G5 (entité légal : 9134-8052 Qc inc )",
-"regions": [
-"Abitibi-Témiscamingue"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"rénovation"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "3",
-"surDemande": false,
-"fermeture": "2026-10-30T16:00",
-"publie": "2026-10-16T15:33",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Hôtel Terra_Phase 1\n Rénovations des 48 chambres d'un hôtel situé à Rouyn-Noranda (le Deville centre hôtelir) pour en faire l'hôtel phase du Groupe G5 Vivre Manger Boire.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=90fbb1d2-40ca-420c-a291-d115be469dec",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 50,
-"type": "Bâtiment (nos métiers en partie)",
-"resume": "Il s'agit de rénovations des 48 chambres d'un hôtel situé à Rouyn-Noranda pour en faire l'hôtel phase du Groupe G5 Vivre Manger Boire.",
-"pointsAttention": [
-"Montant estimé non publié"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Le projet est un bâtiment nécessitant des travaux, mais la description ne spécifie pas clairement si la maçonnerie ou la charpenterie est le cœur du contrat.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"rénovation"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"rénovation"
 ],
 "motsOk": true,
 "familles": [
@@ -25434,7 +25363,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Maçonnerie",
@@ -25521,7 +25450,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -25630,7 +25559,7 @@
 "ossature"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 85,
 "type": "Maçonnerie",
@@ -25724,7 +25653,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -25819,7 +25748,7 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25901,7 +25830,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -25996,7 +25925,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -26084,7 +26013,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -26198,7 +26127,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 90,
 "type": "Maçonnerie",
@@ -26275,7 +26204,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -26365,7 +26294,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -26381,6 +26310,78 @@
 "raison": "Le projet est un gros travaux de bâtiment qui inclut des aspects de construction/rénovation, mais le mandat principal semble orienté vers les corps de métier spécialisés (plomberie, électricité, etc.). Il faut vérifier si les lots de maçonnerie ou charpenterie sont inclus dans le détail des travaux.",
 "version": 3
 }
+},
+{
+"id": "0b127fb4-e3d1-4b0c-a4dc-350f8ea5e20c",
+"numero": "0920-400_54786",
+"titre": "Procédure ouverte (appel d’offres public) aux fins de l’attribution d’un contrat de construction dans le cadre des travaux d’agrandissement des ateliers municipaux",
+"organisme": "Ville de Saint-Lazare.",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "13",
+"surDemande": false,
+"fermeture": "2026-12-02T10:00",
+"publie": "2026-11-02T16:47",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "Comme annoncé par la\nrésolution 09-299-26, la Ville de Saint-Lazare demande des soumissions pour\nle contrat de construction aux fins de l’agrandissement des ateliers\nmunicipaux.\nLes documents de procédure\nouverte peuvent être obtenus par l’entremise du système électronique d’appel d’offres\napprouvé par le gouvernement (SÉAO) au www.seao.ca. La grille des tarifs est disponible sur ce site.\nLes offres doivent être\nreçues avant 10 h, le mercredi 2 décembre 2026, pour être ouvertes\nle même jour à 10 h 01 au\nbureau du Service des infrastructures de la Ville, situé au 1875, avenue\nBédard, 2e étage, Saint-Lazare (Québec) J7T 2E7. Elles doivent\nêtre conformes aux documents de procédure ouverte.\nLe contrat sera attribué\nsuivant le prix proposé le plus bas.\nLa Ville de Saint-Lazare ne s’engage\nà accepter aucune des soumissions reçues, y compris celle déposée par le plus\nbas soumissionnaire conforme ou la soumission conforme la plus avantageuse pour\nla Ville.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0b127fb4-e3d1-4b0c-a4dc-350f8ea5e20c",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-02 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "1875, avenue Bédard 2ième étage Saint-Lazare QC CAN J7T2E7",
+"ouverture": "2026-12-02 10:00 Heure légale du Québec",
+"adresseOuverture": "1875, avenue Bédard 2ième étage Saint-Lazare QC CAN J7T2E7"
+},
+"conditions": [],
+"vuLe": "2026-11-02T17:59",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"construction d"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -40515,6 +40516,79 @@
 "motsTrouves": [],
 "motsOk": false,
 "familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-02"
+},
+{
+"id": "90fbb1d2-40ca-420c-a291-d115be469dec",
+"numero": "1",
+"titre": "Rénovation chambres hôtel Terra",
+"organisme": "Hôtel Albert par G5 (entité légal : 9134-8052 Qc inc )",
+"regions": [
+"Abitibi-Témiscamingue"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-10-30T16:00",
+"publie": "2026-10-16T15:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Hôtel Terra_Phase 1\n Rénovations des 48 chambres d'un hôtel situé à Rouyn-Noranda (le Deville centre hôtelir) pour en faire l'hôtel phase du Groupe G5 Vivre Manger Boire.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=90fbb1d2-40ca-420c-a291-d115be469dec",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de rénovations des 48 chambres d'un hôtel situé à Rouyn-Noranda pour en faire l'hôtel phase du Groupe G5 Vivre Manger Boire.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux, mais la description ne spécifie pas clairement si la maçonnerie ou la charpenterie est le cœur du contrat.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
 "tropCher": false
 }
 },

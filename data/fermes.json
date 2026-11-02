@@ -13891,5 +13891,78 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-02"
+},
+{
+"id": "90fbb1d2-40ca-420c-a291-d115be469dec",
+"numero": "1",
+"titre": "Rénovation chambres hôtel Terra",
+"organisme": "Hôtel Albert par G5 (entité légal : 9134-8052 Qc inc )",
+"regions": [
+"Abitibi-Témiscamingue"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-10-30T16:00",
+"publie": "2026-10-16T15:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Hôtel Terra_Phase 1\n Rénovations des 48 chambres d'un hôtel situé à Rouyn-Noranda (le Deville centre hôtelir) pour en faire l'hôtel phase du Groupe G5 Vivre Manger Boire.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=90fbb1d2-40ca-420c-a291-d115be469dec",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de rénovations des 48 chambres d'un hôtel situé à Rouyn-Noranda pour en faire l'hôtel phase du Groupe G5 Vivre Manger Boire.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux, mais la description ne spécifie pas clairement si la maçonnerie ou la charpenterie est le cœur du contrat.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-02"
 }
 ]
