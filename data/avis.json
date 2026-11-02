@@ -25434,7 +25434,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à reconstruire deux logements endommagés par un incendie, incluant la réfection des finis et de la cuisine d'un logement et la reconstruction complète d'un autre. Des interventions sont prévues sur les soffites, les portes et l'isolation.",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de reconstruction et de réfection qui impliquent des éléments de maçonnerie et de menuiserie (portes, soffites), ce qui est pertinent pour l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "904d6a83-2c75-41cb-af80-f98e2986f958",
@@ -25509,7 +25521,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la fourniture de services en plomberie pour le Centre de services scolaire De La Jonquière. Le montant estimé est de 684 000 $ pour une durée prévue de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement la plomberie et n'a aucun lien avec les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c74d7113-75a9-4938-8922-89cfacae3edf",
@@ -25606,7 +25630,19 @@
 "ossature"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la construction d'un centre culturel autochtone comprenant trois sites. Le bâtiment utilise un système constructif hybride combinant des modules préfabriqués en bois lamellé-collé et une charpente en ossature légère en bois sur place. Les travaux incluent également des éléments de génie civil.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet est centré sur la charpenterie et la construction en bois, ce qui correspond directement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "2e78c6c0-8f97-465a-9308-0f00f81ad3eb",
@@ -25688,7 +25724,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau des hottes de cuisine et l'installation d'une trappe à graisse dans une école secondaire. Les mots-clés pertinents sont 'enveloppe' et 'école'.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'implique ni maçonnerie/briquetage ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "caa3a165-cc89-4e5c-bbc6-af188aa84482",
@@ -25771,7 +25819,19 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un nouveau garage municipal. Le projet est prévu pour durer environ 17 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de construction de bâtiment, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le focus n'est pas exclusivement sur ces métiers.",
+"version": 3
+}
 },
 {
 "id": "af63b5c4-71ac-4f94-95e3-3bfab0a55a68",
@@ -25841,7 +25901,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le contrat vise la réalisation complète des travaux de construction de salles de bains communautaires. La durée prévue est de 6 mois.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment, mais la description ne spécifie pas si la maçonnerie ou la charpenterie est le travail principal, nécessitant une vérification des détails du contrat.",
+"version": 3
+}
 },
 {
 "id": "df4bad61-68f2-4d34-adbe-8097a4290056",
@@ -25924,7 +25996,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Le projet consiste en la réfection de la verrière du Centre d’hébergement Henri-Bradet en raison de condensation et de moisissures. Le bâtiment doit rester entièrement opérationnel pendant les travaux.",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la réfection d'une verrière et n'implique pas directement les métiers ciblés (maçonnerie, charpenterie, menuiserie) comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "abdda72b-22ba-4eda-a215-946fa310c591",
@@ -26000,7 +26084,23 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toitures aux terminus Montmorency, Cartier et Le Carrefour. La durée prévue est de 4 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement la toiture et n'inclut aucun des métiers ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "b661a55b-11d0-4dc5-9120-72ea550f4e8b",
@@ -26098,7 +26198,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à effectuer la réfection de l'escalier extérieur d'un bloc de pierre, incluant le démontage et la réinstallation des blocs, l'application de mortier et de calles de nivellement, ainsi que l'installation d'une nouvelle membrane d'étanchéité.",
+"pointsAttention": [
+"Visite des lieux"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du projet est la maçonnerie (blocs de pierre, mortier) et la réfection d'une structure extérieure, ce qui correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "125ccbce-2545-4b64-810a-c36ed8dc5ba5",
@@ -26163,7 +26275,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à fournir, installer, configurer et programmer un système complet d'éclairage scénique à l'Amphithéâtre Fernand-Lindsay. Le mandat inclut également des travaux légers de mécanique et d'architecture.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'électricité et l'éclairage scénique, ce qui n'est pas dans les domaines principaux de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "dc31120d-7deb-447f-b8c1-4ec9c5146a78",
@@ -26237,7 +26365,22 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'aménagement et le réaménagement de l'URDE clinique à l'Hôpital de Verdun, incluant des travaux d'architecture, de démolition, protection incendie, plomberie, gaz médicaux, CVCA et électricité. La durée prévue du contrat est de 9 à 12 mois.",
+"pointsAttention": [
+"Travaux réalisés dans un établissement occupé et en fonction.",
+"Nécessité de respecter les exigences relatives au contrôle des infections et des contaminants.",
+"Respect des plages horaires de travaux et d'arrêts de service.",
+"Maintien des voies de circulation requises."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros travaux de bâtiment qui inclut des aspects de construction/rénovation, mais le mandat principal semble orienté vers les corps de métier spécialisés (plomberie, électricité, etc.). Il faut vérifier si les lots de maçonnerie ou charpenterie sont inclus dans le détail des travaux.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
