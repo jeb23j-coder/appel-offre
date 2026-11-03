@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-03T15:47",
-"seaoLus": 325,
-"retenus": 328,
-"nouveaux": 1,
+"date": "2026-11-03T18:52",
+"seaoLus": 327,
+"retenus": 330,
+"nouveaux": 3,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -9273,80 +9273,6 @@
 },
 "traian": {
 "motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "82d401e9-7496-426e-9372-09b130a875fd",
-"numero": "CRW116662",
-"titre": "Construction d'espaces de travail",
-"organisme": "Société de l'assurance automobile du Québec .",
-"regions": [
-"Capitale-Nationale"
-],
-"typeAvis": "Avis d’appel d’offres réservé aux petites entreprises du Québec et à celles d’ailleurs au Canada",
-"tri": "candidat",
-"motsTrouves": [
-"bâtiment",
-"construction d"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 698600,
-"dureeMois": "4",
-"surDemande": false,
-"fermeture": "2026-11-02T16:00",
-"publie": "2026-10-08T09:38",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
-],
-"description": "SOCIÉTÉ DE L’ASSURANCE AUTOMOBILE DU\nQUÉBEC\nAVIS D’APPEL D'OFFRES\nCRW116662\nDESCRIPTION\nLe\nprésent appel d’offres public est réservé aux petites entreprises du Québec et\nà celles d’ailleurs au Canada.\nLa\nSociété de l'assurance automobile du Québec sollicite des soumissions pour l’acquisition de \n services de construction dans le cadre du \n contrat pour la Construction d’espaces de travail.\nEn\ntant que propriétaire de l’immeuble situé au 333, boulevard Jean-Lesage à\nQuébec, la Société est responsable de son exploitation par l’entremise de la\nDirection de la gestion immobilière. À ce titre, elle doit réaliser diverses\ninterventions liées à l’aménagement des espaces et aux équipements, incluant la\nconstruction de nouveaux locaux.\nDans une perspective d’amélioration de\nl’expérience employé, notamment par la création d’espaces favorisant la\nconcentration, la collaboration et la confidentialité, de nouveaux aménagements\nsont requis dans certains secteurs du siège social. Ces interventions\npermettront d’adapter les lieux aux besoins actuels des occupants et de\nsoutenir un environnement de travail plus fonctionnel et performant.\nCes\ntravaux devront débuter le plus rapidement possible et être réalisés avant le 26\nfévrier 2027.\nADMISSIBILITÉ – LICENCE RBQ\nL’entrepreneur\ndoit posséder une licence valide et non visée par une restriction d’entrepreneur en construction émise par la\nRégie du bâtiment du Québec, dans la catégorie « Entrepreneur\ngénéral » et dans la sous-catégorie N° 1.3 « Entrepreneur en bâtiments de\ntout genre ».\nDISPONIBILITÉ DES DOCUMENTS D'APPEL\nD'OFFRES\nLes\ndocuments seront uniquement disponibles via le système électronique d’appels\nd’offres (SEAO). Le coût des documents est déterminé par SEAO.\nSOUMISSION ÉLECTRONIQUE\nDans le cadre du présent appel\nd’offres, les soumissions peuvent être transmises par support papier ou par\nvoie électronique. Les soumissions électroniques ne peuvent être déposées que\npar l’intermédiaire du système électronique d’appel d’offres du gouvernement\n(SEAO).\nRÉSERVE\nLa\nSociété de l'assurance automobile du Québec ne s'engage à accepter ni la plus\nbasse ni aucune des offres reçues.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=82d401e9-7496-426e-9372-09b130a875fd",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 50,
-"type": "Bâtiment (nos métiers en partie)",
-"resume": "L'appel d'offres concerne la construction d'espaces de travail pour la Société de l'assurance automobile du Québec. Les travaux incluent la construction de nouveaux locaux et des aménagements pour améliorer l'expérience employé.",
-"pointsAttention": [
-"Délai court (doit être réalisé avant le 26 février 2027)"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Le contrat est général en construction de bâtiment, mais il n'est pas spécifiquement axé sur la maçonnerie ou la charpenterie comme cœur du projet.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"construction d",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"construction d",
 "bâtiment"
 ],
 "motsOk": true,
@@ -26136,7 +26062,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -26153,6 +26079,240 @@
 "raison": "Le contrat concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
 "version": 3
 }
+},
+{
+"id": "f9bae8f5-f132-43e9-988f-d6cd8d6861f7",
+"numero": "PRMI-054-1694",
+"titre": "Mise à niveau de l'ascenseur à la Polyvalente Deux-Montagnes",
+"organisme": "Centre de services scolaire des Mille-Îles",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Un garantie de soumission de 10% de la valeur total de la soumission est demandée.",
+"estimation": 660000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-26T10:00",
+"publie": "2026-11-03T17:01",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101506 - Maintenance des ascenseurs",
+"72121406 - Construction de bâtiments scolaires",
+"72154010 - Réparation et maintenance d’ascenseurs"
+],
+"description": "Le Centre de services scolaire des Mille-Îles, propriétaire, demande des soumissions pour la réalisation des travaux de mise à jour de l’ascenseur à la Polyvalente Deux-Montagnes. Les principlaes composentes de l'ascenseur seront à changer et d'autres seront à nettoyer et à ajuster. Plusieurs travaux connexes en électiricité, en mécanique du bâtiment, en architecture et en structure sont à réaliser et à coordonner.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f9bae8f5-f132-43e9-988f-d6cd8d6861f7",
+"fourchette": "653 200 $ à 694 699 $",
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "430, boul Arthur-Sauvé, suite P130 Saint-Eustache QC CAN J7R6V6",
+"ouverture": "2026-11-26 10:00 Heure légale du Québec",
+"adresseOuverture": "430, boul Arthur-Sauvé, suite 5070 Saint-Eustache QC CAN J7R6V6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-03T18:51",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "566e6cb6-daf3-4cdb-950f-342fffca5ab4",
+"numero": "PRMI-000-ESC9",
+"titre": "Remplacement d'escaliers",
+"organisme": "Centre de services scolaire des Mille-Îles",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, Une garantie de soumission correspondant à 10% du montant total de la soumission est exigée.",
+"estimation": 965000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-12-01T14:30",
+"publie": "2026-11-03T16:56",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72121406 - Construction de bâtiments scolaires",
+"72152201 - Pose de marbre d’intérieur",
+"95121909 - École primaire"
+],
+"description": "Le Centre de services scolaire des Mille-Îles désire lancer un appel d'offres pour l'exécution de travaux de remplacement d'escaliers dans 3 établissements:\nLot 1: PRMI-003-1764 - escalier #2 à l'École des Perséides Pavillon des Primevères - 784 boulevard de la Chapelle, Pointe-Calumet, Québec J0N 1G0\nLot 2: PRMI-071-1763 - escalier #1 à l'École Arc-en-ciel - 130 boulevard Louis Joseph Rodrigue, Saint-Eustache, Québec J7R 5Y5\nLot 3: PRMI-087-1764 - escalier #2 École des Perséides - 1200 rue Simonne, Pointe-Calumet, QUébec J0N 1G0\nUne visite des lieux obligatoire est prévu le 10 novembre 2026 à 9h. Le lieu de rencontre est l'école Arc-en-ciel. La visite se déroulera dans l'ordre suivante : Arc-En-ciel 9h00, Des perséides 10h, Des Primevères 10h30",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=566e6cb6-daf3-4cdb-950f-342fffca5ab4",
+"fourchette": "736 000 $ à 6 943 899 $",
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-01 Au plus tard 14:30 Heure légale du Québec",
+"adresseDepot": "430, boul Arthur-Sauvé, suite P130 Saint-Eustache QC CAN J7R6V6",
+"ouverture": "2026-12-01 14:30 Heure légale du Québec",
+"adresseOuverture": "430, boul Arthur-Sauvé, suite 5070 Saint-Eustache QC CAN J7R6V6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-03T18:51",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"escalier",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"escalier",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"escalier",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "ffdf85dd-7de8-43bf-985d-7acd709b5215",
+"numero": "EQ-02-2607",
+"titre": "Rénovation du duplex 229 A&B rue Tamarak",
+"organisme": "Commission scolaire Crie.",
+"regions": [
+"Nord-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Chèque visé (certifié), Lettre de garantie irrévocable, 10%",
+"estimation": 921335,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-11-24T13:15",
+"publie": "2026-11-03T16:29",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "SECTION\n00 02 12 - AVIS D’APPEL D’OFFRES\nPUBLIC\n PROJET :\n Rénovation du duplex 229\n A&B rue Tamarak\n Dossier du\n propriétaire : EQ-02-2607\n PROPRIÉTAIRE\n :\n COMMISSION SCOLAIRE CRIE, \n Représenté\n par : Mme\n Guylaine Houle, Dir. du Service des Ress. Matérielles\n 203, Main\n Street, Mistissini (Québec) G0W 1C0\n Téléphone :\n (418) 923-2764 \n ARCHITECTE :\n GOSSELIN & FORTIN, ARCHITECTES S.A.\n Représenté\n par : M.\n Gérard Gosselin, architecte\n 971, Bd\n Sacré-Cœur Saint-Félicien (QC), G8K 1R8\n Téléphone :\n (418) 679-1630 \nLA\nCOMMISSION SCOLAIRE CRIE, propriétaire, demande des soumissions pour la\nrénovation intérieure et du remplacement des fenêtres du duplex 229 A & B\nrue Tamarak.\nDocumentation disponible\nENDROIT : SEAO\n(Système électronique d’appels d’offres)\nDOCUMENTS\nDISPONIBLES : Mardi 3\nnovembre 2026\nOuverture des soumissions\nLIEU : Gosselin & Fortin, Architectes S.A.\n 971, Bd\nSacré-Cœur\n Saint-Félicien\n(Québec) G8K 1R8\nDATE : Mardi 24 novembre\n2026\nHEURE : À 13h15, pour être ouvertes publiquement sur le service électronique du SEAO au\nbureau de l’architecte, situé au 971, Bd Sacré-Cœur à Saint-Félicien, le\nmême jour et à 13h30. Toute soumission reçue postérieurement sera\nautomatiquement rejetée.\nToute soumission devra être\naccompagnée d'une garantie de soumission représentant 10 % du montant\ntotal de la soumission excluant toutes les taxes applicables, sous forme de\nchèque visé, de lettre de garantie irrévocable ou de cautionnement de\nsoumission émis par une institution financière qui est un assureur détenant un\npermis émis conformément à la Loi sur les\nassureurs\n(RLRQ, c. A-32.1) l’autorisant à pratiquer l'assurance cautionnement, une\nsociété de fiducie titulaire d’un permis délivré en vertu de la Loi sur les\nsociétés de fiducie et les sociétés d’épargne (RLRQ, c.\nS-29.02), une coopérative de services financiers visée par la Loi sur les\ncoopératives de services financiers (RLRQ, c. C-67.3) ou une banque au\nsens de la Loi sur les\nbanques\n(L.C. 1991, c. 46), sans quoi la soumission sera automatiquement rejetée.\nDurée des travaux : Les\ntravaux devront être livrés pour le 1er mai 2027.\nLe propriétaire ne s'engage à accepter\nni la plus basse ni aucune des soumissions reçues.\nMme Guylaine Houle, directrice\ndu service des ressources matérielles, Commission Scolaire Crie. \nFin de section",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=ffdf85dd-7de8-43bf-985d-7acd709b5215",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-24 Avant 13:15 Heure légale du Québec",
+"adresseDepot": "971, boulevard Sacré-Coeur Saint-Félicien QC CAN G8K1R8",
+"ouverture": "2026-11-24 13:30 Heure légale du Québec",
+"adresseOuverture": "971, boulevard Sacré-Coeur Saint-Félicien QC CAN G8K1R8"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-03T18:51",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"fenêtre",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"fenêtre",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"fenêtre",
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -40109,7 +40269,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-02"
+"fermeLe": "2026-11-02",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-03T18:27",
+"soumissions": [
+{
+"nom": "JPB.construction inc.",
+"montant": 656298.0
+},
+{
+"nom": "CRL CONSTRUCTION",
+"montant": 735283.66
+},
+{
+"nom": "R.N. SAMSON INC.",
+"montant": 873306.41
+},
+{
+"nom": "Constructions Dubois",
+"montant": 1149735.05
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 1430289.0
+}
+]
+}
 },
 {
 "id": "b11aee5e-93a6-46e2-8739-5c6a700d2f00",
@@ -40172,7 +40359,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-02"
+"fermeLe": "2026-11-02",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-03T16:59",
+"soumissions": [
+{
+"nom": "BANDE D'HOCKEY GYSLAIN LAMPRON INC.",
+"montant": 267627.75
+},
+{
+"nom": "LES INSTALLATIONS SPORTIVES AGORA INC.",
+"montant": 290162.4
+},
+{
+"nom": "P2K Athlétik",
+"montant": 347799.37
+}
+]
+}
 },
 {
 "id": "329fb3e9-bddf-471d-82e0-475329a75f88",
@@ -41755,7 +41961,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-03"
+"fermeLe": "2026-11-03",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-03T15:55",
+"soumissions": [
+{
+"nom": "Coffrages Synergy",
+"montant": 3190000.0
+},
+{
+"nom": "COFFRAGE ALLIANCE LTÉE",
+"montant": 3333333.0
+}
+]
+}
 },
 {
 "id": "5e7741cc-d604-4645-9bca-a67ea8380b12",
@@ -41845,6 +42066,82 @@
 "mode": "Aucun",
 "raison": "Le contrat concerne le système de chauffage et non la maçonnerie, la charpenterie ou la menuiserie.",
 "version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-03"
+},
+{
+"id": "82d401e9-7496-426e-9372-09b130a875fd",
+"numero": "CRW116662",
+"titre": "Construction d'espaces de travail",
+"organisme": "Société de l'assurance automobile du Québec .",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres réservé aux petites entreprises du Québec et à celles d’ailleurs au Canada",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"construction d"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 698600,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-02T16:00",
+"publie": "2026-10-08T09:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "SOCIÉTÉ DE L’ASSURANCE AUTOMOBILE DU\nQUÉBEC\nAVIS D’APPEL D'OFFRES\nCRW116662\nDESCRIPTION\nLe\nprésent appel d’offres public est réservé aux petites entreprises du Québec et\nà celles d’ailleurs au Canada.\nLa\nSociété de l'assurance automobile du Québec sollicite des soumissions pour l’acquisition de \n services de construction dans le cadre du \n contrat pour la Construction d’espaces de travail.\nEn\ntant que propriétaire de l’immeuble situé au 333, boulevard Jean-Lesage à\nQuébec, la Société est responsable de son exploitation par l’entremise de la\nDirection de la gestion immobilière. À ce titre, elle doit réaliser diverses\ninterventions liées à l’aménagement des espaces et aux équipements, incluant la\nconstruction de nouveaux locaux.\nDans une perspective d’amélioration de\nl’expérience employé, notamment par la création d’espaces favorisant la\nconcentration, la collaboration et la confidentialité, de nouveaux aménagements\nsont requis dans certains secteurs du siège social. Ces interventions\npermettront d’adapter les lieux aux besoins actuels des occupants et de\nsoutenir un environnement de travail plus fonctionnel et performant.\nCes\ntravaux devront débuter le plus rapidement possible et être réalisés avant le 26\nfévrier 2027.\nADMISSIBILITÉ – LICENCE RBQ\nL’entrepreneur\ndoit posséder une licence valide et non visée par une restriction d’entrepreneur en construction émise par la\nRégie du bâtiment du Québec, dans la catégorie « Entrepreneur\ngénéral » et dans la sous-catégorie N° 1.3 « Entrepreneur en bâtiments de\ntout genre ».\nDISPONIBILITÉ DES DOCUMENTS D'APPEL\nD'OFFRES\nLes\ndocuments seront uniquement disponibles via le système électronique d’appels\nd’offres (SEAO). Le coût des documents est déterminé par SEAO.\nSOUMISSION ÉLECTRONIQUE\nDans le cadre du présent appel\nd’offres, les soumissions peuvent être transmises par support papier ou par\nvoie électronique. Les soumissions électroniques ne peuvent être déposées que\npar l’intermédiaire du système électronique d’appel d’offres du gouvernement\n(SEAO).\nRÉSERVE\nLa\nSociété de l'assurance automobile du Québec ne s'engage à accepter ni la plus\nbasse ni aucune des offres reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=82d401e9-7496-426e-9372-09b130a875fd",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'espaces de travail pour la Société de l'assurance automobile du Québec. Les travaux incluent la construction de nouveaux locaux et des aménagements pour améliorer l'expérience employé.",
+"pointsAttention": [
+"Délai court (doit être réalisé avant le 26 février 2027)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est général en construction de bâtiment, mais il n'est pas spécifiquement axé sur la maçonnerie ou la charpenterie comme cœur du projet.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-03"

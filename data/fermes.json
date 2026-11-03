@@ -13708,7 +13708,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-02"
+"fermeLe": "2026-11-02",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-03T18:27",
+"soumissions": [
+{
+"nom": "JPB.construction inc.",
+"montant": 656298.0
+},
+{
+"nom": "CRL CONSTRUCTION",
+"montant": 735283.66
+},
+{
+"nom": "R.N. SAMSON INC.",
+"montant": 873306.41
+},
+{
+"nom": "Constructions Dubois",
+"montant": 1149735.05
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 1430289.0
+}
+]
+}
 },
 {
 "id": "b11aee5e-93a6-46e2-8739-5c6a700d2f00",
@@ -13771,7 +13798,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-02"
+"fermeLe": "2026-11-02",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-03T16:59",
+"soumissions": [
+{
+"nom": "BANDE D'HOCKEY GYSLAIN LAMPRON INC.",
+"montant": 267627.75
+},
+{
+"nom": "LES INSTALLATIONS SPORTIVES AGORA INC.",
+"montant": 290162.4
+},
+{
+"nom": "P2K Athlétik",
+"montant": 347799.37
+}
+]
+}
 },
 {
 "id": "329fb3e9-bddf-471d-82e0-475329a75f88",
@@ -15354,7 +15400,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-03"
+"fermeLe": "2026-11-03",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-03T15:55",
+"soumissions": [
+{
+"nom": "Coffrages Synergy",
+"montant": 3190000.0
+},
+{
+"nom": "COFFRAGE ALLIANCE LTÉE",
+"montant": 3333333.0
+}
+]
+}
 },
 {
 "id": "5e7741cc-d604-4645-9bca-a67ea8380b12",
@@ -15444,6 +15505,82 @@
 "mode": "Aucun",
 "raison": "Le contrat concerne le système de chauffage et non la maçonnerie, la charpenterie ou la menuiserie.",
 "version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-03"
+},
+{
+"id": "82d401e9-7496-426e-9372-09b130a875fd",
+"numero": "CRW116662",
+"titre": "Construction d'espaces de travail",
+"organisme": "Société de l'assurance automobile du Québec .",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres réservé aux petites entreprises du Québec et à celles d’ailleurs au Canada",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"construction d"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 698600,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-02T16:00",
+"publie": "2026-10-08T09:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "SOCIÉTÉ DE L’ASSURANCE AUTOMOBILE DU\nQUÉBEC\nAVIS D’APPEL D'OFFRES\nCRW116662\nDESCRIPTION\nLe\nprésent appel d’offres public est réservé aux petites entreprises du Québec et\nà celles d’ailleurs au Canada.\nLa\nSociété de l'assurance automobile du Québec sollicite des soumissions pour l’acquisition de \n services de construction dans le cadre du \n contrat pour la Construction d’espaces de travail.\nEn\ntant que propriétaire de l’immeuble situé au 333, boulevard Jean-Lesage à\nQuébec, la Société est responsable de son exploitation par l’entremise de la\nDirection de la gestion immobilière. À ce titre, elle doit réaliser diverses\ninterventions liées à l’aménagement des espaces et aux équipements, incluant la\nconstruction de nouveaux locaux.\nDans une perspective d’amélioration de\nl’expérience employé, notamment par la création d’espaces favorisant la\nconcentration, la collaboration et la confidentialité, de nouveaux aménagements\nsont requis dans certains secteurs du siège social. Ces interventions\npermettront d’adapter les lieux aux besoins actuels des occupants et de\nsoutenir un environnement de travail plus fonctionnel et performant.\nCes\ntravaux devront débuter le plus rapidement possible et être réalisés avant le 26\nfévrier 2027.\nADMISSIBILITÉ – LICENCE RBQ\nL’entrepreneur\ndoit posséder une licence valide et non visée par une restriction d’entrepreneur en construction émise par la\nRégie du bâtiment du Québec, dans la catégorie « Entrepreneur\ngénéral » et dans la sous-catégorie N° 1.3 « Entrepreneur en bâtiments de\ntout genre ».\nDISPONIBILITÉ DES DOCUMENTS D'APPEL\nD'OFFRES\nLes\ndocuments seront uniquement disponibles via le système électronique d’appels\nd’offres (SEAO). Le coût des documents est déterminé par SEAO.\nSOUMISSION ÉLECTRONIQUE\nDans le cadre du présent appel\nd’offres, les soumissions peuvent être transmises par support papier ou par\nvoie électronique. Les soumissions électroniques ne peuvent être déposées que\npar l’intermédiaire du système électronique d’appel d’offres du gouvernement\n(SEAO).\nRÉSERVE\nLa\nSociété de l'assurance automobile du Québec ne s'engage à accepter ni la plus\nbasse ni aucune des offres reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=82d401e9-7496-426e-9372-09b130a875fd",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'espaces de travail pour la Société de l'assurance automobile du Québec. Les travaux incluent la construction de nouveaux locaux et des aménagements pour améliorer l'expérience employé.",
+"pointsAttention": [
+"Délai court (doit être réalisé avant le 26 février 2027)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est général en construction de bâtiment, mais il n'est pas spécifiquement axé sur la maçonnerie ou la charpenterie comme cœur du projet.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-03"
