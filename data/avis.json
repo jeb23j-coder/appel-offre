@@ -26154,7 +26154,23 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau d'un ascenseur à la Polyvalente Deux-Montagnes. Les travaux connexes impliquent l'électricité, la mécanique du bâtiment, l'architecture et la structure.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance d'ascenseurs et des travaux connexes (électricité, mécanique, structure) et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "566e6cb6-daf3-4cdb-950f-342fffca5ab4",
@@ -26235,7 +26251,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le remplacement d'escaliers dans trois établissements scolaires. Le montant estimé est de 965 000 $ et la durée prévue est de 9 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne spécifiquement le remplacement d'escaliers, ce qui est un travail de menuiserie/charpenterie, mais il s'agit d'un projet scolaire où les métiers de la maçonnerie ou de la charpenterie pourraient être inclus dans le lot.",
+"version": 3
+}
 },
 {
 "id": "ffdf85dd-7de8-43bf-985d-7acd709b5215",
@@ -26312,7 +26340,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation intérieure d'un duplex et le remplacement de fenêtres. La portée principale est centrée sur les travaux intérieurs et les menuiseries.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Soumission directe",
+"raison": "Le contrat ne se concentre pas sur les métiers principaux recherchés (maçonnerie ou charpenterie/menuiserie) mais sur des travaux de rénovation intérieure et de remplacement de fenêtres.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
