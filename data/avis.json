@@ -26136,7 +26136,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation de travaux électriques pour connecter une génératrice mobile au réseau électrique de l'Hôpital de Roberval. Les travaux incluent la mise en place d'une alimentation par génératrice mobile et l'adaptation de la distribution électrique existante.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
