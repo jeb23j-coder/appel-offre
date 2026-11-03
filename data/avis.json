@@ -25869,7 +25869,19 @@
 "réhabilitation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 95,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réhabilitation du parement extérieur du CA Blainville, incluant le remplacement du parement et la récupération de maçonnerie extérieure. Le montant estimé se situe entre 500 000 $ et 1 000 000 $ et la durée prévue est de 10 mois.",
+"pointsAttention": [
+"Cautionnement de soumission : 10% du montant total de la soumission."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le cœur du contrat est la maçonnerie (remplacement du parement et récupération de maçonnerie extérieure), ce qui correspond parfaitement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "5d2df65a-2ddf-4de1-a875-bf9014e5bca1",
@@ -25931,7 +25943,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation et la mise aux normes d'un ascenseur. Les travaux impliquent le remplacement de pièces mécaniques et de la section de la cabine.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la réparation et la modernisation d'un ascenseur, ce qui n'est pas dans le champ d'expertise de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b2adf382-349e-4c90-bb66-d93f9c7397a9",
@@ -26000,7 +26028,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les services HVAC/CVCA et la réfrigération pour le Centre de Santé Inuulitsivik. Il s'agit d'un contrat de maintenance et de réparation de systèmes de chauffage, ventilation et climatisation.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne les systèmes CVC/HVAC et non les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "2f318ad3-1f31-4a8b-81e7-9ebc13992415",
@@ -26090,7 +26130,19 @@
 "réfection extérieure"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection extérieure de la gare patrimoniale. Les travaux impliquent spécifiquement la réfection extérieure et l'enveloppe du bâtiment.",
+"pointsAttention": [
+"Délai de soumission jusqu'au 25 novembre 2026."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat est centré sur la réfection extérieure et l'enveloppe du bâtiment, ce qui correspond directement aux compétences en maçonnerie et restauration de façade.",
+"version": 3
+}
 },
 {
 "id": "32d974f9-b39c-411b-b6e8-15736631ad4c",
@@ -26152,7 +26204,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'ajout d'un ascenseur et travaux connexes pour l'Hôtel Baker à Gaspé. La description ne détaille pas les travaux de maçonnerie ou de charpenterie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation d'un ascenseur et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "87ddcfbb-6e5f-4b1f-bafc-afa1d89fa29e",
@@ -26234,7 +26298,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture du gymnase de l'école De Léry de Beauceville. La durée prévue est de 11 mois avec un montant estimé de 408 107 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et n'inclut pas les métiers ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "ad75865c-8c9a-4cc2-aab7-9e403fdc7b66",
@@ -26322,7 +26398,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation intérieure d'une école, avec une durée prévue de 4 mois et un montant estimé de 825 000 $. Les mots-clés mentionnent l'enveloppe, la galerie et la rénovation.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est une rénovation intérieure d'une école, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le titre et la description se concentrent sur la rénovation intérieure générale.",
+"version": 3
+}
 },
 {
 "id": "b9df1cab-14c5-49a6-b8aa-d685c786c74c",
@@ -26401,7 +26490,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture et le remplacement des unités de climatisation au toit du Centre de découverte et de services du Parc national de la Gaspésie. Le montant estimé est de 1056 349 $ pour un projet prévu sur 5 mois.",
+"pointsAttention": [
+"délai court (5 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et la climatisation, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c088c645-1178-4a1a-9746-4a4512e9ff72",
@@ -26475,7 +26576,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des installations septiques du Centre Accalmie de Pointe-à-la-Croix.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne les installations septiques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "92748e3f-eb9f-4bfd-85dc-adaca296feda",
@@ -26558,7 +26671,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection d'une section de toiture de l'hôtel de Parlement. La durée prévue est de 12 mois et le montant estimé est de 740 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6a53de86-cf13-4b6b-a2d2-ad1bdecb9450",
@@ -26635,7 +26760,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un chauffe-eau par un modèle à 100g pour un logement. Le montant estimé n'est pas publié.",
+"pointsAttention": [
+"Visite obligatoire (le soumissionnaire doit la faire lui-même)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est purement lié à la plomberie/rénovation d'équipement et n'implique ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
