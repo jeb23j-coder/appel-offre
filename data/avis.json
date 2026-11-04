@@ -26456,7 +26456,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de la construction d'un centre multifonctionnel par la Municipalité de Sainte-Christine. Le projet est estimé à une durée de 15 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la construction d'un bâtiment, ce qui inclut potentiellement des travaux de maçonnerie et/ou de charpenterie, mais le cœur du contrat n'est pas explicitement centré sur ces métiers.",
+"version": 3
+}
 },
 {
 "id": "f62489ec-65a2-46d5-9e83-02c907bf14cc",
@@ -26556,7 +26568,19 @@
 "remise en état"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la reconstruction de deux logements suite à un sinistre, incluant des travaux de menuiserie, finition, peinture, plomberie, électricité, ainsi que des travaux ponctuels de rejointoiement de la maçonnerie.",
+"pointsAttention": [
+"Aucune visite des lieux n’est prévue."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des travaux de maçonnerie (rejointoiement) et de menuiserie, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "0aa119bf-1a02-444d-899d-df1ee009e642",
@@ -26622,7 +26646,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'organisme recherche une tarification horaire pour des services ponctuels d'entretien, inspection, diagnostic, ajustement, réparation et remise en service de chaudières, appareils de chauffage et équipements de combustion.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'entretien de systèmes de chauffage et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e14e932f-06c9-41c6-9b80-7d7797954d5a",
@@ -26693,7 +26729,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation d'un système complet de gicleurs d'incendie et la sécurisation des plafonds, incluant des travaux civils, mécaniques et électriques.",
+"pointsAttention": [
+"délai de 6 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e2fd536e-b0ff-477e-a574-26d9c3ccb177",
@@ -26759,7 +26807,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la réalisation de divers travaux de construction pour des immeubles dans la région administrative de la Capitale-Nationale. L'appel d'offres est spécifiquement axé sur la ventilation.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres est centré sur la ventilation et n'a aucun lien direct avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a22a57f8-8d63-43a5-969d-7f0fceb5e9e5",
@@ -26842,7 +26902,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "Ouvrage concerne la réfection des blocs sanitaires Aile C et Aile L du Cégep de Sainte-Foy. Le montant estimé est de 1 250 000 $ et la durée prévue est de 3 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne des travaux d'installations sanitaires et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "eec71020-fb0d-4492-b277-f2ea5a868511",
@@ -26907,7 +26979,21 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement des espaces de l'édifice Marie-Guyart, incluant des travaux d'aménagement et des travaux de base complémentaires dans le cadre d'un programme gouvernemental.",
+"pointsAttention": [
+"Durée prévue de 30 mois",
+"Montant estimé très élevé (52,6 M$)",
+"Nécessite une garantie de soumission de 10% du montant de la soumission"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de grande envergure et concerne la transformation d'un bâtiment, ce qui pourrait inclure des lots de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "571e19c3-d9ff-4b4a-99ff-65f1044f4336",
@@ -26978,7 +27064,19 @@
 "caserne"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'aménagement paysager pour la caserne 26 de la Ville de Chambly. La durée prévue est de 12 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'aménagement paysager et non la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "aa9460e6-4876-412d-8800-3113658548d9",
@@ -27055,7 +27153,21 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux généraux d'intérieur sur deux petits bâtiments résidentiels à St-Lambert. Le montant estimé se situe entre 50 000 $ et 100 000 $ et la durée des travaux est prévue pour environ trois mois.",
+"pointsAttention": [
+"Visite des lieux prévue le 18 novembre 2026",
+"Délai de dépôt des offres le 30 novembre 2026",
+"Transmission des soumissions via le SEAO"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est général d'intérieur, mais il inclut des travaux sur des bâtiments où la maçonnerie ou la charpenterie pourraient être des lots importants, nécessitant une vérification détaillée de la portée des travaux.",
+"version": 3
+}
 },
 {
 "id": "39466314-4a8a-4664-ac3e-804bcf282f41",
@@ -27149,7 +27261,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet est une réfection majeure d'une école comprenant des travaux de génie civil, de réaménagement intérieur et la modernisation des systèmes du bâtiment. Les interventions incluent le remplacement des fenêtres dans le cadre de la réfection de l'enveloppe extérieure et le remplacement des systèmes de ventilation.",
+"pointsAttention": [
+"délai long (20 mois)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de bâtiment où la réfection de l'enveloppe (fenêtres) est mentionnée, mais le cœur n'est pas clairement la maçonnerie ou la charpenterie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
