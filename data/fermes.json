@@ -13626,7 +13626,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-02"
+"fermeLe": "2026-11-02",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T13:38",
+"soumissions": [
+{
+"nom": "KONE INC.",
+"montant": 272200.0
+},
+{
+"nom": "MSC CONSTRUCTION",
+"montant": 296200.0
+}
+]
+}
 },
 {
 "id": "558aea2c-bd8e-42c5-9019-24a4d1bf9d97",
@@ -13970,7 +13985,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-02"
+"fermeLe": "2026-11-02",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T13:36",
+"soumissions": [
+{
+"nom": "KONE INC.",
+"montant": 277200.0
+},
+{
+"nom": "MSC CONSTRUCTION",
+"montant": 322848.0
+}
+]
+}
 },
 {
 "id": "90fbb1d2-40ca-420c-a291-d115be469dec",
@@ -16314,7 +16344,42 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-04"
+"fermeLe": "2026-11-04",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T13:59",
+"soumissions": [
+{
+"nom": "CONSTRUCTION MACBEC INC.",
+"montant": 464432.78
+},
+{
+"nom": "XO Construction Inc.",
+"montant": 620129.16
+},
+{
+"nom": "G & B COTTON INC.",
+"montant": 624139.04
+},
+{
+"nom": "Constructions M.J.D. inc.",
+"montant": 629060.72
+},
+{
+"nom": "MAÇONNERIE DESROSIERS DE L'ESTRIE INC.",
+"montant": 657053.42
+},
+{
+"nom": "GROUPE ATWILL-MORIN INC. ",
+"montant": 663921.82
+},
+{
+"nom": "MAÇONNERIE RAINVILLE & FRÈRES INC.",
+"montant": 804526.0
+}
+]
+}
 },
 {
 "id": "c8450f10-adfe-4353-b5d2-eb7ae1af00c1",
@@ -16378,7 +16443,18 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-04"
+"fermeLe": "2026-11-04",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T14:09",
+"soumissions": [
+{
+"nom": "MONTARVILLE GESTION ET CONSTRUCTION INC.",
+"montant": 801671.24
+}
+]
+}
 },
 {
 "id": "1caafe3b-2397-4599-9fbb-60113b6aa0a7",
@@ -16457,6 +16533,254 @@
 "motsOk": true,
 "familles": [
 "Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-04"
+},
+{
+"id": "2fab395f-152f-4990-8a5c-87cc091e9183",
+"numero": "AO-3-24-007-NH001",
+"titre": "Remplacement du système d’alarme incendie au Centre St-Joseph",
+"organisme": "Santé Québec Mauricie-et-Centre-du-Québec – Universitaire",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"terrasse"
+],
+"cautionSoumission": "Cautionnement, Chèque visé (certifié), 10%",
+"estimation": 3600000,
+"dureeMois": "23",
+"surDemande": false,
+"fermeture": "2026-11-04T14:00",
+"publie": "2026-09-22T15:46",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le Gestionnaire de projet, SANTÉ QUÉBEC, personne\nmorale de droit public constituée en vertu de la Loi sur la gouvernance du\nsystème de santé et de services sociaux (RLRQ, c. G-1.021), agissant par\nl'entremise de l’établissement Centre intégré universitaire de santé et de\nservices sociaux de la Mauricie-et-du-Centre-du-Québec, ayant son siège au 858,\nTerrasse Turcotte, Trois-Rivières, Qc demande des soumissions pour les travaux visant le remplacement complet du système\nd’alarme incendie au Centre St-Joseph, 731,\nrue Ste-Julie Trois-Rivières QC G9A 1Y1",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2fab395f-152f-4990-8a5c-87cc091e9183",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement complet du système d'alarme incendie au Centre St-Joseph. La description mentionne la terrasse Turcotte, mais le cœur du projet n'est pas lié à la maçonnerie ou à la charpenterie.",
+"pointsAttention": [
+"délai court",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur les systèmes d'alarme incendie et n'implique pas les travaux principaux de maçonnerie ou de charpenterie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-04",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T15:21",
+"soumissions": [
+{
+"nom": "JEAN CARON & FILS INC.",
+"montant": 4293945.0
+},
+{
+"nom": "VAL-MAURICIE ÉLECTRIQUE INC.",
+"montant": 6647225.0
+}
+]
+}
+},
+{
+"id": "e068ecda-014a-460d-8491-53ef3e114cf1",
+"numero": "HR26-14",
+"titre": "Réfection majeure de 4 bâtiments",
+"organisme": "Office municipal d'habitation Haut-Richelieu",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-10-28T13:30",
+"publie": "2026-08-20T11:27",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Voir documents de soumission.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e068ecda-014a-460d-8491-53ef3e114cf1",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la réfection majeure de quatre bâtiments. La durée prévue pour ce projet est de 18 mois.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne la réfection de bâtiments, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le détail des lots n'est pas précisé.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-04"
+},
+{
+"id": "0d0d1488-7f35-4db8-949f-7ec6c704edfe",
+"numero": "C0005045",
+"titre": "19-008 – HRV – Projet du Nouveau VIC de l’Université McGill Lot 0811:  Portes, cadres, quincaillerie et vitrage – Aluminium - Pavillon N.",
+"organisme": "Université McGill",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"abri",
+"construction d"
+],
+"cautionSoumission": "Cautionnement, ANNEXE IS-7 : CAUTIONNEMENT DE SOUMISSION\nLe soumissionnaire doit fournir avec sa soumission une garantie correspondant à dix pour cent (10%) de la valeur de la soumission, incluant les taxes applicables, et doit identifier à titre de bénéficiaire le nom du Propriétaire. Cette garantie est donnée par une institution financière.",
+"estimation": 966329,
+"dureeMois": "36",
+"surDemande": false,
+"fermeture": "2026-10-27T15:00",
+"publie": "2026-06-18T14:32",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72154032 - Installation et réparation de portes, de fenêtres et de moustiquaires"
+],
+"description": "Le projet de L’Institution royale pour l’avancement des sciences / Université McGill (l’« Université ») vise la requalification des pavillons A, E et L du site original de l’hôpital Royal-Victoria et la construction de nouveaux pavillons pour y abriter des laboratoires de recherche et d’enseignement, des salles de formation ainsi que des espaces de bureaux. Le contrat vise à réaliser les travaux Fourniture et installation des portes et cadres en aluminium, de leur vitrage et de leur quincaillerie pour les pavillons A, E, L et N. \n*La visite principale est prévue le 06 juillet 2026 à 13H30.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0d0d1488-7f35-4db8-949f-7ec6c704edfe",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la fourniture et l'installation des portes, cadres, quincaillerie et vitrage en aluminium pour les pavillons de l'Université McGill. La durée prévue est de 36 mois et le montant estimé est de 966 329 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement les portes et fenêtres en aluminium, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"abri",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"abri",
+"construction d"
+],
+"motsOk": true,
+"familles": [
 "Charpenterie"
 ],
 "tropCher": false
