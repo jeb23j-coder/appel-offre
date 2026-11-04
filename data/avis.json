@@ -25776,7 +25776,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer le système de déshumidification, de ventilation et la génératrice d'urgence de la piscine du campus. Les travaux incluent le remplacement des équipements pour contrôler l'environnement intérieur et protéger l'enveloppe du bâtiment contre la condensation.",
+"pointsAttention": [
+"délai de 5 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur les systèmes mécaniques et environnementaux et n'inclut pas de travaux majeurs en maçonnerie ou charpenterie.",
+"version": 3
+}
 },
 {
 "id": "4d3a628e-ec9d-483d-a79b-7cbbafd9eacc",
@@ -25849,7 +25861,23 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'intérêt pour un projet de modernisation et construction du pavillon principal d'un hôpital. L'objectif est de sonder le marché auprès des entrepreneurs généraux intéressés à participer à la conception-construction progressive (CCP).",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de bâtiment où la maçonnerie et la charpenterie sont probablement des lots importants, mais l'avis est un appel d'intérêt et non un appel d'offres direct.",
+"version": 3
+}
 },
 {
 "id": "e19a1caa-818d-42ce-a31e-d578166caa52",
@@ -25925,7 +25953,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de rideaux diviseurs dans plusieurs gymnases d'écoles. Le montant estimé est de 800 000 $ pour un projet de 12 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f3dbd43a-2190-47ce-a622-b67a2d8c40c6",
@@ -25989,7 +26029,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du plancher d'un gymnase du Cégep de Saint-Laurent. Les travaux incluent la démolition, la chape, le revêtement de plancher, la plinthe, le lignage et l'équipement du gymnase.",
+"pointsAttention": [
+"VISITE NON OBLIGATOIRE"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de finition intérieure/revêtement de sol et n'implique ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "afab3a20-afbc-4485-81c4-1c28048eb8eb",
@@ -26053,7 +26105,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des finis de plancher en tapis à la bibliothèque Louis-Ange-Santerre. Les travaux devraient être complétés dans un délai maximal de 24 semaines.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la pose de planchers et de tapis, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "645073dc-d824-4ce0-8a29-546e479c713c",
@@ -26131,7 +26195,23 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne le remplacement des panneaux d'alarme incendie pour trois stations de transport à Montréal. La durée prévue est de 13 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation de systèmes d'alarme incendie et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e643391e-6002-479f-9eed-14a2be667325",
@@ -26211,7 +26291,20 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la restauration complète d'une sablière dans la MRC de La Mitis. Le montant estimé est de 230 000 $ et la durée prévue est de 18 mois.",
+"pointsAttention": [
+"Cautionnement de soumission : Non précisé sur l'avis",
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le mot-clé 'bâtiment' soit présent, le cœur du contrat semble être l'aménagement de terrain et la restauration d'une sablière, ce qui n'est pas directement lié à la maçonnerie ou la charpenterie.",
+"version": 3
+}
 },
 {
 "id": "2d65b5e8-d258-417a-9953-2209f3683f5d",
@@ -26285,7 +26378,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la couverture de toit plat pour l'école Ami-Joie. La durée prévue est de 18 mois et le montant estimé est de 495 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la couverture du toit et n'implique ni la maçonnerie/briquetage ni la charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "a1beb08b-eb50-4145-90aa-f3c59d51a18f",
@@ -26390,7 +26495,19 @@
 "réfection des façades"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 95,
+"type": "Maçonnerie",
+"resume": "Les travaux consistent en la réfection et la réparation ciblée de l’enveloppe extérieure des ailes du Cégep de Rosemont, incluant la correction des parements de maçonnerie, des éléments de pierre, des joints de calfeutrage et certains ouvrages de béton et de fondation.",
+"pointsAttention": [
+"Délai de travaux prévu pour l'été 2027 (du 1er juin 2027 au 30 septembre 2027)."
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est centré sur la réfection de la façade et la réparation de la maçonnerie, ce qui correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "491c3a7b-1723-4e5d-888f-3c3f1d00afd5",
@@ -26473,7 +26590,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien et la réparation de chaudières pour le Centre de services scolaire des Laurentides.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien de chaudières et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
