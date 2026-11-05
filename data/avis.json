@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-04T16:05",
-"seaoLus": 336,
-"retenus": 339,
-"nouveaux": 10,
+"date": "2026-11-04T19:07",
+"seaoLus": 338,
+"retenus": 341,
+"nouveaux": 2,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -26456,7 +26456,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -26568,7 +26568,7 @@
 "remise en état"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 85,
 "type": "Maçonnerie",
@@ -26646,7 +26646,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -26729,7 +26729,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -26807,7 +26807,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -26902,7 +26902,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -26979,7 +26979,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -27064,7 +27064,7 @@
 "caserne"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -27153,7 +27153,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -27261,7 +27261,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -27274,6 +27274,155 @@
 "raison": "Le projet est un gros projet de bâtiment où la réfection de l'enveloppe (fenêtres) est mentionnée, mais le cœur n'est pas clairement la maçonnerie ou la charpenterie.",
 "version": 3
 }
+},
+{
+"id": "8e94c85e-289b-4a21-aed0-87ecd3913877",
+"numero": "PHI-C_LOT-05A",
+"titre": "LOT-05A Acier structurel et renfort structurel",
+"organisme": "Fondation PHI pour l'art contemporain",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-12-02T15:00",
+"publie": "2026-11-04T17:07",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152905 - Charpenterie d’acier"
+],
+"description": "Le projet PHI Contemporain vise à restaurer et préserver l’architecture patrimoniale du site tout en intégrant de nouvelles infrastructures adaptées aux usages modernes. Ce lot de travaux comprend l'Acier structurel et renfort structurel et travaux connexes dans le cadre du projet PHI Contemporain.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=8e94c85e-289b-4a21-aed0-87ecd3913877",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-02 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-04T19:06",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "2f8c3415-6c30-4403-845e-67599c4296fa",
+"numero": "26-001",
+"titre": "Remplacement d'équipements électriques et de la génératrice d'urgence à l'école secondaire Soulanges et réaménagement d'une salle mécanique.",
+"organisme": "Centre de services scolaire des Trois-Lacs",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission \néquivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission.\nSi la Soumission est transmise par voie électronique, la garantie de soumission doit être \nproduite sous l'une ou l'autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution \nFinancière telle que définie à la clause 0.01.13 des présentes, qui doit être conforme aux \ndispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du \nFormulaire de Soumission;\nb) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une \nInstitution Financière telle que définie à la clause 0.01.13 des présentes, qui doit être \nconforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à \nl’annexe 4.01B du Formulaire de Soumission.\nSi la Soumission est transmise sur support papier, la garantie de soumission doit être produite \nsous l'une ou l'autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution \nFinancière telle que définie à la clause 0.01.13 des présentes, qui doit être conforme aux \ndispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du \nFormulaire de Soumission;\nb) un chèque certifié, un mandat-poste ou une traite bancaire, fait à l’ordre de \nl’ORGANISME PUBLIC;\nc) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une \nInstitution Financière telle que définie à la clause 0.01.13 des présentes, qui doit être \nconforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à \nl’annexe 4.01B du Formulaire de Soumission.",
+"estimation": 1226316,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-11-30T10:15",
+"publie": "2026-11-04T16:28",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le présent projet consiste au remplacement d’équipements électriques ainsi que de la génératrice d’urgence de l’école secondaire Soulanges. Les travaux comprennent également le réaménagement d’une salle mécanique afin de permettre l’intégration des nouveaux équipements et d’assurer leur conformité aux normes en vigueur. Les travaux incluent notamment les modifications électriques, mécaniques et architecturales connexes requises pour la réalisation complète du projet.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2f8c3415-6c30-4403-845e-67599c4296fa",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Avant 10:15 Heure légale du Québec",
+"adresseDepot": "400, Avenue Saint Charles Pavillon B Vaudreuil-Dorion QC CAN J7V6B1",
+"ouverture": null,
+"adresseOuverture": "400, Avenue Saint Charles Pavillon B Vaudreuil-Dorion QC CAN J7V6B1"
+},
+"conditions": [],
+"vuLe": "2026-11-04T19:06",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -41832,7 +41981,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-03"
+"fermeLe": "2026-11-03",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T16:20",
+"soumissions": [
+{
+"nom": "Groupe Renocivarc",
+"montant": 319665.34
+},
+{
+"nom": "CANMAX CONSTRUCTION INC.",
+"montant": 459905.52
+},
+{
+"nom": "Pro-Imm Québec Inc.",
+"montant": 499399.66
+},
+{
+"nom": "Construction Li-Ro ",
+"montant": 793971.36
+},
+{
+"nom": "RELLOCON INC.",
+"montant": 1496918.62
+}
+]
+}
 },
 {
 "id": "1ae6c295-c322-4006-b3c4-ac21097cfa85",

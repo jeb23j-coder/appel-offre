@@ -14310,7 +14310,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-03"
+"fermeLe": "2026-11-03",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-04T16:20",
+"soumissions": [
+{
+"nom": "Groupe Renocivarc",
+"montant": 319665.34
+},
+{
+"nom": "CANMAX CONSTRUCTION INC.",
+"montant": 459905.52
+},
+{
+"nom": "Pro-Imm Québec Inc.",
+"montant": 499399.66
+},
+{
+"nom": "Construction Li-Ro ",
+"montant": 793971.36
+},
+{
+"nom": "RELLOCON INC.",
+"montant": 1496918.62
+}
+]
+}
 },
 {
 "id": "1ae6c295-c322-4006-b3c4-ac21097cfa85",
