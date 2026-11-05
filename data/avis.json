@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-04T22:40",
+"date": "2026-11-05T13:33",
 "seaoLus": 338,
 "retenus": 341,
-"nouveaux": 0,
+"nouveaux": 11,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -4683,69 +4683,6 @@
 }
 },
 {
-"id": "fca9f2c3-d7c5-40ad-bc4a-5b451e50cdd7",
-"numero": "SA2026-03",
-"titre": "FOURNITURE, LIVRAISON ET INSTALLATION  DE TROIS (3) TOILETTES ÉCOLOGIQUES AUTONOMES",
-"organisme": "Cité de Dorval",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "12",
-"surDemande": false,
-"fermeture": "2026-11-05T11:00",
-"publie": "2026-10-19T01:00",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72141511 - Excavation",
-"95121511 - Parc",
-"95121715 - Toilettes publiques"
-],
-"description": "Le présent contrat a pour objet la fourniture et l’installation, en mode « clés en main », de trois (3) toilettes écologiques destinées à être implantées dans des parcs municipaux. Les toilettes proposées doivent être neuves, conçues pour une utilisation extérieure et adaptées aux conditions climatiques du Québec.\nLes équipements doivent permettre la collecte et le traitement des matières organiques au moyen d’un système fonctionnant exclusivement grâce à l’action combinée du vent et de l’énergie solaire.\nAucune connexion au réseau d’égout ou au réseau électrique ne sera autorisée. De plus, l’utilisation de produits chimiques pour le fonctionnement ou l’entretien des toilettes écologiques est strictement interdite.\nLes travaux doivent inclure la fourniture et l’aménagement d’une base permettant l’accessibilité universelle pour les usagers.\nLes travaux comprennent la fourniture et l’aménagement d’une fondation ou d’une plateforme assurant l’accessibilité universelle à la toilette écologique pour l’ensemble des usagers.\nL’Annexe A présente l’emplacement prévu pour la location des trois toilettes écologiques aux parc\nL’adjudicataire devra fournir l’ensemble de la main-d’oeuvre, des équipements, des matériaux nécessaires, ainsi que tous les accessoires et fourniture requis pour la réalisation complète des travaux selon les exigences du présent devis technique.\nL'adjudicataire devra exécuter les travaux avec soin, diligence dans le respect des exigences, modalités et conditions prévues aux présentes.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fca9f2c3-d7c5-40ad-bc4a-5b451e50cdd7",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": false,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Le contrat concerne la fourniture et l'installation de trois toilettes écologiques autonomes dans des parcs municipaux. Les travaux incluent la fourniture, l'aménagement d'une fondation et l'installation des équipements.",
-"pointsAttention": [
-"visite obligatoire"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Ce projet n'implique ni maçonnerie, ni charpenterie, ni menuiserie, et se concentre sur des équipements sanitaires écologiques.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-}
-}
-},
-{
 "id": "8726725b-60fa-4885-bdaf-4713d9b1fed0",
 "numero": "2026-0364-AO",
 "titre": "Réaménagement et ajout de locaux au GMF-U Marigot",
@@ -5161,81 +5098,6 @@
 }
 },
 {
-"id": "591e9454-2d87-4df2-bfa1-52a5d911d5af",
-"numero": "2026-2027-05",
-"titre": "Remplacement des luminaires des chambres en résidence",
-"organisme": "Cégep de Matane.",
-"regions": [
-"Bas-Saint-Laurent"
-],
-"typeAvis": "Avis d’appel d’offres régionalisé",
-"tri": "a_classer",
-"motsTrouves": [
-"enveloppe"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 40000,
-"dureeMois": "1",
-"surDemande": false,
-"fermeture": "2026-11-05T11:00",
-"publie": "2026-10-16T11:41",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
-],
-"description": "AVIS D’APPEL D’OFFRES PUBLIC RÉGIONALISÉ PROJET : Remplacement des\nluminaires des chambres en résidence\nLieu : Cégep de Matane, 616 avenue\nSt-Rédempteur\nNuméro du projet : # 2627-014\nNuméro de l’appel d’offres : 2026-2027-05\nPROPRIÉTAIRE : Cégep de Matane\n 616, avenue\nSt-Rédempteur\n Matane,\nQC G4W 1L1\n Tél. :\n(418) 562-1240\n Adresse\ncourriel : offredeservice@cgmatane.qc.ca\nLe Cégep de Matane, propriétaire, demande\ndes soumissions pour retenir les services d’un entrepreneur en électricité en\nvue de réaliser des travaux de Remplacement des luminaires des chambres en\nrésidences.\nLes\ntravaux comprennent notamment, mais sans s’y limiter :\n- Fournir et installer\n253 luminaires, répartis en quatre types.\n- Désinstallation des\nanciens luminaires, incluant tubes, ballasts et accessoires devenus inutiles.\n- Transport et\ndisposition hors site des anciens luminaires et composantes; recyclage approprié\ndes tubes fluorescents contenant du mercure.\n- Main-d’œuvre,\néquipements d’accès, fixations, raccordement électrique, mise en service et\nvérification du fonctionnement.\n- Accessoires et\nplaques de recouvrement nécessaires pour masquer l’empreinte existante, sans\nretouches de peinture.\n- Collecte et\ndisposition hors site des emballages des nouveaux luminaires et nettoyage des\nlieux.\nLa réalisation des\ntravaux se déroulera du 4 au 15 janvier 2027.\nLes plans, devis,\ndocuments contractuels et autres renseignements qui ne peuvent être obtenus que\npar l’intermédiaire du système électronique d’appel d’offres (SEAO) seront\ndisponibles à compter du vendredi 16 octobre 2026. Aucun accord de\nlibéralisation des marchés publics ne s’applique.\nLe règlement sur les\npaiements et le règlement rapides des différends en matière de travaux de\nconstruction ne s’applique pas.\nUne visite des lieux, non obligatoire et sur rendez-vous seulement, est possible.\nLes SOUMISSIONNAIRES qui souhaitent y participer doivent prendre rendez-vous\npar courriel, à l'adresse suivante : offredeservice@cgmatane.qc.ca . Prenez note qu’aucun rendez-vous ou retour de courriel ne sera\neffectué dans la semaine du 18 octobre 2026.\nPour être recevables,\ntoutes les questions en lien avec le projet doivent être acheminées uniquement\npar courriel à l’adresse suivante : offredeservice@cgmatane.qc.ca . Les questions\nsoumises par téléphone ou envoyées à une autre adresse courriel n’obtiendront\npas de réponse. Si le cas l’exige, un addenda sera émis et sera envoyé par\ncourriel.\nLes soumissions, dans\ndes enveloppes cachetées et adressées à la soussignée, seront reçues local O-111 du Cégep de Matane, jusqu'à, 11h00 en vigueur localement, le 5 novembre 2026 : \nCégep\nde Matane\nAnny\nVilleneuve, coordonnatrice ressources financières\n616,\navenue St-Rédempteur\nMatane\n(Québec) G4W 1L1\nLes Soumissions sont\nouvertes publiquement, en présence d’un témoin, au 616 avenue St-Rédempteur,\nlocal O-214, Matane, le 5 novembre 2026, à 11:05. Les SOUMISSIONNAIRES peuvent assister à\nl’ouverture des Soumissions. Le gestionnaire du dossier ",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=591e9454-2d87-4df2-bfa1-52a5d911d5af",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": true,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement des luminaires dans les chambres d'une résidence du Cégep de Matane. Les travaux sont principalement électriques et impliquent l'installation de luminaires et la désinstallation des anciens.",
-"pointsAttention": [
-"visite obligatoire, délai court, cote de sécurité, milieu occupé, contrat sur demande…"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne des travaux électriques et non la maçonnerie, la briquetage ou la charpenterie/menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"enveloppe"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"enveloppe"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"enveloppe"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-}
-}
-},
-{
 "id": "6e7c3be2-33f7-45e3-b9a2-92327229ef3e",
 "numero": "RM-C-2026-044-01",
 "titre": "École La Chrysalide de La Tuque - remplacement de fenêtres",
@@ -5614,82 +5476,6 @@
 "motsOk": true,
 "familles": [
 "Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "9975d419-58e2-419e-b064-085034298e28",
-"numero": "RM-C-2026-080-01",
-"titre": "Travaux de désamiantage des plafonds.",
-"organisme": "Centre de services scolaire de l'Énergie",
-"regions": [
-"Mauricie"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"abri",
-"bâtiment"
-],
-"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
-"estimation": 850000,
-"dureeMois": "3",
-"surDemande": false,
-"fermeture": "2026-11-05T11:00",
-"publie": "2026-10-15T15:54",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Le présent mandat concerne l’immeuble situé au 123, rue Georges, à l’angle de la rue Trudel, à Shawinigan. Il s’agit d’un bâtiment abritant le Centre d’éducation des adultes du Saint-Maurice, comprenant un bâtiment principal construit en 1937 ainsi qu’une section additionnelle érigée dans les années 1950.\nLes plafonds des corridors contiennent de l’amiante devant être encapsulé. Les plafonds suspendus ainsi que les systèmes d’éclairage devront également être remplacés.\nLes plafonds des corridors ciblés devront être démantelés afin de permettre l’encapsulage de l’amiante. De nouveaux plafonds en carreaux acoustiques ainsi que de nouveaux systèmes d’éclairage seront ensuite installés.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9975d419-58e2-419e-b064-085034298e28",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Le mandat concerne le désamiantage des plafonds et le remplacement des plafonds suspendus et des systèmes d'éclairage dans un bâtiment scolaire. Les travaux incluent le démantèlement des plafonds pour encapsuler l'amiante et l'installation de nouveaux plafonds acoustiques et d'éclairage.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne le désamiantage et le remplacement de plafonds, ce qui n'est pas dans le domaine principal de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"abri",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"abri",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
 "Charpenterie"
 ],
 "tropCher": false
@@ -6464,93 +6250,6 @@
 "motsOk": true,
 "familles": [
 "Maçonnerie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "cb37264c-e346-48e6-9b1f-f455b2112008",
-"numero": "20176609",
-"titre": "Réfection revêtement extérieur centre municipal et caserne",
-"organisme": "Municipalité Sainte-Jeanne-D'arc ( lac saint-jean)",
-"regions": [
-"Saguenay–Lac-Saint-Jean"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"caserne",
-"revêtement extérieur",
-"réfection"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "2",
-"surDemande": false,
-"fermeture": "2026-11-05T10:00",
-"publie": "2026-10-14T16:53",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72151302 - Peinture de bâtiments commerciaux",
-"72151303 - Peinture de bâtiments industriels",
-"95121705 - Caserne de pompiers",
-"95121711 - Centre communautaire"
-],
-"description": "La Municipalité de Sainte-Jeanne-d’Arc sollicite des soumissions pour des travaux de réparation, \nde préparation de surfaces et d’application de peinture, incluant la peinture de la toiture de la \ncaserne d’incendie ainsi que des travaux au centre municipal, comprenant notamment le \nremplacement de certaines sections du revêtement extérieur.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=cb37264c-e346-48e6-9b1f-f455b2112008",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 85,
-"type": "Maçonnerie",
-"resume": "L'appel d'offres concerne la réparation et le remplacement de certaines sections du revêtement extérieur du centre municipal et de la caserne d'incendie. Les travaux incluent la préparation des surfaces et l'application de peinture.",
-"pointsAttention": [
-"délai court (2 mois)"
-],
-"recommandation": "Go",
-"mode": "Soumission directe",
-"raison": "Le contrat inclut explicitement le remplacement de sections du revêtement extérieur, ce qui correspond directement aux intérêts de l'entreprise en maçonnerie/revêtement extérieur.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"revêtement extérieur",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"revêtement extérieur",
-"réfection",
-"caserne"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"revêtement extérieur",
-"réfection",
-"caserne"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
 ],
 "tropCher": false
 }
@@ -8871,256 +8570,6 @@
 }
 },
 {
-"id": "fa52aaf9-4629-4641-953a-645d29f529e1",
-"numero": "3216-24",
-"titre": "Réfection des façades, balcons et escaliers extérieurs",
-"organisme": "Fédération de l'habitation coopérative du Québec (FHCQ)",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"balcon",
-"escalier",
-"façade",
-"réfection",
-"réfection des façades"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": null,
-"surDemande": false,
-"fermeture": "2026-11-05T13:00",
-"publie": "2026-10-08T13:44",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Réfection des façades, des balcons et des escaliers extérieurs, de la Coopérative d'habitation Ste-Thérèse, située au 12-36 rue Mainville, Sainte-Thérèse.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fa52aaf9-4629-4641-953a-645d29f529e1",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 90,
-"type": "Maçonnerie",
-"resume": "Le projet consiste à la réfection des façades, des balcons et des escaliers extérieurs de la Coopérative d'habitation Ste-Thérèse.",
-"pointsAttention": [
-"visite obligatoire"
-],
-"recommandation": "Go",
-"mode": "Soumission directe",
-"raison": "Le contrat concerne directement la réfection des façades, balcons et escaliers extérieurs, ce qui correspond parfaitement aux métiers de maçonnerie et charpenterie/menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"façade",
-"réfection des façades",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"façade",
-"réfection des façades",
-"réfection",
-"balcon",
-"escalier"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"façade",
-"réfection des façades",
-"réfection",
-"balcon",
-"escalier"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "b8b0aa19-173a-48d8-b2db-825164a9eee5",
-"numero": "MAS-2026-057",
-"titre": "Services sur demande d'entretien, de réparation, de déneigement et de déglaçage des toitures des bâtiments municipaux pour 2027 et 2028, avec option de renouvellement pour 2029",
-"organisme": "Ville de Mascouche.",
-"regions": [
-"Lanaudière"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [
-"bâtiment"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "24",
-"surDemande": false,
-"fermeture": "2026-10-29T10:00",
-"publie": "2026-10-08T10:14",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
-"72152601 - Toiture"
-],
-"description": "Le présent contrat a pour objet la fourniture, sur demande de la Ville, de services spécialisés liés à l’inspection, à l’entretien, à la réparation, au déneigement et au déglaçage des toitures des bâtiments municipaux.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b8b0aa19-173a-48d8-b2db-825164a9eee5",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Le contrat concerne la fourniture de services spécialisés liés à l'inspection, l'entretien, la réparation, le déneigement et le déglaçage des toitures des bâtiments municipaux.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne l'entretien et la réparation de toitures, ce qui n'est pas dans les domaines principaux de la maçonnerie ou de la charpenterie-menuiserie.",
-"version": 3
-},
-"motsOk": true,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "e4f7f8ba-ca92-41f0-bab5-1061e303043d",
-"numero": "BP2616-24009",
-"titre": "Travaux d'optimisation et de réaménagement du sous-sol et de la salle de musique de Stewart Hall ",
-"organisme": "Ville de Pointe-Claire.",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"béton",
-"enveloppe",
-"réfection"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "4",
-"surDemande": false,
-"fermeture": "2026-10-30T11:30",
-"publie": "2026-10-08T08:49",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72121103 - Rénovation et réparation d’immeubles commerciaux et de bureaux"
-],
-"description": "APPEL D'OFFRES, La Ville de Pointe-Claire demande des soumissions pour:\nN° Appel d'OffresBP2616-24009N° de Projet24-009\nTitre :Procédure ouverte pour les travaux d'optimisation et de réaménagement du sous-sol et de la salle de musique de Stewart Hall \nDescription du contrat :\nLe projet consiste au réaménagement de deux studios d’art comprenant la réfection complète de la peinture des locaux, l’application d’une finition époxy sur les dalles de béton, l’installation de nouveaux panneaux acoustiques, la modernisation de l’éclairage, l’ajout de prises électriques et de réseau, ainsi que l’ajout d’un nouveau comptoir avec éviers dans l’une des salles d’art. Les travaux comprennent également l’installation d’un mur de casiers dans le vestiaire, la peinture du corridor du sous-sol et l’ajout d’un cabinet d’exposition. Au rez-de-chaussée, le bureau/salle de musique fera l’objet d'une remise à niveau comprenant la peinture du local et l’installation de panneaux acoustiques.\nRenseignements:Service des ressources matérielles et contractuelles\nappro-ado@pointe-claire.ca\nLes documents de soumission peuvent être obtenus auprès de SÉAO, à compter du 08 octobre 2026 en s’adressant au Système électronique d’appel d’offres (SÉAO) à l’adresse suivante : www.seao.gouv.qc.ca ou en communiquant avec le service à la clientèle au 418-646-0177 dans la région de Québec ou au 1-877-336-7326 pour l’extérieur.\n\"La Ville de Pointe-Claire ne s'engage à accepter ni la plus basse, ni aucune des soumissions reçues,\nni à encourir aucun frais d'aucune sorte envers le ou les soumissionnaires.\"\nLes soumissions dans les enveloppes scellées seront reçues au comptoir des services administratifs jusqu’à 11H00, le 29 octobre 2026 et seront ouvertes le même jour, soit à 11H15, à l'Hôtel de Ville de Pointe-Claire.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e4f7f8ba-ca92-41f0-bab5-1061e303043d",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 30,
-"type": "Hors sujet",
-"resume": "Le projet concerne le réaménagement d'un sous-sol et d'une salle de musique, incluant la réfection de peinture, application de finition époxy sur dalles de béton, installation de panneaux acoustiques et travaux de peinture. Il n'y a aucune mention explicite de travaux majeurs en maçonnerie ou charpenterie.",
-"pointsAttention": [
-"délai court (4 mois)"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le projet est axé sur des travaux de finition intérieure et de rénovation de sous-sol, sans que la maçonnerie ou la charpenterie ne soient le cœur du contrat.",
-"version": 3
-},
-"motsOk": true,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"enveloppe",
-"béton",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"enveloppe",
-"béton",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"enveloppe",
-"béton",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-}
-}
-},
-{
 "id": "52f7edec-9a28-4b15-9138-9007abfe5a9b",
 "numero": "22MB-014",
 "titre": "Remplacement des fenêtres - École Sacré-Coeur",
@@ -10065,84 +9514,6 @@
 "motsOk": true,
 "familles": [
 "Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "b303a60d-d034-4a1e-9f34-2bc5ad34491c",
-"numero": "P21059RL-02",
-"titre": "Rénovation des ascenseurs RL1 et RL2 aux résidences René-Lévesque (RL)",
-"organisme": "Université du Québec à Montréal",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [
-"bâtiment",
-"rénovation"
-],
-"cautionSoumission": "Cautionnement, 10 %",
-"estimation": 814000,
-"dureeMois": "7",
-"surDemande": false,
-"fermeture": "2026-11-02T11:00",
-"publie": "2026-10-06T08:34",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Université du Québec à Montréal ci-après nommée le\nPropriétaire, ayant son siège au 1430, rue Saint-Denis, H2X 3J8, Montréal,\nQuébec, demande des soumissions pour des\ntravaux de rénovation de deux (2) ascenseurs au pavillon Résidences\nuniversitaires René-Lévesque (RL).\nLes ascenseurs du pavillon RL sont en service depuis\nplus d’une trentaine d’années. Malgré un programme d'entretien, plusieurs\ncomposantes démontrent une usure avancée et certaines approchent de la fin de\nleur vie utile. Le projet consiste en une modernisation des ascenseurs RL1 et\nRL2 du pavillon RL comprenant la modernisation des contrôleurs JTR existants.\nUne mise aux normes est aussi requise pour les manœuvres d'urgence, les\ndispositifs signalétiques (pour les personnes à mobilité réduite) et autres composantes.\nUn rafraichissement de la finition des cabines est aussi à prévoir.\nLe Contrat comprend aussi la récupération de certains\néquipements existants et leur réinstallation. L’Entrepreneur doit considérer\nque les usagers et occupants du bâtiment poursuivront leurs activités durant\nles travaux. L’Entrepreneur devra agir de façon à minimiser les inconvénients\naux usagers et personnel. De même, la cour extérieure, stationnement, accès,\netc., continueront aussi d’être utilisés, durant toute la durée des travaux. L’Entrepreneur\ndevra s’assurer que les usagers auront accès aux locaux et aux aménagements\ndans un climat sécuritaire, salubre et sans discontinuité. \nCeci inclut tous les travaux d’aménagement, tous les\ntravaux de démolition, protection, ragréage et autres nécessaires au\nparachèvement complet de l’Ouvrage et tous les travaux connexes tels :\naménagement et nettoyage du site, ouvrage de protection temporaire, réparations\net modifications des ouvrages d’aménagements intérieurs existants. Tous les\ntravaux de jointement, de réparation, percement, requis pour les travaux des\nprésentes sont inclus. \nL’Entrepreneur aura l’entière responsabilité du\ncontrôle des accès aux lieux, du chantier. Dans les situations où l’Entrepreneur\ndoit exécuter des travaux ailleurs dans le bâtiment ou dans les cas où il doit\nprocéder à des coupures de services électromécaniques, il le fera en dehors des\nheures normales d’occupation par les usagers, d’après les autorisations du Propriétaire.\nDe plus, l'Entrepreneur prendra en charge l'ensemble\ndes deux (2) ascenseurs (entretien et réparations), pendant la durée complète\ndes travaux, en considérant les contraintes suivantes :\n• Un\nascenseur du pavillon fera l’objet de remplacement alors que le deuxième\nappareil devra demeurer en fonction pour permettre le transport des usagers;\n• Pas\nde travaux en simultané sur les ascenseurs RL1 et RL2;\n• Durant\nla période de la mi- août à la mi-septembre 2027, L’UQAM aura besoin que\nl’appareil en travaux soit disponible de façon ponctuelle à raison de quelques\nheures par jour, afin d’assurer le déménagement des effets personnels des\nétudiants qui quittent la Résidence.\nUne période d'entretien de 12 mois à partir de ",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b303a60d-d034-4a1e-9f34-2bc5ad34491c",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 10,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la rénovation et la modernisation de deux ascenseurs (RL1 et RL2) dans les résidences universitaires René-Lévesque. Les travaux incluent la modernisation des contrôleurs, la mise aux normes des dispositifs, le rafraîchissement des finitions des cabines et des travaux connexes d'aménagement et de réparation.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande : non"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne la rénovation d'ascenseurs et non les métiers de la maçonnerie, de la briquetage ou de la charpenterie/menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"rénovation",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"rénovation",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
 "Charpenterie"
 ],
 "tropCher": false
@@ -11363,82 +10734,6 @@
 }
 },
 {
-"id": "58a1aeb8-96bc-43e5-bf00-a589e54a9075",
-"numero": "2026GE34-AOP",
-"titre": "Éclairage des passages piétonniers secteur C, parc des citoyens et passerelle petit rang Saint-Régis Sud",
-"organisme": "Ville de Saint-Constant.",
-"regions": [
-"Montérégie"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [
-"pierre"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": "15",
-"surDemande": false,
-"fermeture": "2026-11-05T11:00",
-"publie": "2026-10-01T08:00",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72151501 - Installation d’éclairage",
-"72151511 - Maintenance ou réparation de systèmes d’éclairage"
-],
-"description": "La Ville de Saint-Constant demande des soumissions pour l'éclairage des passages piétonniers secteur C, du parc des citoyens et de la passerelle petit rang Saint-Régis Sud.\nDurée du contrat/calendrier des prestations\nDurée : tel que prévu dans le document d'appel d'offres\nOption de renouvellement: aucun\nProcédure ouverte d'attribution\nLe contrat est attribué au soumissionnaire ayant présenté la soumission conforme avec le prix proposé le plus bas.\nTransmission, réception et ouverture des soumissions\nLes soumissions devront être reçues avant 11 h 00, le 22 octobre 2026.\nL'ouverture publique des soumissions aura lieu au plus tard à 11 h 00, le 22 octobre 2026.\nLes soumissions peuvent alternativement être transmises par voie électronique. Cette transmission ne peut s'effectuer que par l'intermédiaire du SEAO et conformément à la procédure prescrite par celui-ci.\nLes heures d'ouverture du lieu de réception indiqué ci-dessous sont les suivantes : du lundi au jeudi de 8 h 30 à 16 h 30 et le vendredi de 8 h 30 à 13 h 00.\nDivision approvisionnements\n147, rue Saint-Pierre\nSaint-Constant, Québec\nJ5A 0W6\nLes résultats du présent appel d'offres seront publiés dans le SEAO.\nÉgalité des soumissions\nEn cas d’égalité, le contrat est attribué par tirage au sort.\nRéserve\nLa Ville de Saint-Constant ne s'engage à accepter ni la plus basse ni aucune des soumissions reçues.\nAccords intergouvernementaux applicables\nL’appel d’offres est assujetti à l'accord suivant :\n- Accord de commerce et de coopération entre le Québec et l’Ontario(ACCQO);",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=58a1aeb8-96bc-43e5-bf00-a589e54a9075",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'éclairage des passages piétonniers, du parc des citoyens et de la passerelle petit rang Saint-Régis Sud.",
-"pointsAttention": [
-"visite obligatoire"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"pierre"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"pierre"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"pierre"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-}
-}
-},
-{
 "id": "e61703fa-8d48-4088-ac86-47bae314061a",
 "numero": "26-46-AO-CS-C",
 "titre": "Rénovation des chambres du département principal et du poste des infirmières à l'hôpital de Kuujjuaq",
@@ -12379,67 +11674,6 @@
 "familles": [
 "Charpenterie"
 ],
-"tropCher": false
-}
-}
-},
-{
-"id": "2a9261d1-cdf9-454c-b62e-fdef2ae5588a",
-"numero": "2026CNT054",
-"titre": "Travaux pour le remplacement de la salle de graphie #4 à l'Hôpital de Montmagny.",
-"organisme": "Santé Québec Chaudière-Appalaches",
-"regions": [
-"Chaudière-Appalaches"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [],
-"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission \néquivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission.",
-"estimation": 165000,
-"dureeMois": "12",
-"surDemande": false,
-"fermeture": "2026-10-27T13:30",
-"publie": "2026-09-28T11:34",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "AVIS –\nAPPEL D’OFFRES – 2026CNT054\nOBJET\nSANTÉ QUÉBEC Chaudière-Appalaches désire conclure un contrat pour les Travaux pour le remplacement de la salle de graphie #4\nà l'Hôpital de Montmagny.\nOPTION\nCet avis ne comporte aucune option de renouvellement ou de prolongation.\nCALENDRIER DE RÉALISATION DES\nTRAVAUX\nL’adjudicataire devra effectuer les\ntravaux entre le 16 novembre 2026 et le 22 janvier 2027.\nADRESSE DES TRAVAUX\nLes travaux seront réalisés à\nl’Hôpital de Montmagny \n350 boulevard Taché Ouest, Montmagny\nG5V 3R8\nENDROIT OÙ SE PROCURER LES\nDOCUMENTS\nLes\ndocuments d’appel d’offres seront obtenus via le SEAO.\nCLÔTURE DES OFFRES ET DÉPÔT\nDES SOUMISSIONS\nLes soumissions seront reçues jusqu’à\nla date et heure inscrits sur l’avis ou tout addenda subséquent. Les\nsoumissions peuvent être transmises par voie électronique via le SEAO uniquement.\nLes soumissions qui ne sont pas\ntransmises par voie électronique doivent être envoyées à l’adresse suivante:\nSANTÉ QUÉBEC Chaudière-Appalaches \nService de la gestion contractuelle\n253, route\n108 \nBeauceville, QC (Québec) \nG5X 2Z3\nLe nom et l’adresse du soumissionnaire\nainsi que le numéro de l’appel d’offres doivent être inscrits à l’extérieur de\nl’enveloppe.\nOUVERTURE DES SOUMISSIONS\nL’ouverture des soumissions sera effectuée par les personnes désignées de SANTÉ\nQUÉBEC Chaudière-Appalaches, immédiatement après la clôture au lieu, date et\nheure indiqués au document d’appel d’offres. L’ouverture des soumissions est\npublique.\nACCEPTATION DES SOUMISSIONS\nSANTÉ QUÉBEC Chaudière-Appalaches ne s’engage à accepter ni la plus basse ni\naucune des soumissions.\nCONFORMITÉ\nLes biens proposés dans la soumission doivent être conformes à la description\nou aux exigences techniques au devis. Si le soumissionnaire n’est pas en mesure\nde se conformer à l’une ou l’autre des exigences techniques, il serait de\nrigueur que le soumissionnaire contacte le gestionnaire du dossier afin de\nvérifier si une alternative est possible par l'émission d'un addenda.\nCOMMUNICATION\nPour toute demande d’information supplémentaire, vous pouvez communiquer avec :\nLisa-Marie Poulin\nTéléphone : 418-380-8996 Poste 30122\nCourriel : lisa-marie.poulin.cisssca@ssss.gouv.qc.ca",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2a9261d1-cdf9-454c-b62e-fdef2ae5588a",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 50,
-"type": "Bâtiment (nos métiers en partie)",
-"resume": "L'appel d'offres concerne les travaux pour le remplacement de la salle de graphie #4 à l'Hôpital de Montmagny. La durée prévue pour les travaux est de 12 mois, avec une estimation de 165 000 $.",
-"pointsAttention": [
-"délai court (travaux entre le 16 novembre 2026 et le 22 janvier 2027)"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Le contrat concerne la construction/rénovation d'un bâtiment, où la maçonnerie ou la charpenterie pourraient être un lot, mais aucun mot-clé spécifique n'est présent.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
 "tropCher": false
 }
 }
@@ -15236,71 +14470,6 @@
 "familles": [
 "Charpenterie"
 ],
-"tropCher": false
-}
-}
-},
-{
-"id": "9e34d79c-586b-4b61-83a7-e66f9e1a2d4b",
-"numero": "13376",
-"titre": "ABP-11515 – Alimentation d’urgence ABP",
-"organisme": "Université Laval",
-"regions": [
-"Capitale-Nationale"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie\nde soumission équivalant à DIX POUR CENT (10%) du prix total proposé\ndans sa Soumission. Cette garantie de soumission doit être produite sous la\nforme d'un cautionnement émis en faveur de l’ORGANISME PUBLIC par une\nInstitution Financière telle que définie à la clause 0.01.13\ndes présentes, qui doit être conforme aux dispositions du modèle de\ncautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de\nSoumission.",
-"estimation": 920000,
-"dureeMois": "3",
-"surDemande": false,
-"fermeture": "2026-10-29T11:30",
-"publie": "2026-08-20T13:38",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Les travaux\n consistent à démanteler la génératrice existante du pavillon Abitibi-Price\n (ABP), ainsi que tous les équipements pétroliers associés. L’urgence du\n pavillon ABP sera alimenté par la génératrice du pavillon voisin le Gene H.\n Kruger (GHK). Les travaux consistent donc aussi à raccorder l’urgence du\n pavillon ABP au pavillon GHK. De plus, les travaux consistent à implanter,\n pour ces deux pavillons concernés, des équipements permettant de raccorder une\n génératrice temporaire et un transformateur extérieur pour faire face à un\n bris des équipements des pavillons.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9e34d79c-586b-4b61-83a7-e66f9e1a2d4b",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Les travaux consistent à démanteler une génératrice existante et à raccorder l'alimentation d'urgence entre deux pavillons. Il s'agit d'implémenter des équipements pour une génératrice temporaire et un transformateur extérieur.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "L'appel d'offres concerne des travaux d'alimentation électrique et de générateurs, ce qui n'est pas pertinent pour les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
 "tropCher": false
 }
 }
@@ -27447,6 +26616,894 @@
 "raison": "Le contrat ne concerne pas directement les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
 "version": 3
 }
+},
+{
+"id": "ae168303-1620-484b-acef-e73a50620169",
+"numero": "AO-3-21-023-NH001",
+"titre": "Démantèlement et démolition partielle au Centre d’hébergement Louis- Denoncourt",
+"organisme": "Santé Québec Mauricie-et-Centre-du-Québec – Universitaire",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, 10%",
+"estimation": 1600000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-03T10:00",
+"publie": "2026-11-05T12:48",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le Gestionnaire de projet, SANTÉ QUÉBEC, personne\nmorale de droit public constituée en vertu de la Loi sur la gouvernance du\nsystème de santé et de services sociaux (RLRQ, c. G-1.021), agissant par\nl'entremise de l’établissement Centre intégré universitaire de santé et de\nservices sociaux de la Mauricie-et-du-Centre-du-Québec, ayant son siège au 858,\nTerrasse Turcotte, Trois-Rivières, Qc demande des soumissions pour les travaux visant la démolition sélective du Centre d’hébergement\nLouis-Denoncourt.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=ae168303-1620-484b-acef-e73a50620169",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-03 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "500, Côte Richelieu Trois-Rivières QC CAN G9A2Z1",
+"ouverture": "2026-12-03 10:00 Heure légale du Québec",
+"adresseOuverture": "500, Côte Richelieu Trois-Rivières QC CAN G9A2Z1"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:31",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "3de5a9dc-79a5-4909-a30d-2bd68ca93cd6",
+"numero": "26-27-08",
+"titre": "Bâtiment annexe pour la nouvelle entrée électrique à l'école Jean-Baptiste-Meilleur",
+"organisme": "Centre de services scolaire des Affluents",
+"regions": [
+"Lanaudière"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 3224400,
+"dureeMois": "25",
+"surDemande": false,
+"fermeture": "2026-11-30T10:00",
+"publie": "2026-11-05T12:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "AVIS D’APPEL D’OFFRES PUBLIC No 26-27-08\nBâtiment annexe pour la nouvelle entrée électrique à l’école Jean-Baptiste-Meilleur\nPROPRIÉTAIRE\nCENTRE DE SERVICES SCOLAIRE DES AFFLUENTS\nService des ressources matérielles\n81, rue de Normandie, Repentigny (Québec) J6A 7B3\nLe Centre de services scolaire des Affluents, propriétaire, demande des soumissions pour :\nLe projet consiste au démantèlement de l’entrée électrique existante du complexe Jean-Baptiste-Meilleur, à la construction d’un bâtiment annexe pour la nouvelle entrée électrique de 5000kVA, à l’installation d’un massif électrique souterrain, ainsi qu’au remplacement de certaines tuiles de plafond d’amiante dans le bâtiment.\nRESPONSABLE DE L’APPEL D’OFFRES\nÉquipe de gestion contractuelle : gestion.contractuelle@cssda.gouv.qc.ca\nOBTENTION DES DOCUMENTS\nLes documents d’appel d’offres pourront être obtenus exclusivement par l’intermédiaire du système électronique d’appel d’offres SÉAO. Les frais pour l’obtention des documents sont non remboursables et seront facturés par le SÉAO.\nRENCONTRE D’INFORMATION ET VISITE DES LIEUX\nÉcole \nDate : 10 novembre 2026\nHeure : 10 h 00\nLieu : École Jean-Baptiste-Meilleur\nAdresse : 777, boulevard Iberville, Repentigny (Québec) J5Y 1A2\nRendez-vous à l’entrée principale de l’établissement. Tous les soumissionnaires, entrepreneurs et sous-traitants seront considérés comme ayant visité les lieux et aucune réclamation pour manque d’information ou de connaissance des lieux ne pourra être soumise ni acceptée.\nDÉLAI D’EXÉCUTION DES TRAVAUX\nLes travaux doivent être effectués pendant la période du 1 mars 2027 au 28 janvier 2028.\nRÉCEPTION ET OUVERTURE \nLes soumissions dans des enveloppes cachetées et portant l’identification fournie dans les documents d’appel d’offres seront reçues au Service des ressources matérielles du Centre de services scolaire des Affluents au 81, rue de Normandie, Repentigny, jusqu’à 10 heures, heure en vigueur localement, le 30 novembre 2026, pour être ouvertes publiquement au même endroit le même jour et à la même heure. Toute soumission reçue postérieurement sera automatiquement rejetée et retournée au soumissionnaire sans être ouverte.\nLes soumissions transmises par voie électronique sont permises dans le cadre du présent appel d’offres. Les soumissions transmises par voie électronique doivent être reçues par l’intermédiaire du SEAO à l’adresse suivante : seao.gouv.qc.ca, au plus tard à la date et à l’heure limites indiquées aux documents d’appel d’offres.\nGARANTIE DE SOUMISSION\nToute soumission devra être accompagnée d’une garantie de soumission équivalant à 10% du montant total de la soumission excluant toutes les taxes applicables, sous forme de chèque certifié, de traite bancaire, de lettre de garantie irrévocable, de mandat-poste ou de cautionnement de soumission valide pour une période de quarante cinq (45) jours de la date d’ouverture des soumissions et émis par une institution financière qui est un assureur détenant un permis émis conformémen",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3de5a9dc-79a5-4909-a30d-2bd68ca93cd6",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "81, rue de Normandie Porte 1 (Dépôt de soumission) Repentigny QC CAN J6A7B3",
+"ouverture": null,
+"adresseOuverture": "81, rue de Normandie Porte 1 (Dépôt de soumission) Repentigny QC CAN J6A7B3"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:31",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"construction d",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"construction d",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"construction d",
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "a60cf5ff-0d7a-4616-b25c-3009a29e4ec2",
+"numero": "216920-5",
+"titre": "Désamiantage des plafonds suspendus- Phase 4",
+"organisme": "Centre de services scolaire du Val-des-Cerfs.",
+"regions": [
+"Estrie",
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 810000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-03T14:00",
+"publie": "2026-11-05T11:13",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"76101602 - Désamiantage ou encapsulation de l’amiante"
+],
+"description": "AVIS D’APPEL D'OFFRES PUBLIC\nTITRE : 216920-5\nNo DOSSIER : DÉSAMIANTAGE DES PLAFONDS SUSPENDUS – PHASE 4\nPropriétaire Centre de services scolaire du Val-des-Cerfs\nJulie Prud’homme\n55, rue Court\nGranby (Québec) J2G 9N6 (adresse municipale)\nTél. : 450 372-0221 poste 60259\nprojetsrm@cssvdc.gouv.qc.ca\nÉtablissement\nvisé \nÉcole Massey-Vanier\n222, rue Mercier\nCowansville (Québec) J2K 3R9\nProfessionnel\narchitecture\nCaroline\nDenommée Architectes Inc.\n63, rue Dufferin\nGranby (Québec) J2G 4W8\nProfessionnel\ningénierie\nArtelia \n2111, boul. Fernand-Lafontaine\nLongueuil (Québec) J4G 2J4\nVisite\nLa visite aura lieu le 16\nnovembre 2026 à 10h45\nLes personnes qui se présenteront, devront demeurer à l’extérieur jusqu’à\nl’arrivée du chargé de projet. \nPORTE 25\nStationnement disponible à l'arena\nTravaux visés:\n Démolition et disposition des\n plafonds suspendus existants contenant de l’amiante, conformément aux\n exigences applicables \n Construction et installation de\n nouveaux plafonds suspendus;\n Démolition et remplacement du\n calorifugeage existant, incluant les matériaux contenant de l’amiante, le\n cas échéant;\n Remplacement de certains\n appareils d’éclairage existants;\n Protection du mobilier et des\n équipements dans certains locaux, ainsi que le déménagement et la remise\n en place du mobilier et du contenu dans les autres locaux concernés par\n les travaux.\nÉchéancier \nDébut des travaux : 25 juin 2027\nFin des travaux : 23 août 2027\nRéception des travaux avec réserve : 24 septembre 2027\nOption Aucune option\nÉquivalence \nLes demandes d’équivalence doivent être déposées au plus tard 10 jours avant\nla date de dépôt des soumissions. Information Les demandes d’informations\ndoivent être adressées à l’adresse suivante : projetsrm@cssvdc.gouv.qc.ca\nLes questions seront traitées\nrapidement et les réponses feront l’objet d’addenda sous la forme de questions\n/réponses ou de modifications et ajouts aux Documents d’appel d’offres.\nL’ORGANISME PUBLIC se réserve le droit\nde ne pas considérer une demande formulée par un fournisseur si cette demande\nn’est pas transmise moins de 5 jours ouvrables avant la date et l’heure\nfixées pour la réception des soumissions.\nDocuments \nLes plans, devis, documents contractuels et autres renseignements pourront être\nobtenus que par l’intermédiaire du Système d’appels d’offres électroniques\n(SÉAO) au www.seao.ca\nModalité de dépôt des soumissions \nEnveloppe\nLes soumissions, dans des enveloppes\ncachetées et adressées au responsable, seront reçues au siège social du Centre\nde services scolaire du Val-des-Cerfs, 55, rue Court, à Granby, Québec, jusqu'à\n14 h 00, heure en vigueur localement, 3 décembre 2026 pour être\nouvertes publiquement au même endroit, le même jour et à la même heure. Toute\nsoumission reçue postérieurement sera automatiquement rejetée. \nOu\nVoie électronique\nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'of",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a60cf5ff-0d7a-4616-b25c-3009a29e4ec2",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-03 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "55, rue Court Granby QC CAN J2G9N6",
+"ouverture": "2026-12-03 14:00 Heure légale du Québec",
+"adresseOuverture": "55, rue Court Granby QC CAN J2G9N6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:31",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "c69d8e36-f77b-4ea6-8d0c-8163ea3c8e53",
+"numero": "M883MEC22",
+"titre": "Réfection salle mécanique - École Notre-Dame-du-bon-Conseil",
+"organisme": "Centre de services scolaire de Charlevoix",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% du montant total de la soumission",
+"estimation": 900000,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-11-26T11:00",
+"publie": "2026-11-05T11:10",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "APPEL D’OFFRES PUBLIC\nPROJET M883MEC22: RÉFECTION SALLE MÉCANIQUE – ÉCOLE NOTRE-DAME-DU-BON-CONSEIL\nPROPRIÉTAIRE :CENTRE DE SERVICES SCOLAIRE DE CHARLEVOIX \nCentre administratif de Baie-Saint-Paul\n200, rue Saint-Aubin, \nBaie-Saint-Paul (Québec) \nG3Z 2R2\nINGÉNIEUR :BPA (Patrice Riverin) \n1846 rue des Outardes\nChicoutimi, (Québec)\nG7K 1H1\nTéléphone : 418-545-6574\nLe Centre de services scolaire de Charlevoix désire obtenir des soumissions, sous enveloppes scellées, pour retenir les services d'un entrepreneur en vue de réaliser la réfection de la salle mécanique à l’école Notre-Dame-du-bon-Conseil sise au 2750, boulevard Malcom Fraser à La Malbaie, (Québec), G5A 2J1. \nLes documents seront disponibles à compter du jeudi 5 novembre 2026, sur le site du Système électronique d’appel d’offres (SEAO) au www.seao.ca. Les coûts liés à l’obtention des documents sont établis par le SEAO.\nVous pouvez également obtenir des informations complémentaires auprès du bureau des professionnels. \nUne visite des lieux se tiendra le mercredi 11 novembre 2026, sur rendez-vous. \nToute soumission devra être accompagnée d'une garantie de soumission, soit sous forme d’un chèque visé d’un montant égal à 10% du montant total de la soumission excluant toutes les taxes applicables, à l’ordre du propriétaire, ou d’une lettre de garantie irrévocable ou d’un cautionnement de soumission établi au même montant valide pour une période de 45 jours de la date d’ouverture des soumissions. Prendre note que la lettre de garantie ou le cautionnement de soumission doit être émis par une institution financière qui est un assureur détenant un permis émis conformément à la Loi sur les assurances (L.R.Q., c. A-32) l’autorisant à pratiquer l'assurance cautionnement, une société de fiducie titulaire d’un permis délivré en vertu de la Loi sur les sociétés de fiducie et les sociétés d’épargne (L.R.Q., c. S-29.01), une coopérative de services financiers visée par la Loi sur les coopératives de services financiers (L.R.Q., c. C-67.3) ou une banque au sens de la Loi sur les banques (L.C., 1991, c. 46), sans quoi la soumission sera automatiquement rejetée.\nToute soumission devra être reçue dans une enveloppe scellée, dûment identifiée à l’adresse du propriétaire ou par dépôt électronique par l’entremise du SEAO, avant 11 h 00, heure en vigueur localement, le jeudi 26 novembre 2026, pour être ouverte devant témoins au même endroit, le même jour à 11 h 00. Toute soumission reçue postérieurement sera automatiquement rejetée. \nTous les appels d’offres publics, les devis et les soumissions sont régis par la Loi sur les contrats des organismes publics ainsi que par ses règlements et par les politiques, règlements ou directives du Centre de services scolaire de Charlevoix.\nAu cours des deux dernières années précédant la date d’ouverture des soumissions, le soumissionnaire ne doit pas avoir fait l’objet d’une évaluation de rendement insatisfaisante de la part du Centre de services scolaire de Charlevoix, d’une ré",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c69d8e36-f77b-4ea6-8d0c-8163ea3c8e53",
+"fourchette": "736 000 $ à 6 943 899 $",
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "200, rue Saint-Aubin Baie-Saint-Paul QC CAN G3Z2R2",
+"ouverture": "2026-11-26 11:00 Heure légale du Québec",
+"adresseOuverture": "200, rue Saint-Aubin Baie-Saint-Paul QC CAN G3Z2R2"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:31",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "472c1a5b-b6c4-42a5-818c-b79b6be51e54",
+"numero": "26-110",
+"titre": "Aménagement d'un service de garde à Caplan",
+"organisme": "Municipalité de Caplan",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-25T11:00",
+"publie": "2026-11-05T10:42",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "La Municipalité de Caplan (ci-après la « Municipalité ») demande des soumissions dans le cadre d’un appel d’offres public suivant une procédure ouverte, en vue de la conclusion d’un contrat pour l’aménagement d’un service de garde au 17 boul. Perron Est, Caplan (Québec) G0C 1H0. Tout soumissionnaire doit se conformer aux exigences contenues aux documents contractuels. Ceux-ci peuvent être obtenus à partir du jeudi 5 novembre 2026, uniquement par l’intermédiaire du système électronique d’appel d’offres (SEAO) à l’adresse https://seao.gouv.qc.ca ou en téléphonant au 418 646-0177 pour la région de Québec et au numéro sans frais 1 877 336-7326 pour ailleurs. L’obtention des documents est sujette à la tarification de cet organisme. Attention : Notez que seuls les documents exigés aux termes du présent appel d’offres doivent être remis avec la soumission de manière à éviter toute situation qui entraînerait que la soumission soit restrictive ou conditionnelle.\nADMISSIBILITÉ : Seules seront considérées les soumissions présentées par des soumissionnaires ayant un établissement dans la province de Québec ou dans une province ou un territoire visé par un accord de libéralisation des marchés.\nDOCUMENTS D’APPEL D’OFFRES COMPLETS : La Municipalité n’encourt aucune responsabilité du fait que les avis écrits ou documents quelconques véhiculés par système électronique soient incomplets ou comportent quelque erreur ou omission que ce soit. En conséquence, tout soumissionnaire doit s’assurer, avant de soumissionner, d’obtenir tous les documents d’appel d’offres.\nRÉSERVE :La Municipalité ne s’engage à accepter ni la plus basse ni aucune des soumissions\nreçues. Elle n’assume aucune obligation ni responsabilité envers les soumissionnaires\nqui renoncent, en déposant une soumission, à toute réclamation contre la Municipalité en cas de rejet de toutes les soumissions.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=472c1a5b-b6c4-42a5-818c-b79b6be51e54",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-11-25 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "97 Boulevard Perron Ouest Caplan QC CAN G0C1H0",
+"ouverture": "2026-11-25 11:00 Heure légale du Québec",
+"adresseOuverture": "97 Boulevard Perron Ouest Caplan QC CAN G0C1H0"
+},
+"conditions": [],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "4b70c09d-0fcd-4bc6-9528-19ba23c36548",
+"numero": "13467",
+"titre": "ABP-11672_Conversion des boucles antigel (incluant PSA-11673, VND-11669, GHK-11671)",
+"organisme": "Université Laval",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 377000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-01T11:30",
+"publie": "2026-11-05T10:34",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Les travaux consistent notamment à la mise aux normes des systèmes de gicleurs à l’antigel existants par des systèmes de gicleurs sous air, par des systèmes antigel conformes ou par le démantèlement. Travaux de percement de béton, de plomberie, d’électricité et d’alarme-incendie associés. Une visite des lieux non obligatoire est prévue le 20\nnovembre 2026 à 9:30. Le point de rassemblement pour cette visite est\nfixé au Hall du pavillon Gene-H.-Kruger (GHK), 2425 rue de la Terrasse en\nla ville de Québec, province de Québec, G1V 0A6.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4b70c09d-0fcd-4bc6-9528-19ba23c36548",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-01 Avant 11:30 Heure légale du Québec",
+"adresseDepot": "2345, allée des Bibliothèques Réception des marchandises, local 0242 Québec QC CAN G1V0A6",
+"ouverture": "2026-12-01 13:30 Heure légale du Québec",
+"adresseOuverture": "Université Laval, 2345 allée des bibliothèques Pavillon Jean Charles Bonenfant (Local 3610) Québec QC CAN G1V0A6"
+},
+"conditions": [],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"béton",
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"béton",
+"terrasse"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "58c7de20-f897-4627-af3d-6b0ea1d1d61b",
+"numero": "SGAB26-03094",
+"titre": "Réfection de la toiture",
+"organisme": "Centre de Services des Offices d'Habitation de Lanaudière",
+"regions": [
+"Montréal",
+"Laval",
+"Lanaudière",
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "1",
+"surDemande": false,
+"fermeture": "2026-11-25T09:30",
+"publie": "2026-11-05T10:13",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72141510 - Démolition",
+"72151300 - Peinture et pose de papiers peints",
+"72152300 - Menuiserie",
+"72152600 - Couverture, bardage et tôlerie",
+"72153200 - Revêtement, calfeutrage, étanchéité et ignifugeage"
+],
+"description": "AVIS DE PROCÉDURE OUVERTE\nServices d’entrepreneur\nPROJET :\nSGAB26-03094Réfection de la\ntoiture (26 Houle)\nPROPRIÉTAIRE :\nOffice\nrégional d'habitation de la MRC de d'Autray\n31, rue d'Iberville, Berthierville, QuébecJ0K 1A0\nFrance Desmarchais, (450) 836-9138\n· Description \nL’ Office régional d'habitation de la MRC de d'Autray\nsollicite des soumissions pour la réalisation du projet Réfection de\nla toiture (26 Houle) situé au 26, boul. Houle, St-Gabriel.\n· Conditions \nSeules sont admissibles\nles soumissions d’entrepreneurs ayant leur principale place d’affaires au\nQuébec ou, lorsqu’un accord intergouvernemental est applicable, au Québec ou\ndans une province ou un territoire visé par cet accord et qui possèdent la\nlicence requise en vertu de la Loi sur le Bâtiment (L.R.Q., c. B-1.1). \nLes soumissions\ndoivent, obligatoirement, être préparées sur les formulaires fournis dans les\ndocuments de soumission.\nDe plus, le\nsoumissionnaire ne doit pas avoir fait l’objet d’un rapport de rendement\ninsatisfaisant émis par l’Office régional d'habitation de la MRC de d'Autray relativement à un contrat antérieur au\ncours des deux (2) années précédant la date d’ouverture des soumissions\nconformément à la Loi sur les contrats des organismes municipaux (chapitre\nC-65.01).\nLes soumissionnaires\nsont responsables du choix des sous-traitants, tant pour leur solvabilité que\npour le contenu de leur soumission.\n· Dépôt des soumissions \nLes soumissions seront\nreçues, au Centre de Services des\nOffices d’Habitation de Lanaudière situé au 1309, boulevard des Seigneurs,\nsuite 101 à Terrebonne (Québec) J6W 5B1,\njusqu’à 12:00:00 AM le 2026 11 25\nLes\nsoumissions peuvent alternativement être transmises par voie\nélectronique. Cette transmission ne peut s’effectuer que par l’intermédiaire du\nSEAO et conformément à la procédure prescrite par celui-ci.\n· Documents de soumissions \nLes documents de\nsoumission sont disponibles sur le site du SEAO à l’adresse www.seao.gouv.qc.ca. Les soumissionnaires\nobtiendront tous les renseignements administratifs en s’adressant à Caroline\nSabourin chargé(e) de projet à\nl’adresse courriel suivante : csohl2@omhrn.com.\n· Visite des lieux \nIl n’y a pas de visite\ndes lieux obligatoire organisée par le maître de l’ouvrage. Le soumissionnaire doit lui-même effectué\ncette visite afin de se rendre compte personnellement de l’ampleur des travaux.\nS’il doit obtenir des accès à des installations intérieures, il devra en faire\nla demande écrite au représentant du maître de l’ouvrage au moins 48 heures à\nl’avance et conformément aux directives dans le document d’appel d’offres.\nLe « Propriétaire » ne s’engage à\naccepter ni la plus basse ni aucune des soumissions reçues sans encourir aucune\nobligation et aucuns frais d’aucune sorte envers le ou les soumissionnaires.\nDonné à Terrebonne, ce\n5 Novembre 2026\nCaroline Sabourin\nChargé(e)\nde projet",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=58c7de20-f897-4627-af3d-6b0ea1d1d61b",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-25 Au plus tard 09:30 Heure légale du Québec",
+"adresseDepot": "1309, boul. des Seigneurs, bureau 101 Terrebonne QC CAN J6W5B1",
+"ouverture": "2026-11-25 09:30 Heure légale du Québec",
+"adresseOuverture": "1309, boul. des Seigneurs, bureau 101 Terrebonne QC CAN J6W5B1"
+},
+"conditions": [],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "dd5f0b87-a080-4382-915e-a54897bf80dd",
+"numero": "AOP-2026-04-TC-LOI",
+"titre": "Travaux de rénovation de la salle Lionel-Renaud",
+"organisme": "Municipalité de Sainte-Sophie",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-12-07T10:00",
+"publie": "2026-11-05T09:59",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72121103 - Rénovation et réparation d’immeubles commerciaux et de bureaux"
+],
+"description": "AVIS DE PROCÉDURE OUVERTE\nTravaux de construction\nTravaux de rénovation de la salle Lionel-Renaud\nNo AOP-2026-04-TC-LOI\nLa Municipalité de Sainte-Sophie demande des soumissions pour la rénovation intérieure et extérieure de la salle Lionel-Renaud, située au 2181, rue de l’Hôtel-de-Ville, Sainte-Sophie (Québec) J5J 1K5.\nPrincipales conditions :\n- Durée des travaux : dix-huit (18) semaines* pour les travaux intérieurs et vingt-huit (28) semaines pour les travaux extérieurs, à partir de l’ordre de débuter les travaux jusqu'à la prise de possession. Veuillez vous référer aux modalités complètes dans le devis et les documents d'appel d'offres.\n- Garantie de soumission : 10 % du prix soumis, excluant les taxes.\n- Cautionnements et assurance : lettre d’engagement, cautionnement d’exécution (50 %), cautionnement des obligations pour salaires, matériaux et services (50 %) du prix du contrat, excluant les taxes, et assurances; modalités complètes prévues aux documents d’appel d’offres.\n- Contenu québécois : au moins 15 % de la valeur totale des matériaux et équipements acquis doivent être québécois ou autrement canadiens.\n- Visite des lieux : obligatoire, sur rendez-vous dans les délais prescrits aux documents d’appel d’offres.\n- Accords applicables : avoir un établissement au Québec ou dans l’un des territoires visés par les accords applicables (ALEC, ACCQO)\nLes documents de la procédure ouverte pourront être obtenus à compter du 5 novembre 2026 via le système électronique d’appel d’offres (SÉAO) au www.seao.gouv.qc.ca ou par téléphone au 1 877 336-7326 ou au 418 646-0177. Toute modification par addenda à ces documents ne pourra être obtenue que par l’intermédiaire du SÉAO.\nPour tout renseignement relatif à la présente procédure ouverte, le soumissionnaire doit communiquer uniquement par écrit avec Me Véronique St-Jacques, avocate, assistante-greffière, à l’adresse vsjacques@stesophie.ca.\nLes soumissions scellées doivent être adressées à Me Véronique St-Jacques, avocate, assistante-greffière. Elles doivent être reçues avant dix heures (10 h 00), heure locale, le 7 décembre 2026, à la réception de l’hôtel de ville de la Municipalité de Sainte-Sophie situé au 2199, boulevard Sainte-Sophie à Sainte-Sophie, Québec, J5J 1A1, pour y être ouvertes publiquement au même endroit et le même jour à 10 h 00.\nLa Municipalité ne s’engage à accepter aucune des soumissions reçues, notamment lorsqu’elle juge que les prix sont trop élevés ou disproportionnés ou ne reflètent pas un juste prix.\nL’attribution du contrat pour la présente procédure ouverte sera faite suivant le prix proposé le plus bas.\nSigné à Sainte-Sophie, ce 2 novembre 2026.\nFrance Charlebois, OMA\nDirectrice du greffe et greffière-trésorière adjointe",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=dd5f0b87-a080-4382-915e-a54897bf80dd",
+"fourchette": null,
+"cautionExecution": "Oui, 50 %",
+"cautionGages": "Oui, 50 %",
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-07 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "2199, boul. Sainte-Sophie Sainte-Sophie QC CAN J5J1A1",
+"ouverture": "2026-12-07 10:00 Heure légale du Québec",
+"adresseOuverture": "2199, boul. Sainte-Sophie Sainte-Sophie QC CAN J5J1A1"
+},
+"conditions": [
+"Conditions de conformité et autres conditions"
+],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "a8225463-5926-45ec-960e-6bf64a1a01d6",
+"numero": "Lot 7026",
+"titre": "Portes-Cadres et Quincailleries - Hôtel casino Montréal",
+"organisme": "Casiloc inc",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Un cautionnement de Soumission émis par une entreprise détenant un permis d’assureur au Canada et légalement habilitée à se porter caution au Québec pour un montant s’élevant à 10 % du montant total de la Soumission, en faveur de Casiloc inc. et valide pour 45 jours (Voir modèle Section E);\n- Une convention relative à l’émission d’un cautionnement d’exécution émise par une entreprise détenant un permis d’assureur au Canada et légalement habilitée à se porter caution au Québec pour un montant s’élevant à 50 % du montant total de la Soumission, en faveur de Casiloc inc.; et (Voir modèle Section E);\n- Une convention relative à l’émission d’un cautionnement des obligations de l’Adjudicataire, pour gages, matériaux et services, émise par une entreprise détenant un permis d’assureur au Canada et légalement habilitée à se porter caution au Québec pour un montant s’élevant à 50 % du montant total de la Soumission, en faveur de Casiloc inc. (Voir modèle Section E);",
+"estimation": null,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-12-10T04:00",
+"publie": "2026-11-05T09:10",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152400 - Installation de portes et de fenêtres"
+],
+"description": "APPEL DE SOUMISSIONS no 7026\nDate de dépôt des Soumissions : jeudi le 10 décembre 2026, à 14h00, heure locale\nVisite de chantier : mardi le 17 novembre 2026, à 10h00, heure locale\nBonjour,\nÀ l’attention des Soumissionnaires,\nLe présent Appel de Soumissions vise à fournir tous les\nmatériaux, quincaillerie, équipements et main-d’œuvre requis pour la\nréalisation des travaux de portes, cadres et quincaillerie pour le projet de l’Hôtel au Casino de\nMontréal.\nPORTES-CADRES-QUINCAILLERIE\n/ LOT 7026\nVous êtes invités à\nprésenter une Soumission qui devra être reçueau\nplus tard le jeudi 10 décembre 2026, à 14h00, heure locale, par voie électronique et\nne peut être effectuée que par l’intermédiaire du système électronique d’appel\nde Soumissions du gouvernement du Québec (SEAO), à l’adresse suivante : www.seao.gouv.qc.ca\nLa Soumission doit être déposée (chiffrée,\ntransmise, horodatée et sauvegardée sur les serveurs du SEAO) avant le jeudi 10 décembre 2026, à 14h00, heure locale.\nToutes les conditions de\ncet Appel de Soumissions sont contenues dans le présent document.\nAucune Soumission reçue après l’heure et la date de clôture ne sera\nacceptée.\nPour être admissible à\nprésenter une Soumission, le Soumissionnaire doit répondre aux critères suivants,\nsans quoi sa Soumission sera automatiquement rejetée :\n· Avoir obtenu le document d'appel de Soumissions\nvia le système électronique d’appel d’offres du gouvernement du Québec\n« SEAO », à l’adresse suivante : www.seao.gouv.qc.ca\n· Détenir, lorsque requis en vertu de la Loi\nsur les Contrats des organismes publics (RLRQ, c. C-65.1), une\nautorisation valide de l’Autorité des marchés publics (AMP) de contracter ou de\nsous-contracter avec un organisme public, laquelle doit indiquer la période de\nvalidité. Pour plus de détails, consultez la clause « Autorisation de\nl’Autorité des marchés publics » du présent document d’Appel de Soumissions;\n· Détenir une Attestation de Revenu Québec\nvalide, laquelle ne doit pas avoir été délivrée après la date et l’heure de\nclôture du présent Appel de Soumissions. À défaut de détenir une telle\nattestation, le Soumissionnaire doit fournir le formulaire « Attestation relative à l’absence d’Établissement au\nQuébec » et ce, s’il n’a pas d’Établissement au Québec où il exerce ses\nactivités de façon permanente, clairement identifié à son nom et accessible\ndurant les heures normales de bureau;\n· Ne pas être inscrit au registre des\nentreprises non admissibles aux Contrats publics (RENA);\n· Être accrédité auprès de la Régie du bâtiment\ndu Québec (RBQ) et détenir une licence valide et appropriée aux Travaux faisant\nl’objet du présent document;\n· Inclure à sa Soumission : \n- \nUn\ncautionnement de Soumission émis par une entreprise détenant un permis\nd’assureur au Canada et légalement habilitée à se porter caution au Québec pour\nun montant s’élevant à 10 % du montant total de la Soumission, en faveur de\nCasiloc inc. et valide pour 45 jours (Voir modèle Section E);\n- \nUne\nconvention relative à l’émiss",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a8225463-5926-45ec-960e-6bf64a1a01d6",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Avant 04:00 Heure légale du Québec",
+"adresseDepot": "500 rue Sherbrooke Ouest 5e étage Montréal QC CAN H3A3C6",
+"ouverture": null,
+"adresseOuverture": "500 rue Sherbrooke Ouest 5e étage Montréal QC CAN H3A3C6"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "2c5f7064-5cbd-485e-a4ce-33d1d7a88ff9",
+"numero": "Lot 7024",
+"titre": "Système intérieur - Hôtel Casino de Montréal",
+"organisme": "Casiloc inc",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Un\ncautionnement de Soumission émis par une entreprise détenant un permis\nd’assureur au Canada et légalement habilitée à se porter caution au Québec pour\nun montant s’élevant à 10 % du montant total de la Soumission, en faveur de\nCasiloc inc. et valide pour 45 jours (Voir modèle Section E);\nUne\nconvention relative à l’émission d’un cautionnement d’exécution émise par une\nentreprise détenant un permis d’assureur au Canada et légalement habilitée à se\nporter caution au Québec pour un montant s’élevant à 50 % du montant total de\nla Soumission, en faveur de Casiloc inc.; et (Voir modèle Section E);\nUne\nconvention relative à l’émission d’un cautionnement des obligations de l’Adjudicataire,\npour gages, matériaux et services, émise par une entreprise détenant un permis\nd’assureur au Canada et légalement habilitée à se porter caution au Québec pour\nun montant s’élevant à 50 % du montant total de la Soumission, en faveur de\nCasiloc inc. (Voir modèle Section E);",
+"estimation": null,
+"dureeMois": "20",
+"surDemande": false,
+"fermeture": "2026-12-10T14:00",
+"publie": "2026-11-05T09:07",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152000 - Plâtrage et pose de cloisons sèches",
+"72152100 - Insonorisation et isolation",
+"72152605 - Pose et réparation de plafonds"
+],
+"description": "APPEL DE SOUMISSIONS no 7024 \nDate de dépôt des Soumissions : jeudi le 10 décembre 2026, à 14h00, heure locale\nVisite de chantier : mardi le 17 novembre 2026, à 9h00, heure locale\nBonjour,\nÀ l’attention des Soumissionnaires,\nLe présent Appel de Soumissions vise à fournir tous les\nmatériaux, quincaillerie, équipements et main-d’œuvre requis pour la\nréalisation des travaux de murs de l’enveloppe, parapets et cloisons\nintérieures pour le\nprojet de l’Hôtel au Casino de Montréal.\nSYSTÈME INTÉRIEUR / LOT\n7024\nVous êtes invités à\nprésenter une Soumission qui devra être reçue au\nplus tard le jeudi 10 décembre 2026, à 14h00, heure locale,par voie électronique et ne peut\nêtre effectuée que par l’intermédiaire du système électronique d’appel de Soumissions\ndu gouvernement du Québec (SEAO), à l’adresse suivante : www.seao.gouv.qc.ca\nLa Soumission doit être déposée (chiffrée,\ntransmise, horodatée et sauvegardée sur les serveurs du SEAO) avant le jeudi 10 décembre 2026, à 14h00, heure\nlocale.\nToutes les conditions de\ncet Appel de Soumissions sont contenues dans le présent document.\nAucune Soumission reçue après l’heure et la date de clôture ne sera\nacceptée.\nPour être admissible à\nprésenter une Soumission, le Soumissionnaire doit répondre aux critères suivants,\nsans quoi sa Soumission sera automatiquement rejetée :\nAvoir obtenu le document d'appel de Soumissions via le système\nélectronique d’appel d’offres du gouvernement du Québec « SEAO », à\nl’adresse suivante : www.seao.gouv.qc.ca\n§ Détenir, lorsque requis en vertu de la Loi\nsur les Contrats des organismes publics (RLRQ, c. C-65.1), une\nautorisation valide de l’Autorité des marchés publics (AMP) de contracter ou de\nsous-contracter avec un organisme public, laquelle doit indiquer la période de\nvalidité. Pour plus de détails, consultez la clause « Autorisation de\nl’Autorité des marchés publics » du présent document d’Appel de Soumissions;\n§ Détenir une Attestation de Revenu Québec\nvalide, laquelle ne doit pas avoir été délivrée après la date et l’heure de\nclôture du présent Appel de Soumissions. À défaut de détenir une telle\nattestation, le Soumissionnaire doit fournir le formulaire « Attestation relative à l’absence d’Établissement au\nQuébec » et ce, s’il n’a pas d’Établissement au Québec où il exerce ses\nactivités de façon permanente, clairement identifié à son nom et accessible\ndurant les heures normales de bureau;\n§ Ne pas être inscrit au registre des\nentreprises non admissibles aux Contrats publics (RENA);\n§ Être accrédité auprès de la Régie du bâtiment\ndu Québec (RBQ) et détenir une licence valide et appropriée aux Travaux faisant\nl’objet du présent document;\n§ Inclure à sa Soumission : \n- \nUn\ncautionnement de Soumission émis par une entreprise détenant un permis\nd’assureur au Canada et légalement habilitée à se porter caution au Québec pour\nun montant s’élevant à 10 % du montant total de la Soumission, en faveur de\nCasiloc inc. et valide pour 45 jours (Voir modèle Section E);\n- \nUne\nconvention relative",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2c5f7064-5cbd-485e-a4ce-33d1d7a88ff9",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "500 rue Sherbrooke Ouest 5e étage Montréal QC CAN H3A3C6",
+"ouverture": null,
+"adresseOuverture": "500 rue Sherbrooke Ouest 5e étage Montréal QC CAN H3A3C6"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"cloison",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"cloison",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"cloison"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "25c46cbb-f179-41a4-a877-d693bdfe4cab",
+"numero": "26-013 - 083244131",
+"titre": "Réfection de la marquise, de la maçonnerie et des fenêtres – École primaire Ste-Geneviève-Ouest ",
+"organisme": "Centre de services scolaire Marguerite-Bourgeoys",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Lettre de garantie irrévocable, 10%.",
+"estimation": 1892629,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-12-10T11:00",
+"publie": "2026-11-05T08:57",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "AVIS D’APPEL\nD’OFFRES\nRéfection de la\nmarquise, de la maçonnerie et des fenêtres –\nÉcole primaire\nSte-Geneviève-Ouest \n083244131\n ADRESSE :\n 35, rue Sainte-Anne\n Montréal (Québec) H9H 1C8\n DESCRIPTION\n DU PROJET :\n Le projet consiste à remplacer la maçonnerie des\n façades de la bibliothèque, à remplacer les fenêtres ainsi que les colonnes\n soutenant la marquise. Les travaux comprennent également la reconstruction de\n la dalle sous la marquise, l’installation d’une nouvelle génératrice, ainsi\n que l’aménagement d’une nouvelle clôture de type Frost.\n VISITE\n DES LIEUX (SUR PLACE) :\n Une visite\n des lieux* sera effectuée le 12\n novembre 2026 à 10h00, rendez-vous devant l’entrée principale de l’école.\n La visite des lieux est fortement\n recommandée pour les soumissionnaires.\nÉquipement de\n protection individuelle (EPI) : non requis.\n * Aucune autre visite ne sera effectuée et les\n soumissionnaires ne pourront, en aucun cas, se présenter sur les lieux à un\n autre moment qu’à la date et l’heure fixées pour la visite des lieux. Les soumissionnaires ont la\n responsabilité de se renseigner et d’évaluer adéquatement la nature et la\n portée des travaux ainsi que de prendre connaissance des lieux et des\n conditions affectant l’exécution des travaux. Tous les soumissionnaires\n seront réputés avoir visité les lieux et aucune réclamation pour manque de\n connaissance des lieux ne pourra être soumise ni acceptée.\n OBTENTION\n DES DOCUMENTS :\n Le soumissionnaire doit obtenir les documents\n d’appel d’offres par l’intermédiaire du système d’affichage d’appel d’offres\n « SÉAO ».\n PROPRIÉTAIRE :\n Centre de\n services scolaire Marguerite-Bourgeoys\n 1100, Boul. de la Côte-Vertu\n Saint-Laurent (Québec) H4L 4V1\n BSDQ :\n Les entrepreneurs spécialisés, dont les travaux\n sont assujettis aux règles du code de soumission du BSDQ, sont requis de\n joindre une copie de leur soumission à l’ORGANISME PUBLIC au moment du dépôt\n de cette dernière dans le système de transmission électronique des\n soumissions du BSDQ (TES).\n Le\n propriétaire ne s’engage à accepter aucune des soumissions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=25c46cbb-f179-41a4-a877-d693bdfe4cab",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "1100, bd de la Côte-Vertu Montréal QC CAN H4L4V1",
+"ouverture": "2026-12-10 11:00 Heure légale du Québec",
+"adresseOuverture": "1100, bd de la Côte-Vertu Montréal QC CAN H4L4V1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T13:32",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"reconstruction",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"reconstruction",
+"réfection",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"reconstruction",
+"réfection",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"façade",
+"fenêtre",
+"maconnerie",
+"maçonnerie",
+"reconstruction",
+"réfection",
+"école"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -43661,7 +43718,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-04"
+"fermeLe": "2026-11-04",
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-05T11:06",
+"soumissions": [
+{
+"nom": "Ventilation MFC",
+"montant": 134805.65
+},
+{
+"nom": "CLIMATISATION MORRISON INC.",
+"montant": 149883.48
+},
+{
+"nom": "VENTILATION BELLE-RIVE INC.",
+"montant": 172150.0
+},
+{
+"nom": "GESTION SEPTEM INC.",
+"montant": 190985.0
+},
+{
+"nom": "LES ENTREPRISES DE RÉFRIGÉRATION L.S. INC.",
+"montant": 193320.0
+}
+]
+}
 },
 {
 "id": "db37b9de-6177-4369-bc00-30fa0d8ce0e5",
@@ -44509,7 +44593,960 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-04"
+"fermeLe": "2026-11-04",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-05T09:48",
+"soumissions": [
+{
+"nom": "VITRERIE R.D. LTÉE",
+"montant": 4409930.64
+}
+]
+}
+},
+{
+"id": "fca9f2c3-d7c5-40ad-bc4a-5b451e50cdd7",
+"numero": "SA2026-03",
+"titre": "FOURNITURE, LIVRAISON ET INSTALLATION  DE TROIS (3) TOILETTES ÉCOLOGIQUES AUTONOMES",
+"organisme": "Cité de Dorval",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-05T11:00",
+"publie": "2026-10-19T01:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72141511 - Excavation",
+"95121511 - Parc",
+"95121715 - Toilettes publiques"
+],
+"description": "Le présent contrat a pour objet la fourniture et l’installation, en mode « clés en main », de trois (3) toilettes écologiques destinées à être implantées dans des parcs municipaux. Les toilettes proposées doivent être neuves, conçues pour une utilisation extérieure et adaptées aux conditions climatiques du Québec.\nLes équipements doivent permettre la collecte et le traitement des matières organiques au moyen d’un système fonctionnant exclusivement grâce à l’action combinée du vent et de l’énergie solaire.\nAucune connexion au réseau d’égout ou au réseau électrique ne sera autorisée. De plus, l’utilisation de produits chimiques pour le fonctionnement ou l’entretien des toilettes écologiques est strictement interdite.\nLes travaux doivent inclure la fourniture et l’aménagement d’une base permettant l’accessibilité universelle pour les usagers.\nLes travaux comprennent la fourniture et l’aménagement d’une fondation ou d’une plateforme assurant l’accessibilité universelle à la toilette écologique pour l’ensemble des usagers.\nL’Annexe A présente l’emplacement prévu pour la location des trois toilettes écologiques aux parc\nL’adjudicataire devra fournir l’ensemble de la main-d’oeuvre, des équipements, des matériaux nécessaires, ainsi que tous les accessoires et fourniture requis pour la réalisation complète des travaux selon les exigences du présent devis technique.\nL'adjudicataire devra exécuter les travaux avec soin, diligence dans le respect des exigences, modalités et conditions prévues aux présentes.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fca9f2c3-d7c5-40ad-bc4a-5b451e50cdd7",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne la fourniture et l'installation de trois toilettes écologiques autonomes dans des parcs municipaux. Les travaux incluent la fourniture, l'aménagement d'une fondation et l'installation des équipements.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet n'implique ni maçonnerie, ni charpenterie, ni menuiserie, et se concentre sur des équipements sanitaires écologiques.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "591e9454-2d87-4df2-bfa1-52a5d911d5af",
+"numero": "2026-2027-05",
+"titre": "Remplacement des luminaires des chambres en résidence",
+"organisme": "Cégep de Matane.",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres régionalisé",
+"tri": "a_classer",
+"motsTrouves": [
+"enveloppe"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 40000,
+"dureeMois": "1",
+"surDemande": false,
+"fermeture": "2026-11-05T11:00",
+"publie": "2026-10-16T11:41",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "AVIS D’APPEL D’OFFRES PUBLIC RÉGIONALISÉ PROJET : Remplacement des\nluminaires des chambres en résidence\nLieu : Cégep de Matane, 616 avenue\nSt-Rédempteur\nNuméro du projet : # 2627-014\nNuméro de l’appel d’offres : 2026-2027-05\nPROPRIÉTAIRE : Cégep de Matane\n 616, avenue\nSt-Rédempteur\n Matane,\nQC G4W 1L1\n Tél. :\n(418) 562-1240\n Adresse\ncourriel : offredeservice@cgmatane.qc.ca\nLe Cégep de Matane, propriétaire, demande\ndes soumissions pour retenir les services d’un entrepreneur en électricité en\nvue de réaliser des travaux de Remplacement des luminaires des chambres en\nrésidences.\nLes\ntravaux comprennent notamment, mais sans s’y limiter :\n- Fournir et installer\n253 luminaires, répartis en quatre types.\n- Désinstallation des\nanciens luminaires, incluant tubes, ballasts et accessoires devenus inutiles.\n- Transport et\ndisposition hors site des anciens luminaires et composantes; recyclage approprié\ndes tubes fluorescents contenant du mercure.\n- Main-d’œuvre,\néquipements d’accès, fixations, raccordement électrique, mise en service et\nvérification du fonctionnement.\n- Accessoires et\nplaques de recouvrement nécessaires pour masquer l’empreinte existante, sans\nretouches de peinture.\n- Collecte et\ndisposition hors site des emballages des nouveaux luminaires et nettoyage des\nlieux.\nLa réalisation des\ntravaux se déroulera du 4 au 15 janvier 2027.\nLes plans, devis,\ndocuments contractuels et autres renseignements qui ne peuvent être obtenus que\npar l’intermédiaire du système électronique d’appel d’offres (SEAO) seront\ndisponibles à compter du vendredi 16 octobre 2026. Aucun accord de\nlibéralisation des marchés publics ne s’applique.\nLe règlement sur les\npaiements et le règlement rapides des différends en matière de travaux de\nconstruction ne s’applique pas.\nUne visite des lieux, non obligatoire et sur rendez-vous seulement, est possible.\nLes SOUMISSIONNAIRES qui souhaitent y participer doivent prendre rendez-vous\npar courriel, à l'adresse suivante : offredeservice@cgmatane.qc.ca . Prenez note qu’aucun rendez-vous ou retour de courriel ne sera\neffectué dans la semaine du 18 octobre 2026.\nPour être recevables,\ntoutes les questions en lien avec le projet doivent être acheminées uniquement\npar courriel à l’adresse suivante : offredeservice@cgmatane.qc.ca . Les questions\nsoumises par téléphone ou envoyées à une autre adresse courriel n’obtiendront\npas de réponse. Si le cas l’exige, un addenda sera émis et sera envoyé par\ncourriel.\nLes soumissions, dans\ndes enveloppes cachetées et adressées à la soussignée, seront reçues local O-111 du Cégep de Matane, jusqu'à, 11h00 en vigueur localement, le 5 novembre 2026 : \nCégep\nde Matane\nAnny\nVilleneuve, coordonnatrice ressources financières\n616,\navenue St-Rédempteur\nMatane\n(Québec) G4W 1L1\nLes Soumissions sont\nouvertes publiquement, en présence d’un témoin, au 616 avenue St-Rédempteur,\nlocal O-214, Matane, le 5 novembre 2026, à 11:05. Les SOUMISSIONNAIRES peuvent assister à\nl’ouverture des Soumissions. Le gestionnaire du dossier ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=591e9454-2d87-4df2-bfa1-52a5d911d5af",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des luminaires dans les chambres d'une résidence du Cégep de Matane. Les travaux sont principalement électriques et impliquent l'installation de luminaires et la désinstallation des anciens.",
+"pointsAttention": [
+"visite obligatoire, délai court, cote de sécurité, milieu occupé, contrat sur demande…"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux électriques et non la maçonnerie, la briquetage ou la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "9975d419-58e2-419e-b064-085034298e28",
+"numero": "RM-C-2026-080-01",
+"titre": "Travaux de désamiantage des plafonds.",
+"organisme": "Centre de services scolaire de l'Énergie",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"abri",
+"bâtiment"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 850000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-05T11:00",
+"publie": "2026-10-15T15:54",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le présent mandat concerne l’immeuble situé au 123, rue Georges, à l’angle de la rue Trudel, à Shawinigan. Il s’agit d’un bâtiment abritant le Centre d’éducation des adultes du Saint-Maurice, comprenant un bâtiment principal construit en 1937 ainsi qu’une section additionnelle érigée dans les années 1950.\nLes plafonds des corridors contiennent de l’amiante devant être encapsulé. Les plafonds suspendus ainsi que les systèmes d’éclairage devront également être remplacés.\nLes plafonds des corridors ciblés devront être démantelés afin de permettre l’encapsulage de l’amiante. De nouveaux plafonds en carreaux acoustiques ainsi que de nouveaux systèmes d’éclairage seront ensuite installés.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9975d419-58e2-419e-b064-085034298e28",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le mandat concerne le désamiantage des plafonds et le remplacement des plafonds suspendus et des systèmes d'éclairage dans un bâtiment scolaire. Les travaux incluent le démantèlement des plafonds pour encapsuler l'amiante et l'installation de nouveaux plafonds acoustiques et d'éclairage.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le désamiantage et le remplacement de plafonds, ce qui n'est pas dans le domaine principal de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"abri",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"abri",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "cb37264c-e346-48e6-9b1f-f455b2112008",
+"numero": "20176609",
+"titre": "Réfection revêtement extérieur centre municipal et caserne",
+"organisme": "Municipalité Sainte-Jeanne-D'arc ( lac saint-jean)",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"caserne",
+"revêtement extérieur",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-11-05T10:00",
+"publie": "2026-10-14T16:53",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151302 - Peinture de bâtiments commerciaux",
+"72151303 - Peinture de bâtiments industriels",
+"95121705 - Caserne de pompiers",
+"95121711 - Centre communautaire"
+],
+"description": "La Municipalité de Sainte-Jeanne-d’Arc sollicite des soumissions pour des travaux de réparation, \nde préparation de surfaces et d’application de peinture, incluant la peinture de la toiture de la \ncaserne d’incendie ainsi que des travaux au centre municipal, comprenant notamment le \nremplacement de certaines sections du revêtement extérieur.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=cb37264c-e346-48e6-9b1f-f455b2112008",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réparation et le remplacement de certaines sections du revêtement extérieur du centre municipal et de la caserne d'incendie. Les travaux incluent la préparation des surfaces et l'application de peinture.",
+"pointsAttention": [
+"délai court (2 mois)"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat inclut explicitement le remplacement de sections du revêtement extérieur, ce qui correspond directement aux intérêts de l'entreprise en maçonnerie/revêtement extérieur.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"revêtement extérieur",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"revêtement extérieur",
+"réfection",
+"caserne"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"revêtement extérieur",
+"réfection",
+"caserne"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "fa52aaf9-4629-4641-953a-645d29f529e1",
+"numero": "3216-24",
+"titre": "Réfection des façades, balcons et escaliers extérieurs",
+"organisme": "Fédération de l'habitation coopérative du Québec (FHCQ)",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"balcon",
+"escalier",
+"façade",
+"réfection",
+"réfection des façades"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-11-05T13:00",
+"publie": "2026-10-08T13:44",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Réfection des façades, des balcons et des escaliers extérieurs, de la Coopérative d'habitation Ste-Thérèse, située au 12-36 rue Mainville, Sainte-Thérèse.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fa52aaf9-4629-4641-953a-645d29f529e1",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à la réfection des façades, des balcons et des escaliers extérieurs de la Coopérative d'habitation Ste-Thérèse.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat concerne directement la réfection des façades, balcons et escaliers extérieurs, ce qui correspond parfaitement aux métiers de maçonnerie et charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"façade",
+"réfection des façades",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"façade",
+"réfection des façades",
+"réfection",
+"balcon",
+"escalier"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"façade",
+"réfection des façades",
+"réfection",
+"balcon",
+"escalier"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "b8b0aa19-173a-48d8-b2db-825164a9eee5",
+"numero": "MAS-2026-057",
+"titre": "Services sur demande d'entretien, de réparation, de déneigement et de déglaçage des toitures des bâtiments municipaux pour 2027 et 2028, avec option de renouvellement pour 2029",
+"organisme": "Ville de Mascouche.",
+"regions": [
+"Lanaudière"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-10-29T10:00",
+"publie": "2026-10-08T10:14",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72152601 - Toiture"
+],
+"description": "Le présent contrat a pour objet la fourniture, sur demande de la Ville, de services spécialisés liés à l’inspection, à l’entretien, à la réparation, au déneigement et au déglaçage des toitures des bâtiments municipaux.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b8b0aa19-173a-48d8-b2db-825164a9eee5",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne la fourniture de services spécialisés liés à l'inspection, l'entretien, la réparation, le déneigement et le déglaçage des toitures des bâtiments municipaux.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien et la réparation de toitures, ce qui n'est pas dans les domaines principaux de la maçonnerie ou de la charpenterie-menuiserie.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "e4f7f8ba-ca92-41f0-bab5-1061e303043d",
+"numero": "BP2616-24009",
+"titre": "Travaux d'optimisation et de réaménagement du sous-sol et de la salle de musique de Stewart Hall ",
+"organisme": "Ville de Pointe-Claire.",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"béton",
+"enveloppe",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-10-30T11:30",
+"publie": "2026-10-08T08:49",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72121103 - Rénovation et réparation d’immeubles commerciaux et de bureaux"
+],
+"description": "APPEL D'OFFRES, La Ville de Pointe-Claire demande des soumissions pour:\nN° Appel d'OffresBP2616-24009N° de Projet24-009\nTitre :Procédure ouverte pour les travaux d'optimisation et de réaménagement du sous-sol et de la salle de musique de Stewart Hall \nDescription du contrat :\nLe projet consiste au réaménagement de deux studios d’art comprenant la réfection complète de la peinture des locaux, l’application d’une finition époxy sur les dalles de béton, l’installation de nouveaux panneaux acoustiques, la modernisation de l’éclairage, l’ajout de prises électriques et de réseau, ainsi que l’ajout d’un nouveau comptoir avec éviers dans l’une des salles d’art. Les travaux comprennent également l’installation d’un mur de casiers dans le vestiaire, la peinture du corridor du sous-sol et l’ajout d’un cabinet d’exposition. Au rez-de-chaussée, le bureau/salle de musique fera l’objet d'une remise à niveau comprenant la peinture du local et l’installation de panneaux acoustiques.\nRenseignements:Service des ressources matérielles et contractuelles\nappro-ado@pointe-claire.ca\nLes documents de soumission peuvent être obtenus auprès de SÉAO, à compter du 08 octobre 2026 en s’adressant au Système électronique d’appel d’offres (SÉAO) à l’adresse suivante : www.seao.gouv.qc.ca ou en communiquant avec le service à la clientèle au 418-646-0177 dans la région de Québec ou au 1-877-336-7326 pour l’extérieur.\n\"La Ville de Pointe-Claire ne s'engage à accepter ni la plus basse, ni aucune des soumissions reçues,\nni à encourir aucun frais d'aucune sorte envers le ou les soumissionnaires.\"\nLes soumissions dans les enveloppes scellées seront reçues au comptoir des services administratifs jusqu’à 11H00, le 29 octobre 2026 et seront ouvertes le même jour, soit à 11H15, à l'Hôtel de Ville de Pointe-Claire.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e4f7f8ba-ca92-41f0-bab5-1061e303043d",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Le projet concerne le réaménagement d'un sous-sol et d'une salle de musique, incluant la réfection de peinture, application de finition époxy sur dalles de béton, installation de panneaux acoustiques et travaux de peinture. Il n'y a aucune mention explicite de travaux majeurs en maçonnerie ou charpenterie.",
+"pointsAttention": [
+"délai court (4 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur des travaux de finition intérieure et de rénovation de sous-sol, sans que la maçonnerie ou la charpenterie ne soient le cœur du contrat.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-05T11:39",
+"soumissions": [
+{
+"nom": "CONSTRUCTION ECODOMUS INC.",
+"montant": 261936.05
+},
+{
+"nom": "AXE CONSTRUCTION INC.",
+"montant": 295428.77
+},
+{
+"nom": "RÉNOVACOEUR RÉNOVATION INC.",
+"montant": 305713.0
+},
+{
+"nom": "CONSTRUCTION PIERRE LALANDE INC.",
+"montant": 319374.11
+},
+{
+"nom": "Concept P.V.R. Inc.",
+"montant": 332582.43
+},
+{
+"nom": "JOMACO inc.",
+"montant": 425959.13
+},
+{
+"nom": "NORGEREQ LTÉE",
+"montant": 435755.25
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 591876.35
+}
+]
+}
+},
+{
+"id": "b303a60d-d034-4a1e-9f34-2bc5ad34491c",
+"numero": "P21059RL-02",
+"titre": "Rénovation des ascenseurs RL1 et RL2 aux résidences René-Lévesque (RL)",
+"organisme": "Université du Québec à Montréal",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment",
+"rénovation"
+],
+"cautionSoumission": "Cautionnement, 10 %",
+"estimation": 814000,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-11-02T11:00",
+"publie": "2026-10-06T08:34",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Université du Québec à Montréal ci-après nommée le\nPropriétaire, ayant son siège au 1430, rue Saint-Denis, H2X 3J8, Montréal,\nQuébec, demande des soumissions pour des\ntravaux de rénovation de deux (2) ascenseurs au pavillon Résidences\nuniversitaires René-Lévesque (RL).\nLes ascenseurs du pavillon RL sont en service depuis\nplus d’une trentaine d’années. Malgré un programme d'entretien, plusieurs\ncomposantes démontrent une usure avancée et certaines approchent de la fin de\nleur vie utile. Le projet consiste en une modernisation des ascenseurs RL1 et\nRL2 du pavillon RL comprenant la modernisation des contrôleurs JTR existants.\nUne mise aux normes est aussi requise pour les manœuvres d'urgence, les\ndispositifs signalétiques (pour les personnes à mobilité réduite) et autres composantes.\nUn rafraichissement de la finition des cabines est aussi à prévoir.\nLe Contrat comprend aussi la récupération de certains\néquipements existants et leur réinstallation. L’Entrepreneur doit considérer\nque les usagers et occupants du bâtiment poursuivront leurs activités durant\nles travaux. L’Entrepreneur devra agir de façon à minimiser les inconvénients\naux usagers et personnel. De même, la cour extérieure, stationnement, accès,\netc., continueront aussi d’être utilisés, durant toute la durée des travaux. L’Entrepreneur\ndevra s’assurer que les usagers auront accès aux locaux et aux aménagements\ndans un climat sécuritaire, salubre et sans discontinuité. \nCeci inclut tous les travaux d’aménagement, tous les\ntravaux de démolition, protection, ragréage et autres nécessaires au\nparachèvement complet de l’Ouvrage et tous les travaux connexes tels :\naménagement et nettoyage du site, ouvrage de protection temporaire, réparations\net modifications des ouvrages d’aménagements intérieurs existants. Tous les\ntravaux de jointement, de réparation, percement, requis pour les travaux des\nprésentes sont inclus. \nL’Entrepreneur aura l’entière responsabilité du\ncontrôle des accès aux lieux, du chantier. Dans les situations où l’Entrepreneur\ndoit exécuter des travaux ailleurs dans le bâtiment ou dans les cas où il doit\nprocéder à des coupures de services électromécaniques, il le fera en dehors des\nheures normales d’occupation par les usagers, d’après les autorisations du Propriétaire.\nDe plus, l'Entrepreneur prendra en charge l'ensemble\ndes deux (2) ascenseurs (entretien et réparations), pendant la durée complète\ndes travaux, en considérant les contraintes suivantes :\n• Un\nascenseur du pavillon fera l’objet de remplacement alors que le deuxième\nappareil devra demeurer en fonction pour permettre le transport des usagers;\n• Pas\nde travaux en simultané sur les ascenseurs RL1 et RL2;\n• Durant\nla période de la mi- août à la mi-septembre 2027, L’UQAM aura besoin que\nl’appareil en travaux soit disponible de façon ponctuelle à raison de quelques\nheures par jour, afin d’assurer le déménagement des effets personnels des\nétudiants qui quittent la Résidence.\nUne période d'entretien de 12 mois à partir de ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b303a60d-d034-4a1e-9f34-2bc5ad34491c",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation et la modernisation de deux ascenseurs (RL1 et RL2) dans les résidences universitaires René-Lévesque. Les travaux incluent la modernisation des contrôleurs, la mise aux normes des dispositifs, le rafraîchissement des finitions des cabines et des travaux connexes d'aménagement et de réparation.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la rénovation d'ascenseurs et non les métiers de la maçonnerie, de la briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05",
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-05T12:02",
+"soumissions": [
+{
+"nom": "ASCENSEURS VERTEC INC.",
+"montant": 685600.0
+},
+{
+"nom": "Ascenseur Néoservices inc.",
+"montant": 792775.0
+}
+]
+}
+},
+{
+"id": "58a1aeb8-96bc-43e5-bf00-a589e54a9075",
+"numero": "2026GE34-AOP",
+"titre": "Éclairage des passages piétonniers secteur C, parc des citoyens et passerelle petit rang Saint-Régis Sud",
+"organisme": "Ville de Saint-Constant.",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"pierre"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "15",
+"surDemande": false,
+"fermeture": "2026-11-05T11:00",
+"publie": "2026-10-01T08:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151501 - Installation d’éclairage",
+"72151511 - Maintenance ou réparation de systèmes d’éclairage"
+],
+"description": "La Ville de Saint-Constant demande des soumissions pour l'éclairage des passages piétonniers secteur C, du parc des citoyens et de la passerelle petit rang Saint-Régis Sud.\nDurée du contrat/calendrier des prestations\nDurée : tel que prévu dans le document d'appel d'offres\nOption de renouvellement: aucun\nProcédure ouverte d'attribution\nLe contrat est attribué au soumissionnaire ayant présenté la soumission conforme avec le prix proposé le plus bas.\nTransmission, réception et ouverture des soumissions\nLes soumissions devront être reçues avant 11 h 00, le 22 octobre 2026.\nL'ouverture publique des soumissions aura lieu au plus tard à 11 h 00, le 22 octobre 2026.\nLes soumissions peuvent alternativement être transmises par voie électronique. Cette transmission ne peut s'effectuer que par l'intermédiaire du SEAO et conformément à la procédure prescrite par celui-ci.\nLes heures d'ouverture du lieu de réception indiqué ci-dessous sont les suivantes : du lundi au jeudi de 8 h 30 à 16 h 30 et le vendredi de 8 h 30 à 13 h 00.\nDivision approvisionnements\n147, rue Saint-Pierre\nSaint-Constant, Québec\nJ5A 0W6\nLes résultats du présent appel d'offres seront publiés dans le SEAO.\nÉgalité des soumissions\nEn cas d’égalité, le contrat est attribué par tirage au sort.\nRéserve\nLa Ville de Saint-Constant ne s'engage à accepter ni la plus basse ni aucune des soumissions reçues.\nAccords intergouvernementaux applicables\nL’appel d’offres est assujetti à l'accord suivant :\n- Accord de commerce et de coopération entre le Québec et l’Ontario(ACCQO);",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=58a1aeb8-96bc-43e5-bf00-a589e54a9075",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'éclairage des passages piétonniers, du parc des citoyens et de la passerelle petit rang Saint-Régis Sud.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-05T11:48",
+"soumissions": [
+{
+"nom": "CONSTRUCTION TECHROC INC.",
+"montant": 429000.0
+},
+{
+"nom": "LE GROUPE LML LTÉE",
+"montant": 458212.17
+},
+{
+"nom": "Groupe Kilo",
+"montant": 462784.12
+},
+{
+"nom": "SENTERRE INC.",
+"montant": 524295.0
+},
+{
+"nom": "NÉOLECT INC.",
+"montant": 539750.14
+},
+{
+"nom": "LES ENTREPRISES GUY BEAULIEU 2009 INC.",
+"montant": 540078.97
+},
+{
+"nom": "URBEX CONSTRUCTION",
+"montant": 661929.47
+}
+]
+}
+},
+{
+"id": "2a9261d1-cdf9-454c-b62e-fdef2ae5588a",
+"numero": "2026CNT054",
+"titre": "Travaux pour le remplacement de la salle de graphie #4 à l'Hôpital de Montmagny.",
+"organisme": "Santé Québec Chaudière-Appalaches",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission \néquivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission.",
+"estimation": 165000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-10-27T13:30",
+"publie": "2026-09-28T11:34",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "AVIS –\nAPPEL D’OFFRES – 2026CNT054\nOBJET\nSANTÉ QUÉBEC Chaudière-Appalaches désire conclure un contrat pour les Travaux pour le remplacement de la salle de graphie #4\nà l'Hôpital de Montmagny.\nOPTION\nCet avis ne comporte aucune option de renouvellement ou de prolongation.\nCALENDRIER DE RÉALISATION DES\nTRAVAUX\nL’adjudicataire devra effectuer les\ntravaux entre le 16 novembre 2026 et le 22 janvier 2027.\nADRESSE DES TRAVAUX\nLes travaux seront réalisés à\nl’Hôpital de Montmagny \n350 boulevard Taché Ouest, Montmagny\nG5V 3R8\nENDROIT OÙ SE PROCURER LES\nDOCUMENTS\nLes\ndocuments d’appel d’offres seront obtenus via le SEAO.\nCLÔTURE DES OFFRES ET DÉPÔT\nDES SOUMISSIONS\nLes soumissions seront reçues jusqu’à\nla date et heure inscrits sur l’avis ou tout addenda subséquent. Les\nsoumissions peuvent être transmises par voie électronique via le SEAO uniquement.\nLes soumissions qui ne sont pas\ntransmises par voie électronique doivent être envoyées à l’adresse suivante:\nSANTÉ QUÉBEC Chaudière-Appalaches \nService de la gestion contractuelle\n253, route\n108 \nBeauceville, QC (Québec) \nG5X 2Z3\nLe nom et l’adresse du soumissionnaire\nainsi que le numéro de l’appel d’offres doivent être inscrits à l’extérieur de\nl’enveloppe.\nOUVERTURE DES SOUMISSIONS\nL’ouverture des soumissions sera effectuée par les personnes désignées de SANTÉ\nQUÉBEC Chaudière-Appalaches, immédiatement après la clôture au lieu, date et\nheure indiqués au document d’appel d’offres. L’ouverture des soumissions est\npublique.\nACCEPTATION DES SOUMISSIONS\nSANTÉ QUÉBEC Chaudière-Appalaches ne s’engage à accepter ni la plus basse ni\naucune des soumissions.\nCONFORMITÉ\nLes biens proposés dans la soumission doivent être conformes à la description\nou aux exigences techniques au devis. Si le soumissionnaire n’est pas en mesure\nde se conformer à l’une ou l’autre des exigences techniques, il serait de\nrigueur que le soumissionnaire contacte le gestionnaire du dossier afin de\nvérifier si une alternative est possible par l'émission d'un addenda.\nCOMMUNICATION\nPour toute demande d’information supplémentaire, vous pouvez communiquer avec :\nLisa-Marie Poulin\nTéléphone : 418-380-8996 Poste 30122\nCourriel : lisa-marie.poulin.cisssca@ssss.gouv.qc.ca",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2a9261d1-cdf9-454c-b62e-fdef2ae5588a",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux pour le remplacement de la salle de graphie #4 à l'Hôpital de Montmagny. La durée prévue pour les travaux est de 12 mois, avec une estimation de 165 000 $.",
+"pointsAttention": [
+"délai court (travaux entre le 16 novembre 2026 et le 22 janvier 2027)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la construction/rénovation d'un bâtiment, où la maçonnerie ou la charpenterie pourraient être un lot, mais aucun mot-clé spécifique n'est présent.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
+},
+{
+"id": "9e34d79c-586b-4b61-83a7-e66f9e1a2d4b",
+"numero": "13376",
+"titre": "ABP-11515 – Alimentation d’urgence ABP",
+"organisme": "Université Laval",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie\nde soumission équivalant à DIX POUR CENT (10%) du prix total proposé\ndans sa Soumission. Cette garantie de soumission doit être produite sous la\nforme d'un cautionnement émis en faveur de l’ORGANISME PUBLIC par une\nInstitution Financière telle que définie à la clause 0.01.13\ndes présentes, qui doit être conforme aux dispositions du modèle de\ncautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de\nSoumission.",
+"estimation": 920000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-10-29T11:30",
+"publie": "2026-08-20T13:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Les travaux\n consistent à démanteler la génératrice existante du pavillon Abitibi-Price\n (ABP), ainsi que tous les équipements pétroliers associés. L’urgence du\n pavillon ABP sera alimenté par la génératrice du pavillon voisin le Gene H.\n Kruger (GHK). Les travaux consistent donc aussi à raccorder l’urgence du\n pavillon ABP au pavillon GHK. De plus, les travaux consistent à implanter,\n pour ces deux pavillons concernés, des équipements permettant de raccorder une\n génératrice temporaire et un transformateur extérieur pour faire face à un\n bris des équipements des pavillons.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9e34d79c-586b-4b61-83a7-e66f9e1a2d4b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Les travaux consistent à démanteler une génératrice existante et à raccorder l'alimentation d'urgence entre deux pavillons. Il s'agit d'implémenter des équipements pour une génératrice temporaire et un transformateur extérieur.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux d'alimentation électrique et de générateurs, ce qui n'est pas pertinent pour les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-05"
 }
 ]
 }
