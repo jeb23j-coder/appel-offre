@@ -28280,7 +28280,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "La municipalité souhaite réaménager un bâtiment existant destiné à accueillir la bibliothèque municipale. La durée prévue pour ce projet est de 6 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne la réaménagement d'un bâtiment où la maçonnerie ou la charpenterie pourraient être impliquées, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "f7c4a838-63b4-45dd-9736-9abea0c78098",
@@ -28354,7 +28366,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un nouveau centre communautaire. Les mots-clés trouvés incluent 'enveloppe', ce qui suggère des travaux sur la structure et l'extérieur du bâtiment.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment, ce qui correspond à la cible, mais la description ne spécifie pas clairement que la maçonnerie ou la charpenterie est le travail principal.",
+"version": 3
+}
 },
 {
 "id": "9f67c835-a509-434c-a364-c522224b3049",
@@ -28428,7 +28452,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la fourniture de services en électricité pour le Centre de services scolaire De La Jonquière. Le montant estimé est de 900 000 $ pour une durée prévue de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'électricité et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
