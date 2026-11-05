@@ -87,8 +87,15 @@ def fusionner(store, releases):
         ocid = r.get("ocid")
         if not ocid or (ocid not in store and not est_batiment(t)):
             continue
-        vus += 1
         f = store.setdefault(ocid, {"ocid": ocid, "addendas": 0, "annule": False, "soumissions": [], "gagnants": []})
+        # Les fichiers hebdo et mensuels se recoupent : un même événement n'est appliqué qu'une fois
+        rid = r.get("id") or r.get("date")
+        deja = f.setdefault("evts", [])
+        if rid in deja:
+            continue
+        deja.append(rid)
+        del deja[:-60]
+        vus += 1
         tags = r.get("tag") or []
         noms = {p.get("id"): p.get("name") for p in r.get("parties") or []}
         acheteur = next((p for p in r.get("parties") or [] if "buyer" in (p.get("roles") or [])), None)
@@ -149,6 +156,8 @@ def publier(store):
     def ouvert(f):
         return not f["annule"] and f.get("statut") == "active" and (f.get("fin") or "") >= maintenant.isoformat()
 
+    # « evts » sert seulement à éviter les doublons : on ne le publie pas
+    fiches = [{k: v for k, v in f.items() if k != "evts"} for f in fiches]
     ouverts = sorted((f for f in fiches if ouvert(f)), key=lambda f: f.get("fin") or "")
     contrats = sorted((f for f in fiches if f["gagnants"] or f["soumissions"]), key=lambda f: f.get("maj") or "", reverse=True)
 
