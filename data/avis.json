@@ -27050,7 +27050,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne le remplacement du système d'appel de garde au CHSLD René-Lavoie. Les travaux sont prévus du 11 janvier 2027 au 05 mars 2027 pour un montant estimé de 185 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux de systèmes d'appel de garde et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5376486b-9f3f-4ada-a32d-0aca287d85e2",
@@ -27151,7 +27163,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation mineure d'un poste de contrôle routier, incluant la réparation de fissures dans la dalle de béton, le remplacement de systèmes mécaniques et la démolition/reconstruction partielle des trottoirs et du pavage extérieurs.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est axé sur des travaux de béton et de rénovation mineure qui ne correspondent pas au cœur de métier principal (maçonnerie/charpenterie) de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "285bbf9e-8a13-48cb-9e9e-56de5f996d4d",
@@ -27216,7 +27240,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une chaudière au gaz par une chaudière électrique pour l'Edifice Foucher. Le montant estimé est de 140 000,00 $ pour une durée prévue d'un mois.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation et le remplacement d'une chaudière, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "bcf71d8a-461d-405d-8e56-c5117ea2958a",
@@ -27315,7 +27351,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne le remplacement des portes et fenêtres, la réfection de la maçonnerie et la remise en état des métaux ouvrés d'un immeuble à Montréal. La durée prévue est de 3 mois.",
+"pointsAttention": [
+"Visite des lieux n'est pas obligatoire"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du contrat est la réfection de la maçonnerie et des éléments extérieurs, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "83073001-fd5c-4740-918a-8d694721ae67",
@@ -27381,7 +27429,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement d'un local et l'installation d'un équipement laveur de cages au HGM L13-108.",
+"pointsAttention": [
+"non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7e354656-4e37-427d-8a42-c7813395a33a",
@@ -27464,7 +27524,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la chaudière électrique du Cégep de Baie-Comeau. Les travaux incluent l'enlèvement de l'ancienne chaudière, l'installation de la nouvelle, des modifications pour l'alimentation en eau et la construction d'une dalle de béton.",
+"pointsAttention": [
+"délai court (ouverture des soumissions le 7 décembre 2026)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'installation de plomberie/chauffage et la construction d'une dalle de béton, ce qui n'est pas dans le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "0262208b-4edb-4a8e-93da-78dcf4df569c",
@@ -27579,7 +27651,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 95,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection partielle du revêtement extérieur en brique d'argile, l'ajout d'imperméabilisation et d'isolation à l'enveloppe du bâtiment, ainsi que le remplacement de fenêtres et de portes.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai de travaux de 15 octobre 2027"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est centré sur la maçonnerie (revêtement extérieur en brique) et inclut des travaux connexes de menuiserie (fenêtres et portes), ce qui correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "e83dc11d-2fe7-4bad-9713-b2ac76b9a24d",
@@ -27657,7 +27742,23 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation de bornes de recharge publiques pour véhicules électriques, incluant des travaux civils comme la dalle de béton, les conduits, l'excavation et le remblayage, ainsi que le raccordement électrique.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur les travaux électriques et civils (béton) et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "689ad396-d613-49ef-8c8e-2b1c8996f4f3",
@@ -27738,7 +27839,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection du revêtement de plancher dans un service alimentaire à l'Hôpital de la Cité-de-la-Santé de Laval. Les travaux impliquent la démolition, les travaux temporaires, les confinements sanitaires et la coordination avec les activités continues de l'hôpital.",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la pose de planchers et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0aff9537-c076-4d63-a214-1ba2eaf21413",
@@ -27800,7 +27913,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement de l'Unité de courte durée gériatrique de l'Hôtel-Dieu de Lévis. Les travaux sont prévus de février jusqu'à l'été 2028, avec un montant estimé de 2 425 000 $.",
+"pointsAttention": [
+"Délai de réalisation long (jusqu'à l'été 2028)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement de bâtiment où les métiers de la maçonnerie et de la charpenterie/menuiserie sont probablement impliqués, mais le descriptif ne précise pas clairement la nature principale des travaux.",
+"version": 3
+}
 },
 {
 "id": "49cb54f5-e8d1-49ee-8990-f3ce1939801a",
@@ -27863,7 +27988,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'avis concerne la déconstruction complète du Colisée de Québec afin de libérer le site pour un futur développement. L'entrepreneur est responsable de la planification, de la conception des méthodes de travail et de l'exécution des travaux de déconstruction.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la déconstruction et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "897d1099-ab37-431b-8883-6ee70330d5a1",
@@ -27949,7 +28090,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des systèmes de ventilation au toit d'un centre de formation professionnel, impliquant des modifications structurelles et des interventions sur l'enveloppe de la toiture. Les travaux sont prévus entre janvier 2027 et octobre 2028.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai d'exécution de 2 ans (janvier 2027 au 1er octobre 2028)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la ventilation et les modifications de toiture, et n'inclut pas de travaux majeurs en maçonnerie ou charpenterie/menuiserie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "8b716fba-10da-4d79-b002-a9068be9014f",
@@ -28044,7 +28198,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation d'une école incluant le remplacement de fenêtres, de portes extérieures, de grilles, le remplacement de revêtements extérieurs et des travaux de maçonnerie, ainsi que des rénovations intérieures.",
+"pointsAttention": [
+"Délai de 6 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut clairement des travaux majeurs en maçonnerie et en rénovation de façade, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
