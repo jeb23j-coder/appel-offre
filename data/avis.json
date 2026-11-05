@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-05T16:22",
-"seaoLus": 342,
-"retenus": 345,
-"nouveaux": 13,
+"date": "2026-11-05T18:57",
+"seaoLus": 345,
+"retenus": 348,
+"nouveaux": 3,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -27050,7 +27050,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -27163,7 +27163,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -27240,7 +27240,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -27351,7 +27351,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 90,
 "type": "Maçonnerie",
@@ -27429,7 +27429,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -27524,7 +27524,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -27651,7 +27651,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 95,
 "type": "Maçonnerie",
@@ -27742,7 +27742,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -27839,7 +27839,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -27913,7 +27913,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -27988,7 +27988,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -28090,7 +28090,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -28198,7 +28198,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 90,
 "type": "Maçonnerie",
@@ -28211,6 +28211,224 @@
 "raison": "Le projet inclut clairement des travaux majeurs en maçonnerie et en rénovation de façade, ce qui correspond directement aux compétences de l'entreprise.",
 "version": 3
 }
+},
+{
+"id": "5102add0-45e4-4ad5-b987-8301d8b7620c",
+"numero": "2917-23",
+"titre": "Travaux d'aménagement d'un bâtiment à vocation culturelle",
+"organisme": "Municipalité de la Paroisse de Lac-aux-Sables",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-12-01T14:00",
+"publie": "2026-11-05T16:55",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "La municipalité désire réaménager une bâtiment à vocation culturelle accueillant la bibliothèque municipale. Ce bâtiment est situé au 381, rue Principale à Lac-aux-Sables.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=5102add0-45e4-4ad5-b987-8301d8b7620c",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-01 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "820, rue St-Alphonse Lac-aux-Sables QC CAN G0X1M0",
+"ouverture": "2026-12-01 14:00 Heure légale du Québec",
+"adresseOuverture": "820, rue St-Alphonse Lac-aux-Sables QC CAN G0X1M0"
+},
+"conditions": [],
+"vuLe": "2026-11-05T18:55",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "f7c4a838-63b4-45dd-9736-9abea0c78098",
+"numero": "26-255394",
+"titre": "Nouveau Centre Communautaire - Saint-François-du-Lac",
+"organisme": "Municipalité Saint-François du Lac",
+"regions": [
+"Centre-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "19",
+"surDemande": false,
+"fermeture": "2026-11-30T11:00",
+"publie": "2026-11-05T16:23",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"95121711 - Centre communautaire"
+],
+"description": "La\nmunicipalité de Saint-François-du-Lac, propriétaire, demande des soumissions\npour des travaux pour un nouveau centre communautaire, au 10, rue du Centre\ncommunautaire, à Saint-François-du-Lac. Seuls sont autorisés à soumissionner\npour l'exécution des travaux, les entrepreneurs de construction au sens de la\nloi sur la qualification des entrepreneurs de construction (L.R.Q., chap. Q-1)\nqui ont leur principale place d'affaires dans la province de Québec.\nChacune\ndes soumissions (l'original et deux (2) copies) dans une enveloppe scellée,\nportant la mention « NOUVEAU CENTRE COMMUNAUTAIRE – SAINT-FRANÇOIS-DU-LAC », valide\npour cent vingt jours (120) jours, sera reçue jusqu'au 30\nnovembre 2026 à 11:00 heure, heure locale, à l’Hôtel de ville de\nSaint-François-du-Lac situé au 400, rue Notre-Dame, Saint-François-du-Lac\n(Québec) J0G 1M0,pour être ouvertes\npubliquement, au même jour et à la même heure. \nLes\nentrepreneurs soumissionnaires sont tenus responsables du choix de leurs\nsous-traitants, tant pour leur solvabilité que pour le contenu de leur\nsoumission.\nLes\nplans, devis et autres renseignements pourront être obtenus à compter du 6 novembre\n2026.Les\nintéressés pourront obtenir les documents de soumission au Service électronique\nd’appels d’offres (SEAO) en communiquant avec l’un des représentants par\ntéléphone au numéro 1 866 669-7326 ou en consultant le site Web à l’adresse\n(http ://www.seao.ca/). Les documents peuvent être obtenus au coût établi par\nSEAO. Toutes les questions devront être assignées à l’architecte Charles Seyer,\nà l’adresse courriel cseyer@architectes.ca.\nLa\nmunicipalité de Saint-François-du-Lac ne s’engage à accepter ni la plus basse\nni aucune des soumissions reçues et de n'encourir aucune poursuite ou\nréclamation pour frais ou pertes subis par les soumissionnaires. De plus,\nla municipalité de Saint-François-du-Lac n’encourt aucune responsabilité du\nfait que les avis écrits ou documents quelconques véhiculés par système\nélectronique soient incomplets ou comportent quelque erreur ou omission que ce\nsoit. En conséquence, tout soumissionnaire doit s’assurer, avant de\nsoumissionner, d’obtenir tous les documents reliés à cet appel d’offres.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f7c4a838-63b4-45dd-9736-9abea0c78098",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "400, rue Notre-Dame Saint-François-du-Lac QC CAN J0G1M0",
+"ouverture": "2026-11-30 11:00 Heure légale du Québec",
+"adresseOuverture": "400, rue Notre-Dame Saint-François-du-Lac QC CAN J0G1M0"
+},
+"conditions": [],
+"vuLe": "2026-11-05T18:56",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "9f67c835-a509-434c-a364-c522224b3049",
+"numero": "STC-002-2026",
+"titre": "Fourniture de service en électricité",
+"organisme": "Centre de services scolaire De La Jonquière.",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), 5 000 $",
+"estimation": 900000,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2026-11-26T11:00",
+"publie": "2026-11-05T16:20",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "APPEL D'OFFRES DE SOUMISSION\nPROJET\nFourniture de\nservice en électricité\nN/D: STC-002\nPROPRIÉTAIRE\nCentre de services\nscolaire De La Jonquière\n3644, rue\nSaint-Jules\nSaguenay, arr. de\nJonquière (Québec) G7X 2K9\nTél. : 418-542-7551 Téléc. : 418-547-6785\nObtention des documents\nLes documents\nd’appel d’offres et, le cas échéant, tout addenda les modifiant ne peuvent être\nobtenus que par l’intermédiaire du système électronique d’appel d’offres (SÉAO). Les renseignements nécessaires à la préparation de votre\noffre peuvent être obtenus auprès de Mme Nathalie Riverin, coordonnatrice au Service des ressources matérielles du\nCentre de services scolaire De La Jonquière, au numéro de téléphone\n418-542-7551 poste 4298, ou par courrier électronique à l’adresse rm.appro@cssdlj.gouv.qc.ca.\nGarantie de soumission\nChèque\nvisé, traite bancaire ou cautionnement de soumission au montant de cinq mille\ndollars (5 000,00 $), valide pour une période de trente jours.\nDépôt et ouverture des soumissions\nLe jeudi 26 novembre 2026 à 11 h, au 3644, rue Saint-Jules, Saguenay, arrondissement de\nJonquière (Québec).\nSoumissionnaires\nSeules seront\nconsidérées aux fins d’octroi du contrat à exécution sur demande, les\nsoumissions des fournisseurs ayant un établissement au Québec ou, lorsqu’un\naccord intergouvernemental est applicable, au Québec ou dans une province ou un\nterritoire visé par cet accord et détenant, le cas échéant, la licence requise\nen vertu de la Loi\nsur le bâtiment (L.R.Q., c. B.-1.1).\nLe propriétaire ne\ns'engage à accepter aucune des soumissions reçues.\nDonné à Saguenay,\narrondissement de Jonquière, ce 5e jour du mois de novembre 2026.\nSteeve Néron, directeur général adjoint",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9f67c835-a509-434c-a364-c522224b3049",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "3644, rue Saint-Jules Jonquière QC CAN G7X2K9",
+"ouverture": "2026-11-26 11:00 Heure légale du Québec",
+"adresseOuverture": "3644, rue Saint-Jules Jonquière QC CAN G7X2K9"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-05T18:56",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
