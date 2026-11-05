@@ -27352,7 +27352,19 @@
 "patrimonial"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le projet vise à restaurer et préserver l'architecture patrimoniale du site tout en intégrant de nouvelles infrastructures modernes. Ce lot concerne l'acier structurel et le renfort structurel.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'acier structurel et non directement la maçonnerie ou la charpenterie/menuiserie comme cœur du travail.",
+"version": 3
+}
 },
 {
 "id": "2f8c3415-6c30-4403-845e-67599c4296fa",
@@ -27422,7 +27434,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne le remplacement d'équipements électriques et de la génératrice d'urgence à une école secondaire, ainsi que le réaménagement d'une salle mécanique. Les travaux incluent des modifications électriques, mécaniques et architecturales connexes.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas directement les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
