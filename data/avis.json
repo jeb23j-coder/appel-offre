@@ -26688,7 +26688,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition sélective du Centre d’hébergement Louis-Denoncourt. Le montant estimé est de 1 600 000 $ et la durée prévue est de 3 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de bâtiment où les métiers de la maçonnerie et de la charpenterie pourraient être sollicités, mais le titre se concentre sur la démolition.",
+"version": 3
+}
 },
 {
 "id": "3de5a9dc-79a5-4909-a30d-2bd68ca93cd6",
@@ -26777,7 +26789,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet consiste à construire un bâtiment annexe pour une nouvelle entrée électrique à l'école Jean-Baptiste-Meilleur, incluant le démantèlement de l'entrée électrique existante et le remplacement de tuiles de plafond d'amiante.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment qui nécessite des travaux de construction, mais le cœur n'est pas explicitement la maçonnerie ou la charpenterie, il faut vérifier la répartition des lots.",
+"version": 3
+}
 },
 {
 "id": "a60cf5ff-0d7a-4616-b25c-3009a29e4ec2",
@@ -26863,7 +26887,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le désamiantage des plafonds suspendus dans une école. Les travaux incluent la démolition des plafonds, la construction de nouveaux plafonds et le remplacement de calorifugeage contenant de l'amiante.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux spécialisés en désamiantage et ne touche ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c69d8e36-f77b-4ea6-8d0c-8163ea3c8e53",
@@ -26949,7 +26986,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réfection de la salle mécanique d'une école. Le projet est estimé à 900 000 $ et la durée prévue est de 7 mois.",
+"pointsAttention": [
+"Visite obligatoire le mercredi 11 novembre 2026."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux de réfection, ce qui peut inclure des lots de maçonnerie ou charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "472c1a5b-b6c4-42a5-818c-b79b6be51e54",
@@ -27010,7 +27059,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'aménagement d'un service de garde municipal à Caplan. La durée prévue du projet est de 4 mois.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un aménagement de bâtiment, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "4b70c09d-0fcd-4bc6-9528-19ba23c36548",
@@ -27089,7 +27150,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "Les travaux consistent à mettre aux normes des systèmes de gicleurs à l'antigel existants par des systèmes sous air ou antigel conformes, impliquant des travaux de percement de béton, de plomberie, d'électricité et d'alarme-incendie associés.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne principalement des travaux de mise aux normes de systèmes techniques et de percement de béton, sans lien direct avec les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "58c7de20-f897-4627-af3d-6b0ea1d1d61b",
@@ -27176,7 +27249,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture d'un bâtiment situé à St-Gabriel. Le projet est estimé pour une durée d'un mois.",
+"pointsAttention": [
+"Visite obligatoire (le soumissionnaire doit la faire lui-même)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "dd5f0b87-a080-4382-915e-a54897bf80dd",
@@ -27248,7 +27333,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation intérieure et extérieure de la salle Lionel-Renaud. Les travaux intérieurs sont estimés à 18 semaines et les travaux extérieurs à 28 semaines.",
+"pointsAttention": [
+"Visite des lieux : obligatoire, sur rendez-vous dans les délais prescrits aux documents d’appel d’offres."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de rénovation intérieure et extérieure, ce qui englobe potentiellement des aspects de maçonnerie et/ou charpenterie, et l'entreprise peut soumissionner.",
+"version": 3
+}
 },
 {
 "id": "a8225463-5926-45ec-960e-6bf64a1a01d6",
@@ -27321,7 +27418,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de tous les matériaux, quincaillerie, équipements et main-d'œuvre pour l'installation de portes, cadres et quincaillerie pour l'Hôtel Casino de Montréal. La durée prévue du projet est de 24 mois.",
+"pointsAttention": [
+"Visite de chantier obligatoire le 17 novembre 2026."
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne principalement l'installation de portes et cadres, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "2c5f7064-5cbd-485e-a4ce-33d1d7a88ff9",
@@ -27399,7 +27508,19 @@
 "cloison"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la fourniture de tous les matériaux, quincaillerie, équipements et main-d'œuvre pour les travaux de murs de l'enveloppe, parapets et cloisons intérieures d'un hôtel. Les codes de travaux mentionnent le plâtrage et la pose de cloisons sèches.",
+"pointsAttention": [
+"Visite de chantier : mardi le 17 novembre 2026, à 9h00, heure locale"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de murs de l'enveloppe et de cloisons intérieures, ce qui correspond aux compétences de maçonnerie et de menuiserie/finition intérieure.",
+"version": 3
+}
 },
 {
 "id": "25c46cbb-f179-41a4-a877-d693bdfe4cab",
@@ -27503,7 +27624,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à remplacer la maçonnerie des façades de la bibliothèque, ainsi que les fenêtres et les colonnes soutenant la marquise de l'école primaire. Les travaux incluent également la reconstruction de la dalle sous la marquise.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne directement la maçonnerie et le remplacement de fenêtres, ce qui correspond parfaitement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
