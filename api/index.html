@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>API Radar Chantier · données ouvertes SEAO</title>
+<style>
+:root { --bg: #eceff2; --surface: #fff; --ink: #17212b; --muted: #5c6773; --line: #dce1e7; --nuit: #1b2632; --brique: #b4462c; --brique-soft: #f7e4dd;
+  --f-display: "Bricolage Grotesque", "Archivo", "Arial Narrow", system-ui, sans-serif; --f-body: "IBM Plex Sans", system-ui, "Segoe UI", sans-serif; --f-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--f-body); }
+::selection { background: var(--brique-soft); }
+a { color: var(--brique); text-underline-offset: .18em; }
+header { background: var(--nuit); color: #e9eef3; border-bottom: 3px solid var(--brique); }
+.wrap { max-width: 880px; margin: 0 auto; padding: 0 18px; }
+header .wrap { padding-block: 26px 22px; }
+h1 { margin: 0; font-family: var(--f-display); font-size: 2rem; letter-spacing: -.02em; line-height: 1.1; }
+header p { margin: 8px 0 0; color: #a7b3c0; max-width: 62ch; }
+main { padding: 22px 0 60px; display: grid; gap: 16px; }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+h2 { margin: 0 0 10px; font-family: var(--f-display); font-size: 1.25rem; }
+p { margin: 0 0 10px; max-width: 70ch; }
+.chiffres { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.chiffres div { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; background: var(--bg); }
+.chiffres b { display: block; font-family: var(--f-display); font-size: 1.6rem; font-variant-numeric: tabular-nums; }
+.chiffres span { font-size: .86rem; color: var(--muted); }
+table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+th, td { text-align: left; padding: 9px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: .85rem; color: var(--muted); }
+code { font-family: var(--f-mono); font-size: .88em; background: var(--bg); padding: 1px 5px; border-radius: 5px; overflow-wrap: anywhere; }
+pre { background: var(--nuit); color: #e9eef3; border-radius: 10px; padding: 12px 14px; overflow-x: auto; font: .86rem/1.5 var(--f-mono); }
+.source { font-size: .9rem; color: var(--muted); border-left: 3px solid var(--brique); padding-left: 12px; }
+@media (max-width: 640px) { .chiffres { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>API Radar Chantier</h1>
+  <p>Les appels d'offres publics en bâtiment (catégorie C01) du Québec : avis ouverts, contrats accordés, soumissionnaires et prix. Données officielles de SEAO, mises à jour chaque jour.</p>
+</div></header>
+<main class="wrap">
+  <section>
+    <h2>En ce moment</h2>
+    <div class="chiffres">
+      <div><b id="n-avis">…</b><span>avis ouverts</span></div>
+      <div><b id="n-contrats">…</b><span>contrats avec résultats</span></div>
+      <div><b id="n-ent">…</b><span>entreprises</span></div>
+      <div><b id="n-org">…</b><span>donneurs d'ouvrage</span></div>
+    </div>
+    <p style="margin-top:10px;color:var(--muted);font-size:.9rem">Mise à jour : <span id="maj">…</span></p>
+  </section>
+
+  <section>
+    <h2>Points d'accès</h2>
+    <p>Chaque adresse renvoie un fichier JSON : <code>{ source, miseAJour, nombre, donnees: [...] }</code>.</p>
+    <table>
+      <tr><th>Adresse</th><th>Contenu</th></tr>
+      <tr><td><a href="v1/index.json"><code>v1/index.json</code></a></td><td>Description, licence, compteurs et date de mise à jour.</td></tr>
+      <tr><td><a href="v1/avis-ouverts.json"><code>v1/avis-ouverts.json</code></a></td><td>Appels d'offres en cours, du plus urgent au moins urgent : titre, organisme, ville, date limite officielle, addendas, lien SEAO.</td></tr>
+      <tr><td><a href="v1/contrats.json"><code>v1/contrats.json</code></a></td><td>Résultats : chaque soumissionnaire et son prix (du plus bas au plus haut) et l'entreprise retenue avec le montant. Inclut les appels sur invitation.</td></tr>
+      <tr><td><a href="v1/entreprises.json"><code>v1/entreprises.json</code></a></td><td>Par entreprise : soumissions, contrats gagnés, montant gagné, taux de succès, soumission médiane.</td></tr>
+      <tr><td><a href="v1/organismes.json"><code>v1/organismes.json</code></a></td><td>Par donneur d'ouvrage : avis publiés, nombre moyen de soumissionnaires, villes.</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Exemple</h2>
+<pre>const r = await fetch("https://jeb23j-coder.github.io/appel-offre/api/v1/contrats.json");
+const { donnees } = await r.json();
+const briques = donnees.filter((c) => /brique|maçonnerie|façade/i.test(c.titre));
+console.log(briques[0].soumissions); // [{ entreprise, montant }, ...]</pre>
+  </section>
+
+  <section>
+    <h2>Source et licence</h2>
+    <p class="source" id="source">Source : Système électronique d'appel d'offres (SEAO), Secrétariat du Conseil du trésor du Québec, via <a href="https://www.donneesquebec.ca/recherche/dataset/systeme-electronique-dappel-doffres-seao">Données Québec</a>, licence <a href="https://www.donneesquebec.ca/licence/#cc-by">CC-BY 4.0</a>. Données traitées par Radar Chantier.</p>
+    <p>SEAO publie ces fichiers chaque semaine, avec quelques jours de décalage. Pour les tout nouveaux avis, Radar Chantier utilise aussi son balayage quotidien. La date limite affichée est toujours la date officielle de SEAO.</p>
+  </section>
+</main>
+<script>
+fetch("v1/index.json?t=" + Date.now()).then((r) => r.json()).then((m) => {
+  const c = m.compteurs || {}, fr = (n) => (n ?? 0).toLocaleString("fr-CA");
+  document.getElementById("n-avis").textContent = fr(c.avisOuverts);
+  document.getElementById("n-contrats").textContent = fr(c.contrats);
+  document.getElementById("n-ent").textContent = fr(c.entreprises);
+  document.getElementById("n-org").textContent = fr(c.organismes);
+  document.getElementById("maj").textContent = new Date(m.miseAJour).toLocaleString("fr-CA", { dateStyle: "long", timeStyle: "short" });
+}).catch(() => { document.getElementById("maj").textContent = "non disponible"; });
+</script>
+</body>
+</html>

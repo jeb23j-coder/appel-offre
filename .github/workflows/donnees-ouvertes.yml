@@ -1,0 +1,48 @@
+name: API données ouvertes SEAO
+
+on:
+  schedule:
+    # 10 h UTC = 6 h au Québec : SEAO publie le fichier de la semaine le lundi
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      neuf:
+        description: "Repartir de zéro (oui/non)"
+        default: "non"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: donnees-ouvertes
+  cancel-in-progress: false
+
+jobs:
+  api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Lire les données ouvertes SEAO et publier l'API
+        run: |
+          if [ "${{ github.event.inputs.neuf }}" = "oui" ]; then python scanner/donnees_ouvertes.py --neuf --mois 6; else python scanner/donnees_ouvertes.py; fi
+
+      - name: Publier
+        run: |
+          git config user.name "appel-offre-bot"
+          git config user.email "appel-offre-bot@users.noreply.github.com"
+          git add api/v1 data/od
+          git diff --cached --quiet && { echo "Rien de nouveau"; exit 0; }
+          git commit -m "API données ouvertes SEAO $(date -u +%F)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep $((i * 15))
+          done
+          exit 1
