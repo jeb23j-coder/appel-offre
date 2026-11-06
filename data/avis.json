@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-06T12:51",
+"date": "2026-11-06T15:43",
 "seaoLus": 351,
 "retenus": 354,
-"nouveaux": 13,
+"nouveaux": 3,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -8125,83 +8125,6 @@
 }
 },
 {
-"id": "b050d6fa-f0e3-4cd8-abd9-a1ab9627613b",
-"numero": "AM011820",
-"titre": "Estrie / CA Granby -  Installation d'infrastructure électrique intérieure et extérieure pour électrification des transport",
-"organisme": "Hydro-Québec.",
-"regions": [
-"Estrie"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [
-"bâtiment"
-],
-"cautionSoumission": "Cautionnement, Garantie de soumission: 10.00 %",
-"estimation": null,
-"dureeMois": "14",
-"surDemande": false,
-"fermeture": "2026-11-02T14:00",
-"publie": "2026-10-08T13:45",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72101510 - Maintenance ou réparation de la plomberie",
-"72120000 - Construction de bâtiments non résidentiels",
-"72141510 - Démolition",
-"72141511 - Excavation",
-"72151001 - Entretien des chaudières",
-"72151002 - Installation et réglage de chaudières"
-],
-"description": "Objet : Estrie / CA Granby - Installation d'infrastructure électrique intérieure et extérieure pour électrification des transports\nÀ titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur incluant les options est : entre 500 000 $ et 1 000 000 $\nDemande d'information : Doit être adressée au responsable au minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions\nDescription de l'objet : Les travaux consistent principalement en la fourniture de la main-d'œuvre, des matériaux, des équipements, du matériel et des services nécessaires pour exécuter des travaux suivants :\n•La fourniture, l’installation et la mise en service d’infrastructures de recharge intérieures ;\n•La fourniture et l’installation d’infrastructures de recharge extérieures à l’aide de l’unité de puissance (cabinet), incluant les travaux de raccordement au bâtiment et la mise en service complet ;\n•Installation de l’unité de puissance (cabinet) et mise en services (fourni par autres). \nSimard, Justine\nSIMARD.JUSTINE2@HYDROQUEBEC.COM\nPoste : 6503\nVous pouvez consulter les documents liés à cet avis et soumissionner à partir du lien suivant :\nhttps://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27694\nHydro-Québec ne s'engage à accepter aucune des propositions reçues.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b050d6fa-f0e3-4cd8-abd9-a1ab9627613b",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'installation d'infrastructures électriques intérieures et extérieures pour l'électrification des transports. Les travaux impliquent la fourniture et l'installation d'infrastructures de recharge et d'unités de puissance.",
-"pointsAttention": [
-"Montant estimé entre 500 000 $ et 1 000 000 $",
-"Demande d'information à adresser au responsable au minimum trois jours ouvrables avant la date et l'heure limites."
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "L'appel d'offres concerne l'électricité et l'infrastructure, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
 "id": "52f7edec-9a28-4b15-9138-9007abfe5a9b",
 "numero": "22MB-014",
 "titre": "Remplacement des fenêtres - École Sacré-Coeur",
@@ -10964,69 +10887,6 @@
 }
 },
 {
-"id": "6b38e10b-3763-4037-95f2-07cea0aaabd2",
-"numero": "44547228",
-"titre": "Aménagement des bureaux MTAA au 867, boulevard de l’Ange-Gardien, L’Assomption (Québec) J5W 1T3",
-"organisme": "Société québécoise des infrastructures",
-"regions": [
-"Lanaudière"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [],
-"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être\naccompagnée d’une garantie de soumission correspondant à 10% du montant de la\nsoumission.\n► Lorsque la soumission est transmise sur\nsupport papier, cette garantie de soumission doit être présentée sous forme de\ncautionnement, de lettre de garantie irrévocable, de chèque visé, de mandat ou\nde traite et respecter les conditions mentionnées à l’article « Garantie de\nsoumission » des Instructions aux\nsoumissionnaires.\n► Lorsque la soumission est transmise par voie\nélectronique, cette garantie de soumission doit obligatoirement être présentée\nsous forme de cautionnement ou de lettre de garantie irrévocable et respecter\nles conditions mentionnées à l’article « Garantie de soumission » des Instructions\naux soumissionnaires. Aucune autre forme de garantie n’est acceptée avec ce\nmode de transmission.",
-"estimation": 1100000,
-"dureeMois": "6",
-"surDemande": false,
-"fermeture": "2026-10-30T15:00",
-"publie": "2026-09-25T14:10",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations",
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
-],
-"description": "IDENTIFICATION DU CONTRAT\n Numéro de contrat : \n 44547228\n Titre du contrat :\n Aménagement des\n bureaux MTAA\n Adresse de l’immeuble :\n 867, boulevard de\n l’Ange-Gardien, L’Assomption (Québec) J5W 1T3\nTout soumissionnaire devra se conformer aux exigences\ncontenues aux documents contractuels. Ceux-ci ne peuvent être obtenus que par\nl’intermédiaire du système électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au\nnuméro 418-646-0177 pour les résidents de la région de Québec et au numéro sans\nfrais 1-877-336-7326 pour les résidents de l’extérieur.\nAttention : Notez que seuls les documents exigés\npar la Société aux termes du présent appel d’offres doivent être remis avec la\nsoumission, de manière à éviter toute situation qui entraînerait que la\nsoumission soit restrictive ou conditionnelle.\nDESCRIPTION\nSOMMAIRE DES TRAVAUX\nLa Société québécoise\ndes infrastructures (ci-après la « Société ») procède à un appel\nd’offres public de travaux de construction visant les travaux\nd’aménagement de nouveaux espaces administratifs adaptés aux besoins du\nclient, incluant les interventions architecturales, mécaniques, électriques,\ntechnologiques et de sécurité requise pour l’occupation des lieux.\nAVIS\nIMPORTANTS\nDÉVELOPPEMENT\nÉCONOMIQUE DU QUÉBEC\nCet appel d’offres contient des exigences visant le développement\néconomique du Québec. Veuillez vous référer à la section\n« Conditions » du présent avis. \nRecommandation de dépôt\ndes soumissions par voie électronique\nLa Société a entrepris\ndes initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation de\ncontracter/attestation de Revenu Québec\nIl est fortement\nsuggéré aux soumissionnaires de faire dès que possible, selon les exigences des\ndocuments contractuels, leur demande d’attestation de Revenu Québec et, le cas\néchéant, leur demande d’autorisation de contracter auprès de l’Autorité des marchés\npublics, afin de s’assurer que ces exigences soient rencontrées avant la date\net l’heure limites indiquées dans les Instructions aux soumissionnaires\net/ou dans les Instructions complémentaires.\nNon-participation à\nl’appel d’offres\nToute personne ou\nentreprise s’étant procuré les documents contractuels et qui ne présente pas de\nsoumission, s’engage à compléter le formulaire « Questionnaire de\nnon-participation » inclus dans les documents contractuels et à transmettre\ncelui‑ci à la Société à l’adresse de courrier électronique suivante : infosoumission6@sqi.gouv.qc.ca. \nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des\nsoumissions déposées du Québec (BSDQ) doivent, lors du dépôt de leur soumission\nélectronique au BSDQ, indiquer la Société comme « Destinataire » à\nl’aide du menu « Soumissionnaire » du système de transmission\nélectronique des soumissions (TES).\nRÈGLEMENT SUR LES PAIEMENTS ET LE RÈGLEMENT RAPIDES DES DIFFÉRENDS\nEN MATIÈRE DE",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6b38e10b-3763-4037-95f2-07cea0aaabd2",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 50,
-"type": "Bâtiment (nos métiers en partie)",
-"resume": "L'appel d'offres concerne l'aménagement de nouveaux espaces administratifs incluant des interventions architecturales, mécaniques, électriques, technologiques et de sécurité. Le montant estimé est de 1 100 000 $ pour un projet prévu sur 6 mois.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Le projet est un aménagement de bureaux qui inclut des interventions architecturales, ce qui peut nécessiter des travaux de maçonnerie ou de charpenterie, mais le contrat n'est pas spécifiquement centré sur ces corps de métier.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-}
-}
-},
-{
 "id": "8083db86-bb6a-4183-bef7-cfb694cda379",
 "numero": "P22041CS-07",
 "titre": "Mise à niveau de la piscine et des infrastructures associées au Centre sportif",
@@ -12467,68 +12327,6 @@
 "recommandation": "No-go",
 "mode": "Aucun",
 "raison": "L'appel d'offres concerne des travaux de nettoyage et de peinture, et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-}
-}
-},
-{
-"id": "30a962ad-e77c-46a3-bb79-e4dcf0ae4c85",
-"numero": "44547006",
-"titre": "Remplacement du système de chauffage au mazout au 3798, rue Laval, Lac-Mégantic (Québec) G6B 1A4",
-"organisme": "SQI-Direction immobilière de l'Estrie et de la Montérégie",
-"regions": [
-"Estrie"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 560000,
-"dureeMois": "14",
-"surDemande": false,
-"fermeture": "2026-11-06T15:00",
-"publie": "2026-09-08T09:00",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
-"72101500 - Services de maintenance et de réparation des bâtiments"
-],
-"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44547006\n Titre du\n contrat :\n Remplacement du système\n de chauffage au mazout\n Adresse de\n l’immeuble :\n 3798, rue Laval, Lac-Mégantic\n (Québec) G6B 1A4\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\nAttention : Notez\nque seuls les documents exigés par la Société aux termes du présent\nappel d’offres doivent être remis avec la soumission, de manière à éviter toute\nsituation qui entraînerait que la soumission soit restrictive ou\nconditionnelle. \nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de remplacement du\nsystème de chauffage au mazout pour l’immeuble situé au 3798, rue Laval,\nLac-Mégantic (Québec) G6B 1A4.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission7@sqi.gouv.qc.ca .\nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des\nsoumissions déposées du Québec (BSDQ) doivent, lors du dépôt de leur soumission\nélectronique au BSDQ, indiquer la Société comme « Destinataire » à\nl’aide du menu « Soumissionnaire » du système de transmission\nélectronique des soumissions (TES).\nRÈGLEMENT SUR LES\nPAIEMENTS ET LE RÈGLEMENT RAPIDES DES DIFFÉRENDS EN MATIÈRE DE TRAVAUX DE\nCONSTRUCTION\nLes\ndispositions de la section II du chapitre V.2 de la Loi sur ",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=30a962ad-e77c-46a3-bb79-e4dcf0ae4c85",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": false,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement du système de chauffage au mazout pour un immeuble. La durée prévue est de 14 mois et le montant estimé est de 560 000 $.",
-"pointsAttention": [
-"non précisé"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "L'appel d'offres concerne le remplacement d'un système de chauffage et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
 "version": 3
 },
 "source": "SEAO",
@@ -28005,7 +27803,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -28100,7 +27898,7 @@
 "maçonnerie"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 90,
 "type": "Maçonnerie",
@@ -28176,7 +27974,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -28260,7 +28058,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -28350,7 +28148,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -28435,7 +28233,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -28554,7 +28352,7 @@
 "échafaudage"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Maçonnerie",
@@ -28630,7 +28428,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -28716,7 +28514,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -28797,7 +28595,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -28886,7 +28684,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -28975,7 +28773,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -29064,7 +28862,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -29077,6 +28875,253 @@
 "raison": "Le contrat concerne uniquement le remplacement de fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie/briquetage ou de la charpenterie/menuiserie.",
 "version": 3
 }
+},
+{
+"id": "6e7d6581-6144-4824-8d2e-45463da03b5c",
+"numero": "CA-261021-PDS",
+"titre": "CONTRAT CONST. REMPLACEMENT SOLARIUM CH TRACY",
+"organisme": "Santé Québec Montérégie-Est",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission \néquivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission. Cette \ngarantie de soumission doit être produite sous la forme d'un cautionnement émis en faveur de \nl’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause 0.01.14 \ndes présentes, qui doit être conforme aux dispositions du modèle de cautionnement de \nsoumission reproduit à l’annexe 4.01A du Formulaire de Soumission.",
+"estimation": 150000,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-12-09T14:30",
+"publie": "2026-11-06T15:19",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72151300 - Peinture et pose de papiers peints",
+"72151900 - Maçonnerie",
+"72152500 - Pose de planchers",
+"72153000 - Vitrage et verre"
+],
+"description": "L’ORGANISME PUBLIC DÉCLARE CE QUI SUIT :\nA) L’ORGANISME PUBLIC désire lancer un appel d’offres se rapportant à l'exécution \nremplacement du solarium CH Tracy, reliés au Projet no IM-PS-1983;\nB) Le solarium du Centre d’hébergement présente beaucoup d’infiltrations d’eau par le toit \net par le plancher. Remplacer le solarium et refaire le plancher. Démanteler l’ancien \nsolarium, installer un nouveau solarium avec un toit couvert, vitré sur trois côtés, avec \nune porte de secours vitré avec barre antipanique accessible pour une personne en \nfauteuil roulant. Refaire le plancher.\nC) Afin de se conformer aux exigences de la Loi sur les contrats des organismes publics \nen matière de travaux de construction, l’ORGANISME PUBLIC doit procéder par la \nvoie d'un appel d'offres conforme à la procédure établie par le Règlement sur les contrats \nde travaux de construction des organismes publics.\nDANS CE CONTEXTE, L’ORGANISME PUBLIC LANCE L’APPEL D’OFFRES \nQUI SUIT :\nCONTRAT CONST. REMPLACEMENT SOLARIUM CH TRACY - CA-261021-PDS.\nVisite des lieux\n1.04.01 \nDate et lieu de rassemblement \nUne visite des lieux non obligatoire est prévue le 19 novembre 2026 à 9:00. Le point de \nrassemblement pour cette visite est fixé au 4205 rue Frontenac, en la ville de Sorel\nTracy, province de Québec, J3R 4G8. \nPour assister à la visite, vous devez prendre rendez-vous avec Monsieur Robert Larente par \ncourriel à : robert.larente.cisssme16@ssss.gouv.qc.ca. Sans confirmation de votre rendez\nvous, il vous sera impossible de faire la visite. Le point de rencontre sera l’entrée principale \nde l’établissement et vous serez conduit par M. Robert Larente au département concerné par \nles travaux \n1.04.02 \nParticipation \nLes SOUMISSIONNAIRES sont conviés à participer à la visite des lieux offerte par \nl’ORGANISME PUBLIC. Le fait de ne pas y participer ne peut servir d’excuse ou de prétexte \nà des erreurs, omissions ou irrégularités de la part d’un SOUMISSIONNAIRE. Chaque \nSOUMISSIONNAIRE est responsable de déléguer un représentant à cette rencontre. De plus, \nl’ORGANISME \nPUBLIC \nn’assume \naucune \nresponsabilité \ndes \nSOUMISSIONNAIRES qui ne se sont pas présentés à la visite des lieux relativement aux \ninformations qui peuvent avoir été données lors de celle-ci.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6e7d6581-6144-4824-8d2e-45463da03b5c",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-09 Au plus tard 14:30 Heure légale du Québec",
+"adresseDepot": "1601 boulevard Roland Therrien Longueuil QC CAN J4J5C5",
+"ouverture": "2026-12-09 14:30 Heure légale du Québec",
+"adresseOuverture": "1601 boulevard Roland Therrien Longueuil QC CAN J4J5C5"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-06T15:41",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"construction d"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "db3ce133-8015-4f2d-89c4-72245f55e0ed",
+"numero": "52602_532_AK_JB_PUB_C",
+"titre": "Mis Norm liste Technorm - Pavillon_532",
+"organisme": "Université de Montréal - Direction des immeubles",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, DIX POUR CENT (10%) du prix total proposé dans sa Soumission.",
+"estimation": 350000,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-30T10:00",
+"publie": "2026-11-06T14:48",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le présent projet découle d'une étude de mise\n aux normes du bâtiment et vise la correction de diverses non-conformités\n liées aux moyens d'évacuation et aux issues. Les interventions concernent\n plusieurs secteurs du bâtiment, notamment dans le contexte des travaux de\n compartimentage et d'isolement des pavillons A, B et C.\n Les travaux comprennent l'installation de nouvelles portes coupe-feu dans\n les corridors, la modification d'escaliers d'issue ainsi que l'ensemble des\n interventions connexes requises pour assurer la conformité aux exigences\n applicables.\n En raison des contraintes d'occupation du bâtiment, les travaux devront\n être réalisés durant la période estivale, lorsque l'achalandage des pavillons\n est réduit.\n Le projet est situé dans les pavillons Maximilien-Caron, Lionel-Groulx et\n Jean-Brillant.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=db3ce133-8015-4f2d-89c4-72245f55e0ed",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "2787, Chemin des Services Campus Montréal Montréal QC CAN H3T1J4",
+"ouverture": "2026-11-30 10:00 Heure légale du Québec",
+"adresseOuverture": "2787, Chemin des Services Campus Montréal Montréal QC CAN H3T1J4"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-06T15:41",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"escalier",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"escalier",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"escalier"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "e9ef100b-f02c-467a-a1db-df5eaa94354c",
+"numero": "244020",
+"titre": "Réfection de la toiture des bassins A-1, A-2, B-1 & B-2",
+"organisme": "Centre de services scolaire du Val-des-Cerfs.",
+"regions": [
+"Estrie",
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 460000,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-12-03T14:00",
+"publie": "2026-11-06T13:07",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "AVIS D’APPEL D'OFFRES PUBLIC\nTITRE : RÉFECTION DE LA TOITURE DES BASSINS A-1, A-2, B-1 ET B-2\nNo DOSSIER : 244020\nPropriétaire Centre de services scolaire du Val-des-Cerfs\nJacques Olivier\n55, rue Court\nGranby (Québec) J2G 9N6 (adresse municipale)\nTél. : 450 372-0165 poste 60218\nprojetsrm@cssvdc.gouv.qc.ca \nÉtablissement\nvisé\n École Saint-Édouard\n376, chemin Knowlton, C.P. 280\nKnowlton (Québec) J0E 1V0\nProfessionnel\narchitecture\nBoulianne\nCharpentier Architectes Inc.\n1305, rue Girouard Ouest\nSaint-Hyacinthe (Québec) J2S 2Z3\nVisite\nLa visite aura lieu le 18\nnovembre 2026 à 12h (midi)\nLes personnes qui se présenteront, devront demeurer à l’extérieur jusqu’à\nl’arrivée du chargé de projet.\nTravaux visés:\n· \nLes travaux consistent à effectuer la\nréfection des toitures des bassins A-1, A-2, B-1 et B-2\n· \nLa réfection des solins et accessoires de\ntoiture, ainsi que tous les travaux connexes requis pour assurer la pérennité\net l’intégrité de l’enveloppe du bâtiment.\nÉchéancier \nDébut des travaux : 25 juin 2027\nFin des travaux : 20 août 2027\nRéception des travaux avec réserve : 20 août 2027\nOption Aucune option\nÉquivalence \nLes demandes d’équivalence doivent être déposées au plus tard 10 jours avant\nla date de dépôt des soumissions. Information Les demandes d’informations\ndoivent être adressées à l’adresse suivante : projetsrm@cssvdc.gouv.qc.ca\nLes questions seront traitées\nrapidement et les réponses feront l’objet d’addenda sous la forme de questions\n/réponses ou de modifications et ajouts aux Documents d’appel d’offres.\nL’ORGANISME PUBLIC se réserve le droit\nde ne pas considérer une demande formulée par un fournisseur si cette demande\nest transmise moins de 5 jours ouvrables avant la date et l’heure\nfixées pour la réception des soumissions.\nDocuments \nLes plans, devis, documents contractuels et autres renseignements pourront être\nobtenus que par l’intermédiaire du Système d’appels d’offres électroniques\n(SÉAO) au www.seao.ca\nModalité de dépôt des soumissions \nEnveloppe\nLes soumissions, dans des enveloppes\ncachetées et adressées au responsable, seront reçues au siège social du Centre\nde services scolaire du Val-des-Cerfs, 55, rue Court, à Granby, Québec, jusqu'à\n14 h 00, heure en vigueur localement, 3 décembre 2026 pour être\nouvertes publiquement au même endroit, le même jour et à la même heure. Toute\nsoumission reçue postérieurement sera automatiquement rejetée. \nOu\nVoie électronique\nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'offres\n(SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise\npar voie électronique doit être déposée (c'est-à-dire chiffrée, transmise,\nhorodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure\nlimites fixées pour la réception des Soumissions.\nModalité\nd’ouverture des soumissions \nConsidérant les dernières mises à jour du SCT, l’ORGANISME PUBLIC procède à une",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e9ef100b-f02c-467a-a1db-df5eaa94354c",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-03 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "55, rue Court Granby QC CAN J2G9N6",
+"ouverture": "2026-12-03 14:00 Heure légale du Québec",
+"adresseOuverture": "55, rue Court Granby QC CAN J2G9N6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-06T15:41",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -45918,7 +45963,66 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-04"
+"fermeLe": "2026-11-04",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-06T13:28",
+"soumissions": [
+{
+"nom": "Construction Force Majeure",
+"montant": 162706.87
+},
+{
+"nom": "CANMAX CONSTRUCTION INC.",
+"montant": 164031.38
+},
+{
+"nom": "Groupe CONSTRUCTION MH",
+"montant": 170486.08
+},
+{
+"nom": "CONSTRUCTION S.M. PAQUET INC.",
+"montant": 173572.27
+},
+{
+"nom": "Construction Nazar Inc.",
+"montant": 195378.72
+},
+{
+"nom": "Groupe Balex inc.",
+"montant": 203620.73
+},
+{
+"nom": "XO Construction Inc.",
+"montant": 221763.78
+},
+{
+"nom": "RÉNOVACOEUR RÉNOVATION INC.",
+"montant": 234713.0
+},
+{
+"nom": "LES CONSTRUCTIONS LANGLOIS MARLEAU INC.",
+"montant": 248346.0
+},
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 257868.18
+},
+{
+"nom": "Construction Interlag",
+"montant": 280481.51
+},
+{
+"nom": "LES CONSTRUCTIONS JUSTRIEL INC.",
+"montant": 290549.97
+},
+{
+"nom": "URBEX CONSTRUCTION",
+"montant": 375330.14
+}
+]
+}
 },
 {
 "id": "2fab395f-152f-4990-8a5c-87cc091e9183",
@@ -47940,7 +48044,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-05"
+"fermeLe": "2026-11-05",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-06T15:27",
+"soumissions": [
+{
+"nom": "ALMA SOUDURE INC.",
+"montant": 7358700.0
+},
+{
+"nom": "STRUCTURES D'ACIER ÉLITE INC.",
+"montant": 8263643.0
+}
+]
+}
 },
 {
 "id": "dd6a185a-d4fa-4d76-a44e-b363506f7fbc",
@@ -48418,7 +48537,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-06"
+"fermeLe": "2026-11-06",
+"fourchette": "6 943 900 $ à 9 199 999 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-06T13:09",
+"soumissions": [
+{
+"nom": "CONSTRUCTION JC-7 INC.",
+"montant": 6522814.0
+},
+{
+"nom": "CANEVAS CONSTRUCTION INC.",
+"montant": 6593000.0
+},
+{
+"nom": "HABITAT CONSTRUCTION MATANE (1986) INC.",
+"montant": 7124656.72
+},
+{
+"nom": "LÉVESQUE & ASSOCIÉS CONSTRUCTION INC.",
+"montant": 7196661.0
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 7277000.0
+}
+]
+}
 },
 {
 "id": "6c04aec6-1e59-4048-ba2b-7c6fab3f6175",
@@ -48606,6 +48752,214 @@
 "familles": [
 "Maçonnerie"
 ],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-06"
+},
+{
+"id": "b050d6fa-f0e3-4cd8-abd9-a1ab9627613b",
+"numero": "AM011820",
+"titre": "Estrie / CA Granby -  Installation d'infrastructure électrique intérieure et extérieure pour électrification des transport",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment"
+],
+"cautionSoumission": "Cautionnement, Garantie de soumission: 10.00 %",
+"estimation": null,
+"dureeMois": "14",
+"surDemande": false,
+"fermeture": "2026-11-02T14:00",
+"publie": "2026-10-08T13:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101510 - Maintenance ou réparation de la plomberie",
+"72120000 - Construction de bâtiments non résidentiels",
+"72141510 - Démolition",
+"72141511 - Excavation",
+"72151001 - Entretien des chaudières",
+"72151002 - Installation et réglage de chaudières"
+],
+"description": "Objet : Estrie / CA Granby - Installation d'infrastructure électrique intérieure et extérieure pour électrification des transports\nÀ titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur incluant les options est : entre 500 000 $ et 1 000 000 $\nDemande d'information : Doit être adressée au responsable au minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions\nDescription de l'objet : Les travaux consistent principalement en la fourniture de la main-d'œuvre, des matériaux, des équipements, du matériel et des services nécessaires pour exécuter des travaux suivants :\n•La fourniture, l’installation et la mise en service d’infrastructures de recharge intérieures ;\n•La fourniture et l’installation d’infrastructures de recharge extérieures à l’aide de l’unité de puissance (cabinet), incluant les travaux de raccordement au bâtiment et la mise en service complet ;\n•Installation de l’unité de puissance (cabinet) et mise en services (fourni par autres). \nSimard, Justine\nSIMARD.JUSTINE2@HYDROQUEBEC.COM\nPoste : 6503\nVous pouvez consulter les documents liés à cet avis et soumissionner à partir du lien suivant :\nhttps://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27694\nHydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b050d6fa-f0e3-4cd8-abd9-a1ab9627613b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation d'infrastructures électriques intérieures et extérieures pour l'électrification des transports. Les travaux impliquent la fourniture et l'installation d'infrastructures de recharge et d'unités de puissance.",
+"pointsAttention": [
+"Montant estimé entre 500 000 $ et 1 000 000 $",
+"Demande d'information à adresser au responsable au minimum trois jours ouvrables avant la date et l'heure limites."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'électricité et l'infrastructure, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-06"
+},
+{
+"id": "6b38e10b-3763-4037-95f2-07cea0aaabd2",
+"numero": "44547228",
+"titre": "Aménagement des bureaux MTAA au 867, boulevard de l’Ange-Gardien, L’Assomption (Québec) J5W 1T3",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Lanaudière"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être\naccompagnée d’une garantie de soumission correspondant à 10% du montant de la\nsoumission.\n► Lorsque la soumission est transmise sur\nsupport papier, cette garantie de soumission doit être présentée sous forme de\ncautionnement, de lettre de garantie irrévocable, de chèque visé, de mandat ou\nde traite et respecter les conditions mentionnées à l’article « Garantie de\nsoumission » des Instructions aux\nsoumissionnaires.\n► Lorsque la soumission est transmise par voie\nélectronique, cette garantie de soumission doit obligatoirement être présentée\nsous forme de cautionnement ou de lettre de garantie irrévocable et respecter\nles conditions mentionnées à l’article « Garantie de soumission » des Instructions\naux soumissionnaires. Aucune autre forme de garantie n’est acceptée avec ce\nmode de transmission.",
+"estimation": 1100000,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-10-30T15:00",
+"publie": "2026-09-25T14:10",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "IDENTIFICATION DU CONTRAT\n Numéro de contrat : \n 44547228\n Titre du contrat :\n Aménagement des\n bureaux MTAA\n Adresse de l’immeuble :\n 867, boulevard de\n l’Ange-Gardien, L’Assomption (Québec) J5W 1T3\nTout soumissionnaire devra se conformer aux exigences\ncontenues aux documents contractuels. Ceux-ci ne peuvent être obtenus que par\nl’intermédiaire du système électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au\nnuméro 418-646-0177 pour les résidents de la région de Québec et au numéro sans\nfrais 1-877-336-7326 pour les résidents de l’extérieur.\nAttention : Notez que seuls les documents exigés\npar la Société aux termes du présent appel d’offres doivent être remis avec la\nsoumission, de manière à éviter toute situation qui entraînerait que la\nsoumission soit restrictive ou conditionnelle.\nDESCRIPTION\nSOMMAIRE DES TRAVAUX\nLa Société québécoise\ndes infrastructures (ci-après la « Société ») procède à un appel\nd’offres public de travaux de construction visant les travaux\nd’aménagement de nouveaux espaces administratifs adaptés aux besoins du\nclient, incluant les interventions architecturales, mécaniques, électriques,\ntechnologiques et de sécurité requise pour l’occupation des lieux.\nAVIS\nIMPORTANTS\nDÉVELOPPEMENT\nÉCONOMIQUE DU QUÉBEC\nCet appel d’offres contient des exigences visant le développement\néconomique du Québec. Veuillez vous référer à la section\n« Conditions » du présent avis. \nRecommandation de dépôt\ndes soumissions par voie électronique\nLa Société a entrepris\ndes initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation de\ncontracter/attestation de Revenu Québec\nIl est fortement\nsuggéré aux soumissionnaires de faire dès que possible, selon les exigences des\ndocuments contractuels, leur demande d’attestation de Revenu Québec et, le cas\néchéant, leur demande d’autorisation de contracter auprès de l’Autorité des marchés\npublics, afin de s’assurer que ces exigences soient rencontrées avant la date\net l’heure limites indiquées dans les Instructions aux soumissionnaires\net/ou dans les Instructions complémentaires.\nNon-participation à\nl’appel d’offres\nToute personne ou\nentreprise s’étant procuré les documents contractuels et qui ne présente pas de\nsoumission, s’engage à compléter le formulaire « Questionnaire de\nnon-participation » inclus dans les documents contractuels et à transmettre\ncelui‑ci à la Société à l’adresse de courrier électronique suivante : infosoumission6@sqi.gouv.qc.ca. \nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des\nsoumissions déposées du Québec (BSDQ) doivent, lors du dépôt de leur soumission\nélectronique au BSDQ, indiquer la Société comme « Destinataire » à\nl’aide du menu « Soumissionnaire » du système de transmission\nélectronique des soumissions (TES).\nRÈGLEMENT SUR LES PAIEMENTS ET LE RÈGLEMENT RAPIDES DES DIFFÉRENDS\nEN MATIÈRE DE",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6b38e10b-3763-4037-95f2-07cea0aaabd2",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'aménagement de nouveaux espaces administratifs incluant des interventions architecturales, mécaniques, électriques, technologiques et de sécurité. Le montant estimé est de 1 100 000 $ pour un projet prévu sur 6 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un aménagement de bureaux qui inclut des interventions architecturales, ce qui peut nécessiter des travaux de maçonnerie ou de charpenterie, mais le contrat n'est pas spécifiquement centré sur ces corps de métier.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-06"
+},
+{
+"id": "30a962ad-e77c-46a3-bb79-e4dcf0ae4c85",
+"numero": "44547006",
+"titre": "Remplacement du système de chauffage au mazout au 3798, rue Laval, Lac-Mégantic (Québec) G6B 1A4",
+"organisme": "SQI-Direction immobilière de l'Estrie et de la Montérégie",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 560000,
+"dureeMois": "14",
+"surDemande": false,
+"fermeture": "2026-11-06T15:00",
+"publie": "2026-09-08T09:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44547006\n Titre du\n contrat :\n Remplacement du système\n de chauffage au mazout\n Adresse de\n l’immeuble :\n 3798, rue Laval, Lac-Mégantic\n (Québec) G6B 1A4\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\nAttention : Notez\nque seuls les documents exigés par la Société aux termes du présent\nappel d’offres doivent être remis avec la soumission, de manière à éviter toute\nsituation qui entraînerait que la soumission soit restrictive ou\nconditionnelle. \nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de remplacement du\nsystème de chauffage au mazout pour l’immeuble situé au 3798, rue Laval,\nLac-Mégantic (Québec) G6B 1A4.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission7@sqi.gouv.qc.ca .\nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des\nsoumissions déposées du Québec (BSDQ) doivent, lors du dépôt de leur soumission\nélectronique au BSDQ, indiquer la Société comme « Destinataire » à\nl’aide du menu « Soumissionnaire » du système de transmission\nélectronique des soumissions (TES).\nRÈGLEMENT SUR LES\nPAIEMENTS ET LE RÈGLEMENT RAPIDES DES DIFFÉRENDS EN MATIÈRE DE TRAVAUX DE\nCONSTRUCTION\nLes\ndispositions de la section II du chapitre V.2 de la Loi sur ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=30a962ad-e77c-46a3-bb79-e4dcf0ae4c85",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de chauffage au mazout pour un immeuble. La durée prévue est de 14 mois et le montant estimé est de 560 000 $.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne le remplacement d'un système de chauffage et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
 "tropCher": false
 }
 },
