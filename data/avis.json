@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-06T15:43",
-"seaoLus": 351,
-"retenus": 354,
-"nouveaux": 3,
+"date": "2026-11-06T18:39",
+"seaoLus": 353,
+"retenus": 356,
+"nouveaux": 2,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -28952,7 +28952,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 40,
 "type": "Maçonnerie",
@@ -29040,7 +29040,7 @@
 "escalier"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 40,
 "type": "Hors sujet",
@@ -29145,7 +29145,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -29158,6 +29158,177 @@
 "raison": "Bien que le contrat concerne la toiture (qui touche à l'enveloppe du bâtiment), il ne met pas explicitement l'accent sur la maçonnerie ou la charpenterie comme travail principal, mais la mention de 'Charpentier Architectes Inc.' dans les professionnels visés suggère une possible implication de ces corps de métier.",
 "version": 3
 }
+},
+{
+"id": "977ed139-4d4a-4ecb-877a-5c8f77c85a12",
+"numero": "AO-26-019",
+"titre": "Entrepreneur général pour travaux de reconstruction de la dalle sur sol du bloc 4, étage D",
+"organisme": "Santé Québec - CHU Sainte-Justine",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission. Cette garantie de soumission doit être produite sous la forme d'un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause 0.01.14 des présentes, qui doit être conforme aux dispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de Soumission.",
+"estimation": 450000.0,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-12-08T10:00",
+"publie": "2026-11-06T18:23",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le Centre hospitalier universitaire Sainte‑Justine (CHUSJ) requiert des services de préparation du remblai, mise en place d’une membrane d’étanchéité et construction d’une nouvelle dalle de béton sur sol. Les travaux seront réalisés à l’étage D du bloc 4.\n2. Visite des lieux\nLes modalités de la visite NON obligatoire sont indiquées dans le document d’appel d’offres publié au SEAO.\n3. Demande d’information\nLes demandes d’information et de précision sont régies par la clause 1.05 Question ou demande de précision des documents d’appel d’offres\nLes demandes doivent être adressées à :\nGestionnaire de l’appel d’offres : Hanaa Fakhir\nCourriel : hanaa.fakhir.hsj@ssss.gouv.qc.ca\nObjet du courriel : Numéro d’appel d’offres + Titre du projet\n4. Garantie de soumission\nLa soumission doit être accompagnée d’une garantie de soumission équivalente à 10 % du prix total proposé.\n5. Garantie d’exécution\nLa soumission doit être accompagnée d’une garantie d’exécution équivalente à 50 % du prix total proposé.\n6. Garantie pour gages, matériaux et main‑d’œuvre\nLa soumission doit également être accompagnée d’une garantie de 50 % couvrant les gages, matériaux et main‑d’œuvre.\n7. Transmission des soumissions\nLes soumissions peuvent être transmises :\nPar voie électronique (fortement recommandée)\nExclusivement via le Système électronique d’appel d’offres (SEAO).\nOu en format papier\nLa transmission en format papier demeure acceptable, bien que la voie électronique soit privilégiée.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=977ed139-4d4a-4ecb-877a-5c8f77c85a12",
+"fourchette": null,
+"cautionExecution": "Oui, 50 %",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-08 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "5757 rue Decelles Bureau 405 Montréal QC CAN H3S2C2",
+"ouverture": "2026-12-08 10:00 Heure légale du Québec",
+"adresseOuverture": "5757 rue Decelles Bureau 405 Montréal QC CAN H3S2C2"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables."
+],
+"vuLe": "2026-11-06T18:37",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"reconstruction",
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"reconstruction",
+"béton",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction",
+"béton",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"béton",
+"construction d",
+"reconstruction"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "19e98f0d-4fda-485b-ae12-eaba7f144dc7",
+"numero": "26380-007",
+"titre": "Rénovation de la toiture et les unités désuètes ainsi que le remplacement du dépoussiéreur au Centre d’études professionnelles Saint-Jérôme",
+"organisme": "Centre de services scolaire de la Rivière-du-Nord",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10 % du prix total proposé dans sa Soumission",
+"estimation": 6384150.0,
+"dureeMois": "11",
+"surDemande": false,
+"fermeture": "2026-12-08T14:15",
+"publie": "2026-11-06T15:48",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72152601 - Toiture"
+],
+"description": "AVIS D'APPEL D'OFFRES PUBLIC\nLe Centre de services scolaire de la Rivière-du-Nord désire obtenir des soumissions électroniques ou sous enveloppe scellée pour la conclusion d'un contrat de travaux construction pour le remplacement des bassins désuets ainsi que des unités mécaniques désuètes au toit, en plus de remplacer un dépoussiéreur désuet au département de soudure et optimisation de son réseau de captation à la source pour répondre aux besoins actuels et futurs pour le Centre d'études professionnelles Saint-Jérôme. \nLe présent Appel d’Offres est réservé aux «petites entreprises du Québec et à celles d’ailleurs au Canada» et le SOUMISSIONNAIRE doit donc être une «petite entreprise du Québec ou d’ailleurs au Canada». L’expression «petite entreprise du Québec ou d’ailleurs au Canada» signifie une entreprise qui a un établissement au Québec ou ailleurs au Canada et qui compte moins de 50 employés en incluant ceux de toute entreprise liée. \nLIEU D'EXÉCUTION DES TRAVAUX : 917, montée Saint-Nicolas, Saint-Jérôme (QC) J5L 2P4\nDÉLAI D'EXÉCUTION DES TRAVAUX : 24 mai au 15 octobre 2027\nOBTENTION DES DOCUMENTS :\nLes documents d’appel d’offres ne peuvent être obtenue que par l’intermédiaire du SÉAO (Système Électronique d'Appel d'Offres) en allant sur le site « seao.gouv.qc.ca ». Les documents peuvent être obtenus en version téléchargement, le tout moyennant un coût établi par SÉAO. Il sera possible d'obtenir l'assistance de SÉAO du lundi au vendredi de 8 h 30 à 16 h 30, au numéro suivant : 1-877-336-7326.\nRESPONSABLE DE L'APPEL D'OFFRES :\nÉquipe gestion contractuelle\nCourriel : gestion-contractuelle@cssrdn.gouv.qc.ca \nVISITE DES LIEUX : \nUne visite des lieux non obligatoire est prévue le 16 novembre 2026 à 10h. Le point de rassemblement pour cette visite est fixé à l'adresse du lieu des travaux, à l'entrée principale.\nRÉCEPTION DES SOUMISSIONS :\nPour être valides et considérées, toute soumission devra être reçue au plus tard le 8 décembre 2026 avant 14 h 15. Le mode de transmission d'une soumission peut être fait selon l'un ou l'autre des procédés suivants :\na) soit par voie électronique via le SÉAO et elle doit être déposée (c'est-à-dire chiffrée, transmise, horodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure limites fixées pour la réception des soumissions;\nb) soit sous enveloppe scellée, au bureau de la réception du Centre de services scolaire de la Rivière-du-Nord, au 795 rue Melançon, Saint-Jérôme, Québec, J7Z 4L1, avant la date et l’heure limites fixées pour la réception des soumissions;\nUne soumission reçue postérieurement sera automatiquement rejetée et retournée au soumissionnaire sans être ouverte.\nOUVERTURE DES SOUMISSIONS :\nL'ouverture des soumissions se fera immédiatement après l'heure limite de réception des Soumissions.\nLe Centre de services scolaire encourage les soumissionnaires à procéder au dépôt d'une soumission par voie électronique.\nNous vous rappelons que la règlementation ne permet pas le dépôt de plusieurs",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=19e98f0d-4fda-485b-ae12-eaba7f144dc7",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-08 Au plus tard 14:15 Heure légale du Québec",
+"adresseDepot": "795 rue Melançon Saint-Jérôme QC CAN J7Z4L1",
+"ouverture": null,
+"adresseOuverture": "795 rue Melançon Saint-Jérôme QC CAN J7Z4L1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-06T18:38",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
