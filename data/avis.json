@@ -28005,7 +28005,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Le projet concerne le remplacement de la filerie de coton et du système intérieur d'une école primaire. La durée prévue est de 2 mois avec un montant estimé de 700 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est dans le secteur du bâtiment (école), mais la description ne met pas clairement en évidence un travail principal de maçonnerie ou de charpenterie, nécessitant une vérification du détail du soumission.",
+"version": 3
+}
 },
 {
 "id": "1294fcb0-5b06-4398-b5f6-7f65c62c8469",
@@ -28088,7 +28100,21 @@
 "maçonnerie"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la sélection de cinq entrepreneurs en maçonnerie pour différents lots au sein du Centre hospitalier universitaire de Sherbrooke. Les projets peuvent être ponctuels ou représenter des projets de maçonnerie d'une valeur estimée allant de 5 000 $ à 500 000 $.",
+"pointsAttention": [
+"Contrat sur demande",
+"Montant estimé élevé (3.85 M$)",
+"Nécessite une garantie de soumission de 5 000 $."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat est spécifiquement pour des travaux de maçonnerie et correspond directement au cœur de métier de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "e3af4c04-f7dd-411e-8d16-296af4a6537b",
@@ -28150,7 +28176,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de climatisation de la Rotonde de l'École Polytechnique. La durée prévue est de 12 mois avec un montant estimé de 200 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le remplacement d'un système de climatisation et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "bd2e9d04-d886-4997-889f-4ef8264b2a0b",
@@ -28222,7 +28260,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien, la réparation et la mise au point des divers systèmes des bâtiments de l'aéroport de Chicoutimi/Saint-Honoré.",
+"pointsAttention": [
+"délai de 12 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien général des systèmes des bâtiments et n'a pas pour objet principal la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "01c411c9-9bd4-4b3c-906c-e7025700f7e2",
@@ -28300,7 +28350,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toitures du Petit Sanctuaire. Les mots-clés trouvés sont 'réfection'.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la réfection des toitures, ce qui n'est pas directement lié aux métiers de maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "01a2ef7d-554c-4082-8e1d-151c924c554a",
@@ -28373,7 +28435,20 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation et la mise aux normes du Centre Sportif Soulanges. Les mots-clés identifiés sont 'agrandissement' et 'rénovation'.",
+"pointsAttention": [
+"Durée prévue non précisée",
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement et une rénovation d'un bâtiment, ce qui inclut potentiellement des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+}
 },
 {
 "id": "1b690eb8-3b97-40cb-b956-8f9961255ff9",
@@ -28479,7 +28554,19 @@
 "échafaudage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection intérieure d'un garage et ses édicules, incluant la réparation de dalles de béton, l'érection de nouvelles cloisons, la réparation des fissures, et des travaux sur les murs de fondations et intrados de dalles.",
+"pointsAttention": [
+"délai de 24 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de maçonnerie (réparation de dalles, cloisons, injections de fissures) qui correspondent à l'expertise de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "b2a902db-605b-493f-9591-5167e0a4aff1",
@@ -28543,7 +28630,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une chaudière d'eau chaude domestique au gaz par une chaudière électrique. Le montant estimé est de 385 000 $ pour une durée prévue d'un mois.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation de systèmes de chauffage (chaudière) et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "62a1302c-9d0d-42f4-b847-c502de22bcad",
@@ -28617,7 +28716,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Ce projet concerne le remplacement d'une chaudière électrique à l'École Notre-Dame-de-L'Assomption. Le prestataire devra fournir la main d'œuvre, les produits et les équipements pour un service d'entretien sanitaire.",
+"pointsAttention": [
+"VISITE DES LIEUX : Une visite facultative est prévue.",
+"Les soumissionnaires ont la responsabilité de se renseigner et d'évaluer adéquatement la nature et la portée des travaux ainsi que de prendre connaissance des lieux et des conditions affectant l'exécution des travaux. Tous les soumissionnaires seront réputés avoir visité les lieux et aucune réclamation pour manque de connaissance des lieux ne pourra être soumise."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'entretien d'une chaudière et n'implique aucun travail de maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6051bf73-a056-44c4-b310-6554d27d6713",
@@ -28685,7 +28797,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition d'un secteur et l'aménagement d'un secteur de visiocomparution et d'une salle de toilettes dans un immeuble à Baie-Comeau. Le montant estimé est de 1524569 $ et la durée prévue est de 9 mois.",
+"pointsAttention": [
+"Cautionnement de soumission requis (10% du montant de la soumission)",
+"Exigences de confidentialité et d'habilitation sécuritaire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de construction/démolition dans un bâtiment, ce qui touche à la maçonnerie et potentiellement la charpenterie/menuiserie, mais le titre ne met pas l'accent sur ces corps de métier comme étant le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "8d046435-aa29-411d-a140-1d848a6037ab",
@@ -28761,7 +28886,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réparation de la structure des passerelles de l'École Félix-Leclerc. Les travaux impliquent la réparation de bases de colonnes d'acier, de plaques de base de colonnes et de zones endommagées des dalles.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet ne correspond pas aux corps de métier principaux (maçonnerie/charpenterie/menuiserie) recherchés par l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "8523f562-8998-456b-b501-fe278335e061",
@@ -28838,7 +28975,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la distribution électrique et l'installation de plafonds en tuiles acoustiques dans une école primaire à Montréal. Les travaux couvrent deux phases et sont prévus sur une durée de 59 semaines.",
+"pointsAttention": [
+"Visite obligatoire (18 novembre 2026)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux électriques et de plafonds, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d4f19478-6961-4206-aa8e-512f135af6f9",
@@ -28915,7 +29064,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de fenêtres pour l'école primaire Sainte-Marie. La durée prévue du contrat est de 2 mois avec un montant estimé de 800 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement le remplacement de fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie/briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
