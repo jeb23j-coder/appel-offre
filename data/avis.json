@@ -29243,7 +29243,19 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la reconstruction de la dalle de béton sur le sol de l'étage D du bloc 4 du CHU Sainte-Justine. Les travaux incluent la préparation du remblai, la mise en place d'une membrane d'étanchéité et la construction de la nouvelle dalle de béton.",
+"pointsAttention": [
+"Visite des lieux NON obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement des travaux de génie civil (dalle de béton) et n'inclut pas de cœur de métier dans la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "19e98f0d-4fda-485b-ae12-eaba7f144dc7",
@@ -29328,7 +29340,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation de la toiture, le remplacement de bassins désuets et d'unités mécaniques au Centre d’études professionnelles Saint-Jérôme. La durée prévue des travaux est de 11 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et les unités mécaniques, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
