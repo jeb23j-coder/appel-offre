@@ -28952,7 +28952,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 40,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le remplacement d'un solarium avec des problèmes d'infiltrations d'eau par le toit et le plancher. Les travaux incluent la démolition de l'ancien solarium et l'installation d'un nouveau solarium avec un toit couvert et vitré.",
+"pointsAttention": [
+"Visite des lieux prévue le 19 novembre 2026 à 9:00. La participation à cette visite est obligatoire."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet implique des travaux de construction et de rénovation qui pourraient nécessiter des compétences en maçonnerie (structure, murs) et potentiellement en menuiserie (fenêtres, portes, structure du solarium), mais le cœur semble être la rénovation d'une structure spécifique plutôt qu'un gros projet de maçonnerie/charpenterie général.",
+"version": 3
+}
 },
 {
 "id": "db3ce133-8015-4f2d-89c4-72245f55e0ed",
@@ -29028,7 +29040,19 @@
 "escalier"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 40,
+"type": "Hors sujet",
+"resume": "Le projet concerne la mise aux normes d'un bâtiment, incluant l'installation de portes coupe-feu et la modification d'escaliers d'issue pour assurer la conformité aux normes.",
+"pointsAttention": [
+"travaux devront être réalisés durant la période estivale, lorsque l'achalandage des pavillons est réduit"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur la sécurité incendie et les issues (portes coupe-feu, escaliers) et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "e9ef100b-f02c-467a-a1db-df5eaa94354c",
@@ -29121,7 +29145,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toitures des bassins A-1, A-2, B-1 et B-2, incluant la réfection des solins et accessoires de toiture pour assurer l'intégrité de l'enveloppe du bâtiment. Les travaux sont prévus du 25 juin 2027 au 20 août 2027.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le contrat concerne la toiture (qui touche à l'enveloppe du bâtiment), il ne met pas explicitement l'accent sur la maçonnerie ou la charpenterie comme travail principal, mais la mention de 'Charpentier Architectes Inc.' dans les professionnels visés suggère une possible implication de ces corps de métier.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
