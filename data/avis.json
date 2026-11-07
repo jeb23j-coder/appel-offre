@@ -29420,7 +29420,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les services d'inspection, d'entretien préventif et de travaux correctifs pour la serrurerie et les portes mécaniques des édifices de la Bibliothèque et Archives nationales du Québec (BAnQ). Le contrat est prévu pour une durée de trois ans.",
+"pointsAttention": [
+"Visite des lieux fortement suggérée"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la serrurerie et les portes mécaniques, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
