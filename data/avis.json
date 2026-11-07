@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-06T18:39",
+"date": "2026-11-07T11:46",
 "seaoLus": 353,
 "retenus": 356,
-"nouveaux": 2,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -29243,7 +29243,7 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -29340,7 +29340,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
