@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-07T11:46",
-"seaoLus": 353,
-"retenus": 356,
-"nouveaux": 0,
+"date": "2026-11-07T14:16",
+"seaoLus": 354,
+"retenus": 357,
+"nouveaux": 1,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -29353,6 +29353,74 @@
 "raison": "Le contrat concerne principalement la toiture et les unités mécaniques, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
 "version": 3
 }
+},
+{
+"id": "3050526b-4ac8-401b-be0d-ddd07f3bd888",
+"numero": "BAnQ 09-2026",
+"titre": "Services d’inspection, d’entretien préventif et de travaux correctifs sur demande pour la serrurerie et pour les portes mécaniques des édifices de BAnQ",
+"organisme": "Bibliothèque et Archives nationales du Québec",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 570000,
+"dureeMois": "36",
+"surDemande": true,
+"fermeture": "2026-12-04T10:00",
+"publie": "2026-11-07T11:54",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72101505 - Services de serrurerie",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
+"72154032 - Installation et réparation de portes, de fenêtres et de moustiquaires"
+],
+"description": "Titre\ndu projet : BAnQ 09-2026 - Services d’inspection, d’entretien préventif\net de travaux correctifs sur demande pour la serrurerie et pour les portes\nmécaniques des édifices de BAnQ\nÉtablissement :\nBibliothèque et Archives nationales du\nQuébec (BAnQ) \nDurée\nprévue du contrat : TROIS (3) ans et jusqu’à ce qu’il subsiste des\nobligations de garantie\nOption(s)\nde renouvellement(s) prévue(s) : Oui, DEUX (2) options de prolongation\nd’UNE (1) année chacune\nOption(s)\nd’acquisition supplémentaire prévue(s) :\nNon\nType\nd’adjudication : Selon le prix le plus\nbas conforme pour chacun des lots\nBibliothèque et Archives nationales du Québec (BAnQ)\nsouhaite recourir à des Services d’inspection, d’entretien préventif et de\ntravaux correctifs sur demande pour les services de serrurerie et les portes mécaniques\ndes édifices de BAnQ.\nCet appel d’offres\ninclus 2 lots et l'adjudication se fera en adjudication partielle, c'est à\ndire qu'un soumissionnaire peut soumissionner uniquement sur l'ensemble des\nitems du lot 1, ou sur l'ensemble des items du lot 2, ou, sur les 2 lots.\nLot\n1 : Services\nde serrurier sur demande et entretien préventif de la quincaillerie de portes.\nLot\n2 : Inspection,\nentretien préventif et travaux correctifs sur demande pour les portes\nmécaniques.\nAccords\nIntergouvernementales applicables :\nAccord\nQuébec-Ontario (ACCQO)\nAccord Libre échange Canadien (ALEC)\nVisite des\nlieux :\nDate et\nheure : Voir avis SEAO\nEndroit\nde rencontre : Voir dans les Documents d’appel d’Offres\nLa visite\nest fortement suggérée pour tous les soumissionnaires. \nAucune\nréclamation pour manque de connaissance ne pourra être soumise ni acceptée. \nVeuillez-vous\nassurer d’avoir commandé et pris connaissance des documents d’appel d’offres\navant la visite. \nDemande\nd’information :\nSi vous avez des\nquestions en lien avec certaines clauses administratives, veuillez en informer\nle responsable de l'appel d'offres, selon les instructions inscrites dans le\ndocument d'appel d'offres, dès que possible, AVANT la date et l'heure\nd'ouverture des soumissions.\nL’organisme public\nse réserve la possibilité de ne pas considérer une demande de précision qui\nn’entraîne pas de modification aux documents d’appel d’offres formulée par un soumissionnaire\nsi cette demande lui est transmise 5 jours ouvrables ou moins avant la\ndate et l’heure limites fixées pour la réception des soumissions.\nToute demande\nd’information doit être acheminée à la personne suivante en prenant soin\nde mentionner le numéro d’appel d’offres et le titre du projet en objet :\nGestionnaire\nde l’appel d’offres : Audrey Hamelin\nAdresse\ncourriel : Audrey.hamelin@banq.qc.ca\nPour\nêtre valides, les soumissions doivent être reçues au plus tard le :\nDate : Voir avis SEAO\nEndroit\n: En format électronique sur le site du SEAO \nLa\ndate limite de dépôt des plaintes est le :\nDate :\nVoir avis SÉAO\nTransmission électronique :\nLes soumissions doivent être transmises par voie électronique. Cette\ntransmission ne peut être effectuée que par l’interméd",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3050526b-4ac8-401b-be0d-ddd07f3bd888",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-04 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "Via Teams le lien disponible au document Régie Via Teams le lien disponible au document Régie Québec QC CAN H7N6H5",
+"ouverture": null,
+"adresseOuverture": "Via Teams le lien disponible au document Régie Via Teams le lien disponible au document Régie Québec QC CAN H7N6H5"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-07T14:15",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
