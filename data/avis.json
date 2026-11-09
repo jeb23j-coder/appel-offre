@@ -28427,7 +28427,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de raccordement du réseau électrique d'urgence du Bloc G à de nouvelles génératrices, incluant le remplacement de l'ITA et la mise à niveau de l'éclairage d'urgence.",
+"pointsAttention": [
+"Visite des lieux (non obligatoire)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux électriques et de générateurs, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "fc4236f0-a619-422c-a472-4b1b4760f888",
@@ -28487,7 +28499,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux d'excavation pneumatique pour la Ville de Brossard. Le contrat est prévu pour une durée de 36 mois, renouvelable pour deux périodes additionnelles d'un an.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'excavation et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ceda9938-53d1-458f-a03b-23ca3083f2b6",
@@ -28581,7 +28605,21 @@
 "réfection des façades"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Les travaux consistent à effectuer la réfection et le remplacement de diverses composantes de l’enveloppe du bâtiment, particulièrement des façades, incluant le remplacement des ancrages des panneaux de béton, le nettoyage et le scellement, le remplacement de portes et fenêtres, et la réparation de joints d’expansion et d’une dalle structurale.",
+"pointsAttention": [
+"Délai de 10 mois",
+"Montant estimé de 4 500 000 $",
+"Cautionnement de soumission de 10%"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat est centré sur la réfection des façades et le remplacement de portes et fenêtres, ce qui correspond directement aux compétences en maçonnerie et menuiserie de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "80f1f506-5a6c-4d9d-803f-a1c8635e4882",
@@ -28643,7 +28681,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne les travaux de remplacement de l'appel de garde au CHSLD de Beauceville. Les travaux sont prévus entre le 15 janvier 2027 et le 26 février 2027 pour un montant estimé de 420 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne des travaux de construction et maintenance de bâtiments, mais les mots-clés spécifiques à la maçonnerie ou à la charpenterie ne sont pas présents, ce qui rend la pertinence incertaine pour l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "541dba66-0bee-4edf-be90-c377208a0836",
@@ -28717,7 +28767,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation complète du 452 TÂCHÉ pour une durée de six mois, sous la forme d'un contrat à exécution sur demande.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est une rénovation générale où la maçonnerie ou la charpenterie pourrait être un lot, mais le titre indique un entrepreneur général.",
+"version": 3
+}
 },
 {
 "id": "4cbb69e9-04a0-4962-9a57-b6bac1462f8a",
@@ -28805,7 +28867,19 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le projet consiste en la restauration de l'enveloppe extérieure d'un bâtiment, incluant le remplacement de composantes d'enveloppe, de fenêtres, de portes et de murs-rideaux, l'ajout d'isolation et l'installation de revêtements extérieurs en aluminium.",
+"pointsAttention": [
+"Visite des lieux prévue le 24 novembre 2026."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat implique des travaux majeurs sur l'enveloppe extérieure, incluant des éléments de maçonnerie (murs) et de menuiserie (fenêtres, portes), ce qui correspond directement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "470b3d4b-bae2-49d8-835a-08e816062e8a",
@@ -28865,7 +28939,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien mécanique et électrique des deux haltes routières sur l'A-20 Est et Ouest dans la municipalité de Sainte-Madeleine.",
+"pointsAttention": [
+"Montant estimé du contrat est de moins de 1 M$"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien mécanique et électrique et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "78f531f0-ec76-49b5-a8bd-dc2f3cc3eef4",
@@ -28951,7 +29037,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à remplacer le revêtement de maçonnerie d'une école primaire par un nouveau revêtement en partie basse et un revêtement léger en partie haute. Le remplacement inclut également les escaliers extérieurs et leur éclairage.",
+"pointsAttention": [
+"Délai de 4 mois"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du contrat est la réfection de la maçonnerie, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "40e2e056-cfb2-441e-aed0-f75f64063df8",
@@ -29030,7 +29128,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise à niveau complète du système d'alarme incendie pour l'annexe Oasis du Centre de services scolaire de la Rivière-du-Nord. Les travaux sont prévus sur une période de trois mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire le 20 novembre 2026 à 10h."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation de systèmes d'alarme incendie et non la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "19b42947-82f1-4d8c-82cd-7a8af00eb2cc",
@@ -29117,7 +29227,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement du local D-217 (réfection du plafond et ébénisterie) et l'ajout d'une hotte de cuisine commerciale à une école secondaire. La durée prévue est de 3 mois pour un montant estimé de 150 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur des travaux de finition (plafond, ébénisterie) et l'ajout d'une hotte, sans mention claire de travaux majeurs en maçonnerie ou charpenterie.",
+"version": 3
+}
 },
 {
 "id": "da8ebabf-8651-46a8-a795-59af684f9a2d",
@@ -29180,7 +29302,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation d'un système chimique de traitement d'odeurs à une station d'épuration. La durée prévue du contrat est de 18 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6ca24b33-2e4d-4561-8856-0f86690191b5",
@@ -29254,7 +29392,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de la rénovation de l'aile B du Centre Miriam situé à Laval. La durée prévue du projet est de 12 mois, avec un montant estimé de 1 600 000 $.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est une rénovation de bâtiment, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "d06d1b26-34cf-48cd-8754-f0bd2898bc0a",
@@ -29332,7 +29482,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de salles de toilettes et douches à un campus. La durée prévue est de 4 mois avec un montant estimé de 500 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne mentionne aucun travail principal lié à la maçonnerie ou à la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "62447b99-658d-4c7a-ad99-3fd9cb4344e6",
@@ -29425,7 +29587,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "Le projet consiste essentiellement au remplacement d'une partie du revêtement mural extérieur d'une école. Les travaux devraient débuter le 3 mai 2026 et se terminer au plus tard le 13 août 2026.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le projet est centré sur la réfection du revêtement mural extérieur, ce qui correspond directement aux compétences en maçonnerie et en travaux de façade.",
+"version": 3
+}
 },
 {
 "id": "fb1b3ae0-0b40-4def-8540-7eeaa79de91e",
@@ -29515,7 +29689,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de toitures, le remplacement d'unités mécaniques et de fenêtres pour la cafétéria de l'Université Bishop's. Le projet est estimé à 1 626 537,85 $ et la durée prévue est de 8 mois.",
+"pointsAttention": [
+"Visite obligatoire (dates fixées)",
+"Exigences de cautionnement importantes (10% soumission, 50% exécution/gages/matériaux/services)"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est axé sur la toiture et les fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
