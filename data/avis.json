@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-10T16:13",
-"seaoLus": 360,
-"retenus": 363,
-"nouveaux": 9,
+"date": "2026-11-10T18:54",
+"seaoLus": 362,
+"retenus": 365,
+"nouveaux": 2,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -29430,7 +29430,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -29528,7 +29528,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -29628,7 +29628,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -29759,7 +29759,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 95,
 "type": "Maçonnerie",
@@ -29852,7 +29852,7 @@
 "béton"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -29935,7 +29935,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -30031,7 +30031,7 @@
 "charpente"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -30120,7 +30120,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -30197,7 +30197,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -30211,6 +30211,148 @@
 "raison": "Le projet est axé sur la modification d'un bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de finition, mais le cœur du contrat semble être l'installation d'étagères, ce qui n'est pas le métier principal recherché.",
 "version": 3
 }
+},
+{
+"id": "887068b1-aafe-4d55-a83b-5df95e1c5dc0",
+"numero": "261110800",
+"titre": "890-2627-11 - CÉGEP de RIMOUSKI - Étages A-300 et A-400 Réfection unité de climatisation",
+"organisme": "Cégep de Rimouski",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, DIX POUR CENT(10%) du prix total proposé dans sa soumission",
+"estimation": 600000,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-12-08T10:45",
+"publie": "2026-11-10T17:36",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151200 - Construction et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)"
+],
+"description": "Le Cégep de Rimouski cherche à acquérir des services pour le remplacement de l'unité de ventilation V-A4.1 desservant un peu plus de la moitié des locaux de la partie sud du niveau A-300 et une partie des locaux du niveau A-400 au Cégep de Rimouski.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=887068b1-aafe-4d55-a83b-5df95e1c5dc0",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-08 Au plus tard 10:45 Heure légale du Québec",
+"adresseDepot": "60 rue de L'Évéché Ouest Rimouski QC CAN G5L4H6",
+"ouverture": "2026-12-08 11:00 Heure légale du Québec",
+"adresseOuverture": "60 rue de L'Évéché Ouest Rimouski QC CAN G5L4H6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-10T18:53",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "bd6f8143-46ea-4240-8fb0-9be44c789f91",
+"numero": "2138-26",
+"titre": "Hottes chimiques de laboratoire",
+"organisme": "Université du Québec à Chicoutimi .",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% du prix total soumissionné",
+"estimation": 400000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-01T15:00",
+"publie": "2026-11-10T16:48",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "L'Université du Québec à Chicoutimi, désire recevoir des soumissions afin de procéder à l'ajout de hottes chimiques de laboratoire.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=bd6f8143-46ea-4240-8fb0-9be44c789f91",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-01 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": "555 boul. de l`universite Saguenay QC CAN G7H2B1",
+"ouverture": "2026-12-01 15:00 Heure légale du Québec",
+"adresseOuverture": "555 boul. de l`universite Saguenay QC CAN G7H2B1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-10T18:53",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
