@@ -15912,7 +15912,42 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-04"
+"fermeLe": "2026-11-04",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-10T13:37",
+"soumissions": [
+{
+"nom": "Construction Tremblay et associés inc.",
+"montant": 851100.0
+},
+{
+"nom": "GESCONOV ",
+"montant": 933321.6
+},
+{
+"nom": "CONSTRUCTION-RÉNOVATION LAPOINTE ET FRÈRES",
+"montant": 934956.5
+},
+{
+"nom": "EXPERTS CONSTRUCTIONS MG INC.",
+"montant": 935699.0
+},
+{
+"nom": "CONSTRUCTIONS MARCO LACHANCE INC.",
+"montant": 937394.49
+},
+{
+"nom": "CONSTRUCTION JACQUES MALETTE & FILS INC.",
+"montant": 969300.0
+},
+{
+"nom": "CRL CONSTRUCTION",
+"montant": 969848.83
+}
+]
+}
 },
 {
 "id": "b8a9b984-6a5e-46df-b544-c85375b43dd9",
@@ -18942,7 +18977,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-06"
+"fermeLe": "2026-11-06",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-10T15:36",
+"soumissions": [
+{
+"nom": "CONSTRUCTION BERNARD BÉLANGER & FILS INC.",
+"montant": 947838.95
+},
+{
+"nom": "Enexco inc.",
+"montant": 1046651.94
+},
+{
+"nom": "Construction Danoco inc.",
+"montant": 1054433.22
+},
+{
+"nom": "LIXM ENTREPRENEUR GÉNÉRAL INC.",
+"montant": 1231376.33
+}
+]
+}
 },
 {
 "id": "d97678fa-ddf6-48d2-ac53-fb535814db8c",
@@ -21847,6 +21905,402 @@
 {
 "nom": "CRC Entrepreneur Général",
 "montant": 1658659.61
+}
+]
+}
+},
+{
+"id": "0c7eff83-c763-4c95-ac32-13691df23d32",
+"numero": "AO 21551",
+"titre": "Travaux de réaménagement de la bibliothèque Éva-Senécal pour l’intégration de la technologie RFID",
+"organisme": "Ville de Sherbrooke",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-03T14:00",
+"publie": "2026-10-14T12:54",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72121103 - Rénovation et réparation d’immeubles commerciaux et de bureaux"
+],
+"description": "La Ville de Sherbrooke demande des soumissions pour de travaux de\nréaménagements de la Bibliothèque Éva-Senécal pour l'intégration de la\ntechnologie RFID, le tout tel que décrit aux clauses techniques et aux\ndevis techniques qui sont joints au présent document.\nDate d'ouverture des soumissions :\nDate : Le 3 novembre 2026\nHeure : Au plus tard 14 h",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0c7eff83-c763-4c95-ac32-13691df23d32",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement de la Bibliothèque Éva-Senécal pour l'intégration de la technologie RFID. La description ne détaille pas les travaux spécifiques de maçonnerie ou de charpenterie.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis ne mentionne aucun mot-clé pertinent pour la maçonnerie ou la charpenterie, et le projet semble axé sur l'aménagement intérieur/technologique.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-10"
+},
+{
+"id": "9174c62b-a0fd-4e3c-b979-b6153dca69f1",
+"numero": "21MB-034",
+"titre": "Remplacement des panneaux électriques et de la génératrice - École du Phare",
+"organisme": "Centre de services scolaire de la région de Sherbrooke.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"construction d",
+"école"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 464000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-10T14:00",
+"publie": "2026-10-14T08:41",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "APPEL D’OFFRES effectué en la ville de Sherbrooke, province de Québec, Canada, le 14 octobre 2026. \nÀ LA DEMANDE DE :\n Centre de service scolaire de la Région-de-Sherbrooke, personne morale de droit public dûment constituée selon la Loi sur l'instruction publique, RLRQ c I-13.3, ayant sa principale place d’affaires au 2955 boulevard de l'Université, en la ville de Sherbrooke, province de Québec, J1K2Y3, agissant aux présentes en qualité de mandataire des établissements identifiés à l’annexe A des présentes, dûment autorisée à agir à cette fin, tel qu’elle le déclare;\n CI-APRÈS DÉNOMMÉE, AUX FINS DE L’APPEL D’OFFRES, L’«ORGANISME PUBLIC». \nGestionnaire(s) du dossier: \nProcessus :\n Nom : Maxime Théberge \nTéléphone : 819-679-9948\n Télécopieur : N/A \nCourriel : thebergem@cssrs.gouv.qc.ca\n Expertise technique #1: \nNom : Sylvain D'amours \nTéléphone : 1-819-562-3871, 26136 \nTélécopieur : N/A\n Courriel : sylvain.damours@exp.com \nFonction : Technicien \nPRÉAMBULE \nL’ORGANISME PUBLIC DÉCLARE CE QUI SUIT : \nA) L’ORGANISME PUBLIC désire lancer un appel d’offres se rapportant à l'exécution travaux de construction, reliés au Projet no 21MB-034; \nB) Afin de se conformer aux exigences de la Loi sur les contrats des organismes publics en matière de travaux de construction, l’ORGANISME PUBLIC doit procéder par la voie d'un appel d'offres conforme à la procédure établie par le Règlement sur les contrats de travaux de construction des organismes publics. \nC) Dans le cadre de l’Appel d’Offres, l’ORGANISME PUBLIC agit en qualité de mandataire des Établissements Participants;\n D) Dès l’envoi d’un Avis d’Adjudication par l’ORGANISME PUBLIC, agissant en qualité de mandataire des Établissements Participants, le Contrat à intervenir entre en vigueur et lie chacun des Établissements Participants avec l’ENTREPRENEUR.\n DANS CE CONTEXTE, L’ORGANISME PUBLIC LANCE L’APPEL D’OFFRES QUI SUIT : \nTitre de l'appel d'offres : Remplacement des panneaux électriques et de la génératrice - École du Phare\n Numéro de l'appel d'offres : 21MB-034 \nNom du site visé par les Travaux : École du Phare\n Adresse (# et rue) : 405 Rue Sara\n Ville : Sherbrooke, (Québec)\n Code postal : J1H 5S6",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9174c62b-a0fd-4e3c-b979-b6153dca69f1",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des panneaux électriques et de la génératrice pour l'École du Phare à Sherbrooke. Le montant estimé est de 464 000 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux électriques et de génératrice, ce qui n'est pas dans le domaine principal de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-10",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-10T14:16",
+"soumissions": [
+{
+"nom": "PA Dubois Électrique INC.",
+"montant": 769400.0
+},
+{
+"nom": "E.C.E. ELECTRIQUE INC.",
+"montant": 808361.0
+},
+{
+"nom": "CONSTRUCTION LE GROUPE R. M INC.",
+"montant": 828969.0
+},
+{
+"nom": "CHABOT ET FILS INC",
+"montant": 834400.0
+}
+]
+}
+},
+{
+"id": "256a567f-9230-4bd2-9b2d-1b3b73aeb8ee",
+"numero": "26380-014",
+"titre": "Rénovation des pavages et des clôtures de l'école Prévost",
+"organisme": "Centre de services scolaire de la Rivière-du-Nord",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment",
+"béton",
+"enveloppe",
+"réfection",
+"rénovation",
+"école"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Une garantie de soumission équivalant à dix pour\ncents (10%) du prix total proposé dans sa Soumission.",
+"estimation": 265000,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-11-03T14:15",
+"publie": "2026-10-05T12:37",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "AVIS D'APPEL D'OFFRES PUBLIC\nLe Centre de services scolaire de la Rivière-du-Nord désire obtenir des soumissions électroniques ou sous enveloppe scellée pour la conclusion d'un contrat de rénovation des pavages et clôtures de l'école Prévost.\nLe projet consiste à faire la réfection du pavage des surfaces piétonnières donnant accès à l’école sans s’y limiter ainsi que l’ajout de bordures de béton et de nouveaux espaces de jeux. Les surfaces piétonnières entourant l’école datent de l’origine du bâtiment et présentent un taux de vétusté très élevé.\nLIEU D'EXÉCUTION DES TRAVAUX : \nÉcole Prévost\n85 rue Lauzon\nSaint-Jérôme (Québec) J7Y 1V8\nDÉLAI D'EXÉCUTION DES TRAVAUX : \n21 juin 2027 au 14 août 2027\nOBTENTION DES DOCUMENTS :\nLes documents d’appel d’offres ne peuvent être obtenue que par l’intermédiaire du SÉAO (Système Électronique d'Appel d'Offres) en allant sur le site « seao.gouv.qc.ca ». Les documents peuvent être obtenus en version téléchargement, le tout moyennant un coût établi par SÉAO. Il sera possible d'obtenir l'assistance de SÉAO du lundi au vendredi de 8 h 30 à 16 h 30, au numéro suivant : 1-877-336-7326.\nRESPONSABLE DE L'APPEL D'OFFRES :\nÉquipe gestion contractuelle\nCourriel : gestion-contractuelle@cssrdn.gouv.qc.ca \nVISITE DES LIEUX : \nUne visite des lieux non obligatoire est prévue le 19 octobre 2026 à 10h00. Le point de rassemblement pour cette visite est fixé à l'adresse du lieu des travaux, à l'entrée principale.\nRÉCEPTION DES SOUMISSIONS :\nPour être valides et considérées, toute soumission devra être reçue au plus tard le 3 novembre 2026 avant 14h15. Le mode de transmission d'une soumission peut être fait selon l'un ou l'autre des procédés suivants :\na)soit par voie électronique via le SÉAO et elle doit être déposée (c'est-à-dire chiffrée, transmise, horodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure limites fixées pour la réception des soumissions;\nb)soit sous enveloppe scellée, au bureau de la réception du Centre de services scolaire de la Rivière-du-Nord, au 795 rue Melançon, Saint-Jérôme, Québec, J7Z 4L1, avant la date et l’heure limites fixées pour la réception des soumissions;\nUne soumission reçue postérieurement sera automatiquement rejetée et retournée au soumissionnaire sans être ouverte.\nOUVERTURE DES SOUMISSIONS :\nL'ouverture des soumissions se fera immédiatement après l'heure limite de réception des Soumissions.\nLe Centre de services scolaire encourage les soumissionnaires à procéder au dépôt d'une soumission par voie électronique.\nNous vous rappelons que la règlementation ne permet pas le dépôt de plusieurs soumissions dans le cadre de l'appel d'offres, étant entendu que la transmission d'une même soumission par voie électronique et sur support papier constitue un dépôt de plusieurs soumissions.\nGARANTIE DE SOUMISSION :\nLe soumissionnaire doit accompagner sa Soumission d’une garantie de soumission équivalant à dix pour cents (10%) du prix total proposé dans sa Soumission. Cette garantie de soum",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=256a567f-9230-4bd2-9b2d-1b3b73aeb8ee",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation des pavages et l'ajout de bordures de béton pour l'école Prévost. Le montant estimé est de 265 000 $ pour une durée prévue de deux mois.",
+"pointsAttention": [
+"Visite des lieux prévue le 19 octobre 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur les travaux d'aménagement extérieur (pavages et béton) et n'inclut pas de travaux majeurs de maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection",
+"rénovation",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection",
+"rénovation",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-10"
+},
+{
+"id": "d66c244c-3c5a-4ec4-bec6-1fbc77b0d548",
+"numero": "P26022AA-02",
+"titre": "Rénovation des façades et fenêtres au pavillon Hubert-Aquin (A)",
+"organisme": "Université du Québec à Montréal",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"brique",
+"bâtiment",
+"façade",
+"fenêtre",
+"linteau",
+"maconnerie",
+"maçonnerie",
+"parement",
+"parements de brique",
+"rénovation",
+"rénovation de façade"
+],
+"cautionSoumission": "Cautionnement, 10 %",
+"estimation": 5800000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-02T13:00",
+"publie": "2026-10-02T09:35",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Université du Québec à Montréal, ci-après nommée le\nPropriétaire, ayant son siège au 1430, rue Saint-Denis, H2X 3J8, Montréal,\nQuébec, demande des soumissions pour des\ntravaux de rénovation de façades en maçonnerie de briques et le remplacement de\nfenêtres au pavillon Hubert-Aquin (A), situé au 400, rue Sainte-Catherine Est,\nà Montréal. Cette 4e phase de rénovation s’inscrit dans un plan de\nrénovation de l’ensemble du bâtiment qui s’échelonnera sur plusieurs années.\nLe présent appel d’offres a pour objet la rénovation\ndu 3e étage de la façade de la rue St-Denis et du 1er, 2e,\n3e et 4e étage côté cour intérieure du pavillon\nHubert-Aquin (A). \nLes travaux comprennent, sans s'y limiter :\n- Le\nremplacement des parements de brique;\n- Le\nrenforcement des linteaux structuraux;\n- Le\nremplacement de la fenestration en aluminium;\n- L’ajout\nde support structural pour la fenestration;\n- Les\ntravaux d’isolation et d’étanchéité;\n- La\nfourniture et l’installation de toiles solaires;\n- Le\nragréage de soffites;\n- Les\ntravaux de réparation des finis intérieurs;\n- Les\ntravaux de peinture ;\n- Divers travaux électromécaniques,\ndont la récupération de certains équipements électriques existants et leur\nréinstallation, l'ajout d'éclairage temporaire dans la zone piétonne aux abords\nde la zone chantier ainsi que l’installation de filtres aux prises d’air /\npersiennes;\n- Les travaux de démolition,\nprotection, ragréage et autres nécessaires au parachèvement complet de\nl'Ouvrage.\nLes travaux impliquent également tous les travaux\nconnexes, tels : aménagement et nettoyage du site, ouvrage de protection\ntemporaire, réparations et modifications des ouvrages d’aménagements intérieurs\nexistants, travaux de jointement, de réparation et percements requis. \nL’Entrepreneur doit considérer que les usagers et\noccupants du bâtiment poursuivront leurs activités durant les travaux, dans les\nespaces adjacents aux zones de travaux de même qu’aux étages situés au-dessus\net en dessous. De même, les cours extérieures et accès continueront aussi\nd’être utilisés, durant toute la durée des travaux. L’Entrepreneur devra agir\nde façon à minimiser les inconvénients aux usagers et personnels.\nL’Entrepreneur ne doit, en aucun cas, empêcher le\nlibre accès des usagers aux espaces autres que ceux expressément désignés pour\nla réalisation des travaux. L’Entrepreneur devra s’assurer que les usagers\nauront accès aux locaux et aux aménagements dans un climat sécuritaire, salubre\net sans discontinuité.\nL’Entrepreneur aura l’entière responsabilité du\ncontrôle des accès aux lieux, du chantier. Dans les situations où\nl’Entrepreneur doit exécuter des travaux ailleurs dans le bâtiment ou dans les\ncas où il doit procéder à des coupures de services électromécaniques, il le\nfera en dehors des heures normales d’occupation par les usagers, d’après les\nautorisations du Propriétaire. Enfin, l’Entrepreneur aura l’entière\nresponsabilité de la sécurité et de la protection temporaire au chantier.\nL'Entrepreneur doit exécuter",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=d66c244c-3c5a-4ec4-bec6-1fbc77b0d548",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 95,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation de façades en maçonnerie de briques et le remplacement de fenêtres au pavillon Hubert-Aquin. Les travaux incluent le remplacement des parements de brique, le renforcement des linteaux structuraux et divers travaux connexes.",
+"pointsAttention": [
+"Durée prévue de 12 mois",
+"Travaux impliquant des occupants et usagers en activité, nécessitant une gestion des nuisances"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le cœur du contrat est la maçonnerie (rénovation de façades en brique) et la charpenterie/menuiserie (remplacement des fenêtres, renforcement des linteaux), ce qui correspond parfaitement aux intérêts de l'entreprise.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"parement",
+"linteau",
+"maconnerie",
+"façade",
+"rénovation de façade",
+"parements de brique"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"parement",
+"linteau",
+"maconnerie",
+"façade",
+"rénovation de façade",
+"fenêtre",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"parement",
+"linteau",
+"maconnerie",
+"façade",
+"rénovation de façade",
+"parements de brique",
+"fenêtre",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-10",
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-10T14:39",
+"soumissions": [
+{
+"nom": "ST-DENIS THOMPSON INC.",
+"montant": 5172000.0
+},
+{
+"nom": "MAÇONNERIE RAINVILLE & FRÈRES INC.",
+"montant": 5670626.0
 }
 ]
 }
