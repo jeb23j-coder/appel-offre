@@ -2,14 +2,14 @@
  "source": "Source : Système électronique d'appel d'offres (SEAO), Secrétariat du Conseil du trésor du Québec, via Données Québec, licence CC-BY 4.0 (https://www.donneesquebec.ca/licence/#cc-by). Données traitées par Radar Chantier.",
  "licence": "CC-BY 4.0",
  "categorie": "C01 - Bâtiments",
- "miseAJour": "2026-11-09T20:16:50+00:00",
+ "miseAJour": "2026-11-10T17:22:44+00:00",
  "note": "Les données ouvertes de SEAO sont publiées chaque semaine (avec quelques jours de décalage). Pour les tout nouveaux avis, Radar Chantier utilise aussi son balayage quotidien.",
  "compteurs": {
-  "avisOuverts": 308,
-  "contrats": 7833,
-  "entreprises": 4483,
+  "avisOuverts": 296,
+  "contrats": 7807,
+  "entreprises": 4475,
   "organismes": 736,
-  "fichesTotal": 8391
+  "fichesTotal": 8364
  },
  "pointsAcces": {
   "avis-ouverts": "api/v1/avis-ouverts.json",
