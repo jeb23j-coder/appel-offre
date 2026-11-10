@@ -29430,7 +29430,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la retenue d'une centrale de surveillance d'alarmes pour les bâtiments de la Commission Scolaire English-Montreal. Le contrat vise la surveillance à distance et le contrôle programmé du bon fonctionnement du lien.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne un service de surveillance d'alarmes et n'implique aucun travail principal en maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1f1f5a64-87c0-4575-83f8-ad3aefe167c1",
@@ -29516,7 +29528,21 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement d'un local à l'URDM pour y ajouter un laveur décontamineur. Les travaux impliquent des confinements et des travaux en phase, mais il n'y a pas de travaux à faire sur la dalle de béton.",
+"pointsAttention": [
+"Visite des lieux obligatoire (rendez-vous requis).",
+"Délai de 4 mois.",
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne correspond pas aux métiers ciblés (maçonnerie/charpenterie/menuiserie) et se concentre sur des travaux de mécanique/raccordement et de confinement.",
+"version": 3
+}
 },
 {
 "id": "4779a89e-be89-4abd-a406-f697b9a7c0e5",
@@ -29602,7 +29628,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de pérennité et de mise à niveau pour un poste électrique, incluant des travaux de bâtiment, de démolition, de structure (y compris charpente métallique) et des travaux civils.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de structure et de charpente, ce qui est pertinent, mais il est très large et inclut beaucoup d'autres corps de métier.",
+"version": 3
+}
 },
 {
 "id": "9e814641-6546-48e7-b03b-bb0f06e5dcb0",
@@ -29721,7 +29759,20 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 95,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation de l'escalier de secours extérieur et des travaux de maçonnerie au pavillon Saint-Denis. Les travaux incluent le remplacement de briques endommagées, l'ajout de linteaux, le rejointoiement de joints de mortier de brique et la réparation de crépi.",
+"pointsAttention": [
+"visite obligatoire",
+"Contrat sur demande : non"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est centré sur des travaux de maçonnerie (brique, rejointoiement, linteaux) et correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "436c77f2-24d1-49f1-891b-2330f6d168a3",
@@ -29801,7 +29852,19 @@
 "béton"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un transformateur et inclut des travaux de bâtiment, de démolition, de fondations en béton armé, de déblais/remblais et travaux civils.",
+"pointsAttention": [
+"Montant estimé entre 10 000 000 $ et 20 000 000 $"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat est centré sur les travaux civils et électriques, et non sur la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3b22750e-bb59-43e2-8a97-490d8bd5c99c",
@@ -29872,7 +29935,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un refroidisseur par une thermopompe aérothermique dans un laboratoire. Les travaux incluent le démantèlement d'équipements, l'installation de la nouvelle thermopompe, l'adaptation du réseau hydronique glycolé et des travaux de supportage, isolation et protection.",
+"pointsAttention": [
+"Délai d'information : Doit être adressée au responsable au minimum trois jours ouvrables avant la date et l'heure limites fixées pour la réception des soumissions."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3d8a8221-03d8-410d-b732-3c1b32c265c9",
@@ -29956,7 +30031,19 @@
 "charpente"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux civils et électriques sur des transformateurs, incluant des travaux de bâtiment, des fondations en béton armé, de la charpente métallique et des travaux d'implantation électrique.",
+"pointsAttention": [
+"Montant estimé entre 20 000 000 $ et 40 000 000 $"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le cœur du contrat est axé sur les travaux civils et électriques, et non sur la maçonnerie ou la charpenterie comme métier principal.",
+"version": 3
+}
 },
 {
 "id": "c0cd2675-de09-4e5b-a572-78bc256b8db3",
@@ -30033,7 +30120,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne l'installation, l'entretien et la réparation des systèmes d'alarme intrusion et d'alarme incendie pour les bâtiments de la Commission scolaire Sir-Wilfrid-Laurier. Le contrat est prévu pour une durée de 36 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des systèmes de sécurité (alarme) et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b5150f50-643f-4112-9f35-28202278f4bb",
@@ -30098,7 +30197,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la densification de magasins par l'installation d'étagères mobiles en remplacement des étagères standards existantes. Les travaux connexes incluent le ragréage des finis et le démantèlement des étagères existantes.",
+"pointsAttention": [
+"Délai de 6 mois",
+"Montant estimé de 1 668 420 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est axé sur la modification d'un bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de finition, mais le cœur du contrat semble être l'installation d'étagères, ce qui n'est pas le métier principal recherché.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
