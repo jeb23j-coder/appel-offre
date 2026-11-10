@@ -29269,7 +29269,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de toitures et le remplacement des parements extérieurs et de la porte principale de deux centres communautaires. Les travaux sont prévus sur une durée estimée de 6 mois.",
+"pointsAttention": [
+"délai court (date limite de soumission : 11 décembre 2026 à 15h)"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut le remplacement de parements extérieurs, ce qui est pertinent pour les métiers de maçonnerie, mais la toiture est également mentionnée.",
+"version": 3
+}
 },
 {
 "id": "02a36724-098e-4495-bcf7-858cda3178fc",
@@ -29331,7 +29343,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne le remplacement d'une caméra Gamma en médecine nucléaire à l'Hôtel-Dieu de Lévis. Les travaux sont prévus pour durer environ 12 mois et ont lieu à Lévis.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux médicaux et non la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d5661d78-2de4-4906-a75d-6690132a35d4",
@@ -29407,7 +29431,23 @@
 "béton"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une génératrice au Centre récréatif Édouard-Rivet, incluant l'installation de matériel électrique, de conduits et la démolition d'une base de béton.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est entièrement axé sur l'électricité et les équipements mécaniques (génératrice) et n'inclut aucun travail principal de maçonnerie ou de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f955771f-69c6-45a6-9047-40de74e776e5",
@@ -29491,7 +29531,21 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des postes infirmiers et des salles à manger des 3e et 4e étages d'un CHSLD. Les travaux incluent la réfection des postes, du mobilier, du revêtement de plancher, de l'éclairage, et le remplacement d'une unité de ventilation.",
+"pointsAttention": [
+"Les travaux sont exécutés dans un bâtiment occupé.",
+"Les travaux devront être réalisés en 3 phases.",
+"Visite des lieux organisée pendant la période d'appel d'offres."
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est une rénovation de bâtiment, mais les travaux principaux listés (postes, mobilier, plancher, ventilation) ne correspondent pas directement au cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e07528dd-3fdb-4909-8ff2-24ab988dd0cc",
@@ -29555,7 +29609,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'exécution de travaux d'asphaltage. La description indique l'exécution sur demande des travaux d'asphaltage.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'asphaltage et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a9e96ae1-a16a-472a-bedc-15c267351e0a",
@@ -29627,7 +29693,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne l'excavation et le dynamitage pour la future conduite d'alimentation en eau d'une nouvelle école à Quaqtaq. Les travaux impliquent le creusement d'une tranchée de 23 m sur une distance de 47 m.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'excavation et le dynamitage, ce qui n'est pas dans le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
