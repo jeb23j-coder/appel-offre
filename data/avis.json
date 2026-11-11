@@ -30853,7 +30853,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'une nouvelle rampe d'accès universel et l'aménagement d'une toilette universelle pour la salle de réception de l'Église St-George. Les travaux sont prévus au printemps 2027.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "14d755d4-3aba-4588-8c31-b489b2ad0264",
@@ -30945,7 +30957,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la remise à niveau de CVCA (Lot 1) et la réfection partielle de la toiture et de la maçonnerie à une école (Lot 2). Le Lot 2 inclut la réfection complète des toitures à bassins et la réfection de deux murs en maçonnerie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut explicitement des travaux de réfection de maçonnerie, ce qui correspond directement à l'expertise de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "7a41897d-6343-4438-adaf-04d7771dbe30",
@@ -31020,7 +31044,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise aux normes de la ventilation d'une école, impliquant principalement des travaux électromécaniques (installation d'un serpentin de climatisation/chauffage).",
+"pointsAttention": [
+"visite obligatoire, délai court, cote de sécurité, milieu occupé, contrat sur demande…"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la ventilation et l'électromécanique, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "2e2a34d7-4f1b-4079-85c4-ab40083b51c1",
@@ -31093,7 +31129,19 @@
 "logement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne le remplacement et la modernisation de l'unité de ventilation des corridors, du système d'eau chaude domestique et du chauffage du garage à un logement à Montréal. La durée prévue est de 6 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de CVC et de plomberie/chauffage, ce qui n'est pas dans les domaines principaux de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "878f108e-7198-4fb8-97fc-f709dadcf699",
@@ -31190,7 +31238,19 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la démolition et reconstruction de l'enveloppe de la façade sud d'un bâtiment de trois étages et des façades latérales, ainsi que la reconstruction de trois vestibules d'entrée. Il inclut également le remplacement d'un escalier extérieur et divers travaux en civil.",
+"pointsAttention": [
+"Visite des lieux prévue le 23 novembre 2026."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet est centré sur la reconstruction de l'enveloppe de façade et inclut des éléments de maçonnerie (façades, vestibules) et de charpenterie/structure (escalier, marquise).",
+"version": 3
+}
 },
 {
 "id": "c6412d96-c3b8-420e-b9e4-61d49e3105cc",
@@ -31266,7 +31326,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des services de dépannage 24/7 pour divers systèmes d'alarmes et de sécurité dans les bâtiments de la Commission Scolaire English-Montreal.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des services de maintenance et de dépannage de systèmes de sécurité, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1d5ab876-8f90-4acc-b5b9-dd2bdf6b9369",
@@ -31346,7 +31418,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 70,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection du revêtement extérieur du centre municipal, incluant la préparation des surfaces et l'application de la peinture. La durée prévue est d'un mois.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat touche directement à la réfection de l'enveloppe du bâtiment, ce qui correspond aux intérêts de l'entreprise, même si le travail principal est la peinture.",
+"version": 3
+}
 },
 {
 "id": "5301ebc4-4b24-486b-a7b7-4335a91971df",
@@ -31420,7 +31504,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Les travaux consistent à ajouter deux nouvelles portes d’issue à la cafétéria et à la salle polyvalente de l'école MET. Les travaux incluent des modifications architecturales, ainsi que des travaux connexes de mécanique et d'électricité.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation de portes et fenêtres dans un contexte scolaire, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie.",
+"version": 3
+}
 },
 {
 "id": "ac792196-e0a8-4add-b171-53741e6689b2",
@@ -31509,7 +31605,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un mur rideau et la rénovation de blocs sanitaires à une école. Les travaux sont prévus sur une durée de 5 mois.",
+"pointsAttention": [
+"Bâtiment occupé (école), nécessitant des travaux en dehors des heures de cours.",
+"Nécessité d'aménager une zone de chantier sécuritaire en raison d'un camp de jour estival."
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat ne concerne pas directement les métiers de la maçonnerie ou de la charpenterie/menuiserie, se concentrant sur des travaux de rénovation intérieure et de second œuvre.",
+"version": 3
+}
 },
 {
 "id": "ff37b7ec-7cd1-4076-91ca-14ed5f7d1903",
@@ -31585,7 +31694,21 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de mise en conformité pour le Centre communautaire Curé-Soucy. La durée prévue est de 12 mois et le montant estimé n'est pas publié.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai de soumission (2 décembre 2026)",
+"Garanties de soumission requises (cautionnement, garantie d'exécution et de paiement)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne des travaux de mise en conformité d'un bâtiment, ce qui peut inclure des aspects de maçonnerie ou de charpenterie, mais le titre est général et le focus n'est pas explicitement sur ces corps de métier.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
