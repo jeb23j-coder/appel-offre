@@ -17312,7 +17312,18 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-05"
+"fermeLe": "2026-11-05",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-11T09:24",
+"soumissions": [
+{
+"nom": "Lamellé Québec inc",
+"montant": 227996.0
+}
+]
+}
 },
 {
 "id": "fa52aaf9-4629-4641-953a-645d29f529e1",
@@ -18109,7 +18120,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-05"
+"fermeLe": "2026-11-05",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-11T09:20",
+"soumissions": [
+{
+"nom": "B.B.P. ENERGIE LTEE",
+"montant": 244647.0
+},
+{
+"nom": "Direct Controles Inc.",
+"montant": 672450.0
+}
+]
+}
 },
 {
 "id": "c58a8b7e-966e-492d-893a-27db5a5687ba",
@@ -21973,7 +21999,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-10"
+"fermeLe": "2026-11-10",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-11T10:11",
+"soumissions": [
+{
+"nom": "DESROCHERS BERNARD INC.",
+"montant": 299642.1
+},
+{
+"nom": "CONSTRUCTION LONGER INC.",
+"montant": 301901.08
+},
+{
+"nom": "CONSTRUCTIONS GUY SÉBAS INC.",
+"montant": 308133.0
+}
+]
+}
 },
 {
 "id": "9174c62b-a0fd-4e3c-b979-b6153dca69f1",
@@ -22304,5 +22349,306 @@
 }
 ]
 }
+},
+{
+"id": "fc696ec9-898a-4b9f-8cd4-a1aeeb21c7bd",
+"numero": "L26",
+"titre": "Réfection pierre et moulure Maison Chaumont",
+"organisme": "Ville de Sainte-Anne-des-Plaines.",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-06T11:00",
+"publie": "2026-10-07T11:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72111001 - Rénovation, agrandissement et remodelage de maisons individuelles"
+],
+"description": "TITRE : RÉFECTION PIERRE ET MOULURE MAISON CHAUMONT NUMÉRO : L26\nDes soumissions scellées seront reçues par le greffier de la Ville de Sainte-Anne-des-Plaines ou son représentant autorisé, à l’hôtel de ville au 139, boulevard Sainte-Anne, à Sainte-Anne-des-Plaines, jusqu’à 11 h 00 le 6 novembre 2026 pour l’appel d’offres « Réfection pierre et moulure Maison Chaumont » et seront ouvertes publiquement ce même jour et à 11h15. Les dépôts électroniques via le SEAO ne seront pas acceptés.\nLa date limite de réception des plaintes est le 22 octobre 2026. Le contrat doit être complété au plus tard le 1er octobre 2027.\nLes entreprises intéressées par cet appel d’offres doivent se procurer les documents d’appel d’offres en s’adressant au système électronique d’appel d’offres (SEAO) à l’adresse suivante : www.seao.gouv.qc.ca. Les documents sont obtenus au coût établi par le SEAO. La Ville de Sainte-Anne-des-Plaines se réserve le droit de rejeter toute soumission dont le soumissionnaire ne s’est pas procuré le document d’appel d’offres directement du SEAO incluant les addenda (s’il y a lieu).\nDe plus, la Ville n’encourt aucune responsabilité du fait que les avis écrits ou documents quelconques véhiculés par le système électronique soient incomplets ou comportent quelques erreur ou omission que ce soit. En conséquence, tout soumissionnaire doit s’assurer, avant de soumissionner, d’obtenir tous les documents reliés à cet appel d’offres via le SEAO.\nTout renseignement d’ordre général concernant le présent appel d’offres pourra être obtenu en communiquant avec monsieur Étienne Bérard, PGM, T. P. directeur du Service des infrastructures et techniques par courriel à l’adresse suivante : eberard@villesadp.ca\nLes soumissions devront être valides pour une période de quatre-vingt-dix (90) jours et être accompagnées d’un chèque visé, d'un mandat-poste ou d'une traite bancaire d’un montant au moins égal à dix pour cent (10 %) de la valeur de la soumission incluant les taxes, ainsi qu’une lettre d’intention quant à l’émission d’un cautionnement d’exécution et d’un cautionnement garantissant la main-d’œuvre, les matériaux et les services, chacun pour une valeur de cinquante pour cent (50 %) de la valeur de la soumission incluant les taxes.\nSeuls les cautionnements émis par des compagnies détenant un permis d’assureur du Canada et reconnues par l’Autorité des marchés financiers du Québec seront acceptés aux termes des documents d’appel d’offres.\nAucun accord intergouvernemental n’est applicable.\nLa Ville ne s’engage à accepter ni la plus basse ni aucune des soumissions reçues. Elle se réserve en outre le droit de rejeter toutes les soumissions reçues, si elle le juge à propos, sans pour autant être tenue responsable ou faire l’objet d’une poursuite ou réclamation pour frais ou pertes subies par les soumissionnaires.\nProcédure d’attribution : Plus bas soumissionnaire conforme\n Donné à Sainte-Anne-des-Plaines, ce 7 octobre 2026.\nGeneviève Lazure, greffière",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fc696ec9-898a-4b9f-8cd4-a1aeeb21c7bd",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de pierre et moulure pour une maison individuelle. Le projet est estimé à une durée de 12 mois.",
+"pointsAttention": [
+"Délai de soumission : Les soumissions doivent être valides pour 90 jours.",
+"Exigence de cautionnement : Nécessite un chèque visé, mandat-poste ou traite bancaire (10% de la soumission) et des cautionnements d'exécution et de main-d'œuvre/matériaux (50% de la soumission)."
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du projet est la réfection de pierre et moulure, ce qui correspond directement aux compétences de maçonnerie de l'entreprise.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-11",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-11T11:52",
+"soumissions": [
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 137609.25
+},
+{
+"nom": "Les Restaurations Dominion Inc.",
+"montant": 166076.5
+},
+{
+"nom": "Les constructions J Brillant inc.",
+"montant": 206955.0
+},
+{
+"nom": "Constructions M.J.D. inc.",
+"montant": 216049.52
+},
+{
+"nom": "ASBEX LTD",
+"montant": 227614.86
+},
+{
+"nom": "LES ENTREPRISES PROTEAU ET GARNEAU INC.",
+"montant": 253749.82
+}
+]
+}
+},
+{
+"id": "23697807-5f2a-474c-b80c-b3051ce248d2",
+"numero": "P23033JJ-02",
+"titre": "Rénovation de la salle mécanique du 6e étage au pavillon Jasmin",
+"organisme": "Université du Québec à Montréal",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"construction d",
+"parement",
+"rénovation"
+],
+"cautionSoumission": "Cautionnement, 10%",
+"estimation": 8897300,
+"dureeMois": "27",
+"surDemande": false,
+"fermeture": "2026-11-03T11:00",
+"publie": "2026-10-05T13:27",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Université du Québec à Montréal ci-après nommée le Propriétaire, ayant son siège au 1430, rue Saint-Denis, H2X 3J8, Montréal, Québec, demande des soumissions pour la rénovation de l’ensemble de la salle de mécanique J- 6500 du pavillon Judith-Jasmin et ses systèmes électromécaniques qui sont en fin de vie utile. Les systèmes existants sont d’origine de la construction du bâtiment en 1978. Le pavillon Judith-Jasmin est situé au 405, rue Sainte-Catherine Est à Montréal. Les travaux comprennent notamment :\n• Les travaux mécaniques et électriques concernent principalement le remplacement des systèmes de ventilation U-120, U-121, U-122, U-123, U-124 et U-125, le remplacement des (2) chaudières vapeur au gaz par (1) chaudière vapeur au gaz et (1) chaudière vapeur électrique, le nettoyage de tous les conduits de ventilation conservés dans la salle de mécanique, les travaux de tuyauterie, ainsi que les travaux de distribution électrique. Les travaux seront réalisés en plusieurs phases à l’aide d’une unité de ventilation temporaire et selon le plan de phasage élaboré par les Professionnels afin de conserver les espaces en fonctions;\n• Le remplacement du parement métallique extérieur, création d’ouvertures temporaires étanches aux murs pour les équipements mécaniques temporaires durant les travaux, la réparation de l’enveloppe extérieure après les travaux mécaniques suite aux ouvertures temporaires, des interventions aux systèmes de toiture et solinage pour les travaux de structure, des travaux de peinture et l’installation d’une échelle et gardecorps au toit;\n• Les travaux de structure permettant le remplacement des unités de ventilation et rénovation des chaufferies;\n• L’enlèvement de matériaux contaminés par l’amiante;\n• La décontamination fongique;\n• Des travaux en condition de silice cristalline;\n• La mise en service améliorée.\nCeci inclut également tous les travaux connexes tels : aménagement et nettoyage du site, ouvrage de protection temporaire, travaux de jointement, de réparation et percements requis. L’Entrepreneur doit considérer que la toiture existante est sous garantie. Le Contrat comprend aussi la récupération de certains équipements existants et leur réinstallation. L’Entrepreneur doit considérer que les usagers et occupants du bâtiment poursuivront leurs activités durant les travaux. L’Entrepreneur devra agir de façon à minimiser les inconvénients aux usagers et personnel. De même, la cour extérieure, stationnement, accès, etc., continueront aussi d’être utilisés, durant toute la durée des travaux. L’Entrepreneur devra s’assurer que les usagers auront accès aux locaux et aux aménagements dans un climat sécuritaire, salubre et sans discontinuité. Ceci inclut tous les travaux d’aménagement, tous les travaux de démolition, protection, ragréage et autres nécessaires au parachèvement complet de l’Ouvrage et tous les travaux connexes tels : aménagement et nettoyage du site, ouvrage de protection temporaire, réparations et modifications des ouvr",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=23697807-5f2a-474c-b80c-b3051ce248d2",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation de la salle mécanique et des systèmes électromécaniques d'un bâtiment universitaire. Les travaux incluent le remplacement de systèmes de ventilation, de chaudières, des travaux de tuyauterie, et la réparation de l'enveloppe extérieure.",
+"pointsAttention": [
+"délai long (27 mois)",
+"travaux en milieu occupé",
+"travaux de structure et de parement extérieur mentionnés"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le cœur du projet est mécanique et électrique, et bien que des travaux de parement extérieur soient mentionnés, la maçonnerie/brique et la charpenterie/menuiserie ne constituent pas le travail principal recherché.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"parement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"parement",
+"rénovation",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"parement",
+"rénovation",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-11"
+},
+{
+"id": "cfc3e68a-a1e1-4bed-812c-e2da8658fa13",
+"numero": "55840_624_VB_JB_PUB_C",
+"titre": "Réno Fen+mur-rideau - 624_Pavillon principal - St-Hyacinthe",
+"organisme": "Université de Montréal - Direction des immeubles",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"bâtiment",
+"façade",
+"fenêtre",
+"maconnerie",
+"maçonnerie",
+"patrimonial"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, DIX POUR CENT (10%) du prix total proposé dans sa Soumission.",
+"estimation": 4125000,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-10-29T10:30",
+"publie": "2026-09-24T11:19",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le mur‑rideau de l’entrée principale ainsi que\n les fenêtres du pavillon principal de la Faculté de médecine vétérinaire sont\n en fin de vie utile et présentent des déficiences d’étanchéité. Le projet\n vise le remplacement des fenêtres, des portes extérieures et des sections de\n mur‑rideau, afin de rétablir l’étanchéité de l’enveloppe et d’assurer la\n pérennité du bâtiment. Une attention\n particulière devra être portée à la préservation des éléments architecturaux\n art‑déco de la façade principale, lesquels constituent un caractère\n patrimonial important du pavillon.\n Des travaux connexes sont également inclus dans le présent appel d’offres,\n sans s’y limiter : corrections de maçonnerie sur les zones adjacentes aux\n ouvertures, remplacement du revêtement intérieur de l’entrée principale,\n remplacement de l’escalier de secours extérieur de l’auditorium et\n remplacement des capots du mur‑rideau de la passerelle extérieure. L’entrepreneur général sera responsable du\n retrait, de la disposition conforme à la réglementation et de la\n réinstallation des unités de climatisation de fenêtre. Les nouvelles unités à\n réinstaller seront fournies par l’Université de Montréal.\n La réalisation des travaux devra être coordonnée étroitement avec le chargé\n de projet, afin de limiter les impacts sur les occupants, les activités\n académiques et les opérations du bâtiment.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=cfc3e68a-a1e1-4bed-812c-e2da8658fa13",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "Le projet vise le remplacement des fenêtres, des portes extérieures et des sections de mur-rideau pour rétablir l'étanchéité de l'enveloppe du bâtiment. Des corrections de maçonnerie sur les zones adjacentes aux ouvertures sont également incluses, avec une attention particulière à la préservation des éléments patrimoniaux de la façade.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de 8 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut clairement des travaux majeurs en maçonnerie et sur l'enveloppe du bâtiment, ce qui correspond parfaitement à l'expertise de l'entreprise.",
+"version": 3
+},
+"motsOk": true,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"patrimonial",
+"fenêtre",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"patrimonial",
+"fenêtre",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-11"
 }
 ]
