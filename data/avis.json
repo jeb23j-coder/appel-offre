@@ -30186,7 +30186,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la décontamination et le réaménagement du local H0029 et la décontamination de l'entre-plafond du H0079-1 de l'étage H00 du bâtiment Hall.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur la décontamination et le réaménagement, et n'inclut pas de travaux majeurs en maçonnerie ou charpenterie.",
+"version": 3
+}
 },
 {
 "id": "a5e16f57-a9fa-4ed3-91aa-68558c14f587",
@@ -30273,7 +30285,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du plancher du gymnase et le remplacement des portes extérieures du gymnase, ainsi que des travaux d'insonorisation du plateau sportif. Le projet est situé dans une école.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est axé sur la pose de planchers et le remplacement de portes, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0b99c587-b51b-4c6f-b526-7b61e1ac724b",
@@ -30355,7 +30379,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la phase 1 de la réfection complète de l'école primaire du Tremplin. La durée prévue pour ce projet est de 12 mois, avec un montant estimé de 2 000 000 $.",
+"pointsAttention": [
+"délai de 12 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de bâtiment où la maçonnerie et la charpenterie sont probablement impliquées, mais le titre ne spécifie pas clairement que ce sont les métiers principaux.",
+"version": 3
+}
 },
 {
 "id": "2abe98b9-5970-47cd-8cc2-9158dc854542",
@@ -30437,7 +30473,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de l'entrée 15 de l'aile C du Cégep de Sainte-Foy. Le montant estimé est de 280 000 $ et la durée prévue est de 3 mois.",
+"pointsAttention": [
+"Visite obligatoire le 18 novembre à 14h00."
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le projet implique une réfection d'une entrée qui nécessite probablement des travaux de maçonnerie et/ou d'enveloppe du bâtiment, ce qui correspond directement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "5b00847c-2fa6-42fc-9586-18f9099ed8c7",
@@ -30526,7 +30574,20 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'une caserne de pompiers et d'un garage pour la voirie. Le contrat est pour un entrepreneur général et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de construction où la maçonnerie et la charpenterie/menuiserie seront probablement des lots à soumissionner par l'entrepreneur général.",
+"version": 3
+}
 },
 {
 "id": "8e372d1d-50b3-45db-b7f0-3da5d1a0240f",
@@ -30605,7 +30666,19 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la restauration de la phase 1 du château Norton, incluant des travaux sur l'enveloppe du bâtiment. La durée prévue pour l'exécution des travaux est de 3 mois.",
+"pointsAttention": [
+"délai court (3 mois)"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du projet est la restauration de l'enveloppe du bâtiment, ce qui correspond directement aux intérêts de la maçonnerie et de la restauration.",
+"version": 3
+}
 },
 {
 "id": "9a2a679e-715d-4959-bdd4-7f669c0cef62",
@@ -30675,7 +30748,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la rénovation des bureaux du département de la R.L.D et de la R.R.D de l'Administration régionale Kativik. Le contrat concerne la rénovation générale des bureaux.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la rénovation d'immeubles commerciaux et de bureaux, ce qui implique potentiellement des travaux de maçonnerie et/ou de charpenterie/menuiserie, mais le cœur du contrat n'est pas explicitement centré sur ces métiers.",
+"version": 3
+}
 },
 {
 "id": "ac74b43c-199c-4cd8-8327-2356e0c962b3",
@@ -30758,7 +30843,19 @@
 "béton"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à effectuer divers travaux de correctifs de béton dans le stationnement souterrain du campus de Limoilou. La durée prévue des travaux est de 9 mois, avec un montant estimé de 450 000 $.",
+"pointsAttention": [
+"Le bâtiment restera habité par la clientèle et les employés de l’ORGANISME PUBLIC pendant la durée des travaux."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de réparation de béton et n'a aucun lien direct avec les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0d7ab9b0-1a7f-4a74-b8ff-2916f65458bf",
@@ -30820,7 +30917,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Cet appel d'offres concerne des rénovations majeures dans un village nordique du Nunavik, avec une durée prévue de 5 mois. Le montant estimé n'est pas publié.",
+"pointsAttention": [
+"Délai de soumission : 9 décembre 2026, 11h00 (pour l'avis public), ouverture publique le même jour à 11h30."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un appel d'offres de construction/maintenance de bâtiments, ce qui pourrait inclure des lots de maçonnerie ou charpenterie, mais les mots-clés spécifiques ne sont pas présents dans l'avis.",
+"version": 3
+}
 },
 {
 "id": "30be5b1e-fe6c-47e8-b2ba-530925cf7d8d",
@@ -30898,7 +31007,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la finition intérieure d'une cuisine dans une école secondaire. La durée prévue est de 12 mois pour un montant estimé de 1 654 581 $.",
+"pointsAttention": [
+"délai de 12 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la finition intérieure d'une cuisine et n'inclut ni maçonnerie/briquetage ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "ea75fd29-df9e-485a-918d-3f6681dd8aa0",
@@ -30980,7 +31101,19 @@
 "réhabilitation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de réhabilitation de l'isolation et de l'étanchéité des conduits de ventilation d'une unité mécanique. La durée prévue est de 12 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement les systèmes de ventilation et d'isolation mécanique, ce qui n'est pas dans le cœur de métier de la maçonnerie/briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
