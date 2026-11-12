@@ -31398,7 +31398,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction de l'agrandissement de l'Omni-Centre de la Ville de Pincourt. Le projet est prévu pour durer environ 20 mois.",
+"pointsAttention": [
+"Durée prévue de 20 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment où les métiers de maçonnerie et charpenterie sont probablement impliqués, mais le titre ne spécifie pas clairement que ces corps de métier sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "4a752122-fe83-4a19-93f6-55e64546d2af",
@@ -31471,7 +31483,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement partiel du système d'appel de garde au Centre multiservices de santé et de services sociaux Christ-Roi. La durée prévue est de 5 mois avec un montant estimé de 100 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est lié aux services de santé et non aux métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "65297a6e-b307-4b8b-b4ae-06027520abbe",
@@ -31544,7 +31568,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement partiel du système d'appel de garde au CHAUR. Une visite des lieux est prévue le 18 novembre 2026.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement d'un système d'appel de garde et n'implique ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "307a0f38-19d7-43d4-b4c1-dd517bd4e3fb",
@@ -31623,7 +31659,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'imperméabilisation et l'isolation de fondations pour un projet de rénovation des édifices D et E. Le montant estimé est de 44 838,80 $ et la durée prévue est de 36 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'imperméabilisation et l'isolation de fondations, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "9eb3bb1d-0f32-492d-8a4c-592ec2928d6a",
@@ -31685,7 +31733,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'acquisition et l'installation de garde-corps à divers ouvrages d'assainissement pour la Ville de Saint-Jean-sur-Richelieu.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas les métiers principaux de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "99e87b54-f794-4309-9692-6e7c993143ef",
@@ -31768,7 +31832,23 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toilettes du sous-sol d'un bureau municipal. Les mots-clés mentionnés sont 'enveloppe' et 'réfection'.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de plomberie/rénovation intérieure et n'inclut ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e6473ed7-d16f-4a30-b827-7d7a52b1367e",
@@ -31831,7 +31911,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modification du réseau d'eau refroidie du Cégep de Trois-Rivières, impliquant le remplacement de tuyauterie, la démolition, l'isolation et le balancement.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne des travaux de plomberie/raccordement et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0146d856-9cab-44ca-bc12-87c31e6ddf4d",
@@ -31901,7 +31993,19 @@
 "chalet"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement et l'installation des filtres et des pompes à la piscine extérieure d'un chalet. La durée prévue est de 7 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien ou l'équipement d'une piscine et n'implique ni maçonnerie, ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "14110d7d-8962-4c96-a0d2-2454b71a2042",
@@ -31983,7 +32087,20 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'agrandissement du garage municipal et de la caserne des pompiers. Le projet est prévu pour durer environ 8 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment qui implique des travaux de construction, où la maçonnerie et la charpenterie sont probablement des lots importants.",
+"version": 3
+}
 },
 {
 "id": "7c2756da-2b95-4dfe-9f03-33537bb496f8",
@@ -32047,7 +32164,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'ajout de climatisation à l'URDM et au gymnase PMY.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement les métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
