@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-11T16:46",
-"seaoLus": 375,
-"retenus": 378,
-"nouveaux": 10,
+"date": "2026-11-11T20:18",
+"seaoLus": 378,
+"retenus": 381,
+"nouveaux": 3,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -30853,7 +30853,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -30957,7 +30957,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 75,
 "type": "Maçonnerie",
@@ -31044,7 +31044,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -31129,7 +31129,7 @@
 "logement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -31238,7 +31238,7 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 85,
 "type": "Maçonnerie",
@@ -31326,7 +31326,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -31418,7 +31418,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 70,
 "type": "Maçonnerie",
@@ -31504,7 +31504,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -31605,7 +31605,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -31694,7 +31694,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -31709,6 +31709,230 @@
 "raison": "Le contrat concerne des travaux de mise en conformité d'un bâtiment, ce qui peut inclure des aspects de maçonnerie ou de charpenterie, mais le titre est général et le focus n'est pas explicitement sur ces corps de métier.",
 "version": 3
 }
+},
+{
+"id": "6c93e257-3294-47ad-b2a1-87fb41984ad3",
+"numero": "2026-1998",
+"titre": "Modernisation des ascenseurs no 16 et 17 - Pavillon Mailloux Hôpital Notre-Dame",
+"organisme": "Santé Québec - Centre-Sud-de-l’Île-de-Montréal Universitaire",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, La garantie de soumission :\nLe SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix total proposé dans sa Soumission. Cette garantie de soumission doit être produite sous l'une ou l’autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause 0.01.15 des présentes, qui doit être conforme aux dispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de Soumission.\nb) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une\nInstitution Financière telle que définie à la clause 0.01.14 des présentes, qui doit être\nconforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à\nl’annexe 4.01B du Formulaire de Soumission",
+"estimation": 325000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-12-15T11:00",
+"publie": "2026-11-11T17:40",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72101506 - Maintenance des ascenseurs",
+"72154010 - Réparation et maintenance d’ascenseurs"
+],
+"description": "SANTÉ QUÉBEC, personne morale de droit public\nconstituée en vertu de la Loi sur la gouvernance du système de santé et de\nservices sociaux (RLRQ, c. G-1.021), agissant par l'entremise de\nl’établissement Santé Québec -\nCentre-Sud-de-l’Île-de-Montréal - Universitaire, situé au 1560, rue\nSherbrooke Est, en la ville de Montréal, province de Québec, H2L 4M1.\nDésire lancer un appel d’offres :\nModernisation\ndes ascenseurs no 16 et 17 - Pavillon Mailloux Hôpital Notre-Dame\nAO 2026-1998\nPrésentation :\nSanté Québec, personne morale\nde droit public constituée en vertu de la Loi sur la gouvernance du système de\nsanté et de services sociaux (RLRQ, c. G-1.021), agissant par l’entremise de\nSanté Québec – Centre-Sud-de-l ’Île-de-Montréal – Universitaire, désire\nprocéder à un appel d’offres public afin de retenir les services d’un\nentrepreneur spécialisé en ascenseurs pour la réalisation du projet\nHND-26-0151, portant sur la modernisation des ascenseurs no 16 et 17 du\npavillon Mailloux de l’Hôpital Notre-Dame, situé au 1560, rue Sherbrooke Est, à\nMontréal.\nLe mandat comprend notamment\nle remplacement des principaux des équipements mécaniques, électriques, de\ncommande et de signalisation, des cabines, des portes et des entrées palières.\nIl comprend également un système de communication bidirectionnelle, un système\nde monitoring informatisé avec interface Web, un poste principal de\ncommunication au COS, l’entretien des appareils selon le programme de contrôle\nd’entretien ainsi que les travaux connexes nécessaires à la mise aux normes et\nà la fiabilité des équipements. \nLa réalisation du mandat devra\ntenir compte du fait que les travaux seront effectués dans un établissement\nhospitalier occupé. Une attention particulière devra par conséquent être\naccordée à la sécurité des usagers, à la continuité des activités\nhospitalières, à la coordination des interruptions, à la santé et sécurité\nainsi qu’aux mesures de prévention et de contrôle des infections.\nVous trouverez de plus amples\nrenseignements dans les documents joints au présent appel d’offres.\nMode\nd’adjudication : Prix le plus\nbas\nDurée du\ncontrat : Environ 12 mois\nDate limite de dépôt des soumissions: 15/12/2026\nLes soumissions seront reçues et ouvertes (selon les clauses de la\nsituation Covid-19) à la date et à l’endroit suivants : \nLe mardi 15/12/2026 à 11h00 à l’adresse suivante :\nSANTÉ QUÉBEC - CENTRE-SUD-DE-L’ÎLE-DE-MONTRÉAL UNIVERSITAIRE\nService des approvisionnements\nHÔPITAL NOTRE-DAME, 1560, rue Sherbrooke Est\nLocal : DS-3031, 3e Sous-sol Quai de réception de la marchandise\nMontréal (Québec) H2L 4M1\nOuverture via team\nle 15/12/2026 vers 12h00\nhttps://teams.microsoft.com/meet/2288652775579477?p=rO7f19A8lWLWa9320P\nNuméro\nde réunion : 228 865 277 557 947 7 \nCode\nsecret : Eg2Pa9Bb\nRejoindre\nà l’aide d’un périphérique de vidéoconférence\nClé du locataire : confmsss@m.webex.com\nNuméro de vidéo : 117 562 101 79\nClause d’exclusion :\nConformément à l’article 8 du règlement, le Santé Québec -\nCentre-Sud-de-l’Île-de-",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6c93e257-3294-47ad-b2a1-87fb41984ad3",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-15 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "1560, rue Sherbrooke Est, HOPITAL NOTRE-DAME - PAVILLON LACH Local DS-3031, 3e Sous-sol Quai réception de la marchandise Montréal QC CAN H2L4M1",
+"ouverture": "2026-12-15 12:00 Heure légale du Québec",
+"adresseOuverture": "1560, rue Sherbrooke Est, HOPITAL NOTRE-DAME Pavillon Lachapelle - Local Appro TS2310 Aile T 2e sous-sol Montréal QC CAN H2L4M1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-11T20:16",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "b0946550-9334-42f5-b339-570aa219adf2",
+"numero": "ETS-CP26-050",
+"titre": "Entrepreneur général pour la démolition des bâtiments existants du Complexe Dow",
+"organisme": "École de technologie supérieure",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Mandat postal, Le Soumissionnaire doit fournir avec sa Soumission une\ngarantie de soumission correspondant à 10 % pour cent de la valeur de la\nSoumission. La garantie de soumission est faite sous forme de cautionnement\némis par une Institution financière et doit être conforme aux exigences de\nl'Annexe 1 du Règlement sur les contrats de travaux de construction des\norganismes publics, de mandat ou de chèque visé payable à l’ordre\nde l'École de technologie supérieure.\nLa garantie de Soumission doit être valide pour une\npériode de 45 jours à compter de la\ndate limite de réception des Soumissions, l'autorisation d'un dirigeant du\nSoumissionnaire est requise pour un délai supérieur.",
+"estimation": 13000000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-12-10T10:00",
+"publie": "2026-11-11T17:19",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72141510 - Démolition"
+],
+"description": "Description :\nÉcole de technologie supérieure (ci-après « le\nPropriétaire ») ayant son siège social au 1100 rue Notre-Dame Ouest, Montréal,\ndemande des Soumissions dans le but d'allouer un contrat pour les travaux de\ndémolition (ci-après « Ouvrage ») des bâtiments B, C et D existants du Complexe\nDow (ci-après « Projet »). Le Projet vise la démolition des bâtiments du\ncomplexe Dow sur le quadrilatère des rues Peel, Notre-Dame O., Monfort et\nWilliam occupant un total d’environ 38 000 m2 de superficie de plancher\net inclus les bâtiments B, C et D. Les bâtiments A1, A2, A2, F et E sont exclus\nde cette démolition et sont occupés.\nSéance d'information et visite facultatives des lieux\nLes Soumissionnaires sont invités à une séance d’information et à visiter le site. La présence à la séance d’information et à la visite est facultative. La séance d’information et la visite auront lieu le jeudi 19 novembre 2026 à 10 h 30. Les Soumissionnaires devront se présenter à l’entrée du 400, rue Montfort, Montréal.\nLors de la visite, les représentants des Soumissionnaires devront obligatoirement suivre les représentants du Propriétaire et le groupe. \nLes bâtiments étant désaffectés et contaminés à risque élevé, des précautions particulières sont requises. Chaque visiteur devra porter un équipement de protection individuel complet (EPI) : Veste de sécurité, lunettes de protection, gants de protection, casque de protection et bottes de travail, une combinaison de type « Tyvek » et minimalement un demi-masque P100 dûment testé ainsi qu’une lampe de poche (tous les EPI doivent répondre aux normes de sécurité en vigueur). Chaque visiteur est responsable de fournir son propre équipement, à ses frais. Durant toute la durée de la visite le port des EPI est obligatoire par les représentants du Propriétaire. Tout visiteur se présentant sans l’équipement complet se verra refuser l’entrée à la visite.\nLa séance d’information et la visite sont aux frais de chaque Soumissionnaire. Elles permettront aux Soumissionnaires de prendre connaissance des exigences du Contrat et d’obtenir tous les renseignements utiles, ainsi que de vérifier toutes les conditions pouvant affecter leur Soumission.\nLe fait de ne pas participer à la séance d’information et la visite ne peut servir d’excuse ou de prétexte à des erreurs, omissions ou irrégularités de la part d’un Soumissionnaire. Chaque Soumissionnaire est responsable de déléguer un représentant. Un Soumissionnaire qui ne se présente pas à la séance d’information et visite comprend et assume qu’il n’aura pas les informations qui pourraient être données lors de celles-ci.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b0946550-9334-42f5-b339-570aa219adf2",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "1111 Notre-Dame ouest Local B-1300 Montréal QC CAN H3C6M8",
+"ouverture": "2026-12-10 10:00 Heure légale du Québec",
+"adresseOuverture": "1111 Notre-Dame ouest Local B-1300 Montréal QC CAN H3C6M8"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-11T20:16",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "a075acc1-a783-4aac-a13f-5f08a0d200a9",
+"numero": "26-7535-AO-C",
+"titre": "130185, rehaussement de l'entrée électrique et remplacement des génératrices bloc A et B / Construction d’un garage pour génératrices et travaux de raccordement électrique",
+"organisme": "Santé Québec Montérégie-Ouest",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, 0.01 \nGarantie\nde soumission\n0.01.01 \nConstitution\nLe SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie\nde soumission équivalant à DIX POUR CENT (10%) du prix total proposé\ndans sa Soumission incluant les options. Cette garantie de soumission doit être\nproduite sous la forme d'un cautionnement émis en faveur de l’ORGANISME PUBLIC\npar une Institution Financière telle que définie à la clause 0.01.15\ndes présentes, qui doit être conforme aux dispositions du modèle de cautionnement\nde soumission reproduit à l’annexe 4.01A du Formulaire de Soumission.\n0.01.02 \nMaintien\nLa garantie de soumission doit être valable pour toute la durée\nde validité des Soumissions. L’ORGANISME PUBLIC retient la garantie de\nsoumission du plus bas SOUMISSIONNAIRE conforme jusqu’à l’octroi définitif du\nContrat. Il retient également la garantie de soumission des deuxième et\ntroisième plus bas SOUMISSIONNAIRES conformes jusqu’à l’octroi définitif du\nContrat à un ENTREPRENEUR.",
+"estimation": 10250000,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-12-07T13:30",
+"publie": "2026-11-11T16:52",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "INSTALLATION VISÉE PAR LES TRAVAUX\nHôpital du Suroît\nSitué au 150, Saint-Thomas, Salaberry-de-Valleyfield (Québec)\nJ6T 6C1\nDESCRIPTION SOMMAIRE DU PROJET\nSanté Québec - Montérégie-Ouest\nrequiert des services de construction pour le projet « 130185_Rehaussement de l’entrée électrique et remplacement des\ngénératrices du bloc A et B. Les travaux inclus, sans s'y limiter;\n· \nLa construction d’un nouveau bâtiment pour recevoir les 3\nnouvelles génératrice 800 Kw.\n· \nLa mise en place, le branchement et la mise en route des nouvelles\ngénératrices.\n· \nL’installation de câblage temporaire sur le circuit électrique\nd’urgence.\n· \nLa démolition des 2 génératrices actuelles\n· \nL’installation de 2 nouveaux TSS de 2500 KVA en collaboration avec\nHydro-Québec\n· \nL’installation et le branchement des nouveaux panneaux des\ncircuits ‘’d’urgence’’ et ‘’normal’’.\n· \nL’installation de 3 nouveaux ATS reliés entre la nouvelle entrée\nélectrique et les nouvelles génératrices.\nL'Entrepreneur devra tenir compte\nque les travaux sont exécutés dans un bâtiment occupé. La grande majorité des branchements temporaire\nou permanent s’effectuerons entre 21h et 6h00 ainsi que les samedi et dimanche.\nUne séquence des travaux est\nincluse dans les document d’appel d’offre.\nLes génératrices ainsi que la\nmajorité des cabinets électriques, incluant les ATS ont déjà été commandé par\nSanté Québec. Le présent appel d’offres\nconsiste à faire l’installation de ces équipements. Tous le câblage nécessaire à leur branchement\nfait partie de cette appel d’offres.\nVISITE DES LIEUX\nPendant la période d’appel\nd’offres, le Gestionnaire de projet organisera une visite d’information à Hôpital\ndu Suroît le 18 novembre\n2026 à 10h00 AM. LA VISITE\nEST OBLIGATOIRE. Le point de rencontre sera à l’entrée principale du\nbâtiment (à côté du comptoir d’information). Tous les soumissionnaires,\nentrepreneurs et sous-traitants seront considérés comme ayant visité les lieux\net aucune réclamation pour manque de connaissance des lieux ne pourra être\nsoumise ni acceptée.\nDEMANDES D’INFORMATION \nLes\nsoumissionnaires qui désirent recevoir des précisions au regard de l’appel\nd’offres doivent obligatoirement le faire par écrit au plus tard 2 jours\nouvrables avant la date et l’heure limites fixées pour la réception des\nsoumissions en prenant soin de mentionner le numéro de l’appel d’offres (26-7535-AO-C).Veuillez adresser toutes questions ou\ndemandes d’information à l’adresse courriel suivante : cedric.pekam.cisssmo16@ssss.gouv.qc.ca",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a075acc1-a783-4aac-a13f-5f08a0d200a9",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-07 Au plus tard 13:30 Heure légale du Québec",
+"adresseDepot": "3, boul. de la Cité-des-Jeunes Vaudreuil-Dorion QC CAN J7V9R2",
+"ouverture": "2026-12-07 13:30 Heure légale du Québec",
+"adresseOuverture": "3, boul. de la Cité-des-Jeunes Vaudreuil-Dorion QC CAN J7V9R2"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-11T20:16",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"construction d",
+"garage"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
