@@ -31774,7 +31774,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la modernisation des ascenseurs no 16 et 17 du Pavillon Mailloux de l'Hôpital Notre-Dame. Le mandat inclut le remplacement d'équipements mécaniques, électriques, de commande, de signalisation, des cabines et des portes, ainsi que des systèmes de communication et de monitoring.",
+"pointsAttention": [
+"travaux seront effectués dans un établissement hospitalier occupé",
+"attention particulière à la sécurité des usagers, à la continuité des activités hospitalières, à la coordination des interruptions, à la santé et sécurité ainsi qu’aux mesures de prévention et de contrôle des infections"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance et la modernisation d'ascenseurs, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b0946550-9334-42f5-b339-570aa219adf2",
@@ -31851,7 +31864,21 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la démolition de bâtiments existants du Complexe Dow, incluant des bâtiments B, C et D, sur une superficie totale d'environ 38 000 m2. La durée prévue du projet est de 9 mois et le montant estimé est de 13 000 000 $.",
+"pointsAttention": [
+"visite obligatoire",
+"précautions particulières requises (bâtiments désaffectés et contaminés)",
+"équipement de protection individuelle (EPI) obligatoire pour la visite"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne la démolition et non les travaux de maçonnerie ou de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a075acc1-a783-4aac-a13f-5f08a0d200a9",
@@ -31932,7 +31959,19 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'un nouveau bâtiment pour recevoir de nouvelles génératrices et l'installation de câblage électrique. Les travaux incluent la construction d'un nouveau bâtiment et des travaux électriques.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est centré sur la construction et l'installation électrique/génératrices, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
