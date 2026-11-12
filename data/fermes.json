@@ -23965,5 +23965,715 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-12"
+},
+{
+"id": "497067d3-0f58-48a4-bd16-c877091c17b5",
+"numero": "PS26-1052P",
+"titre": "Contrat à exécution sur demande pour travaux d’entrepreneurs généraux – Maintien d’actifs",
+"organisme": "Commission Scolaire English-Montreal",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"brique",
+"bâtiment",
+"béton",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 1800000.0,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-10-23T14:31",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le présent appel d'offres a pour objet de retenir les services d’un (ou plusieurs) ENTREPRENEUR GÉNÉRAL(S), qui est obligatoirement titulaire d’une licence d’ « Entrepreneur en bâtiments de tout genre » (sous-catégorie 1.3) de la Régie du bâtiment du Québec, qui effectuera, sur demande, divers travaux de réparation et de rénovation à ses bâtiments en conformité avec les conditions du présent appel d'offres pour les établissements de l’ORGANISME PUBLIC (Se référer à la liste des adresses civiques des bâtiments à l’annexe 1.)\nLes travaux généraux à exécuter sur demande peuvent nécessiter différents corps\n• briqueteur-maçon\n• calorifugeur\n• carreleur\n• charpentier-Menuisier\n• finisseur de Béton\n• manoeuvre régulier\n• peintre\n• plâtrier\n• poseur de gypse\n• poseur de systèmes d’intérieurs\n• poseur et revêtement souple\n• soudeur\n• plombier-tuyauteur\n• électricien",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=497067d3-0f58-48a4-bd16-c877091c17b5",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne des travaux de réparation et de rénovation à effectuer sur demande sur des bâtiments de la Commission Scolaire. Les corps de métier mentionnés incluent briqueteur-maçon et charpentier-menuisier.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des corps de métier ciblés (maçonnerie et charpenterie/menuiserie) dans le cadre de travaux de rénovation et de réparation.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"brique",
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"brique",
+"béton",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"brique",
+"béton",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "4085f236-18b7-4635-9555-12371f05511b",
+"numero": "202600260",
+"titre": "Rénovation de la cuisine à l'école secondaire de Neufchâtel",
+"organisme": "Centre de services scolaires de la Capitale",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"enveloppe",
+"rénovation",
+"école"
+],
+"cautionSoumission": "Cautionnement, 10 %",
+"estimation": 1300000,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-10-19T15:42",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "N° D’APPEL D’OFFRES : 202600260\nNom du\nprojet : Rénovation de la cuisine\n École\nsecondaire de Neufchâtel\nNuméro de projet : 064-26-125\nPropriétaire : Centre\nde services scolaire de la Capitale\n Services\ndes ressources matérielles\n 125,\nrue des Commissaires Ouest\n Québec (Québec) G1K\n1M7\n Tél. \n418 686-4040 Poste 2520\nArchitectes/Ingénieurs : BBC architectes inc.\n 1535 chemin\nSainte-Foy, suite 120, Québec Québec G1S 2P1\nLe CENTRE DE SERVICES SCOLAIRES DE LA CAPITALE demande des soumissions\npour retenir les services d'un entrepreneur en vue d’effectuer Rénovation de la cuisine\nà l’école secondaire de Neufchâtel située 3600 avenue Chauveau, Québec, Québec G2C 1A1 dans la période du 30 novembre 2026 au 26 mars 2027 plus précisément\nselon l’Échéancier prévu à l’annexe 0.01.13 des conditions générales.\nLes plans,\ndevis et tout autre document pourront être obtenus uniquement sur le site\ninternet SEAO.\n Une visite unique et importante d’information\nest prévue le 27 octobre 2026 à 13h30,\n3600 avenue Chauveau, Québec, Québec G2C 1A1. Cependant, toute\nfermeture temporaire de l’établissement visé, par exemple la fermeture du CENTRE\nDE SERVICES SCOLAIRE DE LA CAPITALE lors d’une tempête hivernale, entraînera un\nreport de cette visite et le CENTRE DE SERVICES SCOLAIRE DE LA CAPITALE fixera\nune nouvelle date et publiera un nouvel avis dans les meilleurs délais.\nToute Soumission devra être\naccompagnée d'un cautionnement de soumission conforme représentant 10 % du montant total de la soumission excluant toutes\nles taxes applicables, valide pour une période de 60 jours de la date d’ouverture des soumissions, sans quoi la soumission\nsera automatiquement rejetée. Ce\ncautionnement de soumission doit être présenté sur le formulaire obligatoire\nANNEXE 4.01 A ou ANNEXE 4.01 B du formulaire de soumission. Il devra être échangé à la signature du Contrat,\ns’il y a lieu, pour un cautionnement d’exécution et un cautionnement des\nobligations pour gages, matériaux et service, toujours\nselon des formulaires obligatoires en annexes des Conditions générales. Le montant\nde chacun de ces derniers cautionnements correspondra à 50 % du prix du contrat.\nUn (1) original de la soumission dans une enveloppe cachetée, seront reçues au CENTRE DE SERVICES\nSCOLAIRE DE LA CAPITALE au bureau des Services des ressources matérielles, 1er\nétage (réception), situé au 125, rue des Commissaires Ouest,\nQuébec (Québec) G1K1M7jusqu’à 14h00, le 12 novembre 2026pour être\nouvertes publiquement en présence d’un témoin au même endroit, le même jour et\nà la même heure.\nLes Soumissions\npeuvent être transmises par voie électronique. Le cas échéant, cette\ntransmission ne peut être effectuée que par l’intermédiaire du système\nélectronique d'appel d'offres (SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise par voie électronique\ndoit être déposée (c'est-à-dire chiffrée, transmise, horodatée et sauvegardée\nsur les serveurs du SEAO) avant la date et l’heure limites fixées pour la\nréception ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4085f236-18b7-4635-9555-12371f05511b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation de la cuisine d'une école secondaire. Le montant estimé est de 1 300 000 $ et la durée prévue est de 24 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est trop spécifique (rénovation de cuisine) et ne met pas l'accent sur les métiers ciblés (maçonnerie/charpenterie) comme travail principal.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"rénovation",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"rénovation",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "c0cb1534-cec2-4457-9579-a751a6ec1b3c",
+"numero": "233520-1",
+"titre": "Remplacement des revêtements de plancher",
+"organisme": "Centre de services scolaire du Val-des-Cerfs.",
+"regions": [
+"Estrie",
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 348000,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-05T14:00",
+"publie": "2026-10-09T15:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels",
+"72152506 - Pose de revêtements de sol souples"
+],
+"description": "AVIS D’APPEL D'OFFRES PUBLIC\nTITRE : 233520-1\nNo DOSSIER : REMPLACEMENT DES REVÊTEMENTS DE PLANCHER\nPropriétaire Centre de services scolaire du Val-des-Cerfs\nJacques Olivier\n55, rue Court\nGranby (Québec) J2G 9N6 (adresse municipale)\nTél. : 450 372-0221 poste 60218\nprojetsrm@cssvdc.gouv.qc.ca\nÉtablissement visé \nÉcole MGR Douville\n260, rue Saint-Romuald\nFarnham (Québec) J2N 2P2\nProfessionnel architecture\nGR7\nArchitecture Inc.\n122, rue Guilbault\nLongueuil (Québec) J4H 2T2\nVisite\nLa visite aura lieu le 20\noctobre 2026 à 11h30\nLes personnes qui se présenteront, devront demeurer à l’extérieur jusqu’à\nl’arrivée du chargé de projet.\nTravaux visés:\n Remplacement des tuiles par du\n revêtement de sol souple\nRetrait d’une grille gratte-pied\nÉchéancier \nDébut des travaux : 25 juin 2027\nRéception des travaux avec réserve : 20 août 2027\nRéception des travaux sans réserve : 1 octobre 2027\nOption Aucune option\nÉquivalence \nLes demandes d’équivalence doivent être déposées au plus tard 10 jours avant\nla date de dépôt des soumissions. Information Les demandes d’informations\ndoivent être adressées à l’adresse suivante : projetsrm@cssvdc.gouv.qc.ca\nLes questions seront traitées\nrapidement et les réponses feront l’objet d’addenda sous la forme de questions\n/réponses ou de modifications et ajouts aux Documents d’appel d’offres.\nL’ORGANISME PUBLIC se réserve le droit\nde ne pas considérer une demande formulée par un fournisseur si cette demande\nn’est pas transmise moins de 5 jours ouvrables avant la date et l’heure\nfixées pour la réception des soumissions.\nDocuments \nLes plans, devis, documents contractuels et autres renseignements pourront être\nobtenus que par l’intermédiaire du Système d’appels d’offres électroniques\n(SÉAO) au www.seao.ca\nModalité de dépôt des soumissions \nEnveloppe\nLes soumissions, dans des enveloppes\ncachetées et adressées au responsable, seront reçues au siège social du Centre\nde services scolaire du Val-des-Cerfs, 55, rue Court, à Granby, Québec, jusqu'à\n14 h 00, heure en vigueur localement, 26 mars 2026 pour être\nouvertes publiquement au même endroit, le même jour et à la même heure. Toute\nsoumission reçue postérieurement sera automatiquement rejetée. \nOu\nVoie électronique\nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'offres\n(SEAO), à l'adresse suivante : https://www.seao.ca. Une Soumission transmise\npar voie électronique doit être déposée (c'est-à-dire chiffrée, transmise,\nhorodatée et sauvegardée sur les serveurs du SEAO) avant la date et l’heure\nlimites fixées pour la réception des Soumissions.\nModalité\nd’ouverture des soumissions \nConsidérant les dernières mises à jour du SCT, l’ORGANISME PUBLIC procède à une\nouverture des Soumissions avec public, de sorte que les SOUMISSIONNAIRES\npourront y assister en personne.\nGarantie de soumission\nLettre d’engagement\nLes soumissions doivent être accompagnées d’une garantie d",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c0cb1534-cec2-4457-9579-a751a6ec1b3c",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des revêtements de plancher (tuiles par revêtement de sol souple) pour une école. La durée prévue est de 4 mois et le montant estimé est de 348 000 $.",
+"pointsAttention": [
+"Visite obligatoire le 20 octobre 2026 à 11h30. Demande de visite extérieure."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la pose de revêtements de sol et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "52f7edec-9a28-4b15-9138-9007abfe5a9b",
+"numero": "22MB-014",
+"titre": "Remplacement des fenêtres - École Sacré-Coeur",
+"organisme": "Centre de services scolaire de la région de Sherbrooke.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"construction d",
+"fenêtre",
+"école"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 1800000,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-10-08T08:43",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "APPEL D’OFFRES effectué en la ville de Sherbrooke, province de Québec, Canada, le 08 octobre 2026.\n À LA DEMANDE DE : \nCentre de service scolaire de la Région-de-Sherbrooke, personne morale de droit public dûment constituée selon la Loi sur l'instruction publique, RLRQ c I-13.3, ayant sa principale place d’affaires au 2955 boulevard de l'Université, en la ville de Sherbrooke, province de Québec, J1K2Y3, agissant aux présentes en qualité de mandataire des établissements identifiés à l’annexe A des présentes, dûment autorisée à agir à cette fin, tel qu’elle le déclare;\n CI-APRÈS DÉNOMMÉE, AUX FINS DE L’APPEL D’OFFRES, L’«ORGANISME PUBLIC». \nGestionnaire(s) du dossier: \nProcessus : Nom : Maxime Théberge \nTéléphone : 819-679-9948 \nTélécopieur : N/A \nCourriel : thebergem@cssrs.gouv.qc.ca \nExpertise technique #1: Nom : Luc Roy \nTéléphone : 819-791-5143\nTélécopieur : N/A\n Courriel : lroy@ateliersarchitecture.com \nFonction : Architecte \nPRÉAMBULE \nL’ORGANISME PUBLIC DÉCLARE CE QUI SUIT : \nA) L’ORGANISME PUBLIC désire lancer un appel d’offres se rapportant à l'exécution travaux de construction, reliés au Projet no 22MB-014; \nB) Afin de se conformer aux exigences de la Loi sur les contrats des organismes publics en matière de travaux de construction, l’ORGANISME PUBLIC doit procéder par la voie d'un appel d'offres conforme à la procédure établie par le Règlement sur les contrats de travaux de construction des organismes publics. \nC) Dans le cadre de l’Appel d’Offres, l’ORGANISME PUBLIC agit en qualité de mandataire des Établissements Participants; \nD) Dès l’envoi d’un Avis d’Adjudication par l’ORGANISME PUBLIC, agissant en qualité de mandataire des Établissements Participants, le Contrat à intervenir entre en vigueur et lie chacun des Établissements Participants avec l’ENTREPRENEUR. DANS CE CONTEXTE, L’ORGANISME PUBLIC LANCE L’APPEL D’OFFRES QUI SUIT : \nTitre de l'appel d'offres : Remplacement des fenêtres - École Sacré-Coeur\n Numéro de l'appel d'offres : 22MB-014\n Nom du site visé par les Travaux : École Sacré-Coeur\n Adresse (# et rue) : 137 Rue Gillespie\n Ville : Sherbrooke, (Québec)\nCode postal : J1H 4W9",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=52f7edec-9a28-4b15-9138-9007abfe5a9b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des fenêtres de l'École Sacré-Coeur. Le montant estimé est de 1 800 000 $ et la durée prévue est de 24 mois.",
+"pointsAttention": [
+"délai long (24 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement le remplacement de fenêtres et n'inclut ni maçonnerie ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"fenêtre",
+"construction d",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"fenêtre",
+"construction d",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "b995e382-9ed6-43c6-ba00-36e942f07919",
+"numero": "2026CNT052",
+"titre": "Travaux de remplacement du système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de Lévis.",
+"organisme": "Santé Québec Chaudière-Appalaches",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission \néquivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission.",
+"estimation": 410000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-05T14:00",
+"publie": "2026-10-07T13:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "AVIS –\nAPPEL D’OFFRES – 2026CNT052\nOBJET\nSANTÉ QUÉBEC Chaudière-Appalaches désire conclure un contrat pour les Travaux de remplacement\ndu système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de\nLévis.\nOPTION\nCet avis ne comporte aucune option de renouvellement ou de prolongation.\nCALENDRIER DE RÉALISATION DES\nTRAVAUX\nL’adjudicataire devra effectuer les\ntravaux entre le 19 novembre 2026 et le 31 mars 2027.\nADRESSE DES TRAVAUX\nLes travaux seront réalisés à l’Hôtel-Dieu\nde Lévis\n143, rue Wolfe, Lévis QC\nG6V 3Z1\nENDROIT OÙ SE PROCURER LES\nDOCUMENTS\nLes\ndocuments d’appel d’offres seront obtenus via le SEAO.\nCLÔTURE DES OFFRES ET DÉPÔT\nDES SOUMISSIONS\nLes soumissions seront reçues jusqu’à\nla date et heure inscrits sur l’avis ou tout addenda subséquent. Les\nsoumissions peuvent être transmises par voie électronique via le SEAO uniquement.\nLes soumissions qui ne sont pas\ntransmises par voie électronique doivent être envoyées à l’adresse suivante:\nSANTÉ QUÉBEC Chaudière-Appalaches \nService de la gestion contractuelle\n253, route\n108 \nBeauceville, QC (Québec) \nG5X 2Z3\nLe nom et l’adresse du soumissionnaire\nainsi que le numéro de l’appel d’offres doivent être inscrits à l’extérieur de\nl’enveloppe.\nOUVERTURE DES SOUMISSIONS\nL’ouverture des soumissions sera effectuée par les personnes désignées de SANTÉ\nQUÉBEC Chaudière-Appalaches, immédiatement après la clôture au lieu, date et\nheure indiqués au document d’appel d’offres. L’ouverture des soumissions est\npublique.\nACCEPTATION DES SOUMISSIONS\nSANTÉ QUÉBEC Chaudière-Appalaches ne s’engage à accepter ni la plus basse ni\naucune des soumissions.\nCONFORMITÉ\nLes biens proposés dans la soumission doivent être conformes à la description\nou aux exigences techniques au devis. Si le soumissionnaire n’est pas en mesure\nde se conformer à l’une ou l’autre des exigences techniques, il serait de\nrigueur que le soumissionnaire contacte le gestionnaire du dossier afin de\nvérifier si une alternative est possible par l'émission d'un addenda.\nCOMMUNICATION\nPour toute demande d’information supplémentaire, vous pouvez communiquer avec :\nLisa-Marie Poulin\nTéléphone : 418-380-8996 Poste 30122\nCourriel : lisa-marie.poulin.cisssca@ssss.gouv.qc.ca",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b995e382-9ed6-43c6-ba00-36e942f07919",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de Lévis. Les travaux sont prévus entre novembre 2026 et mars 2027 pour un montant estimé de 410 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux d'installation/rénovation de systèmes de sécurité et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "e61703fa-8d48-4088-ac86-47bae314061a",
+"numero": "26-46-AO-CS-C",
+"titre": "Rénovation des chambres du département principal et du poste des infirmières à l'hôpital de Kuujjuaq",
+"organisme": "Centre de santé Tulattavik de l'Ungava",
+"regions": [
+"Nord-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"rénovation"
+],
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie\nde soumission équivalant à DIX POUR CENT (10%) du prix proposé dans\nsa Soumission.",
+"estimation": 5000000,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-11-04T15:30",
+"publie": "2026-09-30T15:59",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Il s'agit d'un appel d'offres pour des travaux de construction concernant la rénovation des chambres du département principal et du poste des infirmières à l'hôpital de Kuujjuaq, qui auront lieu à partir de l'été 2027.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e61703fa-8d48-4088-ac86-47bae314061a",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la rénovation des chambres du département principal et du poste des infirmières à l'hôpital de Kuujjuaq. La durée prévue est de 6 mois et le montant estimé est de 5 000 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment nécessitant des travaux de rénovation, où la maçonnerie ou la charpenterie pourraient être des lots importants, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "4d43ff15-d27e-4711-bd69-0ffe9d29a10a",
+"numero": "AM011733",
+"titre": "Montérégie / Poste Marie-Victorin - Appareillage, civil et commande Lot 2",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"terrasse"
+],
+"cautionSoumission": "Cautionnement, 10% du montant total de la soumission.",
+"estimation": null,
+"dureeMois": "14",
+"surDemande": false,
+"fermeture": "2026-11-04T14:00",
+"publie": "2026-09-16T11:37",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72120000 - Construction de bâtiments non résidentiels",
+"72121506 - Construction de centrales électriques"
+],
+"description": "Objet\n : Montérégie / Poste Marie-Victorin - Appareillage, civil et commande Lot\n 2\n À titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur\n incluant les options est : entre 10 000 000 $ et 20 000 000 $\n Date limite de réception des plaintes : 30/09/2026\n Communication des plaintes :\n https://www.hydroquebec.com/sefco2016/fournisseurs/fourn-plainte.html\n Demande d'information : Doit être adressée au responsable au minimum trois\n jours ouvrables avant la date et l'heure limites fixées pour la réception des\n soumissions\n Description de l'objet : Les travaux du présent contrat incluent sans s’y\n limiter :\n Travaux civils\n • Terrassement\n Travaux d’implantation électrique\n • Nouveaux appareillages électriques;\n • Jeux de barres blindées;\n • MALT;\n • Etc.\n Travaux de commande\n • Installation de câbles;\n • Panneaux de commande;\n • Armoire de permutation (APB);\n • Etc.\n Chaloux, Nathalie\n CHALOUX.NATHALIE@HYDROQUEBEC.COM\n Poste : 9063\n Vous pouvez consulter les documents liés à cet avis et soumissionner à\n partir du lien suivant :\n https://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27400\n Hydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4d43ff15-d27e-4711-bd69-0ffe9d29a10a",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux civils, terrassement et implantation électrique pour un projet d'Hydro-Québec. Les mots-clés trouvés sont limités à 'terrasse'.",
+"pointsAttention": [
+"Montant estimé entre 10 000 000 $ et 20 000 000 $"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne principalement des travaux civils et électriques, sans lien direct avec la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"terrasse"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "24bf6670-54df-44a3-85df-0289c811ba02",
+"numero": "RM-095-2026",
+"titre": "Complexe Scientifique Biopterre / Projet réalisé en mode Conception-Construction Progressif (CC Progressif)  (2e étape)",
+"organisme": "CEGEP de La Pocatière",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 31000000.0,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-09-09T10:22",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "En collaboration\navec le Cégep, le Centre de développement de Bioproduits Biopterre a décidé de\nconstruire de nouvelles infrastructures qui lui permettront de rassembler sous\nun même toit l’ensemble de ses activités tout en bénéficiant d’installations à la\nhaute pointe de la technologie, notamment au niveau des serres de recherche.\n Le mode de réalisation retenu pour le Projet est le mode «\nConception-Construction Progressif » ou CCP. Cet Appel de propositions\nconstitue la deuxième étape du processus de sélection.\nSeuls les\ntrois (3) Candidats invités par le Cégep à la suite de l’Appel de qualification\nsont admissibles à participer à l’Appel de propositions. \nLors de cette\ndeuxième étape, les Proposants participeront à un atelier d’évaluation de la\ncollaboration et à une entrevue. Ils devront alors démontrer leur capacité et\nleur volonté à optimiser le Projet, notamment par la collaboration avec le\nCégep dans une approche à livre ouvert durant la phase de codéveloppement et\nl’ensemble du Projet jusqu’à sa clôture.\nAu terme de\nl'Appel de propositions, un seul proposant sera sélectionné pour conclure,\navec le Cégep, une Entente de codéveloppement. L'objectif de la phase de\ncodéveloppement est de développer la conception à un niveau suffisant pour\npermettre à l’Entrepreneur de soumettre une proposition technique et un prix\nforfaitaire pour achever la conception et réaliser les travaux de construction,\net conclure avec le Cégep un contrat de conception-construction.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=24bf6670-54df-44a3-85df-0289c811ba02",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [],
+"motsOk": false,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un projet de construction d'infrastructures pour un complexe scientifique, avec une durée prévue de 24 mois et un montant estimé à 31 millions de dollars. Le processus est en phase de conception-construction progressif (CCP).",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de grande envergure et nécessite une expertise en construction, mais les mots-clés spécifiques à la maçonnerie ou à la charpenterie ne sont pas mentionnés dans la description.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "0ce0ae40-6d3e-48e2-a6b3-bb168e5c13bc",
+"numero": "26380-039",
+"titre": "Fourniture et installation de stores opaques dans les espaces collaboratifs de la nouvelle école Saint-Philippe ",
+"organisme": "Centre de services scolaire de la Rivière-du-Nord",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres régionalisé",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 30000,
+"dureeMois": "1",
+"surDemande": false,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-10-27T09:21",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment"
+],
+"description": "AVIS D'APPEL D'OFFRES PUBLIC\nLe\nCentre de services scolaire de la Rivière-du-Nord désire obtenir des\nsoumissions électroniques ou sous enveloppe scellée pour la conclusion d'un\ncontrat de travaux pour de la fourniture et installation de stores opaques dans\nles espaces collaboratifs de la nouvelle école Saint-Philippe. Le projet\nconsiste à fournir et installer des stores opaques dans les espaces\ncollaboratifs de l’école Saint-Philippe afin d’assurer une meilleure gestion de\nla luminosité. \nLe Centre de\nservices scolaire de la Rivière-du-Nord désire procéder à un appel d’offres régionalisé\npour l’adjudication du présent contrat. Les SOUMISSIONNAIRES désirant déposer\nune soumission doivent avoir une place d’affaires au Québec.\nLIEU D'EXÉCUTION DES TRAVAUX\n: \nNouvelle\nécole Saint-Philippe\n12,\nrue Roland-Cadieux \nBrownsburg-Chatham\n(Québec) J8G 2G3\nDÉLAI D'EXÉCUTION DES TRAVAUX:\n8 février 2027 au 15 février 2027\nOBTENTION\nDES DOCUMENTS :Les documents d’appel d’offres ne peuvent être obtenue\nque par l’intermédiaire du SÉAO (Système\nÉlectronique d'Appel d'Offres) en allant sur le site « seao.gouv.qc.ca ». Les documents peuvent être obtenus en version\ntéléchargement, le tout moyennant un coût établi par SÉAO. Il sera possible d'obtenir l'assistance de\nSÉAO du lundi au vendredi de 8 h 30 à 16 h 30, au numéro suivant : 1-877-336-7326.\nRESPONSABLE DE L'APPEL D'OFFRES :Équipe\ngestion contractuelle\nCourriel\n: gestion-contractuelle@cssrdn.gouv.qc.ca\nRÉCEPTION DES SOUMISSIONS :\nPour être valides et considérées, toute\nsoumission devra être reçue au plus tard\nle 12 novembre 2026 avant 14 h. Le mode de transmission d'une soumission\npeut être fait selon l'un ou l'autre des procédés suivants :\na) soit par voie électronique via le SÉAO et\nelle doit être déposée (c'est-à-dire chiffrée, transmise, horodatée et\nsauvegardée sur les serveurs du SEAO) avant la date et l’heure limites fixées\npour la réception des soumissions;\nb) soit sous enveloppe scellée, au\nbureau de la réception du Centre de services scolaire de la Rivière-du-Nord, au\n795 rue Melançon, Saint-Jérôme, Québec, J7Z 4L1, avant la date et l’heure\nlimites fixées pour la réception des soumissions;\nUne soumission reçue postérieurement\nsera automatiquement rejetée et retournée au soumissionnaire sans être ouverte.\nOUVERTURE\nDES SOUMISSIONS :\nL'ouverture des soumissions se fera immédiatement\naprès l'heure limite de réception des Soumissions.\nLe Centre de services scolaire\nencourage les soumissionnaires à procéder au dépôt d'une soumission par voie\nélectronique.\nNous vous rappelons que la\nrèglementation ne permet pas le dépôt de plusieurs soumissions dans le cadre de\nl'appel d'offres, étant entendu que la transmission d'une même soumission par\nvoie électronique et sur support papier constitue un dépôt de plusieurs\nsoumissions.\nRÈGLEMENT SUR LES PAIEMENTS ET\nLE RÈGLEMENT RAPIDES DES DIFFÉRENDS EN MATIÈRE DE TRAVAUX DE CONSTRUCTION \nLes dispositions de la section\nII du chapitre V.2 de la Loi relatives au paiement des",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0ce0ae40-6d3e-48e2-a6b3-bb168e5c13bc",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-12 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "795 rue Melançon Saint-Jérôme QC CAN J7Z4L1",
+"ouverture": null,
+"adresseOuverture": "795 rue Melançon Saint-Jérôme QC CAN J7Z4L1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-27T12:14",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"école"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation de stores opaques dans les espaces collaboratifs de la nouvelle école Saint-Philippe. Le montant estimé est de 30 000 $ pour un projet d'une durée prévue d'un mois.",
+"pointsAttention": [
+"délai court (1 mois)",
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la fourniture et l'installation de stores, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
 }
 ]
