@@ -31549,7 +31549,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fabrication et l'installation d'une marquise à l'Amphithéâtre Cogeco situé à Trois-Rivières.",
+"pointsAttention": [
+"non précisé sur l'avis",
+"non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1530734c-42ec-4563-aef1-2fdabda1b3ea",
@@ -31626,7 +31639,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la démolition de l'entrepôt du Village sur glace à Roberval. Le montant estimé n'est pas publié et la durée prévue est d'un mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la démolition et n'implique ni maçonnerie ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
