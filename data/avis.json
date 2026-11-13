@@ -31602,7 +31602,21 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de la toiture, le remplacement de sections de murs de briques, le rejointoiement des joints de maçonnerie, la peinture du parement extérieur en bois, et la réfection des escaliers et des trottoirs de béton.",
+"pointsAttention": [
+"Délai de 4 mois",
+"Cautionnement requis (10% du prix)",
+"Contrat sur demande : non"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux majeurs de maçonnerie (brique, rejointoiement) et de menuiserie/charpenterie (parement en bois, escaliers), ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "3c62ccdc-f44c-4a09-a879-8656575f507e",
@@ -31683,7 +31697,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système d'alarme incendie et la démolition de l'ancien système dans une école primaire. Les travaux prévus durent environ 21 mois et sont estimés à 161 680,00 $.",
+"pointsAttention": [
+"Visite obligatoire pour les soumissionnaires intéressés."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'installation d'un système d'alarme incendie et non des travaux de maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "490c17ec-daa1-4b47-936a-f330ebc5e258",
@@ -31753,7 +31779,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Cet appel d'offres concerne des rénovations majeures prévues pour 2028 dans le village nordique de Quaqtaq au Nunavik. La durée prévue du projet est de 6 mois.",
+"pointsAttention": [
+"Délai de soumission : 11 décembre 2026 à 11h00 (heure locale)."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est une rénovation majeure dans un bâtiment, ce qui peut inclure des lots de maçonnerie ou de charpenterie, mais la description ne spécifie pas clairement le cœur du travail.",
+"version": 3
+}
 },
 {
 "id": "2383d742-5fc8-410d-be6e-73bac3d075ba",
@@ -31813,7 +31851,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien et la réparation de la structure du toit d'un entrepôt. Les travaux incluent l'inspection, la réparation des zones endommagées et le remplacement des éléments structuraux déficients.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'entretien structurel du toit et n'inclut pas les métiers principaux de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "927b07f4-3a3c-470c-8ad7-1dcadace5045",
@@ -31899,7 +31949,21 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un préau pour un centre touristique, nécessitant une structure en bois sur pieux et un plancher de béton. Le projet est estimé à 550 000 $ et la durée prévue est de 7 mois.",
+"pointsAttention": [
+"Visite obligatoire (implicite par la nature des travaux)",
+"Délai de soumission (45 jours pour la garantie de soumission)",
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des éléments de charpenterie (structure en bois) et de maçonnerie/béton (plancher de béton), ce qui est pertinent, mais il s'agit d'un projet de bâtiment plus large.",
+"version": 3
+}
 },
 {
 "id": "89205d74-0193-4c22-97c0-d50d407d3e19",
@@ -31975,7 +32039,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Le projet concerne la requalification des pavillons A, E et L du site de l'hôpital Royal-Victoria et la construction de nouveaux pavillons pour des laboratoires et bureaux, ainsi que la fourniture et installation d'équipements de quai pour le pavillon N.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne met pas l'accent sur la maçonnerie ou la charpenterie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "f3769375-52c6-496e-895d-809f0e84f3fc",
@@ -32052,7 +32128,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de réfection du filtre #1 à l'usine de filtration Rive-Ouest. La durée prévue du contrat est de 19 mois.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ef794f0e-c43a-4956-9574-a4fd3c481bc1",
@@ -32122,7 +32210,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Ce projet consiste à remplacer l'éclairage du studio d'opéra Wirth (salle A025) par un éclairage de théâtre spécialisé. La durée prévue du projet est de 4 mois et le montant estimé est de 200 000 $.",
+"pointsAttention": [
+"Séance d’information/visite du site"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement d'éclairage et n'implique aucun travail principal en maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3ebb7b5b-8942-4735-a444-cd633c9b8a00",
@@ -32210,7 +32310,19 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le projet comprend la fabrication d'un escalier en béton et la modification/remplacement d'une clôture, incluant la mise en place de bordures de béton. La durée prévue est de 7 mois pour l'ensemble du projet.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le projet inclut la fabrication d'un escalier en béton et des travaux de maçonnerie (bordures de béton), ce qui correspond aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "cb2847db-f4d5-4636-9e01-616ec3d9c011",
@@ -32286,7 +32398,23 @@
 "façade"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture, l'installation et le raccordement électrique de nouvelles toiles solaires motorisées sur la façade sud et ouest du Complexe Multisports.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'installation de toiles solaires et n'inclut ni travaux de maçonnerie, ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f3b70a21-9290-4c43-9dd6-96418d07bbce",
@@ -32360,7 +32488,23 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation des équipements de sécurité (contrôle d'accès, vidéosurveillance, interphonie) pour un bâtiment. Le mandat inclut la coordination avec les autres corps de métier.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande…"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation de systèmes de sécurité et n'a aucun lien direct avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "22ce8616-e7bc-4374-aae0-d2c43c776006",
@@ -32424,7 +32568,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Le contrat concerne le réaménagement complet d'un poste de sécurité du Collège Dawson. Les travaux comprennent l'architecture, la mécanique et l'électricité.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat se concentre sur l'architecture, la mécanique et l'électricité, sans mention claire de travaux majeurs en maçonnerie ou charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "48fd2b64-a868-4c27-843b-bfa66b56faf8",
@@ -32504,7 +32660,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne des travaux à taux horaire pour un entrepreneur en peinture. La durée prévue du contrat est de 19 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement des travaux de peinture et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5ca8c713-7cec-4773-a16c-21b9f33e05b0",
@@ -32568,7 +32736,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux d'isolation industrielle et de calorifugeage sur tuyauterie, réservoirs, chaudières et équipements de procédé dans plusieurs sites de la Ville de Québec.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Les travaux demandés ne correspondent pas aux compétences principales de l'entreprise (maçonnerie, charpenterie, menuiserie).",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
