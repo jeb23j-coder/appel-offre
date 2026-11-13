@@ -25145,5 +25145,167 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-13"
+},
+{
+"id": "319e7f17-8b16-4c2c-8f18-fa569895b667",
+"numero": "1D-3119D-26-067",
+"titre": "Modernisation du système de publidiffusion",
+"organisme": "Aéroport de Montréal (ADM)",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-11-13T15:00",
+"publie": "2026-10-07T18:36",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le système de publidiffusion regroupe l'ensemble des composantes permettant la diffusion de messages destinés aux voyageurs ainsi que des messages d'urgence dans les espaces publics. Le but du projet est de migrer le système présentement sur Cobranet qui est en fin de vie utile vers le Dante. Quelques travaux en électricité sont nécessaires pour pouvoir supporter la nouvelle capacité électrique demandée.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=319e7f17-8b16-4c2c-8f18-fa569895b667",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la modernisation du système de publication et diffusion de messages dans les espaces publics de l'Aéroport de Montréal, impliquant principalement des travaux électriques pour supporter une nouvelle capacité.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'électricité et la technologie, et ne mentionne aucun travail principal en maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
+},
+{
+"id": "e643391e-6002-479f-9eed-14a2be667325",
+"numero": "2026-090-024",
+"titre": "Restauration de la sablière 22B05-6 dans la MRC de La Mitis",
+"organisme": "Ministère des Ressources naturelles et des Forêts",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 230000,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-11-19T11:00",
+"publie": "2026-11-04T09:35",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72141500 - Aménagement de terrain",
+"72141511 - Excavation"
+],
+"description": "Le ministère des Ressources naturelles et des Forêts (MRNF),\npar le biais de sa Direction du registre des droits miniers réels et\nimmobiliers, au sein de la Direction générale de l’administration minière\nsouhaite octroyer un contrat pour faire la restauration complète d’une\nsablière.\nLe présent appel d’offres vise à octroyer un contrat de\ntravaux de construction visant la restauration de la sablière 22B05-6 dans la\nMRC de La Mitis.\nLe ministre attire votre attention sur les articles 3.11 et\n3.12 du document d’appel d’offres qui vous indiquent les conditions\nd’admissibilité des entrepreneurs et de conformité des soumissions à respecter\ndans le cadre de cet appel d’offres.\nLa soumission doit être présentée par un entrepreneur ayant\nau Québec ou dans un territoire visé par un accord intergouvernemental\napplicable, un établissement où il exerce ses activités de façon permanente,\nclairement identifié à son nom et accessible durant les heures normales de\nbureau. L'entrepreneur devra aussi posséder les licences de la Régie du\nBâtiment du Québec requises.\nLe ministre ne s’engage à accepter aucune des soumissions\nreçues, notamment lorsqu’elle juge que les prix sont trop élevés ou\ndisproportionnés ou ne reflètent pas un juste prix.\nIan Morissette\nSous-ministre associé aux mines",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e643391e-6002-479f-9eed-14a2be667325",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-19 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "1265, boulevard Charest Ouest, local 190 Québec QC CAN G1N4V5",
+"ouverture": "2026-11-19 11:00 Heure légale du Québec",
+"adresseOuverture": "1265, boulevard Charest Ouest, local 600.13 Québec QC CAN G1N4V5"
+},
+"conditions": [],
+"vuLe": "2026-11-04T13:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"restauration",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"restauration"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la restauration complète d'une sablière dans la MRC de La Mitis. Le montant estimé est de 230 000 $ et la durée prévue est de 18 mois.",
+"pointsAttention": [
+"Cautionnement de soumission : Non précisé sur l'avis",
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le mot-clé 'bâtiment' soit présent, le cœur du contrat semble être l'aménagement de terrain et la restauration d'une sablière, ce qui n'est pas directement lié à la maçonnerie ou la charpenterie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
 }
 ]

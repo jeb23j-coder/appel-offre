@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-13T13:26",
-"seaoLus": 385,
-"retenus": 388,
-"nouveaux": 14,
+"date": "2026-11-13T16:12",
+"seaoLus": 392,
+"retenus": 395,
+"nouveaux": 9,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -6253,71 +6253,6 @@
 "familles": [
 "Charpenterie"
 ],
-"tropCher": false
-}
-}
-},
-{
-"id": "319e7f17-8b16-4c2c-8f18-fa569895b667",
-"numero": "1D-3119D-26-067",
-"titre": "Modernisation du système de publidiffusion",
-"organisme": "Aéroport de Montréal (ADM)",
-"regions": [
-"Montréal"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": null,
-"dureeMois": null,
-"surDemande": false,
-"fermeture": "2026-11-13T15:00",
-"publie": "2026-10-07T18:36",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations"
-],
-"description": "Le système de publidiffusion regroupe l'ensemble des composantes permettant la diffusion de messages destinés aux voyageurs ainsi que des messages d'urgence dans les espaces publics. Le but du projet est de migrer le système présentement sur Cobranet qui est en fin de vie utile vers le Dante. Quelques travaux en électricité sont nécessaires pour pouvoir supporter la nouvelle capacité électrique demandée.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=319e7f17-8b16-4c2c-8f18-fa569895b667",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": false,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Le projet concerne la modernisation du système de publication et diffusion de messages dans les espaces publics de l'Aéroport de Montréal, impliquant principalement des travaux électriques pour supporter une nouvelle capacité.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le projet est centré sur l'électricité et la technologie, et ne mentionne aucun travail principal en maçonnerie, briquetage, charpenterie ou menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
 "tropCher": false
 }
 }
@@ -19716,99 +19651,6 @@
 }
 },
 {
-"id": "e643391e-6002-479f-9eed-14a2be667325",
-"numero": "2026-090-024",
-"titre": "Restauration de la sablière 22B05-6 dans la MRC de La Mitis",
-"organisme": "Ministère des Ressources naturelles et des Forêts",
-"regions": [
-"Bas-Saint-Laurent"
-],
-"typeAvis": "Avis d’appel d’offres",
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 230000,
-"dureeMois": "18",
-"surDemande": false,
-"fermeture": "2026-11-19T11:00",
-"publie": "2026-11-04T09:35",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72141500 - Aménagement de terrain",
-"72141511 - Excavation"
-],
-"description": "Le ministère des Ressources naturelles et des Forêts (MRNF),\npar le biais de sa Direction du registre des droits miniers réels et\nimmobiliers, au sein de la Direction générale de l’administration minière\nsouhaite octroyer un contrat pour faire la restauration complète d’une\nsablière.\nLe présent appel d’offres vise à octroyer un contrat de\ntravaux de construction visant la restauration de la sablière 22B05-6 dans la\nMRC de La Mitis.\nLe ministre attire votre attention sur les articles 3.11 et\n3.12 du document d’appel d’offres qui vous indiquent les conditions\nd’admissibilité des entrepreneurs et de conformité des soumissions à respecter\ndans le cadre de cet appel d’offres.\nLa soumission doit être présentée par un entrepreneur ayant\nau Québec ou dans un territoire visé par un accord intergouvernemental\napplicable, un établissement où il exerce ses activités de façon permanente,\nclairement identifié à son nom et accessible durant les heures normales de\nbureau. L'entrepreneur devra aussi posséder les licences de la Régie du\nBâtiment du Québec requises.\nLe ministre ne s’engage à accepter aucune des soumissions\nreçues, notamment lorsqu’elle juge que les prix sont trop élevés ou\ndisproportionnés ou ne reflètent pas un juste prix.\nIan Morissette\nSous-ministre associé aux mines",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e643391e-6002-479f-9eed-14a2be667325",
-"fourchette": null,
-"cautionExecution": "Non précisé sur l'avis",
-"cautionGages": null,
-"depot": {
-"mode": "Dépôt électronique sur SEAO",
-"lienAutreSysteme": null,
-"limite": "2026-11-19 Avant 11:00 Heure légale du Québec",
-"adresseDepot": "1265, boulevard Charest Ouest, local 190 Québec QC CAN G1N4V5",
-"ouverture": "2026-11-19 11:00 Heure légale du Québec",
-"adresseOuverture": "1265, boulevard Charest Ouest, local 600.13 Québec QC CAN G1N4V5"
-},
-"conditions": [],
-"vuLe": "2026-11-04T13:28",
-"source": "SEAO",
-"visiteObligatoire": false,
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"restauration"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"restauration",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"restauration",
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie",
-"Charpenterie"
-],
-"tropCher": false
-}
-},
-"motsTrouves": [
-"bâtiment",
-"restauration"
-],
-"motsOk": true,
-"nouveau": false,
-"analyse": {
-"pertinence": 50,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la restauration complète d'une sablière dans la MRC de La Mitis. Le montant estimé est de 230 000 $ et la durée prévue est de 18 mois.",
-"pointsAttention": [
-"Cautionnement de soumission : Non précisé sur l'avis",
-"Contrat sur demande : non"
-],
-"recommandation": "À vérifier",
-"mode": "Sous-traitance",
-"raison": "Bien que le mot-clé 'bâtiment' soit présent, le cœur du contrat semble être l'aménagement de terrain et la restauration d'une sablière, ce qui n'est pas directement lié à la maçonnerie ou la charpenterie.",
-"version": 3
-}
-},
-{
 "id": "2d65b5e8-d258-417a-9953-2209f3683f5d",
 "numero": "071/086D24-01_ENT",
 "titre": "Remplacement de la couverture de toit plat (phase 2) - École Ami-Joie (086)",
@@ -31602,7 +31444,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 90,
 "type": "Maçonnerie",
@@ -31697,7 +31539,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -31779,7 +31621,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -31851,7 +31693,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -31949,7 +31791,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -32039,7 +31881,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -32128,7 +31970,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -32210,7 +32052,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -32310,7 +32152,7 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Maçonnerie",
@@ -32398,7 +32240,7 @@
 "façade"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -32488,7 +32330,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -32568,7 +32410,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -32660,7 +32502,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -32736,7 +32578,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -32749,6 +32591,748 @@
 "raison": "Les travaux demandés ne correspondent pas aux compétences principales de l'entreprise (maçonnerie, charpenterie, menuiserie).",
 "version": 3
 }
+},
+{
+"id": "20fce9fa-4783-4a7a-8314-ff9fd307a44f",
+"numero": "IMM26-05",
+"titre": "Les travaux de réfection des gradins à la Maison de la culture de Pointe-aux-Trembles , située au 14001, rue Notre-Dame Est, Montréal",
+"organisme": "Ville de Montréal - Arrondissement Rivière-des-Prairies- Pointe-aux-Trembles",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-12-16T11:00",
+"publie": "2026-11-13T16:01",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72101505 - Services de serrurerie",
+"72101510 - Maintenance ou réparation de la plomberie",
+"72151100 - Installation de plomberie"
+],
+"description": "DIRECTION DES TRAVAUX PUBLICS\nAPPEL D’OFFRES : IMM26-05\nDESCRIPTIF : Les travaux de réfection des\ngradins à la Maison de la culture de Pointe-aux-Trembles , située au 14001, rue\nNotre-Dame Est, Montréal\nDÉPÔT DE GARANTIE : Cautionnement de 10 %\nde la valeur de la soumission\nRENSEIGNEMENTS : RDP-PAT-TP-Soumissions@montreal.ca\nImportant : Une visite obligatoire doit\nêtre effectuée par tous les soumissionnaires le 23, 24 ou 25 novembre\n2026 entre 9h00 et 16h00. La date limite pour prendre rendez-vous est\nle vendredi 20 novembre avant 16h00.\nOUVERTURE DES SOUMISSIONS : Le mercredi 16 décembre\n2026, à 11 h, soit immédiatement après l'expiration du délai pour leur\nprésentation, à la Maison du citoyen située au 12090, rue Notre-Dame Est,\nMontréal (Québec) H1B 2Z1. La Maison du citoyen est ouverte de 8 h 30\nà 12 h et de 13 h à 16 h 30, du lundi au vendredi.\nPour être considérée, toute soumission devra être présentée\nsur les formulaires spécialement préparés à cette fin.\nChaque soumission doit être placée dans une enveloppe\ncachetée et portant l’identification fournie en annexe du document d’appel\nd’offres.\nL’arrondissement de Rivière-des-Prairies–Pointe-aux-Trembles\nne s'engage à accepter ni la plus basse, ni aucune des soumissions reçues et\nn’assume aucune obligation de quelque nature que ce soit envers le ou les\nsoumissionnaires.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=20fce9fa-4783-4a7a-8314-ff9fd307a44f",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-16 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "12090, rue Notre-Dame Est Montréal QC CAN H1B2Z1",
+"ouverture": "2026-12-16 11:00 Heure légale du Québec",
+"adresseOuverture": "12090, rue Notre-Dame Est Montréal QC CAN H1B2Z1"
+},
+"conditions": [],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "75938520-c205-4d3f-90db-336e01e9c87e",
+"numero": "AM011895",
+"titre": " Montérégie / Poste Pierre-Laporte - Construction d'un nouveau poste de sectionnement 230 KV",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, 10% du montant total de la soumission.",
+"estimation": null,
+"dureeMois": "30",
+"surDemande": false,
+"fermeture": "2027-01-20T14:00",
+"publie": "2026-11-13T15:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "Objet\n : Montérégie / Poste Pierre-Laporte - Construction d'un nouveau poste de\n sectionnement 230 KV\n À titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur\n incluant les options est : entre 40 000 000 $ et 60 000 000 $\n Date limite de réception des plaintes : 17/12/2026\n Communication des plaintes :\n https://www.hydroquebec.com/sefco2016/fournisseurs/fourn-plainte.html\n Demande d'information : Doit être adressée au responsable au minimum trois\n jours ouvrables avant la date et l'heure limites fixées pour la réception des\n soumissions\n Description de l'objet : Les travaux du présent contrat incluent sans s’y\n limiter :\n Travaux de bâtiment\n • Travaux d’architecture du bâtiment;\n • Travaux de structure de bâtiment;\n • Travaux de mécanique du bâtiment (électricité, plomberie, ventilation)\n Travaux civils\n • Fondations en béton armé; \n • Déblais/remblais; \n • Charpente métallique;\n • Drainage; \n • Caniveaux;\n • Terrassement ;\n Travaux d’implantation électrique\n • Ajouts d’appareillage électrique;\n • Jeux de barres blindées;\n • MALT;\n Travaux de commande\n • Installation de câbles;\n • Panneaux de commande;\n • Armoire de permutation (APB);\n Chaloux, Nathalie\n CHALOUX.NATHALIE@HYDROQUEBEC.COM\n Poste : 9063\n Vous pouvez consulter les documents liés à cet avis et soumissionner à\n partir du lien suivant :\n https://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27957\n Hydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=75938520-c205-4d3f-90db-336e01e9c87e",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2027-01-20 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "Espace approvisionnement d'Hydro-Québec Montréal QC CAN H2L4L8",
+"ouverture": null,
+"adresseOuverture": "Espace approvisionnement d'Hydro-Québec Montréal QC CAN H2L4L8"
+},
+"conditions": [],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"pierre",
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"pierre",
+"béton",
+"charpente",
+"terrasse",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"pierre",
+"béton",
+"charpente",
+"terrasse",
+"construction d",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"béton",
+"charpente",
+"construction d",
+"pierre",
+"terrasse"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "b3ad9f5c-88e7-4797-ac74-a4a9687291c5",
+"numero": "26-7474-AO-C",
+"titre": "Aménagement d'une salle de cystoscopie à l'hôpital Anna-Laberge",
+"organisme": "Santé Québec Montérégie-Ouest",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie\nde soumission équivalant à DIX POUR CENT (10%) du prix total proposé\ndans sa Soumission incluant les options. Cette garantie de\nsoumission doit être produite sous la forme d'un cautionnement émis en faveur\nde l’ORGANISME PUBLIC par une Institution Financière.",
+"estimation": 896000,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-12-08T10:30",
+"publie": "2026-11-13T14:58",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "INSTALLATION VISÉE PAR LES TRAVAUX\nHôpital Anna-Laberge\nSitué au 200, boulevard Brisebois, Châteauguay\n(Québec) J6K 4W8\nDESCRIPTION SOMMAIRE DU PROJET\nLe Santé Québec Montérégie-Ouest requiert des services de construction pour le projet « 065180 - Aménagement d'une salle\nde cystoscopie». Les travaux inclus,\nsans s'y limiter;\n· \nTravaux de démolition\n· \nTravaux d’architecture, de mécanique et d’électricité pour\nl’aménagement du secteur de la cystoscopie\n· \nTravaux de structure, d’architecture, de mécanique et\nd’électricité pour l’ajout d’une unité de prétraitement d’air intégré à l’unité\nexistante 2.08\nL'Entrepreneur\ndevra tenir compte que les travaux sont exécutés dans un bâtiment occupé. Les\ntravaux devront être réalisés selon les indications des plans et devis.\nVISITE DES LIEUX\nPendant la\npériode d’appel d’offres, le Gestionnaire de projet organisera une visite\nd’information à Hôpital Anna-Laberge le 26\nnovembre 2026, à 10h00 AM. Le point de rencontre sera à l’entrée principale\ndu bâtiment (à côté du comptoir d’information). Tous les soumissionnaires,\nentrepreneurs et sous-traitants seront considérés comme ayant visité les lieux\net aucune réclamation pour manque de connaissance des lieux ne pourra être\nsoumise ni acceptée.\nAfin de faciliter l'organisation de la visite des lieux, les entreprises intéressées sont invitées à confirmer leur présence à l'avance. Cette confirmation permettra aux professionnels d'estimer le nombre de participants attendus.\nDEMANDES D’INFORMATION \nLes\nsoumissionnaires qui désirent recevoir des précisions au regard de l’appel\nd’offres doivent obligatoirement le faire par écrit au plus tard 2 jours\nouvrables avant la date et l’heure limites fixées pour la réception des\nsoumissions en prenant soin de mentionner le numéro de l’appel d’offres (26-7474-AO-C). Veuillez adresser\ntoutes questions ou demandes d’information à l’adresse courriel\nsuivante : cedric.pekam.cisssmo16@ssss.gouv.qc.ca",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b3ad9f5c-88e7-4797-ac74-a4a9687291c5",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-08 Au plus tard 10:30 Heure légale du Québec",
+"adresseDepot": "3, boul. de la Cité-des-Jeunes Vaudreuil-Dorion QC CAN J7V9R2",
+"ouverture": "2026-12-08 10:30 Heure légale du Québec",
+"adresseOuverture": "3, boul. de la Cité-des-Jeunes Vaudreuil-Dorion QC CAN J7V9R2"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "2e7b10ec-acc4-403a-a723-05e3244b9f24",
+"numero": "44548765",
+"titre": "Lot L0801 – Portes, cadres et quincaillerie - Hôpital Charles-Le Moyne – Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement (Module clinique transitoire) au 2924, boulevard Taschereau, Longueuil (Québec) J4V 2G8",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10% du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article « Garantie de soumission » des Instructions\naux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 1163250,
+"dureeMois": "19",
+"surDemande": false,
+"fermeture": "2026-12-04T15:00",
+"publie": "2026-11-13T14:50",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels",
+"72121403 - Construction d’hôpitaux"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44548765\n Titre du\n contrat :\n Lot L0801 – Portes,\n cadres et quincaillerie\nHôpital Charles-Le Moyne –\n Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement\n (Module clinique transitoire)\n Adresse de\n l’immeuble :\n 2924, boulevard\n Taschereau, Longueuil (Québec) J4V 2G8\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de portes,\ncadres et quincaillerie pour le projet de l’Hôpital\nCharles-Le Moyne – Bloc opératoire et chirurgie d’un jour – Agrandissement et\nréaménagement (Module clinique transitoire).\nAVIS IMPORTANTS \nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission5@sqi.gouv.qc.ca.\nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission él",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2e7b10ec-acc4-403a-a723-05e3244b9f24",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-04 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": "525, boul. René-Lévesque Est, rez-de-chaussée, Québec QC CAN G1R5S9",
+"ouverture": null,
+"adresseOuverture": "525, boul. René-Lévesque Est, rez-de-chaussée, Québec QC CAN G1R5S9"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "962eea93-e189-478e-9aae-c66917ed2191",
+"numero": "25MB-002",
+"titre": "Remplacement des fenêtres de l'école Pie-X-de-l'Assomption",
+"organisme": "Centre de services scolaire de la région de Sherbrooke.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10% du total de la soumission proposée",
+"estimation": 960000,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-12-07T14:00",
+"publie": "2026-11-13T14:25",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72152400 - Installation de portes et de fenêtres"
+],
+"description": "Le Centre de services scolaire de Sherbrooke désire remplacer les fenêtres et certaines allèges de l'école Pie-X-de-l'Assomption.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=962eea93-e189-478e-9aae-c66917ed2191",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-07 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "2955 boul. de l'Université Sherbrooke QC CAN J1K2Y3",
+"ouverture": "2026-12-07 14:00 Heure légale du Québec",
+"adresseOuverture": "2955 boul. de l'Université Sherbrooke QC CAN J1K2Y3"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"allège"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"allège",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"allège",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"allège",
+"fenêtre",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "c03c09f6-b68a-44c7-8f75-aff4d8f9ba98",
+"numero": "TP-2026-11",
+"titre": "Construction d'un nouveau garage municipal",
+"organisme": "Municipalité de Déléage",
+"regions": [
+"Montréal",
+"Outaouais",
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-03T14:00",
+"publie": "2026-11-13T14:08",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Construction d'un nouveau garage",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c03c09f6-b68a-44c7-8f75-aff4d8f9ba98",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-03 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "175, route 107 Déléage QC CAN J9E3A8",
+"ouverture": "2026-12-03 14:00 Heure légale du Québec",
+"adresseOuverture": "175, route 107 Déléage QC CAN J9E3A8"
+},
+"conditions": [
+"Conditions de conformité et autres conditions"
+],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"construction d",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"construction d",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"construction d",
+"garage"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "d0e7f9dd-4280-428a-a450-66f069815849",
+"numero": "25-3278P",
+"titre": "286 017 130 - École Coeur-Immaculé-de-Marie - Rénovation des fondations et du vide sanitaire",
+"organisme": "Centre de services scolaire de Montréal / BDA",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 4961503,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-12-09T14:00",
+"publie": "2026-11-13T14:03",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "Les soumissions transmises par\nvoie électronique sont permises dans le cadre du présent appel d’offres.\nAvis d’appel d’offres public – appel d’offres fondé\nuniquement sur un prix\nPar\nle présent avis, le Centre de services scolaire de Montréal (CSSDM) sollicite\ndes soumissions pour l'appel d'offres suivant :\nRÉNOVATION DES FONDATIONS ET DU\nVIDE SANITAIRE\nAppel d’offres 25-3278P\nDescriptif des travaux PHASE\n1 : \n-imperméabilisation des\nfondations\n-rénovation du vide sanitaire\n-superficie du vide sanitaire:\n1275 m2 (13 700 pi2)\nDescriptif des travaux PHASE\n2 : \n-réfection des accès extérieurs\nen béton (rampe et escaliers)\n-nouveaux garde-corps et mains\ncourantes des accès extérieurs (métaux ouvrés)\n-remplacement des portes et\ncadres extérieurs\n-remplacement des grilles\ngratte-pieds dans les vestibules d’entrée\n-réfection des finis de\nplancher dans les vestibules d’entrée\nBâtiment: \nÉcole Cœur-Immaculé-de-Marie\n1845 boulevard Desmarchais.\nMontréal, QC H4E-2B7\nVisite des lieux: \nDurant la période de soumission, il y\naura une visite formelle des lieux le 19 novembre 2026 à 10:00.\nPériode/Délai de réalisation PHASE 1 -\n2027:\nDu 3 mai 2027 jusqu’au 8\noctobre 2027\nPériode/Délai de réalisation PHASE 2 -\n2028:\nDu 26 juin 2028 (départ des élèves) jusqu’au au 17 octobre 2028\nAucune option de renouvellement. \nPour des précisions concernant la\npériode de réalisation, vous pouvez contacter le représentant du CSSDM.\nAucune précision\nsur la valeur estimée du contrat total ou partiel ne sera fournie. \nCautionnement de\nsoumission : \nToute soumission\ndoit être accompagnée d’une garantie de soumission représentant 10 % du coût\ntotal de la soumission, incluant les taxes applicables en faveur du Centre de\nservices scolaire. Cette garantie de soumission doit être présentée sous l’une\nou l’autre des formes suivantes : \n· \nUne lettre de garantie irrévocable émise par une institution\nfinancière valide pour une période de 45 jours suivants la date d’ouverture des\nsoumissions. \n· \nUn cautionnement de soumission\némis par une institution financière qui est un assureur détenant unpermisémisconformémentàlaLoisurlesassurances.\nPropriétaire\nCentre de services scolaire de\nMontréal\n5100, rue Sherbrooke Est\nMontréal (Québec) H1V 3R9\nIl est à noter que le Centre de services scolaire de\nMontréal est fermé pour la période des Fêtes, du 21 décembre 2026 au 1er janvier\n2027 inclusivement.\nCompte tenu de la situation actuelle, les soumissionnaires\nsouhaitant déposer une soumission en format papier sont priés de se présenter\nau centre administratif du CSSDM la journée même de l’ouverture. Un\nreprésentant du Bureau des approvisionnements sera présent pour la réception\ndes soumissions de 8h30 à 12h et de 13h à 14h. \nLe CSSDM recevra avant 14 heures, à la\ndate d'ouverture indiquée, les soumissions pour l'appel d'offres correspondant.\nChaque soumission sur support papier doit être remise scellée dans une\nenveloppe identifiée de l'étiquette de retour incluse à l'appel d'offres ou par\ntoute reprod",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=d0e7f9dd-4280-428a-a450-66f069815849",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-09 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "5100, rue Sherbrooke Est, local 180 Montréal QC CAN H1V3R9",
+"ouverture": "2026-12-09 14:00 Heure légale du Québec",
+"adresseOuverture": "5100, rue Sherbrooke Est, local 180 Montréal QC CAN H1V3R9"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection",
+"escalier",
+"rénovation",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"béton",
+"réfection",
+"escalier",
+"rénovation",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"béton",
+"enveloppe",
+"escalier",
+"réfection",
+"rénovation",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "1ba171e4-ff22-4595-a524-3e10ba27fa5f",
+"numero": "PARC26-19",
+"titre": "Parc des Cageux - Aménagement du parcours est",
+"organisme": "Ville de Montréal - Arrondissement Rivière-des-Prairies- Pointe-aux-Trembles",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-12-16T11:00",
+"publie": "2026-11-13T13:49",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"95121511 - Parc"
+],
+"description": "DIRECTION DU DÉVELOPPEMENT DU TERRITOIRE ET ÉTUDES TECHNIQUES\nAPPEL D’OFFRES : PARC26-19\nDESCRIPTIF : Parc des Cageux- Aménagement du parcours est\nDÉPÔT DE GARANTIE : 10 % du montant de la soumission \nRENSEIGNEMENTS : soumissions-parcs_rdppat@montreal.ca\nOUVERTURE DES SOUMISSIONS : Le mercredi 16 décembre 2026, à 11 h, soit immédiatement après l'expiration du délai pour leur présentation, à la Maison du citoyen située au 12090, rue Notre-Dame Est, Montréal (Québec) H1B 2Z1. La Maison du citoyen est ouverte de 8 h 30 à 12 h et de 13 h à 16 h 30, du lundi au vendredi.\nPour être considérée, toute soumission devra être présentée sur les formulaires spécialement préparés à cette fin. Chaque soumission doit être placée dans une enveloppe cachetée et portant l’identification fournie en annexe du document d’appel d’offres. L’arrondissement de Rivière-des-Prairies–Pointe-aux-Trembles ne s'engage à accepter ni la plus basse, ni aucune des soumissions reçues et n’assume aucune obligation de quelque nature que ce soit envers le ou les soumissionnaires.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=1ba171e4-ff22-4595-a524-3e10ba27fa5f",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-16 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "12090, rue Notre-Dame Est 1RE ÉTAGE Montréal QC CAN H1B2Z1",
+"ouverture": "2026-12-16 11:00 Heure légale du Québec",
+"adresseOuverture": "12090, rue Notre-Dame Est 1RE ÉTAGE Montréal QC CAN H1B2Z1"
+},
+"conditions": [],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "0d23ad8f-fcf0-4d4e-8fdb-6074dd492e5e",
+"numero": "44548449",
+"titre": "Remplacement de la tuyauterie d’eau domestique Kitec au 645, rue de la Madone, Mont-Laurier (Québec) J9L 1T1",
+"organisme": "SQI-Direction immobilière Outaouais",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 345692,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-12-10T15:00",
+"publie": "2026-11-13T13:42",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72151100 - Installation de plomberie"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n44548449\n Titre du\n contrat :\n Remplacement de la\n tuyauterie d’eau domestique Kitec\n Adresse \nde\n l’immeuble :\n 645, rue de la Madone,\n Mont-Laurier (Québec) J9L 1T1\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de remplacement\ncomplet du système de plomberie domestique Kitecafin\nde moderniser les installations du bâtiment et de prévenir les risques de\ndéfaillance du système existant. Les travaux comprennent le retrait des\nconduites et composantes en Kitec ainsi que toutes les interventions connexes à\nce remplacement.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission9@sqi.gouv.qc.ca. \nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission é",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=0d23ad8f-fcf0-4d4e-8fdb-6074dd492e5e",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": "170, De L'Hôtel-De-Ville, Bur. 8.400 Gatineau QC CAN J8X4C2",
+"ouverture": null,
+"adresseOuverture": "170, De L'Hôtel-De-Ville, Bur. 8.400 Gatineau QC CAN J8X4C2"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-13T16:11",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -58138,6 +58722,168 @@
 "recommandation": "No-go",
 "mode": "Aucun",
 "raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
+},
+{
+"id": "319e7f17-8b16-4c2c-8f18-fa569895b667",
+"numero": "1D-3119D-26-067",
+"titre": "Modernisation du système de publidiffusion",
+"organisme": "Aéroport de Montréal (ADM)",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-11-13T15:00",
+"publie": "2026-10-07T18:36",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le système de publidiffusion regroupe l'ensemble des composantes permettant la diffusion de messages destinés aux voyageurs ainsi que des messages d'urgence dans les espaces publics. Le but du projet est de migrer le système présentement sur Cobranet qui est en fin de vie utile vers le Dante. Quelques travaux en électricité sont nécessaires pour pouvoir supporter la nouvelle capacité électrique demandée.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=319e7f17-8b16-4c2c-8f18-fa569895b667",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet concerne la modernisation du système de publication et diffusion de messages dans les espaces publics de l'Aéroport de Montréal, impliquant principalement des travaux électriques pour supporter une nouvelle capacité.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'électricité et la technologie, et ne mentionne aucun travail principal en maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
+},
+{
+"id": "e643391e-6002-479f-9eed-14a2be667325",
+"numero": "2026-090-024",
+"titre": "Restauration de la sablière 22B05-6 dans la MRC de La Mitis",
+"organisme": "Ministère des Ressources naturelles et des Forêts",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 230000,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-11-19T11:00",
+"publie": "2026-11-04T09:35",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72141500 - Aménagement de terrain",
+"72141511 - Excavation"
+],
+"description": "Le ministère des Ressources naturelles et des Forêts (MRNF),\npar le biais de sa Direction du registre des droits miniers réels et\nimmobiliers, au sein de la Direction générale de l’administration minière\nsouhaite octroyer un contrat pour faire la restauration complète d’une\nsablière.\nLe présent appel d’offres vise à octroyer un contrat de\ntravaux de construction visant la restauration de la sablière 22B05-6 dans la\nMRC de La Mitis.\nLe ministre attire votre attention sur les articles 3.11 et\n3.12 du document d’appel d’offres qui vous indiquent les conditions\nd’admissibilité des entrepreneurs et de conformité des soumissions à respecter\ndans le cadre de cet appel d’offres.\nLa soumission doit être présentée par un entrepreneur ayant\nau Québec ou dans un territoire visé par un accord intergouvernemental\napplicable, un établissement où il exerce ses activités de façon permanente,\nclairement identifié à son nom et accessible durant les heures normales de\nbureau. L'entrepreneur devra aussi posséder les licences de la Régie du\nBâtiment du Québec requises.\nLe ministre ne s’engage à accepter aucune des soumissions\nreçues, notamment lorsqu’elle juge que les prix sont trop élevés ou\ndisproportionnés ou ne reflètent pas un juste prix.\nIan Morissette\nSous-ministre associé aux mines",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e643391e-6002-479f-9eed-14a2be667325",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-19 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "1265, boulevard Charest Ouest, local 190 Québec QC CAN G1N4V5",
+"ouverture": "2026-11-19 11:00 Heure légale du Québec",
+"adresseOuverture": "1265, boulevard Charest Ouest, local 600.13 Québec QC CAN G1N4V5"
+},
+"conditions": [],
+"vuLe": "2026-11-04T13:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"restauration",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"restauration",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"restauration"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la restauration complète d'une sablière dans la MRC de La Mitis. Le montant estimé est de 230 000 $ et la durée prévue est de 18 mois.",
+"pointsAttention": [
+"Cautionnement de soumission : Non précisé sur l'avis",
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le mot-clé 'bâtiment' soit présent, le cœur du contrat semble être l'aménagement de terrain et la restauration d'une sablière, ce qui n'est pas directement lié à la maçonnerie ou la charpenterie.",
 "version": 3
 },
 "fermeArchive": true,
