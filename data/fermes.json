@@ -20096,7 +20096,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-09"
+"fermeLe": "2026-11-09",
+"fourchette": "139 000 $ à 347 399 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T09:39",
+"soumissions": [
+{
+"nom": "Services Électriques Enixum Inc.",
+"montant": 123200.0
+},
+{
+"nom": "QUANTUM ÉLECTRIQUE INC.",
+"montant": 157000.0
+}
+]
+}
 },
 {
 "id": "dbc91dee-fac2-41dd-beeb-5bb88d0b9af9",
@@ -21457,7 +21472,54 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-10"
+"fermeLe": "2026-11-10",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T11:10",
+"soumissions": [
+{
+"nom": "GROUPE CONSTRUCTION MH",
+"montant": 469396.94
+},
+{
+"nom": "9140-2594 QUÉBEC INC.",
+"montant": 913936.28
+},
+{
+"nom": "CONSTRUCTION G DUBOIS INC.",
+"montant": 928784.96
+},
+{
+"nom": "CONSTRUCTION DURADEV INC.",
+"montant": 1067922.29
+},
+{
+"nom": "COFFREX INC.",
+"montant": 1130480.0
+},
+{
+"nom": "ATWILL-MORIN BÉTON INC",
+"montant": 1171779.21
+},
+{
+"nom": "TRO-CHAÎNES INC.",
+"montant": 1309276.66
+},
+{
+"nom": "PARKO INC.",
+"montant": 1315269.16
+},
+{
+"nom": "CONSTRUCTION NCP",
+"montant": 1915483.5
+},
+{
+"nom": "LAMBERT & GRENIER INC.",
+"montant": 2117264.63
+}
+]
+}
 },
 {
 "id": "6a555255-9281-40fb-af45-e5399ecd0af1",
@@ -23229,7 +23291,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-11"
+"fermeLe": "2026-11-11",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T07:29",
+"soumissions": [
+{
+"nom": "Kamco constuction inc",
+"montant": 3237000.0
+},
+{
+"nom": "Technipro BSL",
+"montant": 3243151.0
+},
+{
+"nom": "CONSTRUCTION ALBERT INC.",
+"montant": 3337000.0
+}
+]
+}
 },
 {
 "id": "ab6916cf-c642-4dea-95f0-bc029ba84125",
@@ -23353,7 +23434,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T08:22",
+"soumissions": [
+{
+"nom": "ARDEC CONSTRUCTION INC.",
+"montant": 3638000.0
+},
+{
+"nom": "Ventilation MFC",
+"montant": 3700000.0
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 3756000.0
+},
+{
+"nom": "GROUPE PLOMBACTION INC.",
+"montant": 4191900.0
+},
+{
+"nom": "LES COUVERTURES ST-LÉONARD INC.",
+"montant": 5199800.0
+}
+]
+}
 },
 {
 "id": "29ba4a56-829c-480c-8a07-3972e389b8be",
@@ -23628,7 +23736,66 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": "736 000 $ à 6 943 899 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T08:40",
+"soumissions": [
+{
+"nom": "Corrado Entrepreneur Général",
+"montant": 2275000.0
+},
+{
+"nom": "Construction Magenta inc.",
+"montant": 2328531.0
+},
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 2338882.0
+},
+{
+"nom": "EMJ CONSTRUCTION INC.",
+"montant": 2429168.0
+},
+{
+"nom": "Construction Melma Inc.",
+"montant": 2565165.0
+},
+{
+"nom": "JOMACO inc.",
+"montant": 2673189.8
+},
+{
+"nom": "Construction Bralteck (2025) Inc.",
+"montant": 2753056.0
+},
+{
+"nom": "Anjalec Construction Inc.",
+"montant": 2875140.0
+},
+{
+"nom": "CONSTRUCTION IRÉNÉE PAQUET & FILS INC.",
+"montant": 2938214.8
+},
+{
+"nom": "NORGEREQ LTÉE",
+"montant": 2968000.0
+},
+{
+"nom": "IMMOBILIER BELMON INC.",
+"montant": 3136568.72
+},
+{
+"nom": "Concept P.V.R. Inc.",
+"montant": 3286249.0
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 3733091.0
+}
+]
+}
 },
 {
 "id": "0b0c2889-0863-4f10-ad41-64d4b3c5406e",
@@ -23771,7 +23938,78 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T10:48",
+"soumissions": [
+{
+"nom": "CONSTRUCTIONS R.D.J. INC.",
+"montant": 3094575.12
+},
+{
+"nom": "2862-5622 QUÉBEC INC.",
+"montant": 3157598.67
+},
+{
+"nom": "CONSTRUCTION G.C.P. INC.",
+"montant": 3173882.77
+},
+{
+"nom": "TROICÉ CONSTRUCTION INC.",
+"montant": 3203500.44
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 3214701.0
+},
+{
+"nom": "Corrado Entrepreneur Général",
+"montant": 3250343.25
+},
+{
+"nom": "RA Léveillé Inc.",
+"montant": 3258742.17
+},
+{
+"nom": "Piché Construction / Groupe Piché Construction Inc.",
+"montant": 3260111.53
+},
+{
+"nom": "Construction Richelieu",
+"montant": 3297483.0
+},
+{
+"nom": "Groupe Balex inc.",
+"montant": 3344453.74
+},
+{
+"nom": "Construction Melma Inc.",
+"montant": 3357729.9
+},
+{
+"nom": "IMMOBILIER BELMON INC.",
+"montant": 3364381.26
+},
+{
+"nom": "NORGEREQ LTÉE",
+"montant": 3434303.25
+},
+{
+"nom": "CONSTRUCTION MATTEAU INC.",
+"montant": 3452005.25
+},
+{
+"nom": "CORPORATION DE CONSTRUCTION GERMANO",
+"montant": 3590233.49
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 3860934.08
+}
+]
+}
 },
 {
 "id": "1b5eb6db-4e56-49d5-a8f7-a9ebbc2eb19e",
@@ -24138,7 +24376,54 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T09:51",
+"soumissions": [
+{
+"nom": "LAPLANTE CONSTRUCTION (2006) INC.",
+"montant": 1257197.0
+},
+{
+"nom": "BEAUVAIS & VERRET INC.",
+"montant": 1293791.0
+},
+{
+"nom": "LES ENTREPRISES QUÉBECHAB LTÉE",
+"montant": 1328000.0
+},
+{
+"nom": "Construction Citadelle Inc.",
+"montant": 1347749.0
+},
+{
+"nom": "CONSTRUCTION JC-7 INC.",
+"montant": 1362263.0
+},
+{
+"nom": "Constructions Dubois",
+"montant": 1363363.0
+},
+{
+"nom": "ACTION ESTIMATION INC.",
+"montant": 1396900.0
+},
+{
+"nom": "LÉVESQUE & ASSOCIÉS CONSTRUCTION INC.",
+"montant": 1424500.0
+},
+{
+"nom": "CONTRACTA INC.",
+"montant": 1426000.0
+},
+{
+"nom": "Constructions Envergure Inc.",
+"montant": 1454000.0
+}
+]
+}
 },
 {
 "id": "c0cb1534-cec2-4457-9579-a751a6ec1b3c",
@@ -24303,7 +24588,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-13T10:28",
+"soumissions": [
+{
+"nom": "LES CONSTRUCTIONS YVES LESSARD INC.",
+"montant": 1231390.0
+},
+{
+"nom": "CONSTRUCTION LONGER INC.",
+"montant": 1716500.0
+}
+]
+}
 },
 {
 "id": "b995e382-9ed6-43c6-ba00-36e942f07919",
@@ -24675,5 +24975,175 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-12"
+},
+{
+"id": "dcf3e4b5-cbdd-426c-9507-9c5d52950e59",
+"numero": "HO2026-004",
+"titre": "Travaux de rénovation pour aménagement Hébergement Sans-abris Dolbeau-Mistassini",
+"organisme": "Hébergement Plus.",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"abri",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-11-11T11:00",
+"publie": "2026-10-22T15:32",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Appel d'offre pour l'aménagement d’un centre pour Sans-Abris situé au 162, 4e Avenue, Dolbeau-Mistassini, QC.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=dcf3e4b5-cbdd-426c-9507-9c5d52950e59",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour l'aménagement d'un centre pour Sans-Abris. La description mentionne le mot-clé 'abri' et 'rénovation'.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne l'aménagement d'un bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être sollicités, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"abri",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"abri",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
+},
+{
+"id": "c6ac3940-9a20-4594-b370-0734a76b5eb5",
+"numero": "Contrat 2026-08-TR",
+"titre": "Travaux de nivellement et construction d’un nouveau terrain de soccer synthétique et d’un nouveau terrain de basket-ball et aménagement du parc des Roseraies – Anjou 2026",
+"organisme": "Ville de Montréal - Arrondissement d'Anjou",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-12T11:00",
+"publie": "2026-10-26T08:59",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"95122302 - Terrain de sport"
+],
+"description": "Appel d’offres\nVILLE\nDE MONTRÉAL\nArrondissement d’Anjou\nDivision des études techniques\nDes soumissions, sont demandées\net devront être reçues avant 11 heures, à la date ci-dessous mentionnée, à l’adresse\nsuivante : Direction des services\nadministratifs, des relations avec les citoyens et du greffe, arrondissement\nd’Anjou, au 7701, boul. Louis-H.-La Fontaine, Anjou (Québec) H1K 4B9 (à l’attention\nde madame Josée Kenny).\n Catégorie :\n Travaux\n Appel d’offres :\n 2026-08-TR\n Descriptif :\n Travaux de nivellement et construction d’un\n nouveau terrain de soccer synthétique et d’un nouveau terrain de basket-ball\n et aménagement du parc des Roseraies – Anjou 2026\n Date d’ouverture :\n Le jeudi 12 novembre 2026 à 11 heures\n Dépôt de garantie :\n 10 % de la valeur de la soumission \n Renseignements :\n Pour toute question s’adresser à :ao_anjou@montreal.ca\n Documents :\n Les documents relatifs à cet appel d’offres seront\n disponibles à compter du 26 octobre 2026 sur le SEAO.\n Visite\n supervisée des lieux :\n N/A. ou \n Oui, obligatoire :\nLes\npersonnes et les entreprises intéressées par ce contrat peuvent se procurer les\ndocuments de soumission en s’adressant au Service électronique d’appels\nd’offres (SÉAO) en communiquant avec un des représentants par téléphone au\n1-877-336-7326ou au 418 646-0177, ou en consultant le site Web https://seao.gouv.qc.ca/. Les documents\npeuvent être obtenus au coût établi par le SÉAO.\nChaque\nsoumission doit être placée dans une enveloppe cachetée et portant\nl’identification fournie en annexe du document d’appel d’offres.\nLes\nsoumissions reçues seront ouvertes publiquement à l’endroit susmentionné,\nimmédiatement après l'expiration du délai fixé pour leur réception.\nLa\nVille de Montréal ne s'engage à accepter ni la plus basse ni aucune des\nsoumissions reçues et n'assume aucune obligation de quelques natures que ce\nsoit envers le ou les soumissionnaires.\nFait à\nMontréal, le 26 octobre 2026\nJosée Kenny\nSecrétaire d’arrondissement par intérim\nJournaux de\npublication : Le Devoir__",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c6ac3940-9a20-4594-b370-0734a76b5eb5",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-11-12 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "7701, boul. Louis-H.-La Fontaine Montréal QC CAN H1K4B9",
+"ouverture": "2026-11-12 11:00 Heure légale du Québec",
+"adresseOuverture": "7701, boul. Louis-H.-La Fontaine Montréal QC CAN H1K4B9"
+},
+"conditions": [],
+"vuLe": "2026-10-26T13:09",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"construction d",
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de nivellement et la construction de terrains de sport synthétiques et l'aménagement d'un parc. Il n'y a aucune mention des métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"pointsAttention": [
+"N/A"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
 }
 ]
