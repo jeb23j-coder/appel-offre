@@ -32673,7 +32673,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des gradins à la Maison de la culture de Pointe-aux-Trembles. La durée prévue des travaux est de 9 mois.",
+"pointsAttention": [
+"visite obligatoire doit être effectuée par tous les soumissionnaires le 23, 24 ou 25 novembre 2026 entre 9h00 et 16h00. La date limite pour prendre rendez-vous est le vendredi 20 novembre avant 16h00."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet n'est pas clairement axé sur la maçonnerie ou la charpenterie, mais la réfection des gradins pourrait impliquer ces corps de métier en fonction de la nature exacte des travaux.",
+"version": 3
+}
 },
 {
 "id": "75938520-c205-4d3f-90db-336e01e9c87e",
@@ -32767,7 +32779,23 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'un nouveau poste de sectionnement 230 KV avec une estimation de coût entre 40 et 60 millions de dollars. Les travaux incluent des travaux de bâtiment, de structure, de mécanique du bâtiment, des fondations en béton armé, de la charpente métallique et des travaux civils.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le projet est trop vaste et centré sur les travaux d'infrastructure lourde et de génie civil, ce qui est hors du cœur de métier de la maçonnerie/charpenterie spécialisée.",
+"version": 3
+}
 },
 {
 "id": "b3ad9f5c-88e7-4797-ac74-a4a9687291c5",
@@ -32842,7 +32870,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement d'une salle de cystoscopie à l'hôpital Anna-Laberge. Les travaux incluent la démolition et l'aménagement avec des travaux d'architecture, mécanique et électricité pour une unité de prétraitement d'air.",
+"pointsAttention": [
+"travaux exécutés dans un bâtiment occupé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur l'aménagement médical et les travaux de mécanique/électricité, et non sur la maçonnerie ou la charpenterie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "2e7b10ec-acc4-403a-a723-05e3244b9f24",
@@ -32918,7 +32958,19 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne les travaux de portes, cadres et quincaillerie pour l'agrandissement et le réaménagement d'un module clinique transitoire à l'Hôpital Charles-Le Moyne. Le montant estimé est de 1 163 250 $ et la durée prévue est de 19 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Soumission directe",
+"raison": "Bien que le cœur du lot soit la menuiserie (portes, cadres), l'agrandissement et le réaménagement d'un bâtiment impliquent souvent des travaux de maçonnerie ou de charpenterie dans le cadre de la construction/réaménagement.",
+"version": 3
+}
 },
 {
 "id": "962eea93-e189-478e-9aae-c66917ed2191",
@@ -33006,7 +33058,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le remplacement des fenêtres et certaines allèges de l'école Pie-X-de-l'Assomption. Le projet est estimé à 960 000 $ et la durée prévue est de 9 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne l'installation de fenêtres et allèges, ce qui touche à la menuiserie, mais il est dans le cadre d'un bâtiment scolaire, ce qui est pertinent pour le secteur de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c03c09f6-b68a-44c7-8f75-aff4d8f9ba98",
@@ -33083,7 +33147,19 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un nouveau garage municipal. La durée prévue est de 3 mois.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un bâtiment où la maçonnerie ou la charpenterie pourrait être un lot, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "d0e7f9dd-4280-428a-a450-66f069815849",
@@ -33182,7 +33258,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la rénovation des fondations et du vide sanitaire d'une école, incluant l'imperméabilisation des fondations et la rénovation du vide sanitaire (1275 m2). Il prévoit également la réfection des accès extérieurs en béton, des garde-corps, et le remplacement de portes et cadres extérieurs.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un gros projet de bâtiment où la maçonnerie (fondations, murs) et la charpenterie/menuiserie (portes, cadres, escaliers) sont impliquées, mais le titre se concentre sur les fondations et le vide sanitaire.",
+"version": 3
+}
 },
 {
 "id": "1ba171e4-ff22-4595-a524-3e10ba27fa5f",
@@ -33256,7 +33344,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'offres pour l'aménagement du Parc des Cageux. Les mots-clés trouvés incluent 'enveloppe'.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne l'aménagement d'un parc et ne touche pas aux métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0d23ad8f-fcf0-4d4e-8fdb-6074dd492e5e",
@@ -33332,7 +33432,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement complet du système de plomberie domestique Kitec dans un bâtiment. Les travaux comprennent le retrait des conduites et composantes en Kitec ainsi que toutes les interventions connexes à ce remplacement.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement la plomberie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
