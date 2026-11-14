@@ -33514,7 +33514,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de ventilation et de climatisation au poste de police de Mirabel. Les travaux impliquent le remplacement d'unités ventilo-convecteur, de lignes de réfrigération et de condenseurs extérieurs.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur les systèmes CVC (chauffage, ventilation et climatisation) et n'inclut aucun travail principal de maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
