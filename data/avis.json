@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-13T19:09",
-"seaoLus": 393,
-"retenus": 396,
-"nouveaux": 1,
+"date": "2026-11-14T11:52",
+"seaoLus": 396,
+"retenus": 399,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -33514,7 +33514,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33527,6 +33527,220 @@
 "raison": "Le projet est centré sur les systèmes CVC (chauffage, ventilation et climatisation) et n'inclut aucun travail principal de maçonnerie, charpenterie ou menuiserie.",
 "version": 3
 }
+},
+{
+"id": "497067d3-0f58-48a4-bd16-c877091c17b5",
+"numero": "PS26-1052P",
+"titre": "Contrat à exécution sur demande pour travaux d’entrepreneurs généraux – Maintien d’actifs",
+"organisme": "Commission Scolaire English-Montreal",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [
+"brique",
+"bâtiment",
+"béton",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 1800000.0,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-10-23T14:31",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le présent appel d'offres a pour objet de retenir les services d’un (ou plusieurs) ENTREPRENEUR GÉNÉRAL(S), qui est obligatoirement titulaire d’une licence d’ « Entrepreneur en bâtiments de tout genre » (sous-catégorie 1.3) de la Régie du bâtiment du Québec, qui effectuera, sur demande, divers travaux de réparation et de rénovation à ses bâtiments en conformité avec les conditions du présent appel d'offres pour les établissements de l’ORGANISME PUBLIC (Se référer à la liste des adresses civiques des bâtiments à l’annexe 1.)\nLes travaux généraux à exécuter sur demande peuvent nécessiter différents corps\n• briqueteur-maçon\n• calorifugeur\n• carreleur\n• charpentier-Menuisier\n• finisseur de Béton\n• manoeuvre régulier\n• peintre\n• plâtrier\n• poseur de gypse\n• poseur de systèmes d’intérieurs\n• poseur et revêtement souple\n• soudeur\n• plombier-tuyauteur\n• électricien",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=497067d3-0f58-48a4-bd16-c877091c17b5",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne des travaux de réparation et de rénovation à effectuer sur demande sur des bâtiments de la Commission Scolaire. Les corps de métier mentionnés incluent briqueteur-maçon et charpentier-menuisier.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des corps de métier ciblés (maçonnerie et charpenterie/menuiserie) dans le cadre de travaux de rénovation et de réparation.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"brique",
+"béton"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"brique",
+"béton",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"brique",
+"béton",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "b995e382-9ed6-43c6-ba00-36e942f07919",
+"numero": "2026CNT052",
+"titre": "Travaux de remplacement du système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de Lévis.",
+"organisme": "Santé Québec Chaudière-Appalaches",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission \néquivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission.",
+"estimation": 410000,
+"dureeMois": "12",
+"surDemande": false,
+"fermeture": "2026-11-05T14:00",
+"publie": "2026-10-07T13:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "AVIS –\nAPPEL D’OFFRES – 2026CNT052\nOBJET\nSANTÉ QUÉBEC Chaudière-Appalaches désire conclure un contrat pour les Travaux de remplacement\ndu système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de\nLévis.\nOPTION\nCet avis ne comporte aucune option de renouvellement ou de prolongation.\nCALENDRIER DE RÉALISATION DES\nTRAVAUX\nL’adjudicataire devra effectuer les\ntravaux entre le 19 novembre 2026 et le 31 mars 2027.\nADRESSE DES TRAVAUX\nLes travaux seront réalisés à l’Hôtel-Dieu\nde Lévis\n143, rue Wolfe, Lévis QC\nG6V 3Z1\nENDROIT OÙ SE PROCURER LES\nDOCUMENTS\nLes\ndocuments d’appel d’offres seront obtenus via le SEAO.\nCLÔTURE DES OFFRES ET DÉPÔT\nDES SOUMISSIONS\nLes soumissions seront reçues jusqu’à\nla date et heure inscrits sur l’avis ou tout addenda subséquent. Les\nsoumissions peuvent être transmises par voie électronique via le SEAO uniquement.\nLes soumissions qui ne sont pas\ntransmises par voie électronique doivent être envoyées à l’adresse suivante:\nSANTÉ QUÉBEC Chaudière-Appalaches \nService de la gestion contractuelle\n253, route\n108 \nBeauceville, QC (Québec) \nG5X 2Z3\nLe nom et l’adresse du soumissionnaire\nainsi que le numéro de l’appel d’offres doivent être inscrits à l’extérieur de\nl’enveloppe.\nOUVERTURE DES SOUMISSIONS\nL’ouverture des soumissions sera effectuée par les personnes désignées de SANTÉ\nQUÉBEC Chaudière-Appalaches, immédiatement après la clôture au lieu, date et\nheure indiqués au document d’appel d’offres. L’ouverture des soumissions est\npublique.\nACCEPTATION DES SOUMISSIONS\nSANTÉ QUÉBEC Chaudière-Appalaches ne s’engage à accepter ni la plus basse ni\naucune des soumissions.\nCONFORMITÉ\nLes biens proposés dans la soumission doivent être conformes à la description\nou aux exigences techniques au devis. Si le soumissionnaire n’est pas en mesure\nde se conformer à l’une ou l’autre des exigences techniques, il serait de\nrigueur que le soumissionnaire contacte le gestionnaire du dossier afin de\nvérifier si une alternative est possible par l'émission d'un addenda.\nCOMMUNICATION\nPour toute demande d’information supplémentaire, vous pouvez communiquer avec :\nLisa-Marie Poulin\nTéléphone : 418-380-8996 Poste 30122\nCourriel : lisa-marie.poulin.cisssca@ssss.gouv.qc.ca",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b995e382-9ed6-43c6-ba00-36e942f07919",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système d'alarme incendie au Pavillon Universitaire de l'Hôtel-Dieu de Lévis. Les travaux sont prévus entre novembre 2026 et mars 2027 pour un montant estimé de 410 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux d'installation/rénovation de systèmes de sécurité et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
+},
+{
+"id": "24bf6670-54df-44a3-85df-0289c811ba02",
+"numero": "RM-095-2026",
+"titre": "Complexe Scientifique Biopterre / Projet réalisé en mode Conception-Construction Progressif (CC Progressif)  (2e étape)",
+"organisme": "CEGEP de La Pocatière",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 31000000.0,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-11-12T14:00",
+"publie": "2026-09-09T10:22",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "En collaboration\navec le Cégep, le Centre de développement de Bioproduits Biopterre a décidé de\nconstruire de nouvelles infrastructures qui lui permettront de rassembler sous\nun même toit l’ensemble de ses activités tout en bénéficiant d’installations à la\nhaute pointe de la technologie, notamment au niveau des serres de recherche.\n Le mode de réalisation retenu pour le Projet est le mode «\nConception-Construction Progressif » ou CCP. Cet Appel de propositions\nconstitue la deuxième étape du processus de sélection.\nSeuls les\ntrois (3) Candidats invités par le Cégep à la suite de l’Appel de qualification\nsont admissibles à participer à l’Appel de propositions. \nLors de cette\ndeuxième étape, les Proposants participeront à un atelier d’évaluation de la\ncollaboration et à une entrevue. Ils devront alors démontrer leur capacité et\nleur volonté à optimiser le Projet, notamment par la collaboration avec le\nCégep dans une approche à livre ouvert durant la phase de codéveloppement et\nl’ensemble du Projet jusqu’à sa clôture.\nAu terme de\nl'Appel de propositions, un seul proposant sera sélectionné pour conclure,\navec le Cégep, une Entente de codéveloppement. L'objectif de la phase de\ncodéveloppement est de développer la conception à un niveau suffisant pour\npermettre à l’Entrepreneur de soumettre une proposition technique et un prix\nforfaitaire pour achever la conception et réaliser les travaux de construction,\net conclure avec le Cégep un contrat de conception-construction.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=24bf6670-54df-44a3-85df-0289c811ba02",
+"vuLe": "2026-10-24T21:08",
+"motsTrouves": [],
+"motsOk": false,
+"visiteObligatoire": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un projet de construction d'infrastructures pour un complexe scientifique, avec une durée prévue de 24 mois et un montant estimé à 31 millions de dollars. Le processus est en phase de conception-construction progressif (CCP).",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de grande envergure et nécessite une expertise en construction, mais les mots-clés spécifiques à la maçonnerie ou à la charpenterie ne sont pas mentionnés dans la description.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": true
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-12"
 },
 {
 "id": "merx-4147424304",
