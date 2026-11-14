@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-13T16:12",
-"seaoLus": 392,
-"retenus": 395,
-"nouveaux": 9,
+"date": "2026-11-13T19:09",
+"seaoLus": 393,
+"retenus": 396,
+"nouveaux": 1,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -32673,7 +32673,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -32779,7 +32779,7 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -32870,7 +32870,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -32958,7 +32958,7 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Maçonnerie",
@@ -33058,7 +33058,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -33147,7 +33147,7 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -33258,7 +33258,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Bâtiment (nos métiers en partie)",
@@ -33344,7 +33344,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -33432,7 +33432,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33445,6 +33445,76 @@
 "raison": "Le contrat concerne exclusivement la plomberie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
 "version": 3
 }
+},
+{
+"id": "aec6e1d6-92f5-442d-b7a8-4fbaf1a4dcea",
+"numero": "N15991 (2026-06) 2620",
+"titre": "TRAVAUX DE REMPLACEMENT DU SYSTÈME DE VENTILATION AU POSTE DE POLICE, DANS LE SECTEUR DE SAINTE-MONIQUE",
+"organisme": "Ville de Mirabel",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-10T10:00",
+"publie": "2026-11-13T16:18",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "La Ville de Mirabel désire obtenir des soumissions pour les travaux de remplacement du système de ventilation au poste de police, situé au 14113, rue du Saint-Jean, Mirabel, Québec J7J 1Y7, dans le secteur de Sainte-Monique.\nCe projet de remplacement d’équipement de ventilation permettra de répondre adéquatement au besoin en ventilation et en climatisation pour l’ensemble des usagers du poste de police. Pour obtenir davantage d’information sur l’étendue des travaux, veuillez consulter les exigences générales du devis technique.\nConcrètement, le projet consiste au remplacement :\n d’unités ventilo-convecteur;\n des lignes de réfrigération des ventilo-convecteurs;\n de condenseurs extérieurs;\n du système de contrôle des ventilo-convecteurs existants afin de communiquer avec le système de contrôle du bâtiment.\nLes documents de procédure ouverte sont disponibles sur le site internet du Système électronique d’appel d’offres (ci-après appelé « SÉAO ») à l’adresse suivante : www.seao.ca. L’obtention de ces documents est sujette à la tarification établie par le SÉAO.\nLa Ville n’est pas responsable de la distribution des documents de procédure ouverte sur le SÉAO et il est de la responsabilité des soumissionnaires de s’assurer qu’ils détiennent tout leur document avant de déposer leur soumission. Les soumissionnaires devront joindre à leur soumission tous les documents requis à la procédure ouverte, à défaut de quoi leur soumission pourrait être rejetée.\nLa Ville ne s’engage à accepter ni la plus basse ni aucune des soumissions reçues. De plus, elle se réserve le droit d’accepter une soumission en tout ou en partie.\nElles devront être adressées au Service du greffe et reçues au plus tard, à la réception de l’hôtel de ville, le 10 décembre 2026, à 11 h 00 m 00s, heure en vigueur à l’horodateur de la Ville de Mirabel, sis au 14111, rue Saint Jean, Mirabel (Québec) J7J 1Y3, ou suivant l’envoi électronique fait à cette heure (11 h 00 m 00 s) via le site du SÉAO, pour être ouvertes publiquement le même jour, à la même heure et au même endroit.\nPour toute plainte à formuler dans le cadre de cette procédure ouverte, veuillez transmettre votre plainte par voie électronique au responsable désigné, soit la greffière, à soumissionsplaintes@mirabel.ca, au plus tard, le 27 novembre 2026, en utilisant le formulaire déterminé par l’Autorité des marchés publics disponible sur le site internet de la Ville.\nLe directeur du Service du génie \nMartin Gratton",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=aec6e1d6-92f5-442d-b7a8-4fbaf1a4dcea",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "14111, rue St-Jean Mirabel QC CAN J7J1Y3",
+"ouverture": "2026-12-10 11:00 Heure légale du Québec",
+"adresseOuverture": "14111, rue St-Jean Mirabel QC CAN J7J1Y3"
+},
+"conditions": [],
+"vuLe": "2026-11-13T19:08",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
