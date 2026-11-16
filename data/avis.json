@@ -34572,7 +34572,19 @@
 "patrimonial"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Le projet vise à restaurer et préserver l'architecture patrimoniale d'un site tout en intégrant de nouvelles infrastructures. Ce lot concerne spécifiquement les travaux d'étanchéité des fondations et travaux connexes.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'étanchéité des fondations et la restauration patrimoniale, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie recherché.",
+"version": 3
+}
 },
 {
 "id": "d9430f91-c38d-46cb-a3b3-8193f59288f9",
@@ -34647,7 +34659,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système d'alarme incendie pour l'école primaire Le Petit-Bonheur. Les travaux impliquent la mise à niveau du panneau, du câblage et l'installation d'un nouveau système complet, incluant la démolition de l'ancien système.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
