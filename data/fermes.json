@@ -26263,7 +26263,29 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-16"
+"fermeLe": "2026-11-16",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-16T15:52",
+"soumissions": [
+{
+"nom": "construction Philex Inc.",
+"montant": 362500.0
+},
+{
+"nom": "V.A.R. INC.",
+"montant": 392476.0
+},
+{
+"nom": "RPF LTÉE",
+"montant": 393000.0
+},
+{
+"nom": "LES ÉLECTRICIENS DESJARDINS",
+"montant": 420200.0
+}
+]
+}
 },
 {
 "id": "491c3a7b-1723-4e5d-888f-3c3f1d00afd5",
@@ -26375,5 +26397,72 @@
 }
 ]
 }
+},
+{
+"id": "afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
+"numero": "CCSSSBJ-AO-2026-07",
+"titre": "Remplacement des collecteurs – Systèmes centraux d’alimentation en gaz médicaux",
+"organisme": "Conseil Cri de la santé et des services sociaux de la Baie James",
+"regions": [
+"Nord-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 240000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-06T00:00",
+"publie": "2026-10-09T17:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101519 - Installation d’appareils à gaz"
+],
+"description": "Remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre (4) centres Miyupimaatisiiun communautaires du CCSSSBJ situés à Eastmain, Mistissini, Nemaska et Waswanipi. Les travaux comprennent la fourniture, l'installation, les essais, la mise en service et la certification de nouveaux collecteurs d'oxygène et d'air médical. Contrat à forfait adjugé au plus bas soumissionnaire conforme.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre centres communautaires. Les travaux impliquent la fourniture, l'installation, les essais et la certification de nouveaux collecteurs d'oxygène et d'air médical.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-16"
 }
 ]

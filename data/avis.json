@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-16T15:51",
-"seaoLus": 403,
-"retenus": 406,
-"nouveaux": 17,
+"date": "2026-11-16T18:40",
+"seaoLus": 405,
+"retenus": 408,
+"nouveaux": 2,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -5334,71 +5334,6 @@
 "Maçonnerie",
 "Charpenterie"
 ],
-"tropCher": false
-}
-}
-},
-{
-"id": "afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
-"numero": "CCSSSBJ-AO-2026-07",
-"titre": "Remplacement des collecteurs – Systèmes centraux d’alimentation en gaz médicaux",
-"organisme": "Conseil Cri de la santé et des services sociaux de la Baie James",
-"regions": [
-"Nord-du-Québec"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 240000,
-"dureeMois": "3",
-"surDemande": false,
-"fermeture": "2026-11-06T00:00",
-"publie": "2026-10-09T17:45",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72101519 - Installation d’appareils à gaz"
-],
-"description": "Remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre (4) centres Miyupimaatisiiun communautaires du CCSSSBJ situés à Eastmain, Mistissini, Nemaska et Waswanipi. Les travaux comprennent la fourniture, l'installation, les essais, la mise en service et la certification de nouveaux collecteurs d'oxygène et d'air médical. Contrat à forfait adjugé au plus bas soumissionnaire conforme.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": false,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne le remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre centres communautaires. Les travaux impliquent la fourniture, l'installation, les essais et la certification de nouveaux collecteurs d'oxygène et d'air médical.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
 "tropCher": false
 }
 }
@@ -33051,7 +32986,7 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -33128,7 +33063,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33226,7 +33161,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 40,
 "type": "Hors sujet",
@@ -33327,7 +33262,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -33430,7 +33365,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -33507,7 +33442,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33585,7 +33520,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33666,7 +33601,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -33768,7 +33703,7 @@
 "remise en état"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -33856,7 +33791,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -33947,7 +33882,7 @@
 "caserne"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -34034,7 +33969,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -34128,7 +34063,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -34220,7 +34155,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Maçonnerie",
@@ -34292,7 +34227,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -34381,7 +34316,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 80,
 "type": "Maçonnerie",
@@ -34469,7 +34404,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -34482,6 +34417,237 @@
 "raison": "Le contrat concerne des réparations de structures de bâtiments, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement centré sur ces métiers.",
 "version": 3
 }
+},
+{
+"id": "dcf3e4b5-cbdd-426c-9507-9c5d52950e59",
+"numero": "HO2026-004",
+"titre": "Travaux de rénovation pour aménagement Hébergement Sans-abris Dolbeau-Mistassini",
+"organisme": "Hébergement Plus.",
+"regions": [
+"Saguenay–Lac-Saint-Jean"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"abri",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-11-11T11:00",
+"publie": "2026-10-22T15:32",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Appel d'offre pour l'aménagement d’un centre pour Sans-Abris situé au 162, 4e Avenue, Dolbeau-Mistassini, QC.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=dcf3e4b5-cbdd-426c-9507-9c5d52950e59",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour l'aménagement d'un centre pour Sans-Abris. La description mentionne le mot-clé 'abri' et 'rénovation'.",
+"pointsAttention": [
+"Montant estimé non publié"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne l'aménagement d'un bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être sollicités, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"abri",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"abri",
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-13"
+},
+{
+"id": "6b58e0c9-6758-4d91-9e26-7b152d408533",
+"numero": "PHI-C_LOT-07B",
+"titre": "LOT-07B - Etanchéité des fondations",
+"organisme": "Fondation PHI pour l'art contemporain",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-12-07T15:00",
+"publie": "2026-11-16T16:52",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72120000 - Construction de bâtiments non résidentiels",
+"72153200 - Revêtement, calfeutrage, étanchéité et ignifugeage"
+],
+"description": "Le projet PHI Contemporain vise à restaurer et préserver l’architecture patrimoniale du site tout en intégrant de nouvelles infrastructures adaptées aux usages modernes. Ce lot de travaux comprend les travaux d’Etanchéité des fondations et travaux connexes dans le cadre du projet PHI Contemporain.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6b58e0c9-6758-4d91-9e26-7b152d408533",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-07 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-16T18:38",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"patrimonial"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "d9430f91-c38d-46cb-a3b3-8193f59288f9",
+"numero": "INV-9982-105-ED",
+"titre": "Remplacement système alarme incendie | École primaire Le Petit-Bonheur",
+"organisme": "Centre de services scolaire des Patriotes",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres régionalisé",
+"cautionSoumission": "Cautionnement, Le soumissionnaire doit accompagner sa soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix proposé dans sa soumission. Cette garantie de soumission doit être produite sous la forme d'un cautionnement émis en faveur de l’ORGANISME PUBLIC",
+"estimation": 81134.0,
+"dureeMois": "20",
+"surDemande": false,
+"fermeture": "2026-12-15T11:30",
+"publie": "2026-11-16T15:56",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151703 - Installation de systèmes de détection d’incendie et d’alarme antieffraction"
+],
+"description": "INFORMATION GÉNÉRALE - AVIS D’APPEL D’OFFRES RÉGIONALISÉ\nRégion visée : Région administrative Montérégie\n+++++++++++++++++++++++++++++++++++++++++++++++++++++\nOrganisme public: Centre de services scolaire des Patriotes (CSSP) \nNuméro de projet: INV-9982-105-ED\nTitre du projet: Remplacement système alarme incendie\nNom de l’installation visée: École primaire Le Petit-Bohneur (Ville de Beloeil)\nDescription sommaire du projet: Travaux de mise à niveau du système d’alarme incendie (panneau/câblage/système de détection) et toutes les composantes pour installer un nouveau système complet à l’école. Démolition de l’ancien système existant. \nÉCHÉANCIER PRÉVU DES TRAVAUX\nDébut des travaux : 25 juin 2027\nRéception des travaux avec réserve : 13 août 2027\nRéception des travaux sans réserve : 20 août 2027\nVISITES DES LIEUX\nDeux (2) dates sont offertes pour une visite des lieux non obligatoire prévues aux dates et heures suivantes:\n26 novembre 2026 à 11h30\n02 décembre 2026 à 11h30\nLe point de rassemblement pour ces deux (2) dates de visite est fixé à :\nL'école est localisée à l'adresse suivante :\nÉcole primaire Le Petit-Bohneur80, rue F-X GarneauBeloeil (Québec) J3G 3G4DIRECTIVES (VISITES DES LIEUX)\nLe soumissionnaire qui désire procéder à une visite des lieux doit obligatoirement et préalablement confirmer sa présence par courriel auprès de l’agent responsable du processus d’appel d’offres désigné, et au moins 24 heures (jour ouvrable) à l’avance. La date et l'heure de la visite seront confirmées aux soumissionnaires intéressés par une visite des lieux. \nResponsable du processus d’appel d’offres : Luc Gauthier Courriel : equipe.agcc@cssp.gouv.qc.caLes soumissionnaires ont la responsabilité de se renseigner et d’évaluer adéquatement la nature et la portée des travaux ainsi que de prendre connaissance des lieux et des conditions affectant l’exécution des travaux.\nTous les soumissionnaires seront réputés avoir visité les lieux et aucune réclamation pour manque de connaissance des lieux ne pourra être soumise.\nS’il y a lieu, les questions seront répondues par la voie d’un addenda, le cas échéant.\nAucun renseignement verbal fourni lors de la visite n’engage la responsabilité de l’ORGANISME PUBLIC .En cas de divergence entre les échanges verbaux au cours de la visite et les documents d’appel d’offres,ces derniers priment.\nSi les soumissionnaires, entrepreneurs et sous-traitants qui visitent les lieux ont des questions, il est de leurs responsabilités de transmettre leurs questions par courriel seulement au responsable du processus d’appel d’offres désigné pour l’appel d’offres.\nEn aucun temps, les soumissionnaires ou les sous-traitants doivent transmettre leurs questions aux professionnels indiqués aux plans et devis.\nSeules les questions transmises au responsable du processus d’appel d’offres seront considérées par l’ORGANISME PUBLIC pour les fins du présent appel d’offres.\nDEMANDE D'ÉQUIVALENCE\nPour être recevable, la demande d’équivalence doit être transmise à l'",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=d9430f91-c38d-46cb-a3b3-8193f59288f9",
+"fourchette": "34 700 $ à 99 999 $",
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-15 Avant 11:30 Heure légale du Québec",
+"adresseDepot": "1740, rue Roberval Saint-Bruno-de-Montarville QC CAN J3V3R3",
+"ouverture": null,
+"adresseOuverture": "1740, rue Roberval Saint-Bruno-de-Montarville QC CAN J3V3R3"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-16T18:38",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -60993,7 +61159,29 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-16"
+"fermeLe": "2026-11-16",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-16T15:52",
+"soumissions": [
+{
+"nom": "construction Philex Inc.",
+"montant": 362500.0
+},
+{
+"nom": "V.A.R. INC.",
+"montant": 392476.0
+},
+{
+"nom": "RPF LTÉE",
+"montant": 393000.0
+},
+{
+"nom": "LES ÉLECTRICIENS DESJARDINS",
+"montant": 420200.0
+}
+]
+}
 },
 {
 "id": "491c3a7b-1723-4e5d-888f-3c3f1d00afd5",
@@ -61105,6 +61293,73 @@
 }
 ]
 }
+},
+{
+"id": "afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
+"numero": "CCSSSBJ-AO-2026-07",
+"titre": "Remplacement des collecteurs – Systèmes centraux d’alimentation en gaz médicaux",
+"organisme": "Conseil Cri de la santé et des services sociaux de la Baie James",
+"regions": [
+"Nord-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 240000,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-11-06T00:00",
+"publie": "2026-10-09T17:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101519 - Installation d’appareils à gaz"
+],
+"description": "Remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre (4) centres Miyupimaatisiiun communautaires du CCSSSBJ situés à Eastmain, Mistissini, Nemaska et Waswanipi. Les travaux comprennent la fourniture, l'installation, les essais, la mise en service et la certification de nouveaux collecteurs d'oxygène et d'air médical. Contrat à forfait adjugé au plus bas soumissionnaire conforme.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=afd2af3e-7074-49fc-bc75-bcff4ddc3cb8",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des collecteurs des systèmes centraux d'alimentation en gaz médicaux dans quatre centres communautaires. Les travaux impliquent la fourniture, l'installation, les essais et la certification de nouveaux collecteurs d'oxygène et d'air médical.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-16"
 }
 ]
 }
