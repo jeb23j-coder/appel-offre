@@ -35028,7 +35028,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la rénovation et le réaménagement de la buanderie existante de l'Hôpital Pierre-Boucher pour y aménager de nouveaux vestiaires et locaux de lingerie, incluant la construction d'une nouvelle entrée des employés.",
+"pointsAttention": [
+"Visite des lieux : 2 décembre 2026 à 11h00. Une visite non obligatoire est prévue le 02 décembre 2026 à 11:00."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat implique des travaux de rénovation et de construction qui touchent à la maçonnerie et nécessitent une soumission.",
+"version": 3
+}
 },
 {
 "id": "307fa628-f5c0-4f00-b5c5-53873f7742d0",
@@ -35117,7 +35129,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de remplacement du réseau de drainage pluvial et des blocs sanitaires pour l'école Notre Dame Du Perpétuel Secours. Les travaux incluent le remplacement du drainage, l'aménagement des blocs sanitaires et des réfections de finis.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur les travaux d'infrastructure et de plomberie/drainage, et non sur la maçonnerie ou la charpenterie comme métier principal.",
+"version": 3
+}
 },
 {
 "id": "dbc473ce-3cd2-420e-b2b6-153e83b5a6ba",
@@ -35181,7 +35205,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'organisme souhaite établir un contrat à exécution sur demande pour réaliser divers travaux de construction courants dans ses immeubles. La durée prévue est de 12 mois et le montant estimé est de 800 000 $.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est général et ne spécifie pas clairement que la maçonnerie ou la charpenterie est le cœur du travail, mais il s'agit d'un projet de construction courant dans des immeubles.",
+"version": 3
+}
 },
 {
 "id": "5cc1198a-7be3-41e5-962d-ec0ccb03b31b",
@@ -35259,7 +35295,20 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne des travaux de plomberie pour l'agrandissement et le réaménagement d'un bloc opératoire et d'une chirurgie d'un jour à l'Hôpital Charles-Le Moyne. Le montant estimé est de 6 325 390,95 $ et la durée prévue est de 22 mois.",
+"pointsAttention": [
+"Délai de soumission via SEAO",
+"Exigences de garantie de soumission (cautionnement, lettre de garantie irrévocable)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux de plomberie et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "bb2fe873-0c14-4f7c-853b-fb60447db827",
@@ -35335,7 +35384,19 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne les travaux de protection incendie pour un agrandissement et un réaménagement (module clinique transitoire) d'un hôpital. La durée prévue est de 22 mois pour un montant estimé à 667 993 $.",
+"pointsAttention": [
+"délai de 22 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment, ce qui touche à la construction et à la réfection, mais le cœur du contrat est la protection incendie, et non explicitement la maçonnerie ou la charpenterie.",
+"version": 3
+}
 },
 {
 "id": "91cb2ce3-5a17-483e-80ad-827c122891f6",
@@ -35417,7 +35478,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'un abri à sel incluant des fondations en béton, une structure d'acier, une chaussée, un drainage et l'électricité. La durée prévue des travaux est de 2 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le projet inclue des travaux de béton (maçonnerie), le cœur du projet semble être la structure métallique et les travaux d'infrastructure, ce qui rend la pertinence moyenne.",
+"version": 3
+}
 },
 {
 "id": "1db30481-9b44-4f36-8e15-be60b1d667cc",
@@ -35498,7 +35571,19 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la restauration du parvis en béton existant de l'église Saint-Louis-de-Courville, incluant l'installation de nouveaux garde-corps en acier inoxydable.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur la restauration de béton et l'installation de garde-corps en acier, ce qui n'est pas le cœur de métier (maçonnerie/charpenterie) recherché.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
