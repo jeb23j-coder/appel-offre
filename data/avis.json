@@ -34042,7 +34042,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture du pavillon 1, incluant les travaux connexes. La description ne mentionne aucun travail de maçonnerie, briquetage, charpenterie ou menuiserie.",
+"pointsAttention": [
+"délai court",
+"cautionnement de soumission"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la toiture et n'inclut aucun des métiers ciblés par l'entreprise (maçonnerie/charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "5023ff93-9643-4d36-8fc8-6cb27c7bceb0",
@@ -34117,7 +34130,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection d'une croix lumineuse située sur un lot cadastral de la Ville de Lac-Mégantic. Les codes de travaux mentionnés sont ceux des installations électriques et des structures de lieux de culte.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ba603dcb-b0e1-44e7-a6df-f5f7d5222e7c",
@@ -34201,7 +34226,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture en bardeaux de cèdres et le remplacement de quatre fenêtres architecturales pour le Théâtre de l'Île à Gatineau. Le contrat est prévu pour une durée de 45 jours calendrier.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et le remplacement de fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie/briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3f335632-c4ab-4e27-a198-9fdca0dbe700",
@@ -34266,7 +34303,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Ce projet concerne la modernisation et la réparation des ascenseurs no. 7 et 8 du Campus de Longueuil. Le contrat est prévu pour une durée de 8 mois et le montant estimé est de 1 015 350,00 $.",
+"pointsAttention": [
+"Visite des lieux non obligatoire le lundi 30 novembre 2026, 09h30"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance et la réparation d'ascenseurs, ce qui n'est pas dans les domaines de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "dfed5dda-908f-49c5-b8c6-5e615473ec39",
@@ -34331,7 +34380,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement des espaces du 4ème étage d'un immeuble à Montréal. Le montant estimé est de 1 138 398,03 $ et la durée prévue est de 4 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement de bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être impliqués dans les travaux de réaménagement des espaces, mais le titre ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "c3c8fdc1-6a9b-439a-9460-5d355306924a",
@@ -34418,7 +34479,21 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la construction d'un nouvel immeuble institutionnel de plain-pied, incluant travaux de génie civil, structure, enveloppe, aménagements intérieurs et extérieurs, ainsi que les systèmes mécaniques, électriques et de télécommunications.",
+"pointsAttention": [
+"Durée prévue : 15 mois",
+"Montant estimé : 14 724 220 $",
+"Inclus : structure, enveloppe, aménagements intérieurs et extérieurs"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour la construction d'un bâtiment où la maçonnerie et la charpenterie/menuiserie sont probablement des lots importants, mais il s'agit d'un appel d'offres pour un entrepreneur général.",
+"version": 3
+}
 },
 {
 "id": "b3d2869e-36fd-4c22-ad1f-8e181fce076e",
@@ -34492,7 +34567,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer les chaudières et à ajouter des chaudières électriques pour faire appel à la biénergie dans un bâtiment. La durée prévue est de 18 mois et le montant estimé est de 1 300 000 $.",
+"pointsAttention": [
+"délai de 18 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le remplacement de systèmes de chauffage et non les travaux de maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "e38ea190-6675-4a46-9010-9498dc7c7774",
@@ -34552,7 +34639,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de main-d'œuvre pour l'entretien et l'installation des systèmes CVAC (chauffage, ventilation et climatisation).",
+"pointsAttention": [
+"Montant estimé entre 100 000 $ et 500 000 $",
+"Durée prévue de 36 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "53c61d00-ef90-4aac-995f-932edcf783fe",
@@ -34632,7 +34732,20 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la fourniture de bâtiments préfabriqués FEC intégrant des équipements électriques et des systèmes d'aide à la navigation aérienne dans la région du Nord-du-Québec. Le montant estimé se situe entre 10 et 20 millions de dollars.",
+"pointsAttention": [
+"Délai de soumission : 24 mois (durée prévue de l'appel d'offres).",
+"Montant estimé : 10 M$ à 20 M$."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la fourniture de bâtiments, ce qui peut inclure des travaux de maçonnerie ou de charpenterie, mais le focus principal semble être sur la fourniture et l'intégration de systèmes techniques.",
+"version": 3
+}
 },
 {
 "id": "6bf0b73f-c195-4eab-b7f9-fba165e13031",
@@ -34700,7 +34813,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement complet de la toiture à l'adresse 227, rue Racine Est, Saguenay. Le montant estimé est de 1 275 000 $ avec un prix plafond de 1 450 000 $.",
+"pointsAttention": [
+"Prix plafond fixé à 1 450 000 $."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "d2b451bc-a051-4122-b8e1-276548f5da2e",
@@ -34777,7 +34902,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "Les travaux consistent en la démolition intérieure des anciens bureaux des services adaptés et la réfection des finis intérieurs suite à ces travaux de démolition.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur la démolition et la réfection des finis intérieurs, sans mention claire des travaux principaux de maçonnerie ou de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5b6ffc3b-ae98-40ba-aff6-bbe676a8d479",
@@ -34855,7 +34992,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne le remplacement des planchers sportifs au Centre éducatif Saint-Aubin. Le montant estimé est de 550 000 $ et la durée prévue est de 3 mois.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la pose de planchers et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "27ae60aa-dadb-4f8c-94ec-81fd0ebd55cd",
@@ -34920,7 +35069,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de services de câblage réseau pour l'Université de Sherbrooke sur une période de trois ans. L'adjudication se fera en un seul lot, selon le mode « plus bas prix conforme ».",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des services informatiques (câblage réseau) et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "5c2ecc0d-a93b-43a8-a0e5-631dd239a8dd",
@@ -34985,7 +35146,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'intérêt pour la réalisation d'un projet intégré d'aménagement intérieur et extérieur pour une bibliothèque municipale dans une ancienne église. Les travaux incluent des aménagements intérieurs, extérieurs, stationnement et paysagers.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un projet intégré, et bien que la maçonnerie ou la charpenterie ne soient pas explicitement le cœur, ils pourraient faire partie des travaux d'aménagement.",
+"version": 3
+}
 },
 {
 "id": "ccc126a9-41d7-4781-b56a-2ec3502934bc",
@@ -35063,7 +35236,19 @@
 "réhabilitation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 70,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la conception-construction et la réhabilitation d'un terrain à Montréal. Les mots-clés incluent 'enveloppe' et 'réhabilitation'.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de réhabilitation qui inclut potentiellement des travaux de maçonnerie et/ou de charpenterie/menuiserie dans l'enveloppe du bâtiment, mais le titre ne spécifie pas clairement le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
