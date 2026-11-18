@@ -35113,7 +35113,19 @@
 "colombage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fabrication, la livraison et l'installation de l'ameublement intégré pour le Centre Cinéma Impérial. Les travaux impliquent des recouvrements de bois et des moulures à panneau en bois, avec une prise de mesure sur les colombages métalliques.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'ameublement intégré et les éléments de bois/colombage, ce qui ne correspond pas directement aux travaux principaux de maçonnerie ou de charpenterie/menuiserie recherchés.",
+"version": 3
+}
 },
 {
 "id": "4f2ab60e-fda3-415c-8eef-e056f19abf59",
@@ -35189,7 +35201,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la fourniture d'accessoires et divisions pour des toilettes dans le cadre d'un projet de rénovation des édifices D et E. Le montant estimé est de 482 109 $ et la durée prévue est de 36 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des équipements sanitaires et non les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "13f37e45-255a-4489-a86f-128534e21f44",
@@ -35249,7 +35273,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer les équipements de pré-chauffage à la vapeur des systèmes de ventilation #1 et #2 du Stewart Bio aile Nord. La durée prévue est de 2 mois pour un montant estimé de 400 000,00 $.",
+"pointsAttention": [
+"Séance d'information/visite du site"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement d'équipements de chauffage/ventilation et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b6503574-6c59-48d8-8fdf-9836685aa159",
@@ -35327,7 +35363,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'agrandissement du vestiaire des Condors football au Cégep Beauce-Appalaches. Les travaux comprennent la démolition, la structure, la plomberie, l'électricité, la mécanique du bâtiment et les finitions.",
+"pointsAttention": [
+"visite de chantier non obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment où les métiers de la maçonnerie et de la charpenterie sont probablement impliqués dans la structure et les finitions, mais le contrat est global.",
+"version": 3
+}
 },
 {
 "id": "1a7c6f11-b63b-4509-9f32-41b5d38001a5",
@@ -35415,7 +35463,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la réfection du poste de départ d'une centrale et le remplacement de transformateurs. Les travaux incluent des travaux d'architecture, de structure, des fondations en béton armé et de la charpente métallique.",
+"pointsAttention": [
+"Montant estimé entre 10 000 000 $ et 20 000 000 $",
+"Durée prévue de 39 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des éléments de charpenterie et de béton, mais le cœur semble être l'ingénierie du bâtiment et les travaux civils, nécessitant une vérification détaillée des lots spécifiques à soumissionner.",
+"version": 3
+}
 },
 {
 "id": "3d3c4fe5-7a43-4ebb-806c-b27a9d9079d2",
@@ -35486,7 +35547,20 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel de propositions pour la conception-construction progressive de nouveaux bâtiments de services dans la région de La Grande, au Nord-du-Québec. Le montant estimé est supérieur à 100 000 000 $.",
+"pointsAttention": [
+"Montant estimé très élevé (> 100 M$)",
+"Appel de propositions limité/réservé aux fournisseurs qualifiés"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un grand projet de construction où les métiers de la maçonnerie et de la charpenterie/menuiserie sont probablement inclus, mais le montant et la nature du projet nécessitent une vérification approfondie des documents.",
+"version": 3
+}
 },
 {
 "id": "7b8e8141-e451-4fb8-acee-d3e06a8f17fe",
@@ -35606,7 +35680,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 95,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation de l'enveloppe d'une école, incluant la réfection de la maçonnerie, le remplacement de fenêtres et la réfection d'escaliers en béton. Les travaux doivent être exécutés dans un délai de quarante-deux semaines.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement des travaux majeurs de maçonnerie et de rénovation d'enveloppe de bâtiment, ce qui correspond parfaitement à l'expertise de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "975f4883-e5c6-4aec-b1d5-626a0e62ee44",
@@ -35687,7 +35773,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour des services de travaux généraux sur demande pour divers bâtiments de la Ville de Montréal. Les mots-clés mentionnés sont 'bâtiment' et 'enveloppe'.",
+"pointsAttention": [
+"Visite obligatoire : Non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "L'appel d'offres est trop général, mais il pourrait contenir des lots de maçonnerie ou de charpenterie dans les travaux généraux demandés.",
+"version": 3
+}
 },
 {
 "id": "6505a690-5d9e-4b34-832a-3da779dc1f50",
@@ -35774,7 +35872,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'une génératrice et la réfection de la chaussée à l'école Des Moissons. Les travaux doivent être effectués durant l'été 2027.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas les métiers de la maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f8a4e7a3-2e7f-44aa-a312-1e387a7cf06d",
@@ -35848,7 +35958,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'entrée électrique d'un édifice scolaire afin d'alimenter de nouvelles machines sur la toiture.",
+"pointsAttention": [
+"délai de 18 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'électricité et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
