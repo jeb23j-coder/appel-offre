@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-18T14:17",
-"seaoLus": 408,
-"retenus": 411,
-"nouveaux": 9,
+"date": "2026-11-18T17:30",
+"seaoLus": 415,
+"retenus": 418,
+"nouveaux": 10,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -2216,80 +2216,6 @@
 }
 },
 {
-"id": "f3a4ee3b-e66c-48ac-8ed3-3c47be13f0b4",
-"numero": "AOP-2026-C-053",
-"titre": "Installation de compteurs d’eau et de dispositifs anti-refoulement dans les bâtiments à Deschambault",
-"organisme": "Ministère de l'Agriculture, des Pêcheries et de l'Alimentation",
-"regions": [
-"Capitale-Nationale"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"bâtiment"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 138080,
-"dureeMois": "7",
-"surDemande": false,
-"fermeture": "2026-11-18T15:00",
-"publie": "2026-10-19T15:47",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72000000 - Construction et maintenance de bâtiments ou d’installations",
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
-"72101500 - Services de maintenance et de réparation des bâtiments",
-"72101510 - Maintenance ou réparation de la plomberie"
-],
-"description": "Ministère\nde l’Agriculture, des Pêcheries et de l’Alimentation \nTRAVAUX DE\nCONSTRUCTION \nInstallation de compteurs\nd’eau et de dispositifs anti-refoulement \ndans les bâtiments à\nDeschambault\nAOP-2026-C-053\nAvis d’appel\nd’offres\nLe ministère de l’Agriculture, des\nPêcheries et de l’Alimentation (MAPAQ) sollicite des soumissions pour\nl’exécution de travaux d’« Installation de compteurs d’eau et de dispositifs anti-refoulement\ndans les bâtiments à Deschambault ».\nDescription des\noptions \nAucune option\nDisponibilité des\ndocuments d’appel d’offres\nLes documents d’appel d’offres\nne peuvent être obtenus que par l’intermédiaire du système électronique d’appel\nd’offres (SEAO).\nPour tout renseignement, communiquer avec Mme Maria Vera\nà gestion‑contractuelle@mapaq.gouv.qc.ca\nTRANSMISSION DE\nSOUMISSIONS\n· \nPAR VOIE ÉLECTRONIQUE \nLes soumissions peuvent être\ntransmises par voie électronique et cette transmission ne peut s’effectuer que\npar l’intermédiaire du système électronique d’appel d’offres (SEAO).\n· \nSUR SUPPORT PAPIER \nLes soumissions\ntransmises sur support papier doivent être présentées à l’attention de Maria\nVera, à l’adresse suivante : \nMinistère de\nl’Agriculture, des Pêcheries et de l’Alimentation du Québec\nDirection des\nressources immobilières, matérielles et des contrats\n200, chemin\nSainte-Foy, 1er étage, local 1.17 (courrier-messagerie)\nQuébec (Québec) G1R\n4X6\nLes heures\nd’ouverture des bureaux sont de 9h à 12h et de 13h à 16h, du lundi au vendredi.\nÉchéancier de\nréalisation\nLancement\nde l’appel d’offres : 19 octobre 2026\nDate\nlimite de dépôt des offres : 18 novembre 2026\nDate\nprévue de début du mandat : \ndécembre 2026 (estimé)\nRéunion\nde démarrage : \nvers le 15 décembre 2026 (estimé) \nDate\nde début des travaux : janvier 2027 (estimé)\nDate\nde fin des travaux : juin 2027 (estimé) \nDans le cadre du présent appel d’offres, le MAPAQ procède\nà l’ouverture publique des soumissions. \nPour des informations plus précises, veuillez vous\nréférer aux documents d’appel d’offres.\nLe Ministère\nne s’engage à accepter aucune des soumissions reçues.",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f3a4ee3b-e66c-48ac-8ed3-3c47be13f0b4",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne l'installation de compteurs d'eau et de dispositifs anti-refoulement dans des bâtiments à Deschambault. La durée prévue des travaux est estimée à six mois.",
-"pointsAttention": [
-"visite obligatoire"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne la plomberie et les installations sanitaires, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"bâtiment"
-],
-"motsOk": true,
-"familles": [
-"Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
 "id": "ac66c321-399d-4f6c-a339-cedf89556649",
 "numero": "25-3274P",
 "titre": "343 044 010 - École Victor Doré - Installation et mise en marche d'un système de CVAC (Climatisation) - Phase 2",
@@ -3029,85 +2955,6 @@
 "familles": [
 "Maçonnerie",
 "Charpenterie"
-],
-"tropCher": false
-}
-}
-},
-{
-"id": "2d93f14f-6296-455e-962e-d60b27a25bbe",
-"numero": "26-7717",
-"titre": "Réfection de la toiture patrimoniale en cuivre et de la portion membranée CRCDP-1343-26",
-"organisme": "Santé Québec Capitale-Nationale – Universitaire",
-"regions": [
-"Capitale-Nationale"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "candidat",
-"motsTrouves": [
-"patrimonial",
-"réfection"
-],
-"cautionSoumission": "Non précisé sur l'avis",
-"estimation": 800000,
-"dureeMois": "6",
-"surDemande": false,
-"fermeture": "2026-11-05T14:15",
-"publie": "2026-10-15T15:47",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72152601 - Toiture"
-],
-"description": "Avis d’Appel d’offres\npublic\nLe CIUSSS DE LA CAPITALE-NATIONALE procède à\nun appel d’offres public afin d’obtenir les services d’un entrepreneur pour effectuer\ndes travaux de\nconstruction (Réfection de la toiture patrimoniale en cuivre et de la\nportion membranée).\nPériode du contrat et\nadjudication \nLes travaux de construction, seront réalisés¸ au CRCDP,\n14 Côte du Palais, Québec (Québec) G1R 4H8 La date estimative prévue de début\ndes travaux est le 7 décembre 2026. La durée des travaux est 6 mois. \nRéception des soumissions\nLes offres, accompagnées de tous les\ndocuments exigés, seront reçues sous pli scellé ou via le SEAO, au plus tard le 5 novembre 2026, 14h15,\nau 2915, avenue du Bourg-Royal, Québec (Québec) G1C 3S2. Le bureau est ouvert\nde 8 h 00 à 12 h 00 et de 13 h 00 à 16 h 00. \nLes documents d’appel d’offres ne peuvent être obtenus que par\nl’intermédiaire du système électronique d’appel d’offres SEAO au www.seao.ca ou\nau 514-856-6600 pour les résidents de la région de Montréal et au numéro sans\nfrais 1-866-669-7326 pour les résidents de l’extérieur.\nOuverture des soumissions\nL’ORGANISME PUBLIC procèdera à une ouverture des Soumissions en\nprésentiel ou via TEAM le 5 novembre\n2026 à 14h30. \nVisite d’information \nUne visite d’information aura lieu le 22 octobre 2026 à 14h00\nà la Porte principale du CRCDP au 14 Côte du Palais, Québec (Québec) G1R 4H8. Le CIUSSS DE LA CAPITALE-NATIONALE n’assume aucune responsabilité\nvis-à-vis des SOUMISSIONNAIRES qui ne se sont pas présentés à la visite\nd’information relativement aux informations qui peuvent avoir été données lors\nde celle-ci.\nDate de dépôt des plaintes (DDP) : \nLa date limite de dépôt des plaintes (DDP) à l’Organisme public est 26 octobre\n2026\nLe code conduite : https://www.ciusss-capitalenationale.gouv.qc.ca/sites/d8/files/docs/Aproposdenous/PO-62-Code_conduite_fournisseurs.pdf\nLes soumissionnaires doivent prendre en considération tous les addendas\npubliés jusqu´à la date d´ouverture pour soumissionner pour cet AOP.\nRenseignement\nToute question concernant le présent appel d’offres doit être soumise,\nPAR ÉCRIT, avant la date et l’heure limites de la réception des soumissions, à monsieur\nFrançois Martineau, à l’adresse courriel suivante : francois.martineau3.ciussscn@ssss.gouv.qc.ca\nPour toute demande\nd'information ou d'interprétation en regard des présents documents, le\ngestionnaire de projet oblige le soumissionnaire à s'adresser exclusivement aux\nreprésentants ci-haut mentionnés et à nulle autre personne à moins d'indication\ncontraire de ce représentant.\nLe\nGestionnaire de projet se réserve la possibilité de ne pas considérer une\ndemande de précision formulée par un soumissionnaire si cette demande lui est\ntransmise au moins de 5 jours ouvrables avant la date et l’heure limites fixées\npour la réception des soumissions. De plus, si la demande de précision entraîne\ndes modifications aux documents d'appel d’offres, notre établissement ne pourra\npas se prévaloir de la possibilité de ne pas cons",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2d93f14f-6296-455e-962e-d60b27a25bbe",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"motsOk": true,
-"visiteObligatoire": false,
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "L'appel d'offres concerne la réfection de la toiture patrimoniale en cuivre et de la portion membranée pour le CIUSSS DE LA CAPITALE-NATIONALE. Les travaux sont estimés à 800 000 $ et devraient durer 6 mois.",
-"pointsAttention": [
-"Visite d’information le 22 octobre 2026"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le contrat concerne la toiture et non la maçonnerie ou la charpenterie/menuiserie.",
-"version": 3
-},
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [
-"patrimonial",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [
-"patrimonial",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
-],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [
-"patrimonial",
-"réfection"
-],
-"motsOk": true,
-"familles": [
-"Maçonnerie"
 ],
 "tropCher": false
 }
@@ -5718,71 +5565,6 @@
 "familles": [
 "Maçonnerie"
 ],
-"tropCher": false
-}
-}
-},
-{
-"id": "74b897b4-1566-47e9-8860-fc4468f0dac0",
-"numero": "2027-0396",
-"titre": "Remplacement des systèmes de refroidissement",
-"organisme": "Santé Québec Estrie - Centre hospitalier universitaire de Sherbrooke",
-"regions": [
-"Estrie"
-],
-"typeAvis": "Avis d’appel d’offres",
-"tri": "a_classer",
-"motsTrouves": [],
-"cautionSoumission": "Cautionnement, Chèque visé (certifié), Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission. Cette garantie de soumission doit être produite sous l'une ou l’autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause Institution Financière des présentes, qui doit être conforme aux dispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de Soumission;\nb) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause Institution Financière des présentes, qui doit être conforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à l’annexe 4.01B du Formulaire de Soumission.",
-"estimation": 2200000,
-"dureeMois": "10",
-"surDemande": false,
-"fermeture": "2026-10-28T14:30",
-"publie": "2026-09-21T15:34",
-"categorie": "C01 - Bâtiments",
-"unspsc": [
-"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
-],
-"description": "Le projet consiste à remplacer un refroidisseur Trane de 320 tonnes et sa tour de refroidissement de 4 500 MBH par deux unités de refroidissement extérieures, incluant les travaux connexes en mécanique, électricité, structure et régulation",
-"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=74b897b4-1566-47e9-8860-fc4468f0dac0",
-"nouveau": false,
-"vuLe": "2026-10-24T19:55",
-"analyse": {
-"pertinence": 0,
-"type": "Hors sujet",
-"resume": "Le projet consiste à remplacer un refroidisseur Trane de 320 tonnes et sa tour de refroidissement par deux unités de refroidissement extérieures, incluant les travaux connexes en mécanique, électricité, structure et régulation.",
-"pointsAttention": [
-"visite obligatoire",
-"délai court",
-"cote de sécurité",
-"milieu occupé",
-"contrat sur demande"
-],
-"recommandation": "No-go",
-"mode": "Aucun",
-"raison": "Le projet concerne le remplacement de systèmes de refroidissement et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
-"version": 3
-},
-"motsOk": false,
-"visiteObligatoire": false,
-"source": "SEAO",
-"profils": {
-"jonathan": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"patrick": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
-"tropCher": false
-},
-"traian": {
-"motsTrouves": [],
-"motsOk": false,
-"familles": [],
 "tropCher": false
 }
 }
@@ -34540,7 +34322,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -34636,7 +34418,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Maçonnerie",
@@ -34735,7 +34517,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -34808,7 +34590,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -34880,7 +34662,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -34962,7 +34744,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -35067,7 +34849,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -35142,7 +34924,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -35243,7 +35025,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 60,
 "type": "Maçonnerie",
@@ -35256,6 +35038,817 @@
 "raison": "Le projet implique des travaux de réaménagement et de reconfiguration d'une cage d'escalier dans un bâtiment, ce qui touche à la charpenterie/menuiserie et potentiellement à la maçonnerie.",
 "version": 3
 }
+},
+{
+"id": "7124155d-ea5c-4e7e-a6f7-1eee28cf1b86",
+"numero": "AO18",
+"titre": "Ameublement intégré",
+"organisme": "Centre Cinéma Impérial",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-12-09T10:30",
+"publie": "2026-11-18T15:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "LEM experts-conseils\ninc. demande des soumissions dans le cadre du projet « Centre Cinéma Impérial –\nMaintien d’actifs », pour la fabrication, la livraison et l'installation de l'ameublement intégré du projet, incluant une prise de mesure sur place sur les colombages métalliques. Les recouvrements de bois ainsi que les moulures à panneau en bois doivent également être inclus à la soumission. À noter que la fourniture des casiers est à exclure de votre proposition.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7124155d-ea5c-4e7e-a6f7-1eee28cf1b86",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-09 Au plus tard 10:30 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"colombage",
+"bois"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"colombage",
+"bois"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bois",
+"colombage"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "4f2ab60e-fda3-415c-8eef-e056f19abf59",
+"numero": "370101646",
+"titre": "Accessoires et divisions de toilettes (L1-1001)",
+"organisme": "Assemblée nationale-Direction des ressources financières, de l'approvisionnement et de la vérification",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10 %",
+"estimation": 482109,
+"dureeMois": "36",
+"surDemande": false,
+"fermeture": "2027-01-14T11:00",
+"publie": "2026-11-18T15:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151101 - Construction d’installations septiques",
+"95121714 - Vestiaires et douches publiques",
+"95121715 - Toilettes publiques"
+],
+"description": "Avis\nd’appel d’offres\nBonjour,\nL’Assemblée nationale invite\ndes fournisseurs à soumissionner à l’appel d’offres public n° 370101646, Accessoires et divisions de toilettes (L1-1001) [projet de\nRénovation des édifices D et E – Phase 1].\n Conditions d’admission pour présenter une offre :\n§ \nAu cours des cinq\nannées précédant la date d’ouverture des soumissions, l’entreprise et leurs\nadministrateurs ne doivent pas avoir été déclarés coupables d’une infraction à\nla Loi fédérale sur la concurrence (L.R., 1985, ch. C-34) relativement à\nun appel d’offres ou à un contrat conclu avec une administration publique au\nCanada, ou s’ils ont été déclarés coupables, ont obtenu un pardon pour cette\ninfraction.\n§ \nL’entreprise ne\ndoit pas être inscrite au registre des entreprises non admissibles aux contrats\npublics (RENA) ou, s’il y est inscrit, sa période d’inadmissibilité aux\ncontrats publics doit être terminée. \n§ \nLes entreprises\nayant acheté les documents d’appel d’offres par l’entremise du système\nélectronique d’appel d’offres public « SEAO ».\n§ \nL’entreprise doit\nsatisfaire à toute autre condition d’admissibilité prévue dans les documents\nd’appel d’offres.\nDate et heure de fermeture\nde l’appel d’offres : 14 janvier 2027, avant 11 h 00, heure locale.\nSeules seront considérées les soumissions reçues sous pli\ncacheté et bien identifiées (nom de la firme, numéro d’appel d’offres, date\net heure de fermeture) ou celles transmises par voie électronique tel\nqu’indiqué dans les documents d’appel d’offres. \nL’Assemblée nationale se réserve le droit, au moment de\nl’analyse des soumissions, de refuser toutes les soumissions présentées. \n Représentant\n de l’Assemblée :\n ANN-LEE\n TREMBLAY\n Direction\n des ressources financières, de\n l’approvisionnement\n et de la vérification\n Hôtel\n du Parlement, guérite ouest\n 1045,\n rue des Parlementaires\n Québec\n (Québec) G1A 1A3\n Téléphone :\n 418-932-5504\n Courriel :\n Ann-Lee.Tremblay@assnat.qc.ca\nEXTRAIT DU DOCUMENT D'APPEL D'OFFRES\n1.6.RÉUNION D’INFORMATION GÉNÉRALE ET/OU VISITE DES LIEUX (facultatif)\nL’Assemblée nationale convie les soumissionnaires à une réunion d’information facultative qui a pour objet de fournir des renseignements complémentaires sur les besoins à satisfaire et de répondre aux questions sur tout aspect de l’appel d’offres.\nCette réunion d’information se tiendra selon les modalités suivantes :\nDate\n2026-12-10\nHeure\n9 h 00 à 10 h 00\nDurée\n1 h\nLieu d’accueil\nHôtel du Parlement, guérite ouest\n1045, rue des Parlementaires\nQuébec (Québec) G1A 1A3\nLes équipements de protection individuelle (EPI) sont requis pour la visite.\nUne personne vous accueillera afin de vous escorter à la salle de la rencontre. Cette rencontre se déroulera en présence du représentant de l’Assemblée. Aucun compte-rendu ne sera transmis.\nUne pièce d’identité avec photo sera exigée pour franchir les portes.\nIl est fortement encouragé de transmettre à l’avance au représentant de l’Assemblée le nom de la personne qui participera à cette rencontre afi",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=4f2ab60e-fda3-415c-8eef-e056f19abf59",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2027-01-14 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "Assemblée nationale, Hôtel du Parlement Guérite ouest 1045, rue des Parlementaires Québec QC CAN G1A1A3",
+"ouverture": "2027-01-14 11:00 Heure légale du Québec",
+"adresseOuverture": "1045, rue des Parlementaires salle A-0.131 Québec QC CAN G1A1A4"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "13f37e45-255a-4489-a86f-128534e21f44",
+"numero": "C0005220",
+"titre": "26-024 Remplacement des serpentins de chauffage (TCA)",
+"organisme": "Université McGill",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Le soumissionnaire doit joindre à sa soumission un cautionnement de\nsoumission (annexe IS-7) représentant dix pour cent (10 %) de la valeur de sa soumission incluant les\ntaxes applicables. Ce cautionnement doit être émis par une institution\nfinancière telle que définie sous l’article 12 du Règlement sur les\ncontrats de travaux de construction des organismes publics. Toute autre forme de\ncautionnement n’est pas acceptée.",
+"estimation": 400000.0,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-12-15T14:00",
+"publie": "2026-11-18T15:33",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le projet consiste à remplacer les équipements de pré-chauffage à la vapeur des systèmes de ventilation #1 et #2 du Stewart Bio aile Nord\nSéance d’information/visite du site\nÀ ce jour, l'Université McGill n'a pas planifié de séance\nd'information ni de visite du site pour cet avis.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=13f37e45-255a-4489-a86f-128534e21f44",
+"fourchette": "368 000 $ à 653 199 $",
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-15 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "SEAO ou en personne Montréal QC CAN H3A2R7",
+"ouverture": "2026-12-15 14:30 Heure légale du Québec",
+"adresseOuverture": "Hyperlien Teams Montréal QC CAN H3A2R7"
+},
+"conditions": [],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "b6503574-6c59-48d8-8fdf-9836685aa159",
+"numero": "AOP2627020",
+"titre": "Agrandissement vestiaire Condors",
+"organisme": "Cégep Beauce-Appalaches.",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, 10%",
+"estimation": 140000,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-12-16T11:00",
+"publie": "2026-11-18T15:20",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "Le Cégep Beauce-Appalaches lance un appel d'offres dans le but d'octroyer un contrat de travaux de construction pour l'agrandissement du vestiaire des Condors football.\nLes travaux auront lieu au campus de Saint-Georges situé au 1055, 116e rue, Saint-Georges, G5Y 3G1. \nLes travaux comprennent:\n- Des travaux de démolition ;\n- Des travaux de structure ;\n- Des travaux de plomberie ;\n- Des travaux d'électricité ;\n- Des travaux de mécanique du bâtiment ; \n- Des travaux de finition.\nUne visite de chantier non obligatoire aura lieu le 26 novembre 2026 à 10 h 00. Veuillez consulter la Régie pour plus d'informations.\nSymboles: 540\nMots: 104\nCalendrier de livraison",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b6503574-6c59-48d8-8fdf-9836685aa159",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-16 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "1055, 116e Rue Saint-Georges QC CAN G5Y3G1",
+"ouverture": "2026-12-16 11:00 Heure légale du Québec",
+"adresseOuverture": "1055, 116e Rue Saint-Georges QC CAN G5Y3G1"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"agrandissement",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"agrandissement",
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "1a7c6f11-b63b-4509-9f32-41b5d38001a5",
+"numero": "AM011922",
+"titre": "Mauricie / Poste La Trenche - Réfection du poste de départ de la centrale et remplacement des transformateurs T5 et T6",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, 10% du montant total de la soumission.",
+"estimation": null,
+"dureeMois": "39",
+"surDemande": false,
+"fermeture": "2027-01-01T14:00",
+"publie": "2026-11-18T15:06",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "Objet\n : Mauricie / Poste La Trenche - Réfection du poste de départ de la centrale\n et remplacement des transformateurs T5 et T6\n À titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur\n incluant les options est : entre 10 000 000 $ et 20 000 000 $\n Date limite de réception des plaintes : 16/12/2026\n Communication des plaintes :\n https://www.hydroquebec.com/sefco2016/fournisseurs/fourn-plainte.html\n Demande d'information : Doit être adressée au responsable au minimum trois\n jours ouvrables avant la date et l'heure limites fixées pour la réception des\n soumissions\n Description de l'objet : Les travaux du présent contrat incluent sans s’y\n limiter :\n Travaux d’architecture et génie du bâtiment\n • Travaux de démolition\n • Travaux d’architecture;\n • Travaux de structure;\n • Travaux de mécanique du bâtiment (électricité, plomberie, ventilation)\n • Etc.\n Travaux civils\n • Fondations en béton armé; \n • Charpente métallique;\n • Etc.\n Travaux d’implantation électrique\n • Remplacement d’appareillage électrique;\n • MALT;\n • Etc.\n Travaux de commande\n • Démantèlement de câbles\n • Installation de câbles;\n • Panneaux de commande;\n • Etc.\n Travaux de mécanique\n • Système pour le puit séparateur d’huile.\n Chaloux, Nathalie\n CHALOUX.NATHALIE@HYDROQUEBEC.COM\n Poste : 9063\n Vous pouvez consulter les documents liés à cet avis et soumissionner à\n partir du lien suivant :\n https://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/28019\n Hydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=1a7c6f11-b63b-4509-9f32-41b5d38001a5",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2027-01-01 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "Espace approvisionnement d'Hydro-Québec Montréal QC CAN H2L4L8",
+"ouverture": null,
+"adresseOuverture": "Espace approvisionnement d'Hydro-Québec Montréal QC CAN H2L4L8"
+},
+"conditions": [],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"béton",
+"réfection",
+"charpente",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"béton",
+"réfection",
+"charpente",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"béton",
+"charpente",
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "3d3c4fe5-7a43-4ebb-806c-b27a9d9079d2",
+"numero": "AM011856",
+"titre": "Nord-du-Québec / Centrales La Grande / Appel de propositions sélectif / Conception-construction-progressif - Nouveaux bâtiments de services La Grande  ",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Nord-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "11",
+"surDemande": false,
+"fermeture": "2027-01-20T14:00",
+"publie": "2026-11-18T14:55",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72121506 - Construction de centrales électriques"
+],
+"description": "Objet\n : Nord-du-Québec / Centrales La Grande / Appel de propositions sélectif /\n Conception-construction-progressif - Nouveaux bâtiments de services La\n Grande \n À titre indicatif et sans engagement d'Hydro-Québec, l'ordre de grandeur\n incluant les options est : plus grand que 100 000 000 $\n Date limite de réception des plaintes : 16/11/2026\n Communication des plaintes :\n https://www.hydroquebec.com/sefco2016/fournisseurs/fourn-plainte.html\n Demande d'information : Doit être adressée au responsable au minimum trois\n jours ouvrables avant la date et l'heure limites fixées pour la réception des\n soumissions\n Description de l'objet : Appel de propositions limité/réservé uniquement\n aux fournisseurs qualifiés lors de l'appel de qualification AM010140.\n Izirri, Youness\n IZIRRI.YOUNESS@HYDROQUEBEC.COM\n Poste : 6060\n Vous pouvez consulter les documents liés à cet avis et soumissionner à\n partir du lien suivant :\n https://fournisseurs.hydroquebec.com/page.aspx/fr/bpm/process_manage_extranet/27833\n Hydro-Québec ne s'engage à accepter aucune des propositions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3d3c4fe5-7a43-4ebb-806c-b27a9d9079d2",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2027-01-20 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "Espace approvisionnement d'Hydro-Québec Montréal QC CAN H2L4L8",
+"ouverture": null,
+"adresseOuverture": "Espace approvisionnement d'Hydro-Québec Montréal QC CAN H2L4L8"
+},
+"conditions": [],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "7b8e8141-e451-4fb8-acee-d3e06a8f17fe",
+"numero": "25-3280P",
+"titre": "206024470 - École Notre-Dame-de-Grâce - Rénovation de l’enveloppe – Phase 2",
+"organisme": "Centre de services scolaire de Montréal / BDA",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Lettre de garantie irrévocable, 10%",
+"estimation": 4485000,
+"dureeMois": "11",
+"surDemande": false,
+"fermeture": "2026-12-16T14:00",
+"publie": "2026-11-18T14:54",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151900 - Maçonnerie",
+"72152400 - Installation de portes et de fenêtres",
+"72152711 - Construction de terrasses en béton"
+],
+"description": "Les\nsoumissions transmises par voie électronique sont permises dans le cadre du\nprésent appel d’offres.\nAvis d’appel d’offres public – appel d’offres fondé\nuniquement sur un prix\nPar\nle présent avis, le Centre de services scolaire de Montréal (CSSDM) sollicite\ndes soumissions pour l'appel d'offres suivant :\nProjet \nTitre : École Notre-Dame-de-Grâce - Rénovation de l'enveloppe - Phase 2\nNuméro de l’appel\nd’offres : 25-3280P\nDescriptif des travaux : Effectuer, sans s'y limiter, la réfection de la maçonnerie, le remplacement des fenêtres et la réfection des escaliers de béton d'une section à l'école Notre-Dame-de-Grâce.\nSuperficie des travaux : indiquée aux plans\nBâtiment : École Notre-Dame-de-Grâce, 5435, Avenue Notre-Dame-de-Grâce, Montréal, Québec\nVisite des lieux : Durant la période de soumission, il\ny aura une visite formelle des lieux organisée par l’ORGANSIME PUBLIC, le 25\nnovembre 2026 à 10h00.\nPériode / Délai de réalisation :\nLes travaux doivent être exécutés à\nl’intérieur d’un délai de quarante-deux\n(48) semaines à compter de la date de début des travaux prévue à\nl’article 8). Le calcul de ce délai se termine à la date de\nréception avec réserve. Ce délai comprend les jours fériés et les vacances,\nnotamment les vacances de la construction.\nLe DÉLAI D’EXÉCUTION doit être\nrespecté comme mentionné dans le\nplan de séquençage décrit dans la partie « 1.5 Ordre d’exécution des\ntravaux » de la section 01 11 00 du devis en Architecture :\n· \nSéquence 0 : Mobilisation\nDu 1er mars au 5 mars 2027 \n· \nSéquence 1.1 : Travaux de maçonnerie et\nremplacement des fenêtres partiel sur la façade M-09\nDu 8 mars au 14 mai 2027 inclusivement \n· \nSéquence 1.2 : Travaux de démolition et\nreconstruction de l'escalier A-03\nDu 8 mars au 14 mai 2027 inclusivement \nSéquence 2.1 : Travaux de maçonnerie et\nremplacement des fenêtres partiel sur la façade M-09\nDu 17 mai au 23 juillet 2027 inclusivement\n· \nSéquence 2.2 : Travaux de démolition et\nreconstruction de l'escalier A-05\nDu 17 mai au 23 juillet 2027 \n· \nSéquence 3.1 : Travaux de réaménagement de\nl'entrée du service de garde A-01\nDu 21 juin au 20 août 2027 inclusivement \nSéquence 3.2 : Travaux de maçonnerie et\nremplacement des fenêtres partiel sur la façade M-07\nDu 21 juin au 20 août 2027 inclusivement \n· \nSéquence 3.3 : Travaux de démolition et\nreconstruction de l'escalier A-02 et escalier sur rue Girouard\nDu 21 juin au 20 août 2027 inclusivement \nSéquence 4: Travaux de maçonnerie et\nremplacement des fenêtres partiel sur la façade M-09\nDu 30 août au 22 octobre 2027 inclusivement \n· \nSéquence 5: Travaux de maçonnerie et\nremplacement des fenêtres partiel sur les façades M-05, M-04, M-03\nDu 25 octobre au 13 décembre 2027\ninclusivement \n· \nRéception partielle des travaux:\nUne réception partielle avec réserve sera\neffectuée pour chaque séquence, une semaine avant sa date d’achèvement. Les\ndéficiences relevées devront être corrigées au plus tard à la date d’achèvement\nde la séquence concernée.\n· \nRéception finale des travaux:",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=7b8e8141-e451-4fb8-acee-d3e06a8f17fe",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-16 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "5100, rue Sherbrooke Est, local 180 Montréal QC CAN H1V3R9",
+"ouverture": "2026-12-16 14:00 Heure légale du Québec",
+"adresseOuverture": "5100, rue Sherbrooke Est, local 180 Montréal QC CAN H1V3R9"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"reconstruction",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"reconstruction",
+"béton",
+"réfection",
+"escalier",
+"fenêtre",
+"rénovation",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"façade",
+"enveloppe",
+"reconstruction",
+"béton",
+"réfection",
+"escalier",
+"fenêtre",
+"rénovation",
+"bâtiment",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"béton",
+"enveloppe",
+"escalier",
+"façade",
+"fenêtre",
+"maconnerie",
+"maçonnerie",
+"reconstruction",
+"réfection",
+"rénovation",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "975f4883-e5c6-4aec-b1d5-626a0e62ee44",
+"numero": "26-21608",
+"titre": "Services de travaux généraux sur demande pour divers bâtiments de la Ville de Montréal",
+"organisme": "Ville de Montréal - Service de l'approvisionnement",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "36",
+"surDemande": false,
+"fermeture": "2026-12-22T13:30",
+"publie": "2026-11-18T14:51",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments"
+],
+"description": "Appel d’offres \nVILLE DE MONTRÉAL \nService de l’approvisionnement \nDes soumissions sont demandées et devront être reçues, avant 13 h 30 à la date ci-dessous, dans les locaux du Service du greffe situés dans l’édifice de l’Hôtel de Ville, 275, rue Notre-Dame Est, rez-de-chaussée, Montréal (Québec) H2Y 1C6 pour : \nCatégorie : \nBiens et services \nAppel d’offres : \n26-21608 \nDescriptif : \nServices de travaux généraux sur demande pour divers bâtiments de la Ville de Montréal \nDate d’ouverture : \n mardi, 22 décembre 2026 \nDépôt de garantie de soumission : \nAucun \nRenseignements : \nNancy Lainey Courriel : nancy.lainey@montreal.ca \nDocuments : \nLes documents relatifs à cet appel d’offres seront disponibles à compter dumercredi, 18 novembre 2026 \nVisite obligatoire : \nNon \nSystème à deux enveloppes : \nNon \nLes personnes et les entreprises intéressées par cet appel d’offres peuvent se procurer les documents de soumission en s’adressant au Service électronique d’appels d’offres (SÉAO) en communiquant avec un des représentants par téléphone au 418 646-0177 (pour les résidents de la région du Québec), ou au 1-877-336-7326 (pour tous les appels ailleurs au Québec), ou en consultant le site gouvernementalseao.gouv.qc.ca. Les documents peuvent être obtenus au coût établi par le SÉAO \nChaque soumission doit être placée dans une enveloppe cachetée et portant l’identification fournie en annexe du document d’appel d’offres. \nLes soumissions reçues seront ouvertes publiquement dans les locaux du Service du greffe, immédiatement après l'expiration du délai fixé pour leur réception. \nLa Ville de Montréal ne s'engage à accepter ni la plus basse ni aucune des soumissions reçues et n'assume aucune obligation de quelque nature que ce soit envers le ou les soumissionnaires. \nFait à Montréal, le mercredi, 18 novembre 2026 \nLe greffier de la Ville, \nEmmanuel Tani-Moore, avocat",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=975f4883-e5c6-4aec-b1d5-626a0e62ee44",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-22 Avant 13:30 Heure légale du Québec",
+"adresseDepot": "275, rue Notre-Dame Est rez-de-chaussée Montréal QC CAN H2Y1C6",
+"ouverture": null,
+"adresseOuverture": "275, rue Notre-Dame Est rez-de-chaussée Montréal QC CAN H2Y1C6"
+},
+"conditions": [],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"enveloppe"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "6505a690-5d9e-4b34-832a-3da779dc1f50",
+"numero": "26-27-19",
+"titre": "Remplacement de la génératrice et réfection de la chaussée à l'école Des Moissons",
+"organisme": "Centre de services scolaire des Affluents",
+"regions": [
+"Lanaudière"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 1755799,
+"dureeMois": "20",
+"surDemande": false,
+"fermeture": "2026-12-07T10:00",
+"publie": "2026-11-18T14:37",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "AVIS D’APPEL D’OFFRES PUBLIC No 26-27-19\nRemplacement de la génératrice et réfection de la chaussée à l’école Des Moissons\nPROPRIÉTAIRE\nCENTRE DE SERVICES SCOLAIRE DES AFFLUENTS\nService des ressources matérielles\n81, rue de Normandie, Repentigny (Québec) J6A 7B3\nLe Centre de services scolaire des Affluents, propriétaire, demande des soumissions pour :\nLe projet consiste à procéder au remplacement de la génératrice existante ainsi qu’à la réalisation de nouveaux aménagements extérieurs comprenant un débarcadère et un stationnement.\nL’ensemble des travaux devra être réalisé au cours de l’été 2027. Toutefois, l’entrepreneur devra tenir compte des délais de livraison de la nouvelle génératrice dans la planification de son échéancier.\nLes travaux relatifs au groupe électrogène, à l’alimentation d’urgence et à l’entrée électrique devront être exécutés au plus tard le 23 juillet 2027, soit avant le retour du personnel de l’école.\nRESPONSABLE DE L’APPEL D’OFFRES\nÉquipe de gestion contractuelle : gestion.contractuelle@cssda.gouv.qc.ca\nOBTENTION DES DOCUMENTS\nLes documents d’appel d’offres pourront être obtenus exclusivement par l’intermédiaire du système électronique d’appel d’offres SÉAO. Les frais pour l’obtention des documents sont non remboursables et seront facturés par le SÉAO.\nRENCONTRE D’INFORMATION ET VISITE DES LIEUX\nÉcole : Des Moissons\nDate : 27 novembre 2026\nHeure : 13h30\nLieu : École Des Moissons\nAdresse : 945, rue Noiseux, Repentigny (Québec) J5Y 1Z3\nRendez-vous à l’entrée principale de l’établissement. Tous les soumissionnaires, entrepreneurs et sous-traitants seront considérés comme ayant visité les lieux et aucune réclamation pour manque d’information ou de connaissance des lieux ne pourra être soumise ni acceptée.\nDÉLAI D’EXÉCUTION DES TRAVAUX\nLes travaux doivent être effectués pendant la période du 28 juin 2027 au 28 août 2027.\nRÉCEPTION ET OUVERTURE \nLes soumissions dans des enveloppes cachetées et portant l’identification fournie dans les documents d’appel d’offres seront reçues au Service des ressources matérielles du Centre de services scolaire des Affluents au 81, rue de Normandie, Repentigny, jusqu’à 10 heures, heure en vigueur localement, le 7 décembre 2026, pour être ouvertes publiquement au même endroit le même jour et à la même heure. Toute soumission reçue postérieurement sera automatiquement rejetée et retournée au soumissionnaire sans être ouverte.\nLes soumissions transmises par voie électronique sont permises dans le cadre du présent appel d’offres. Les soumissions transmises par voie électronique doivent être reçues par l’intermédiaire du SEAO à l’adresse suivante : seao.gouv.qc.ca, au plus tard à la date et à l’heure limites indiquées aux documents d’appel d’offres.\nGARANTIE DE SOUMISSION\nToute soumission devra être accompagnée d’une garantie de soumission équivalant à 10% du montant total de la soumission excluant toutes les taxes applicables, sous forme de chèque certifié, de traite bancaire, de lettre de garantie irr",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6505a690-5d9e-4b34-832a-3da779dc1f50",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-07 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "81, rue de Normandie Porte 1 (Dépôt de soumission) Repentigny QC CAN J6A7B3",
+"ouverture": null,
+"adresseOuverture": "81, rue de Normandie Porte 1 (Dépôt de soumission) Repentigny QC CAN J6A7B3"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"enveloppe",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"enveloppe",
+"réfection",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "f8a4e7a3-2e7f-44aa-a312-1e387a7cf06d",
+"numero": "071/092M27-0_ENT",
+"titre": "Remplacement de l’entrée électrique - Édifice Saint-Louis (092)",
+"organisme": "Centre de services scolaire du Chemin-du-Roy",
+"regions": [
+"Mauricie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, Toute soumission doit être accompagnée d'une garantie de soumission représentant 10 % du coût total de la soumission, excluant les taxes applicables, en faveur du Centre de services scolaire du Chemin-du-Roy.\nLa garantie de soumission est un document requis lors de l’ouverture des soumissions dont l’absence entraîne le rejet automatique de la soumission.",
+"estimation": 350183.63,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-12-16T10:00",
+"publie": "2026-11-18T14:20",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Dans l'optique de pouvoir alimenter les nouvelles machines qui seront installées sur la toiture du SDG, il fallait changer la capacité d'alimentation de l'école pour du triphasé 600V.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f8a4e7a3-2e7f-44aa-a312-1e387a7cf06d",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-16 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "1515, rue Sainte-Marguerite Trois-Rivières QC CAN G8Z1W2",
+"ouverture": "2026-12-16 10:00 Heure légale du Québec",
+"adresseOuverture": "1515, rue Sainte-Marguerite Trois-Rivières QC CAN G8Z1W2"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-18T17:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-4147424304",
@@ -62630,7 +63223,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-17"
+"fermeLe": "2026-11-17",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T08:55",
+"soumissions": [
+{
+"nom": "CONSTRUCTIONS GUY SÉBAS INC.",
+"montant": 1253000.0
+},
+{
+"nom": "MAÇONNERIE RAINVILLE & FRÈRES INC.",
+"montant": 1857261.0
+}
+]
+}
 },
 {
 "id": "9a06b55d-ba20-4f42-8392-9917ba1a0b81",
@@ -63949,7 +64557,50 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T14:52",
+"soumissions": [
+{
+"nom": "XO Construction Inc.",
+"montant": 908000.0
+},
+{
+"nom": "CONSTRUCTION GERPRO INC.",
+"montant": 908850.0
+},
+{
+"nom": "9496-1687 Québec inc.",
+"montant": 918000.0
+},
+{
+"nom": "MGB ASSOCIÉS INC.",
+"montant": 918444.0
+},
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 924722.34
+},
+{
+"nom": "LES ENTREPRISES VERRECCHIA INC.",
+"montant": 1037419.78
+},
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 1227841.7
+},
+{
+"nom": "ROSS AND ANGLIN LIMITÉE",
+"montant": 1272130.0
+},
+{
+"nom": "Construction NCP",
+"montant": 1388220.0
+}
+]
+}
 },
 {
 "id": "37544859-d0ca-421f-a6e5-f7364c430fa6",
@@ -64198,7 +64849,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T14:54",
+"soumissions": [
+{
+"nom": "CONSTRUCTION TURCO INC.",
+"montant": 313965.0
+},
+{
+"nom": "CONSTRUCTIONS GUY SÉBAS INC.",
+"montant": 405000.0
+},
+{
+"nom": "CONSTRUCTION LONGER INC.",
+"montant": 417000.0
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 462000.0
+}
+]
+}
 },
 {
 "id": "8083db86-bb6a-4183-bef7-cfb694cda379",
@@ -64665,6 +65339,261 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-18"
+},
+{
+"id": "f3a4ee3b-e66c-48ac-8ed3-3c47be13f0b4",
+"numero": "AOP-2026-C-053",
+"titre": "Installation de compteurs d’eau et de dispositifs anti-refoulement dans les bâtiments à Deschambault",
+"organisme": "Ministère de l'Agriculture, des Pêcheries et de l'Alimentation",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 138080,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-11-18T15:00",
+"publie": "2026-10-19T15:47",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101500 - Services de maintenance et de réparation des bâtiments",
+"72101510 - Maintenance ou réparation de la plomberie"
+],
+"description": "Ministère\nde l’Agriculture, des Pêcheries et de l’Alimentation \nTRAVAUX DE\nCONSTRUCTION \nInstallation de compteurs\nd’eau et de dispositifs anti-refoulement \ndans les bâtiments à\nDeschambault\nAOP-2026-C-053\nAvis d’appel\nd’offres\nLe ministère de l’Agriculture, des\nPêcheries et de l’Alimentation (MAPAQ) sollicite des soumissions pour\nl’exécution de travaux d’« Installation de compteurs d’eau et de dispositifs anti-refoulement\ndans les bâtiments à Deschambault ».\nDescription des\noptions \nAucune option\nDisponibilité des\ndocuments d’appel d’offres\nLes documents d’appel d’offres\nne peuvent être obtenus que par l’intermédiaire du système électronique d’appel\nd’offres (SEAO).\nPour tout renseignement, communiquer avec Mme Maria Vera\nà gestion‑contractuelle@mapaq.gouv.qc.ca\nTRANSMISSION DE\nSOUMISSIONS\n· \nPAR VOIE ÉLECTRONIQUE \nLes soumissions peuvent être\ntransmises par voie électronique et cette transmission ne peut s’effectuer que\npar l’intermédiaire du système électronique d’appel d’offres (SEAO).\n· \nSUR SUPPORT PAPIER \nLes soumissions\ntransmises sur support papier doivent être présentées à l’attention de Maria\nVera, à l’adresse suivante : \nMinistère de\nl’Agriculture, des Pêcheries et de l’Alimentation du Québec\nDirection des\nressources immobilières, matérielles et des contrats\n200, chemin\nSainte-Foy, 1er étage, local 1.17 (courrier-messagerie)\nQuébec (Québec) G1R\n4X6\nLes heures\nd’ouverture des bureaux sont de 9h à 12h et de 13h à 16h, du lundi au vendredi.\nÉchéancier de\nréalisation\nLancement\nde l’appel d’offres : 19 octobre 2026\nDate\nlimite de dépôt des offres : 18 novembre 2026\nDate\nprévue de début du mandat : \ndécembre 2026 (estimé)\nRéunion\nde démarrage : \nvers le 15 décembre 2026 (estimé) \nDate\nde début des travaux : janvier 2027 (estimé)\nDate\nde fin des travaux : juin 2027 (estimé) \nDans le cadre du présent appel d’offres, le MAPAQ procède\nà l’ouverture publique des soumissions. \nPour des informations plus précises, veuillez vous\nréférer aux documents d’appel d’offres.\nLe Ministère\nne s’engage à accepter aucune des soumissions reçues.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f3a4ee3b-e66c-48ac-8ed3-3c47be13f0b4",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation de compteurs d'eau et de dispositifs anti-refoulement dans des bâtiments à Deschambault. La durée prévue des travaux est estimée à six mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la plomberie et les installations sanitaires, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-18"
+},
+{
+"id": "2d93f14f-6296-455e-962e-d60b27a25bbe",
+"numero": "26-7717",
+"titre": "Réfection de la toiture patrimoniale en cuivre et de la portion membranée CRCDP-1343-26",
+"organisme": "Santé Québec Capitale-Nationale – Universitaire",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"patrimonial",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 800000,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-11-05T14:15",
+"publie": "2026-10-15T15:47",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152601 - Toiture"
+],
+"description": "Avis d’Appel d’offres\npublic\nLe CIUSSS DE LA CAPITALE-NATIONALE procède à\nun appel d’offres public afin d’obtenir les services d’un entrepreneur pour effectuer\ndes travaux de\nconstruction (Réfection de la toiture patrimoniale en cuivre et de la\nportion membranée).\nPériode du contrat et\nadjudication \nLes travaux de construction, seront réalisés¸ au CRCDP,\n14 Côte du Palais, Québec (Québec) G1R 4H8 La date estimative prévue de début\ndes travaux est le 7 décembre 2026. La durée des travaux est 6 mois. \nRéception des soumissions\nLes offres, accompagnées de tous les\ndocuments exigés, seront reçues sous pli scellé ou via le SEAO, au plus tard le 5 novembre 2026, 14h15,\nau 2915, avenue du Bourg-Royal, Québec (Québec) G1C 3S2. Le bureau est ouvert\nde 8 h 00 à 12 h 00 et de 13 h 00 à 16 h 00. \nLes documents d’appel d’offres ne peuvent être obtenus que par\nl’intermédiaire du système électronique d’appel d’offres SEAO au www.seao.ca ou\nau 514-856-6600 pour les résidents de la région de Montréal et au numéro sans\nfrais 1-866-669-7326 pour les résidents de l’extérieur.\nOuverture des soumissions\nL’ORGANISME PUBLIC procèdera à une ouverture des Soumissions en\nprésentiel ou via TEAM le 5 novembre\n2026 à 14h30. \nVisite d’information \nUne visite d’information aura lieu le 22 octobre 2026 à 14h00\nà la Porte principale du CRCDP au 14 Côte du Palais, Québec (Québec) G1R 4H8. Le CIUSSS DE LA CAPITALE-NATIONALE n’assume aucune responsabilité\nvis-à-vis des SOUMISSIONNAIRES qui ne se sont pas présentés à la visite\nd’information relativement aux informations qui peuvent avoir été données lors\nde celle-ci.\nDate de dépôt des plaintes (DDP) : \nLa date limite de dépôt des plaintes (DDP) à l’Organisme public est 26 octobre\n2026\nLe code conduite : https://www.ciusss-capitalenationale.gouv.qc.ca/sites/d8/files/docs/Aproposdenous/PO-62-Code_conduite_fournisseurs.pdf\nLes soumissionnaires doivent prendre en considération tous les addendas\npubliés jusqu´à la date d´ouverture pour soumissionner pour cet AOP.\nRenseignement\nToute question concernant le présent appel d’offres doit être soumise,\nPAR ÉCRIT, avant la date et l’heure limites de la réception des soumissions, à monsieur\nFrançois Martineau, à l’adresse courriel suivante : francois.martineau3.ciussscn@ssss.gouv.qc.ca\nPour toute demande\nd'information ou d'interprétation en regard des présents documents, le\ngestionnaire de projet oblige le soumissionnaire à s'adresser exclusivement aux\nreprésentants ci-haut mentionnés et à nulle autre personne à moins d'indication\ncontraire de ce représentant.\nLe\nGestionnaire de projet se réserve la possibilité de ne pas considérer une\ndemande de précision formulée par un soumissionnaire si cette demande lui est\ntransmise au moins de 5 jours ouvrables avant la date et l’heure limites fixées\npour la réception des soumissions. De plus, si la demande de précision entraîne\ndes modifications aux documents d'appel d’offres, notre établissement ne pourra\npas se prévaloir de la possibilité de ne pas cons",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2d93f14f-6296-455e-962e-d60b27a25bbe",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture patrimoniale en cuivre et de la portion membranée pour le CIUSSS DE LA CAPITALE-NATIONALE. Les travaux sont estimés à 800 000 $ et devraient durer 6 mois.",
+"pointsAttention": [
+"Visite d’information le 22 octobre 2026"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"patrimonial",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"patrimonial",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"patrimonial",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-18"
+},
+{
+"id": "74b897b4-1566-47e9-8860-fc4468f0dac0",
+"numero": "2027-0396",
+"titre": "Remplacement des systèmes de refroidissement",
+"organisme": "Santé Québec Estrie - Centre hospitalier universitaire de Sherbrooke",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Chèque visé (certifié), Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa Soumission d’une garantie de soumission équivalant à DIX POUR CENT (10%) du prix proposé dans sa Soumission. Cette garantie de soumission doit être produite sous l'une ou l’autre des formes suivantes :\na) un cautionnement émis en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause Institution Financière des présentes, qui doit être conforme aux dispositions du modèle de cautionnement de soumission reproduit à l’annexe 4.01A du Formulaire de Soumission;\nb) une lettre de garantie irrévocable émise en faveur de l’ORGANISME PUBLIC par une Institution Financière telle que définie à la clause Institution Financière des présentes, qui doit être conforme aux exigences du modèle de «Lettre de garantie irrévocable» reproduit à l’annexe 4.01B du Formulaire de Soumission.",
+"estimation": 2200000,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-10-28T14:30",
+"publie": "2026-09-21T15:34",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Le projet consiste à remplacer un refroidisseur Trane de 320 tonnes et sa tour de refroidissement de 4 500 MBH par deux unités de refroidissement extérieures, incluant les travaux connexes en mécanique, électricité, structure et régulation",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=74b897b4-1566-47e9-8860-fc4468f0dac0",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer un refroidisseur Trane de 320 tonnes et sa tour de refroidissement par deux unités de refroidissement extérieures, incluant les travaux connexes en mécanique, électricité, structure et régulation.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le remplacement de systèmes de refroidissement et n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+},
+"motsOk": false,
+"visiteObligatoire": false,
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T15:20",
+"soumissions": [
+{
+"nom": "GROUPE PLOMBACTION INC.",
+"montant": 1997000.0
+},
+{
+"nom": "CONSTRUCTIONS GUY SÉBAS INC.",
+"montant": 2153000.0
+},
+{
+"nom": "GNR Corbus inc",
+"montant": 2243000.0
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 2336000.0
+},
+{
+"nom": "CONSTRUCTION LABRIE MERLOS INC.",
+"montant": 2336839.0
+},
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 2438000.0
+}
+]
+}
 }
 ]
 }
