@@ -34540,7 +34540,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux sur demande de remise en état et réparation de logements vacants ou occupés, ainsi que des aires communes et la sécurisation des lieux après sinistres.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est général et inclut la rénovation de logements, ce qui peut contenir des lots de maçonnerie ou de charpenterie, mais le cœur n'est pas spécifiquement ces métiers.",
+"version": 3
+}
 },
 {
 "id": "d151419f-0859-4e7e-bde0-7094fa5eec72",
@@ -34624,7 +34636,21 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le réaménagement de la maison Brassard au parc des Moulins, avec une durée de travaux prévue de janvier à mai 2027. Les codes de travaux mentionnent la rénovation, l'agrandissement et le remodelage de maisons individuelles.",
+"pointsAttention": [
+"Délai de soumission : 10 décembre 2026.",
+"Garantie de soumission : 10% du prix total proposé.",
+"Transmission électronique via SEAO."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des travaux de rénovation et d'agrandissement d'une maison, ce qui implique potentiellement des lots de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "30c7b174-1c33-4502-8d9f-7f8901904ee4",
@@ -34709,7 +34735,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des plafonds et de l'éclairage dans divers locaux d'une école secondaire. Les travaux sont prévus pour une durée de 2 mois et le montant estimé est de 900 658 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "27a2122e-c84b-47b1-87be-5d400891ba2a",
@@ -34770,7 +34808,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de caméras gamma et le réaménagement des locaux et services adjacents pour Santé Québec Lanaudière. Le montant estimé est de 800 000 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "bdf52f01-8904-41d8-b1a8-b03c83ecd502",
@@ -34830,7 +34880,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'augmentation de la capacité d'une station de traitement des eaux usées.",
+"pointsAttention": [
+"aucune"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d115fd1c-d22b-418f-90ec-d974579b2af9",
@@ -34900,7 +34962,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la transformation d'une partie d'une zone aquatique en centre de soins pour animaux pour l'Université McGill. Les travaux impliquent des infrastructures pour transformer des espaces de recherche d'animalerie aquatique en espaces de recherche pour rongeurs.",
+"pointsAttention": [
+"Séance d’information/visite du site"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "134a8c16-1f8f-40d1-b833-b3240f7de1d7",
@@ -34993,7 +35067,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des accès extérieurs de deux établissements scolaires, incluant le remplacement ou la réparation de portes et l'aménagement des abords avec des trottoirs de béton et des aménagements paysagers.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat se concentre sur des travaux de menuiserie (portes, fenêtres) et des travaux de béton/aménagement paysager, mais le cœur de métier de l'entreprise (maçonnerie/charpenterie lourde) n'est pas clairement identifié comme principal.",
+"version": 3
+}
 },
 {
 "id": "b7f2dc44-01d6-4d9c-83e0-0c5aa3564223",
@@ -35056,7 +35142,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de 'Mise en lumière extérieure' pour le Cégep Beauce-Appalaches. La description des travaux est trop vague pour déterminer la nature exacte des corps de métier requis.",
+"pointsAttention": [
+"délai court",
+"cote de sécurité"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis ne mentionne aucun des métiers ciblés (maçonnerie, charpenterie, menuiserie) et la description des travaux est trop générale pour évaluer la pertinence.",
+"version": 3
+}
 },
 {
 "id": "d511d9eb-c553-4ccf-84c8-8651c51aea16",
@@ -35144,7 +35243,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le projet concerne le réaménagement d'un local et la reconfiguration d'une cage d'escalier dans un bâtiment du CÉGEP Sherbrooke. Les travaux incluent la démolition, le réaménagement de locaux, et la reconfiguration de la cage d'escalier, ainsi que la rénovation des finis de plancher.",
+"pointsAttention": [
+"Délai de 3 mois"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet implique des travaux de réaménagement et de reconfiguration d'une cage d'escalier dans un bâtiment, ce qui touche à la charpenterie/menuiserie et potentiellement à la maçonnerie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
