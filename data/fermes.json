@@ -24545,7 +24545,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T15:44",
+"soumissions": [
+{
+"nom": "CONSTRUCTIONS R.D.J. INC.",
+"montant": 282555.0
+},
+{
+"nom": "Groupe Balex inc.",
+"montant": 288400.0
+},
+{
+"nom": "CONSTRUCTION BUGÈRE INC.",
+"montant": 328800.0
+}
+]
+}
 },
 {
 "id": "52f7edec-9a28-4b15-9138-9007abfe5a9b",
@@ -24702,7 +24721,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T14:54",
+"soumissions": [
+{
+"nom": "GROUPE SYMACO INC.",
+"montant": 258190.0
+},
+{
+"nom": "LABERGE & ALLARD INC.",
+"montant": 488000.0
+}
+]
+}
 },
 {
 "id": "e61703fa-8d48-4088-ac86-47bae314061a",
@@ -26547,7 +26581,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-16"
+"fermeLe": "2026-11-16",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T16:08",
+"soumissions": [
+{
+"nom": "ENTREPRISES ARSENEAULT INC.",
+"montant": 249000.0
+},
+{
+"nom": "ALFA CRYOGÉNIQUE INC.",
+"montant": 286866.0
+}
+]
+}
 },
 {
 "id": "9abcf68f-61d8-417c-9f32-858c13f80596",
@@ -28452,7 +28501,18 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T14:52",
+"soumissions": [
+{
+"nom": "MÉCANICACTION INC.",
+"montant": 1576700.0
+}
+]
+}
 },
 {
 "id": "c30ea799-9183-48d3-a276-dda637bdeaba",
@@ -30394,7 +30454,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T14:25",
+"soumissions": [
+{
+"nom": "ENTREPRISES D'ELECTRICITÉ J.M.N. INC.",
+"montant": 820268.0
+},
+{
+"nom": "LES ÉLECTRICIENS DESJARDINS",
+"montant": 838800.0
+},
+{
+"nom": "9417-4547 Québec inc.",
+"montant": 852660.0
+},
+{
+"nom": "LES CONSTRUCTIONS RÉJEAN MADORE",
+"montant": 875445.72
+},
+{
+"nom": "RPF LTÉE",
+"montant": 896144.0
+}
+]
+}
 },
 {
 "id": "9403fdc4-4a76-4086-af1a-af6786724527",
@@ -30757,7 +30844,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": "368 000 $ à 653 199 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T15:10",
+"soumissions": [
+{
+"nom": "Ascenseurs TK (Canada) Limitée",
+"montant": 464971.3
+},
+{
+"nom": "9170-7075 QUÉBEC INC.",
+"montant": 508900.0
+},
+{
+"nom": "9355-3139 Québec inc.",
+"montant": 525100.0
+},
+{
+"nom": "ASCENSEURS VERTEC INC.",
+"montant": 549550.0
+}
+]
+}
 },
 {
 "id": "ca4f55ea-a404-44b6-b947-61d639c27c48",
@@ -31012,7 +31122,37 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T14:40",
+"soumissions": [
+{
+"nom": "PLOMBERIE CHARBONNEAU INC.",
+"montant": 332622.68
+},
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 337911.53
+},
+{
+"nom": "MÉCANIQUE NORTHERM INC.",
+"montant": 359080.72
+},
+{
+"nom": "MÉCANICACTION INC.",
+"montant": 401048.9
+},
+{
+"nom": "Tuyauterie Expert inc",
+"montant": 425389.11
+},
+{
+"nom": "OSLO CONSTRUCTION INC.",
+"montant": 454952.63
+}
+]
+}
 },
 {
 "id": "ec26bfd5-cb0e-4463-a238-610fa3a63a04",
