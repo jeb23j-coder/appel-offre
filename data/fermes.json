@@ -28075,7 +28075,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T14:05",
+"soumissions": [
+{
+"nom": "Piché Construction / Groupe Piché Construction Inc.",
+"montant": 1655799.34
+},
+{
+"nom": "ARDEC CONSTRUCTION INC.",
+"montant": 1693581.75
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 1738422.0
+},
+{
+"nom": "LES ENTREPRISES VERRECCHIA INC.",
+"montant": 2125861.31
+},
+{
+"nom": "CONSTRUCTION IRÉNÉE PAQUET & FILS INC.",
+"montant": 2977459.09
+}
+]
+}
 },
 {
 "id": "c13bb880-bee9-42d6-ab52-194593961b5d",
@@ -28148,7 +28175,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T13:11",
+"soumissions": [
+{
+"nom": "Les Constructions Serbec Inc.",
+"montant": 100.8
+},
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 104.05
+},
+{
+"nom": "CONSTRUCTION GODON INC.",
+"montant": 105.0
+},
+{
+"nom": "Construction LCE inc.",
+"montant": 105.35
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 106.5
+}
+]
+}
 },
 {
 "id": "526d1e24-33ad-4ed4-b125-5a47ae045992",

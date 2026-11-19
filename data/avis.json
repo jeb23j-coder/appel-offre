@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-18T17:30",
+"date": "2026-11-18T19:58",
 "seaoLus": 415,
 "retenus": 418,
-"nouveaux": 10,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -35113,7 +35113,7 @@
 "colombage"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -35201,7 +35201,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35273,7 +35273,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35363,7 +35363,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -35463,7 +35463,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -35547,7 +35547,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -35680,7 +35680,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 95,
 "type": "Maçonnerie",
@@ -35773,7 +35773,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -35872,7 +35872,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -35958,7 +35958,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -64294,7 +64294,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T14:05",
+"soumissions": [
+{
+"nom": "Piché Construction / Groupe Piché Construction Inc.",
+"montant": 1655799.34
+},
+{
+"nom": "ARDEC CONSTRUCTION INC.",
+"montant": 1693581.75
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 1738422.0
+},
+{
+"nom": "LES ENTREPRISES VERRECCHIA INC.",
+"montant": 2125861.31
+},
+{
+"nom": "CONSTRUCTION IRÉNÉE PAQUET & FILS INC.",
+"montant": 2977459.09
+}
+]
+}
 },
 {
 "id": "c13bb880-bee9-42d6-ab52-194593961b5d",
@@ -64367,7 +64394,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T13:11",
+"soumissions": [
+{
+"nom": "Les Constructions Serbec Inc.",
+"montant": 100.8
+},
+{
+"nom": "ROLAND GRENIER CONSTRUCTION LIMITÉE",
+"montant": 104.05
+},
+{
+"nom": "CONSTRUCTION GODON INC.",
+"montant": 105.0
+},
+{
+"nom": "Construction LCE inc.",
+"montant": 105.35
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 106.5
+}
+]
+}
 },
 {
 "id": "526d1e24-33ad-4ed4-b125-5a47ae045992",
