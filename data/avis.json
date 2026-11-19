@@ -34327,7 +34327,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de poignées, serrures et quincaillerie de portes intérieures et extérieures dans deux écoles. Les travaux comprennent la fourniture et l'installation de la nouvelle quincaillerie.",
+"pointsAttention": [
+"Visite des lieux obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie, mais plutôt des travaux de quincaillerie et de portes/fenêtres.",
+"version": 3
+}
 },
 {
 "id": "c5454c6f-994f-4a63-bc1a-1e6311671920",
@@ -34411,7 +34423,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement de la cour d'une école, incluant l'aménagement d'un terrain de soccer en gazon synthétique et le remplacement du revêtement de sol des aires de jeux.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet n'implique ni maçonnerie/briquetage ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "c0bcbdea-f578-4def-9071-4d283168f899",
@@ -34485,7 +34509,19 @@
 "échafaudage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'intégration scénographique pour le nouveau toit du Parc olympique, incluant l'installation de treuils de levage, d'habillage et d'automatisation.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat est axé sur l'intégration scénographique et l'installation d'équipements techniques, sans que la maçonnerie ou la charpenterie/menuiserie ne soient le cœur des travaux.",
+"version": 3
+}
 },
 {
 "id": "94144ea0-caf9-4604-8dcc-2e0059b75a1a",
@@ -34557,7 +34593,19 @@
 "fenêtre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de fenêtres au CHSLD de St-Fabien-de-Panet. Les travaux sont prévus entre le 25 mai 2027 et le 18 juin 2027 pour un montant estimé de 140 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement le remplacement de fenêtres et n'inclut ni maçonnerie ni charpenterie/menuiserie comme travail principal.",
+"version": 3
+}
 },
 {
 "id": "c02b070f-eb4f-4037-ad15-f61399cc64f5",
@@ -34650,7 +34698,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection du bois extérieur d'un bâtiment de la Capitainerie. Le projet est prévu pour une durée d'un mois.",
+"pointsAttention": [
+"délai court (1 mois)"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le projet est centré sur la réfection de l'enveloppe du bâtiment, ce qui touche à la maçonnerie ou à la charpenterie/menuiserie selon la nature exacte du bois extérieur.",
+"version": 3
+}
 },
 {
 "id": "dff26784-64f4-4558-8413-cf704ed8e261",
@@ -34740,7 +34800,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'agrandissement d'un stationnement à l'école Paul-Arseneau, incluant la réfection des marquages et l'installation de bornes de recharge.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "361dd0d3-173d-4eab-bf66-636a516ffebf",
@@ -34843,7 +34915,21 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 80,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection des fondations et des murs de la salle mécanique pour corriger des infiltrations d'eau et la dégradation observée des murs, joints et poutres d'acier. Les travaux incluent des réparations de maçonnerie, l'installation d'un nouveau drainage et d'une membrane d'étanchéité.",
+"pointsAttention": [
+"Délai de 8 mois",
+"Montant estimé de 2 900 000 $",
+"Exigences de garantie de soumission (10% du montant)"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat est centré sur la réfection de la maçonnerie et des fondations, ce qui correspond directement au cœur de métier de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "ed903263-c86e-4019-93af-4c6bafc106ac",
@@ -34926,7 +35012,21 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne le remplacement des portes extérieures et le retrait d'une fenêtre à une école primaire. Les travaux impliquent la démolition des portes et cadres existants en acier et la fourniture et installation de nouvelles portes et cadres en acier.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai de soumission (cautionnement de 10% du prix)",
+"Délai de réalisation de 19 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Soumission directe",
+"raison": "Bien que le cœur du contrat soit la menuiserie (portes et cadres), il s'agit d'un projet de bâtiment (école) où les métiers de la menuiserie sont importants, mais la maçonnerie/charpenterie n'est pas le travail principal.",
+"version": 3
+}
 },
 {
 "id": "cfce09f6-7705-4386-9af0-90d674730399",
@@ -35000,7 +35100,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la toiture en bardeaux d'asphalte pour un immeuble situé à Ferme-Neuve.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "75ace043-3f69-42c8-8079-07c15d727790",
@@ -35084,7 +35196,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de l'éclairage du hall et du studio de photographie d'un Cégep. Les travaux impliquent la fourniture et l'installation de luminaires DEL et le démontage des anciens luminaires.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ab0a64c2-3658-45ed-809d-d43e5ef137c3",
@@ -35172,7 +35297,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'approvisionnement de deux classes modulaires pour une école. Le projet implique des travaux de construction et de location.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est dans le domaine du bâtiment, mais la description ne spécifie pas clairement que la maçonnerie ou la charpenterie/menuiserie sont le cœur du contrat, il faut vérifier les détails des travaux inclus dans l'appel d'offres.",
+"version": 3
+}
 },
 {
 "id": "82d377d6-d360-49e8-8bc8-a9fe9e119e90",
@@ -35245,7 +35382,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne les travaux d'agrandissement de la guérite de l'écocentre de Lévis. Les travaux doivent être complétés en 170 jours.",
+"pointsAttention": [
+"délai court (170 jours)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement précisé.",
+"version": 3
+}
 },
 {
 "id": "917c004c-2885-4ff2-8694-1c8c2b77bf0d",
@@ -35327,7 +35476,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection partielle de la toiture du Centre national d’exposition du Mont-Jacob. La durée prévue est de 4 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la toiture et n'inclut aucun des métiers ciblés (maçonnerie, charpenterie, menuiserie).",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
