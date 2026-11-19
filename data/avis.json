@@ -35435,7 +35435,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de la surface du bassin d'une piscine, impliquant la démolition, la réparation de béton, la réparation de fissures et l'application d'un revêtement époxy.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de béton et de piscine, ce qui n'est pas dans le cœur de métier de la maçonnerie/briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "414d7507-f766-4260-871f-68baff6f6b35",
@@ -35498,7 +35510,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la mise à niveau de la distribution des charges du réseau électrique d'urgence de l'Hôpital Chauveau. Les travaux devraient durer 8 mois et ont un montant estimé de 153 286 $.",
+"pointsAttention": [
+"Visite d’information obligatoire le 26 novembre 2026 à 14h00 à l'Hôpital Chauveau."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "ebee1c21-5fb4-4513-acb3-32467d4dc3e2",
@@ -35560,7 +35584,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des installations électriques extérieures des génératrices et la mise à niveau des installations sanitaires. Le montant estimé se situe entre 1 000 000 $ et 3 000 000 $.",
+"pointsAttention": [
+"non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'électricité et les installations sanitaires, ce qui n'est pas le cœur de métier de la maçonnerie/briquetage et charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1b4df8dc-53bf-4608-a50d-d703d70765c2",
@@ -35635,7 +35671,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la sélection d'entrepreneurs en électricité pour des travaux spécialisés liés à l'électricité de distribution et de contrôle, notamment pour les équipements CVC. Le montant estimé est de 175 000 $ sur une durée de 24 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement les métiers de l'électricité et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6a3f56c5-ccdf-4789-bd0c-ef4a2014a09f",
@@ -35708,7 +35756,21 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du réservoir de condensat et de l'échangeur à vapeur de la chaufferie de l'Hôpital Saint-François d'Assise de Santé Québec. Les travaux sont prévus sur une durée de quatre mois.",
+"pointsAttention": [
+"Délai de réalisation des travaux : Du 8 février 2027 au 18 juin 2027",
+"Date limite de dépôt des plaintes (DDP): 14 décembre 2026",
+"Montant estimé : 461500$"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la maintenance et le remplacement d'équipements techniques (chaufferie) et n'implique ni maçonnerie, ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "06300e0e-8386-4a5c-a17f-6f1b09b0825f",
@@ -35793,7 +35855,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de casiers à l'école des Hauteurs. Le projet est prévu pour une durée de deux mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie, mais un remplacement d'éléments structurels ou d'aménagement intérieur/extérieur mineur.",
+"version": 3
+}
 },
 {
 "id": "d9d30d6b-7010-48ea-82d8-1c0b39971a0c",
@@ -35867,7 +35941,20 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement du parc Stoybroumont situé dans le secteur Sainte-Marthe-du-Cap à Trois-Rivières.",
+"pointsAttention": [
+"non précisé sur l'avis",
+"non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'avis concerne l'aménagement d'un parc et ne mentionne aucun travail pertinent pour la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6dd0fd0d-08cf-4209-b611-9b6bba60a28e",
@@ -35945,7 +36032,20 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de la main-d'œuvre, des matériaux et des équipements pour les travaux de ventilation et régulation d'un agrandissement et réaménagement d'un bloc opératoire à l'Hôpital Charles-Le Moyne.",
+"pointsAttention": [
+"Délai de 22 mois",
+"Montant estimé de 5 807 041 $"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement les travaux de ventilation et régulation, ce qui n'est pas dans le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c3a8ccbf-0119-4297-b938-0de02e15e327",
@@ -36013,7 +36113,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien périodique et la réparation des systèmes d'automatisation CVCA Trane dans deux établissements de la Commission scolaire English-Montréal. La durée prévue est de 12 mois pour un montant estimé de 45 000 $.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la maintenance des systèmes CVC et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
