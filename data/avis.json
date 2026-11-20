@@ -35988,7 +35988,20 @@
 "réfection des façades"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 100,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la restauration de l'enveloppe extérieure patrimoniale du Pavillon des Conférences et de la Maison des Gouverneurs. Les travaux incluent la réfection des façades en maçonnerie, le rejointoiement, la réparation ou le remplacement des pierres et briques détériorées, ainsi que la remise en état des cheminées et des escaliers extérieurs.",
+"pointsAttention": [
+"visite obligatoire",
+"port de bottes de sécurité"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est centré sur la maçonnerie (brique, pierre, rejointoiement, façade) et correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "24af2f06-bb96-458b-b64b-7f5506c35f4d",
@@ -36054,7 +36067,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne des travaux urgents en plomberie et ventilation pour une installation de centre de la petite enfance. Le mandat inclut le remplacement d'équipements (chauffe-eau, climatisation, échangeur d'air) et l'installation d'un four, ainsi que des travaux de clôture extérieure.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de 12 à 16 semaines"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement la plomberie et la ventilation, ce qui est hors du champ d'expertise de l'entreprise (maçonnerie, charpenterie et menuiserie).",
+"version": 3
+}
 },
 {
 "id": "242dc588-1eaf-4a9a-b43d-95df23e59c91",
@@ -36118,7 +36144,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture de services de peinture pour les résidences de l'Université de Montréal. Les travaux incluent la peinture et les réparations de murs en plâtre.",
+"pointsAttention": [
+"non précisé sur l'avis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la peinture et les réparations de murs en plâtre, ce qui n'est pas dans le cœur de métier de la maçonnerie/briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c0c1684a-b629-4a36-89a3-129fcc24dac0",
@@ -36188,7 +36226,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la gestion intégrée des services et opérations d'un bâtiment universitaire. Le fournisseur retenu devra assurer l'entretien préventif et correctif, la gestion énergétique et la maintenance des systèmes électromécaniques.",
+"pointsAttention": [
+"délai long (24 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le mandat est axé sur la gestion et l'entretien général du bâtiment, et non sur les travaux spécifiques de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "1cd916b1-f770-46be-8d47-8e339296089b",
@@ -36275,7 +36325,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de casiers dans une école, impliquant le démantèlement et l'installation de nouveaux casiers. Les travaux doivent tenir compte de la présence potentielle de matériaux contenant de l'amiante.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne pas directement les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "12a6a967-4e8d-46f9-9427-0cd8ab768bac",
@@ -36349,7 +36411,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toitures des résidences étudiantes de l'UQAT situées à Rouyn-Noranda. La durée prévue est de 3 mois pour un montant estimé de 150 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la toiture et n'inclut aucun des métiers ciblés par l'entreprise (maçonnerie, charpenterie, menuiserie).",
+"version": 3
+}
 },
 {
 "id": "1763d7ee-0411-4e01-a0f4-e058a0c41ae7",
@@ -36428,7 +36502,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Le projet concerne le remplacement des toitures, la réfection des plafonds, la modernisation de l'éclairage et la mise aux normes des accès universels à plusieurs bâtiments. La durée prévue est de 4 mois pour un montant estimé à 1,888 M$.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur la toiture et les plafonds, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie-menuiserie.",
+"version": 3
+}
 },
 {
 "id": "36eaa8a3-5e8b-43ae-9141-f7bdee7b93a8",
@@ -36517,7 +36603,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'entièreté des fenêtres de l'école Du Geai-Bleu, incluant le retrait, la fourniture et l'installation de nouvelles fenêtres ainsi que les travaux de calfeutrage et d'étanchéité de l'enveloppe du bâtiment.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement le remplacement de fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d34fc0ae-950d-4367-9238-87e904a41659",
@@ -36587,7 +36685,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la gestion intégrée, l'exploitation et l'entretien d'un centre de collections universitaire. Le mandat vise à assurer l'exploitation optimale, la sécurité et la conformité aux normes réglementaires des bâtiments.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la gestion et l'entretien général d'un immeuble, et non spécifiquement les travaux de maçonnerie ou de charpenterie.",
+"version": 3
+}
 },
 {
 "id": "d1d38d25-a205-48ad-af2f-a452521ce626",
@@ -36672,7 +36782,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des systèmes d'alarmes incendie, d'intercommunication et de vidéosurveillance pour l'école Au Pied-de-la-Montagne. Les travaux sont prévus pour une durée de 4 mois, débutant le 1er mars 2027.",
+"pointsAttention": [
+"Visite des lieux obligatoire le 2 décembre 2026 à 10h00."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat concerne l'installation de systèmes de sécurité et n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "da152515-616b-4bcd-a084-fa7db0dea8a4",
@@ -36745,7 +36867,19 @@
 "logement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat vise l'exécution des travaux de remplacement complet de deux tours d'eau dans la centrale thermique d'un immeuble résidentiel à Montréal. La durée prévue est de 4 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de plomberie/rénovation d'installations et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
