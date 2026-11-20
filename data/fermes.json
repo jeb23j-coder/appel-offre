@@ -24809,7 +24809,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-12"
+"fermeLe": "2026-11-12",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T09:54",
+"soumissions": [
+{
+"nom": "LES CONSTRUCTIONS PÉPIN ET FORTIN INC.",
+"montant": 5177000.0
+},
+{
+"nom": "FDF Construction",
+"montant": 5874695.0
+},
+{
+"nom": "SOGEST CONSTRUCTION INC.",
+"montant": 5888000.0
+}
+]
+}
 },
 {
 "id": "4d43ff15-d27e-4711-bd69-0ffe9d29a10a",
@@ -28465,7 +28484,66 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T11:52",
+"soumissions": [
+{
+"nom": "CONSTRUCTION RDF",
+"montant": 328265.57
+},
+{
+"nom": "Les Constructions Novalar inc.",
+"montant": 331360.0
+},
+{
+"nom": "CONSTRUCTION S.M. PAQUET INC.",
+"montant": 372754.25
+},
+{
+"nom": "PINCOR LTÉE",
+"montant": 389793.73
+},
+{
+"nom": "BANEXCO INC.",
+"montant": 396500.0
+},
+{
+"nom": "L.C. ENTREPRENEURS GÉNÉRAUX (2000) LTÉE",
+"montant": 398690.0
+},
+{
+"nom": "RÉNOVACOEUR RÉNOVATION INC.",
+"montant": 399713.0
+},
+{
+"nom": "Anjalec Construction Inc.",
+"montant": 409328.0
+},
+{
+"nom": "Construction LHIAM",
+"montant": 440571.92
+},
+{
+"nom": "9371-1406 Québec inc. (Construction PVP)",
+"montant": 446420.0
+},
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 450530.05
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 506144.0
+},
+{
+"nom": "CONSTRUCTION DESORMEAUX ET BIBEAU INC.",
+"montant": 619554.0
+}
+]
+}
 },
 {
 "id": "07a74f8b-fa57-4af5-900e-c5ecfc30b38a",
@@ -29596,7 +29674,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T09:12",
+"soumissions": [
+{
+"nom": "TOITURE QUÉBEC / 9201-0800 Québec inc.",
+"montant": 1146000.0
+},
+{
+"nom": "RAYMOND MARTIN LTÉE",
+"montant": 1271500.0
+},
+{
+"nom": "TOITURES QUATRE-SAISONS INC.",
+"montant": 1339600.0
+},
+{
+"nom": "GAGNÉ & ROY INC.",
+"montant": 2071000.0
+}
+]
+}
 },
 {
 "id": "74b897b4-1566-47e9-8860-fc4468f0dac0",
@@ -29934,7 +30035,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T10:44",
+"soumissions": [
+{
+"nom": "Toiture Perreault Inc.",
+"montant": 922858.56
+},
+{
+"nom": "COUVERTURE MONTRÉAL-NORD LTÉE",
+"montant": 924080.17
+},
+{
+"nom": "Toitures Dixmo inc.",
+"montant": 1253414.63
+}
+]
+}
 },
 {
 "id": "9ce6115b-d6d3-4082-a62f-c4a0ca2d23a7",
@@ -30088,7 +30208,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T11:04",
+"soumissions": [
+{
+"nom": "A PLUS CONSTRUCTION INC.",
+"montant": 178692.0
+},
+{
+"nom": "Construction Danoco inc.",
+"montant": 185000.0
+},
+{
+"nom": "Enexco inc.",
+"montant": 354600.0
+}
+]
+}
 },
 {
 "id": "6a927127-6be8-458d-9ae8-606494d8b235",
@@ -31315,5 +31454,397 @@
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-19"
+},
+{
+"id": "bf6d9884-4136-4986-9dc1-76e75c9e088f",
+"numero": "C-2026-73",
+"titre": "Travaux de réaménagement partiel du 2ème étage à la Maison du Citoyen de la ville de Sainte-Thérèse",
+"organisme": "Ville de Sainte-Thérèse.",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "2",
+"surDemande": false,
+"fermeture": "2026-11-12T11:00",
+"publie": "2026-10-23T09:14",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment"
+],
+"description": "Selon l'avis ci-dessous:",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=bf6d9884-4136-4986-9dc1-76e75c9e088f",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit de travaux de réaménagement partiel du deuxième étage de la Maison du Citoyen de la ville de Sainte-Thérèse. La durée prévue est de 2 mois.",
+"pointsAttention": [
+"Montant estimé non publié",
+"Cautionnement de soumission non précisé"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un travail de bâtiment où les métiers de la maçonnerie ou de la charpenterie pourraient être impliqués, mais l'information spécifique sur la nature des travaux n'est pas détaillée.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-20"
+},
+{
+"id": "178a2f95-4a66-4239-b037-84704c4bad5e",
+"numero": "463-RM-2026",
+"titre": "RÉAMÉNAGEMENT DE QUATRE CLASSES AU PAVILLON E  ",
+"organisme": "Cégep de Saint-Laurent.",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"cloison",
+"construction d",
+"finition intérieure",
+"ossature"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 1240689.78,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-11-10T10:00",
+"publie": "2026-09-23T11:13",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "AVIS\nD’APPEL D'OFFRES PUBLIC\n463-RM-2026\nRÉAMÉNAGEMENT\nDE QUATRE CLASSES AU PAVILLON E\nLe Cégep de Saint-Laurent est à la\nrecherche d’un entrepreneur pour exécuter des travaux de réaménagement de\nquatre (4) classes situées au Pavillon E. \nL’ouvrage comprend l’ensemble des\ntravaux indiqués aux plans et devis, incluant, sans toutefois s’y limiter, les\ntravaux résumés ci-dessous :\n1- \nCertains travaux décrits dans\nd’autres sections de ce devis sont des travaux connexes qui affectent ou sont\nsusceptibles d’affecter les travaux décrits dans une section. L’entrepreneur\ndevra donc prendre connaissance de l’ensemble des documents contractuels,\nincluant les dessins et devis d’architecture, d’électromécanique, de structure\net d’hygiène industrielle\n2- \nSommairement, les travaux faisant\nl’objet du présent contrat comprennent, mais sans s’y limiter, la fourniture de matériaux et de la main-d'œuvre afin de réaliser les travaux de\nréaménagement partiel du pavillon E – 2e étage du Cégep Saint-Laurent, situé au\n625, avenue Sainte-Croix, Saint-Laurent, Québec, et notamment :\n-La démolition sélective des éléments\nintérieurs existants identifiés aux documents, incluant notamment les cloisons, finis de plancher, plinthes, plafonds suspendus,\néléments de plafonds et autres ouvrages requis pour permettre le réaménagement\n-Le réaménagement de locaux\nd’enseignement existants, incluant la transformation et la redistribution de classes existantes selon les plans, afin de réaliser\nla nouvelle organisation fonctionnelle des locaux.\n-La démolition, le déplacement et la\nconstruction de cloisons intérieures non porteuses, incluant les travaux connexes de ragréage, finition et coordination avec les\ndisciplines.\n-Les travaux relatifs aux plafonds des\nclasses, incluant la démolition des plafonds existants, la coordination avec les matériaux contenant de l’amiante ou du plomb, et\nla construction des nouveaux plafonds indiqués aux documents.\n3- \nLes travaux relatifs au corridor et\nau café étudiant, incluant le remplacement de plafonds suspendus, les travaux\nde peinture et la coordination des appareils d’éclairage, diffuseurs,\ndétecteurs et autres dispositifs conservés, relocalisés ou remplacés selon les\ndocuments des disciplines concernées.\n4- \nLes travaux de finition intérieure,\nincluant notamment les revêtements de sol en vinyle, plinthes de vinyle,\npeinture intérieure, plaques de plâtre, ossatures métalliques non porteuses et\nplafonds suspendus.\n5- \nLa coordination des travaux de\nmécanique, d’électricité et de structure préparés par GBI, incluant notamment les interventions liées à la nouvelle unité de ventilation en toiture, aux\npercements, aux conduits, aux appareils d’éclairage, aux diffuseurs, aux grilles, aux détecteurs et aux systèmes\nexistants à conserver ou modifier.\n6- \nLa coordination avec l’équipe\nd’hygiène industrielle pour les travaux touchant les matériaux dangereux,\nincluant les plafonds contenant de l’amiante, les percements, ouvertures,\nméthodes de contrôle, lim",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=178a2f95-4a66-4239-b037-84704c4bad5e",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 70,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement de quatre classes au Pavillon E d'un Cégep, incluant la démolition de cloisons, la construction de nouvelles cloisons, les travaux de plafonds et les finitions intérieures.",
+"pointsAttention": [
+"visite obligatoire",
+"délai de 8 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut des travaux de finition intérieure et de cloisons, ce qui touche à la menuiserie/finition intérieure, mais le cœur du contrat semble être la réorganisation spatiale et les travaux de finition, nécessitant une vérification approfondie de la part de l'entreprise.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"ossature",
+"cloison",
+"finition intérieure",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"ossature",
+"cloison",
+"finition intérieure",
+"construction d"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-20",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T10:29",
+"soumissions": [
+{
+"nom": "PINCOR LTÉE",
+"montant": 940432.21
+},
+{
+"nom": "RALVEC CONSTRUCTION INC",
+"montant": 976997.0
+},
+{
+"nom": "Construction Melma Inc.",
+"montant": 1010500.0
+},
+{
+"nom": "Construction Nazar Inc.",
+"montant": 1012641.0
+},
+{
+"nom": "IMMOBILIER BELMON INC.",
+"montant": 1016749.52
+},
+{
+"nom": "CONSTRUCTION S.M. PAQUET INC.",
+"montant": 1018750.9
+},
+{
+"nom": "BANEXCO INC.",
+"montant": 1020700.0
+},
+{
+"nom": "CONSTRUCTION RDF",
+"montant": 1049500.0
+},
+{
+"nom": "Construction LHIAM",
+"montant": 1061797.47
+},
+{
+"nom": "Corrado Entrepreneur Général",
+"montant": 1115000.0
+}
+]
+}
+},
+{
+"id": "3de1f948-3b18-4a90-9d34-8d1427c1542d",
+"numero": "26_PRHLMV3_SINISTRE 3119",
+"titre": "RÉNOVATION SINISTRE 15 RUE DE L'ÉGLISE, CHANDLER",
+"organisme": "OH Rocher-Percé",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-11-20T10:00",
+"publie": "2026-11-02T15:36",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72111000 - Construction de logements individuels",
+"72111111 - Service d’entrepreneur en construction résidentielle générale",
+"72151100 - Installation de plomberie",
+"72151500 - Installations électriques",
+"72153605 - Rénovation de cuisines et de salles de bains"
+],
+"description": "Le projet consiste principalement à\nreconstruire deux logements existants situés au 15, rue de l’Église, à\nChandler, qui ont été endommagés par un incendie. Les travaux de\ndécontamination et de nettoyage ayant déjà été réalisés, le présent contrat\nporte exclusivement sur les travaux de reconstruction. Ceux-ci comprennent la réfection des finis\net de la cuisine du logement 001, situé au rez-de-chaussée, ainsi que la\nreconstruction complète du logement 005, situé à l’étage. Des interventions\nsont également prévues dans le corridor et les espaces adjacents touchés par le\nsinistre, notamment aux soffites, aux luminaires, aux portes et à l’isolation,\nainsi que les travaux de finition et de ragréage requis. Le contrat comprend également les travaux\nconnexes de plomberie, de mécanique et d’électricité nécessaires à la\nreconstruction et à la remise en service des logements.\nLes autres logements de l’immeuble\ndemeureront occupés pendant les travaux. L’entrepreneur devra donc planifier et\ncoordonner ses interventions de façon à assurer le maintien des accès, des\nissues et des services, tout en préservant la sécurité des occupants et le bon\nfonctionnement de l’immeuble pendant toute la durée du chantier.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3de1f948-3b18-4a90-9d34-8d1427c1542d",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-20 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "430, avenue du Domaine Chandler QC CAN G0C1K0",
+"ouverture": "2026-11-20 10:00 Heure légale du Québec",
+"adresseOuverture": "430, avenue du Domaine Chandler QC CAN G0C1K0"
+},
+"conditions": [
+"Conditions de conformité et autres conditions"
+],
+"vuLe": "2026-11-02T15:38",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"reconstruction",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"reconstruction",
+"réfection",
+"rénovation",
+"logement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"reconstruction",
+"réfection",
+"rénovation",
+"logement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"logement",
+"reconstruction",
+"réfection",
+"rénovation"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à reconstruire deux logements endommagés par un incendie, incluant la réfection des finis et de la cuisine d'un logement et la reconstruction complète d'un autre. Des interventions sont prévues sur les soffites, les portes et l'isolation.",
+"pointsAttention": [
+"milieu occupé"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de reconstruction et de réfection qui impliquent des éléments de maçonnerie et de menuiserie (portes, soffites), ce qui est pertinent pour l'entreprise.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-20"
+},
+{
+"id": "6a53de86-cf13-4b6b-a2d2-ad1bdecb9450",
+"numero": "BLA26-04117 A.O.T.",
+"titre": "Remplacement drain français URGENT (1040B)",
+"organisme": "Centre de Services des Offices d'Habitation de Lanaudière",
+"regions": [
+"Montréal",
+"Laval",
+"Lanaudière",
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-11-20T08:00",
+"publie": "2026-11-03T08:19",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72101504 - Services en matière de sinistre et de prévention des sinistres",
+"72101510 - Maintenance ou réparation de la plomberie",
+"72152700 - Pose et réparation de béton",
+"72152705 - Pose de trottoirs et de rampes"
+],
+"description": "AVIS DE PROCÉDURE OUVERTE\nServices d’entrepreneur\nPROJET :\nTERR23-09072Remplacer chauffe-eau\npar 100g (770 Piché)\nPROPRIÉTAIRE :\nOffice\nmunicipal d'habitation de la Rive-Nord\n1309 bl. des\nSeigneurs, suite 101, Terrebonne, QuébecJ6W 5B1\nIsabelle Couture, (450) 471-9424\n· Description \nL’ Office municipal d'habitation de la Rive-Nord\nsollicite des soumissions pour la réalisation du projet Remplacer\nchauffe-eau par 100g (770 Piché) situé au 770, rue Piché, Terrebonne.\n· Conditions \nSeules sont admissibles\nles soumissions d’entrepreneurs ayant leur principale place d’affaires au\nQuébec ou, lorsqu’un accord intergouvernemental est applicable, au Québec ou dans\nune province ou un territoire visé par cet accord et qui possèdent la licence\nrequise en vertu de la Loi sur le Bâtiment (L.R.Q., c. B-1.1). \nLes soumissions\ndoivent, obligatoirement, être préparées sur les formulaires fournis dans les\ndocuments de soumission.\nDe plus, le\nsoumissionnaire ne doit pas avoir fait l’objet d’un rapport de rendement\ninsatisfaisant émis par l’Office municipal d'habitation de la Rive-Nord relativement à un contrat antérieur au\ncours des deux (2) années précédant la date d’ouverture des soumissions\nconformément à la Loi sur les contrats des organismes municipaux (chapitre\nC-65.01).\nLes soumissionnaires\nsont responsables du choix des sous-traitants, tant pour leur solvabilité que\npour le contenu de leur soumission.\n· Dépôt des soumissions \nLes soumissions seront\nreçues, au Centre de Services des\nOffices d’Habitation de Lanaudière situé au 1309, boulevard des Seigneurs,\nsuite 101 à Terrebonne (Québec) J6W 5B1,\njusqu’à 10:00:00 AM le 2023 07 \n10. Les soumissions peuvent alternativement être\ntransmises par voie électronique. Cette transmission ne peut s’effectuer que\npar l’intermédiaire du SEAO et conformément à la procédure prescrite par\ncelui-ci.\n· Documents de soumissions \nLes documents de\nsoumission sont disponibles sur le site du SEAO à l’adresse www.seao.gouv.qc.ca. Les soumissionnaires\nobtiendront tous les renseignements administratifs en s’adressant au Gabriel\nFrédérick chargé(e) de projet à\nl’adresse courriel suivante : coordocs@omhrn.com.\n· Visite des lieux \nIl n’y a pas de visite\ndes lieux obligatoire organisée par le maître de l’ouvrage. Le soumissionnaire doit lui-même effectuer\ncette visite afin de se rendre compte personnellement de l’ampleur des travaux.\nS’il doit obtenir des accès à des installations intérieures, il devra en faire\nla demande écrite au représentant du maître de l’ouvrage au moins 48 heures à\nl’avance et conformément aux directives dans le document d’appel d’offres.\nLe « Propriétaire » ne s’engage à\naccepter ni la plus basse ni aucune des soumissions reçues sans encourir aucune\nobligation et aucuns frais d’aucune sorte envers le ou les soumissionnaires.\nDonné à Terrebonne, ce\n3 novembre 2026\nGabriel Frédérick\nChargé(e)\nde projet",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6a53de86-cf13-4b6b-a2d2-ad1bdecb9450",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-20 Au plus tard 08:00 Heure légale du Québec",
+"adresseDepot": "1309, boul. des Seigneurs, bureau 101 Terrebonne QC CAN J6W5B1",
+"ouverture": "2026-11-20 08:00 Heure légale du Québec",
+"adresseOuverture": "1309, boul. des Seigneurs, bureau 101 Terrebonne QC CAN J6W5B1"
+},
+"conditions": [],
+"vuLe": "2026-11-03T13:15",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un chauffe-eau par un modèle à 100g pour un logement. Le montant estimé n'est pas publié.",
+"pointsAttention": [
+"Visite obligatoire (le soumissionnaire doit la faire lui-même)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est purement lié à la plomberie/rénovation d'équipement et n'implique ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-20"
 }
 ]
