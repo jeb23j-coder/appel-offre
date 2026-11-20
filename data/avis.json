@@ -35858,7 +35858,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Ce projet concerne l'assainissement des systèmes de ventilation, incluant le nettoyage des conduits, des systèmes de ventilation, des évacuateurs et des plinthes chauffantes pour l'école secondaire du Chêne-Bleu.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur la ventilation et le nettoyage, ce qui n'est pas dans le domaine principal de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1d985874-c0d6-4a91-9223-aad422f753c0",
@@ -35918,7 +35930,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Le contrat concerne la démolition et le remplacement des portes et autres travaux connexes des gares Cedar Park, Pointe-Claire et Valois.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le remplacement de portes et non les métiers ciblés (maçonnerie ou charpenterie/menuiserie).",
+"version": 3
+}
 },
 {
 "id": "201a525d-73e2-4b02-8301-6632505d06f4",
@@ -36005,7 +36029,20 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 60,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne des travaux correctifs sur les murs et les dommages causés par des infiltrations d'eau à la toiture du siège social. Les travaux visent à réparer les dommages et à préserver l'intégrité de l'enveloppe du bâtiment.",
+"pointsAttention": [
+"délai court (2 mois)",
+"visite obligatoire"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat implique des travaux de réfection des murs et de réparation des dommages à l'enveloppe du bâtiment, ce qui correspond à l'intérêt principal de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "merx-4147424304",
