@@ -17034,7 +17034,18 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-05"
+"fermeLe": "2026-11-05",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T14:23",
+"soumissions": [
+{
+"nom": "ATMOSPHÄRE INC.",
+"montant": 370860.65
+}
+]
+}
 },
 {
 "id": "591e9454-2d87-4df2-bfa1-52a5d911d5af",
@@ -27960,7 +27971,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-17"
+"fermeLe": "2026-11-17",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T16:41",
+"soumissions": [
+{
+"nom": "COFFRAGE ALLIANCE LTÉE",
+"montant": 5987000.0
+},
+{
+"nom": "Coffrages Synergy",
+"montant": 8100000.0
+}
+]
+}
 },
 {
 "id": "e6cd0fdd-42aa-4d00-b650-4158d78cc86e",
@@ -28409,7 +28435,42 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T15:39",
+"soumissions": [
+{
+"nom": "LES COUVERTURES ST-LÉONARD INC.",
+"montant": 130300.0
+},
+{
+"nom": "TOITURES LEON INC.",
+"montant": 1134975.0
+},
+{
+"nom": "COUVERTURE MONTRÉAL-NORD LTÉE",
+"montant": 1157990.0
+},
+{
+"nom": "TOITURES TROIS ÉTOILES INC.",
+"montant": 1197227.0
+},
+{
+"nom": "LES ENTREPRISES CLOUTIER & GAGNON (1988) LTÉE",
+"montant": 1282962.0
+},
+{
+"nom": "Toiture Perreault Inc.",
+"montant": 1302250.0
+},
+{
+"nom": "J. Raymond et Fils Inc.",
+"montant": 1323424.0
+}
+]
+}
 },
 {
 "id": "8726725b-60fa-4885-bdaf-4713d9b1fed0",
@@ -29972,7 +30033,18 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T08:32",
+"soumissions": [
+{
+"nom": "AMIANTEK ISOLATION INC.",
+"montant": 389243.33
+}
+]
+}
 },
 {
 "id": "f08599a5-16b2-4304-bf65-4effe4fce978",
@@ -30135,7 +30207,38 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": "347 400 $ à 367 999 $",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T15:09",
+"soumissions": [
+{
+"nom": "LES ENTREPRISES CLOUTIER & GAGNON (1988) LTÉE",
+"montant": 414290.0
+},
+{
+"nom": "COUVERTURES VICTO",
+"montant": 448000.0
+},
+{
+"nom": "TOITURES DURATEK INC.",
+"montant": 510000.0
+},
+{
+"nom": "Les Couvreurs Duro-Toit Inc.",
+"montant": 518250.0
+},
+{
+"nom": "LES COUVERTURES ST-LÉONARD INC.",
+"montant": 580700.0
+},
+{
+"nom": "TOITURE ALPHA",
+"montant": 613000.0
+}
+]
+}
 },
 {
 "id": "cd182774-99a7-4ab4-8019-8a449b29e266",
@@ -31453,7 +31556,37 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T11:17",
+"soumissions": [
+{
+"nom": "CONSTRUCTION IRÉNÉE PAQUET & FILS INC.",
+"montant": 221490.28
+},
+{
+"nom": "CONSTRUCTION DENIS & GHYSLAINE GAGNON INC.",
+"montant": 223051.5
+},
+{
+"nom": "CONSTRUCTION JULIEN DALPÉ INC.",
+"montant": 228632.41
+},
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 237423.38
+},
+{
+"nom": "DEROC CONSTRUCTION INC.",
+"montant": 260418.38
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 489678.53
+}
+]
+}
 },
 {
 "id": "bf6d9884-4136-4986-9dc1-76e75c9e088f",
@@ -31843,6 +31976,195 @@
 "mode": "Aucun",
 "raison": "Le projet est purement lié à la plomberie/rénovation d'équipement et n'implique ni maçonnerie ni charpenterie/menuiserie.",
 "version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-20"
+},
+{
+"id": "9fd2810e-d859-4588-92c1-2d82d37722f7",
+"numero": "S24-001",
+"titre": "Réfection de la maçonnerie de brique et de pierre et remplacement des portes et fenêtres de la façade – Résidence Henri-Martin, 1158, ave. de Bourlamaque, QC",
+"organisme": "Office municipal d'habitation de Québec - Société municipale d'habitation Champlain",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"brique",
+"bâtiment",
+"façade",
+"fenêtre",
+"maconnerie",
+"maçonnerie",
+"pierre",
+"portes et fenêtres",
+"réfection"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-11-17T14:00",
+"publie": "2026-10-20T13:10",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
+"72151900 - Maçonnerie",
+"72151903 - Briquetage"
+],
+"description": "PROJET :\nS24-001\nNOM DU PROJET : Réfection de la maçonnerie de\nbrique et de pierre et remplacement des portes et fenêtres de la façade –\nRésidence Henri-Martin\nAVIS\nPUBLIC est, par la présente, donné\nque des offres déposées cachetées, scellées et adressées au : \nDirecteur général \nOffice municipal d’habitation de Québec\n110, rue de Courcelette\nQuébec, Québec \nG1N 4T4\nSeront reçues jusqu'à 14h00 heure locale en vigueur,\nle mardi, 17 novembre 2026 pour être ouvertes au même endroit, le même\njour et à la même heure. \nLes intéressés pourront obtenir les documents de soumission\nau Service électronique d’appels d’offres (SEAO) en communiquant avec l’un des\nreprésentants par téléphone au numéro 1 866 669-7326 ou en consultant le site\nWeb à l’adresse (http://www.seao.ca/). Les documents peuvent être obtenus au\ncoût établi par SEAO. \nSont autorisées à présenter des offres, les entreprises\nayant leur siège social au Québec ainsi que toute autre entreprise qui respecte\nles accords de libération des marchés publics établis par le gouvernement du\nQuébec. Les entreprises québécoises devront posséder une licence émise par la\nRégie du bâtiment du Québec, selon la Loi sur le bâtiment (RLRQ,\nchapitre. B-1.1), couvrant les travaux requis. Cette licence devra être valide\nau moment du dépôt de la soumission. \nLes\nsoumissions devront être accompagnées d’une garantie de soumission, sous la\nforme d’un cautionnement de soumission d’un montant égal à dix pour cent (10 %)\ndu montant de la soumission présentée, valide pour une période de quatre-vingt-dix\n(90) jours(selon le cas) et libellée à l’ordre ou en faveur de l’Office\nmunicipal d’habitation de Québec. \nLes soumissionnaires seront responsables du choix des\nsous-traitants tant pour leur solvabilité que pour le contenu de leur\nsoumission et devront s’assurer qu’ils détiennent les licences et permis\nrequis. \nL’office municipal d’habitation\nde Québecne s'engage à accepter ni la\nplus basse soumission ni aucune des soumissions reçues. \nPour toute information :\nFrançois\nFortier, Chargé de projet\nOffice\nmunicipal d’habitation de Québec\nTéléphone\n: 418-571-6916 \nCourriel :\nfrancois.fortier@omhq.qc.ca\nDonné\nà Québec le mardi, 20 octobre 2026\nDany\nCaron,\nDirecteur\ngénéral",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=9fd2810e-d859-4588-92c1-2d82d37722f7",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 100,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection de la maçonnerie de brique et de pierre ainsi que le remplacement des portes et fenêtres de la façade d'une résidence. Le projet est estimé à une durée de 8 mois.",
+"pointsAttention": [
+"Licence de la Régie du bâtiment du Québec requise et valide.",
+"Garantie de soumission de 10% du montant de la soumission, valide pour 90 jours."
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est centré sur la maçonnerie (brique et pierre) et la rénovation de façade, ce qui correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"pierre",
+"maconnerie",
+"façade",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"pierre",
+"maconnerie",
+"façade",
+"réfection",
+"portes et fenêtres",
+"fenêtre",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"brique",
+"pierre",
+"maconnerie",
+"façade",
+"réfection",
+"portes et fenêtres",
+"fenêtre",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-20"
+},
+{
+"id": "ed454b56-ad97-4291-b6ef-bd518f6f5f83",
+"numero": "25-2167",
+"titre": "Travaux de mise à niveau - Théâtre Prospero",
+"organisme": "Théâtre Prospero",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-11-06T17:00",
+"publie": "2026-10-14T08:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"95000000 - Terrains, bâtiments, constructions et voies de communication"
+],
+"description": "Le Théâtre Prospero sollicite des soumissions d'entrepreneurs généraux pour la réalisation de travaux de mise à niveau et de rénovation intérieure et extérieure de son bâtiment à Montréal. Les travaux comprennent les interventions prévues aux plans et devis ainsi que la coordination requise avec les équipements et interventions connexes. Le contrat sera conclu à prix forfaitaire.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=ed454b56-ad97-4291-b6ef-bd518f6f5f83",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de mise à niveau et de rénovation intérieure et extérieure d'un bâtiment de théâtre à Montréal. Les travaux nécessitent une coordination avec des équipements et interventions connexes.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour des travaux de rénovation intérieure et extérieure d'un bâtiment, ce qui peut inclure des lots de maçonnerie ou de charpenterie, mais il est adressé aux entrepreneurs généraux.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-20"
