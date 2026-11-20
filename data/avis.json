@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-19T17:36",
+"date": "2026-11-19T20:02",
 "seaoLus": 412,
 "retenus": 415,
-"nouveaux": 9,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -35435,7 +35435,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35510,7 +35510,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35584,7 +35584,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35671,7 +35671,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35756,7 +35756,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35855,7 +35855,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -35941,7 +35941,7 @@
 "pierre"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
@@ -36032,7 +36032,7 @@
 "agrandissement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36113,7 +36113,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -64378,7 +64378,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T15:01",
+"soumissions": [
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 464400.0
+},
+{
+"nom": "MÉCANIQUE NORTHERM INC.",
+"montant": 516615.0
+},
+{
+"nom": "NÉVÉ RÉFRIGÉRATION INC.",
+"montant": 547200.0
+},
+{
+"nom": "MÉCANICACTION INC.",
+"montant": 587130.0
+},
+{
+"nom": "Tuyauterie Expert inc",
+"montant": 691691.0
+}
+]
+}
 },
 {
 "id": "c2f4c6fc-9848-4692-8bac-ca7e5ce514a4",
@@ -65839,7 +65866,30 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-18"
+"fermeLe": "2026-11-18",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-18T16:26",
+"soumissions": [
+{
+"nom": "Équipe SG inc.",
+"montant": 150500.0
+},
+{
+"nom": "PLOMBERIE C.R.T. THERRIEN INC.",
+"montant": 179969.0
+},
+{
+"nom": "Laroche mécanique du bâtiment inc.",
+"montant": 196700.0
+},
+{
+"nom": "RAOUL BEAULIEU INC.",
+"montant": 232000.0
+}
+]
+}
 },
 {
 "id": "2d93f14f-6296-455e-962e-d60b27a25bbe",
@@ -67406,7 +67456,41 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T15:18",
+"soumissions": [
+{
+"nom": "9496-1687 Québec inc.",
+"montant": 629888.0
+},
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 639000.0
+},
+{
+"nom": "Concept P.V.R. Inc.",
+"montant": 659064.0
+},
+{
+"nom": "PINCOR LTÉE",
+"montant": 662131.23
+},
+{
+"nom": "XO Construction Inc.",
+"montant": 685880.0
+},
+{
+"nom": "ARDEC CONSTRUCTION INC.",
+"montant": 722000.0
+},
+{
+"nom": "Les Entreprises Drouin",
+"montant": 828606.65
+}
+]
+}
 },
 {
 "id": "67247ed6-9d1d-40d0-883c-b33e528b5338",
