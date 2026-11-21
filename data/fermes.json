@@ -31246,7 +31246,21 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-19T14:55",
+"soumissions": [
+{
+"nom": "CTI ISOLATION / 9182-5349 Québec inc",
+"montant": 27880.0
+},
+{
+"nom": "9211-5666 QUÉBEC INC.",
+"montant": 41699.18
+}
+]
+}
 },
 {
 "id": "009a95fe-8a4e-4700-8eac-3baa22457fb6",
@@ -31887,7 +31901,29 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-20"
+"fermeLe": "2026-11-20",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T13:49",
+"soumissions": [
+{
+"nom": "MFT & Fils inc.",
+"montant": 261683.1
+},
+{
+"nom": "N. & R. DUGUAY CONSTRUCTION INC.",
+"montant": 263867.63
+},
+{
+"nom": "9253-0500 QUÉBEC INC.",
+"montant": 273255.33
+},
+{
+"nom": "9248-7933 Québec inc. ",
+"montant": 387465.75
+}
+]
+}
 },
 {
 "id": "6a53de86-cf13-4b6b-a2d2-ad1bdecb9450",
@@ -31978,7 +32014,37 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-20"
+"fermeLe": "2026-11-20",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-20T08:40",
+"soumissions": [
+{
+"nom": "MGB ASSOCIÉS INC.",
+"montant": 194882.63
+},
+{
+"nom": "DEROC CONSTRUCTION INC.",
+"montant": 245586.6
+},
+{
+"nom": "CONSTRUCTION DENIS & GHYSLAINE GAGNON INC.",
+"montant": 256969.12
+},
+{
+"nom": "ROGER BISSON INC.",
+"montant": 297766.85
+},
+{
+"nom": "Les Industries DG Inc.",
+"montant": 385971.07
+},
+{
+"nom": "Construction NCP",
+"montant": 446103.0
+}
+]
+}
 },
 {
 "id": "9fd2810e-d859-4588-92c1-2d82d37722f7",
