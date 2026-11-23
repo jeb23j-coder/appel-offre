@@ -36220,7 +36220,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture et l'installation d'un nouveau système de ventilation pour un gymnase et une école. Les travaux incluent la construction, les installations mécaniques, électriques et les échafaudages.",
+"pointsAttention": [
+"délai de 8 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la ventilation et les systèmes CVC, et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "9187749a-8774-4566-9d40-0daf88db53d0",
@@ -36284,7 +36296,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à relocaliser et à mettre à niveau l'entrée électrique principale de l'École de Ramezay – Édifice Fatima, incluant le démantèlement des équipements existants et l'installation d'une nouvelle entrée électrique.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne l'électricité et les infrastructures, ce qui n'est pas dans les domaines de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "feb72c28-3602-4d7c-9158-9bfcf97e6ab4",
@@ -36356,7 +36381,19 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de mise à niveau et de modernisation de l'entrée électrique du pavillon des Internes de l'Hôpital Maisonneuve-Rosemont. Le projet vise à renouveler et moderniser les installations électriques.",
+"pointsAttention": [
+"Délai de réalisation des travaux : Trente (30) semaines"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est entièrement axé sur les travaux électriques et ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "cdfecf81-6e42-41e9-933b-3b2b61faf062",
@@ -36431,7 +36468,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne des travaux de sécurisation et de rénovation aux foyers du Centre jeunesse de Chicoutimi. Les travaux principaux mentionnent la menuiserie générale, l'électricité et le plâtrage/peinture.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est un projet de rénovation où la menuiserie est mentionnée, mais il est dominé par l'électricité et le plâtrage, nécessitant une vérification de la part de l'entrepreneur général.",
+"version": 3
+}
 },
 {
 "id": "c0faa9f5-591b-4f48-9859-11698a194925",
@@ -36520,7 +36569,20 @@
 "maçonnerie"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 100,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à fournir et installer des murs de blocs de maçonnerie pour les pavillons A, E, L et N de l'Université McGill. La durée prévue du projet est de 30 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat concerne directement la maçonnerie de blocs de béton, ce qui est au cœur des compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "d40ad4dd-99ea-4a35-9a86-9530e15ed6b9",
@@ -36585,7 +36647,21 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un appel d'offres pour la réalisation de divers travaux de construction pour divers immeubles dans la région administrative de la Capitale-Nationale. Le montant estimé est de 4 500 000 $ et la durée prévue est de 24 mois.",
+"pointsAttention": [
+"Contrat à exécution sur demande",
+"Montant estimé : 4 500 000 $",
+"Durée prévue : 24 mois"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour un entrepreneur général, ce qui signifie que les travaux de maçonnerie ou de charpenterie pourraient être un lot à soumissionner, mais l'avis ne spécifie pas si l'entreprise peut soumissionner directement pour ces corps de métier spécifiques.",
+"version": 3
+}
 },
 {
 "id": "d7291ecf-c2db-4c44-89ea-1610596557b6",
@@ -36673,7 +36749,21 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Le projet consiste à réaménager un secteur du pavillon des Sciences biologiques pour créer un laboratoire d'enseignement spécialisé. Les travaux incluent la démolition de cloisons, le remplacement des finis de plancher, la réfection des plafonds, et des travaux connexes.",
+"pointsAttention": [
+"Le bâtiment est en occupation et les usagers poursuivront leurs activités durant tout le temps des travaux.",
+"L'Entrepreneur devra agir de façon à minimiser les inconvénients aux usagers et au personnel.",
+"L'Entrepreneur devra s’assurer que les usagers auront accès aux locaux et aux aménagements dans un climat sécuritaire, salubre et sans discontinuité."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne des travaux de construction/rénovation de bâtiment, mais le cœur n'est pas la maçonnerie ou la charpenterie, il s'agit davantage de travaux d'aménagement intérieur et de démolition de cloisons.",
+"version": 3
+}
 },
 {
 "id": "0be27d03-9b6d-4a2a-9247-e7c15f512952",
@@ -36751,7 +36841,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la réfection des entrées du Bureau Forestville. Le montant estimé est de 275 000 $ et la durée prévue est de 4 mois.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne la réfection d'entrées, ce qui peut impliquer des travaux de maçonnerie ou de menuiserie, mais la description sommaire n'est pas suffisamment détaillée pour confirmer que ces métiers sont le cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
