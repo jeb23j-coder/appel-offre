@@ -36929,7 +36929,20 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 70,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne l'agrandissement d'un garage municipal. La durée prévue des travaux est estimée à 9 mois.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai de soumission fixé au 10 décembre 2026"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment où les métiers de la maçonnerie et de la charpenterie/menuiserie sont très probables, ce qui correspond à l'intérêt de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "fdbff2ab-0ecd-403b-8bdd-afec66ba9546",
@@ -37009,7 +37022,21 @@
 "maçonnerie"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 30,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un ascenseur. Les travaux comprennent la démolition sélective, les travaux de structure, de maçonnerie, de portes et de revêtements architecturaux, ainsi que l'électricité.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le cœur du contrat n'est pas la maçonnerie ou la charpenterie, mais le remplacement d'un ascenseur.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
