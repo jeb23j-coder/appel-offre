@@ -36758,7 +36758,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement de locaux de classes et l'intégration de nouveaux locaux connexes dans une école existante. Les travaux incluent la démolition et construction de portes-cadres, cloisons, finis de plancher et plafonds.",
+"pointsAttention": [
+"délai court (3 mois)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet concerne la construction de cloisons et finis intérieurs, ce qui touche à la menuiserie/finition intérieure, mais le cœur du contrat n'est pas la maçonnerie ou la charpenterie principale.",
+"version": 3
+}
 },
 {
 "id": "627a0b47-0a7f-4bf3-b6d9-fad59ca37675",
@@ -36841,7 +36853,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 40,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection de trois salons dans un CHSLD, incluant la démolition de finis existants, des travaux de plomberie, d'électricité, de ventilation, la réfection des finis intérieurs des murs, des planchers et des plafonds, ainsi que de l'ébénisterie.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur la rénovation intérieure et les corps de métier concernés (plomberie, électricité, ébénisterie) ne correspondent pas aux priorités de la maçonnerie/charpenterie.",
+"version": 3
+}
 },
 {
 "id": "a4d9abc0-8158-44bf-90bb-b286b233a7ac",
@@ -36914,7 +36938,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "Il s'agit d'un contrat d'exécution sur demande pour des travaux d'encapsulage dans diverses écoles et centres du CSSDN. La durée prévue est de 12 mois et le montant estimé est de 750 000 $.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne des travaux dans des bâtiments scolaires, ce qui peut inclure des éléments de maçonnerie ou de charpenterie, mais le rôle principal est celui de l'entrepreneur général.",
+"version": 3
+}
 },
 {
 "id": "73217798-37ee-4ee9-8807-54930d2914ec",
@@ -36979,7 +37015,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de revêtement de plancher dans 19 chambres au sein du CHSLD Providence. La durée prévue est de 7 mois.",
+"pointsAttention": [
+"non précisé sur l'avis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne le revêtement de plancher et n'inclut ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "aefcf6be-cd3f-440e-874f-1da2da2d1550",
@@ -37045,7 +37093,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Cet appel d'offres concerne la fourniture de matériaux, quincaillerie, équipements et main-d'œuvre pour les travaux de revêtement métallique pour l'Hôtel du Casino de Montréal. Les travaux incluent le bardage, la tôlerie, le revêtement, le calfeutrage, l'étanchéité et l'ignifugeage.",
+"pointsAttention": [
+"Visite de chantier obligatoire le 3 décembre 2026",
+"Délai de soumission strict (21 janvier 2027, 14h00)"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne spécifiquement le revêtement métallique et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
