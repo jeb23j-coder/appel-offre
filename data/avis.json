@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-23T21:01",
+"date": "2026-11-23T23:12",
 "seaoLus": 420,
 "retenus": 422,
-"nouveaux": 2,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -36929,7 +36929,7 @@
 "garage"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 70,
 "type": "Bâtiment (nos métiers en partie)",
@@ -37022,7 +37022,7 @@
 "maçonnerie"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 30,
 "type": "Hors sujet",
