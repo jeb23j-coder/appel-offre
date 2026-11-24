@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-24T16:02",
-"seaoLus": 415,
-"retenus": 417,
-"nouveaux": 12,
+"date": "2026-11-24T18:47",
+"seaoLus": 420,
+"retenus": 422,
+"nouveaux": 5,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -35654,7 +35654,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -35756,7 +35756,7 @@
 "parement"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 75,
 "type": "Maçonnerie",
@@ -35856,7 +35856,7 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -35945,7 +35945,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -36037,7 +36037,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36141,7 +36141,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 85,
 "type": "Maçonnerie",
@@ -36221,7 +36221,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -36307,7 +36307,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36382,7 +36382,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36501,7 +36501,7 @@
 "revêtement extérieur"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 75,
 "type": "Maçonnerie",
@@ -36578,7 +36578,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36667,7 +36667,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -36680,6 +36680,372 @@
 "raison": "Le projet est axé sur l'efficacité énergétique et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie comme cœur du contrat.",
 "version": 3
 }
+},
+{
+"id": "fec67cea-b9aa-4f09-ab72-ceed987a6758",
+"numero": "AO261016-30",
+"titre": "La Source_ Aménagement de classes EHDAA - Phase 2",
+"organisme": "Centre de services scolaire des Navigateurs",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, 10%",
+"estimation": 417966,
+"dureeMois": "3",
+"surDemande": false,
+"fermeture": "2026-12-10T14:30",
+"publie": "2026-11-24T17:23",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Le C.S.S. des Navigateurs demande des soumissions pour le\nréaménagement de locaux de classes et l'intégration de nouveaux locaux connexes\ndans une école existante. Les travaux incluent:\n· \nDémolition\net construction de portes-cadres-quincaillerie, cloisons, finis de plancher,\nplafonds.\n· \nDémolition\net ajout de finis muraux\n· \nReconfiguration\ndu système d'alimentation et de retour en fonction des nouveaux aménagements\n· \nNouveaux\nappareils d'éclairage et alimentation et nouvelles prises électriques et reseau\n· \nRaccord\nau panneau électrique principal\n· \nAjout\n/ reprogrammation en régulation\n· \nInterventions\nen protection incendie",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fec67cea-b9aa-4f09-ab72-ceed987a6758",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 14:30 Heure légale du Québec",
+"adresseDepot": "1860, 1re Rue Lévis QC CAN G6W5M6",
+"ouverture": "2026-12-10 14:45 Heure légale du Québec",
+"adresseOuverture": "1860, 1re Rue Lévis QC CAN G6W5M6"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-24T18:45",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"cloison",
+"construction d",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"cloison",
+"construction d",
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"cloison",
+"construction d",
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "627a0b47-0a7f-4bf3-b6d9-fad59ca37675",
+"numero": "AOP-PNDLRFM2022202301",
+"titre": "Amélioration de l'environnement physique-Réfection des salons",
+"organisme": "CHSLD Providence Notre-Dame de Lourdes",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-12-18T12:00",
+"publie": "2026-11-24T16:57",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72101510 - Maintenance ou réparation de la plomberie",
+"72151501 - Installation d’éclairage",
+"72152001 - Installation et réparation de cloisons sèches",
+"72152302 - Menuiserie de finition",
+"72152506 - Pose de revêtements de sol souples"
+],
+"description": "Travaux de réfection de trois salons des usagers (démolition des finis existants, travaux de plomberie, électricité, ventilation, réfection des finis intérieurs murs, planchers et plafonds, ébénisterie).",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=627a0b47-0a7f-4bf3-b6d9-fad59ca37675",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-18 Au plus tard 12:00 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-24T18:45",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "a4d9abc0-8158-44bf-90bb-b286b233a7ac",
+"numero": "AO261104-43",
+"titre": "SRM_Services d'un entrepreneur général pour des travaux d'encapsulage_Exécution sur demande",
+"organisme": "Centre de services scolaire des Navigateurs",
+"regions": [
+"Chaudière-Appalaches"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 750000,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2026-12-10T13:30",
+"publie": "2026-11-24T16:49",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Services d'un entrepreneur général pour des travaux d'encapsulage dans diverses écoles et centre sur le territoire du CSSDN. Il s'agit d'un contrat à exécution sur demande.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=a4d9abc0-8158-44bf-90bb-b286b233a7ac",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 13:30 Heure légale du Québec",
+"adresseDepot": "1860, 1re Rue Lévis QC CAN G6W5M6",
+"ouverture": "2026-12-10 13:45 Heure légale du Québec",
+"adresseOuverture": "1860, 1re Rue Lévis QC CAN G6W5M6"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-24T18:45",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"école"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "73217798-37ee-4ee9-8807-54930d2914ec",
+"numero": "2026AOP-PSJ-200172-132605",
+"titre": "Aménagement du secteur Est - Couvre plancher (Phase 2",
+"organisme": "CHSLD Providence - Saint-Joseph inc.",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-12-15T12:00",
+"publie": "2026-11-24T16:21",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152506 - Pose de revêtements de sol souples"
+],
+"description": "Travaux de remplacement de revêtement de plancher dans 19 chambres.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=73217798-37ee-4ee9-8807-54930d2914ec",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-15 Au plus tard 12:00 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales.",
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-11-24T18:45",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "aefcf6be-cd3f-440e-874f-1da2da2d1550",
+"numero": "AOP_HCM_Lot 6022",
+"titre": "Revêtement  Métallique - LOT 6022 - Hôtel du Casino de Montréal",
+"organisme": "Casiloc inc",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, · Inclure à sa Soumission : \n- \nUn\ncautionnement de Soumission émis par une entreprise détenant un permis\nd’assureur au Canada et légalement habilitée à se porter caution au Québec pour\nun montant s’élevant à 10 % du montant total de la Soumission, en faveur de\nCasiloc inc. et valide pour 45 jours (Voir modèle Section E);\n- \nUne\nconvention relative à l’émission d’un cautionnement d’exécution émise par une\nentreprise détenant un permis d’assureur au Canada et légalement habilitée à se\nporter caution au Québec pour un montant s’élevant à 50 % du montant total de\nla Soumission, en faveur de Casiloc inc.; et (Voir modèle Section E);\n- \nUne\nconvention relative à l’émission d’un cautionnement des obligations de l’Adjudicataire,\npour gages, matériaux et services, émise par une entreprise détenant un permis\nd’assureur au Canada et légalement habilitée à se porter caution au Québec pour\nun montant s’élevant à 50 % du montant total de la Soumission, en faveur de\nCasiloc inc. (Voir modèle Section E);",
+"estimation": null,
+"dureeMois": "13",
+"surDemande": false,
+"fermeture": "2027-01-21T14:00",
+"publie": "2026-11-24T16:20",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72152600 - Couverture, bardage et tôlerie",
+"72152606 - Pose et réparation de bardages",
+"72153200 - Revêtement, calfeutrage, étanchéité et ignifugeage",
+"72153202 - Revêtement de structures métalliques"
+],
+"description": "Le 24 novembre 2026\nAPPEL\nDE SOUMISSIONS no 6022 \nDate de dépôt des Soumissions : jeudi le 21 janvier 2027, à 14h00, heure locale\nVisite de chantier : jeudi le 3 décembre 2026, à 9h00, heure locale\nBonjour,\nÀ l’attention des Soumissionnaires,\nLe présent Appel de Soumissions vise à fournir tous les\nmatériaux, quincaillerie, équipements et main-d’œuvre requis pour la\nréalisation des travaux de revêtement métallique pour le projet de l’Hôtel au Casino de\nMontréal.\nREVÊTEMENT MÉTALLIQUE\n/ LOT 6022\nVous êtes invités à\nprésenter une Soumission qui devra être reçueau\nplus tard le jeudi 21 janvier 2027, avant 14h00, heure locale, par voie électronique\net ne peut être effectuée que par l’intermédiaire du système électronique\nd’appel de Soumissions du gouvernement du Québec (SEAO), à l’adresse\nsuivante : www.seao.gouv.qc.ca\nLa Soumission doit être déposée (chiffrée,\ntransmise, horodatée et sauvegardée sur les serveurs du SEAO) avant le jeudi 21 janvier 2027, à 14h00, heure locale.\nToutes les conditions de\ncet Appel de Soumissions sont contenues dans le présent document.\nAucune Soumission reçue après l’heure et la date de clôture ne sera\nacceptée.\nPour être admissible à\nprésenter une Soumission, le Soumissionnaire doit répondre aux critères suivants,\nsans quoi sa Soumission sera automatiquement rejetée :\nAvoir obtenu le document d'appel de Soumissions via le système\nélectronique d’appel d’offres du gouvernement du Québec « SEAO », à\nl’adresse suivante : www.seao.gouv.qc.ca\n· Détenir, lorsque requis en vertu de la Loi\nsur les Contrats des organismes publics (RLRQ, c. C-65.1), une\nautorisation valide de l’Autorité des marchés publics (AMP) de contracter ou de\nsous-contracter avec un organisme public, laquelle doit indiquer la période de\nvalidité. Pour plus de détails, consultez la clause « Autorisation de\nl’Autorité des marchés publics » du présent document d’Appel de Soumissions;\n· Si[VG2] le\nSoumissionnaire ne détient pas une autorisation valide de l’Autorité des\nmarchés publics (AMP) de contracter ou de sous-contracter avec un organisme\npublic, le fait de ne pas signer la déclaration d’intégrité se trouvant dans le\nformulaire « Déclaration et Engagement »\nde la section E – Bordereau de Soumission au moment du dépôt de sa\nSoumission, entraînera le rejet automatique de sa Soumission;\n· Si le Soumissionnaire ne détient pas une\nautorisation valide de l’Autorité des marchés publics (AMP) de contracter ou de\nsous-contracter avec un organisme public, le fait de ne pas signer la\ndéclaration d’intégrité se trouvant dans le formulaire « Déclaration\net Engagement » de la section E – Bordereau de Soumission au\nmoment du dépôt de sa Soumission, entraînera le rejet automatique de sa\nSoumission;\n· Détenir une Attestation de Revenu Québec\nvalide, laquelle ne doit pas avoir été délivrée après la date et l’heure de\nclôture du présent Appel de Soumissions. À défaut de détenir une telle\nattestation, le Soumissionnaire doit fournir le formulaire « Attestation relative à l’abse",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=aefcf6be-cd3f-440e-874f-1da2da2d1550",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2027-01-21 Avant 14:00 Heure légale du Québec",
+"adresseDepot": "500 rue Sherbrooke Ouest 5e étage Montréal QC CAN H3A3C6",
+"ouverture": null,
+"adresseOuverture": "500 rue Sherbrooke Ouest 5e étage Montréal QC CAN H3A3C6"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-24T18:45",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
 },
 {
 "id": "merx-3495149355",
@@ -70359,7 +70725,33 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-23"
+"fermeLe": "2026-11-23",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T12:12",
+"soumissions": [
+{
+"nom": "W BRINDAMOUR INC.",
+"montant": 315780.0
+},
+{
+"nom": "FERBLANTERIE LARO D.C. INC.",
+"montant": 335484.0
+},
+{
+"nom": "EPM Mecanic / 2982897 Canada inc. - Succursale de Québec",
+"montant": 356880.0
+},
+{
+"nom": "GROUPE V.A.T. INC.",
+"montant": 406340.0
+},
+{
+"nom": "BonairSD inc.",
+"montant": 441568.0
+}
+]
+}
 },
 {
 "id": "59121cc9-843f-4ac1-9dc6-53ae0609a710",
@@ -71091,7 +71483,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T16:04",
+"soumissions": [
+{
+"nom": "MP SOLUTIONS INC.",
+"montant": 194888.63
+},
+{
+"nom": "LORD & GAGNON INC.",
+"montant": 199119.86
+}
+]
+}
 },
 {
 "id": "caa547b3-6896-438f-a069-19f94f3ce0d4",

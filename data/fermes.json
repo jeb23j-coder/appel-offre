@@ -33506,7 +33506,33 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-23"
+"fermeLe": "2026-11-23",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T12:12",
+"soumissions": [
+{
+"nom": "W BRINDAMOUR INC.",
+"montant": 315780.0
+},
+{
+"nom": "FERBLANTERIE LARO D.C. INC.",
+"montant": 335484.0
+},
+{
+"nom": "EPM Mecanic / 2982897 Canada inc. - Succursale de Québec",
+"montant": 356880.0
+},
+{
+"nom": "GROUPE V.A.T. INC.",
+"montant": 406340.0
+},
+{
+"nom": "BonairSD inc.",
+"montant": 441568.0
+}
+]
+}
 },
 {
 "id": "59121cc9-843f-4ac1-9dc6-53ae0609a710",
@@ -34238,7 +34264,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T16:04",
+"soumissions": [
+{
+"nom": "MP SOLUTIONS INC.",
+"montant": 194888.63
+},
+{
+"nom": "LORD & GAGNON INC.",
+"montant": 199119.86
+}
+]
+}
 },
 {
 "id": "caa547b3-6896-438f-a069-19f94f3ce0d4",
