@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-23T17:30",
-"seaoLus": 418,
-"retenus": 420,
-"nouveaux": 8,
+"date": "2026-11-23T21:01",
+"seaoLus": 420,
+"retenus": 422,
+"nouveaux": 2,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -36220,7 +36220,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -36296,7 +36296,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36381,7 +36381,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36468,7 +36468,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -36569,7 +36569,7 @@
 "maçonnerie"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 100,
 "type": "Maçonnerie",
@@ -36647,7 +36647,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -36749,7 +36749,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -36841,7 +36841,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Maçonnerie",
@@ -36854,6 +36854,162 @@
 "raison": "Le contrat concerne la réfection d'entrées, ce qui peut impliquer des travaux de maçonnerie ou de menuiserie, mais la description sommaire n'est pas suffisamment détaillée pour confirmer que ces métiers sont le cœur du contrat.",
 "version": 3
 }
+},
+{
+"id": "55e24bad-fcc2-4282-9d41-55831232b046",
+"numero": "STAA-2026-11-01",
+"titre": "Agrandissement du garage municipal",
+"organisme": "Municipalité de Saint-André-Avellin.",
+"regions": [
+"Outaouais"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-12-10T14:00",
+"publie": "2026-11-23T18:35",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"95141604 - Garage"
+],
+"description": "Agrandissement du garage municipal\nAVIS PUBLIC est, par les présentes, donné que des offres cachetées, scellées et adressées, à : \nMme. Nathalie Piret\nMunicipalité de Saint-André-Avellin\n530, rue Charles-Auguste-Montreuil, bureau 100, Saint-André-Avellin, Qc,\nJ0V 1W0\nseront reçues jusqu’à 14h00, heure locale en vigueur, le 10 décembre 2026, pour être ouvertes publiquement au même endroit, le même jour et à la même heure. Aucune analyse de conformité des soumissions ne sera faite publiquement.\nLes intéressés pourront obtenir les documents de soumission au Service électronique d’appels d’offres (SEAO) en communiquant avec l’un des représentants par téléphone au numéro 1-866-669-7326 ou en consultant le site Web à l’adresse (http://www.seao.ca/). Les documents peuvent être obtenus au coût établi par SEAO. Pour être valide, chaque soumission devra être accompagnée de tous les documents et informations requis par les documents d’appel d’offres.\nPour obtenir des renseignements pendant l’appel d’offres, le soumissionnaire doit s’adresser uniquement au Maître de l’ouvrage, et ce, jusqu’à la date et l’heure de l’ouverture officielle des soumissions. Veuillez nous faire parvenir vos demandes écrites par courriel, à l’adresse suivante : dg@st-andre-avellin.com\nSont autorisées à présenter des offres, les entreprises ayant leur siège social au Québec ainsi que toute autre entreprise qui respecte les accords de libération des marchés publics établis par le gouvernement du Québec. Les entreprises québécoises devront posséder une licence émise par la Régie du bâtiment du Québec, selon la Loi sur le bâtiment (RLRQ, chapitre.B-1.1), couvrant les travaux requis. Cette licence devra être valide au moment du dépôt de la soumission. \nLes instructions aux soumissionnaires et ses annexes, le CCDC 2CcQ – 2024 font partie intégrante de tous les documents d’appel d’offres auxquels les soumissionnaires doivent obligatoirement s’y conformer. Ces documents sont disponibles en annexe. De plus, les résultats de cet appel d’offres seront disponibles, le jour même lors de l’ouverture publique de la soumission.\nLes soumissions devront être accompagnées d’une garantie de soumission, sous la forme d’un cautionnement de soumission d’un montant égal à dix pour cent (10%) du montant de la soumission présentée, valide pour une période de cent vingt (120) jours et libellée à l’ordre ou en faveur de la Municipalité de Saint-André-Avellin.\nLes soumissionnaires seront responsables du choix des Sous-traitants tant pour leur solvabilité que pour le contenu de leur soumission et devront s’assurer qu’ils détiennent les licences et permis requis.\nLe présent appel d’offres ne constitue pas une offre de contracter avec aucun des soumissionnaires et la municipalité de Saint-André-Avellin n’ayant aucune obligation envers les soumissionnaires, s’engage à n’accepter ni la plus basse des soumissions, ni aucune des soumissions reçues, ni à encourir aucune obligation, ni aucun frais d’aucune sorte envers",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=55e24bad-fcc2-4282-9d41-55831232b046",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "100-530 rue Charles-Auguste-Montreuil Saint-André-Avellin QC CAN J0V1W0",
+"ouverture": "2026-12-10 14:00 Heure légale du Québec",
+"adresseOuverture": "100-530 rue Charles-Auguste-Montreuil Saint-André-Avellin QC CAN J0V1W0"
+},
+"conditions": [],
+"vuLe": "2026-11-23T20:59",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"agrandissement",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"agrandissement",
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "fdbff2ab-0ecd-403b-8bdd-afec66ba9546",
+"numero": "JAC-25-001_HE",
+"titre": "Remplacement de l’ascenseur Herzberg",
+"organisme": "Collège John Abbott",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 1000000,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-12-11T14:00",
+"publie": "2026-11-23T17:42",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72101506 - Maintenance des ascenseurs",
+"72101512 - Construction d’appareils de levage"
+],
+"description": "Travaux de construction relatifs au remplacement de l’ascenseur Herzberg, comprenant la démolition sélective, les travaux de structure, de maçonnerie, de portes et de revêtements architecturaux, les travaux d’électricité, les mesures d’hygiène et de sécurité du chantier ainsi que la fourniture, l’installation et la mise en service d’un nouvel ascenseur par un spécialiste en transport vertical entre autres.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=fdbff2ab-0ecd-403b-8bdd-afec66ba9546",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-11 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "21,275 Chemin Lakeshore Sainte-Anne-de-Bellevue QC CAN H9X3L9",
+"ouverture": "2026-12-11 14:00 Heure légale du Québec",
+"adresseOuverture": "21,275 Chemin Lakeshore Sainte-Anne-de-Bellevue QC CAN H9X3L9"
+},
+"conditions": [],
+"vuLe": "2026-11-23T20:59",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"maconnerie",
+"maçonnerie"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-3495149355",
@@ -69520,7 +69676,54 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-23"
+"fermeLe": "2026-11-23",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-23T13:14",
+"soumissions": [
+{
+"nom": "Constructions Dubois",
+"montant": 343651.08
+},
+{
+"nom": "Construction Tremblay et associés inc.",
+"montant": 349182.52
+},
+{
+"nom": "R.N. SAMSON INC.",
+"montant": 362085.02
+},
+{
+"nom": "MSC CONSTRUCTION",
+"montant": 368742.07
+},
+{
+"nom": "ACTION ESTIMATION INC.",
+"montant": 375508.35
+},
+{
+"nom": "CONSTRUCTION JACQUES MALETTE & FILS INC.",
+"montant": 376689.34
+},
+{
+"nom": "LÉVIS CONSTRUCTION INC.",
+"montant": 382866.75
+},
+{
+"nom": "Constructions Envergure Inc.",
+"montant": 389000.0
+},
+{
+"nom": "CONSTRUCTION JC-7 INC.",
+"montant": 408536.07
+},
+{
+"nom": "MEUNIER GPR INC.",
+"montant": 459967.69
+}
+]
+}
 },
 {
 "id": "43b7246b-cb5f-4485-8aea-a40e8142c3b1",
@@ -69604,7 +69807,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-23"
+"fermeLe": "2026-11-23",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-23T10:34",
+"soumissions": [
+{
+"nom": "EXCAVATION JACQUES PAQUETTE ET FILS INC.",
+"montant": 986140.0
+},
+{
+"nom": "Construction Martin Trahan Inc.",
+"montant": 1088888.0
+},
+{
+"nom": "ARMAND DAGENAIS ET FILS INC.",
+"montant": 1177650.0
+}
+]
+}
 },
 {
 "id": "b58f8912-ff24-4df5-ae70-eec9d6a2ae8a",

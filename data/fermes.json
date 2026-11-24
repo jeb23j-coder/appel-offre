@@ -32493,7 +32493,54 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-23"
+"fermeLe": "2026-11-23",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-23T13:14",
+"soumissions": [
+{
+"nom": "Constructions Dubois",
+"montant": 343651.08
+},
+{
+"nom": "Construction Tremblay et associés inc.",
+"montant": 349182.52
+},
+{
+"nom": "R.N. SAMSON INC.",
+"montant": 362085.02
+},
+{
+"nom": "MSC CONSTRUCTION",
+"montant": 368742.07
+},
+{
+"nom": "ACTION ESTIMATION INC.",
+"montant": 375508.35
+},
+{
+"nom": "CONSTRUCTION JACQUES MALETTE & FILS INC.",
+"montant": 376689.34
+},
+{
+"nom": "LÉVIS CONSTRUCTION INC.",
+"montant": 382866.75
+},
+{
+"nom": "Constructions Envergure Inc.",
+"montant": 389000.0
+},
+{
+"nom": "CONSTRUCTION JC-7 INC.",
+"montant": 408536.07
+},
+{
+"nom": "MEUNIER GPR INC.",
+"montant": 459967.69
+}
+]
+}
 },
 {
 "id": "43b7246b-cb5f-4485-8aea-a40e8142c3b1",
@@ -32577,7 +32624,26 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-23"
+"fermeLe": "2026-11-23",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-23T10:34",
+"soumissions": [
+{
+"nom": "EXCAVATION JACQUES PAQUETTE ET FILS INC.",
+"montant": 986140.0
+},
+{
+"nom": "Construction Martin Trahan Inc.",
+"montant": 1088888.0
+},
+{
+"nom": "ARMAND DAGENAIS ET FILS INC.",
+"montant": 1177650.0
+}
+]
+}
 },
 {
 "id": "b58f8912-ff24-4df5-ae70-eec9d6a2ae8a",
