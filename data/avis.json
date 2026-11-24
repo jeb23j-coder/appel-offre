@@ -35654,7 +35654,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'acquisition et l'installation de quatre systèmes d'appel de garde filaire pour des CHSLD dans la région d'Abitibi-Témiscamingue.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "029849d1-a24f-45b8-aacb-eb8d9e22409f",
@@ -35744,7 +35756,19 @@
 "parement"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la fourniture de tous les matériaux, quincaillerie, équipements et main-d'œuvre pour le parement de béton préfabriqué renforcé de fibre de verre pour l'Hôtel du casino de Montréal. Le projet est prévu pour une durée de 4 mois.",
+"pointsAttention": [
+"Visite de chantier obligatoire le 3 décembre 2026"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat est directement lié à la maçonnerie (parement de béton préfabriqué) et correspond à la cible de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "c198b204-f64a-4e00-939a-6ae84ab0995f",
@@ -35832,7 +35856,20 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la reconstruction du poste 69-25kV, incluant des travaux de bâtiment, structure, électrique et mécanique, ainsi que des travaux civils comme terrassement et fondations en béton armé.",
+"pointsAttention": [
+"Montant estimé entre 10 000 000 $ et 20 000 000 $",
+"Durée prévue de 20 mois"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat est centré sur les travaux d'infrastructure lourde et de génie civil, ce qui est hors du champ d'expertise principal de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "1d457df4-8b6a-45f5-8f51-1a7eebded99b",
@@ -35908,7 +35945,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement de laboratoires et le remplacement d'une unité dans l'école Triolet, Pavillon 2. Le projet est estimé à 600 000 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'aménagement d'une école et ne met pas l'accent sur les travaux de maçonnerie ou de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "dba53cf8-0fff-4b46-a69e-8ba4d29a89b5",
@@ -35988,7 +36037,23 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des systèmes de ventilation, DDC et refroidissement pour une école. Les travaux impliquent la démolition des systèmes existants, l'installation de nouvelles unités et le raccordement au système de régulation du bâtiment.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce projet est axé sur les systèmes CVC et ne concerne ni la maçonnerie ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3e13eccd-cc8d-48de-a986-dfad9a6e79f6",
@@ -36076,7 +36141,20 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 85,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation complète de l'enveloppe extérieure de l'école Lucille-Teasdale à Montréal. Les travaux couvrent l'exécution complète de toutes les rénovations de l'enveloppe extérieure de l'école.",
+"pointsAttention": [
+"Visite obligatoire (2 décembre 2026 à 10h 00)",
+"Délai de réalisation : Du 26 avril 2027 au 12 novembre 2027"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat est centré sur la rénovation de l'enveloppe extérieure d'un bâtiment scolaire, ce qui implique fortement des travaux de maçonnerie et/ou de charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0f7b9da9-1554-4df7-917a-c1197f1ab91f",
@@ -36143,7 +36221,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la mise aux normes d'un amphithéâtre incluant la fourniture et l'installation de systèmes de sonorisation, de rideau de scène, d'éclairage, vidéo et contrôle, ainsi que les travaux connexes en architecture et électricité.",
+"pointsAttention": [
+"délai court (6 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement des travaux techniques (sonorisation, électricité, architecture) et n'a pas de lien direct avec les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "6f808ab6-46d0-4657-ba54-de0dd9d127c2",
@@ -36217,7 +36307,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Les travaux visent principalement la réfection et le réaménagement de la voie de circulation J de l'aéroport international Montréal-Trudeau et de ses infrastructures connexes.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne la réfection d'infrastructures routières et aéroportuaires, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c11fdd22-4b5f-43f5-9e0d-87753ef2f444",
@@ -36280,7 +36382,23 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'entretien des transports verticaux pour divers édifices à Saguenay (Chicoutimi).",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande…"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres ne concerne pas les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "08b2cbfd-acbc-46e9-be1a-dbea2471d7e5",
@@ -36383,7 +36501,19 @@
 "revêtement extérieur"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "Les travaux consistent au remplacement partiel de la fenestration du Cégep de Saint-Hyacinthe, incluant la démolition, la réparation et la remise en état des éléments adjacents comme la maçonnerie et le revêtement extérieur.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat inclut clairement des travaux majeurs de maçonnerie et de revêtement extérieur, ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "9fd0be63-fdb8-4beb-8d85-17ee71feb66e",
@@ -36448,7 +36578,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du système de climatisation du bloc M du Cégep de Saint-Hyacinthe, incluant des renforts structuraux, des travaux d'étanchéité et d'isolation.",
+"pointsAttention": [
+"travaux doivent être réalisés en période d'occupation",
+"comprennent les travaux temporaires requis"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne le système de climatisation et les travaux associés, et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f02afef5-4953-44ef-be38-cff7b874801f",
@@ -36524,7 +36667,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'enquête de services d'une entreprise d'écoénergétique pour un projet d'économie d'énergie garantie. Le montant estimé est de 4 000 000 $ sur une durée de 36 mois.",
+"pointsAttention": [
+"délai long (36 mois)"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est axé sur l'efficacité énergétique et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
