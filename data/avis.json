@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-25T15:25",
-"seaoLus": 417,
-"retenus": 419,
-"nouveaux": 8,
+"date": "2026-11-25T18:30",
+"seaoLus": 424,
+"retenus": 426,
+"nouveaux": 7,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -36261,7 +36261,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -36348,7 +36348,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36441,7 +36441,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -36528,7 +36528,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36615,7 +36615,7 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -36721,7 +36721,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 20,
 "type": "Hors sujet",
@@ -36809,7 +36809,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36894,7 +36894,7 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36911,6 +36911,552 @@
 "raison": "Le contrat concerne un remplacement d'unité de climatisation et n'implique aucun travail principal de maçonnerie, briquetage, charpenterie ou menuiserie.",
 "version": 3
 }
+},
+{
+"id": "178a7685-d1d4-4bbe-8ea7-b27b68032697",
+"numero": "1144-2026-054",
+"titre": "Restauration des ouvertures de la Maison Jean-Marie-Moreau",
+"organisme": "Municipalité régionale de comté de Marguerite-D'Youville",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-12-10T10:00",
+"publie": "2026-11-25T17:25",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Contrat numéro 1144-2026-054 pour la Restauration des ouvertures de la Maison Jean-Marie-Moreau, Verchères\nLa MRC de Marguerite-D’Youville désire recevoir des soumissions pour des travaux de restauration de la Maison Jean-Marie-Moreau, située au 609 route Marie-Victorin, à Verchères. Plus précisément, la MRC souhaite faire procéder une portée des travaux qui consiste principalement à remplacer les fenêtres par de nouvelles fenêtres, contre-fenêtres et chambranles traditionnels en bois, à restaurer les capuchons de cheminées en tôle et à restaurer le parement de bois des pignons principaux et pignons et frontons des lucarnes.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=178a7685-d1d4-4bbe-8ea7-b27b68032697",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-10 Au plus tard 10:00 Heure légale du Québec",
+"adresseDepot": "609, route Marie-Victorin Verchères QC CAN J0L2R0",
+"ouverture": "2026-12-10 10:00 Heure légale du Québec",
+"adresseOuverture": "609, route Marie-Victorin Verchères QC CAN J0L2R0"
+},
+"conditions": [],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"parement",
+"cheminée",
+"restauration"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"parement",
+"cheminée",
+"restauration",
+"fenêtre",
+"bois"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"parement",
+"cheminée",
+"restauration",
+"fenêtre",
+"bois"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bois",
+"cheminée",
+"fenêtre",
+"parement",
+"restauration"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "e65abbc9-4b86-488b-935e-4c4c1bd38198",
+"numero": "ING-2026-6300",
+"titre": "Travaux de remplacement de ventilateurs et démarreurs au Centre socio-récréatif",
+"organisme": "Ville de Sept-Îles",
+"regions": [
+"Côte-Nord"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "8",
+"surDemande": false,
+"fermeture": "2026-12-18T10:00",
+"publie": "2026-11-25T16:54",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72151200 - Construction et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)",
+"72151204 - Construction de systèmes de conduits et de ventilation (cvc)",
+"72151207 - Installation et maintenance de systèmes de chauffage, de ventilation et de climatisation (cvc)",
+"72151500 - Installations électriques",
+"72151507 - Installation de commandes électroniques"
+],
+"description": "1.1 OBJET DE L’APPEL D’OFFRESLa Ville de Sept-Îles requiert des soumissions pour des travaux en ventilation, en électricité et en contrôle incluant, sans s’y limiter, tout matériel, matériaux et main d’œuvre requis à la pleine exécution des éléments ci-dessous : Salle mécanique # 1 (en haut de l’escalier est)Le remplacement des démarreurs du ventilateur d’alimentation et du ventilateur de retour du système de ventilation central principal du Centre socio-récréatif (système # 1). Ces contrôles seront remplacés par des entraînements à fréquence variable (EFV). Les travaux devront être exécutés selon les plans et le devis technique préparés par TR3E faisant partie intégrante du présent devis. Le contrat inclut la fourniture, l’installation, le raccordement, les essais et la mise en marche de tous les équipements. Salle mécanique # 2 (en haut de l’escalier ouest) Le remplacement du ventilateur d’alimentation d’air du gymnase du Centre socio-récréatif (système # 5). Le ventilateur d’alimentation existant a un débit de 12000 pcm et un moteur de 7.5HP à 600V 3 phases. Le ventilateur et son moteur seront remplacés par deux ventilateurs au débit de 6000 pcm chacun et deux moteurs de 5HP à 600V 3 phases. Le contrat inclut le raccordement des moteurs et le passage du câble jusqu’au centre de commande moteur (CCM), et l’enroulement et la sécurisation de l’excédent de câble à proximité du CCM. Le branchement à même le CCM et l’ajustement des protections des démarreurs existants conservés seront effectués par la Ville. L’adjudicataire devra effectuer les essais et mise en marche à la suite des branchements effectués par la Ville. Les électriciens de la Ville seront présents lors des essais et de la mise en marche et interviendront advenant tout problème en lien au branchement qu’ils auront effectué. 1.2 LOCALISATION DES TRAVAUXLes travaux auront lieu au 500, avenue Jolliet à Sept-Îles.3.9 ÉCHÉANCIER DES TRAVAUXLes travaux devront être réalisés dans un délai maximal de 6 semaines consécutives à partir de l’autorisation de la Ville de commencer les travaux. [...]Considérant l’envergure des travaux à réaliser et les contraintes d’exécution, l’adjudicataire doit mettre en place tous les effectifs requis pour respecter les délais d’exécution, pour la livraison de l’ensemble des ouvrages et pour compléter certains travaux précis, soit :- L’ensemble des travaux prévus au contrat doit être complété au plus tard le 30 septembre 2027.- L’accès aux services d’urgence (policiers, ambulanciers et pompiers, etc.) : en tout temps.- Mise en place d’une balise de protection pour protéger l’aire de travail : en tout temps.- Continuité d’exploitation du réseau de ventilation et stratégie pour minimiser l’impact et les temps d’arrêt. - Gestion des déchets, matériaux de démolition et matières recyclables: en tout temps.- Maintien de la propreté et bon ordre de toutes les zones utilisées et passages empruntés. L'adjudicataire a la responsabilité complète des travaux. Il doit les di",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e65abbc9-4b86-488b-935e-4c4c1bd38198",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-12-18 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "SERVICE DES AFFAIRES JURIDIQUES (Ville de Sept-Îles) 700, boulevard Laure, bureau 227 Sept-Îles QC CAN G4R1Y1",
+"ouverture": "2026-12-18 10:00 Heure légale du Québec",
+"adresseOuverture": "SALLE DU CONSEIL MUNICIPAL (Ville de Sept-Îles) 700, boulevard Laure, bureau 229 Sept-Îles QC CAN G4R1Y1"
+},
+"conditions": [
+"Conditions de conformité et autres conditions"
+],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "2c3ca1f9-f575-41f8-91bd-cef4959f9e7f",
+"numero": "C0005233",
+"titre": "24-002 CFI JELF Feb 2025, Araujo (pavillon de musique Strathcona)",
+"organisme": "Université McGill",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Le soumissionnaire doit joindre à sa soumission un cautionnement de\nsoumission (annexe IS-7) représentant dix pour cent (10 %) de la valeur de sa soumission incluant les\ntaxes applicables. Ce cautionnement doit être émis par une institution\nfinancière telle que définie sous l’article 12 du Règlement sur les\ncontrats de travaux de construction des organismes publics. Toute autre forme de\ncautionnement n’est pas acceptée.",
+"estimation": 450000,
+"dureeMois": "6",
+"surDemande": false,
+"fermeture": "2026-12-17T10:00",
+"publie": "2026-11-25T16:12",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Description\nLes travaux de rénovation du local E-201 comprennent l’installation d’un nouveau système de ventilation, d’un plafond acoustique, d’une porte acoustique munie d’un lecteur de cartes d’accès ainsi que de nouvel éclairage. Le projet comprend également une allocation pour du mobilier sur mesure.\nLa principale contrainte du projet est la limitation des heures autorisées pour les travaux bruyants, puisque le local E-201 est adjacent à la salle Pollack, au studio d’enregistrement E-200 et au local C-209. Une autre contrainte importante est la nécessité d’intervenir dans les locaux adjacents afin de raccorder les nouveaux équipements aux systèmes existants.\nLe projet devra être livré avant le début de la session d’automne 2027.\nSéance d’information/visite du site\nLes soumissionnaires peuvent assister à une séance\nd’information/visite du site lorsque celle-ci est prévue. La présence des\nsoumissionnaires est optionnelle. Chaque soumissionnaire qui visite le site du\nprojet, le fait à ses frais, pour se rendre compte par lui-même des exigences\ndes travaux et doit obtenir tous les renseignements utiles et vérifier toutes\nconditions affectant son contrat, car aucun surplus ne sera accordé pour\nquelque raison que ce soit.\nSauf indication contraire dans les documents de\nl’AO, aucune confirmation de présence n’est requise de la part des entreprises\nsouhaitant participer à la séance d’information ou à la visite du site.\nDate et\nheure : 2 décembre à 10 heures\nLieu : Pavillon (Strathcona Music) Constance V. Pathy, entrée principale, 555 rue Sherbrooke Ouest, Montreal.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=2c3ca1f9-f575-41f8-91bd-cef4959f9e7f",
+"fourchette": "368 000 $ à 653 199 $",
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-17 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "SEAO ou en personne Montréal QC CAN H3A2R7",
+"ouverture": "2026-12-17 10:30 Heure légale du Québec",
+"adresseOuverture": "Hyperlien Teams Montréal QC CAN H3A2R7"
+},
+"conditions": [],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"rénovation"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "3861eb21-b802-463c-bc82-5040e8287f44",
+"numero": "DOC3358778507",
+"titre": "Conception, installation et maintenance des ancrages de sécurité",
+"organisme": "Hydro-Québec.",
+"regions": [
+"Bas-Saint-Laurent",
+"Saguenay–Lac-Saint-Jean",
+"Capitale-Nationale",
+"Mauricie",
+"Estrie",
+"Montréal",
+"Outaouais",
+"Abitibi-Témiscamingue",
+"Côte-Nord",
+"Nord-du-Québec",
+"Gaspésie–Îles-de-la-Madeleine",
+"Chaudière-Appalaches",
+"Laval",
+"Lanaudière",
+"Laurentides",
+"Montérégie",
+"Centre-du-Québec"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "36",
+"surDemande": false,
+"fermeture": "2026-11-30T14:00",
+"publie": "2026-11-25T16:09",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
+"72151500 - Installations électriques"
+],
+"description": "Conception, installation et maintenance des ancrages de sécurité",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3861eb21-b802-463c-bc82-5040e8287f44",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-11-30 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": "SAP Business Network d’Hydro Québec Montréal QC CAN H3A3S7",
+"ouverture": null,
+"adresseOuverture": "SAP Business Network d’Hydro Québec Montréal QC CAN H3A3S7"
+},
+"conditions": [],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "b7f2e9df-f4a0-4a19-b449-f89f0ed2290f",
+"numero": "AE-AO-20261124",
+"titre": "Installation d’une nouvelle clôture extérieure au CRJDA de Sainte-Thérèse",
+"organisme": "Santé Québec Laurentides",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 140000,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-12-17T11:45",
+"publie": "2026-11-25T16:02",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "1er décembre 2024, Santé Québec a été créé en vertu de la Loi sur la\ngouvernance du système de santé et de services sociaux (L.R.Q., c.\nG-1.021). \n Santé Québec Laurentides à titre d’établissement de Santé Québec\nest réparti sur plus de 100 installations situées sur un territoire de 20 500\nkm2. Il compte plus de 17 900 employés et plus de 1 100 médecins qui offrent\ndes soins et services en santé à une population de près de 685 000 personne\nSanté Québec Laurentides souhaite solliciter le marché en vue de l’octroi d’un contrat de travaux de construction à un entrepreneur pour l’installation d’une nouvelle clôture sécuritaire autour du quai de livraison de marchandises au CRJDA de Sainte-Thérèse.\nLa durée prévue du contrat est de 4 mois.\nLieu des travaux :\nCRJDA de Thérèse-De Blainville :\n155, rue Duquet\nSainte-Thérèse J7E 5B3 (Québec)\nAucune garantie de soumission ni garantie d’exécution n’est exigée.\nTOUS LES\nDOCUMENTS D’APPEL D’OFFRES ONT ÉTÉ DÉPOSÉS SUR LE SITE WWW.SEAO.CA ET LE SOUMISSIONNAIRE DOIT\nLES ACQUÉRIR SUR CE SITE.\nLe dépôt\nde soumission par voie électronique est permis, selon les modalités décrites\ndans les documents d’appel d’offres;\nOu, \nLe dépôt\nd’une soumission en format papier est permis. L’adresse de réception est la\nsuivante : \nCENTRE\nINTÉGRÉ DE SANTÉ ET DE SERVICES SOCIAUX\nService de\nl'approvisionnement, Porte 2\n 1000,\nrue Labelle\n Saint-Jérôme\n(Québec) J7Z 5N6\nInstruction\npour vous situer où est la porte 2 au 1000 Labelle, si vous êtes en face de la\nbâtisse, la porte 2 est située à votre droite. Veuillez entrer par cette porte,\nla première porte à droite est la clinique Ambulatoire vous devez y déposer\nvotre soumission une personne fera la réception de votre soumission. Si vous\ndésirez assister à l’ouverture, vous devez attendre la personne responsable du\ndossier qui viendra chercher votre soumission quelques minutes avant\nl’ouverture.\nLa date\nlimite est : Le 17 Décembre 2026 \nL’heure\nlimite est : 11h :45\nLa date\nlimite de dépôt des soumissions est de rigueur et l’ouverture publique des\nsoumissions aura lieu immédiatement par la suite.\nInformations\ncomplémentaires\nLa date\nlimite fixée pour la réception des plaintes formulées en vertu de l’article\n21.0.4 de la Loi sur les contrats des organismes publics (LCOP) est le 07\nDécembre 2026\nL’appel\nd’offres et, conséquemment, le contrat sont assujettis à L’Accord de commerce\net de coopération entre le Québec et de l'Ontario (ACCQO) .\nSanté\nQuébec Laurentides ne s’engage pas à accepter, la plus basse, ni\naucune des soumissions, ni à réaliser en partie ou en totalité l’objet de\nl’appel d’offres.\nPour toutes informations supplémentaires, veuillez communiquer\navec Mme Amel Errajhi par courrier électronique au: amel.errajhi.cissslau@ssss.gouv.qc.ca",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b7f2e9df-f4a0-4a19-b449-f89f0ed2290f",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-12-17 Au plus tard 11:45 Heure légale du Québec",
+"adresseDepot": "1000 boul Labelle Porte 2, local 1001 (réception) Saint-Jérôme QC CAN J7Z5N6",
+"ouverture": "2026-12-17 11:45 Heure légale du Québec",
+"adresseOuverture": "1000, rue Labelle Porte 3, local SS001 Saint-Jérôme QC CAN J7Z5N6"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables."
+],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": true
+},
+{
+"id": "f59aab7d-f4a4-4c3b-8882-6755181ce0e4",
+"numero": "2026/27-041",
+"titre": "Travaux à exécution sur demande –Entrepreneur en menuiserie, finition et peinture",
+"organisme": "Centre de services scolaire de Laval.",
+"regions": [
+"Laval"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 2064629.99,
+"dureeMois": "24",
+"surDemande": true,
+"fermeture": "2027-01-06T11:00",
+"publie": "2026-11-25T15:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72151302 - Peinture de bâtiments commerciaux",
+"72152302 - Menuiserie de finition"
+],
+"description": "AVIS D’APPEL D’OFFRES \n1. \nOrganisme\npublic : Centre de services scolaire de Laval\n2. \nDescription :\n Titre : Travaux à exécution sur demande –Entrepreneur en menuiserie,\nfinition et peinture\n Numéro\nde l’appel d’offres : 2026/27-041\n3. \nDescription\nsommaire des travaux de construction requis :\nL’ORGANISME PUBLIC\nest propriétaire de plus de cent vingt (120) établissements situés sur le\nterritoire de l'île de Laval. Afin de maintenir ses établissements en bon état,\nl’ORGANISME PUBLIC souhaite conclure un contrat à exécution sur demande avec un\nseul ENTREPRENEUR pour la réalisation de travaux de menuiserie et de finition,\nincluant les travaux de peinture, ainsi que des travaux connexes prévus au\nprésent devis. \nLes demandes d’exécution sont attribuées à l’ENTREPRENEUR admissible et\nconforme ayant soumis le prix le plus bas. \nDate de début du contrat ferme : début février 2027 \nDate de fin du contrat ferme: fin janvier 2029\nL’ENTREPRENEUR doit\nêtre membre\nCCQ, titulaire d'une licence valide de la Régie du\nbâtiment du Québec (RBQ) et détenir minimalement les sous-catégories de licence\nsuivantes :\n· \n4.2 - Travaux de maçonnerie non structurale marbre et\ncéramique ;\n· \n5.2 - Ouvrages métalliques;\n· \n6.1 - Charpentes de bois;\n· \n6.2 - Travaux de bois et plastique;\n· \n8 - Portes et fenêtres;\n· \n9 - Travaux de finition;\n· \n12 - Armoires et comptoirs usinés.\nToute autre licence\nRBQ de portée équivalente ou supérieure permettant légalement l'exécution des\ntravaux visés au présent contrat sera également acceptée.\nAucune visite des lieux\nn’est prévue pour cet appel d’offres.\n3.1. Description sommaire des options \nOption\nde renouvellement : une (1) option\nde renouvellement de douze (12) mois\nUne option de renouvellement de même\nnature que celle initialement requise, offerte au même prix et destinée à\nrépondre aux besoins visés par ce contrat. \n4. \nGarantie\nde soumission (nature et montant) : Aucune garantie de soumission\nGarantie\nd’exécution : Aucune garantie d’exécution\n5. Description\nsommaire des assurances requises : \n· \nAssurance\nresponsabilité civile générale de 5\nmillions de dollars;\n· \nAssurance automobile\nde 1 million de dollars;\n· \nAssurance matériel.\n6. \nAccords\napplicables : \n· \nACCQO : Accord de commerce et de\ncoopération entre le Québec et l’Ontario.\n· \nALEC : Accord de\nlibre-échange canadien\n7. \nRenseignements :\nResponsable du dossier : Hanane Kanaan Attallah\nCourriel : hkattallah@csslaval.gouv.qc.ca\nTéléphone : (450) 662-7000\next : 73282\n7.1. \nLes documents contractuels et\nautres renseignements pourront être obtenus sur le site d’appel d’offres du\ngouvernement du Québec SEAO au www.seao.gouv.qc.ca\n7.2. \nLa date limite de dépôt des\nplaintes au Centre de services scolaire de Laval est le 16 décembre 2026 à\nl’adresse courriel : PlainteAppro@csslaval.gouv.qc.ca\n8. \nRéception\ndes soumissions :\nToute soumission doit\nêtre reçue à l’adresse de l’Organisme public, pour une ouverture publique au\nmême endroit le même jour et à la même heure. Toute soumissi",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f59aab7d-f4a4-4c3b-8882-6755181ce0e4",
+"fourchette": null,
+"cautionExecution": "Oui (taux aux documents)",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2027-01-06 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "800, place Sauvé Laval QC CAN H7S1M2",
+"ouverture": null,
+"adresseOuverture": "800, place Sauvé Laval QC CAN H7S1M2"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie"
+],
+"motsOk": false,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"charpente",
+"menuiserie",
+"portes et fenêtres",
+"fenêtre",
+"bois",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"maçonnerie",
+"maconnerie",
+"charpente",
+"menuiserie",
+"portes et fenêtres",
+"fenêtre",
+"bois",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bois",
+"bâtiment",
+"charpente",
+"fenêtre",
+"maconnerie",
+"maçonnerie",
+"menuiserie",
+"portes et fenêtres"
+],
+"motsOk": true,
+"nouveau": true
+},
+{
+"id": "3459711d-1bc8-40d6-895c-a1d2c53e3399",
+"numero": "2026-42",
+"titre": "Agrandissement pour l'ajout d'un laboratoire ",
+"organisme": "Ville de Lac-Mégantic.",
+"regions": [
+"Estrie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2027-01-14T10:00",
+"publie": "2026-11-25T15:35",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels"
+],
+"description": "La Ville de Lac-Mégantic, Propriétaire du bâtiment, demande des soumissions pour des travaux d’agrandissement du bâtiment situé au 4409 rue Dollard à Lac-Mégantic afin d’y aménager un laboratoire de sciences pour le Cégep Beauce-Appalaches, campus de Lac-Mégantic, locataire du bâtiment.\nLes documents nécessaires à la préparation et au dépôt de la soumission sont disponibles sur le site du service électronique d’appel d’offres du gouvernement du Québec (SEAO) : https://seao.gouv.qc.ca.\nLes soumissions scellées et marquées « Appel d’offres 2026-42 – Agrandissement pour l’ajout d’un laboratoire » doivent être transmise par voie électronique ou parvenir à l'hôtel de Ville de la Ville de Lac-Mégantic, à l'attention de Mme Nancy Roy, directrice du Service du greffe et des ressources humaines, 5527, rue Frontenac, bureau 200, Lac-Mégantic, G6B 1H6, avant 10 h, le jeudi 14 janvier 2027. Si le soumissionnaire choisit de transmettre sa soumission par voie électronique, cette transmission ne peut être effectuée que par l’intermédiaire du système électronique d’appel d’offres du gouvernement du Québec (SEAO) : https://seao.gouv.qc.ca.\nLes soumissions seront ouvertes publiquement au même endroit, quelques minutes après l'heure de clôture des soumissions. \nLes soumissions reçues par télécopieur ne seront pas acceptées. Toutes soumissions reçues après l’heure fixée seront retournées aux soumissionnaires sans avoir été ouvertes.\nLe présent appel d’offres est assujetti à l’accord de commerce et de coopération entre le Québec et l’Ontario (ACCQO) et à l’accord de libre-échange canadien (ALEC).\nSans restreindre la généralité de ce qui précède, la Ville se réserve le droit de rejeter toute offre ou de ne conclure aucun contrat, sans indemnité pour les soumissionnaires, notamment lorsque les prix soumis sont trop élevés par rapport à l’estimation écrite des coûts établie par la Ville avant l’ouverture des soumissions, lorsqu’ils sont disproportionnés ou déséquilibrés, ou lorsqu’ils ne reflètent pas un juste prix du marché.\nLa Ville de Lac-Mégantic se réserve le droit de passer outre à toute irrégularité mineure dans les documents de soumission.\nLa Ville de Lac-Mégantic se réserve le droit de modifier les quantités sans recours pour le ou les soumissionnaires.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=3459711d-1bc8-40d6-895c-a1d2c53e3399",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2027-01-14 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "5527, rue Frontenac Bureau 200 Lac-Mégantic QC CAN G6B1H6",
+"ouverture": "2027-01-14 10:00 Heure légale du Québec",
+"adresseOuverture": "5527, rue Frontenac Bureau 200 Lac-Mégantic QC CAN G6B1H6"
+},
+"conditions": [],
+"vuLe": "2026-11-25T18:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"agrandissement",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"agrandissement",
+"bâtiment"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-3495149355",
@@ -67572,7 +68118,38 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-25T16:03",
+"soumissions": [
+{
+"nom": "Tremblay Experts Peintres",
+"montant": 102726.03
+},
+{
+"nom": "Peinture Chénard",
+"montant": 128312.1
+},
+{
+"nom": "Peinture Langlois et fils",
+"montant": 148317.75
+},
+{
+"nom": "Peinture Capitale Inc.",
+"montant": 215790.83
+},
+{
+"nom": "Accès BrandSafway Inc.",
+"montant": 382758.67
+},
+{
+"nom": "Construction PVP",
+"montant": 502670.7
+}
+]
+}
 },
 {
 "id": "f62d9596-f175-4f41-a397-61abde1dd281",
@@ -71785,7 +72362,21 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-25T08:24",
+"soumissions": [
+{
+"nom": "CRC Entrepreneur Général",
+"montant": 573620.22
+},
+{
+"nom": "CONSTRUCTION R. CLOUTIER INC.",
+"montant": 598257.0
+}
+]
+}
 },
 {
 "id": "74b6a710-f060-4f4a-89b3-bd5c3ab2528d",
@@ -73007,7 +73598,33 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-25"
+"fermeLe": "2026-11-25",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-25T13:12",
+"soumissions": [
+{
+"nom": "TECKSOL DGE INC.",
+"montant": 99981.81
+},
+{
+"nom": "J.P. LESSARD CLIMATISATION INC.",
+"montant": 118976.13
+},
+{
+"nom": "VIMOVAL INC.",
+"montant": 120175.32
+},
+{
+"nom": "SÉGUIN MORRIS INC.",
+"montant": 123480.85
+},
+{
+"nom": "BAULNE INC.",
+"montant": 155823.87
+}
+]
+}
 },
 {
 "id": "cd4abeef-9b3f-4ed1-a6b1-3abd3812d8e8",

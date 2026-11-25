@@ -30488,7 +30488,38 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-25T16:03",
+"soumissions": [
+{
+"nom": "Tremblay Experts Peintres",
+"montant": 102726.03
+},
+{
+"nom": "Peinture Chénard",
+"montant": 128312.1
+},
+{
+"nom": "Peinture Langlois et fils",
+"montant": 148317.75
+},
+{
+"nom": "Peinture Capitale Inc.",
+"montant": 215790.83
+},
+{
+"nom": "Accès BrandSafway Inc.",
+"montant": 382758.67
+},
+{
+"nom": "Construction PVP",
+"montant": 502670.7
+}
+]
+}
 },
 {
 "id": "f62d9596-f175-4f41-a397-61abde1dd281",
@@ -34701,7 +34732,21 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-25T08:24",
+"soumissions": [
+{
+"nom": "CRC Entrepreneur Général",
+"montant": 573620.22
+},
+{
+"nom": "CONSTRUCTION R. CLOUTIER INC.",
+"montant": 598257.0
+}
+]
+}
 },
 {
 "id": "74b6a710-f060-4f4a-89b3-bd5c3ab2528d",
@@ -35923,7 +35968,33 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-25"
+"fermeLe": "2026-11-25",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-25T13:12",
+"soumissions": [
+{
+"nom": "TECKSOL DGE INC.",
+"montant": 99981.81
+},
+{
+"nom": "J.P. LESSARD CLIMATISATION INC.",
+"montant": 118976.13
+},
+{
+"nom": "VIMOVAL INC.",
+"montant": 120175.32
+},
+{
+"nom": "SÉGUIN MORRIS INC.",
+"montant": 123480.85
+},
+{
+"nom": "BAULNE INC.",
+"montant": 155823.87
+}
+]
+}
 },
 {
 "id": "cd4abeef-9b3f-4ed1-a6b1-3abd3812d8e8",
