@@ -37000,7 +37000,19 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la restauration des ouvertures d'une maison, incluant le remplacement de fenêtres et contre-fenêtres en bois, la restauration des capuchons de cheminées en tôle, et la restauration du parement de bois des pignons et frontons.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat implique clairement des travaux de menuiserie (fenêtres, chambranles) et de restauration de bois (parement, cheminées), ce qui correspond directement aux compétences de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "e65abbc9-4b86-488b-935e-4c4c1bd38198",
@@ -37067,7 +37079,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de ventilateurs et de démarreurs dans le système de ventilation et d'électricité d'un centre socio-récréatif. Les travaux sont prévus sur une durée maximale de 6 semaines.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne exclusivement des travaux de ventilation et d'électricité, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "2c3ca1f9-f575-41f8-91bd-cef4959f9e7f",
@@ -37137,7 +37161,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation d'un local (E-201) incluant l'installation d'un système de ventilation, d'un plafond acoustique, d'une porte acoustique et d'un nouvel éclairage. Le projet inclut également une allocation pour du mobilier sur mesure.",
+"pointsAttention": [
+"Séance d’information/visite du site"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet se concentre sur des travaux d'aménagement intérieur et techniques (ventilation, acoustique, électricité) et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie/menuiserie comme cœur du contrat.",
+"version": 3
+}
 },
 {
 "id": "3861eb21-b802-463c-bc82-5040e8287f44",
@@ -37214,7 +37250,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la conception, l'installation et la maintenance des ancrages de sécurité.",
+"pointsAttention": [
+"aucune"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas directement les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "b7f2e9df-f4a0-4a19-b449-f89f0ed2290f",
@@ -37277,7 +37325,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation d'une nouvelle clôture extérieure au CRJDA de Sainte-Thérèse. Le contrat est prévu pour une durée de 4 mois et le montant estimé est de 140 000 $.",
+"pointsAttention": [
+"Aucune garantie de soumission ni garantie d’exécution n’est exigée."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet ne concerne ni la maçonnerie/briquetage ni la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "f59aab7d-f4a4-4c3b-8882-6755181ce0e4",
@@ -37381,7 +37441,21 @@
 "portes et fenêtres"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne des travaux de menuiserie, finition et peinture pour des établissements du Centre de services scolaire de Laval. Les exigences de licence incluent des sous-catégories pour la maçonnerie non structurale, les charpentes de bois, les portes et fenêtres, et les travaux de finition.",
+"pointsAttention": [
+"Contrat sur demande",
+"Délai de 24 mois (février 2027 à janvier 2029)",
+"Exigences de licences RBQ spécifiques (maçonnerie, charpente, menuiserie)"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "L'appel d'offres inclut explicitement des exigences pour la maçonnerie et la charpenterie/menuiserie, ce qui correspond directement aux domaines d'expertise de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "3459711d-1bc8-40d6-895c-a1d2c53e3399",
@@ -37456,7 +37530,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne un agrandissement d'un bâtiment pour y aménager un laboratoire de sciences. La durée prévue des travaux est de 12 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement de bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement défini.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
