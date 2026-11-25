@@ -36261,7 +36261,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer la couverture des toits plats et le plafond contenant de l'amiante dans une salle polyvalente d'école. La durée prévue est de 3 mois.",
+"pointsAttention": [
+"visite facultative est prévue"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la toiture et le plafond, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie-menuiserie.",
+"version": 3
+}
 },
 {
 "id": "a515a065-30c3-44d2-a720-485041c36499",
@@ -36336,7 +36348,23 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement d'un système de clés mécaniques (serrures cylindriques et mortaises) pour le Cégep de La Pocatière. Le projet implique la fourniture et l'installation de cylindres, de serrures et de plaques de finition.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne exclusivement des travaux de serrurerie et ne touche ni à la maçonnerie ni à la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "1ba77da5-d12f-40b7-a429-08e575bb5030",
@@ -36413,7 +36441,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres vise à retenir un entrepreneur général pour effectuer divers travaux de réparation, de rénovation et d'aménagement dans des immeubles publics. La durée prévue est de 24 mois avec un montant estimé de 700 000 $.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat est pour un entrepreneur général, mais il inclut des travaux de rénovation et d'aménagement où la maçonnerie ou la charpenterie pourraient être des lots à soumissionner.",
+"version": 3
+}
 },
 {
 "id": "6b452405-a5d9-4d6e-ad92-ba1cb9e31dc4",
@@ -36488,7 +36528,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux de remplacement et d'amélioration des systèmes de ventilation du Pavillon Duparquet, incluant le démantèlement et l'installation de nouveaux équipements. La durée prévue est de 5 mois pour un montant estimé à 1 200 000 $.",
+"pointsAttention": [
+"travaux prévus dans un bâtiment scolaire en opération et pourraient être assujettis à des contraintes d'accès et de phasage"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne spécifiquement les systèmes de ventilation (CVC) et n'inclut pas de travaux majeurs en maçonnerie, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "d20fc09e-751a-4c60-8a72-ca1e1e448d29",
@@ -36563,7 +36615,20 @@
 "construction d"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction d'une nouvelle usine d'eau potable. Le projet est prévu pour durer environ 28 mois.",
+"pointsAttention": [
+"Délai de soumission : 13 janvier 2027 à 10h00",
+"Garantie de soumission : 10% de la valeur totale du contrat avant taxes"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est dans le domaine de la construction industrielle et ne correspond pas aux spécialités principales de la briquetage/maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "c7321c65-429d-43e9-a335-78734c248402",
@@ -36656,7 +36721,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "Le projet consiste en la réfection de la structure de béton d'un bassin de captation d'eaux, incluant l'injection de fissures et la réparation de sections de béton, ainsi que des travaux de membrane d'étanchéité.",
+"pointsAttention": [
+"Visite des lieux non obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne principalement des travaux de béton et d'étanchéité, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+}
 },
 {
 "id": "78106185-0dd6-414a-8dd3-54d295c432b1",
@@ -36732,7 +36809,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer le système de contrôle pneumatique et de chauffage dans 17 salles de classe d'une école primaire. La durée prévue pour les travaux est de 2 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la mécanique et le chauffage, et non la maçonnerie ou la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "196f1bc0-c87f-489b-9907-36b33f5304ee",
@@ -36805,7 +36894,23 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de l'unité de climatisation du secrétariat de l'École Montcalm. La durée prévue du contrat est de 12 mois pour un montant estimé de 150 000 $.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne un remplacement d'unité de climatisation et n'implique aucun travail principal de maçonnerie, briquetage, charpenterie ou menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
