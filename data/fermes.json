@@ -34765,7 +34765,33 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T13:49",
+"soumissions": [
+{
+"nom": "9014-2050 QUÉBEC INC.",
+"montant": 1116606.0
+},
+{
+"nom": "POINTCO INC.",
+"montant": 1214167.0
+},
+{
+"nom": "construction Philex Inc.",
+"montant": 1350750.0
+},
+{
+"nom": "Construction Citadelle Inc.",
+"montant": 1372601.83
+},
+{
+"nom": "9042-5976 QUÉBEC INC.",
+"montant": 1459000.0
+}
+]
+}
 },
 {
 "id": "92748e3f-eb9f-4bfd-85dc-adaca296feda",
