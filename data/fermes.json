@@ -31070,7 +31070,22 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-19"
+"fermeLe": "2026-11-19",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-26T15:29",
+"soumissions": [
+{
+"nom": "Construction Demathieu & Bard (cdb) inc.",
+"montant": null
+},
+{
+"nom": "MGB ASSOCIÉS INC.",
+"montant": null
+}
+]
+}
 },
 {
 "id": "12ad6dab-89bb-49e3-9b74-47207ceb2620",
@@ -36594,7 +36609,42 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-26T15:04",
+"soumissions": [
+{
+"nom": "T3P CONSTRUCTION INC.",
+"montant": 699739.0
+},
+{
+"nom": "PINCOR LTÉE",
+"montant": 739780.52
+},
+{
+"nom": "Anjalec Construction Inc.",
+"montant": 772475.0
+},
+{
+"nom": "JOMACO inc.",
+"montant": 821510.51
+},
+{
+"nom": "CONSTRUCTION CPB INC.",
+"montant": 877800.0
+},
+{
+"nom": "9496-1687 Québec inc.",
+"montant": 888210.0
+},
+{
+"nom": "CONSTRUCTION L. MORIN INC.",
+"montant": 1161066.0
+}
+]
+}
 },
 {
 "id": "5f2c6b64-dceb-40d1-a671-87f9c4c21501",
@@ -36691,7 +36741,42 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-26T15:39",
+"soumissions": [
+{
+"nom": "XO Construction Inc.",
+"montant": 731241.0
+},
+{
+"nom": "Groupe Balex inc.",
+"montant": 780898.7
+},
+{
+"nom": "GILCA INC.",
+"montant": 840854.36
+},
+{
+"nom": "Construction Interlag",
+"montant": 859668.08
+},
+{
+"nom": "CONSTRUCTION J.-G. LESSARD & FILS INC.",
+"montant": 859757.76
+},
+{
+"nom": "SENI CONSTRUCTIONS",
+"montant": 1009224.1
+},
+{
+"nom": "CANMAX CONSTRUCTION INC.",
+"montant": 1077000.0
+}
+]
+}
 },
 {
 "id": "544c6422-1c3f-48ea-bac9-253b834db237",
@@ -37046,7 +37131,54 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-26T15:11",
+"soumissions": [
+{
+"nom": "NÉVÉ RÉFRIGÉRATION INC.",
+"montant": 1356200.0
+},
+{
+"nom": "MÉCANIQUE NORTHERM INC.",
+"montant": 1358888.0
+},
+{
+"nom": "LE GROUPE CENTCO INC.",
+"montant": 1376400.0
+},
+{
+"nom": "PLOMBERIE CHARBONNEAU INC.",
+"montant": 1426280.0
+},
+{
+"nom": "CONSTRUCTION RDF",
+"montant": 1498900.0
+},
+{
+"nom": "MÉCANICACTION INC.",
+"montant": 1513813.0
+},
+{
+"nom": "Concept P.V.R. Inc.",
+"montant": 1540149.0
+},
+{
+"nom": "Antagon construction inc.",
+"montant": 1569303.78
+},
+{
+"nom": "Tuyauterie Expert inc",
+"montant": 1594594.0
+},
+{
+"nom": "OSLO CONSTRUCTION INC.",
+"montant": 1660000.0
+}
+]
+}
 },
 {
 "id": "4c2aec89-5353-4388-a49a-ee2ee5b13f72",
@@ -38771,6 +38903,151 @@
 "mode": "Aucun",
 "raison": "Le mandat est axé sur la gestion et l'entretien général du bâtiment, et non sur les travaux spécifiques de maçonnerie ou de charpenterie.",
 "version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-26"
+},
+{
+"id": "58487904-74f8-4dc6-88cc-db7278bd0c51",
+"numero": "44547808",
+"titre": "Réaménagement majeur d’un bâtiment au 20, boulevard Comeau, Baie-Comeau (Québec) G4Z 3A8",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Côte-Nord"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"garage"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit\nêtre accompagnée d’une garantie de soumission correspondant à 10% du montant de\nla soumission.\n► Lorsque la soumission est transmise sur support papier, cette\ngarantie de soumission doit être présentée sous forme de cautionnement, de\nlettre de garantie irrévocable, de chèque visé, de mandat ou de traite et\nrespecter les conditions mentionnées à l’article « Garantie de soumission » des\nInstructions aux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 8171800,
+"dureeMois": "18",
+"surDemande": false,
+"fermeture": "2026-11-05T15:00",
+"publie": "2026-08-14T08:00",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat :\n 44547808\n Titre du\n contrat :\n Réaménagement majeur d’un\n bâtiment\n Adresse de l’immeuble :\n 20, boulevard Comeau, Baie-Comeau\n (Québec) G4Z 3A8\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\nAttention : Notez\nque seuls les documents exigés par la Société aux termes du présent\nappel d’offres doivent être remis avec la soumission, de manière à éviter toute\nsituation qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION\nSOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant le réaménagement des locaux répartis sur trois étages d'un\nbâtiment, incluant notamment un laboratoire. Le projet comprend également\nl'aménagement d'un garage extérieur, des travaux de mise aux normes des issues\nde secours ainsi que des interventions de maintien d'actifs touchant les\nsystèmes de plomberie et d'éclairage.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez-vous\nréférer à la section « Conditions » du présent avis. \nRecommandation\nde dépôt des soumissions par voie électronique\nLa Société a\nentrepris des initiatives pour sa transformation numérique et, par conséquent, recommande\nfortement aux soumissionnaires de déposer leur soumission par voie électronique\npar le biais du SEAO.\nAutorisation\nde contracter/attestation de Revenu Québec\nIl est\nfortement suggéré aux soumissionnaires de faire dès que possible, selon les\nexigences des documents contractuels, leur demande d’attestation de Revenu\nQuébec et, le cas échéant, leur demande d’autorisation de contracter auprès de\nl’Autorité des marchés publics, afin de s’assurer que ces exigences soient rencontrées\navant la date et l’heure limites indiquées dans les Instructions aux\nsoumissionnaires et/ou dans les Instructions complémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission3@sqi.gouv.qc.ca.\nSoumissions des sous-traitants\nTous les sous-traitants assujettis au Bureau des soumissions déposées\ndu Québec (BSDQ) doivent, lors du dépôt de leur soumission électronique au\nBSDQ, indiquer la Société comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions ",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=58487904-74f8-4dc6-88cc-db7278bd0c51",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le réaménagement majeur d'un bâtiment de trois étages, incluant un laboratoire, l'aménagement d'un garage extérieur, et des travaux de mise aux normes des issues de secours ainsi que des systèmes de plomberie et d'éclairage.",
+"pointsAttention": [
+"Durée prévue : 18 mois",
+"Montant estimé : 8 171 800 $"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un réaménagement majeur de bâtiment où la maçonnerie ou la charpenterie pourraient être impliquées, mais le descriptif ne spécifie pas clairement que ces métiers sont le cœur du contrat.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"bâtiment",
+"garage"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-26"
+},
+{
+"id": "f85cff1b-7921-40e9-82eb-abbf9b43b459",
+"numero": "44546348",
+"titre": "Réalisation des travaux généraux pour la mise à jour des caméras - 500, rue de la Faune, Québec (Québec) G1G 0G9",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10 % du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article «Garantie de soumission»\ndes Instructions aux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «Garantie de soumission»\ndes Instructions aux soumissionnaires. Aucune autre forme de garantie\nn’est acceptée avec ce mode de transmission.",
+"estimation": 4440916.55,
+"dureeMois": "17",
+"surDemande": false,
+"fermeture": "2026-11-05T15:00",
+"publie": "2026-05-11T10:56",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72121509 - Services électriques souterrains",
+"72141511 - Excavation",
+"72150000 - Travaux et maintenance liés aux métiers du bâtiment",
+"72151300 - Peinture et pose de papiers peints",
+"72151500 - Installations électriques"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44546348\n Titre du\n contrat :\n Réalisation des travaux\n généraux pour la mise à jour des caméras\n Adresse de\n l’immeuble :\n 500, rue de la Faune,\n Québec (Québec) G1G 0G9\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention :\n Notez que seuls les documents\n exigés par la Société aux termes du présent appel d’offres doivent être\n remis avec la soumission, de manière à éviter toute situation qui\n entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n«Société») procède à un appel d’offres\npublic de travaux de construction visant la réalisation des travaux généraux\nconcernant l’accompagnement des travaux de sécurité, ajout / remplacement /\nentretien de caméras sur le site. Les travaux en civil, en structure, en électricité\net en architecture consistent à réaliser, sans s’y limiter; des travaux d’excavations pour la\nmise en place de nouveaux conduits souterrains, à procéder aux ragréages des\nsurfaces / murs suivant les interventions en sécurité, à réaliser les travaux\nen électricité, tels que la mise en place de nouveaux conduits et filages, le\ntout réalisé dans un contexte sécurisé.\nDÉROULEMENT DE\nL’APPEL D’OFFRES\nLes\nplans et devis du projet visé par le présent appel d’offres contiennent de\nl’information confidentielle.\nAinsi,\nla Société a prévu une procédure afin de restreindre la divulgation de ces\ndocuments aux seuls soumissionnaires qui auront préalablement signé un\nengagement unilatéral de confidentialité et qui auront rempli les conditions\nrequises de sécurité et d’intégrité (habilitation sécuritaire). \nLes\nétapes de cette procédure sont détaillées ci-dessous.\nÉtape 1 – Engagement unilatéral de confidentialité et habilitation\nsécuritaire\na) \nAu plus\ntard le 29 mai 2026, le soumissionnaire doit\ntransmettre les formulaires Questionnaire\nà l’intention des contractants et\nEngagement unilatéral de confidentialité – Appel d’offres dûment\ncomplétés et signés à l’adresse courriel\ninfosoumission56@sqi.gouv.qc.ca.\na) \nAu plus\ntard le 22 mai 2026, le soumissionnaire doit\ntransmettre les formulaires Questionnaire\nà l’intention des contractants et\nEngagement unilatéral de confidentialité – Appel d’offres dûment\ncomplétés et signés à l’adresse courriel\ninfosoumission56@sqi.gouv.qc.ca.\nb) \nSur réception de\nces deux documents dans le délai prescrit, une enquête de la Sûreté du Québec\nsera effectuée afin de déterminer si les soumissionnaires ayant transmis le\nformulaire Questionnaire à l’intention\ndes contractants remplissent les conditions requises de sécurité\n(habilitation s",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=f85cff1b-7921-40e9-82eb-abbf9b43b459",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réalisation des travaux généraux pour la mise à jour des caméras, incluant des travaux en civil, structure, électricité et architecture, ainsi que des excavations et des ragréages.",
+"pointsAttention": [
+"Délai de soumission jusqu'au 29 mai 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres se concentre sur des travaux d'électricité, de structure et de civil, et n'inclut pas de travaux majeurs de maçonnerie ou de charpenterie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
 },
 "fermeArchive": true,
 "fermeLe": "2026-11-26"
