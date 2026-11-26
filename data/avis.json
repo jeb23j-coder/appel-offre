@@ -35391,7 +35391,19 @@
 "reconstruction"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 80,
+"type": "Maçonnerie",
+"resume": "Il s'agit de la reconstruction complète du pavillon Marguerite-Bourgeoys en mode Conception-Construction, avec une durée prévue de 24 mois. Les mots-clés identifiés incluent 'enveloppe' et 'reconstruction'.",
+"pointsAttention": [
+"Délai de soumission : Avant le 1er février 2027 à 14h."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet est une reconstruction majeure où les métiers de la maçonnerie et de la charpenterie sont très probables comme lots importants.",
+"version": 3
+}
 },
 {
 "id": "412a59d8-0c86-4234-9e04-c9f8c2efb324",
@@ -35463,7 +35475,23 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réalisation, le remplacement ou la mise aux normes réglementaires d'installations individuelles de traitement des eaux usées domestiques (puits) pour différentes propriétés privées.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Ce contrat n'a aucun lien avec les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "59ae6840-5981-4dda-bfea-607d9e71be7a",
@@ -35542,7 +35570,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne le remplacement de la superstructure, le drainage de la fondation et le verdissement de la cour d'école. La durée prévue est de 14 mois pour un montant estimé de 3 700 000 $.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est un agrandissement/rénovation de bâtiment scolaire, où la maçonnerie et la charpenterie pourraient être impliquées dans la superstructure ou les aménagements, mais le focus n'est pas clairement sur ces corps de métier.",
+"version": 3
+}
 },
 {
 "id": "dc9f59bf-bbdc-41ca-9cf2-c32a7aed8b91",
@@ -35630,7 +35670,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation des salles de bain de l'École St-John's. Le montant estimé est de 350 000 $ et la durée prévue est de 5 mois.",
+"pointsAttention": [
+"Visite des lieux prévue le 1er décembre 2026 à 9h00."
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le projet soit dans le secteur du bâtiment, il se concentre sur la rénovation de salles de bain, ce qui n'est pas le cœur de métier principal (maçonnerie/charpenterie) recherché.",
+"version": 3
+}
 },
 {
 "id": "17014db3-1412-4723-9527-989a0f387ad3",
@@ -35708,7 +35760,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toitures, le remplacement de l'unité de refroidissement au toit et divers travaux à la bibliothèque Mordecai-Richler. La durée prévue est de 9 mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et le système de refroidissement, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0258b87f-32da-49e3-b7ef-f6b1d8ebf8b2",
@@ -35788,7 +35852,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de la chaufferie et de l'entrée électrique d'une école. Les travaux impliquent des codes liés au chauffage, la mécanique et l'électricité.",
+"pointsAttention": [
+"Visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement les systèmes mécaniques et électriques, et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "82a08bba-361d-432b-928b-09a7064b0c3c",
@@ -35862,7 +35938,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement du revêtement en gazon synthétique au parc Rutherford. La durée prévue des travaux est de 2 mois.",
+"pointsAttention": [
+"Visite supervisée des lieux : N/A"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'aménagement de terrain et le revêtement de gazon, ce qui n'est pas dans le domaine de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "75806e9d-c948-424e-831d-5be3a4eaf507",
@@ -35945,7 +36033,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des ventilo-convecteurs à une école secondaire. Le montant estimé est de 1 372 916 $ et la durée prévue est de 12 mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire le 1er décembre 2026 à 10h00."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux de CVC et n'implique ni maçonnerie ni charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "67f5a0c4-7dcf-4dc2-8e77-563bc99c6310",
@@ -36025,7 +36125,23 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le réaménagement du système de chauffage, ventilation et climatisation (CVAC) du troisième étage d'un bâtiment. Les travaux incluent la démolition du système ancien et l'installation d'un nouveau système.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement le système CVC et n'implique aucun travail principal en maçonnerie ou charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
