@@ -37662,7 +37662,20 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le contrat concerne la remise à neuf et la réhabilitation complète de plusieurs bâtiments, incluant la réfection de l'enveloppe (toitures, portes, fenêtres, balcons, brique et panneaux en béton), ainsi que la réfection des aménagements extérieurs et des murs de soutènement en béton.",
+"pointsAttention": [
+"Délai long (27 mois)",
+"Travaux majeurs impliquant structure et génie civil"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut explicitement la réfection de la brique, des balcons, des portes et fenêtres, et des murs en béton, ce qui correspond directement aux intérêts de l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
