@@ -36073,7 +36073,21 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la décontamination et la sécurisation des contaminants aériens dans un établissement de Santé Québec. Il exige que les travaux soient effectués selon des procédures de travail standardisées et sécuritaires, notamment concernant les matériaux potentiellement dangereux comme les fibres d'amiante.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat n'a aucun lien avec les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "54f2a47c-83d3-4a8a-8fb9-3af162d58144",
@@ -36147,7 +36161,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'aménagement de salles de radiologie et le remplacement d'un système de radiographie à l'Hôpital de LaSalle. Le projet vise à réaménager une salle de tomodensitométrie pour y installer une salle d'échographie et aménager des locaux de stérilisation.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet est centré sur l'aménagement et le remplacement d'équipements médicaux, et ne correspond pas aux métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "0324600d-78d6-4d5c-9fbf-9717d23fe409",
@@ -36223,7 +36249,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "Il s'agit d'un appel d'offres pour la gérance de construction d'un organisme (Hydro-Québec) sur une période de 36 mois. Aucun détail sur les travaux spécifiques n'est fourni.",
+"pointsAttention": [
+"Contrat sur demande : non"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "L'avis concerne la gérance de construction, ce qui pourrait inclure des lots de maçonnerie ou charpenterie, mais les détails des travaux spécifiques ne sont pas mentionnés.",
+"version": 3
+}
 },
 {
 "id": "d9e1b48e-b8b7-4196-b21f-8092478dbf14",
@@ -36284,7 +36322,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les départs de ligne, le filtre harmonique et la pérennité des équipements pour Hydro-Québec dans les régions de l'Estrie, de la Montérégie et d'Hertel.",
+"pointsAttention": [
+"Aucun"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres ne concerne pas les métiers de la maçonnerie, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
