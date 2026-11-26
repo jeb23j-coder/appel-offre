@@ -34538,7 +34538,25 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T14:11",
+"soumissions": [
+{
+"nom": "Kamco constuction inc",
+"montant": 845600.0
+},
+{
+"nom": "Construction Langis Normand Inc.",
+"montant": 854985.0
+},
+{
+"nom": "MARCEL CHAREST ET FILS INC.",
+"montant": 881400.0
+}
+]
+}
 },
 {
 "id": "c63f519e-d859-469d-a5ec-3d594ef9586c",

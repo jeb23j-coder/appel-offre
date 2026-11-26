@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-25T18:30",
-"seaoLus": 424,
-"retenus": 426,
-"nouveaux": 7,
+"date": "2026-11-25T21:03",
+"seaoLus": 425,
+"retenus": 427,
+"nouveaux": 1,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -37000,7 +37000,7 @@
 "restauration"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 75,
 "type": "Maçonnerie",
@@ -37079,7 +37079,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -37161,7 +37161,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -37250,7 +37250,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 10,
 "type": "Hors sujet",
@@ -37325,7 +37325,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -37441,7 +37441,7 @@
 "portes et fenêtres"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 90,
 "type": "Maçonnerie",
@@ -37530,7 +37530,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Maçonnerie",
@@ -37543,6 +37543,126 @@
 "raison": "Le projet est un agrandissement de bâtiment, ce qui peut impliquer des travaux de maçonnerie ou de charpenterie, mais le cœur du contrat n'est pas explicitement défini.",
 "version": 3
 }
+},
+{
+"id": "ea3cc059-9e48-427d-bfc0-aaa2ab5f353c",
+"numero": "307389",
+"titre": "Remise à neuf des bâtiments des quartiers 1, 3 et 4 et réhabilitation des systèmes, de l’infrastructure et du site, aux Habitations Boyce-Viau",
+"organisme": "OMH de Montréal (OMHM)",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "27",
+"surDemande": false,
+"fermeture": "2027-01-26T11:00",
+"publie": "2026-11-25T19:45",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "1. \nObjet du contrat1.1 \nL’OMHM procède à une procédure ouverte publique\npour remise à neuf des bâtiments des quartiers 1, 3 et 4 et réhabilitation des\nsystèmes, de l’infrastructure et du site, aux Habitations Boyce-Viau, adresses\nmultiples : \n- \n4830 à 4934, avenue Pierre-De Coubertin,\n- \n2601 à 2687, rue Théodore,\n- \n2600 à 2680, rue Viau. \nArrondissement\nMercier-Hochelaga-Maisonneuve.\n1.2 \nLe projet consiste à réaliser tous les\ntravaux conformément aux documents contractuelspour la phase 2 de\nremise à neuf complète des bâtiments, de l’infrastructure et du site des\nquartiers 1, 3 et 4. Sans s’y limiter, la portée des travaux inclut les points\nsuivants :\n- \nLa réfection complète de l’enveloppe\npour l’ensemble des bâtiments incluant les toitures, les portes et fenêtres,\nles balcons, la brique et panneaux en béton;\n- \nLa réfection des dalle-terrasses;\n- \nLa réfection complète des aménagements\nintérieurs dans l’ensemble des logements et réaménagement des entrées des\nlogements, des vestibules et des escaliers intérieurs;\n- \nLa démolition sélective en condition\nd’amiante et de moisissure et la décontamination des composantes conservées;\n- \nLa démolition et ledémantèlement\ncomplet de l’ensemble des composantes et systèmes électromécaniques et civil des bâtiments, des\nsous-sols, des garages et du site;\n- \nLa mise aux normes de la ventilation des\nlogements, aires communes, garages et locaux techniques et le remplacement\ncomplet de tous les systèmes et composantes de ventilation, chauffage,\nplomberie, électricité, et télécommunication dans l’ensemble des bâtiments et\ndu site de la phase 2;\n- \nInstallation de nouveaux compteurs et\néquipements pour permettre un mesurage par quartier et par bâtiment;\n- \nL’installation de nouveaux équipements\nde sécurité, contrôles d’accès et vidéosurveillance;\n- \nLa démolition et la réfection complète\nde tous les aménagements extérieurs; pavages, mobiliers urbains, plantations,\nterrassement, trottoirs, escaliers, clôtures et éclairages;\n- \nLa réfection des dalle-terrasses des\ngarages ;\n- \nLa réfection des murs de soutènement en\nbéton, les descentes de garages et tous les travaux connexes, nécessaires en\nstructure, pour la remise à neuf des bâtiments et du site.\n- \nTravaux en structure pour réfection,\nrenforcement et contreventements des bâtiments;\n- \nLa\ndémolition, la reconstruction de tous les ouvrages de génie civil et des\ninfrastructures souterraines ;\n- \nLes travaux de mise à niveau du drainage\ndu site et du système de rétention d’eau;\n- \nLe transport hors site et la gestion de\ntous les sols contaminés.\n- \nLes travaux d’aménagement paysager sur\ntout le site.\n1.3 \nLes travaux seront réalisés dans un plan\nd’ensemble HLM de 9 bâtiments construits en 1971, totalisant 203 logements et 3\nlocaux communautaires, et destinés à des familles ou des personnes seules.\nCe plan d’ensemble est\nsitué en face du stade olympique, entre les rues Viau, Théodore, avenue\nPierre-de Coubertin et le parc Théodore du côté est.\nLes 9 bâtiments son",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=ea3cc059-9e48-427d-bfc0-aaa2ab5f353c",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2027-01-26 Avant 11:00 Heure légale du Québec",
+"adresseDepot": "400, boul. Rosemont Montréal QC CAN H2S0A2",
+"ouverture": "2027-01-26 11:15 Heure légale du Québec",
+"adresseOuverture": "400, boul. Rosemont Montréal QC CAN H2S0A2"
+},
+"conditions": [],
+"vuLe": "2026-11-25T21:01",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"brique",
+"pierre",
+"reconstruction",
+"béton",
+"réfection",
+"réhabilitation"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"brique",
+"pierre",
+"reconstruction",
+"béton",
+"réfection",
+"réhabilitation",
+"balcon",
+"escalier",
+"terrasse",
+"portes et fenêtres",
+"fenêtre",
+"bâtiment",
+"garage",
+"logement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"brique",
+"pierre",
+"reconstruction",
+"béton",
+"réfection",
+"réhabilitation",
+"balcon",
+"escalier",
+"terrasse",
+"portes et fenêtres",
+"fenêtre",
+"bâtiment",
+"garage",
+"logement"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"balcon",
+"brique",
+"bâtiment",
+"béton",
+"escalier",
+"fenêtre",
+"garage",
+"logement",
+"pierre",
+"portes et fenêtres",
+"reconstruction",
+"réfection",
+"réhabilitation",
+"terrasse"
+],
+"motsOk": true,
+"nouveau": true
 },
 {
 "id": "merx-3495149355",
@@ -72254,7 +72374,25 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-24T14:11",
+"soumissions": [
+{
+"nom": "Kamco constuction inc",
+"montant": 845600.0
+},
+{
+"nom": "Construction Langis Normand Inc.",
+"montant": 854985.0
+},
+{
+"nom": "MARCEL CHAREST ET FILS INC.",
+"montant": 881400.0
+}
+]
+}
 },
 {
 "id": "c63f519e-d859-469d-a5ec-3d594ef9586c",
