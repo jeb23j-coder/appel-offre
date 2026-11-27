@@ -34694,7 +34694,33 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-26T08:33",
+"soumissions": [
+{
+"nom": "9417-4547 Québec inc.",
+"montant": 233125.0
+},
+{
+"nom": "RPF LTÉE",
+"montant": 267667.0
+},
+{
+"nom": "LES CONSTRUCTIONS RÉJEAN MADORE",
+"montant": 285785.26
+},
+{
+"nom": "LES ÉLECTRICIENS DESJARDINS",
+"montant": 329300.0
+},
+{
+"nom": "CONSTRUCTION RENÉ BOUCHARD INC.",
+"montant": 385500.0
+}
+]
+}
 },
 {
 "id": "3c7f7604-58ff-47b2-af82-6856c141b438",
@@ -36382,7 +36408,54 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-26T14:50",
+"soumissions": [
+{
+"nom": "Nexa Construction inc.",
+"montant": 610921.21
+},
+{
+"nom": "PROCOVA INC.",
+"montant": 628000.0
+},
+{
+"nom": "Construction Melma Inc.",
+"montant": 640770.0
+},
+{
+"nom": "Les Constructions Novalar inc.",
+"montant": 671290.0
+},
+{
+"nom": "Construction MLSR inc.",
+"montant": 683500.0
+},
+{
+"nom": "CORENOV CONSTRUCTEURS INC.",
+"montant": 727750.0
+},
+{
+"nom": "NORGEREQ LTÉE",
+"montant": 740000.0
+},
+{
+"nom": "CONSTRUCTION SAVCO INC.",
+"montant": 777395.78
+},
+{
+"nom": "Hu-Nic construction",
+"montant": 784236.97
+},
+{
+"nom": "Construction Guillaume Mailhot inc",
+"montant": 827735.01
+}
+]
+}
 },
 {
 "id": "2b45ea76-72bc-49bf-94c5-3622e0a96cb5",
