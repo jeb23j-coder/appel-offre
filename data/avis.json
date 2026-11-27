@@ -36343,7 +36343,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la construction pour la rénovation du laboratoire de médecine nucléaire de l'Hôpital du Haut-Richelieu. Les travaux sont prévus sur une durée de 12 semaines et le montant estimé est de 1 400 000 $.",
+"pointsAttention": [
+"Délai de réalisation de 12 semaines"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le projet soit une rénovation, il n'est pas clair si la maçonnerie ou la charpenterie est le cœur du contrat, car il s'agit d'une mise aux normes de laboratoire.",
+"version": 3
+}
 },
 {
 "id": "96d2476d-a26c-437c-bd46-11f2a46653bc",
@@ -36407,7 +36419,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'UQAM lance un appel d'offres pour un service d'entrepreneur général à exécution sur demande concernant l'entretien et les réparations de ses différents sites. Le montant estimé est de 2 750 000,00 $ sur une durée prévue de 36 mois.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "L'avis concerne un entrepreneur général pour entretien et réparations, ce qui pourrait inclure des lots de maçonnerie ou charpenterie, mais le cœur du contrat n'est pas spécifié.",
+"version": 3
+}
 },
 {
 "id": "2eed2646-e057-4d69-b0a8-6ddd1614cd8f",
@@ -36469,7 +36493,19 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne le remplacement du système de gicleurs sous air comprimé dans le stationnement public d'un immeuble à Montréal. Les travaux sont estimés sur une durée de 10 mois.",
+"pointsAttention": [
+"visite des lieux n’est pas obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne des travaux d'installation de gicleurs et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "7163351a-18dd-4a75-b74b-400179178054",
@@ -36543,7 +36579,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le projet consiste à remplacer quatre disjoncteurs dans le switchboard électrique du local 1340 du bâtiment Hall. La durée prévue est de 3 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement des travaux électriques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "2a80a242-e30b-4040-aef1-563054887f44",
@@ -36618,7 +36666,19 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la rénovation de la piscine régionale des Îles. La durée prévue est de 8 mois avec un montant estimé de 4 800 000 $.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne la rénovation d'une piscine et n'inclut pas les métiers de la maçonnerie, du briquetage, de la charpenterie ou de la menuiserie.",
+"version": 3
+}
 },
 {
 "id": "4cbc4559-3ac1-4d53-a0a5-9dec3739d1b4",
@@ -36696,7 +36756,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des planchers et de la zone de lavage de la cuisine. Le délai prévu pour l'exécution des travaux est de six mois.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat ne concerne pas les métiers principaux de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "8c0385cf-16c9-4e17-9bb9-6ff4426ce2f6",
@@ -36771,7 +36843,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'ajout de deux groupes de pompes de surpression pour le réseau d'eau potable de l'Hôpital de LaSalle. Les travaux sont liés à l'installation de plomberie et d'équipement hydraulique.",
+"pointsAttention": [
+"Visite de lieux prévue le 09 décembre 2026."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation de pompes et de plomberie, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "8b612f18-dfe3-4347-b213-5a04b1dc5e8b",
@@ -36853,7 +36937,19 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Bâtiment (nos métiers en partie)",
+"resume": "L'appel d'offres concerne la démolition d'un bâtiment existant et la construction d'un nouveau quartier général, incluant la construction d'un stationnement étagé et tous les aménagements extérieurs.",
+"pointsAttention": [
+"délai court (date limite de soumission : 20 janvier 2027)"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le projet est de construction de bâtiment où la maçonnerie et la charpenterie/menuiserie sont probablement impliquées dans les travaux de construction, mais le titre ne met pas l'accent sur ces corps de métier.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
