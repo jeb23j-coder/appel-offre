@@ -35743,7 +35743,23 @@
 "remise en état"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des lampadaires aux gares Baie d'Urfé et Pointe-Claire, impliquant des travaux électriques et des modifications sur des bases en béton existantes.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court",
+"cote de sécurité",
+"milieu occupé",
+"contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement des travaux électriques et des modifications sur des bases en béton, ce qui n'est pas dans le cœur de métier de la maçonnerie/briqueterie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "3992f3d5-da73-45ea-9ca7-9dd60e9019e3",
@@ -35833,7 +35849,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à remplacer les fenêtres et le revêtement extérieur de l'école La Ribambelle à Mont-Tremblant. La durée prévue pour ce projet est de 12 mois, avec un montant estimé de 1 000 000 $.",
+"pointsAttention": [
+"délai de 12 mois"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le contrat concerne directement le remplacement du revêtement extérieur, ce qui est un intérêt majeur pour l'entreprise.",
+"version": 3
+}
 },
 {
 "id": "767c50fe-b8a2-4038-9b78-07bec3a8b2a6",
@@ -35918,7 +35946,19 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 75,
+"type": "Maçonnerie",
+"resume": "Le projet consiste en la remise à neuf complète d'un immeuble résidentiel de cinq étages comprenant 76 logements, incluant la réfection de l'enveloppe du bâtiment et la modernisation des composantes architecturales. Les travaux comprennent la réfection de l'enveloppe du bâtiment et l'aménagement des espaces extérieurs.",
+"pointsAttention": [
+"Le bâtiment est présentement occupé, nécessitant un délai de quatre mois avant le début des travaux pour le relogement des locataires."
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet implique une réfection de l'enveloppe du bâtiment et des composantes architecturales, ce qui touche à la maçonnerie et potentiellement la charpenterie/menuiserie, et il s'agit d'un projet de taille significative.",
+"version": 3
+}
 },
 {
 "id": "fbdc537d-550d-4cae-8b8a-2ba6aba3ac38",
@@ -35997,7 +36037,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 50,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la sécurisation de plusieurs écoles par l'ajout d'électroaimants de verrouillage, l'ajustement de portes et la cloisonnement de secteurs EHDAA dans sept établissements scolaires.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Le contrat inclut des travaux de cloisonnement qui touchent à la maçonnerie, mais le cœur du projet semble être la sécurisation et les travaux secondaires, nécessitant une vérification de la portée exacte des travaux de maçonnerie.",
+"version": 3
+}
 },
 {
 "id": "d28e8833-e84b-4e57-b462-0274281cef69",
@@ -36085,7 +36137,19 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'installation d'équipements de mesure avancée (IMA 2.0) pour Hydro-Québec, impliquant des travaux sur des toitures de bâtiment et des installations de télécommunication. Le montant estimé se situe entre 3 et 5 millions de dollars.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'installation d'infrastructures et d'équipements électriques/télécoms, et non les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "01ae2744-305e-4ee2-869d-977d429d56a8",
@@ -36150,7 +36214,20 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 10,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'ajout d'équipement de protection pour un immeuble situé au 500, rue de la Faune, Québec. La durée prévue pour le projet est de 3 mois.",
+"pointsAttention": [
+"visite obligatoire",
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres ne mentionne aucun travail de maçonnerie, charpenterie ou menuiserie, se concentrant sur l'ajout d'équipement de protection.",
+"version": 3
+}
 },
 {
 "id": "e6a12ecf-f731-44e6-b7ac-7d636e556db6",
@@ -36235,7 +36312,19 @@
 "école"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement de fenêtres pour l'École Saint-Thomas-d’Aquin à Saint-Hyacinthe. Le montant estimé est de 750 000 $ et la durée prévue est de 2 mois.",
+"pointsAttention": [
+"Visite des lieux non-obligatoire le 15 décembre 2026 à 9h30."
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement le remplacement de fenêtres, ce qui n'est pas le cœur de métier de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "afc668af-dca0-4db2-a738-6c0b720d4a02",
@@ -36318,7 +36407,19 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true
+"nouveau": true,
+"analyse": {
+"pertinence": 20,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des toitures pour le bâtiment de Désinfection à l’usine d’épuration des eaux usées de Jean R. Marcotte. La durée prévue est de 3 mois.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne principalement la toiture et n'a pas de lien direct avec les métiers de la maçonnerie ou de la charpenterie/menuiserie.",
+"version": 3
+}
 },
 {
 "id": "merx-3495149355",
