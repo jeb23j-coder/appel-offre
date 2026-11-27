@@ -34928,7 +34928,65 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-27T10:01",
+"soumissions": [
+{
+"nom": "Général PG inc.",
+"montant": 71170.7
+},
+{
+"nom": "R3 CONSTRUCTION INC.",
+"montant": 83211.49
+},
+{
+"nom": "CONSTRUCTION MADUX INC.",
+"montant": 109000.0
+},
+{
+"nom": "LE GROUPE LEFEBVRE M.R.P. INC.",
+"montant": 119575.5
+},
+{
+"nom": "ATWILL-MORIN BÉTON INC",
+"montant": 123185.0
+},
+{
+"nom": "TRO-CHAÎNES INC.",
+"montant": 139740.0
+},
+{
+"nom": "CONSTRUCTIONS CONCREATE LTÉE",
+"montant": 148903.0
+},
+{
+"nom": "BTM CONSTRUCTION INC.",
+"montant": 159000.0
+},
+{
+"nom": "Construction Interlag",
+"montant": 163400.0
+},
+{
+"nom": "Groupe Diamantex (9150-0124 Qc inc)",
+"montant": 177800.0
+},
+{
+"nom": "9140-2594 QUÉBEC INC.",
+"montant": 179900.0
+},
+{
+"nom": "RAMCOR CONSTRUCTION INC.",
+"montant": 218000.0
+},
+{
+"nom": "Sciage de Béton St-Léonard",
+"montant": 222000.0
+}
+]
+}
 },
 {
 "id": "ad75865c-8c9a-4cc2-aab7-9e403fdc7b66",
@@ -39891,6 +39949,163 @@
 "recommandation": "No-go",
 "mode": "Aucun",
 "raison": "Le contrat concerne l'asphaltage et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "6d65f198-7fd0-4590-a29d-d0a991d14e9b",
+"numero": "44548319",
+"titre": "Lot 2601 – Électricité, télécommunication et sécurité physique - Hôpital Charles-Le Moyne – Bloc opératoire et chirurgie d’un jour – Agrandissement et réaménagement (Module clinique transitoire) au 2924, boulevard Taschereau, Longueuil",
+"organisme": "Société québécoise des infrastructures",
+"regions": [
+"Montérégie"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"agrandissement"
+],
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être accompagnée d’une garantie de\nsoumission correspondant à 10% du montant de la soumission.\n► Lorsque la\nsoumission est transmise sur support papier, cette garantie de soumission doit\nêtre présentée sous forme de cautionnement, de lettre de garantie irrévocable,\nde chèque visé, de mandat ou de traite et respecter les conditions mentionnées\nà l’article « Garantie de soumission » des Instructions\naux soumissionnaires.\n► Lorsque la\nsoumission est transmise par voie électronique, cette garantie de soumission\ndoit obligatoirement être présentée sous forme de cautionnement ou de lettre de\ngarantie irrévocable et respecter les conditions mentionnées à l’article «\nGarantie de soumission » des Instructions aux soumissionnaires. Aucune\nautre forme de garantie n’est acceptée avec ce mode de transmission.",
+"estimation": 10448902.0,
+"dureeMois": "24",
+"surDemande": false,
+"fermeture": "2026-11-03T15:00",
+"publie": "2026-10-01T10:47",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles",
+"72120000 - Construction de bâtiments non résidentiels",
+"72121403 - Construction d’hôpitaux"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n 44548319\n Titre du\n contrat :\n Lot 2601 –Électricité, télécommunication et\n sécurité physique\n Hôpital Charles-Le Moyne – Bloc opératoire\n et chirurgie d’un jour – Agrandissement et réaménagement (Module clinique\n transitoire)\n Adresse de\n l’immeuble :\n 2924, boulevard\n Taschereau, Longueuil (Québec) J4V 2G8\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de d’électricité,\ntélécommunication et sécurité physique pour le\nprojet de l’Hôpital\nCharles-Le Moyne – Bloc opératoire et chirurgie d’un jour – Agrandissement et\nréaménagement (Module clinique transitoire).\nAVIS IMPORTANTS\nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission5@sqi.gouv.qc.ca.\nSoumissions des sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions (TES).\nRÈGLEMENT SUR LES PAIEMENTS ET LE\nRÈGLEMENT RAPIDES DES DIFFÉRENDS EN MATIÈRE DE TRAVAUX DE CONSTRUCTION\nLes\ndisposit",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6d65f198-7fd0-4590-a29d-d0a991d14e9b",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne les travaux d'électricité, télécommunication et sécurité physique pour l'agrandissement et le réaménagement d'un module clinique transitoire à l'Hôpital Charles-Le Moyne.",
+"pointsAttention": [
+"Visite obligatoire",
+"Délai court",
+"Cote de sécurité",
+"Milieu occupé",
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'électricité et la sécurité physique, ce qui n'est pas le cœur de métier de la briqueteur-maçon et charpentier-menuisier.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"agrandissement"
+],
+"motsOk": true,
+"familles": [
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "00a6ec5e-ad0d-4caf-b897-92f427c6e344",
+"numero": "44546917",
+"titre": "Conversion des systèmes de chauffage et travaux de maintien d’actif au 224-226, boulevard Gérard-D.-Levesque, New Carlisle (Québec) G0C 1Z0",
+"organisme": "SQI-Direction immobilière du Bas-Saint-Laurent et de la Gaspésie-Îles-de-la-Madeleine",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Lettre de garantie irrévocable, La soumission doit être\naccompagnée d’une garantie de soumission correspondant à 10% du montant de la\nsoumission.\n► Lorsque la soumission est transmise sur support papier, cette\ngarantie de soumission doit être présentée sous forme de cautionnement, de\nlettre de garantie irrévocable, de chèque visé, de mandat ou de traite et\nrespecter les conditions mentionnées à l’article « Garantie de soumission » des\nInstructions aux soumissionnaires.\n► Lorsque la soumission est transmise\npar voie électronique, cette garantie de soumission doit obligatoirement être\nprésentée sous forme de cautionnement ou de lettre de garantie irrévocable et\nrespecter les conditions mentionnées à l’article « Garantie de soumission » des\nInstructions aux soumissionnaires. Aucune autre forme de garantie n’est\nacceptée avec ce mode de transmission",
+"estimation": 1365906.0,
+"dureeMois": "9",
+"surDemande": false,
+"fermeture": "2026-11-26T15:00",
+"publie": "2026-10-27T14:44",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "IDENTIFICATION DU\nCONTRAT\n Numéro de contrat : \n44546917\n Titre du\n contrat :\n Conversion des systèmes\n de chauffage et travaux de maintien d’actif\n Adresse de l’immeuble :\n 224-226, boulevard\n Gérard-D.-Levesque, New Carlisle (Québec) G0C 1Z0\nTout\nsoumissionnaire devra se conformer aux exigences contenues aux documents\ncontractuels. Ceux-ci ne peuvent être obtenus que par l’intermédiaire du\nsystème électronique d’appel d’offres (SEAO) à l’adresse www.seao.gouv.qc.ca ou en téléphonant au numéro 418-646-0177 pour les\nrésidents de la région de Québec et au numéro sans frais 1-877-336-7326 pour\nles résidents de l’extérieur.\n Attention : Notez que seuls les\n documents exigés par la Société aux termes du présent appel d’offres\n doivent être remis avec la soumission, de manière à éviter toute situation\n qui entraînerait que la soumission soit restrictive ou conditionnelle.\nDESCRIPTION SOMMAIRE DES TRAVAUX\nLa Société québécoise des infrastructures (ci-après la\n« Société ») procède à un appel d’offres public de travaux de\nconstruction visant les travaux de conversion\ndes systèmes de chauffage au mazout et de remplacement de système de\nventilation dans trois immeubles adjacents situés aux 224 et 226 boulevard\nGérard-D.-Levesque à New Carlisle.\nAVIS IMPORTANTS\nDÉVELOPPEMENT ÉCONOMIQUE DU QUÉBEC\nCet appel d’offres\ncontient des exigences visant le développement économique du Québec. Veuillez\nvous référer à la section « Conditions » du présent avis. \nRecommandation de dépôt des soumissions par voie\nélectronique\nLa Société a entrepris des initiatives pour sa\ntransformation numérique et, par conséquent, recommande fortement aux\nsoumissionnaires de déposer leur soumission par voie électronique par le biais\ndu SEAO.\nAutorisation de contracter/attestation de Revenu\nQuébec\nIl est fortement suggéré aux soumissionnaires de faire\ndès que possible, selon les exigences des documents contractuels, leur demande\nd’attestation de Revenu Québec et, le cas échéant, leur demande d’autorisation\nde contracter auprès de l’Autorité des marchés publics, afin de s’assurer que\nces exigences soient rencontrées avant la date et l’heure limites indiquées\ndans les Instructions aux soumissionnaires et/ou dans les Instructions\ncomplémentaires.\nNon-participation à l’appel d’offres\nToute personne ou entreprise s’étant procuré les\ndocuments contractuels et qui ne présente pas de soumission, s’engage à\ncompléter le formulaire « Questionnaire de non-participation » inclus dans les\ndocuments contractuels et à transmettre celui‑ci à la Société à l’adresse de\ncourrier électronique suivante : infosoumission66@sqi.gouv.qc.ca. \nSoumissions\ndes sous-traitants\nTous les\nsous-traitants assujettis au Bureau des soumissions déposées du Québec (BSDQ)\ndoivent, lors du dépôt de leur soumission électronique au BSDQ, indiquer la\nSociété comme « Destinataire » à l’aide du menu\n« Soumissionnaire » du système de transmission électronique des\nsoumissions (TES).\nRÈGLEMENT SUR LES\nPAIEMENTS ET LE RÈGLEMENT RAPIDES DE",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=00a6ec5e-ad0d-4caf-b897-92f427c6e344",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-26 Au plus tard 15:00 Heure légale du Québec",
+"adresseDepot": "335, rue Moreault, bureau RC.04 Rimouski QC CAN G5L9C8",
+"ouverture": null,
+"adresseOuverture": "335, rue Moreault, bureau RC.04 Rimouski QC CAN G5L9C8"
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-27T15:49",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la conversion des systèmes de chauffage au mazout et le remplacement du système de ventilation dans trois immeubles adjacents à New Carlisle. Le montant estimé est de 1 365 906,00 $ pour une durée prévue de 9 mois.",
+"pointsAttention": [
+"Cautionnement de soumission requis (10% du montant de la soumission)."
+],
+"recommandation": "No-go",
+"mode": "Sous-traitance",
+"raison": "Le contrat concerne des travaux de chauffage et de ventilation, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie/menuiserie.",
 "version": 3
 },
 "fermeArchive": true,
