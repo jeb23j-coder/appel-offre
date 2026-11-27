@@ -36619,7 +36619,46 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-27T11:31",
+"soumissions": [
+{
+"nom": "Ventilation MFC",
+"montant": 434500.0
+},
+{
+"nom": "VENTILATION JEAN ROY (2025) INC.",
+"montant": 492600.0
+},
+{
+"nom": "Seguin Morris Inc.",
+"montant": 527730.16
+},
+{
+"nom": "LES ENTREPRISES DE RÉFRIGÉRATION L.S. INC.",
+"montant": 528557.0
+},
+{
+"nom": "130132 CANADA INC.",
+"montant": 538898.0
+},
+{
+"nom": "NÉVÉ RÉFRIGÉRATION INC.",
+"montant": 550200.0
+},
+{
+"nom": "LANREFCO INC.",
+"montant": 586409.0
+},
+{
+"nom": "GESTION SEPTEM INC.",
+"montant": 597000.0
+}
+]
+}
 },
 {
 "id": "aca7c500-3812-46d4-bcc1-c0a651641955",
@@ -39055,7 +39094,34 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-27T12:22",
+"soumissions": [
+{
+"nom": "LES ENTREPRISES G. & M. LAPLANTE LTÉE",
+"montant": 8694851.0
+},
+{
+"nom": "TC3 Construction inc.",
+"montant": 10739618.0
+},
+{
+"nom": "L.F.G. CONSTRUCTION",
+"montant": 10873735.0
+},
+{
+"nom": "ESCALÉRA ENTREPRENEUR GÉNÉRAL INC.",
+"montant": 11535000.0
+},
+{
+"nom": "9490-8613 Québec inc. / f.a.r.s. Groupe Nipi",
+"montant": 14688871.0
+}
+]
+}
 },
 {
 "id": "f85cff1b-7921-40e9-82eb-abbf9b43b459",
@@ -39123,6 +39189,711 @@
 }
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-26"
+"fermeLe": "2026-11-26",
+"fourchette": null,
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-27T12:30",
+"soumissions": [
+{
+"nom": "Alaroy inc.",
+"montant": 5090800.0
+},
+{
+"nom": "Humaco Construction inc.",
+"montant": 5715601.2
+},
+{
+"nom": "CONSTRUCTION CITADELLE INC.",
+"montant": 5878992.0
+}
+]
+}
+},
+{
+"id": "c8608349-f7b7-4ea9-89e6-bc5f59a8dd23",
+"numero": "2026-F-01",
+"titre": "Reconversion de l'aile Saint-Augustin - Monastère des Augustines",
+"organisme": "Fiducie du Patrimoine Culturel des Augustines",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "candidat",
+"motsTrouves": [
+"bâtiment",
+"façade",
+"patrimoine",
+"patrimonial",
+"rénovation"
+],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "10",
+"surDemande": false,
+"fermeture": "2026-11-18T10:00",
+"publie": "2026-10-19T13:38",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Reconversion de l’aile Saint-Augustin\nLa Fiducie du patrimoine culturel des Augustines sollicite\ndes soumissions pour la réalisation de travaux de rénovation intérieure ainsi\nque de travaux de réparation extérieure sur les façades du bâtiment le plus\nrécent de l’ensemble monastique du Monastère des Augustines, situé au 77, rue\ndes Remparts, à Québec.\nLe Monastère des Augustines est un site patrimonial classé\ndont la préservation et la mise en valeur requièrent une attention particulière\ndans la planification et l’exécution des travaux. Des principes de développement\ndurable guident également les choix et les décisions relatifs au projet et\ndevront être pris en considération dans les méthodes de travail proposées.\nUne attention particulière devra être portée à la protection\ndes jardins et des aménagements paysagers, lesquels ne devront subir aucune\ndétérioration attribuable à l’exécution des travaux.\nLe Monastère demeurera en activité pendant toute la\nréalisation du projet. Les travaux devront donc être planifiés et exécutés de\nmanière à limiter les nuisances et à assurer, en tout temps, le respect\ndes personnes invitées, des usagers et du caractère particulier des lieux.\nLes offres devront être cachetées, scellées et adressées à :\nNathalie Roy\nDirectrice générale\nFiducie du patrimoine culturel des Augustines\n77, rue des Remparts\nQuébec (Québec) G1R 3R9\nLes soumissions seront reçues jusqu’à 10 h, heure locale\nen vigueur, le mercredi 18 novembre 2026, pour être ouvertes publiquement\nau même endroit, le même jour et à la même heure.\nLes personnes et entreprises intéressées pourront obtenir\nles documents de soumission auprès du Service électronique d’appels d’offres du\ngouvernement du Québec (SEAO), en communiquant avec l’un de ses représentants\nau 1 866 669-7326 ou en consultant le site Web du SEAO. Les documents pourront\nêtre obtenus au coût établi par le SEAO.\nSont autorisées à présenter une offre les entreprises ayant\nleur siège social au Québec ainsi que toute autre entreprise qui respecte les\naccords de libéralisation des marchés publics applicables établis par le\ngouvernement du Québec. Les entreprises québécoises devront posséder une\nlicence délivrée par la Régie du bâtiment du Québec, conformément à la Loi sur\nle bâtiment (RLRQ, chapitre B-1.1), couvrant les travaux requis. Cette licence\ndevra être valide au moment du dépôt de la soumission.\nLes soumissions devront être accompagnées d’une garantie de\nsoumission sous la forme d’un cautionnement correspondant à dix pour cent (10\n%) du montant de la soumission présentée. Ce cautionnement devra être valide\npour une période de soixante (60) jours et libellé en faveur de la Fiducie du\npatrimoine culturel des Augustines.\nLes soumissionnaires seront responsables du choix de leurs\nsous-traitants, tant en ce qui concerne leur solvabilité que le contenu de leur\nsoumission. Ils devront également s’assurer que ceux-ci détiennent les licences\net les permis requis pour l’exécution des travaux.\nUne visite o",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c8608349-f7b7-4ea9-89e6-bc5f59a8dd23",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": true,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "L'appel d'offres concerne la rénovation intérieure et les réparations extérieures des façades du Monastère des Augustines, un site patrimonial. Les travaux incluent des travaux de rénovation intérieure et de réparation extérieure sur les façades du bâtiment.",
+"pointsAttention": [
+"Patrimonial (nécessite une attention particulière aux méthodes de travail)",
+"Travaux sur façade et rénovation extérieure"
+],
+"recommandation": "Go",
+"mode": "Sous-traitance",
+"raison": "Le projet inclut clairement des travaux de réparation et de rénovation sur les façades, ce qui correspond directement aux compétences en maçonnerie et revêtement extérieur de l'entreprise.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"façade",
+"patrimonial",
+"patrimoine"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"façade",
+"patrimonial",
+"patrimoine",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"façade",
+"patrimonial",
+"patrimoine",
+"rénovation",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "6d214c9a-b818-437a-aed9-f8e4bc79afa0",
+"numero": "DS2026-062-03",
+"titre": "FOURNITURE ET INSTALLATION D’ÉQUIPEMENT DE RECHARGE – ÉLECTRIFICATION DU CEE",
+"organisme": "Société de Transport de l'Outaouais.",
+"regions": [
+"Outaouais"
+],
+"typeAvis": "Avis d’appel d’offres",
+"tri": "a_classer",
+"motsTrouves": [],
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "17",
+"surDemande": false,
+"fermeture": "2026-11-06T11:00",
+"publie": "2026-10-07T09:06",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72151500 - Installations électriques"
+],
+"description": "Le présent Contrat porte sur la conception du projet ainsi que sur la fourniture et l'installation des équipements de\nrecharge dans le cadre de l'électrification du CEE. \nPour assister à l'ouverture publique du 5 novembre 2026 11h15, il est possible de le faire en personne ou par Teams via le lien suivant:\nRéunion\nMicrosoft Teams\nRejoindre :\nhttps://teams.microsoft.com/meet/278169838776074?p=18Rh23HU0IXLo4bo2D\nNuméro de réunion : 278 169 838 776 074\nCode secret : Xk2ZX6Vm",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=6d214c9a-b818-437a-aed9-f8e4bc79afa0",
+"nouveau": false,
+"vuLe": "2026-10-24T19:55",
+"motsOk": false,
+"visiteObligatoire": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "Le contrat concerne la conception, la fourniture et l'installation d'équipements de recharge électrique dans le cadre de l'électrification du CEE.",
+"pointsAttention": [
+""
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "L'appel d'offres concerne des travaux électriques et n'a aucun lien avec les métiers de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"source": "SEAO",
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "36905ae9-998d-48a8-b5f7-b6f41962fd30",
+"numero": "AO17",
+"titre": "Portes, cadres et quincaillerie",
+"organisme": "Centre Cinéma Impérial",
+"regions": [
+"Montréal"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-11-16T14:00",
+"publie": "2026-10-26T15:35",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "LEM experts-conseils inc. demande des soumissions dans le cadre du projet « Centre Cinéma Impérial – Maintien d’actifs », pour la fourniture, la livraison et l'installation des portes, cadres et quincailleries.\nL'entrepreneur doit prévoir à son prix une visite de relevé des dimensions sur place avant l'émission des dessins d'atelier, ainsi que la fourniture et la livraison de 50 blancs de clé Abloy-Novel. \nÀ noter que la livraison des cadres au sous-sol est prioritaire, vous référez à l'échéancier au point 2.3 de la formule de soumission.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=36905ae9-998d-48a8-b5f7-b6f41962fd30",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Voir les documents d'appel d'offres",
+"lienAutreSysteme": null,
+"limite": "2026-11-16 Au plus tard 14:00 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-10-26T16:18",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la fourniture, la livraison et l'installation des portes, cadres et quincailleries pour le Centre Cinéma Impérial. L'entrepreneur doit prévoir une visite de relevé des dimensions sur place.",
+"pointsAttention": [
+"visite obligatoire"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne uniquement la fourniture et l'installation de portes et quincailleries, ce qui n'est pas le cœur de métier de la maçonnerie/charpenterie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "af6458b3-404c-482e-aa3b-156917382de2",
+"numero": "319422-261027",
+"titre": "Réfection du laboratoire, centre hospitalier de la Mitis",
+"organisme": "Santé Québec Bas-Saint-Laurent",
+"regions": [
+"Bas-Saint-Laurent"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Lettre de garantie irrévocable, 10%",
+"estimation": 185000,
+"dureeMois": "4",
+"surDemande": false,
+"fermeture": "2026-11-27T11:00",
+"publie": "2026-10-29T16:01",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Santé Québec,\nétablissement du Bas-Saint-Laurent demande des soumissions pour des travaux de\nréfection du laboratoire au Centre Hospitalier de la Mitis. \nLieux\nd’exécution des travaux :\nCentre hospitalier de La Mitis\n800, avenue du Sanatorium\nMont-Joli (Québec) G5H 3L6\nCanada\nPériode\ndes travaux prévue : \nLes travaux pourront être coordonnées\navec l’ORGANISME PUBLIC dès l’adjudication du contrat.\nL’entrepreneur devra assurer une\ndisponibilité à partir du mois de décembre 2026. \nVisite\ndes lieux NON OBLIGATOIRE \nUne visite des lieux non\nobligatoire est prévue le lundi 9 novembre\n2026 à 10h. Le point de rassemblement pour cette visite est fixé à l’avant\ndes deux bâtiments situé au 748-750, avenue du Sanatorium à Mont-Joli.\nDe préférence, une confirmation par\ncourriel est requise pour confirmer votre présence à la visite des lieux. Veuillez\nconfirmer votre présence à l’adresse suivante : emilie.begin@sante.quebec\nParticipation :\nLes soumissionnaires sont conviés à participer à la visite des lieux\nofferte par le Centre intégré de santé et de services sociaux du\nBas-Saint-Laurent. Le fait de ne pas y participer ne peut servir d’excuse ou de\nprétexte à des erreurs, omissions ou irrégularités de la part d’un\nsoumissionnaire. Chaque soumissionnaire est responsable de déléguer un\nreprésentant à cette rencontre. De plus, le Centre intégré de santé et de\nservices sociaux du Bas-Saint-Laurent n’assume aucune responsabilité vis-à-vis\ndes soumissionnaires qui ne se sont pas présentés à la visite des lieux\nrelativement aux informations qui peuvent avoir été données lors de celle-ci.\nInformations\nadditionnelles \nPour toute demande de renseignements\nadditionnels, veuillez contacter par courriel :\nMadame Émilie Bégin, agente d’approvisionnement\n100, chemin de la Petite-Anse\nRivière-Ouelle, (Québec) G0L 2C0\nTéléphone : 418-724-6978 poste 526\nCourriel : emilie.begin@sante.quebec\nDépôt\ndes soumissions\nPour\nêtre valides et considérées les soumissions peuvent être transmises de l’une des\nfaçons suivantes ; \nLes Soumissions peuvent être\ntransmises par voie électronique. Le cas échéant, cette transmission ne peut\nêtre effectuée que par l’intermédiaire du système électronique d'appel d'offres\n(SEAO), à l'adresse suivante : https://www.seao.ca \nLes soumissions peuvent être\ntransmisse par la poste ou en main propre (au service des approvisionnements/magasin)\net doivent être adressées à Madame Émilie Bégin, agente d’approvisionnement et\nreçues au plus tard :\nDate : vendredi 27 novembre 2026\nHeure 11 :00 (l’heure de\nréception d’une soumission est réputée être celle indiquée à l’horloge qui se\ntrouve au bureau de réception des soumissions)\nLieu :\nSANTE QUEBEC BAS-SAINT-LAURENT\nService de l’approvisionnement\n75, rue Saint-Henri\nRivière-du-Loup (Québec) G5R 2A4\nCanada\nOuverture\ndes soumissions\nLes\nsoumissions seront ouvertes de façon virtuelle, en présence d’un témoin selon\nles informations suivantes :\nConsignes pour l'ouverture des\nsoumissions par Teams prévue à 14h30, immédiat",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=af6458b3-404c-482e-aa3b-156917382de2",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-27 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "75, rue Saint-Henri Rivière-du-Loup QC CAN G5R2A4",
+"ouverture": "2026-11-27 11:00 Heure légale du Québec",
+"adresseOuverture": "75, rue Saint-Henri Rivière-du-Loup QC CAN G5R2A4"
+},
+"conditions": [
+"Sommaire des critères de sélection"
+],
+"vuLe": "2026-10-29T16:04",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"réfection"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 50,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection d'un laboratoire au Centre Hospitalier de la Mitis. Les travaux sont estimés à 185 000 $ et la durée prévue est de 4 mois.",
+"pointsAttention": [
+"Visite des lieux non obligatoire"
+],
+"recommandation": "À vérifier",
+"mode": "Sous-traitance",
+"raison": "Bien que le contrat soit pour la réfection d'un bâtiment, il n'est pas explicitement centré sur la maçonnerie ou la charpenterie comme cœur du projet, nécessitant une vérification détaillée des lots inclus.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "b661a55b-11d0-4dc5-9120-72ea550f4e8b",
+"numero": "CLIM-2627C_esc-bloc D",
+"titre": "CLIM-2627C_Réfection escalier  bloc D",
+"organisme": "Cégep Limoilou",
+"regions": [
+"Capitale-Nationale"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Cautionnement, Traite bancaire, Chèque visé (certifié), Mandat postal, Lettre de garantie irrévocable, Le SOUMISSIONNAIRE doit accompagner sa\nSoumission d’une garantie de soumission équivalant à DIX POURCENT\n(10%) du prix total proposé dans sa Soumission incluant les options.",
+"estimation": 262945.57,
+"dureeMois": "5",
+"surDemande": false,
+"fermeture": "2026-11-27T11:00",
+"publie": "2026-11-02T08:34",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations"
+],
+"description": "Description, nature et étendue des travaux\nLe\nprojet consiste à effectuer une réfection de l’escalier extérieur du bloc D\nconsitué en blocs de pierre. Les blocs de pierre doivent être numérotés et\ndémanteler afin d’être réinstallés. Un mortier et des calles de nivellement\nseront à appliquer sur la structure de béton existante, ainsi qu’une nouvelle\nmembrane d’étanchéité. De nouvelles tiges en acier inoxydable sont aussi à\ninstaller afin de maintenir les marches en pierre.\nDe\nnouveaux garde-corps, du mobilier intégré ainsi qu’un nouveau trottoir sont\naussi prévu. \nCette\ndescription des travaux est à titre indicatif seulement. Se référer au plans et\ndevis pour l’étendue complète des travaux.\nLe\nbâtiment restera habité par la clientèle et les employés de l’ORGANISME PUBLIC pendant\nla durée des travaux. En raison de la proximité d’une garderie, les\ntravaux bruyants ne seront pas permis entre 12h30 et 14h30. Aucune prise\nélectrique ne sera disponible à proximité du chantier dans la semaine du 19 au\n23 juillet.\nVisite des\nlieux\nUne visite des lieux non obligatoire est prévue\nle 10 novembre 2026 a 8:30. Le point de rassemblement pour cette visite est fixé\nau 1300, 8e Avenue, bureau sécurité, en la ville\nde Québec, province de Québec, G1J 5L5. Les mesures sanitaires et de distanciation\ns’appliquent.\nOuverture des\nsoumissions\n27\nnovembre 2020 à 11 :15\nEn\nwebdiffusion via Microsoft Teams. Voir\ndocument Régie section 1.09\nÉchéancier\nDébut\ndes Travaux: 31 mai 2027\nRéception\navec réserve : 23 juillet 2027\nRéception\nsans réserve : 13 août 2027\nHoraire :\nlundi au vendredi, 7h00 à 22h00 En raison de la proximité d’une garderie,\nles travaux bruyants ne seront pas permis entre 12h30 et 14h30.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=b661a55b-11d0-4dc5-9120-72ea550f4e8b",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-27 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": "1300 8 avenue Québec QC CAN G1J5L5",
+"ouverture": "2026-11-27 11:15 Heure légale du Québec",
+"adresseOuverture": "1300 8 avenue Québec QC CAN G1J5L5"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec ou dans un des territoires visés par les accords applicables.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-02T15:38",
+"source": "SEAO",
+"visiteObligatoire": true,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"mortier",
+"pierre",
+"béton",
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"mortier",
+"pierre",
+"béton",
+"réfection",
+"escalier",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"mortier",
+"pierre",
+"béton",
+"réfection",
+"escalier",
+"bâtiment"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie",
+"Charpenterie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"bâtiment",
+"béton",
+"escalier",
+"mortier",
+"pierre",
+"réfection"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 90,
+"type": "Maçonnerie",
+"resume": "Le projet consiste à effectuer la réfection de l'escalier extérieur d'un bloc de pierre, incluant le démontage et la réinstallation des blocs, l'application de mortier et de calles de nivellement, ainsi que l'installation d'une nouvelle membrane d'étanchéité.",
+"pointsAttention": [
+"Visite des lieux"
+],
+"recommandation": "Go",
+"mode": "Soumission directe",
+"raison": "Le cœur du projet est la maçonnerie (blocs de pierre, mortier) et la réfection d'une structure extérieure, ce qui correspond parfaitement aux compétences de l'entreprise.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "c088c645-1178-4a1a-9746-4a4512e9ff72",
+"numero": "I23-449-2026-10",
+"titre": "Réfection des installations septiques",
+"organisme": "Centre Accalmie Pointe-à-la-Croix",
+"regions": [
+"Gaspésie–Îles-de-la-Madeleine"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": null,
+"surDemande": false,
+"fermeture": "2026-11-13T11:00",
+"publie": "2026-11-03T09:18",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72100000 - Services de construction, de réparation et d’entretien d’immeubles"
+],
+"description": "Par le présent appel d’offres, le Centre Accalmie requiert des soumissions pour des travaux de réfection des installations septiques du Centre Accalmie de Pointe-à-la-Croix et ce, conformément aux clauses du présent devis et aux documents techniques préparés par la firme TR3E Experts-Conseils inc.",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=c088c645-1178-4a1a-9746-4a4512e9ff72",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-13 Au plus tard 11:00 Heure légale du Québec",
+"adresseDepot": null,
+"ouverture": null,
+"adresseOuverture": null
+},
+"conditions": [],
+"vuLe": "2026-11-03T13:15",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"familles": [
+"Maçonnerie"
+],
+"tropCher": false
+}
+},
+"motsTrouves": [
+"réfection"
+],
+"motsOk": true,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne la réfection des installations septiques du Centre Accalmie de Pointe-à-la-Croix.",
+"pointsAttention": [
+"non précisé"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le projet concerne les installations septiques et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "afab3a20-afbc-4485-81c4-1c28048eb8eb",
+"numero": "ING-2026-6200",
+"titre": "Travaux de remplacement des finis de plancher en tapis à la bibliothèque Louis-Ange-Santerre",
+"organisme": "Ville de Sept-Îles",
+"regions": [
+"Côte-Nord"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": null,
+"dureeMois": "7",
+"surDemande": false,
+"fermeture": "2026-11-27T10:00",
+"publie": "2026-11-04T10:50",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"72000000 - Construction et maintenance de bâtiments ou d’installations",
+"72152500 - Pose de planchers",
+"72152503 - Pose de tapis"
+],
+"description": "1.1 OBJET DE L’APPEL D’OFFRESLa Ville de Sept-Îles requiert des soumissions pour la réalisation des travaux de remplacement des finis de plancher en tapis à la bibliothèque Louis-Ange-Santerre, le tout conformément aux clauses techniques préparées par la firme DMG Architecture faisant partie intégrante du présent devis.1.2 LOCALISATION DES TRAVAUXLes travaux auront lieu au 500, avenue Jolliet à Sept-Îles.3.9 ÉCHÉANCIER DES TRAVAUXLes travaux devront être complétés, c’est-à-dire avoir reçu l’acceptation provisoire de la Ville, dans un délai maximal de 24 semaines consécutives après avoir obtenu l’autorisation de commencer.Les services de la bibliothèque seront relocalisés, et les travaux devront être réalisés conformément au phasage détaillé dans les clauses techniques. [...]",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=afab3a20-afbc-4485-81c4-1c28048eb8eb",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt papier (en personne ou par la poste)",
+"lienAutreSysteme": null,
+"limite": "2026-11-27 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "SERVICE DES AFFAIRES JURIDIQUES 700, boulevard Laure, bureau 227 Sept-Îles QC CAN G4R1Y1",
+"ouverture": "2026-11-27 10:00 Heure légale du Québec",
+"adresseOuverture": "SALLE DU CONSEIL MUNICIPAL (Ville de Sept-Îles) 700, boulevard Laure, bureau 229 Sept-Îles QC CAN G4R1Y1"
+},
+"conditions": [
+"Conditions de conformité et autres conditions"
+],
+"vuLe": "2026-11-04T13:28",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne le remplacement des finis de plancher en tapis à la bibliothèque Louis-Ange-Santerre. Les travaux devraient être complétés dans un délai maximal de 24 semaines.",
+"pointsAttention": [
+"délai court"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne la pose de planchers et de tapis, ce qui n'est pas dans le cœur de métier de la maçonnerie, du briquetage ou de la charpenterie/menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
+},
+{
+"id": "e07528dd-3fdb-4909-8ff2-24ab988dd0cc",
+"numero": "AO 2627005",
+"titre": "Travaux de pavage ",
+"organisme": "Centre de services scolaire des Laurentides.",
+"regions": [
+"Laurentides"
+],
+"typeAvis": "Avis d’appel d’offres",
+"cautionSoumission": "Non précisé sur l'avis",
+"estimation": 250000,
+"dureeMois": "12",
+"surDemande": true,
+"fermeture": "2026-11-27T10:00",
+"publie": "2026-11-10T09:29",
+"categorie": "C01 - Bâtiments",
+"unspsc": [
+"95000000 - Terrains, bâtiments, constructions et voies de communication"
+],
+"description": "Exécution sur demande travaux d'asphaltage",
+"lien": "https://seao.gouv.qc.ca/avis-resultat-recherche/consulter?ItemId=e07528dd-3fdb-4909-8ff2-24ab988dd0cc",
+"fourchette": null,
+"cautionExecution": "Non précisé sur l'avis",
+"cautionGages": null,
+"depot": {
+"mode": "Dépôt électronique sur SEAO",
+"lienAutreSysteme": null,
+"limite": "2026-11-27 Avant 10:00 Heure légale du Québec",
+"adresseDepot": "13 rue St-Antoine Sainte-Agathe-des-Monts QC CAN J8C2C3",
+"ouverture": "2026-11-27 13:30 Heure légale du Québec",
+"adresseOuverture": "13 rue St-Antoine Sainte-Agathe-des-Monts QC CAN J8C2C3"
+},
+"conditions": [
+"Le fournisseur ne doit pas être une personne qui a participé à la réalisation du contrat portant sur ni être une entreprise contrôlée directement ou indirectement par une telle personne.",
+"L’offre doit être présentée par un fournisseur ayant un établissement au Québec.",
+"Le fournisseur doit déposer avec sa soumission une attestation valide délivrée par Revenu Québec relative à ses obligations fiscales."
+],
+"vuLe": "2026-11-10T13:29",
+"source": "SEAO",
+"visiteObligatoire": false,
+"profils": {
+"jonathan": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"patrick": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+},
+"traian": {
+"motsTrouves": [],
+"motsOk": false,
+"familles": [],
+"tropCher": false
+}
+},
+"motsTrouves": [],
+"motsOk": false,
+"nouveau": false,
+"analyse": {
+"pertinence": 0,
+"type": "Hors sujet",
+"resume": "L'appel d'offres concerne l'exécution de travaux d'asphaltage. La description indique l'exécution sur demande des travaux d'asphaltage.",
+"pointsAttention": [
+"Contrat sur demande"
+],
+"recommandation": "No-go",
+"mode": "Aucun",
+"raison": "Le contrat concerne l'asphaltage et n'a aucun lien avec la maçonnerie, la charpenterie ou la menuiserie.",
+"version": 3
+},
+"fermeArchive": true,
+"fermeLe": "2026-11-27"
 }
 ]
