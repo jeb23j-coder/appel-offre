@@ -1,9 +1,9 @@
 {
 "meta": {
-"date": "2026-11-27T18:15",
+"date": "2026-11-27T20:48",
 "seaoLus": 415,
 "retenus": 417,
-"nouveaux": 8,
+"nouveaux": 0,
 "portee": "Maçonnerie / briquetage et charpenterie / menuiserie · Bâtiment · Tout le Québec · max. 15 M$",
 "modele": "gemma4:e2b",
 "empreinte": "5ba1e08981"
@@ -36343,7 +36343,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -36419,7 +36419,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Hors sujet",
@@ -36493,7 +36493,7 @@
 },
 "motsTrouves": [],
 "motsOk": false,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36579,7 +36579,7 @@
 "bâtiment"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36666,7 +36666,7 @@
 "rénovation"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36756,7 +36756,7 @@
 "réfection"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36843,7 +36843,7 @@
 "terrasse"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 0,
 "type": "Hors sujet",
@@ -36937,7 +36937,7 @@
 "enveloppe"
 ],
 "motsOk": true,
-"nouveau": true,
+"nouveau": false,
 "analyse": {
 "pertinence": 50,
 "type": "Bâtiment (nos métiers en partie)",
@@ -72335,7 +72335,25 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-27T13:23",
+"soumissions": [
+{
+"nom": "TOITURES QUATRE-SAISONS INC.",
+"montant": 595485.0
+},
+{
+"nom": "Toiture et ferblanterie M. Tremblay inc.",
+"montant": 665440.0
+},
+{
+"nom": "RAYMOND MARTIN LTÉE",
+"montant": 673650.0
+}
+]
+}
 },
 {
 "id": "ffdf85dd-7de8-43bf-985d-7acd709b5215",

@@ -35212,7 +35212,25 @@
 "version": 3
 },
 "fermeArchive": true,
-"fermeLe": "2026-11-24"
+"fermeLe": "2026-11-24",
+"estimationVerifiee": true,
+"resultats": {
+"publie": "2026-11-27T13:23",
+"soumissions": [
+{
+"nom": "TOITURES QUATRE-SAISONS INC.",
+"montant": 595485.0
+},
+{
+"nom": "Toiture et ferblanterie M. Tremblay inc.",
+"montant": 665440.0
+},
+{
+"nom": "RAYMOND MARTIN LTÉE",
+"montant": 673650.0
+}
+]
+}
 },
 {
 "id": "ffdf85dd-7de8-43bf-985d-7acd709b5215",
